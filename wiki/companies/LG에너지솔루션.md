@@ -24,7 +24,7 @@ updated: 2026-10-02
 | 협력 | 인디고테크 | MOU, 46시리즈 배터리 공급 | 2026-10-02 | [더퍼블릭](https://news.google.com/rss/articles/CBMia0FVX3lxTFBjV2NJbEp6SnhrQU5uaDZVaWVCTElOSk1aa3pUYjZLWHdUODMwX0JkT2xocjZsa1BqeER5Q2JPWm1rTHlraG8tTnBRdmF1MUFudDJrME15b21zc2VPbS1lSl9nNjg1Tk5ISENF0gFvQVVfeXFMUGZDUEtyaFFLekhvb3ZDRkhNd1VISGdSTVBZT3U0Y1NjN0lBdmFadWZFU0I4U24tZS1GZ3FLWmRWdHJlRTNxRjczTFd1a2tHYm5oeXkyUXJFamF1dDBZQkxhdUFHUEJtR3ZDYnFiTFRN?oc=5) |
 
 ## 테마
-- [[2차전지]]: 배터리 셀 제조 ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001800119))
+- [[2차전지]] · 배터리 셀: 배터리 셀 제조 ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001800119))
 
 ## 최근 이슈
 - 2026-10-02 [협력] 미국 인디고테크와 MOU, 신규 차량에 46시리즈 배터리 공급 · [[2차전지]] · [더퍼블릭](https://news.google.com/rss/articles/CBMia0FVX3lxTFBjV2NJbEp6SnhrQU5uaDZVaWVCTElOSk1aa3pUYjZLWHdUODMwX0JkT2xocjZsa1BqeER5Q2JPWm1rTHlraG8tTnBRdmF1MUFudDJrME15b21zc2VPbS1lSl9nNjg1Tk5ISENF0gFvQVVfeXFMUGZDUEtyaFFLekhvb3ZDRkhNd1VISGdSTVBZT3U0Y1NjN0lBdmFadWZFU0I4U24tZS1GZ3FLWmRWdHJlRTNxRjczTFd1a2tHYm5oeXkyUXJFamF1dDBZQkxhdUFHUEJtR3ZDYnFiTFRN?oc=5)

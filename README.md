@@ -21,7 +21,14 @@ HBM·반도체 · 원전·SMR · 방산 · 2차전지
 2. **반영**: Claude가 새 자료를 읽고 관련 기업·테마 페이지를 고치거나 새로 만듭니다. 모든 관계와 이슈에는 출처가 붙습니다.
 3. **계산**: 스크립트가 위키에 적힌 관계를 모아 그래프와 테마별 점수를 만듭니다.
 4. **점검**: 깨진 링크, 출처 없는 내용, 짝이 맞지 않는 관계, 오래된 정보를 찾아 정리합니다.
-5. **공개**: [Quartz](https://quartz.jzhao.xyz/)로 웹사이트를 만들어 GitHub Pages에 올립니다. 그래프 보기, 검색, 역링크를 쓸 수 있습니다.
+5. **공개**: [Quartz](https://quartz.jzhao.xyz/)로 웹사이트를 만들어 GitHub Pages에 올립니다. 옵시디언 같은 그래프 보기, 검색, 역링크와 관계 종류를 색으로 나눈 기업 지도를 쓸 수 있습니다.
+
+## 설계: 위키와 그래프
+
+- **위키가 원본**입니다. 기업·테마 페이지를 고치면 스크립트가 그래프 데이터(`wiki/graph.json`)를 다시 만듭니다.
+- **기업 하나가 점 하나**입니다. 같은 회사인지는 DART 고유번호로 판단합니다. 깊은 산업 분류표 대신 **테마 → 밸류체인 단계** 두 층으로만 나눕니다.
+- **관계마다 근거 목록**(날짜, 내용, 원문 링크)이 붙어서, 지도와 답변에서 출처를 바로 보여 줍니다.
+- 기업에 대한 질문은 그래프에서 관계를 두 단계까지 따라가 답하고, 테마 흐름에 대한 질문은 테마 페이지를 요약본으로 씁니다.
 
 ## 폴더 구조
 
@@ -31,9 +38,12 @@ wiki/           사람이 읽는 위키 (옵시디언 볼트로도 열 수 있�
   index.md      첫 화면
   log.md        변경 기록
   graph.json    기업·테마 그래프 데이터 (스크립트가 만듦)
+  기업 지도.md   기업 지도 안내 페이지
   companies/    기업 페이지
   themes/       테마 페이지
 scripts/        수집, 그래프·점수 계산, 점검 스크립트
+site/           웹사이트 설정과 기업 지도 (static/map.html)
+docs/           접속 허용 도메인 목록 같은 참고 자료
 CLAUDE.md       Claude가 위키를 관리하는 규칙
 ```
 
@@ -46,9 +56,11 @@ CLAUDE.md       Claude가 위키를 관리하는 규칙
 - [x] 수집 스크립트 (DART, 뉴스)
 - [x] 4개 테마의 첫 위키 페이지 (2026-10-02, 기업 41개)
 - [x] 그래프·점수 계산, 점검 스크립트
-- [ ] 기사 본문 읽기 (지금은 뉴스 사이트 접속이 막혀 제목만 사용)
-- [ ] 공개 웹사이트 (Quartz + GitHub Pages)
-- [ ] 관계 종류를 색으로 구분한 기업 지도 페이지
+- [x] 그래프 설계 반영 (밸류체인 단계, 관계별 근거 목록, 상대 회사 페이지 기준)
+- [x] 공개 웹사이트 설정 (Quartz + GitHub Pages)
+- [x] 관계 종류를 색으로 구분한 기업 지도 페이지
+- [ ] 웹사이트 공개 켜기 (아래 설정 표의 Pages)
+- [ ] 기사 본문 읽기 (접속 허용 도메인 추가 후)
 - [ ] 매일 자동 업데이트 (Claude 예약 실행)
 
 ## 설정
@@ -56,6 +68,7 @@ CLAUDE.md       Claude가 위키를 관리하는 규칙
 | 항목 | 위치 | 값 |
 |---|---|---|
 | 사이트 접속 허용 | Claude Code 클라우드 환경 설정 → Network access | `opendart.fss.or.kr`, `news.google.com`, `openapi.naver.com` |
+| 기사 본문 읽기 (선택) | 같은 곳에서 Network access를 **Custom**으로 바꾸고 Allowed domains에 붙여 넣기 ("Also include default list" 체크) | [`docs/allowed-domains.txt`](docs/allowed-domains.txt) |
 | DART 인증키 (필수) | 같은 환경 설정의 환경 변수 (API credentials로는 키가 붙지 않음) | `DART_API_KEY` |
 | 네이버 검색 API (선택) | 같은 환경 설정의 API credentials 또는 환경 변수 | `NAVER_CLIENT_ID`, `NAVER_CLIENT_SECRET` |
 | 웹사이트 공개 | 저장소 Settings → Pages | Source를 **GitHub Actions**로 |

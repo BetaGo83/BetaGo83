@@ -1,0 +1,80 @@
+# 위키(wiki/)를 Quartz로 웹사이트로 만들어 GitHub Pages에 올린다.
+# Quartz 코드는 저장소에 넣지 않고, 빌드할 때마다 고정한 커밋을 받아 쓴다.
+# API 키는 쓰지 않는다 (CLAUDE.md 원칙 6).
+name: 웹사이트 배포
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "wiki/**"
+      - "site/**"
+      - ".github/workflows/deploy.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  QUARTZ_REPO: https://github.com/jackyzha0/quartz.git
+  QUARTZ_COMMIT: 4923affa7722dfc751f1074348e6dad214fe0c08 # v4.5.2
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+
+      - name: Quartz 받기 (v4.5.2 커밋 고정)
+        run: |
+          git init --quiet quartz
+          git -C quartz remote add origin "$QUARTZ_REPO"
+          git -C quartz fetch --quiet --depth 1 origin "$QUARTZ_COMMIT"
+          git -C quartz checkout --quiet FETCH_HEAD
+
+      - name: Quartz 설치
+        working-directory: quartz
+        run: npm ci --no-audit --no-fund
+
+      - name: 위키와 설정 넣기
+        run: |
+          rm -rf quartz/content
+          cp -r wiki quartz/content
+          cp site/quartz.config.ts site/quartz.layout.ts quartz/
+          cp -r site/static/. quartz/quartz/static/
+
+      - name: 빌드
+        working-directory: quartz
+        run: npx quartz build
+
+      - name: 결과 확인
+        run: |
+          test -f quartz/public/index.html
+          test -f quartz/public/graph.json
+          test -f quartz/public/static/map.html
+          ls quartz/public | head -20
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: quartz/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: GitHub Pages에 올리기
+        id: deployment
+        uses: actions/deploy-pages@v4

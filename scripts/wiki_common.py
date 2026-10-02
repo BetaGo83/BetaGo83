@@ -3,11 +3,20 @@
 import json
 import os
 import re
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 WIKI = ROOT / "wiki"
 RAW = ROOT / "raw"
+
+KST = timezone(timedelta(hours=9))
+
+
+def today_kst():
+    """한국 시간 기준 오늘 날짜. 공시·기사 날짜가 한국 시간이라 이걸 기준으로 쓴다."""
+    return datetime.now(KST).date()
+
 
 FRONTMATTER = re.compile(r"\A---\n(.*?)\n---\n", re.S)
 

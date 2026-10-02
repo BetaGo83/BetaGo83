@@ -21,7 +21,7 @@ updated: 2026-10-02
 |---|---|---|---|---|
 
 ## 테마
-- [[방산]]: 해군 함정 건조 ([뉴스밸류](https://news.google.com/rss/articles/CBMiakFVX3lxTE8yNmRlYlg1SlFvbUFwaUZ1d2U2bDBSWW9pUVFzV3FabTVHYVRTYXpLQlVnaEZ1Q0RLS1hGcHl0bktLSWRBS19KNERONmo3SlhZUHU2VjBvOGttOTR3U1ByY3htZ1VMTVFaX2c?oc=5))
+- [[방산]] · 함정: 해군 함정 건조 ([뉴스밸류](https://news.google.com/rss/articles/CBMiakFVX3lxTE8yNmRlYlg1SlFvbUFwaUZ1d2U2bDBSWW9pUVFzV3FabTVHYVRTYXpLQlVnaEZ1Q0RLS1hGcHl0bktLSWRBS19KNERONmo3SlhZUHU2VjBvOGttOTR3U1ByY3htZ1VMTVFaX2c?oc=5))
 
 ## 최근 이슈
 - 2026-10-02 [기타] 이지스구축함 '대호김종서함' 진수 · [[방산]] · [디펜스투데이](https://news.google.com/rss/articles/CBMibkFVX3lxTE1KTE1lVU5SY051RTd4YS1YdV9LY0dlZ1ZlU2JXSXV0YW5xak1xbTlrcENSMjBhT2ZJRHV2ZDNuTU5vdVc3WVQyNTFINzJqbEU1TUs0UWwzWWdwT2R3b0lyaElRWGgtWmc0VmJNdHFn?oc=5)

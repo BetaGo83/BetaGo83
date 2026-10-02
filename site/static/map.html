@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>기업 지도</title>
+<meta name="description" content="뉴스와 공시로 정리한 기업 관계를 관계 종류별 색으로 보여 주는 지도">
+<style>
+:root {
+  --bg: #faf8f8; --panel: #ffffff; --text: #2b2b2b; --muted: #6b6b6b; --line: #e5e5e5;
+  --theme-node: #284b63; --company-node: #84a59d; --external-node: #b8b8b8; --focus: #e07a1f;
+  --supply: #2f6fdd; --invest: #8a4fd6; --acquire: #d64545; --affiliate: #8c6a3c;
+  --partner: #2e9e5b; --compete: #e08b1f; --theme-edge: #c9c9c9;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161618; --panel: #1f1f22; --text: #ebebec; --muted: #a0a0a0; --line: #393639;
+    --theme-node: #7b97aa; --company-node: #84a59d; --external-node: #646464; --focus: #f0a050;
+    --supply: #6b9cf0; --invest: #b28cef; --acquire: #ef7a7a; --affiliate: #c4a070;
+    --partner: #5cc58a; --compete: #f0ad55; --theme-edge: #4a4a4e;
+  }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body { background: var(--bg); color: var(--text); font-family: "Noto Sans KR", system-ui, -apple-system, sans-serif; display: flex; flex-direction: column; }
+header { padding: 12px 16px; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; }
+header h1 { font-size: 1.15rem; margin: 0 8px 0 0; }
+header a { color: var(--theme-node); }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+select, input[type="search"] { font: inherit; font-size: 0.9rem; padding: 4px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); color: var(--text); }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 0.85rem; }
+.legend label { display: inline-flex; align-items: center; gap: 4px; cursor: pointer; white-space: nowrap; }
+.swatch { display: inline-block; width: 18px; height: 3px; border-radius: 2px; }
+main { flex: 1; display: flex; min-height: 0; }
+#stage { flex: 1; position: relative; min-width: 0; }
+svg { width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; }
+svg.dragging { cursor: grabbing; }
+.node circle { stroke: var(--bg); stroke-width: 1.5px; cursor: pointer; }
+.node text { font-size: 11px; fill: var(--text); pointer-events: none; paint-order: stroke; stroke: var(--bg); stroke-width: 3px; }
+.node.theme text { font-size: 13px; font-weight: 700; }
+.node.dim, .edge.dim { opacity: 0.12; }
+.node.hit circle { stroke: var(--focus); stroke-width: 3px; }
+.edge { fill: none; stroke-width: 1.6px; }
+.edge.tier2 { stroke-dasharray: 4 3; }
+.edge-hit { fill: none; stroke: transparent; stroke-width: 10px; cursor: pointer; }
+#tip { position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; font-size: 0.8rem; max-width: 280px; display: none; box-shadow: 0 2px 8px rgba(0,0,0,.15); }
+aside { width: 340px; border-left: 1px solid var(--line); background: var(--panel); overflow-y: auto; padding: 16px; font-size: 0.9rem; }
+aside h2 { font-size: 1.1rem; margin: 0 0 4px; }
+aside h3 { font-size: 0.95rem; margin: 16px 0 6px; }
+aside ul { padding-left: 18px; margin: 0; }
+aside li { margin: 4px 0; }
+aside .meta { color: var(--muted); font-size: 0.85rem; }
+aside a { color: var(--theme-node); }
+.tag { display: inline-block; font-size: 0.75rem; padding: 1px 6px; border-radius: 10px; border: 1px solid var(--line); margin-right: 4px; }
+footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem; color: var(--muted); }
+@media (max-width: 760px) {
+  html, body { height: auto; }
+  main { display: block; }
+  #stage { height: 65vh; }
+  aside { width: auto; border-left: 0; border-top: 1px solid var(--line); overflow: visible; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>기업 지도</h1>
+  <div class="controls">
+    <select id="theme" aria-label="테마 고르기"><option value="">모든 테마</option></select>
+    <input id="search" type="search" placeholder="기업 이름 찾기" aria-label="기업 이름 찾기" list="names">
+    <datalist id="names"></datalist>
+  </div>
+  <div class="legend" id="legend"></div>
+  <a href="../" id="home">위키로 돌아가기</a>
+</header>
+<main>
+  <div id="stage">
+    <svg id="svg" role="img" aria-label="기업 관계 그래프"><g id="viewport"></g></svg>
+    <div id="tip"></div>
+  </div>
+  <aside id="panel">
+    <h2>보는 법</h2>
+    <p>점은 기업과 테마, 선은 관계입니다. 선 색이 관계 종류이고, 화살표는 방향입니다(공급: 납품하는 쪽 → 받는 쪽, 출자·인수: 하는 쪽 → 받는 쪽). 테마로 이어진 회색 선 중 점선은 2차 관련 기업입니다.</p>
+    <p>점을 누르면 관계와 근거(공시·기사 링크)가 여기 나옵니다. 끌어서 옮기고, 휠이나 두 손가락으로 확대할 수 있습니다.</p>
+    <p class="meta" id="updated"></p>
+  </aside>
+</main>
+<footer>AI가 뉴스와 공시를 바탕으로 정리한 참고 자료입니다. 틀린 내용이 있을 수 있으니 원문을 확인하세요. 투자 권유가 아닙니다.</footer>
+<script>
+(function () {
+  "use strict";
+  // 관계 종류: 이름, 색 변수, 방향이 있는지
+  var KINDS = [
+    { key: "공급", color: "--supply", directed: true },
+    { key: "출자", color: "--invest", directed: true },
+    { key: "인수", color: "--acquire", directed: true },
+    { key: "계열", color: "--affiliate", directed: false },
+    { key: "협력", color: "--partner", directed: false },
+    { key: "경쟁", color: "--compete", directed: false },
+    { key: "테마", color: "--theme-edge", directed: false }
+  ];
+  var SVGNS = "http://www.w3.org/2000/svg";
+  var svg = document.getElementById("svg");
+  var viewport = document.getElementById("viewport");
+  var tip = document.getElementById("tip");
+  var panel = document.getElementById("panel");
+  var hidden = {};          // 숨긴 관계 종류
+  var view = { x: 0, y: 0, k: 1 };
+  var graph, nodes, edges, byId = {};
+
+  function css(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+  function el(tag, attrs, parent) {
+    var e = document.createElementNS(SVGNS, tag);
+    for (var a in attrs) e.setAttribute(a, attrs[a]);
+    if (parent) parent.appendChild(e);
+    return e;
+  }
+  function html(tag, text, parent, attrs) {
+    var e = document.createElement(tag);
+    if (text != null) e.textContent = text;
+    for (var a in (attrs || {})) e.setAttribute(a, attrs[a]);
+    if (parent) parent.appendChild(e);
+    return e;
+  }
+  // Quartz가 파일 이름을 주소로 바꾸는 규칙 (quartz/util/path.ts의 sluggify와 같다)
+  function slug(path) {
+    return path.split("/").map(function (s) {
+      return s.replace(/\s/g, "-").replace(/&/g, "-and-").replace(/%/g, "-percent").replace(/\?/g, "").replace(/#/g, "");
+    }).join("/");
+  }
+  function pageUrl(node) { return node.path ? "../" + slug(node.path).split("/").map(encodeURIComponent).join("/") : null; }
+  function safeUrl(u) { return /^https?:\/\//.test(u || "") ? u : null; }
+
+  fetch("../graph.json").then(function (r) {
+    if (!r.ok) throw new Error(r.status);
+    return r.json();
+  }).then(start).catch(function (err) {
+    panel.innerHTML = "";
+    html("h2", "그래프 데이터를 불러오지 못했습니다", panel);
+    html("p", "graph.json을 읽을 수 없습니다 (" + err.message + ").", panel);
+  });
+
+  function start(data) {
+    graph = data;
+    document.getElementById("updated").textContent = "데이터 기준일: " + data.updated;
+    nodes = data.nodes.map(function (n) { var c = Object.assign({}, n); byId[c.id] = c; return c; });
+    edges = data.edges.filter(function (e) { return byId[e.source] && byId[e.target]; })
+      .map(function (e) { return Object.assign({}, e, { s: byId[e.source], t: byId[e.target] }); });
+    buildControls();
+    layout();
+    draw();
+    fit();
+  }
+
+  function buildControls() {
+    var select = document.getElementById("theme");
+    nodes.filter(function (n) { return n.type === "theme"; }).forEach(function (n) {
+      html("option", n.id, select, { value: n.id });
+    });
+    select.addEventListener("change", applyFilter);
+    var list = document.getElementById("names");
+    nodes.forEach(function (n) {
+      html("option", null, list, { value: n.id });
+      (n.aliases || []).forEach(function (a) { html("option", n.id, list, { value: a }); });
+    });
+    document.getElementById("search").addEventListener("change", function (ev) { find(ev.target.value); });
+    document.getElementById("search").addEventListener("keydown", function (ev) { if (ev.key === "Enter") find(ev.target.value); });
+    var legend = document.getElementById("legend");
+    KINDS.forEach(function (kind) {
+      var used = edges.some(function (e) { return e.type === kind.key; });
+      if (!used) return;
+      var label = html("label", null, legend);
+      var box = html("input", null, label, { type: "checkbox" });
+      box.checked = true;
+      box.addEventListener("change", function () { hidden[kind.key] = !box.checked; applyFilter(); });
+      var sw = html("span", null, label, { class: "swatch" });
+      sw.style.background = css(kind.color);
+      html("span", kind.key, label);
+    });
+  }
+
+  // 힘으로 점 자리를 잡는다 (서로 밀어내고, 선으로 이어진 점은 당긴다)
+  function layout() {
+    var themes = nodes.filter(function (n) { return n.type === "theme"; });
+    var R = 340;
+    themes.forEach(function (n, i) {
+      var a = 2 * Math.PI * i / themes.length - Math.PI / 2;
+      n.x = R * Math.cos(a); n.y = R * Math.sin(a);
+    });
+    var anchor = {};
+    edges.forEach(function (e) { if (e.type === "테마") anchor[e.source] = anchor[e.source] || byId[e.target]; });
+    nodes.forEach(function (n, i) {
+      if (n.type === "theme") return;
+      var base = anchor[n.id] || { x: 0, y: 0 };
+      var a = i * 2.399963; // 황금각으로 흩뿌려 겹치지 않게
+      n.x = base.x + 60 * Math.cos(a); n.y = base.y + 60 * Math.sin(a);
+    });
+    var ctx = document.createElement("canvas").getContext("2d");
+    nodes.forEach(function (n) {
+      n.vx = 0; n.vy = 0; n.r = n.type === "theme" ? 14 : (n.type === "external" ? 5 : 7);
+      ctx.font = (n.type === "theme" ? "700 13px" : "11px") + " 'Noto Sans KR', system-ui, sans-serif";
+      n.w = n.r + 3 + ctx.measureText(n.id).width;  // 점 왼쪽 끝부터 글자 오른쪽 끝까지
+    });
+    for (var step = 0; step < 500; step++) tick(1 - step / 500);
+    for (step = 0; step < 150; step++) separate();
+  }
+
+  function tick(alpha) {
+    var i, j, a, b, dx, dy, d2, d, f;
+    for (i = 0; i < nodes.length; i++) {
+      for (j = i + 1; j < nodes.length; j++) {
+        a = nodes[i]; b = nodes[j];
+        dx = b.x - a.x; dy = b.y - a.y; d2 = dx * dx + dy * dy || 0.01; d = Math.sqrt(d2);
+        f = 2200 / d2 * alpha;
+        if (d < a.r + b.r + 24) f += (a.r + b.r + 24 - d) * 0.5 * alpha;
+        a.vx -= dx / d * f; a.vy -= dy / d * f; b.vx += dx / d * f; b.vy += dy / d * f;
+      }
+    }
+    edges.forEach(function (e) {
+      if (hidden[e.type]) return;
+      var len = e.type === "테마" ? 140 : 90, k = e.type === "테마" ? 0.02 : 0.05;
+      dx = e.t.x - e.s.x; dy = e.t.y - e.s.y; d = Math.sqrt(dx * dx + dy * dy) || 0.01;
+      f = (d - len) * k * alpha;
+      e.s.vx += dx / d * f; e.s.vy += dy / d * f; e.t.vx -= dx / d * f; e.t.vy -= dy / d * f;
+    });
+    nodes.forEach(function (n) {
+      n.vx -= n.x * 0.004 * alpha; n.vy -= n.y * 0.004 * alpha;
+      if (!n.fixed) { n.x += n.vx; n.y += n.vy; }
+      n.vx *= 0.6; n.vy *= 0.6;
+    });
+  }
+
+  // 점과 글자 상자가 겹치면 위아래(조금은 옆으로)로 밀어낸다
+  function separate() {
+    for (var i = 0; i < nodes.length; i++) {
+      for (var j = i + 1; j < nodes.length; j++) {
+        var a = nodes[i], b = nodes[j];
+        var ax1 = a.x - a.r - 4, ax2 = a.x + a.w + 4, bx1 = b.x - b.r - 4, bx2 = b.x + b.w + 4;
+        var ah = Math.max(a.r, 9) + 3, bh = Math.max(b.r, 9) + 3;
+        var ox = Math.min(ax2, bx2) - Math.max(ax1, bx1), oy = Math.min(a.y + ah, b.y + bh) - Math.max(a.y - ah, b.y - bh);
+        if (ox <= 0 || oy <= 0) continue;
+        if (oy < ox) {
+          var sy = (a.y < b.y ? -1 : 1) * oy / 2;
+          a.y += sy; b.y -= sy;
+        } else {
+          var sx = (a.x < b.x ? -1 : 1) * ox / 2;
+          a.x += sx; b.x -= sx;
+        }
+      }
+    }
+  }
+
+  function draw() {
+    viewport.innerHTML = "";
+    var defs = el("defs", {}, viewport);
+    KINDS.forEach(function (kind) {
+      if (!kind.directed) return;
+      var m = el("marker", { id: "arrow-" + kind.key, viewBox: "0 0 10 10", refX: 10, refY: 5, markerWidth: 7, markerHeight: 7, orient: "auto-start-reverse" }, defs);
+      el("path", { d: "M0,0 L10,5 L0,10 z", fill: css(kind.color) }, m);
+    });
+    var edgeLayer = el("g", {}, viewport), nodeLayer = el("g", {}, viewport);
+    edges.forEach(function (e) {
+      var kind = KINDS.filter(function (k) { return k.key === e.type; })[0] || KINDS[KINDS.length - 1];
+      e.line = el("line", { class: "edge" + (e.tier === 2 ? " tier2" : ""), stroke: css(kind.color) }, edgeLayer);
+      if (kind.directed) e.line.setAttribute("marker-end", "url(#arrow-" + kind.key + ")");
+      e.hit = el("line", { class: "edge-hit" }, edgeLayer);
+      e.hit.addEventListener("mousemove", function (ev) { showTip(ev, edgeText(e)); });
+      e.hit.addEventListener("mouseleave", hideTip);
+      e.hit.addEventListener("click", function () { select(e.s); });
+    });
+    nodes.forEach(function (n) {
+      var fill = n.type === "theme" ? css("--theme-node") : (n.type === "external" ? css("--external-node") : css("--company-node"));
+      n.g = el("g", { class: "node " + n.type, tabindex: 0, role: "button", "aria-label": n.id }, nodeLayer);
+      n.circle = el("circle", { r: n.r, fill: fill }, n.g);
+      var label = el("text", { x: n.r + 3, y: 4 }, n.g);
+      label.textContent = n.id;
+      n.g.addEventListener("click", function (ev) { if (!n.moved) select(n); ev.stopPropagation(); });
+      n.g.addEventListener("keydown", function (ev) { if (ev.key === "Enter") select(n); });
+      n.g.addEventListener("mousemove", function (ev) { showTip(ev, n.id + (n.summary ? " — " + n.summary : "")); });
+      n.g.addEventListener("mouseleave", hideTip);
+      n.g.addEventListener("pointerdown", function (ev) { dragNode(ev, n); });
+    });
+    position();
+    applyFilter();
+  }
+
+  function position() {
+    edges.forEach(function (e) {
+      var dx = e.t.x - e.s.x, dy = e.t.y - e.s.y, d = Math.sqrt(dx * dx + dy * dy) || 1;
+      var x2 = e.t.x - dx / d * (e.t.r + 2), y2 = e.t.y - dy / d * (e.t.r + 2);
+      [e.line, e.hit].forEach(function (l) {
+        l.setAttribute("x1", e.s.x); l.setAttribute("y1", e.s.y); l.setAttribute("x2", x2); l.setAttribute("y2", y2);
+      });
+    });
+    nodes.forEach(function (n) { n.g.setAttribute("transform", "translate(" + n.x + "," + n.y + ")"); });
+    viewport.setAttribute("transform", "translate(" + view.x + "," + view.y + ") scale(" + view.k + ")");
+  }
+
+  function fit() {
+    var box = svg.getBoundingClientRect();
+    var xs = nodes.map(function (n) { return n.x; }), ys = nodes.map(function (n) { return n.y; });
+    var minX = Math.min.apply(null, xs) - 40, maxX = Math.max.apply(null, nodes.map(function (n) { return n.x + n.w; })) + 20;
+    var minY = Math.min.apply(null, ys) - 40, maxY = Math.max.apply(null, ys) + 40;
+    view.k = Math.min(box.width / (maxX - minX), box.height / (maxY - minY), 2);
+    view.x = box.width / 2 - (minX + maxX) / 2 * view.k;
+    view.y = box.height / 2 - (minY + maxY) / 2 * view.k;
+    position();
+  }
+
+  // 테마 필터와 숨긴 관계 종류를 반영한다
+  function applyFilter() {
+    var theme = document.getElementById("theme").value;
+    var keep = {};
+    if (theme) {
+      keep[theme] = true;
+      edges.forEach(function (e) { if (e.type === "테마" && e.target === theme) keep[e.source] = true; });
+      edges.forEach(function (e) {
+        if (e.type === "테마" || hidden[e.type]) return;
+        if (keep[e.source] && byId[e.target].type === "external") keep[e.target] = true;
+        if (keep[e.target] && byId[e.source].type === "external") keep[e.source] = true;
+      });
+    }
+    nodes.forEach(function (n) { n.visible = !theme || !!keep[n.id]; n.g.style.display = n.visible ? "" : "none"; });
+    edges.forEach(function (e) {
+      var show = !hidden[e.type] && e.s.visible && e.t.visible;
+      e.line.style.display = e.hit.style.display = show ? "" : "none";
+    });
+  }
+
+  function edgeText(e) {
+    var lines = [e.source + " → " + e.target + " (" + e.type + (e.stage ? ", " + e.stage : "") + ")"];
+    (e.evidence || []).slice(0, 3).forEach(function (v) { lines.push(v.date + " " + (v.text || "")); });
+    return lines.join("\n");
+  }
+  function showTip(ev, text) {
+    var box = document.getElementById("stage").getBoundingClientRect();
+    tip.style.display = "block";
+    tip.style.whiteSpace = "pre-line";
+    tip.textContent = text;
+    tip.style.left = Math.min(ev.clientX - box.left + 12, box.width - 290) + "px";
+    tip.style.top = (ev.clientY - box.top + 12) + "px";
+  }
+  function hideTip() { tip.style.display = "none"; }
+
+  function find(text) {
+    text = (text || "").trim();
+    if (!text) return;
+    var n = byId[text] || nodes.filter(function (m) { return (m.aliases || []).indexOf(text) >= 0; })[0]
+      || nodes.filter(function (m) { return m.id.indexOf(text) >= 0; })[0];
+    if (!n) return;
+    if (!n.visible) { document.getElementById("theme").value = ""; applyFilter(); }
+    var box = svg.getBoundingClientRect();
+    view.x = box.width / 2 - n.x * view.k; view.y = box.height / 2 - n.y * view.k;
+    position();
+    select(n);
+    if (window.innerWidth <= 760) panel.scrollIntoView({ behavior: "smooth" });
+  }
+
+  // 점을 고르면 관계와 근거를 옆 패널에 보여 준다
+  function select(n) {
+    var near = {}; near[n.id] = true;
+    edges.forEach(function (e) { if (e.source === n.id) near[e.target] = true; if (e.target === n.id) near[e.source] = true; });
+    nodes.forEach(function (m) { m.g.classList.toggle("dim", !near[m.id]); m.g.classList.toggle("hit", m === n); });
+    edges.forEach(function (e) { e.line.classList.toggle("dim", !(e.source === n.id || e.target === n.id)); });
+
+    panel.innerHTML = "";
+    html("h2", n.id, panel);
+    var meta = [];
+    if (n.type === "theme") meta.push("테마");
+    if (n.type === "external") meta.push("위키 페이지가 아직 없는 상대");
+    if (n.market) meta.push(n.market + (n.ticker ? " " + n.ticker : ""));
+    html("div", meta.join(" · "), panel, { class: "meta" });
+    if (n.summary && n.type !== "external") html("p", n.summary, panel);
+    var url = pageUrl(n);
+    if (url) html("a", "위키 페이지 열기 →", html("p", null, panel), { href: url });
+
+    if (n.themes && n.themes.length) {
+      html("h3", "테마", panel);
+      var ul = html("ul", null, panel);
+      n.themes.forEach(function (t) {
+        var li = html("li", null, ul);
+        html("span", t.tier === 1 ? "1차" : "2차", li, { class: "tag" });
+        li.appendChild(document.createTextNode(t.theme + (t.stage ? " · " + t.stage : "") +
+          " (점수 " + t.score + (t.via ? ", " + t.via + "와 " + t.via_type + " 관계" : "") + ")"));
+      });
+    }
+    if (n.type === "theme") {
+      var members = edges.filter(function (e) { return e.type === "테마" && e.target === n.id; })
+        .sort(function (a, b) { return a.tier - b.tier || b.score - a.score; });
+      html("h3", "관련 기업 " + members.length + "곳", panel);
+      var ml = html("ul", null, panel);
+      members.forEach(function (e) {
+        html("li", e.source + (e.stage ? " · " + e.stage : "") + " (" + (e.tier === 1 ? "1차" : "2차") + ", 점수 " + e.score + ")", ml);
+      });
+    }
+    var rels = edges.filter(function (e) { return e.type !== "테마" && (e.source === n.id || e.target === n.id); });
+    if (rels.length) {
+      html("h3", "관계", panel);
+      var rl = html("ul", null, panel);
+      rels.forEach(function (e) {
+        var other = e.source === n.id ? e.target : e.source;
+        var dir = { "공급": e.source === n.id ? "납품 →" : "← 납품받음", "출자": e.source === n.id ? "출자 →" : "← 출자받음",
+                    "인수": e.source === n.id ? "인수 →" : "← 인수됨" }[e.type] || "";
+        var li = html("li", null, rl);
+        html("span", e.type, li, { class: "tag" });
+        li.appendChild(document.createTextNode((dir ? dir + " " : "") + other));
+        var ev = html("ul", null, li);
+        (e.evidence || []).forEach(function (v) {
+          var item = html("li", v.date + " " + (v.text || "") + " ", ev);
+          var link = safeUrl(v.source);
+          if (link) html("a", "출처", item, { href: link, target: "_blank", rel: "noopener" });
+        });
+      });
+    }
+    var own = edges.filter(function (e) { return e.type === "테마" && e.source === n.id; });
+    var evidence = [].concat.apply([], own.map(function (e) { return (e.evidence || []).map(function (v) { return Object.assign({ theme: e.target }, v); }); }));
+    if (evidence.length) {
+      html("h3", "테마 근거", panel);
+      var el2 = html("ul", null, panel);
+      evidence.sort(function (a, b) { return a.date < b.date ? 1 : -1; }).forEach(function (v) {
+        var item = html("li", v.date + " [" + v.kind + "] " + v.text + " ", el2);
+        var link = safeUrl(v.source);
+        if (link) html("a", "출처", item, { href: link, target: "_blank", rel: "noopener" });
+      });
+    }
+  }
+
+  function clearSelection() {
+    nodes.forEach(function (m) { m.g.classList.remove("dim", "hit"); });
+    edges.forEach(function (e) { e.line.classList.remove("dim"); });
+  }
+
+  // 점 끌기
+  function dragNode(ev, n) {
+    ev.stopPropagation();
+    n.moved = false;
+    var start = { x: ev.clientX, y: ev.clientY, nx: n.x, ny: n.y };
+    n.g.setPointerCapture(ev.pointerId);
+    function move(e) {
+      var dx = (e.clientX - start.x) / view.k, dy = (e.clientY - start.y) / view.k;
+      if (Math.abs(dx) + Math.abs(dy) > 3) n.moved = true;
+      n.x = start.nx + dx; n.y = start.ny + dy; n.fixed = true;
+      position();
+    }
+    function up() {
+      n.g.removeEventListener("pointermove", move);
+      n.g.removeEventListener("pointerup", up);
+      setTimeout(function () { n.moved = false; }, 0);
+    }
+    n.g.addEventListener("pointermove", move);
+    n.g.addEventListener("pointerup", up);
+  }
+
+  // 배경 끌기(이동), 휠·두 손가락(확대)
+  var pointers = {}, pan = null, pinch = null;
+  svg.addEventListener("pointerdown", function (ev) {
+    pointers[ev.pointerId] = { x: ev.clientX, y: ev.clientY };
+    svg.setPointerCapture(ev.pointerId);
+    var ids = Object.keys(pointers);
+    if (ids.length === 1) { pan = { x: ev.clientX, y: ev.clientY, vx: view.x, vy: view.y, moved: false }; svg.classList.add("dragging"); }
+    if (ids.length === 2) {
+      var a = pointers[ids[0]], b = pointers[ids[1]];
+      pinch = { d: Math.hypot(a.x - b.x, a.y - b.y), k: view.k };
+      pan = null;
+    }
+  });
+  svg.addEventListener("pointermove", function (ev) {
+    if (!pointers[ev.pointerId]) return;
+    pointers[ev.pointerId] = { x: ev.clientX, y: ev.clientY };
+    var ids = Object.keys(pointers);
+    if (pinch && ids.length === 2) {
+      var a = pointers[ids[0]], b = pointers[ids[1]];
+      zoomAt((a.x + b.x) / 2, (a.y + b.y) / 2, pinch.k * Math.hypot(a.x - b.x, a.y - b.y) / pinch.d / view.k);
+    } else if (pan) {
+      if (Math.abs(ev.clientX - pan.x) + Math.abs(ev.clientY - pan.y) > 3) pan.moved = true;
+      view.x = pan.vx + ev.clientX - pan.x; view.y = pan.vy + ev.clientY - pan.y;
+      position();
+    }
+  });
+  function endPointer(ev) {
+    if (pan && !pan.moved && Object.keys(pointers).length === 1) clearSelection();
+    delete pointers[ev.pointerId];
+    if (Object.keys(pointers).length < 2) pinch = null;
+    if (!Object.keys(pointers).length) { pan = null; svg.classList.remove("dragging"); }
+  }
+  svg.addEventListener("pointerup", endPointer);
+  svg.addEventListener("pointercancel", endPointer);
+  svg.addEventListener("wheel", function (ev) {
+    ev.preventDefault();
+    zoomAt(ev.clientX, ev.clientY, Math.exp(-ev.deltaY * 0.0015));
+  }, { passive: false });
+  function zoomAt(cx, cy, factor) {
+    var box = svg.getBoundingClientRect(), px = cx - box.left, py = cy - box.top;
+    var k = Math.max(0.2, Math.min(5, view.k * factor));
+    view.x = px - (px - view.x) * k / view.k; view.y = py - (py - view.y) * k / view.k; view.k = k;
+    position();
+  }
+  window.addEventListener("resize", function () { if (nodes) fit(); });
+})();
+</script>
+</body>
+</html>

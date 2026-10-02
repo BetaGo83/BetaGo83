@@ -23,7 +23,7 @@ updated: 2026-10-02
 | 공급사 | L3해리스 | 선급금 390억6천만 원 지급 (3개사 합계) | 2026-10-01 | [CBC뉴스](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGa3RzMzk5czltdlJraXlEVEN4cVJ4UlI1c2Q3bEZyaXpha0JIeDVIcDU5VVpWVU1vT2FuV0JodTdXZE9JN1RkdkhUSlpxVzRQcGt4azI3OVFuSllXajhNZ2NGNXNHVWw3?oc=5) |
 
 ## 테마
-- [[방산]]: 유도무기 생산·수출 ([핀포인트뉴스](https://news.google.com/rss/articles/CBMid0FVX3lxTE9sZWFZVnJIdlZYRHkzbm9PNWwxeXZ5SVBRUE5KM3J6YmhqV1VVWlVmd3haTDk0bnllSXF3aWl4czFqVnpMeUU2c2RjbjZlODNWSkt4VVBqa3o5N25HOVZvakVmcWc2bXVEVGRuN3pQZzg3RENaODNB0gF3QVVfeXFMT2xlYVlWckh2VlhEeTNub081bDF5dnlJUFFQTkozcnpiaGpXVVVaVWZ3eFpMOTRueWVJcXdpaXhzMWpWekx5RTZzZGNuNmU4M1ZKS3hVUGprejk3bkc5Vm9qRWZxZzZtdURUZG43elBnODdEQ1o4M0E?oc=5))
+- [[방산]] · 유도무기: 유도무기 생산·수출 ([핀포인트뉴스](https://news.google.com/rss/articles/CBMid0FVX3lxTE9sZWFZVnJIdlZYRHkzbm9PNWwxeXZ5SVBRUE5KM3J6YmhqV1VVWlVmd3haTDk0bnllSXF3aWl4czFqVnpMeUU2c2RjbjZlODNWSkt4VVBqa3o5N25HOVZvakVmcWc2bXVEVGRuN3pQZzg3RENaODNB0gF3QVVfeXFMT2xlYVlWckh2VlhEeTNub081bDF5dnlJUFFQTkozcnpiaGpXVVVaVWZ3eFpMOTRueWVJcXdpaXhzMWpWekx5RTZzZGNuNmU4M1ZKS3hVUGprejk3bkc5Vm9qRWZxZzZtdURUZG43elBnODdEQ1o4M0E?oc=5))
 
 ## 최근 이슈
 - 2026-10-01 [계약] L3해리스 등 3개사에 390억6천만 원 선급금 지급 결정 · [[방산]] · [CBC뉴스](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGa3RzMzk5czltdlJraXlEVEN4cVJ4UlI1c2Q3bEZyaXpha0JIeDVIcDU5VVpWVU1vT2FuV0JodTdXZE9JN1RkdkhUSlpxVzRQcGt4azI3OVFuSllXajhNZ2NGNXNHVWw3?oc=5)

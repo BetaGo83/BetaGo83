@@ -25,7 +25,7 @@ from wiki_common import append_jsonl, hide_secrets, pages, read_jsonl
 KST = timezone(timedelta(hours=9))
 TAG = re.compile(r"<[^>]+>")
 # 검색 결과에 섞여 들어오는 도박·성인 스팸
-SPAM = re.compile(r"카지노|토토|포커|바카라|슬롯|섹스|성인|베팅|배팅|먹튀|홀덤")
+SPAM = re.compile(r"카지노|토토사이트|스포츠토토|포커|바카라|슬롯머신|슬롯사이트|섹스|성인용|성인사이트|베팅|배팅|먹튀|홀덤|도박|룰렛|파워볼")
 SPAM_OUTLETS = {"Calgary Roughnecks"}
 
 

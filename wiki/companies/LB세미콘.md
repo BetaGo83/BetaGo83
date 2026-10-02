@@ -21,7 +21,7 @@ updated: 2026-10-02
 |---|---|---|---|---|
 
 ## 테마
-- [[HBM·반도체]]: 반도체 후공정 라인 증설 ([뉴스1](https://news.google.com/rss/articles/CBMiX0FVX3lxTE44WHhma09WNEhkMlF6NFhPV1JpRjdUSXpiN3BHclQwM0tDaVNJMmRBRElqN01CdEtnMHFpbG9JODgzOWd4M0V0alhJYU5HM3BOMnRUdlVLYk1vUGFNTHB30gFkQVVfeXFMTXhiRWVSbzA5c0t6OFFiWjJtblRGbHprdnNCYWpJZU9lRlZPdkw3NzFPRmVxcW5BZVJfVHdzNk5POUFRUTF1c3Jna19nTGl3c1pjazlMSjVLeXpmVmJzd2p3Ul9oRQ?oc=5))
+- [[HBM·반도체]] · 후공정 외주(OSAT): 반도체 후공정 라인 증설 ([뉴스1](https://news.google.com/rss/articles/CBMiX0FVX3lxTE44WHhma09WNEhkMlF6NFhPV1JpRjdUSXpiN3BHclQwM0tDaVNJMmRBRElqN01CdEtnMHFpbG9JODgzOWd4M0V0alhJYU5HM3BOMnRUdlVLYk1vUGFNTHB30gFkQVVfeXFMTXhiRWVSbzA5c0t6OFFiWjJtblRGbHprdnNCYWpJZU9lRlZPdkw3NzFPRmVxcW5BZVJfVHdzNk5POUFRUTF1c3Jna19nTGl3c1pjazlMSjVLeXpmVmJzd2p3Ul9oRQ?oc=5))
 
 ## 최근 이슈
 - 2026-10-01 [투자] 경북 구미에 746억 원을 들여 전력반도체 후공정 설비를 증설하기로 경북도·구미시와 협약 · [[HBM·반도체]] · [뉴스1](https://news.google.com/rss/articles/CBMiX0FVX3lxTE44WHhma09WNEhkMlF6NFhPV1JpRjdUSXpiN3BHclQwM0tDaVNJMmRBRElqN01CdEtnMHFpbG9JODgzOWd4M0V0alhJYU5HM3BOMnRUdlVLYk1vUGFNTHB30gFkQVVfeXFMTXhiRWVSbzA5c0t6OFFiWjJtblRGbHprdnNCYWpJZU9lRlZPdkw3NzFPRmVxcW5BZVJfVHdzNk5POUFRUTF1c3Jna19nTGl3c1pjazlMSjVLeXpmVmJzd2p3Ul9oRQ?oc=5)
