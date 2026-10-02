@@ -39,13 +39,14 @@ CLAUDE.md       Claude가 위키를 관리하는 규칙
 ## 진행 상황
 
 - [x] 계획과 위키 관리 규칙 정리
+- [x] API 키 유출 방지 (커밋 전 자동 검사)
 - [ ] 사이트 접속 허용, DART 인증키 등록
 - [ ] 수집 스크립트 (DART, 뉴스)
 - [ ] 4개 테마의 첫 위키 페이지
 - [ ] 그래프·점수 계산, 점검 스크립트
 - [ ] 공개 웹사이트 (Quartz + GitHub Pages)
 - [ ] 관계 종류를 색으로 구분한 기업 지도 페이지
-- [ ] 매일 자동 업데이트
+- [ ] 매일 자동 업데이트 (Claude 예약 실행)
 
 ## 설정
 
@@ -56,4 +57,4 @@ CLAUDE.md       Claude가 위키를 관리하는 규칙
 | 네이버 검색 API (선택) | 같은 환경 설정의 API credentials 또는 환경 변수 | `NAVER_CLIENT_ID`, `NAVER_CLIENT_SECRET` |
 | 웹사이트 공개 | 저장소 Settings → Pages | Source를 **GitHub Actions**로 |
 
-키 값은 저장소에 올리지 않습니다.
+키는 Claude 클라우드 환경 설정에만 저장하고, 저장소나 GitHub Actions에는 두지 않습니다. 커밋할 때마다 키가 섞이지 않았는지 자동으로 검사하고, 섞여 있으면 커밋을 막습니다.
