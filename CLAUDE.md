@@ -27,9 +27,10 @@
 | `raw/.cache/` | 기사 요약처럼 커밋하지 않는 임시 자료. `.gitignore`에 넣는다 |
 | `wiki/index.md` | 첫 화면: 소개, 면책 문구, 테마 목록, 최근 업데이트 |
 | `wiki/log.md` | 변경 기록. 맨 아래에 추가만 한다 |
+| `wiki/graph.json` | `scripts/build_graph.py`가 만드는 그래프 데이터. 손으로 고치지 않는다 |
 | `wiki/companies/<회사명>.md` | 기업 페이지 |
 | `wiki/themes/<테마명>.md` | 테마 페이지 |
-| `scripts/` | 수집, 계산, 점검 스크립트 (Python) |
+| `scripts/` | 수집, 계산, 점검 스크립트 (Python). 회사 고유번호는 `python scripts/find_corp.py 회사명`으로 찾는다 |
 | `.githooks/pre-commit` | 커밋 전 키 검사 (`scripts/check_secrets.py` 실행) |
 | `.claude/` | Claude Code 설정. 세션이 시작될 때 키 검사 훅을 켠다 |
 

@@ -1,0 +1,700 @@
+{
+ "updated": "2026-10-02",
+ "nodes": [
+  {
+   "id": "HD한국조선해양",
+   "type": "company",
+   "market": "KOSPI",
+   "themes": [
+    "원전·SMR"
+   ]
+  },
+  {
+   "id": "HD현대중공업",
+   "type": "company",
+   "market": "KOSPI",
+   "themes": [
+    "방산"
+   ]
+  },
+  {
+   "id": "LB세미콘",
+   "type": "company",
+   "market": "KOSDAQ",
+   "themes": [
+    "HBM·반도체"
+   ]
+  },
+  {
+   "id": "LG에너지솔루션",
+   "type": "company",
+   "market": "KOSPI",
+   "themes": [
+    "2차전지"
+   ]
+  },
+  {
+   "id": "LIG디펜스앤에어로스페이스",
+   "type": "company",
+   "market": "KOSPI",
+   "themes": [
+    "방산"
+   ]
+  },
+  {
+   "id": "SK하이닉스",
+   "type": "company",
+   "market": "KOSPI",
+   "themes": [
+    "HBM·반도체"
+   ]
+  },
+  {
+   "id": "강원에너지",
+   "type": "company",
+   "market": "KOSDAQ",
+   "themes": [
+    "2차전지"
+   ]
+  },
+  {
+   "id": "네오셈",
+   "type": "company",
+   "market": "KOSDAQ",
+   "themes": [
+    "HBM·반도체"
+   ]
+  },
+  {
+   "id": "두산에너빌리티",
+   "type": "company",
+   "market": "KOSPI",
+   "themes": [
+    "원전·SMR"
+   ]
+  },
+  {
+   "id": "디아이",
+   "type": "company",
+   "market": "KOSPI",
+   "themes": [
+    "HBM·반도체"
+   ]
+  },
+  {
+   "id": "마이크론",
+   "type": "company",
+   "market": "해외",
+   "themes": [
+    "HBM·반도체"
+   ]
+  },
+  {
+   "id": "베시",
+   "type": "company",
+   "market": "해외",
+   "themes": [
+    "HBM·반도체"
+   ]
+  },
+  {
+   "id": "삼성SDI",
+   "type": "company",
+   "market": "KOSPI",
+   "themes": [
+    "2차전지"
+   ]
+  },
+  {
+   "id": "삼성전기",
+   "type": "company",
+   "market": "KOSPI",
+   "themes": [
+    "HBM·반도체"
+   ]
+  },
+  {
+   "id": "삼성전자",
+   "type": "company",
+   "market": "KOSPI",
+   "themes": [
+    "HBM·반도체"
+   ]
+  },
+  {
+   "id": "삼성중공업",
+   "type": "company",
+   "market": "KOSPI",
+   "themes": [
+    "원전·SMR"
+   ]
+  },
+  {
+   "id": "아이쓰리시스템",
+   "type": "company",
+   "market": "KOSDAQ",
+   "themes": [
+    "방산"
+   ]
+  },
+  {
+   "id": "액스비스",
+   "type": "company",
+   "market": "KOSDAQ",
+   "themes": [
+    "2차전지"
+   ]
+  },
+  {
+   "id": "어플라이드 머티어리얼즈",
+   "type": "company",
+   "market": "해외",
+   "themes": [
+    "HBM·반도체"
+   ]
+  },
+  {
+   "id": "에코프로비엠",
+   "type": "company",
+   "market": "KOSDAQ",
+   "themes": [
+    "2차전지"
+   ]
+  },
+  {
+   "id": "엘앤에프",
+   "type": "company",
+   "market": "KOSPI",
+   "themes": [
+    "2차전지"
+   ]
+  },
+  {
+   "id": "와이씨",
+   "type": "company",
+   "market": "KOSDAQ",
+   "themes": [
+    "HBM·반도체"
+   ]
+  },
+  {
+   "id": "위드텍",
+   "type": "company",
+   "market": "KOSDAQ",
+   "themes": [
+    "HBM·반도체"
+   ]
+  },
+  {
+   "id": "이수스페셜티케미컬",
+   "type": "company",
+   "market": "KOSPI",
+   "themes": [
+    "2차전지"
+   ]
+  },
+  {
+   "id": "인탑스",
+   "type": "company",
+   "market": "KOSDAQ",
+   "themes": [
+    "방산"
+   ]
+  },
+  {
+   "id": "자비스",
+   "type": "company",
+   "market": "KOSDAQ",
+   "themes": [
+    "2차전지"
+   ]
+  },
+  {
+   "id": "제일엠앤에스",
+   "type": "company",
+   "market": "KOSDAQ",
+   "themes": [
+    "2차전지"
+   ]
+  },
+  {
+   "id": "케이알엠",
+   "type": "company",
+   "market": "KOSDAQ",
+   "themes": [
+    "방산"
+   ]
+  },
+  {
+   "id": "케이엔알시스템",
+   "type": "company",
+   "market": "KOSDAQ",
+   "themes": [
+    "원전·SMR"
+   ]
+  },
+  {
+   "id": "테크윙",
+   "type": "company",
+   "market": "KOSDAQ",
+   "themes": [
+    "HBM·반도체"
+   ]
+  },
+  {
+   "id": "포스코퓨처엠",
+   "type": "company",
+   "market": "KOSPI",
+   "themes": [
+    "2차전지"
+   ]
+  },
+  {
+   "id": "피엔티",
+   "type": "company",
+   "market": "KOSDAQ",
+   "themes": [
+    "2차전지"
+   ]
+  },
+  {
+   "id": "핑거",
+   "type": "company",
+   "market": "KOSDAQ",
+   "themes": [
+    "2차전지"
+   ]
+  },
+  {
+   "id": "한국수력원자력",
+   "type": "company",
+   "market": "비상장",
+   "themes": [
+    "원전·SMR"
+   ]
+  },
+  {
+   "id": "한미글로벌",
+   "type": "company",
+   "market": "KOSPI",
+   "themes": [
+    "원전·SMR"
+   ]
+  },
+  {
+   "id": "한미반도체",
+   "type": "company",
+   "market": "KOSPI",
+   "themes": [
+    "HBM·반도체"
+   ]
+  },
+  {
+   "id": "한전기술",
+   "type": "company",
+   "market": "KOSPI",
+   "themes": [
+    "원전·SMR"
+   ]
+  },
+  {
+   "id": "한화에어로스페이스",
+   "type": "company",
+   "market": "KOSPI",
+   "themes": [
+    "방산"
+   ]
+  },
+  {
+   "id": "한화오션",
+   "type": "company",
+   "market": "KOSPI",
+   "themes": [
+    "원전·SMR"
+   ]
+  },
+  {
+   "id": "현대건설",
+   "type": "company",
+   "market": "KOSPI",
+   "themes": [
+    "원전·SMR"
+   ]
+  },
+  {
+   "id": "현대로템",
+   "type": "company",
+   "market": "KOSPI",
+   "themes": [
+    "방산"
+   ]
+  },
+  {
+   "id": "2차전지",
+   "type": "theme"
+  },
+  {
+   "id": "HBM·반도체",
+   "type": "theme"
+  },
+  {
+   "id": "방산",
+   "type": "theme"
+  },
+  {
+   "id": "원전·SMR",
+   "type": "theme"
+  }
+ ],
+ "edges": [
+  {
+   "source": "HD한국조선해양",
+   "target": "원전·SMR",
+   "type": "테마"
+  },
+  {
+   "source": "HD한국조선해양",
+   "target": "삼성중공업",
+   "type": "협력",
+   "detail": "해상 SMR 개발 협의",
+   "date": "2026-10-01",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWTlidElDR1ZaXzRialRhbE9TQjNmeVRVRERUQUxzLTBlLWxPS3NKVVJZamFPX0FyZG1iLUlnM2VxVG9Eb1E5UnBERG1qMFdCbjl6Yk1pdEdlUzVnUmkzRDFRNWE2TmRhT3Qw?oc=5"
+  },
+  {
+   "source": "HD한국조선해양",
+   "target": "한화오션",
+   "type": "협력",
+   "detail": "해상 SMR 개발 협의",
+   "date": "2026-10-01",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWTlidElDR1ZaXzRialRhbE9TQjNmeVRVRERUQUxzLTBlLWxPS3NKVVJZamFPX0FyZG1iLUlnM2VxVG9Eb1E5UnBERG1qMFdCbjl6Yk1pdEdlUzVnUmkzRDFRNWE2TmRhT3Qw?oc=5"
+  },
+  {
+   "source": "HD현대중공업",
+   "target": "방산",
+   "type": "테마"
+  },
+  {
+   "source": "LB세미콘",
+   "target": "HBM·반도체",
+   "type": "테마"
+  },
+  {
+   "source": "LG에너지솔루션",
+   "target": "2차전지",
+   "type": "테마"
+  },
+  {
+   "source": "LG에너지솔루션",
+   "target": "포스코퓨처엠",
+   "type": "공급사",
+   "detail": "LFP 양극재 공급",
+   "date": "2026-09-30",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WdXZUSnB3UFVrcTQ2azBjcTg4d0NBd0p3Q19PQmtEQm04Y3JiSDFUZ1BFQmFxc1ZaTHgzOUtMMjhhQUJDZ3ZUUC1DNE1mZWc?oc=5"
+  },
+  {
+   "source": "LIG디펜스앤에어로스페이스",
+   "target": "방산",
+   "type": "테마"
+  },
+  {
+   "source": "LIG디펜스앤에어로스페이스",
+   "target": "현대로템",
+   "type": "경쟁",
+   "detail": "1.9조 원 '한국판 미티어' 수주전 (한화도 참여)",
+   "date": "2026-09-30",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBsN0IzVGROTjh0ZXZ6Y3JKNTNUejlWT293TnFEYkZsbmg1Zi1fWkljYXNSN04tVzBmOEk3THBrQVFaY1c5bThhRG96OV9vV1N2dDI4?oc=5"
+  },
+  {
+   "source": "SK하이닉스",
+   "target": "HBM·반도체",
+   "type": "테마"
+  },
+  {
+   "source": "SK하이닉스",
+   "target": "마이크론",
+   "type": "경쟁",
+   "detail": "HBM 시장 (마이크론 커스텀 HBM 도전)",
+   "date": "2026-10-01",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBra2pkdEY0QkRRQkxWd3RVZFVsaFhLMDJrUzRFT0lGMFJvalNzZWFfZE5aYVhDbTh2UjhmbGxHQnJMQUpEc01JTWlJM0hRVm96R09OWDRPSzRLZ9IBWEFVX3lxTFAtYS1hNjZ5TzN3a09LeG5Cd1VFV2pBU083SktkYm11LWEwODNkTDBCM2Q1N2lDUUNpYzVkWWUyaU9fRzl2SGJldzZtUWxvdEJ1TXMyZ2RDSWs?oc=5"
+  },
+  {
+   "source": "SK하이닉스",
+   "target": "삼성전자",
+   "type": "경쟁",
+   "detail": "HBM 시장",
+   "date": "2026-10-01",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBra2pkdEY0QkRRQkxWd3RVZFVsaFhLMDJrUzRFT0lGMFJvalNzZWFfZE5aYVhDbTh2UjhmbGxHQnJMQUpEc01JTWlJM0hRVm96R09OWDRPSzRLZ9IBWEFVX3lxTFAtYS1hNjZ5TzN3a09LeG5Cd1VFV2pBU083SktkYm11LWEwODNkTDBCM2Q1N2lDUUNpYzVkWWUyaU9fRzl2SGJldzZtUWxvdEJ1TXMyZ2RDSWs?oc=5"
+  },
+  {
+   "source": "SK하이닉스",
+   "target": "위드텍",
+   "type": "공급사",
+   "detail": "공정·제조환경 모니터링 장비 41억5천만 원",
+   "date": "2026-09-30",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930901244"
+  },
+  {
+   "source": "강원에너지",
+   "target": "2차전지",
+   "type": "테마"
+  },
+  {
+   "source": "강원에너지",
+   "target": "포스코퓨처엠",
+   "type": "고객사",
+   "detail": "광양 양극재 5단계 수세설비·기구부 (정정 공시)",
+   "date": "2026-09-30",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930900767"
+  },
+  {
+   "source": "네오셈",
+   "target": "HBM·반도체",
+   "type": "테마"
+  },
+  {
+   "source": "네오셈",
+   "target": "삼성전자",
+   "type": "고객사",
+   "detail": "CLT Interface Board 69억 원 (계약 2026-05-28, 정정 공시)",
+   "date": "2026-09-28",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900895"
+  },
+  {
+   "source": "두산에너빌리티",
+   "target": "원전·SMR",
+   "type": "테마"
+  },
+  {
+   "source": "디아이",
+   "target": "HBM·반도체",
+   "type": "테마"
+  },
+  {
+   "source": "디아이",
+   "target": "삼성전자",
+   "type": "고객사",
+   "detail": "공급계약 153억 원 (2026-09-30~2027-12-31)",
+   "date": "2026-10-01",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001800054"
+  },
+  {
+   "source": "마이크론",
+   "target": "HBM·반도체",
+   "type": "테마"
+  },
+  {
+   "source": "마이크론",
+   "target": "삼성전자",
+   "type": "경쟁",
+   "detail": "HBM 시장 (마이크론 커스텀 HBM 도전)",
+   "date": "2026-10-01",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBra2pkdEY0QkRRQkxWd3RVZFVsaFhLMDJrUzRFT0lGMFJvalNzZWFfZE5aYVhDbTh2UjhmbGxHQnJMQUpEc01JTWlJM0hRVm96R09OWDRPSzRLZ9IBWEFVX3lxTFAtYS1hNjZ5TzN3a09LeG5Cd1VFV2pBU083SktkYm11LWEwODNkTDBCM2Q1N2lDUUNpYzVkWWUyaU9fRzl2SGJldzZtUWxvdEJ1TXMyZ2RDSWs?oc=5"
+  },
+  {
+   "source": "마이크론",
+   "target": "테크윙",
+   "type": "공급사",
+   "detail": "말레이시아 법인에 반도체 검사장비 228억6천만 원 (계약 2026-04-13, 정정 공시)",
+   "date": "2026-09-29",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900917"
+  },
+  {
+   "source": "베시",
+   "target": "HBM·반도체",
+   "type": "테마"
+  },
+  {
+   "source": "베시",
+   "target": "어플라이드 머티어리얼즈",
+   "type": "협력",
+   "detail": "하이브리드 본딩 공동 개발",
+   "date": "2026-10-02",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KdXh0SllfSlRabUJDUllHTnQ3NWNIWko4RFNpakJncXhacnRjTWdSNGJSNGFkanE4aXpURzNiXzBoVnlvdl9FNk1mMExJc0x2WGxyRG0yWDUwM044RWhOUVZFTjh1QQ?oc=5"
+  },
+  {
+   "source": "삼성SDI",
+   "target": "2차전지",
+   "type": "테마"
+  },
+  {
+   "source": "삼성SDI",
+   "target": "에코프로비엠",
+   "type": "공급사",
+   "detail": "BMW·벤츠 신형 전기차용 양극재",
+   "date": "2026-09-30",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ybU5JSXd0VjBtMi1uVlJSSnl4ZklYQzJtdlZvU1pXOTlJblI0RFlpZlJRcUU1ZXR4aF92ZmNoUzB6NGpSMk1uRzZsZ0RfM0dBQjdWcl92eFJmVThhNzJ2UmJkdHhsZw?oc=5"
+  },
+  {
+   "source": "삼성전기",
+   "target": "HBM·반도체",
+   "type": "테마"
+  },
+  {
+   "source": "삼성전자",
+   "target": "HBM·반도체",
+   "type": "테마"
+  },
+  {
+   "source": "삼성전자",
+   "target": "와이씨",
+   "type": "공급사",
+   "detail": "반도체 검사장비 403억 원 (계약 2026-03-03, 정정 공시)",
+   "date": "2026-09-29",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900723"
+  },
+  {
+   "source": "삼성중공업",
+   "target": "원전·SMR",
+   "type": "테마"
+  },
+  {
+   "source": "삼성중공업",
+   "target": "한화오션",
+   "type": "협력",
+   "detail": "해상 SMR 개발 협의",
+   "date": "2026-10-01",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWTlidElDR1ZaXzRialRhbE9TQjNmeVRVRERUQUxzLTBlLWxPS3NKVVJZamFPX0FyZG1iLUlnM2VxVG9Eb1E5UnBERG1qMFdCbjl6Yk1pdEdlUzVnUmkzRDFRNWE2TmRhT3Qw?oc=5"
+  },
+  {
+   "source": "아이쓰리시스템",
+   "target": "방산",
+   "type": "테마"
+  },
+  {
+   "source": "액스비스",
+   "target": "2차전지",
+   "type": "테마"
+  },
+  {
+   "source": "어플라이드 머티어리얼즈",
+   "target": "HBM·반도체",
+   "type": "테마"
+  },
+  {
+   "source": "에코프로비엠",
+   "target": "2차전지",
+   "type": "테마"
+  },
+  {
+   "source": "엘앤에프",
+   "target": "2차전지",
+   "type": "테마"
+  },
+  {
+   "source": "와이씨",
+   "target": "HBM·반도체",
+   "type": "테마"
+  },
+  {
+   "source": "위드텍",
+   "target": "HBM·반도체",
+   "type": "테마"
+  },
+  {
+   "source": "이수스페셜티케미컬",
+   "target": "2차전지",
+   "type": "테마"
+  },
+  {
+   "source": "인탑스",
+   "target": "방산",
+   "type": "테마"
+  },
+  {
+   "source": "인탑스",
+   "target": "케이알엠",
+   "type": "공급사",
+   "detail": "국방 드론용 모터·ESC 13억7천만 원",
+   "date": "2026-09-29",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900334"
+  },
+  {
+   "source": "자비스",
+   "target": "2차전지",
+   "type": "테마"
+  },
+  {
+   "source": "제일엠앤에스",
+   "target": "2차전지",
+   "type": "테마"
+  },
+  {
+   "source": "제일엠앤에스",
+   "target": "핑거",
+   "type": "피인수",
+   "detail": "2차전지 장비업체 인수",
+   "date": "2026-10-01",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XVlgzRFZCU0RaR2FYZ0pjWUlPazBtOExvdkIydElNSlVFaGpHN0VRcC1HckZ4NEVHOVFMTnh4UU9neDhyWjNqbEd1d2hKdkJfbUlucFNB?oc=5"
+  },
+  {
+   "source": "케이알엠",
+   "target": "방산",
+   "type": "테마"
+  },
+  {
+   "source": "케이엔알시스템",
+   "target": "원전·SMR",
+   "type": "테마"
+  },
+  {
+   "source": "테크윙",
+   "target": "HBM·반도체",
+   "type": "테마"
+  },
+  {
+   "source": "포스코퓨처엠",
+   "target": "2차전지",
+   "type": "테마"
+  },
+  {
+   "source": "피엔티",
+   "target": "2차전지",
+   "type": "테마"
+  },
+  {
+   "source": "핑거",
+   "target": "2차전지",
+   "type": "테마"
+  },
+  {
+   "source": "한국수력원자력",
+   "target": "원전·SMR",
+   "type": "테마"
+  },
+  {
+   "source": "한미글로벌",
+   "target": "원전·SMR",
+   "type": "테마"
+  },
+  {
+   "source": "한미반도체",
+   "target": "HBM·반도체",
+   "type": "테마"
+  },
+  {
+   "source": "한전기술",
+   "target": "원전·SMR",
+   "type": "테마"
+  },
+  {
+   "source": "한화에어로스페이스",
+   "target": "방산",
+   "type": "테마"
+  },
+  {
+   "source": "한화오션",
+   "target": "원전·SMR",
+   "type": "테마"
+  },
+  {
+   "source": "현대건설",
+   "target": "원전·SMR",
+   "type": "테마"
+  },
+  {
+   "source": "현대로템",
+   "target": "방산",
+   "type": "테마"
+  }
+ ]
+}
