@@ -38,6 +38,7 @@ ALWAYS = [
     "news.zum.com",         # 줌 뉴스 본문
     "opendart.fss.or.kr",   # DART API (이미 허용)
     "dart.fss.or.kr",       # DART 공시 뷰어
+    "betago83.github.io",   # 이 위키의 공개 웹사이트 (배포 확인용)
 ]
 # 뉴스가 아닌 곳: 포털(위 ALWAYS에서 뉴스 주소만 따로 허용), 블로그·영상·SNS, 시장조사·투자의견 사이트, 스팸
 SKIP = {
