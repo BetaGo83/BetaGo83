@@ -15,7 +15,7 @@
 3. **공개 저장소다.** 기사 본문이나 요약문을 옮겨 적지 않는다. 사실만 짧게 자기 말로 쓰고 링크를 단다. 커밋하는 원자료는 제목, 링크, 날짜, 출처 같은 메타데이터와 DART 공시 정보뿐이다.
 4. **사람 메모는 건드리지 않는다.** 각 페이지의 `## 사람 메모` 아래는 사람이 쓰는 칸이다.
 5. 페이지를 지우거나 이름을 바꾸기 전에는 사용자에게 묻는다.
-6. **API 키는 GitHub에 두지 않는다.** 키는 Claude 클라우드 환경 설정의 환경 변수(`DART_API_KEY`, `NAVER_CLIENT_ID`, `NAVER_CLIENT_SECRET`)에만 있고, 스크립트는 실행할 때 거기서 읽는다. 저장소 파일에도 GitHub Actions secrets에도 넣지 않고, 화면에 출력하지도 않는다. DART API 요청 주소에는 키(`crtfc_key`)가 들어가므로, 저장하거나 출력하는 링크는 공시 뷰어 주소(`https://dart.fss.or.kr/dsaf001/main.do?rcpNo=접수번호`)만 쓰고 오류 메시지에서도 키를 가린다. 매일 자동 업데이트도 GitHub Actions가 아니라 Claude 예약 실행으로 돌린다.
+6. **API 키는 GitHub에 두지 않는다.** 키는 Claude 클라우드 환경 설정의 환경 변수(`DART_API_KEY`, `NAVER_CLIENT_ID`, `NAVER_CLIENT_SECRET`)에만 있고, 스크립트는 실행할 때 거기서 읽는다. 저장소 파일에도 GitHub Actions secrets에도 넣지 않고, 화면에 출력하지도 않는다. DART API 요청 주소에는 키(`crtfc_key`)가 들어가므로, 저장하거나 출력하는 링크는 공시 뷰어 주소(`https://dart.fss.or.kr/dsaf001/main.do?rcpNo=접수번호`)만 쓰고 오류 메시지에서도 키를 가린다. 매일 자동 업데이트도 GitHub Actions가 아니라 Claude 예약 실행으로 돌린다. DART 키는 환경 설정의 API 자격 증명에 넣으면 안 된다. 자격 증명은 프록시가 키를 요청에 붙여 주는 방식인데, DART처럼 키를 GET 주소에 붙이는 API에는 붙지 못하고 DART 요청을 모두 막는다(2026-10-02 시험 결과 `injection failed`).
 7. **커밋 전 키 검사를 건너뛰지 않는다.** 세션이 시작되면 `.claude/hooks/session-start.sh`가 `.githooks/pre-commit`을 켜고, 이 훅이 커밋할 때마다 `scripts/check_secrets.py`로 키가 섞였는지 검사한다. 막히면 키를 지우고 고친다. `--no-verify`는 쓰지 않는다.
 
 ## 폴더

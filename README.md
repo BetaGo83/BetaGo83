@@ -40,7 +40,8 @@ CLAUDE.md       Claude가 위키를 관리하는 규칙
 
 - [x] 계획과 위키 관리 규칙 정리
 - [x] API 키 유출 방지 (커밋 전 자동 검사)
-- [ ] 사이트 접속 허용, DART 인증키 등록
+- [x] 사이트 접속 허용 (구글 뉴스, 네이버 확인)
+- [ ] DART 인증키 등록
 - [ ] 수집 스크립트 (DART, 뉴스)
 - [ ] 4개 테마의 첫 위키 페이지
 - [ ] 그래프·점수 계산, 점검 스크립트
@@ -53,7 +54,7 @@ CLAUDE.md       Claude가 위키를 관리하는 규칙
 | 항목 | 위치 | 값 |
 |---|---|---|
 | 사이트 접속 허용 | Claude Code 클라우드 환경 설정 → Network access | `opendart.fss.or.kr`, `news.google.com`, `openapi.naver.com` |
-| DART 인증키 (필수) | 같은 환경 설정의 API credentials 또는 환경 변수 | `DART_API_KEY` |
+| DART 인증키 (필수) | 같은 환경 설정의 환경 변수 (API credentials로는 키가 붙지 않음) | `DART_API_KEY` |
 | 네이버 검색 API (선택) | 같은 환경 설정의 API credentials 또는 환경 변수 | `NAVER_CLIENT_ID`, `NAVER_CLIENT_SECRET` |
 | 웹사이트 공개 | 저장소 Settings → Pages | Source를 **GitHub Actions**로 |
 
