@@ -33,6 +33,9 @@ ALWAYS = [
     "news.naver.com",
     "m.news.naver.com",
     "v.daum.net",           # 다음 뉴스 본문
+    "news.nate.com",        # 네이트 뉴스 본문 (커뮤니티는 넣지 않는다)
+    "m.news.nate.com",
+    "news.zum.com",         # 줌 뉴스 본문
     "opendart.fss.or.kr",   # DART API (이미 허용)
     "dart.fss.or.kr",       # DART 공시 뷰어
 ]
@@ -43,6 +46,8 @@ SKIP = {
     "blogspot.com", "medium.com", "actt.org.tt", "mlbkor.com", "calgaryroughnecks.com", "dto.ooo", "seattlen.com",
     "indexbox.io", "fortunebusinessinsights.com", "businessresearchinsights.com", "straitsresearch.com",
     "simplywall.st", "tikr.com", "thinkpool.com", "pressreader.com", "deloitte.com",
+    "histoire-pour-tous.fr", "nate.com", "zum.com", "danawa.com", "choicestock.co.kr", "buffettlab.co.kr",
+    "tradingview.com", "tradingkey.com", "metal.com", "ecofile.kr",
 }
 
 

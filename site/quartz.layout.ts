@@ -10,7 +10,7 @@ const DISCLAIMER =
   "AI가 뉴스와 공시를 바탕으로 정리한 참고 자료입니다. 틀린 내용이 있을 수 있으니 원문을 확인하세요. 투자 권유가 아닙니다."
 
 // 모든 페이지 아래에 면책 문구와 링크를 넣는 하단 영역
-const SiteFooter: QuartzComponentConstructor = () => {
+const SiteFooter = (() => {
   const Footer: QuartzComponent = ({ displayClass, fileData, cfg }) => {
     // 404 페이지는 아무 주소에서나 보이므로 상대 경로 대신 사이트 기본 경로를 쓴다 (Head.tsx와 같은 방식)
     const root =
@@ -37,7 +37,7 @@ footer .disclaimer { font-size: 0.9rem; }
 footer ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 1rem; }
 `
   return Footer
-}
+}) satisfies QuartzComponentConstructor
 
 // 탐색기에서 영어 폴더 이름을 한국어로 보여 준다 (폴더 안내 페이지 companies/index.md, themes/index.md의 제목도 같다)
 const explorer = Component.Explorer({

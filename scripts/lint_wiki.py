@@ -21,7 +21,7 @@ import re
 import sys
 from datetime import date, timedelta
 
-from build_graph import ISSUE, LINK, build, relations, section, theme_roles, valid_date, value_chain
+from build_graph import CHAIN_LINE, ISSUE, LINK, THEME_LINE, build, relations, section, theme_roles, valid_date, value_chain
 from wiki_common import WIKI, is_folder_index, read_page, today_kst
 
 DISCLAIMER = "AI가 뉴스와 공시를 바탕으로 정리한 참고 자료입니다. 틀린 내용이 있을 수 있으니 원문을 확인하세요. 투자 권유가 아닙니다."
@@ -38,6 +38,12 @@ REQUIRED = {
 }
 DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 FOLDER_KIND = {"companies": "company", "themes": "theme"}
+LIST_REQUIRED = ("themes", "keywords", "stages")  # 목록 키는 있기만 하면 된다 (상대 회사 페이지는 themes가 비어도 된다)
+
+
+def future(text):
+    """오늘(KST)보다 뒤 날짜인지. 계약 종료일 같은 날짜를 날짜 칸에 잘못 넣은 경우를 잡는다."""
+    return valid_date(text) and text > today_kst().isoformat()
 COUNTERPARTY_PAGE_AT = 2  # 페이지 없는 상대가 이만큼 나오면 페이지를 만든다
 
 
@@ -66,12 +72,15 @@ def check_pages(files, names, loaded, problems):
         if kind not in REQUIRED:
             continue
         for key in REQUIRED[kind]:
-            if not meta.get(key):
+            missing = key not in meta if key in LIST_REQUIRED and kind == "company" else not meta.get(key)
+            if missing:
                 problems.append(f"{rel}: frontmatter에 {key}가 없습니다")
         if meta.get("name") and meta["name"] != path.stem:
             problems.append(f"{rel}: frontmatter name '{meta['name']}'이 파일 이름과 다릅니다")
         if meta.get("updated") and not (DATE.match(meta["updated"]) and valid_date(meta["updated"])):
             problems.append(f"{rel}: updated 날짜 형식이 틀립니다 '{meta['updated']}'")
+        elif future(meta.get("updated", "")):
+            problems.append(f"{rel}: updated가 미래 날짜입니다 '{meta['updated']}'")
         if kind == "company" and meta.get("market") and meta["market"] not in MARKETS:
             problems.append(f"{rel}: market은 {', '.join(sorted(MARKETS))} 중 하나여야 합니다")
         for key in ("aliases", "themes", "keywords", "stages"):
@@ -90,8 +99,32 @@ def check_pages(files, names, loaded, problems):
             match = ISSUE.match(line.strip())
             if not (match and valid_date(match.group(1)) and match.group(2) in ISSUE_KINDS):
                 problems.append(f"{rel}: 이슈 형식이 틀립니다 (- YYYY-MM-DD [종류] 내용 · [[테마]] · [출처](URL)) {line[:50]}")
+            elif future(match.group(1)):
+                problems.append(f"{rel}: 이슈 날짜가 미래입니다 {line[:50]}")
             elif kind == "company" and not any(t in names and t in theme_names for t in LINK.findall(line)):
                 problems.append(f"{rel}: 이슈에 [[테마]] 링크가 없습니다 (테마와 관련된 사실만 이슈로 적습니다) {line[:50]}")
+        for line in section(body, "최근 동향").splitlines():
+            match = re.match(r"^- (\d{4}-\d{2}-\d{2}) ", line)
+            if line.startswith("- ") and not (match and valid_date(match.group(1))):
+                problems.append(f"{rel}: 최근 동향 줄은 '- YYYY-MM-DD 내용 · [출처](URL)' 형식이어야 합니다 {line[:50]}")
+            elif match and future(match.group(1)):
+                problems.append(f"{rel}: 최근 동향 날짜가 미래입니다 {line[:50]}")
+        if kind == "company":
+            for line in section(body, "테마").splitlines():
+                if line.startswith("- ") and not THEME_LINE.match(line.strip()):
+                    problems.append(f"{rel}: 테마 줄을 읽을 수 없습니다 ('- [[테마]] · 단계: 역할 (출처)') {line[:50]}")
+        if kind == "theme":
+            for line in section(body, "밸류체인").splitlines():
+                if not line.startswith("- "):
+                    continue
+                match = CHAIN_LINE.match(line.strip())
+                if not match:
+                    problems.append(f"{rel}: 밸류체인 줄을 읽을 수 없습니다 ('- 단계: [[회사]] (출처)') {line[:50]}")
+                    continue
+                for chunk in re.split(r"(?=\[\[)", match.group(2)):
+                    company = LINK.match(chunk)
+                    if company and "](http" not in chunk:
+                        problems.append(f"{rel}: 밸류체인 줄의 회사마다 출처가 필요합니다 ([[{company.group(1)}]])")
         if kind == "theme" and not re.search(r"^## 관련 기업", body, re.M):
             problems.append(f"{rel}: '## 관련 기업' 칸이 없습니다 (build_graph.py가 표를 넣을 자리)")
 
@@ -110,7 +143,7 @@ def check_relations(loaded, problems):
         rel = path.relative_to(WIKI)
         for row in relations(body):
             if row["malformed"]:
-                problems.append(f"{rel}: 관계 표 줄의 칸 수가 5개가 아닙니다 (관계|상대|내용|날짜|출처) {row['detail'][:60]}")
+                problems.append(f"{rel}: 관계 표 줄 문제 — {row['malformed']}: {row['detail'][:60]}")
                 continue
             if row["type"] not in PAIRS:
                 problems.append(f"{rel}: 모르는 관계 종류 '{row['type']}'")
@@ -119,6 +152,8 @@ def check_relations(loaded, problems):
                 problems.append(f"{rel}: 출처 없는 관계 {row['type']} {row['target']}")
             if not (DATE.match(row["date"]) and valid_date(row["date"])):
                 problems.append(f"{rel}: 관계 날짜 형식이 틀립니다 {row['target']} '{row['date']}'")
+            elif future(row["date"]):
+                problems.append(f"{rel}: 관계 날짜가 미래입니다 {row['type']} {row['target']} ({row['date']}). 날짜 칸에는 공시·기사 날짜를 적습니다")
             elif row["date"] < year_ago.isoformat():
                 problems.append(f"{rel}: 1년 넘게 갱신되지 않은 관계 {row['type']} {row['target']} ({row['date']})")
             if not row["linked"]:
@@ -167,6 +202,9 @@ def check_stages(loaded, problems):
             problems.append(f"{rel}: themes에 '{theme}'가 있지만 '## 테마'에 줄이 없습니다")
         for theme in set(roles) - listed:
             problems.append(f"{rel}: '## 테마'에 [[{theme}]] 줄이 있지만 frontmatter themes에 없습니다")
+        tagged = {t.strip() for line in section(body, "최근 이슈").splitlines() for t in LINK.findall(line) if t.strip() in themes}
+        for theme in sorted(tagged - set(roles)):
+            problems.append(f"{rel}: 이슈에 [[{theme}]] 근거가 있지만 '## 테마'에 줄이 없습니다")
         for theme, role in roles.items():
             if theme not in themes:
                 problems.append(f"{rel}: 테마 '{theme}' 페이지가 없습니다")

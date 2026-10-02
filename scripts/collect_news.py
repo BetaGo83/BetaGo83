@@ -26,8 +26,10 @@ from wiki_common import append_jsonl, hide_secrets, pages, read_jsonl
 KST = timezone(timedelta(hours=9))
 TAG = re.compile(r"<[^>]+>")
 # 검색 결과에 섞여 들어오는 도박·성인 스팸
-SPAM = re.compile(r"카지노|토토사이트|스포츠토토|포커|바카라|슬롯머신|슬롯사이트|섹스|성인용|성인사이트|베팅|배팅|먹튀|홀덤|도박|룰렛|파워볼")
-SPAM_OUTLETS = {"Calgary Roughnecks", "dto.ooo", "Histoire"}
+# "[포커스]"나 "HBM에 베팅" 같은 정상 기사는 거르지 않도록 스팸에서 쓰는 꼴만 잡는다
+SPAM = re.compile(r"카지노|토토사이트|스포츠토토|포커(?!스)|바카라|슬롯머신|슬롯사이트|섹스|성인용|성인사이트|먹튀|홀덤|도박|룰렛|파워볼"
+                  r"|(?:스포츠|불법|온라인)\s*[베배]팅|[베배]팅\s*사이트")
+SPAM_OUTLETS = {"Calgary Roughnecks", "dto.ooo", "Histoire pour Tous"}
 
 
 def fetch(url, headers=None):

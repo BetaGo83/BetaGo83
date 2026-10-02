@@ -45,22 +45,25 @@ select, input[type="search"] { font: inherit; font-size: max(16px, 0.9rem); padd
 .legend label { display: inline-flex; align-items: center; gap: 4px; cursor: pointer; white-space: nowrap; }
 .swatch { display: inline-block; width: 18px; height: 3px; border-radius: 2px; }
 main { flex: 1; display: flex; min-height: 0; }
-#stage { flex: 1; position: relative; min-width: 0; }
-svg { width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; }
+#stage { flex: 1; position: relative; min-width: 0; overflow: hidden; }
+svg { width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; -webkit-user-select: none; user-select: none; }
 svg.dragging { cursor: grabbing; }
 .node circle { stroke: var(--bg); stroke-width: 1.5px; cursor: pointer; }
 .node.theme circle { fill: var(--theme-node); }
 .node.company circle { fill: var(--company-node); }
 .node.external circle { fill: var(--external-node); }
-.node text { font-size: 11px; fill: var(--text); pointer-events: none; paint-order: stroke; stroke: var(--bg); stroke-width: 3px; }
+.node text { font-size: 11px; fill: var(--text); cursor: pointer; paint-order: stroke; stroke: var(--bg); stroke-width: 3px; }
+.node-hit { fill: transparent; stroke: none; }
 .node.theme text { font-size: 13px; font-weight: 700; }
 .node:focus { outline: none; }
 .node:focus-visible circle { stroke: var(--text); stroke-width: 3px; stroke-dasharray: 3 2; }
 .node.dim, .edge.dim { opacity: 0.12; }
 .node.hit circle { stroke: var(--focus); stroke-width: 3px; }
-.edge { fill: none; stroke-width: 1.6px; }
+.edge { fill: none; stroke-width: 1.6px; vector-effect: non-scaling-stroke; }
 .edge.tier2 { stroke-dasharray: 4 3; }
-.edge-hit { fill: none; stroke: transparent; stroke-width: 10px; cursor: pointer; }
+.edge-hit { fill: none; stroke: transparent; stroke-width: 14px; vector-effect: non-scaling-stroke; cursor: pointer; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+#hint { font-size: 0.8rem; color: var(--muted); }
 #tip { position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; font-size: 0.8rem; max-width: 280px; display: none; white-space: pre-line; box-shadow: 0 2px 8px rgba(0,0,0,.15); }
 #notice { position: absolute; left: 16px; top: 16px; right: 16px; color: var(--muted); }
 aside { width: min(340px, 42%); border-left: 1px solid var(--line); background: var(--panel); overflow-y: auto; padding: 16px; font-size: 0.9rem; }
@@ -88,7 +91,8 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
     <input id="search" type="search" placeholder="기업 이름 찾기" aria-label="기업 이름 찾기" list="names">
     <datalist id="names"></datalist>
   </div>
-  <div class="legend" id="legend"></div>
+  <div class="legend" id="legend" role="group" aria-label="지도에 보일 관계 종류"></div>
+  <span id="hint" aria-live="polite"></span>
   <a href="../" id="home" target="_top">위키로 돌아가기</a>
 </header>
 <main>
@@ -102,6 +106,7 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
     <p>점이나 선을 누르면 관계와 근거(공시·기사 링크)가 여기 나옵니다. 끌어서 옮기고, 휠이나 두 손가락으로 확대할 수 있습니다.</p>
     <p class="meta" id="updated"></p>
   </aside>
+  <p id="status" class="sr-only" role="status" aria-live="polite"></p>
 </main>
 <footer>AI가 뉴스와 공시를 바탕으로 정리한 참고 자료입니다. 틀린 내용이 있을 수 있으니 원문을 확인하세요. 투자 권유가 아닙니다.</footer>
 <script>
@@ -194,14 +199,14 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
     nodes.filter(function (n) { return n.type === "theme"; }).forEach(function (n) {
       html("option", n.id, select, { value: n.id });
     });
-    select.addEventListener("change", applyFilter);
+    select.addEventListener("change", function () { applyFilter(); clearSelection(); fit(); });
     var names = document.getElementById("names");
     nodes.forEach(function (n) {
       html("option", null, names, { value: n.id });
       n.aliases.forEach(function (a) { html("option", n.id, names, { value: a }); });
     });
     var search = document.getElementById("search");
-    search.addEventListener("change", function () { find(search.value); });
+    search.addEventListener("input", function (ev) { if (!ev.inputType || ev.inputType === "insertReplacementText") find(search.value); });
     search.addEventListener("keydown", function (ev) { if (ev.key === "Enter") find(search.value); });
     var legend = document.getElementById("legend");
     KINDS.forEach(function (kind) {
@@ -209,7 +214,10 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
       var label = html("label", null, legend);
       var box = html("input", null, label, { type: "checkbox" });
       box.checked = true;
-      box.addEventListener("change", function () { hidden[kind.key] = !box.checked; applyFilter(); });
+      box.addEventListener("change", function () {
+        hidden[kind.key] = !box.checked; applyFilter();
+        if (selected && !selected.visible) clearSelection();
+      });
       var sw = html("span", null, label, { class: "swatch" });
       sw.style.background = "var(" + kind.color + ")";
       html("span", kind.key, label);
@@ -306,6 +314,7 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
     });
     nodes.forEach(function (n) {
       n.g = el("g", { class: "node " + n.type, tabindex: 0, role: "button", "aria-label": n.id + (n.summary ? ", " + n.summary : "") }, nodeLayer);
+      n.hitC = el("circle", { class: "node-hit", r: n.r + 3 }, n.g);  // 축소해도 누르기 쉽게 하는 투명 영역
       n.circle = el("circle", { r: n.r }, n.g);
       var label = el("text", { x: n.r + 3, y: 4 }, n.g);
       label.textContent = n.id;
@@ -316,6 +325,13 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
       n.g.addEventListener("pointermove", function (ev) { if (ev.pointerType === "mouse" && !n.dragging) showTip(ev, n.id + (n.summary ? " — " + n.summary : "")); });
       n.g.addEventListener("pointerleave", hideTip);
       n.g.addEventListener("pointerdown", function (ev) { dragNode(ev, n); });
+      n.g.addEventListener("focus", function () {  // 키보드로 화면 밖 점에 오면 가운데로 옮긴다
+        if (!n.g.matches(":focus-visible")) return;
+        var b = svg.getBoundingClientRect(), sx = n.x * view.k + view.x, sy = n.y * view.k + view.y;
+        if (sx < 20 || sy < 20 || sx > b.width - 20 || sy > b.height - 20) {
+          view.x = b.width / 2 - n.x * view.k; view.y = b.height / 2 - n.y * view.k; position();
+        }
+      });
     });
     position();
     applyFilter();
@@ -329,18 +345,24 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
         l.setAttribute("x1", e.s.x); l.setAttribute("y1", e.s.y); l.setAttribute("x2", x2); l.setAttribute("y2", y2);
       });
     });
-    nodes.forEach(function (n) { n.g.setAttribute("transform", "translate(" + n.x + "," + n.y + ")"); });
+    var hitR = 12 / view.k;  // 화면에서 지름 약 24px
+    nodes.forEach(function (n) {
+      n.g.setAttribute("transform", "translate(" + n.x + "," + n.y + ")");
+      n.hitC.setAttribute("r", Math.max(n.r + 3, hitR));
+    });
     viewport.setAttribute("transform", "translate(" + view.x + "," + view.y + ") scale(" + view.k + ")");
   }
 
   function fit() {
     var box = svg.getBoundingClientRect();
     lastWidth = box.width;
-    if (!nodes.length || !box.width || !box.height) return;
-    var minX = Math.min.apply(null, nodes.map(function (n) { return n.x; })) - 40;
-    var maxX = Math.max.apply(null, nodes.map(function (n) { return n.x + n.w; })) + 20;
-    var minY = Math.min.apply(null, nodes.map(function (n) { return n.y; })) - 40;
-    var maxY = Math.max.apply(null, nodes.map(function (n) { return n.y; })) + 40;
+    var vis = nodes.filter(function (n) { return n.visible !== false; });
+    if (!vis.length) vis = nodes;
+    if (!vis.length || !box.width || !box.height) return;
+    var minX = Math.min.apply(null, vis.map(function (n) { return n.x; })) - 40;
+    var maxX = Math.max.apply(null, vis.map(function (n) { return n.x + n.w; })) + 20;
+    var minY = Math.min.apply(null, vis.map(function (n) { return n.y; })) - 40;
+    var maxY = Math.max.apply(null, vis.map(function (n) { return n.y; })) + 40;
     view.k = Math.min(box.width / (maxX - minX), box.height / (maxY - minY), 2);
     view.x = box.width / 2 - (minX + maxX) / 2 * view.k;
     view.y = box.height / 2 - (minY + maxY) / 2 * view.k;
@@ -387,7 +409,7 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
     tip.style.display = "block";
     tip.textContent = text;
     tip.style.left = Math.max(0, Math.min(ev.clientX - box.left + 12, box.width - 290)) + "px";
-    tip.style.top = (ev.clientY - box.top + 12) + "px";
+    tip.style.top = Math.max(0, Math.min(ev.clientY - box.top + 12, box.height - tip.offsetHeight - 4)) + "px";
   }
   function hideTip() { tip.style.display = "none"; }
 
@@ -399,7 +421,9 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
     function keys(m) { return [m.id].concat(m.aliases).map(function (s) { return String(s).toLowerCase(); }); }
     var n = byId[text] || nodes.filter(function (m) { return keys(m).indexOf(q) >= 0; })[0]
       || nodes.filter(function (m) { return keys(m).some(function (s) { return s.indexOf(q) >= 0; }); })[0];
-    if (!n) return;
+    var status = document.getElementById("status"), hint = document.getElementById("hint");
+    if (!n) { status.textContent = hint.textContent = "'" + text + "'와(과) 맞는 기업이 없습니다"; return; }
+    hint.textContent = "";
     if (!n.visible) { document.getElementById("theme").value = ""; hidden = {}; resetLegend(); applyFilter(); }
     var box = svg.getBoundingClientRect();
     view.x = box.width / 2 - n.x * view.k; view.y = box.height / 2 - n.y * view.k;
@@ -409,7 +433,9 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
   function resetLegend() { Array.prototype.forEach.call(document.querySelectorAll("#legend input"), function (b) { b.checked = true; }); }
 
   // 점을 고르면 관계와 근거를 옆 패널에 보여 준다
+  var selected = null;
   function select(n) {
+    selected = n;
     var near = {}; near[n.id] = true;
     edges.forEach(function (e) { if (e.source === n.id) near[e.target] = true; if (e.target === n.id) near[e.source] = true; });
     nodes.forEach(function (m) { m.g.classList.toggle("dim", !near[m.id]); m.g.classList.toggle("hit", m === n); });
@@ -461,18 +487,27 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
       });
     }
     var own = edges.filter(function (e) { return e.type === "테마" && e.source === n.id; });
-    var evidence = [].concat.apply([], own.map(function (e) { return e.evidence.map(function (v) { return Object.assign({ theme: e.target }, v); }); }));
+    var merged = {};
+    own.forEach(function (e) {
+      e.evidence.forEach(function (v) {
+        var k = v.date + "|" + v.kind + "|" + v.text + "|" + sourcesOf(v).join(" ");
+        (merged[k] = merged[k] || Object.assign({ themes: [] }, v)).themes.push(e.target);
+      });
+    });
+    var evidence = Object.keys(merged).map(function (k) { return merged[k]; });
     if (evidence.length) {
       html("h3", "테마 근거", panel);
       var el2 = html("ul", null, panel);
       evidence.sort(function (a, b) { return a.date < b.date ? 1 : -1; }).forEach(function (v) {
-        addSources(html("li", v.date + " [" + v.kind + "] " + v.text, el2), v);
+        addSources(html("li", v.date + " [" + v.kind + "] " + v.text + " · " + v.themes.join(", "), el2), v);
       });
     }
+    document.getElementById("status").textContent = n.id + " 선택됨, 관계 " + rels.length + "개. 자세한 내용은 옆 패널에 있습니다";
     if (window.matchMedia(NARROW).matches) panel.scrollIntoView({ block: "start", behavior: "smooth" });
   }
 
   function clearSelection() {
+    selected = null;
     nodes.forEach(function (m) { m.g.classList.remove("dim", "hit"); });
     edges.forEach(function (e) { e.line.classList.remove("dim"); });
   }
@@ -485,9 +520,11 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
     n.moved = false; n.dragging = true;
     var start = { x: ev.clientX, y: ev.clientY, nx: n.x, ny: n.y };
     n.g.setPointerCapture(ev.pointerId);
+    var slack = ev.pointerType === "mouse" ? 3 : 8;  // 화면 픽셀 기준 (손가락은 탭할 때 조금 움직인다)
     function move(e) {
       var dx = (e.clientX - start.x) / view.k, dy = (e.clientY - start.y) / view.k;
-      if (Math.abs(dx) + Math.abs(dy) > 3) n.moved = true;
+      if (Math.abs(e.clientX - start.x) + Math.abs(e.clientY - start.y) > slack) n.moved = true;
+      if (!n.moved) return;
       n.x = start.nx + dx; n.y = start.ny + dy;
       position();
     }
@@ -519,6 +556,9 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
   });
   svg.addEventListener("pointermove", function (ev) {
     if (!pointers[ev.pointerId]) return;
+    if (ev.pointerType === "mouse" && !(ev.buttons & 1)) {  // 지도 밖에서 단추를 뗀 경우
+      delete pointers[ev.pointerId]; pan = null; pinch = null; svg.classList.remove("dragging"); return;
+    }
     pointers[ev.pointerId] = { x: ev.clientX, y: ev.clientY };
     var ids = Object.keys(pointers);
     if (pinch && ids.length === 2) {
@@ -550,7 +590,10 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
   }
   svg.addEventListener("pointerup", endPointer);
   svg.addEventListener("pointercancel", endPointer);
+  var embedded = window.self !== window.top;
+  if (embedded) document.getElementById("hint").textContent = "확대: Ctrl+휠 또는 두 손가락";
   svg.addEventListener("wheel", function (ev) {
+    if (embedded && !ev.ctrlKey && !ev.metaKey) return;
     ev.preventDefault();
     zoomAt(ev.clientX, ev.clientY, Math.exp(-ev.deltaY * 0.0015));
   }, { passive: false });

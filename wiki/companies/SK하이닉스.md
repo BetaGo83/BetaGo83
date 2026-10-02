@@ -21,7 +21,7 @@ updated: 2026-10-03
 |---|---|---|---|---|
 | 경쟁 | [[마이크론]] | HBM (마이크론 커스텀 HBM 도전) | 2026-10-01 | [아주경제](https://news.google.com/rss/articles/CBMiWkFVX3lxTFBra2pkdEY0QkRRQkxWd3RVZFVsaFhLMDJrUzRFT0lGMFJvalNzZWFfZE5aYVhDbTh2UjhmbGxHQnJMQUpEc01JTWlJM0hRVm96R09OWDRPSzRLZ9IBWEFVX3lxTFAtYS1hNjZ5TzN3a09LeG5Cd1VFV2pBU083SktkYm11LWEwODNkTDBCM2Q1N2lDUUNpYzVkWWUyaU9fRzl2SGJldzZtUWxvdEJ1TXMyZ2RDSWs?oc=5) |
 | 경쟁 | [[삼성전자]] | HBM (반도체 전시회에서 차세대 HBM 기술로 격돌) | 2026-10-01 | [뉴시스](https://news.google.com/rss/articles/CBMieEFVX3lxTE9Xc195OENHdmdzNXRoM0JDNzJTLUppbkZETzBLdm41WE5EYUx1ZXNJaTBYdk1iMGE3bmd4X01XY1pVVEdxd2dGYktpWVRMblpETk5ZUkh5LXBGalBnakdBMEszTXJTN1lCSE5KUEFrNjE3Rk9PdnBIdNIBeEFVX3lxTE9Xc195OENHdmdzNXRoM0JDNzJTLUppbkZETzBLdm41WE5EYUx1ZXNJaTBYdk1iMGE3bmd4X01XY1pVVEdxd2dGYktpWVRMblpETk5ZUkh5LXBGalBnakdBMEszTXJTN1lCSE5KUEFrNjE3Rk9PdnBIdA?oc=5) |
-| 공급사 | [[위드텍]] | 공정·제조환경 모니터링 장비 41억5천만 원 | 2026-09-30 | [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930901244) |
+| 공급사 | [[위드텍]] | 공정·제조환경 모니터링 장비 41억5,160만 원 | 2026-09-30 | [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930901244) |
 
 ## 테마
 - [[HBM·반도체]] · 메모리 제조: HBM을 만드는 메모리 회사 ([아이티데일리](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ZSERCVUdyNnN3VE9BTGJvTDRCb0JqaXQ2Z0JCLWhZN1dzQWdENXR2dTBNVjZoX09iTmhwNUtYaGhVZ3VpSG16TGZTeEhza04wV044QXdjLV93SF9DendWWFdvaUVxZEZE?oc=5))

@@ -12,7 +12,7 @@ import json
 import re
 from datetime import date
 
-from wiki_common import WIKI, pages, today_kst
+from wiki_common import FRONTMATTER, WIKI, pages, today_kst
 
 LINK = re.compile(r"\[\[([^\]|#\\]+)\\?(?:[|#][^\]]*)?\]\]")
 CELL_SPLIT = re.compile(r"(?<!\\)\|")
@@ -34,8 +34,12 @@ EDGE = {
 TABLE_NOTE = "<!-- scripts/build_graph.py가 만드는 표. 손으로 고치지 않는다 -->"
 
 
+# 칸의 끝: 다음 '## ' 제목, 면책 문구 앞의 '---' 줄, 또는 파일 끝
+SECTION_END = r"(?=^## |^---\s*$|\Z)"
+
+
 def section(body, title):
-    match = re.search(rf"^## {re.escape(title)}\s*\n(.*?)(?=^## |\Z)", body, re.S | re.M)
+    match = re.search(rf"^## {re.escape(title)}\s*\n(.*?){SECTION_END}", body, re.S | re.M)
     return match.group(1) if match else ""
 
 
@@ -77,11 +81,16 @@ def relations(body):
         if not line.startswith("|"):
             continue
         cells = [cell.strip().replace("\\|", "|") for cell in CELL_SPLIT.split(line.strip("|"))]
-        if cells[0] in ("관계", "") or set(cells[0]) <= {"-", ":", " "}:
-            continue
+        if cells[0] == "관계" or all(cell and set(cell) <= set("-: ") for cell in cells):
+            continue  # 머리글 줄과 구분선
+        problem = ""
         if len(cells) != 5:
+            problem = "칸 수가 5개가 아닙니다 (관계|상대|내용|날짜|출처)"
+        elif not cells[0] or not cells[1]:
+            problem = "관계나 상대 칸이 비었습니다"
+        if problem:
             rows.append({"type": cells[0], "target": "", "linked": False, "detail": line, "date": "",
-                         "sources": [], "malformed": True})
+                         "sources": [], "malformed": problem})
             continue
         target = LINK.search(cells[1])
         rows.append({
@@ -91,7 +100,7 @@ def relations(body):
             "detail": plain(cells[2]),
             "date": cells[3],
             "sources": sources_of(cells[4]),
-            "malformed": False,
+            "malformed": "",
         })
     return rows
 
@@ -278,13 +287,16 @@ def build(today=None):
 
 def replace_section(text, title, content):
     """'## 제목' 칸의 내용을 바꾼다. 칸이 없으면 '## 최근 동향' 앞(없으면 끝)에 새로 넣는다."""
-    pattern = re.compile(rf"(^## {re.escape(title)}\s*\n)(.*?)(?=^## |^---\s*$|\Z)", re.S | re.M)
+    pattern = re.compile(rf"(^## {re.escape(title)}\s*\n)(.*?){SECTION_END}", re.S | re.M)
     if pattern.search(text):
         return pattern.sub(lambda m: m.group(1) + content.strip() + "\n\n", text, count=1)
     block = f"## {title}\n{content.strip()}\n\n"
-    anchor = re.search(r"^## 최근 동향", text, re.M)
-    if anchor:
-        return text[:anchor.start()] + block + text[anchor.start():]
+    # 칸이 없으면 '최근 동향' 앞, 없으면 면책 문구('---') 앞, 없으면 '사람 메모' 앞에 넣는다 (사람 메모 아래는 건드리지 않는다)
+    start = FRONTMATTER.match(text).end() if FRONTMATTER.match(text) else 0
+    for anchor in (r"^## 최근 동향", r"^---\s*$", r"^## 사람 메모"):
+        found = re.compile(anchor, re.M).search(text, start)
+        if found:
+            return text[:found.start()] + block + text[found.start():]
     return text.rstrip() + "\n\n" + block
 
 

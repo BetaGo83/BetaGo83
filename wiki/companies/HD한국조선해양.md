@@ -11,10 +11,11 @@ updated: 2026-10-03
 
 # HD한국조선해양
 
-> 삼성중공업·한화오션과 해상 SMR 개발을 논의하는 조선 회사
+> 삼성중공업·한화오션과 해상 SMR 개발을 논의하는 회사
 
 ## 사업 개요
 - 삼성중공업·한화오션과 해상 SMR 개발을 함께 논의 ([해사신문](https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWTlidElDR1ZaXzRialRhbE9TQjNmeVRVRERUQUxzLTBlLWxPS3NKVVJZamFPX0FyZG1iLUlnM2VxVG9Eb1E5UnBERG1qMFdCbjl6Yk1pdEdlUzVnUmkzRDFRNWE2TmRhT3Qw?oc=5))
+- 자회사가 멕시코 소재 원유 개발 업체와 맺은 FPU 1기 공급계약(2023-06-30)의 금액을 1조8,422억 원에서 1조9,539억 원으로, 종료일을 2027-04-01에서 2027-06-01로 바꾸는 정정 공시 (2026-09-30) ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930800164))
 
 ## 관계
 | 관계 | 상대 | 내용 | 날짜 | 출처 |

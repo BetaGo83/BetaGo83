@@ -51,7 +51,7 @@
     "해외 원전사업",
     "설계",
     "원전·SMR 사업",
-    "사업관리(PM)",
+    "사업개발·투자",
     "사용후핵연료 처분",
     "해상 SMR(조선)",
     "원전 설비·장비"
@@ -61,7 +61,7 @@
    "id": "HD한국조선해양",
    "type": "company",
    "path": "companies/HD한국조선해양",
-   "summary": "삼성중공업·한화오션과 해상 SMR 개발을 논의하는 조선 회사",
+   "summary": "삼성중공업·한화오션과 해상 SMR 개발을 논의하는 회사",
    "market": "KOSPI",
    "ticker": "009540",
    "dart_corp_code": "00164830",
@@ -121,7 +121,7 @@
    "id": "LG에너지솔루션",
    "type": "company",
    "path": "companies/LG에너지솔루션",
-   "summary": "ESS·차량용 배터리를 공급하는 회사",
+   "summary": "ESS 배터리를 공급하고 차량용 46시리즈 배터리 공급 MOU를 맺은 회사",
    "market": "KOSPI",
    "ticker": "373220",
    "dart_corp_code": "01515323",
@@ -134,7 +134,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "배터리",
-     "score": 8.37
+     "score": 5.42
     }
    ]
   },
@@ -155,7 +155,7 @@
      "theme": "방산",
      "tier": 1,
      "stage": "유도무기",
-     "score": 3.93
+     "score": 1.96
     }
    ]
   },
@@ -194,7 +194,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "소재 공장 설비",
-     "score": 8.79
+     "score": 2.93
     }
    ]
   },
@@ -212,7 +212,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "검사 장비·부품",
-     "score": 4.33
+     "score": 1.44
     }
    ]
   },
@@ -433,7 +433,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "하이브리드 본딩",
-     "score": 3.97
+     "score": 1.98
     }
    ]
   },
@@ -453,7 +453,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "양극재",
-     "score": 2.93
+     "score": 0.98
     }
    ]
   },
@@ -473,7 +473,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "양극재",
-     "score": 3.94
+     "score": 1.97
     }
    ]
   },
@@ -493,7 +493,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "검사 장비·부품",
-     "score": 4.36
+     "score": 1.45
     }
    ]
   },
@@ -519,7 +519,7 @@
    "id": "이수스페셜티케미컬",
    "type": "company",
    "path": "companies/이수스페셜티케미컬",
-   "summary": "황화리튬을 생산하는 화학 회사",
+   "summary": "황화리튬 상업생산에 나서는 화학 회사",
    "market": "KOSPI",
    "ticker": "457190",
    "dart_corp_code": "01762569",
@@ -627,7 +627,7 @@
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "원전 설비·장비",
-     "score": 4.4
+     "score": 1.47
     }
    ]
   },
@@ -647,7 +647,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "검사 장비·부품",
-     "score": 4.36
+     "score": 1.45
     }
    ]
   },
@@ -707,7 +707,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "",
-     "score": 7.39
+     "score": 4.43
     }
    ]
   },
@@ -715,7 +715,7 @@
    "id": "한국수력원자력",
    "type": "company",
    "path": "companies/한국수력원자력",
-   "summary": "국내외 원전·SMR 사업을 하는 회사",
+   "summary": "원전·SMR 사업을 하는 회사",
    "market": "비상장",
    "ticker": "",
    "dart_corp_code": "00382001",
@@ -736,7 +736,7 @@
    "id": "한미글로벌",
    "type": "company",
    "path": "companies/한미글로벌",
-   "summary": "건설사업관리(PM) 회사",
+   "summary": "PM(사업관리) 회사",
    "market": "KOSPI",
    "ticker": "053690",
    "dart_corp_code": "00413523",
@@ -747,7 +747,7 @@
     {
      "theme": "원전·SMR",
      "tier": 1,
-     "stage": "사업관리(PM)",
+     "stage": "사업개발·투자",
      "score": 2.98
     }
    ]
@@ -766,7 +766,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "후공정 장비",
-     "score": 8.32
+     "score": 5.34
     }
    ]
   },
@@ -848,7 +848,7 @@
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "사용후핵연료 처분",
-     "score": 1.98
+     "score": 0.99
     }
    ]
   },
@@ -886,12 +886,6 @@
   },
   {
    "id": "Huaian Tenpower Lithium",
-   "type": "external",
-   "path": null,
-   "summary": "위키 페이지가 아직 없는 상대"
-  },
-  {
-   "id": "L3해리스",
    "type": "external",
    "path": null,
    "summary": "위키 페이지가 아직 없는 상대"
@@ -959,27 +953,13 @@
    ]
   },
   {
-   "source": "L3해리스",
-   "target": "LIG디펜스앤에어로스페이스",
-   "type": "공급",
-   "evidence": [
-    {
-     "date": "2026-10-01",
-     "text": "선급금 390억6천만 원 지급 (3개사 합계)",
-     "sources": [
-      "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGa3RzMzk5czltdlJraXlEVEN4cVJ4UlI1c2Q3bEZyaXpha0JIeDVIcDU5VVpWVU1vT2FuV0JodTdXZE9JN1RkdkhUSlpxVzRQcGt4azI3OVFuSllXajhNZ2NGNXNHVWw3?oc=5"
-     ]
-    }
-   ]
-  },
-  {
    "source": "LG에너지솔루션",
    "target": "Hanwha Q CELLS USA",
    "type": "공급",
    "evidence": [
     {
      "date": "2026-10-01",
-     "text": "ESS 배터리 1조2,813억 원 (계약 2024-05-16, 정정 공시)",
+     "text": "ESS 배터리 약 1조2,813억 원 (계약 2024-05-16, 정정 공시)",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001800119"
      ]
@@ -993,7 +973,7 @@
    "evidence": [
     {
      "date": "2026-09-30",
-     "text": "광양 양극재 5단계 수세설비·기구부 (정정 공시)",
+     "text": "광양 양극재 5단계 수세설비 234억8,700만 원(계약 2024-02-20)·기구부 436억2천만 원(계약 2024-05-13) (정정 공시)",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930900759",
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930900767"
@@ -1008,7 +988,7 @@
    "evidence": [
     {
      "date": "2026-09-28",
-     "text": "CLT Interface Board 69억 원 (계약 2026-05-28, 정정 공시)",
+     "text": "CLT Interface Board 약 69억 원 (계약 2026-05-28, 정정 공시)",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900895"
      ]
@@ -1022,7 +1002,7 @@
    "evidence": [
     {
      "date": "2026-10-01",
-     "text": "반도체 검사장비 153억 원 (2026-09-30~2027-12-31)",
+     "text": "반도체 검사장비 약 153억 원 (2026-09-30~2027-12-31)",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001800054"
      ]
@@ -1050,7 +1030,7 @@
    "evidence": [
     {
      "date": "2026-09-30",
-     "text": "공정·제조환경 모니터링 장비 41억5천만 원",
+     "text": "공정·제조환경 모니터링 장비 41억5,160만 원",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930901244"
      ]
@@ -1078,7 +1058,7 @@
    "evidence": [
     {
      "date": "2026-09-29",
-     "text": "말레이시아 법인에 반도체 검사장비 228억6천만 원 (계약 2026-04-13, 정정 공시)",
+     "text": "말레이시아 법인에 반도체 검사장비 약 228억6천만 원 (계약 2026-04-13, 정정 공시)",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900917"
      ]
@@ -1120,7 +1100,7 @@
    "evidence": [
     {
      "date": "2026-09-29",
-     "text": "반도체 제조용 MSVP 장비 78억7천만 원 (태국)",
+     "text": "반도체 제조용 MSVP 장비 약 78억7천만 원 (태국)",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929800083"
      ]
@@ -1209,7 +1189,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "배터리",
-   "score": 8.37,
+   "score": 5.42,
    "evidence": [
     {
      "date": "2026-10-02",
@@ -1221,8 +1201,8 @@
     },
     {
      "date": "2026-10-01",
-     "kind": "계약",
-     "text": "Hanwha Q CELLS USA와 맺은 ESS 배터리 1조2,813억 원 계약(2024-05-16)의 정정 공시, 종료일 2026-10-01",
+     "kind": "기타",
+     "text": "Hanwha Q CELLS USA와 맺은 ESS 배터리 약 1조2,813억 원 계약(2024-05-16)의 정정 공시, 종료일 2026-10-01",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001800119"
      ]
@@ -1243,12 +1223,12 @@
    "type": "테마",
    "tier": 1,
    "stage": "유도무기",
-   "score": 3.93,
+   "score": 1.96,
    "evidence": [
     {
      "date": "2026-10-01",
-     "kind": "계약",
-     "text": "L3해리스 등 3개사에 390억6천만 원 선급금 지급 결정",
+     "kind": "기타",
+     "text": "L3해리스 등 3개사에 390억6,004만 원 선급금 지급 결정",
      "sources": [
       "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGa3RzMzk5czltdlJraXlEVEN4cVJ4UlI1c2Q3bEZyaXpha0JIeDVIcDU5VVpWVU1vT2FuV0JodTdXZE9JN1RkdkhUSlpxVzRQcGt4azI3OVFuSllXajhNZ2NGNXNHVWw3?oc=5"
      ]
@@ -1287,20 +1267,20 @@
    "type": "테마",
    "tier": 1,
    "stage": "소재 공장 설비",
-   "score": 8.79,
+   "score": 2.93,
    "evidence": [
     {
      "date": "2026-09-30",
-     "kind": "계약",
-     "text": "포스코퓨처엠 광양 양극재 5단계 수세설비 234억8,700만 원 계약 기간을 2026-10-31까지 늘리는 정정 공시",
+     "kind": "기타",
+     "text": "포스코퓨처엠과 맺은 광양 양극재 5단계 수세설비 234억8,700만 원 계약(2024-02-20)의 기간을 2026-10-31까지 늘리는 정정 공시",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930900759"
      ]
     },
     {
      "date": "2026-09-30",
-     "kind": "계약",
-     "text": "포스코퓨처엠 광양 양극재 5단계 기구부 436억2천만 원 계약 기간을 2026-10-31까지 늘리는 정정 공시",
+     "kind": "기타",
+     "text": "포스코퓨처엠과 맺은 광양 양극재 5단계 기구부 436억2천만 원 계약(2024-05-13)의 기간을 2026-10-31까지 늘리는 정정 공시",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930900767"
      ]
@@ -1313,12 +1293,12 @@
    "type": "테마",
    "tier": 1,
    "stage": "검사 장비·부품",
-   "score": 4.33,
+   "score": 1.44,
    "evidence": [
     {
      "date": "2026-09-28",
-     "kind": "계약",
-     "text": "삼성전자와 맺은 CLT Interface Board 69억 원 계약의 기간을 2026-11-04까지 늘리는 정정 공시",
+     "kind": "기타",
+     "text": "삼성전자와 맺은 CLT Interface Board 약 69억 원 계약(2026-05-28)의 기간을 2026-11-04까지 늘리는 정정 공시",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900895"
      ]
@@ -1345,7 +1325,7 @@
     {
      "date": "2026-10-01",
      "kind": "계약",
-     "text": "삼성전자와 반도체 검사장비 153억 원 공급계약 체결 (2026-09-30~2027-12-31)",
+     "text": "삼성전자와 반도체 검사장비 약 153억 원 공급계약 체결 (2026-09-30~2027-12-31)",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001800054"
      ]
@@ -1487,7 +1467,7 @@
     {
      "date": "2026-10-01",
      "kind": "수주",
-     "text": "해외 방산업체와 적외선 검출기 조립체 618억 원 공급계약 (2026-09-30~2029-09-01)",
+     "text": "해외 방산업체와 적외선 검출기 조립체 약 618억 원 공급계약 (2026-09-30~2029-09-01)",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001900495"
      ]
@@ -1518,7 +1498,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "하이브리드 본딩",
-   "score": 3.97,
+   "score": 1.98,
    "evidence": [
     {
      "date": "2026-10-02",
@@ -1526,14 +1506,6 @@
      "text": "베시와 EPIC 센터에서 하이브리드 본딩 공동 개발",
      "sources": [
       "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KdXh0SllfSlRabUJDUllHTnQ3NWNIWko4RFNpakJncXhacnRjTWdSNGJSNGFkanE4aXpURzNiXzBoVnlvdl9FNk1mMExJc0x2WGxyRG0yWDUwM044RWhOUVZFTjh1QQ?oc=5"
-     ]
-    },
-    {
-     "date": "2026-10-02",
-     "kind": "협력",
-     "text": "베시와 AI 반도체 패키징 공동 개발 확대",
-     "sources": [
-      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRX0dvV1g1RnplcXBPYjJZc1Z0c2RaXzF2RlNncGdpc2Q3djNRc2pqSzRVMjJGTUJfRk5zMEw3UFk3Nk83c0VUU0k0dkxIbDZrTHBBcDlTWFMzWmYyclZ6QWN2WnpXRknSAWtBVV95cUxPN3NKbGxRMXlHS2luYXZpeXBPUXljUGRuZmVweWFZTDZUQjFDbXczWU43NWtDQjZDbmNOTjJFcTdvLVI4a0NmUzR1RkZCeHdPTXJkVzdGYXd5Q3Bab0lTNWVrNHlrYlZpVGNtQQ?oc=5"
      ]
     }
    ]
@@ -1544,11 +1516,11 @@
    "type": "테마",
    "tier": 1,
    "stage": "양극재",
-   "score": 2.93,
+   "score": 0.98,
    "evidence": [
     {
      "date": "2026-09-30",
-     "kind": "계약",
+     "kind": "기타",
      "text": "BMW·벤츠 신형 전기차용 양극재 공급 (보도 제목에 삼성SDI 언급)",
      "sources": [
       "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ybU5JSXd0VjBtMi1uVlJSSnl4ZklYQzJtdlZvU1pXOTlJblI0RFlpZlJRcUU1ZXR4aF92ZmNoUzB6NGpSMk1uRzZsZ0RfM0dBQjdWcl92eFJmVThhNzJ2UmJkdHhsZw?oc=5"
@@ -1562,11 +1534,11 @@
    "type": "테마",
    "tier": 1,
    "stage": "양극재",
-   "score": 3.94,
+   "score": 1.97,
    "evidence": [
     {
      "date": "2026-10-01",
-     "kind": "투자",
+     "kind": "기타",
      "text": "LFP 양극재 공장을 준공하고 3분기 양산 시작",
      "sources": [
       "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BUGlJZmRkWDcyV0lhTFR2MWthSWFNbUxPeDFDUjNfT2F2YW1CZDA1MmNGOUNwV05SWUstaGlhMHZRSWdqXzhudlZRdDRWbmY1b3dKN3dPUEd0R29jd3VMSmlGcw?oc=5"
@@ -1588,12 +1560,12 @@
    "type": "테마",
    "tier": 1,
    "stage": "검사 장비·부품",
-   "score": 4.36,
+   "score": 1.45,
    "evidence": [
     {
      "date": "2026-09-29",
-     "kind": "계약",
-     "text": "삼성전자와 맺은 반도체 검사장비 403억 원 계약의 기간을 2026-12-31까지 늘리는 정정 공시",
+     "kind": "기타",
+     "text": "삼성전자와 맺은 반도체 검사장비 403억 원 계약(2026-03-03)의 기간을 2026-12-31까지 늘리는 정정 공시",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900723"
      ]
@@ -1611,7 +1583,7 @@
     {
      "date": "2026-09-30",
      "kind": "계약",
-     "text": "SK하이닉스와 반도체 공정·제조환경 모니터링 장비 41억5천만 원 공급계약 체결",
+     "text": "SK하이닉스와 반도체 공정·제조환경 모니터링 장비 41억5,160만 원 공급계약 체결",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930901244"
      ]
@@ -1701,7 +1673,7 @@
     {
      "date": "2026-10-02",
      "kind": "기타",
-     "text": "드론 핵심 구동부를 국산으로 바꾸고 육군 교육용 기체 탑재 체계를 확보",
+     "text": "육군 교육용 기체 탑재 체계를 확보했다고 보도됨 (기사 제목 표현: '드론 핵심 구동부 내수 전환')",
      "sources": [
       "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44bmpNdVl3MXczRlV2WXRvcGo3allzOGFvVnQwcnY3ZW5sLUJzR1JhaG1WQTFsaDByYzRSMnZaMXpDMW93Vm05RWk3bUFaOXFSQ1NwS05EcXFNbl8zVlNj?oc=5"
      ]
@@ -1722,12 +1694,12 @@
    "type": "테마",
    "tier": 1,
    "stage": "원전 설비·장비",
-   "score": 4.4,
+   "score": 1.47,
    "evidence": [
     {
      "date": "2026-09-30",
-     "kind": "계약",
-     "text": "부산지방조달청과 맺은 PHWR 방사화구조물 절단 플랫폼 25억 원 계약(2026-01-09)의 정정 공시",
+     "kind": "기타",
+     "text": "부산지방조달청과 맺은 PHWR 방사화구조물 절단 플랫폼 약 25억 원 계약(2026-01-09)의 정정 공시",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930901316"
      ]
@@ -1740,12 +1712,12 @@
    "type": "테마",
    "tier": 1,
    "stage": "검사 장비·부품",
-   "score": 4.36,
+   "score": 1.45,
    "evidence": [
     {
      "date": "2026-09-29",
-     "kind": "계약",
-     "text": "Micron Memory Malaysia와 맺은 반도체 검사장비 228억6천만 원 계약의 기간을 2026-11-06까지 늘리는 정정 공시",
+     "kind": "기타",
+     "text": "Micron Memory Malaysia와 맺은 반도체 검사장비 약 228억6천만 원 계약(2026-04-13)의 기간을 2026-11-06까지 늘리는 정정 공시",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900917"
      ]
@@ -1802,22 +1774,15 @@
    "type": "테마",
    "tier": 1,
    "stage": "",
-   "score": 7.39,
+   "score": 4.43,
    "evidence": [
     {
      "date": "2026-10-01",
      "kind": "인수합병",
-     "text": "종속회사를 통해 2차전지 믹싱장비 업체 인수 목적으로 138억 원 지분 취득 결정",
+     "text": "2차전지 장비업체 제일엠앤에스 인수 보도, 같은 날 종속회사가 2차전지 믹싱장비 업체 인수를 목적으로 에프지투자3호 지분 99.6%를 138억 원에 취득하기로 결정한 공시",
      "sources": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XVlgzRFZCU0RaR2FYZ0pjWUlPazBtOExvdkIydElNSlVFaGpHN0VRcC1HckZ4NEVHOVFMTnh4UU9neDhyWjNqbEd1d2hKdkJfbUlucFNB?oc=5",
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001900550"
-     ]
-    },
-    {
-     "date": "2026-10-01",
-     "kind": "인수합병",
-     "text": "2차전지 장비업체 제일엠앤에스 인수",
-     "sources": [
-      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XVlgzRFZCU0RaR2FYZ0pjWUlPazBtOExvdkIydElNSlVFaGpHN0VRcC1HckZ4NEVHOVFMTnh4UU9neDhyWjNqbEd1d2hKdkJfbUlucFNB?oc=5"
      ]
     }
    ]
@@ -1861,7 +1826,7 @@
    "target": "원전·SMR",
    "type": "테마",
    "tier": 1,
-   "stage": "사업관리(PM)",
+   "stage": "사업개발·투자",
    "score": 2.98,
    "evidence": [
     {
@@ -1880,16 +1845,8 @@
    "type": "테마",
    "tier": 1,
    "stage": "후공정 장비",
-   "score": 8.32,
+   "score": 5.34,
    "evidence": [
-    {
-     "date": "2026-10-02",
-     "kind": "수주",
-     "text": "MSVP 장비 추가 수주",
-     "sources": [
-      "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1leHJUWGVGdXIza0NRdkdhM2dSYmpPUkdTd19HaC1ldXdvWkhRdkRIVWFMX0lFcmJfOV9ySWJUbXZoYVA0V1NQNjJxQXhGLTRaSEQxMmU4cXlReXVkYVR1RElRaXM?oc=5"
-     ]
-    },
     {
      "date": "2026-09-30",
      "kind": "기타",
@@ -1901,7 +1858,7 @@
     {
      "date": "2026-09-29",
      "kind": "수주",
-     "text": "UTAC Thai Limited에서 반도체 제조용 MSVP 장비 78억7천만 원 수주 (태국)",
+     "text": "UTAC Thai Limited에서 반도체 제조용 MSVP 장비 약 78억7천만 원 수주 (태국)",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929800083"
      ]
@@ -1976,22 +1933,15 @@
    "type": "테마",
    "tier": 1,
    "stage": "사용후핵연료 처분",
-   "score": 1.98,
+   "score": 0.99,
    "evidence": [
     {
      "date": "2026-10-02",
      "kind": "기타",
-     "text": "사용후핵연료 처분시설용 암반 굴착장비를 개발하고 실증까지 마침",
+     "text": "사용후핵연료 처분기술을 확보하고 원전 '전주기' 사업 확대, 처분시설용 암반 굴착장비를 개발하고 실증까지 마침",
      "sources": [
+      "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TRjRzV0VLRVNiQklhNUFQbUdOSHd3ZGxISGw1clZBMkNrWXdVRlpqeFZnRXZwc1JtWG5FTnlVWWV2WWViNEROcTBXRks3T19MR2tZd05Ya1BpTlZrVzNoNVpjcGw?oc=5",
       "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ES2l1aV9nU0h1Y193UWJISGxrOTlfTXNrVjBDTHY1NjBUNjNHQ3hESlNhZzdqM1hyWjRsUWhJUWdsdWtnTkVIU1pOTy1OS1VGMTc2anNOZnI?oc=5"
-     ]
-    },
-    {
-     "date": "2026-10-02",
-     "kind": "기타",
-     "text": "사용후핵연료 처분기술을 확보하고 원전 '전주기' 사업 확대",
-     "sources": [
-      "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TRjRzV0VLRVNiQklhNUFQbUdOSHd3ZGxISGw1clZBMkNrWXdVRlpqeFZnRXZwc1JtWG5FTnlVWWV2WWViNEROcTBXRks3T19MR2tZd05Ya1BpTlZrVzNoNVpjcGw?oc=5"
      ]
     }
    ]

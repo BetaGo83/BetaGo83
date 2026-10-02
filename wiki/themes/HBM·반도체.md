@@ -34,16 +34,16 @@ updated: 2026-10-03
 | 순위 | 기업 | 단계 | 점수 | 근거 수 | 최근 근거 |
 |---|---|---|---|---|---|
 | 1 | [[삼성전기]] | 패키지기판 | 8.7 | 2 | 2026-09-28 |
-| 2 | [[한미반도체]] | 후공정 장비 | 8.3 | 3 | 2026-10-02 |
+| 2 | [[한미반도체]] | 후공정 장비 | 5.3 | 2 | 2026-09-30 |
 | 3 | [[LB세미콘]] | 전력반도체 후공정 | 4.9 | 2 | 2026-10-01 |
 | 4 | [[디아이]] | 검사 장비·부품 | 4.4 | 1 | 2026-10-01 |
 | 5 | [[위드텍]] | 공정 모니터링 | 4.4 | 1 | 2026-09-30 |
-| 6 | [[와이씨]] | 검사 장비·부품 | 4.4 | 1 | 2026-09-29 |
-| 7 | [[테크윙]] | 검사 장비·부품 | 4.4 | 1 | 2026-09-29 |
-| 8 | [[네오셈]] | 검사 장비·부품 | 4.3 | 1 | 2026-09-28 |
-| 9 | [[어플라이드 머티어리얼즈]] | 하이브리드 본딩 | 4.0 | 2 | 2026-10-02 |
-| 10 | [[베시]] | 하이브리드 본딩 | 2.0 | 1 | 2026-10-02 |
-| 11 | [[마이크론]] | 메모리 제조 | 2.0 | 2 | 2026-10-01 |
+| 6 | [[베시]] | 하이브리드 본딩 | 2.0 | 1 | 2026-10-02 |
+| 7 | [[어플라이드 머티어리얼즈]] | 하이브리드 본딩 | 2.0 | 1 | 2026-10-02 |
+| 8 | [[마이크론]] | 메모리 제조 | 2.0 | 2 | 2026-10-01 |
+| 9 | [[와이씨]] | 검사 장비·부품 | 1.4 | 1 | 2026-09-29 |
+| 10 | [[테크윙]] | 검사 장비·부품 | 1.4 | 1 | 2026-09-29 |
+| 11 | [[네오셈]] | 검사 장비·부품 | 1.4 | 1 | 2026-09-28 |
 | 12 | [[SK하이닉스]] | 메모리 제조 | 1.0 | 1 | 2026-10-01 |
 | 13 | [[삼성전자]] | 메모리 제조 | 1.0 | 1 | 2026-10-01 |
 
@@ -55,7 +55,7 @@ updated: 2026-10-03
 - 2026-10-01 마이크론 분기 매출 73조5천억 원, 사상 최대 · [연합뉴스](https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CdkFtY2M5UVl1anMtaGlOT0luQmdod1VOLXZVbF9fV0FTT0xaX3JpR0lRSDdfRmVWcmRuVHpJMmhzZ3V0YXB6VE94dTJHa0ROcU9CTHVhVmVJX1ZHUE5ZeNIBYEFVX3lxTE9CdkFtY2M5UVl1anMtaGlOT0luQmdod1VOLXZVbF9fV0FTT0xaX3JpR0lRSDdfRmVWcmRuVHpJMmhzZ3V0YXB6VE94dTJHa0ROcU9CTHVhVmVJX1ZHUE5ZeA?oc=5)
 - 2026-10-01 넷리스트가 마이크론의 HBM 특허 침해를 주장하며 미국 ITC에 제소 · [아시아타임즈](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fTlBGNHZadlQ0YllMckhjaG1obUJ3dzdSQ3JZWFgteDY1MGNoaVF3bWNIdW1YRnhTRU96TVptUWp1OUpPYWwyRGJ5UjdNVlBlSmcyXzhDOTIxcWhtdEE?oc=5)
 - 2026-10-01 LB세미콘이 구미 전력반도체 후공정 설비에 746억 원 투자 · [뉴스1](https://news.google.com/rss/articles/CBMiX0FVX3lxTE44WHhma09WNEhkMlF6NFhPV1JpRjdUSXpiN3BHclQwM0tDaVNJMmRBRElqN01CdEtnMHFpbG9JODgzOWd4M0V0alhJYU5HM3BOMnRUdlVLYk1vUGFNTHB30gFkQVVfeXFMTXhiRWVSbzA5c0t6OFFiWjJtblRGbHprdnNCYWpJZU9lRlZPdkw3NzFPRmVxcW5BZVJfVHdzNk5POUFRUTF1c3Jna19nTGl3c1pjazlMSjVLeXpmVmJzd2p3Ul9oRQ?oc=5)
-- 2026-10-01 디아이가 삼성전자와 반도체 검사장비 153억 원 공급계약 · [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001800054)
+- 2026-10-01 디아이가 삼성전자와 반도체 검사장비 약 153억 원 공급계약 · [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001800054)
 - 2026-09-28 삼성전기가 패키지기판 증설에 4조2,700억 원 투자 결정 · [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928800810)
 
 ---

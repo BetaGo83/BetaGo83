@@ -74,8 +74,8 @@ def main():
     corps = load()
     for name in sys.argv[1:]:
         exact = [c for c in corps if c["corp_name"] == name]
-        found = exact or [c for c in corps if name in c["corp_name"]][:10]
-        found.sort(key=lambda c: not c["stock_code"])
+        # 상장사를 먼저 보이고 10개까지 (잘라내기 전에 정렬해야 상장사가 빠지지 않는다)
+        found = sorted(exact or [c for c in corps if name in c["corp_name"]], key=lambda c: not c["stock_code"])[:10]
         for c in found or [{"corp_name": f"{name}: 없음", "corp_code": "", "stock_code": ""}]:
             print(f"{c['corp_name']}\tcorp_code={c['corp_code']}\tstock_code={c['stock_code']}")
 
