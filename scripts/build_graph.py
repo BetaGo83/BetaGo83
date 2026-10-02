@@ -14,7 +14,8 @@ from datetime import date
 
 from wiki_common import WIKI, pages, today_kst
 
-LINK = re.compile(r"\[\[([^\]|#]+)(?:[|#][^\]]*)?\]\]")
+LINK = re.compile(r"\[\[([^\]|#\\]+)\\?(?:[|#][^\]]*)?\]\]")
+CELL_SPLIT = re.compile(r"(?<!\\)\|")
 URL = re.compile(r"\((https?://[^)\s]+)\)")
 ISSUE = re.compile(r"^- (\d{4}-\d{2}-\d{2}) \[([^\]]+)\] (.*)$")
 # 기업 페이지 테마 줄: - [[테마]] · 단계: 역할 (출처)
@@ -38,16 +39,29 @@ def section(body, title):
     return match.group(1) if match else ""
 
 
-def source_of(text):
-    url = URL.search(text)
-    return url.group(1) if url else ""
+def sources_of(text):
+    """줄에 있는 출처 링크 주소 전부."""
+    return URL.findall(text)
+
+
+def valid_date(text):
+    try:
+        date.fromisoformat(text)
+        return True
+    except (TypeError, ValueError):
+        return False
 
 
 def strip_source(text):
-    """줄 끝의 '(출처 링크)'나 '· [출처](링크)'를 떼어 낸 본문."""
-    text = re.sub(r"\s*\(\[[^\]]*\]\([^)]*\)\)\s*$", "", text)
-    text = re.sub(r"\s*·\s*\[[^\]]*\]\([^)]*\)\s*$", "", text)
-    return text.strip()
+    """줄에서 출처 링크('([매체](주소))', '· [매체](주소)', '[매체](주소)')를 모두 떼어 낸 본문."""
+    text = re.sub(r"\s*\((?:\[[^\]]*\]\([^)]*\)(?:,\s*)?)+\)", "", text)
+    text = re.sub(r"\s*·?\s*\[[^\]]*\]\(https?://[^)]*\)", "", text)
+    return re.sub(r"\s+", " ", text).strip(" ·,")
+
+
+def plain(text):
+    """위키링크를 링크 대상 글자로 바꾼다. [[삼성전자]] -> 삼성전자"""
+    return LINK.sub(lambda m: m.group(1).strip(), text)
 
 
 def summary(body):
@@ -56,19 +70,28 @@ def summary(body):
 
 
 def relations(body):
+    """'## 관계' 표의 줄들. 칸이 5개가 아닌 줄은 malformed=True로 돌려준다(점검이 알린다)."""
     rows = []
     for line in section(body, "관계").splitlines():
-        cells = [cell.strip() for cell in line.strip().strip("|").split("|")]
-        if len(cells) < 5 or cells[0] in ("관계", "") or set(cells[0]) <= {"-", ":"}:
+        line = line.strip()
+        if not line.startswith("|"):
+            continue
+        cells = [cell.strip().replace("\\|", "|") for cell in CELL_SPLIT.split(line.strip("|"))]
+        if cells[0] in ("관계", "") or set(cells[0]) <= {"-", ":", " "}:
+            continue
+        if len(cells) != 5:
+            rows.append({"type": cells[0], "target": "", "linked": False, "detail": line, "date": "",
+                         "sources": [], "malformed": True})
             continue
         target = LINK.search(cells[1])
         rows.append({
             "type": cells[0],
             "target": target.group(1).strip() if target else cells[1],
             "linked": bool(target),
-            "detail": cells[2],
+            "detail": plain(cells[2]),
             "date": cells[3],
-            "source": source_of(cells[4]),
+            "sources": sources_of(cells[4]),
+            "malformed": False,
         })
     return rows
 
@@ -83,9 +106,9 @@ def issues(body):
         result.append({
             "date": match.group(1),
             "kind": match.group(2),
-            "text": strip_source(LINK.sub("", text)).rstrip(" ·"),
-            "themes": [name.strip() for name in LINK.findall(text)],
-            "source": source_of(text),
+            "text": text,  # load()에서 테마 링크를 빼고 다듬는다
+            "links": [name.strip() for name in LINK.findall(text)],
+            "sources": sources_of(text),
         })
     return result
 
@@ -98,8 +121,8 @@ def theme_roles(body):
         if match:
             roles[match.group(1).strip()] = {
                 "stage": (match.group(2) or "").strip(),
-                "role": strip_source(match.group(3)),
-                "source": source_of(match.group(3)),
+                "role": strip_source(plain(match.group(3))),
+                "sources": sources_of(match.group(3)),
             }
     return roles
 
@@ -113,7 +136,7 @@ def value_chain(body):
             chain.append({
                 "stage": match.group(1).strip(),
                 "companies": [name.strip() for name in LINK.findall(match.group(2))],
-                "source": source_of(match.group(2)),
+                "sources": sources_of(match.group(2)),
             })
     return chain
 
@@ -121,21 +144,32 @@ def value_chain(body):
 def evidence_score(item, today):
     days = max((today - date.fromisoformat(item["date"])).days, 0)
     weight = WEIGHTS.get(item["kind"], 1)
-    if "dart.fss.or.kr" in item["source"]:
+    if any("dart.fss.or.kr" in url for url in item["sources"]):
         weight *= 1.5
     return weight * 0.5 ** (days / 90)
 
 
 def load():
-    companies = {}
-    for name, path, meta, body in pages("companies"):
-        companies[name] = {
-            "meta": meta, "summary": summary(body), "relations": relations(body),
-            "issues": issues(body), "roles": theme_roles(body),
-        }
     themes = {}
     for name, path, meta, body in pages("themes"):
         themes[name] = {"meta": meta, "path": path, "summary": summary(body), "chain": value_chain(body)}
+    companies = {}
+    for name, path, meta, body in pages("companies"):
+        found = []
+        for item in issues(body):
+            if not valid_date(item["date"]):
+                continue  # 있을 수 없는 날짜는 점수에서 빼고, 점검(lint)이 알린다
+            text = item.pop("text")
+            for theme in item["links"]:
+                if theme in themes:  # 테마 링크는 본문에서 빼고, 기업 링크는 이름만 남긴다
+                    text = text.replace(f"[[{theme}]]", "")
+            item["text"] = strip_source(plain(text))
+            item["themes"] = [link for link in item.pop("links") if link in themes]
+            found.append(item)
+        companies[name] = {
+            "meta": meta, "summary": summary(body), "relations": [r for r in relations(body) if not r["malformed"]],
+            "issues": found, "roles": theme_roles(body),
+        }
     return companies, themes
 
 
@@ -150,7 +184,7 @@ def score_theme(theme, info, companies, today):
                 "tier": 1,
                 "stage": stage_of.get(name, company["roles"].get(theme, {}).get("stage", "")),
                 "score": round(sum(evidence_score(i, today) for i in evidence), 2),
-                "evidence": [{k: i[k] for k in ("date", "kind", "text", "source")} for i in evidence],
+                "evidence": [{k: i[k] for k in ("date", "kind", "text", "sources")} for i in evidence],
             }
     second = {}
     for name, company in companies.items():
@@ -182,7 +216,7 @@ def table(first, second, today):
             lines.append(f"| [[{name}]] | {row['score']:.1f} | [[{row['via']}]] | {row['via_type']} |")
     if not (first or second):
         lines.append("아직 근거가 있는 기업이 없습니다.")
-    lines += ["", f"점수: 근거마다 가중치 × 0.5^(경과일/90)의 합, {today} 기준. 계산 방법은 [[index]]를 참고하세요."]
+    lines += ["", f"점수: 근거마다 가중치 × 0.5^(경과일/90)의 합, {today} 기준. 계산 방법은 첫 화면(index)의 '보는 법'에 있습니다."]
     return "\n".join(lines)
 
 
@@ -226,8 +260,8 @@ def build(today=None):
                 externals.add(rel["target"])
             edge = edges.setdefault((source, target, kind),
                                     {"source": source, "target": target, "type": kind, "evidence": []})
-            item = {"date": rel["date"], "text": rel["detail"], "source": rel["source"]}
-            if not any(e["date"] == item["date"] and e["source"] == item["source"] for e in edge["evidence"]):
+            item = {"date": rel["date"], "text": rel["detail"], "sources": rel["sources"]}
+            if not any(e["date"] == item["date"] and e["sources"] == item["sources"] for e in edge["evidence"]):
                 edge["evidence"].append(item)
 
     for name in sorted(externals - set(companies)):
@@ -243,8 +277,15 @@ def build(today=None):
 
 
 def replace_section(text, title, content):
-    pattern = re.compile(rf"(^## {re.escape(title)}\s*\n)(.*?)(?=^## |\Z)", re.S | re.M)
-    return pattern.sub(lambda m: m.group(1) + content.strip() + "\n\n", text, count=1)
+    """'## 제목' 칸의 내용을 바꾼다. 칸이 없으면 '## 최근 동향' 앞(없으면 끝)에 새로 넣는다."""
+    pattern = re.compile(rf"(^## {re.escape(title)}\s*\n)(.*?)(?=^## |^---\s*$|\Z)", re.S | re.M)
+    if pattern.search(text):
+        return pattern.sub(lambda m: m.group(1) + content.strip() + "\n\n", text, count=1)
+    block = f"## {title}\n{content.strip()}\n\n"
+    anchor = re.search(r"^## 최근 동향", text, re.M)
+    if anchor:
+        return text[:anchor.start()] + block + text[anchor.start():]
+    return text.rstrip() + "\n\n" + block
 
 
 def main():

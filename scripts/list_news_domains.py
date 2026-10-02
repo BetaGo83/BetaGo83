@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """기사 본문을 읽으려면 클라우드 환경에서 허용해야 하는 언론사 도메인 목록을 만든다.
 
-테마 검색어와 위키 기업 이름으로 구글 뉴스 RSS(최근 30일)를 검색해, 각 기사에 붙은 언론사 주소
-(<source url="...">)를 모은다. 결과는 docs/allowed-domains.txt에 한 줄에 하나씩 쓴다.
-클라우드 환경 설정의 Network access를 Custom으로 바꾸고 Allowed domains 칸에 그대로 붙여 넣으면 된다.
+테마 검색어, 위키 기업 이름, 위키가 출처로 단 기사 제목으로 구글 뉴스 RSS(최근 30일)를 검색해
+각 기사에 붙은 언론사 주소(<source url="...">)를 모으고, raw/news의 outlet_url도 더한다.
+결과는 docs/allowed-domains.txt에 한 줄에 하나씩 쓴다. 클라우드 환경 설정의 Network access를 Custom으로
+바꾸고 Allowed domains 칸에 그대로 붙여 넣은 뒤 "Also include default list"를 체크하면 된다.
+블로그·영상·광고성 사이트(SKIP)는 넣지 않는다. 기사 본문은 신뢰할 수 없는 외부 글이라 허용 범위를 좁게 둔다.
 
     python3 scripts/list_news_domains.py
 """
@@ -14,8 +16,10 @@ import time
 import urllib.parse
 import xml.etree.ElementTree as ET
 
+import re
+
 from collect_news import SPAM, SPAM_OUTLETS, fetch
-from wiki_common import ROOT, pages
+from wiki_common import ROOT, WIKI, pages, read_jsonl
 
 OUTPUT = ROOT / "docs" / "allowed-domains.txt"
 # 2단계 국가 도메인 (예: hankyung.co.kr이 아니라 hankyung.com, mt.co.kr처럼 끝 세 칸을 남기는 경우)
@@ -25,11 +29,21 @@ ALWAYS = [
     "news.google.com",      # 구글 뉴스 RSS (이미 허용)
     "www.google.com",       # 구글 뉴스 링크를 실제 기사 주소로 풀 때 거치는 주소
     "openapi.naver.com",    # 네이버 검색 API (이미 허용)
-    "*.naver.com",          # 네이버 뉴스 본문 (n.news.naver.com)
-    "*.daum.net",           # 다음 뉴스 본문 (v.daum.net)
+    "n.news.naver.com",     # 네이버 뉴스 본문 (블로그·카페는 넣지 않는다)
+    "news.naver.com",
+    "m.news.naver.com",
+    "v.daum.net",           # 다음 뉴스 본문
     "opendart.fss.or.kr",   # DART API (이미 허용)
     "dart.fss.or.kr",       # DART 공시 뷰어
 ]
+# 뉴스가 아닌 곳: 포털(위 ALWAYS에서 뉴스 주소만 따로 허용), 블로그·영상·SNS, 시장조사·투자의견 사이트, 스팸
+SKIP = {
+    "naver.com", "daum.net", "google.com", "youtu.be", "youtube.com", "fb.com", "facebook.com", "meta.com",
+    "instagram.com", "x.com", "twitter.com", "weverse.io", "tistory.com", "brunch.co.kr", "note.com",
+    "blogspot.com", "medium.com", "actt.org.tt", "mlbkor.com", "calgaryroughnecks.com", "dto.ooo", "seattlen.com",
+    "indexbox.io", "fortunebusinessinsights.com", "businessresearchinsights.com", "straitsresearch.com",
+    "simplywall.st", "tikr.com", "thinkpool.com", "pressreader.com", "deloitte.com",
+}
 
 
 def registrable(host):
@@ -52,15 +66,31 @@ def outlets(query):
                 yield host, source.text or ""
 
 
+def cited_titles():
+    """위키가 출처로 단 기사들의 제목 (raw/news에서 주소로 찾는다)."""
+    cited = set()
+    for path in WIKI.rglob("*.md"):
+        cited.update(re.findall(r"\((https://news\.google\.com/[^)\s]+)\)", path.read_text(encoding="utf-8")))
+    return [row["title"] for row in read_jsonl("news") if row["url"] in cited]
+
+
 def main():
     queries = []
     for _, _, meta, _ in pages("themes"):
         queries += meta.get("keywords", [])
     for name, _, meta, _ in pages("companies"):
         queries.append(name)
+    queries += [f'"{title}"' for title in cited_titles()]  # 위키가 인용한 언론사는 빠짐없이
     queries = list(dict.fromkeys(queries))
 
     counts, names, apex = collections.Counter(), {}, set()
+    for row in read_jsonl("news"):  # 수집할 때 저장한 언론사 주소
+        host = urllib.parse.urlparse(row.get("outlet_url", "")).hostname
+        if host:
+            counts[registrable(host)] += 1
+            names.setdefault(registrable(host), row["outlet"])
+            if host.lower() == registrable(host):
+                apex.add(registrable(host))
     for number, query in enumerate(queries, 1):
         try:
             for host, outlet in outlets(query):
@@ -77,6 +107,8 @@ def main():
 
     lines = list(ALWAYS)
     for domain, _ in counts.most_common():
+        if domain in SKIP:
+            continue
         # '*.도메인'은 하위 주소(www., news. 등)만 허용하므로, 하위 주소 없이 쓰는 곳은 원래 주소도 넣는다
         for entry in ([domain] if domain in apex else []) + [f"*.{domain}"]:
             if entry not in lines:

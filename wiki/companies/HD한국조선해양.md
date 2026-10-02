@@ -6,15 +6,15 @@ market: KOSPI
 dart_corp_code: "00164830"
 aliases: [에이치디한국조선해양]
 themes: [원전·SMR]
-updated: 2026-10-02
+updated: 2026-10-03
 ---
 
 # HD한국조선해양
 
-> HD현대 계열 조선 중간지주회사
+> 삼성중공업·한화오션과 해상 SMR 개발을 논의하는 조선 회사
 
 ## 사업 개요
-- 조선 계열사를 둔 중간지주회사로 해상 SMR 개발에 참여 ([해사신문](https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWTlidElDR1ZaXzRialRhbE9TQjNmeVRVRERUQUxzLTBlLWxPS3NKVVJZamFPX0FyZG1iLUlnM2VxVG9Eb1E5UnBERG1qMFdCbjl6Yk1pdEdlUzVnUmkzRDFRNWE2TmRhT3Qw?oc=5))
+- 삼성중공업·한화오션과 해상 SMR 개발을 함께 논의 ([해사신문](https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWTlidElDR1ZaXzRialRhbE9TQjNmeVRVRERUQUxzLTBlLWxPS3NKVVJZamFPX0FyZG1iLUlnM2VxVG9Eb1E5UnBERG1qMFdCbjl6Yk1pdEdlUzVnUmkzRDFRNWE2TmRhT3Qw?oc=5))
 
 ## 관계
 | 관계 | 상대 | 내용 | 날짜 | 출처 |
@@ -23,7 +23,7 @@ updated: 2026-10-02
 | 협력 | [[한화오션]] | 해상 SMR 개발 협의 | 2026-10-01 | [해사신문](https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWTlidElDR1ZaXzRialRhbE9TQjNmeVRVRERUQUxzLTBlLWxPS3NKVVJZamFPX0FyZG1iLUlnM2VxVG9Eb1E5UnBERG1qMFdCbjl6Yk1pdEdlUzVnUmkzRDFRNWE2TmRhT3Qw?oc=5) |
 
 ## 테마
-- [[원전·SMR]] · 해상 SMR(조선): 해상 SMR 공동 개발 ([해사신문](https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWTlidElDR1ZaXzRialRhbE9TQjNmeVRVRERUQUxzLTBlLWxPS3NKVVJZamFPX0FyZG1iLUlnM2VxVG9Eb1E5UnBERG1qMFdCbjl6Yk1pdEdlUzVnUmkzRDFRNWE2TmRhT3Qw?oc=5))
+- [[원전·SMR]] · 해상 SMR(조선): 삼성중공업·한화오션과 해상 SMR 개발 협의 ([해사신문](https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWTlidElDR1ZaXzRialRhbE9TQjNmeVRVRERUQUxzLTBlLWxPS3NKVVJZamFPX0FyZG1iLUlnM2VxVG9Eb1E5UnBERG1qMFdCbjl6Yk1pdEdlUzVnUmkzRDFRNWE2TmRhT3Qw?oc=5))
 
 ## 최근 이슈
 - 2026-10-01 [협력] 삼성중공업·한화오션과 해상 SMR 개발 협의 · [[원전·SMR]] · [해사신문](https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWTlidElDR1ZaXzRialRhbE9TQjNmeVRVRERUQUxzLTBlLWxPS3NKVVJZamFPX0FyZG1iLUlnM2VxVG9Eb1E5UnBERG1qMFdCbjl6Yk1pdEdlUzVnUmkzRDFRNWE2TmRhT3Qw?oc=5)

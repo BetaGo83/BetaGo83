@@ -54,7 +54,7 @@ CLAUDE.md       Claude가 위키를 관리하는 규칙
 - [x] 사이트 접속 허용 (구글 뉴스, 네이버 확인)
 - [x] DART 인증키 등록
 - [x] 수집 스크립트 (DART, 뉴스)
-- [x] 4개 테마의 첫 위키 페이지 (2026-10-02, 기업 41개)
+- [x] 4개 테마의 첫 위키 페이지 (2026-10-03, 기업 41개)
 - [x] 그래프·점수 계산, 점검 스크립트
 - [x] 그래프 설계 반영 (밸류체인 단계, 관계별 근거 목록, 상대 회사 페이지 기준)
 - [x] 공개 웹사이트 설정 (Quartz + GitHub Pages)
@@ -70,7 +70,7 @@ CLAUDE.md       Claude가 위키를 관리하는 규칙
 | 사이트 접속 허용 | Claude Code 클라우드 환경 설정 → Network access | `opendart.fss.or.kr`, `news.google.com`, `openapi.naver.com` |
 | 기사 본문 읽기 (선택) | 같은 곳에서 Network access를 **Custom**으로 바꾸고 Allowed domains에 붙여 넣기 ("Also include default list" 체크) | [`docs/allowed-domains.txt`](docs/allowed-domains.txt) |
 | DART 인증키 (필수) | 같은 환경 설정의 환경 변수 (API credentials로는 키가 붙지 않음) | `DART_API_KEY` |
-| 네이버 검색 API (선택) | 같은 환경 설정의 API credentials 또는 환경 변수 | `NAVER_CLIENT_ID`, `NAVER_CLIENT_SECRET` |
+| 네이버 검색 API (선택) | 같은 환경 설정의 환경 변수 (API credentials에 넣으면 스크립트가 키를 읽지 못해 네이버 검색을 건너뜀) | `NAVER_CLIENT_ID`, `NAVER_CLIENT_SECRET` |
 | 웹사이트 공개 | 저장소 Settings → Pages | Source를 **GitHub Actions**로 |
 
 키는 Claude 클라우드 환경 설정에만 저장하고, 저장소나 GitHub Actions에는 두지 않습니다. 커밋할 때마다 키가 섞이지 않았는지 자동으로 검사하고, 섞여 있으면 커밋을 막습니다.

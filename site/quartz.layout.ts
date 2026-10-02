@@ -11,8 +11,12 @@ const DISCLAIMER =
 
 // 모든 페이지 아래에 면책 문구와 링크를 넣는 하단 영역
 const SiteFooter: QuartzComponentConstructor = () => {
-  const Footer: QuartzComponent = ({ displayClass, fileData }) => {
-    const root = pathToRoot(fileData.slug!)
+  const Footer: QuartzComponent = ({ displayClass, fileData, cfg }) => {
+    // 404 페이지는 아무 주소에서나 보이므로 상대 경로 대신 사이트 기본 경로를 쓴다 (Head.tsx와 같은 방식)
+    const root =
+      fileData.slug === "404"
+        ? new URL(`https://${cfg.baseUrl ?? "example.com"}`).pathname.replace(/\/$/, "")
+        : pathToRoot(fileData.slug!)
     return h(
       "footer",
       { class: displayClass ?? "" },
@@ -35,7 +39,7 @@ footer ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: w
   return Footer
 }
 
-// 탐색기에서 영어 폴더 이름을 한국어로 보여 준다
+// 탐색기에서 영어 폴더 이름을 한국어로 보여 준다 (폴더 안내 페이지 companies/index.md, themes/index.md의 제목도 같다)
 const explorer = Component.Explorer({
   mapFn: (node) => {
     if (node.isFolder && node.slugSegment === "companies") node.displayName = "기업"
@@ -51,14 +55,15 @@ export const sharedPageComponents: SharedLayout = {
   footer: SiteFooter(),
 }
 
-// 위키 페이지 하나를 보여 줄 때
+const breadcrumbs = Component.Breadcrumbs({ rootName: "처음" })
+
+// 위키 페이지 하나를 보여 줄 때. 페이지 본문이 '# 제목'으로 시작하므로 ArticleTitle은 넣지 않는다(제목이 두 번 나옴)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
+      component: breadcrumbs,
       condition: (page) => page.fileData.slug !== "index",
     }),
-    Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
   ],
@@ -87,7 +92,7 @@ export const defaultContentPageLayout: PageLayout = {
 
 // 폴더나 태그처럼 페이지 목록을 보여 줄 때
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [breadcrumbs, Component.ArticleTitle(), Component.ContentMeta()],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),

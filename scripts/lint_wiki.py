@@ -5,7 +5,7 @@
 - 짝이 맞지 않는 관계, 1년 넘게 갱신되지 않은 관계, 모르는 관계 종류
 - 고아 페이지(들어오는 링크 없음)
 - 밸류체인 단계: 테마 페이지의 stages·밸류체인과 기업 페이지 테마 줄의 단계가 서로 맞는지
-- 기업 frontmatter themes와 '## 테마' 줄이 맞는지
+- 기업 frontmatter themes와 '## 테마' 줄이 맞는지, 이슈마다 [[테마]] 링크가 있는지
 - 같은 별칭·DART 고유번호·종목코드를 두 페이지가 쓰는지
 - 페이지 없이 두 번 이상 나온 상대 회사 (페이지를 만들 차례)
 - wiki/graph.json과 테마 표가 최신인지 (build_graph.py를 다시 돌렸는지)
@@ -19,10 +19,10 @@ import collections
 import json
 import re
 import sys
-from datetime import timedelta
+from datetime import date, timedelta
 
-from build_graph import LINK, build, relations, section, theme_roles, value_chain
-from wiki_common import WIKI, read_page, today_kst
+from build_graph import ISSUE, LINK, build, relations, section, theme_roles, valid_date, value_chain
+from wiki_common import WIKI, is_folder_index, read_page, today_kst
 
 DISCLAIMER = "AI가 뉴스와 공시를 바탕으로 정리한 참고 자료입니다. 틀린 내용이 있을 수 있으니 원문을 확인하세요. 투자 권유가 아닙니다."
 PAIRS = {
@@ -37,14 +37,17 @@ REQUIRED = {
     "theme": ("type", "name", "keywords", "stages", "updated"),
 }
 DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+FOLDER_KIND = {"companies": "company", "themes": "theme"}
 COUNTERPARTY_PAGE_AT = 2  # 페이지 없는 상대가 이만큼 나오면 페이지를 만든다
 
 
 def check_pages(files, names, loaded, problems):
     inbound = {name: 0 for name in names}
+    theme_names = {p.stem for p in files if p.parent.name == "themes" and not is_folder_index(p)}
     for path in files:
         meta, body = read_page(path)
-        loaded[path.stem] = (path, meta, body)
+        if not is_folder_index(path):
+            loaded[path.stem] = (path, meta, body)
         rel = path.relative_to(WIKI)
         for target in LINK.findall(body):
             target = target.strip()
@@ -53,7 +56,13 @@ def check_pages(files, names, loaded, problems):
             elif target != path.stem:
                 inbound[target] += 1
 
+        if DISCLAIMER not in body:
+            problems.append(f"{rel}: 면책 문구가 없습니다")
         kind = meta.get("type")
+        expected = FOLDER_KIND.get(path.parent.name) if path.parent != WIKI and not is_folder_index(path) else None
+        if expected and kind != expected:
+            problems.append(f"{rel}: frontmatter type이 '{expected}'여야 합니다 (frontmatter를 읽지 못했거나 type이 틀림)")
+            kind = expected
         if kind not in REQUIRED:
             continue
         for key in REQUIRED[kind]:
@@ -61,12 +70,13 @@ def check_pages(files, names, loaded, problems):
                 problems.append(f"{rel}: frontmatter에 {key}가 없습니다")
         if meta.get("name") and meta["name"] != path.stem:
             problems.append(f"{rel}: frontmatter name '{meta['name']}'이 파일 이름과 다릅니다")
-        if meta.get("updated") and not DATE.match(meta["updated"]):
+        if meta.get("updated") and not (DATE.match(meta["updated"]) and valid_date(meta["updated"])):
             problems.append(f"{rel}: updated 날짜 형식이 틀립니다 '{meta['updated']}'")
         if kind == "company" and meta.get("market") and meta["market"] not in MARKETS:
             problems.append(f"{rel}: market은 {', '.join(sorted(MARKETS))} 중 하나여야 합니다")
-        if DISCLAIMER not in body:
-            problems.append(f"{rel}: 면책 문구가 없습니다")
+        for key in ("aliases", "themes", "keywords", "stages"):
+            if key in meta and not isinstance(meta[key], list):
+                problems.append(f"{rel}: {key}는 [a, b] 목록이어야 합니다")
         if "## 사람 메모" not in body:
             problems.append(f"{rel}: '## 사람 메모' 칸이 없습니다")
 
@@ -75,13 +85,19 @@ def check_pages(files, names, loaded, problems):
                 if line.startswith("- ") and "http" not in line:
                     problems.append(f"{rel}: 출처 없는 줄 ({title}) {line[:50]}")
         for line in section(body, "최근 이슈").splitlines():
-            match = re.match(r"^- (\S+) \[([^\]]+)\]", line)
-            if line.startswith("- ") and not (match and DATE.match(match.group(1)) and match.group(2) in ISSUE_KINDS):
-                problems.append(f"{rel}: 이슈 형식이 틀립니다 (- YYYY-MM-DD [종류] ...) {line[:50]}")
+            if not line.startswith("- "):
+                continue
+            match = ISSUE.match(line.strip())
+            if not (match and valid_date(match.group(1)) and match.group(2) in ISSUE_KINDS):
+                problems.append(f"{rel}: 이슈 형식이 틀립니다 (- YYYY-MM-DD [종류] 내용 · [[테마]] · [출처](URL)) {line[:50]}")
+            elif kind == "company" and not any(t in names and t in theme_names for t in LINK.findall(line)):
+                problems.append(f"{rel}: 이슈에 [[테마]] 링크가 없습니다 (테마와 관련된 사실만 이슈로 적습니다) {line[:50]}")
+        if kind == "theme" and not re.search(r"^## 관련 기업", body, re.M):
+            problems.append(f"{rel}: '## 관련 기업' 칸이 없습니다 (build_graph.py가 표를 넣을 자리)")
 
     for name, count in inbound.items():
         meta = loaded[name][1]
-        if count == 0 and meta.get("type") in REQUIRED:
+        if count == 0 and (meta.get("type") in REQUIRED or loaded[name][0].parent.name in FOLDER_KIND):
             problems.append(f"{loaded[name][0].relative_to(WIKI)}: 고아 페이지 (들어오는 링크 없음)")
 
 
@@ -93,12 +109,15 @@ def check_relations(loaded, problems):
             continue
         rel = path.relative_to(WIKI)
         for row in relations(body):
+            if row["malformed"]:
+                problems.append(f"{rel}: 관계 표 줄의 칸 수가 5개가 아닙니다 (관계|상대|내용|날짜|출처) {row['detail'][:60]}")
+                continue
             if row["type"] not in PAIRS:
                 problems.append(f"{rel}: 모르는 관계 종류 '{row['type']}'")
                 continue
-            if not row["source"]:
+            if not row["sources"]:
                 problems.append(f"{rel}: 출처 없는 관계 {row['type']} {row['target']}")
-            if not DATE.match(row["date"]):
+            if not (DATE.match(row["date"]) and valid_date(row["date"])):
                 problems.append(f"{rel}: 관계 날짜 형식이 틀립니다 {row['target']} '{row['date']}'")
             elif row["date"] < year_ago.isoformat():
                 problems.append(f"{rel}: 1년 넘게 갱신되지 않은 관계 {row['type']} {row['target']} ({row['date']})")
@@ -183,9 +202,12 @@ def check_identity(loaded, problems):
 
 
 def check_generated(loaded, problems):
-    graph, tables = build()
+    """graph.json과 관련 기업 표가 위키 내용과 맞는지. 점수는 날짜에 따라 줄어드므로
+    graph.json을 만든 날짜 기준으로 다시 계산해 비교한다(다음 날 점검해도 헛경보가 나지 않게)."""
     path = WIKI / "graph.json"
     current = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    built = current.get("updated", "")
+    graph, tables = build(today=date.fromisoformat(built) if valid_date(built) else None)
     if {k: v for k, v in current.items() if k != "updated"} != {k: v for k, v in graph.items() if k != "updated"}:
         problems.append("wiki/graph.json이 최신이 아닙니다. python3 scripts/build_graph.py를 실행하세요")
     for theme, expected in tables.items():
@@ -196,10 +218,11 @@ def check_generated(loaded, problems):
 
 def main():
     files = sorted(WIKI.rglob("*.md"))
-    names = {path.stem: path for path in files}
+    pages_only = [path for path in files if not is_folder_index(path)]
+    names = {path.stem: path for path in pages_only}
     problems, loaded = [], {}
-    if len(names) != len(files):
-        duplicates = [stem for stem, n in collections.Counter(p.stem for p in files).items() if n > 1]
+    if len(names) != len(pages_only):
+        duplicates = [stem for stem, n in collections.Counter(p.stem for p in pages_only).items() if n > 1]
         problems.append(f"같은 이름의 페이지가 여러 폴더에 있습니다: {', '.join(duplicates)}")
     check_pages(files, names, loaded, problems)
     check_relations(loaded, problems)

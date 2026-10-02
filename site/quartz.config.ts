@@ -18,8 +18,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Noto Sans KR",
-        body: "Noto Sans KR",
+        // Noto Sans KR에는 기울임꼴이 없어서 본문 글꼴의 기울임꼴 요청을 끈다 (켜 두면 구글 글꼴 요청이 실패한다)
+        header: { name: "Noto Sans KR", weights: [400, 700] },
+        body: { name: "Noto Sans KR", weights: [400, 600], includeItalic: false },
         code: "IBM Plex Mono",
       },
       colors: {

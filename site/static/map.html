@@ -5,20 +5,33 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>기업 지도</title>
 <meta name="description" content="뉴스와 공시로 정리한 기업 관계를 관계 종류별 색으로 보여 주는 지도">
+<script>
+  // 위키(Quartz)에서 고른 밝은/어두운 화면 설정을 따른다
+  try { var t = localStorage.getItem("theme"); if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+</script>
 <style>
 :root {
-  --bg: #faf8f8; --panel: #ffffff; --text: #2b2b2b; --muted: #6b6b6b; --line: #e5e5e5;
-  --theme-node: #284b63; --company-node: #84a59d; --external-node: #b8b8b8; --focus: #e07a1f;
+  color-scheme: light;
+  --bg: #faf8f8; --panel: #ffffff; --text: #2b2b2b; --muted: #5f5f5f; --line: #e5e5e5;
+  --theme-node: #284b63; --company-node: #5f8a80; --external-node: #8a8a8a; --focus: #c4620f;
   --supply: #2f6fdd; --invest: #8a4fd6; --acquire: #d64545; --affiliate: #8c6a3c;
-  --partner: #2e9e5b; --compete: #e08b1f; --theme-edge: #c9c9c9;
+  --partner: #2e9e5b; --compete: #b8730f; --theme-edge: #8f8f8f;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
+    color-scheme: dark;
     --bg: #161618; --panel: #1f1f22; --text: #ebebec; --muted: #a0a0a0; --line: #393639;
-    --theme-node: #7b97aa; --company-node: #84a59d; --external-node: #646464; --focus: #f0a050;
+    --theme-node: #7b97aa; --company-node: #84a59d; --external-node: #8a8a8a; --focus: #f0a050;
     --supply: #6b9cf0; --invest: #b28cef; --acquire: #ef7a7a; --affiliate: #c4a070;
-    --partner: #5cc58a; --compete: #f0ad55; --theme-edge: #4a4a4e;
+    --partner: #5cc58a; --compete: #f0ad55; --theme-edge: #6b6b70;
   }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #161618; --panel: #1f1f22; --text: #ebebec; --muted: #a0a0a0; --line: #393639;
+  --theme-node: #7b97aa; --company-node: #84a59d; --external-node: #8a8a8a; --focus: #f0a050;
+  --supply: #6b9cf0; --invest: #b28cef; --acquire: #ef7a7a; --affiliate: #c4a070;
+  --partner: #5cc58a; --compete: #f0ad55; --theme-edge: #6b6b70;
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; height: 100%; }
@@ -27,7 +40,7 @@ header { padding: 12px 16px; border-bottom: 1px solid var(--line); display: flex
 header h1 { font-size: 1.15rem; margin: 0 8px 0 0; }
 header a { color: var(--theme-node); }
 .controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
-select, input[type="search"] { font: inherit; font-size: 0.9rem; padding: 4px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); color: var(--text); }
+select, input[type="search"] { font: inherit; font-size: max(16px, 0.9rem); padding: 4px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); color: var(--text); }
 .legend { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 0.85rem; }
 .legend label { display: inline-flex; align-items: center; gap: 4px; cursor: pointer; white-space: nowrap; }
 .swatch { display: inline-block; width: 18px; height: 3px; border-radius: 2px; }
@@ -36,15 +49,21 @@ main { flex: 1; display: flex; min-height: 0; }
 svg { width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; }
 svg.dragging { cursor: grabbing; }
 .node circle { stroke: var(--bg); stroke-width: 1.5px; cursor: pointer; }
+.node.theme circle { fill: var(--theme-node); }
+.node.company circle { fill: var(--company-node); }
+.node.external circle { fill: var(--external-node); }
 .node text { font-size: 11px; fill: var(--text); pointer-events: none; paint-order: stroke; stroke: var(--bg); stroke-width: 3px; }
 .node.theme text { font-size: 13px; font-weight: 700; }
+.node:focus { outline: none; }
+.node:focus-visible circle { stroke: var(--text); stroke-width: 3px; stroke-dasharray: 3 2; }
 .node.dim, .edge.dim { opacity: 0.12; }
 .node.hit circle { stroke: var(--focus); stroke-width: 3px; }
 .edge { fill: none; stroke-width: 1.6px; }
 .edge.tier2 { stroke-dasharray: 4 3; }
 .edge-hit { fill: none; stroke: transparent; stroke-width: 10px; cursor: pointer; }
-#tip { position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; font-size: 0.8rem; max-width: 280px; display: none; box-shadow: 0 2px 8px rgba(0,0,0,.15); }
-aside { width: 340px; border-left: 1px solid var(--line); background: var(--panel); overflow-y: auto; padding: 16px; font-size: 0.9rem; }
+#tip { position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; font-size: 0.8rem; max-width: 280px; display: none; white-space: pre-line; box-shadow: 0 2px 8px rgba(0,0,0,.15); }
+#notice { position: absolute; left: 16px; top: 16px; right: 16px; color: var(--muted); }
+aside { width: min(340px, 42%); border-left: 1px solid var(--line); background: var(--panel); overflow-y: auto; padding: 16px; font-size: 0.9rem; }
 aside h2 { font-size: 1.1rem; margin: 0 0 4px; }
 aside h3 { font-size: 0.95rem; margin: 16px 0 6px; }
 aside ul { padding-left: 18px; margin: 0; }
@@ -53,7 +72,7 @@ aside .meta { color: var(--muted); font-size: 0.85rem; }
 aside a { color: var(--theme-node); }
 .tag { display: inline-block; font-size: 0.75rem; padding: 1px 6px; border-radius: 10px; border: 1px solid var(--line); margin-right: 4px; }
 footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem; color: var(--muted); }
-@media (max-width: 760px) {
+@media (max-width: 600px) {
   html, body { height: auto; }
   main { display: block; }
   #stage { height: 65vh; }
@@ -70,17 +89,17 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
     <datalist id="names"></datalist>
   </div>
   <div class="legend" id="legend"></div>
-  <a href="../" id="home">위키로 돌아가기</a>
+  <a href="../" id="home" target="_top">위키로 돌아가기</a>
 </header>
 <main>
   <div id="stage">
-    <svg id="svg" role="img" aria-label="기업 관계 그래프"><g id="viewport"></g></svg>
+    <svg id="svg" role="group" aria-label="기업 관계 그래프 (Tab으로 점을 고르고 Enter로 자세히 보기)"><g id="viewport"></g></svg>
     <div id="tip"></div>
   </div>
   <aside id="panel">
     <h2>보는 법</h2>
     <p>점은 기업과 테마, 선은 관계입니다. 선 색이 관계 종류이고, 화살표는 방향입니다(공급: 납품하는 쪽 → 받는 쪽, 출자·인수: 하는 쪽 → 받는 쪽). 테마로 이어진 회색 선 중 점선은 2차 관련 기업입니다.</p>
-    <p>점을 누르면 관계와 근거(공시·기사 링크)가 여기 나옵니다. 끌어서 옮기고, 휠이나 두 손가락으로 확대할 수 있습니다.</p>
+    <p>점이나 선을 누르면 관계와 근거(공시·기사 링크)가 여기 나옵니다. 끌어서 옮기고, 휠이나 두 손가락으로 확대할 수 있습니다.</p>
     <p class="meta" id="updated"></p>
   </aside>
 </main>
@@ -98,6 +117,7 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
     { key: "경쟁", color: "--compete", directed: false },
     { key: "테마", color: "--theme-edge", directed: false }
   ];
+  var NARROW = "(max-width: 600px)";
   var SVGNS = "http://www.w3.org/2000/svg";
   var svg = document.getElementById("svg");
   var viewport = document.getElementById("viewport");
@@ -105,9 +125,9 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
   var panel = document.getElementById("panel");
   var hidden = {};          // 숨긴 관계 종류
   var view = { x: 0, y: 0, k: 1 };
-  var graph, nodes, edges, byId = {};
+  var nodes = [], edges = [], byId = {}, ready = false, lastWidth = 0;
 
-  function css(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+  function kindOf(type) { return KINDS.filter(function (k) { return k.key === type; })[0] || KINDS[KINDS.length - 1]; }
   function el(tag, attrs, parent) {
     var e = document.createElementNS(SVGNS, tag);
     for (var a in attrs) e.setAttribute(a, attrs[a]);
@@ -121,6 +141,7 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
     if (parent) parent.appendChild(e);
     return e;
   }
+  function list(v) { return v == null ? [] : [].concat(v); }
   // Quartz가 파일 이름을 주소로 바꾸는 규칙 (quartz/util/path.ts의 sluggify와 같다)
   function slug(path) {
     return path.split("/").map(function (s) {
@@ -129,22 +150,39 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
   }
   function pageUrl(node) { return node.path ? "../" + slug(node.path).split("/").map(encodeURIComponent).join("/") : null; }
   function safeUrl(u) { return /^https?:\/\//.test(u || "") ? u : null; }
+  function sourcesOf(v) { return list(v.sources || v.source).map(safeUrl).filter(Boolean); }
+  function addSources(parent, v) {
+    var urls = sourcesOf(v);
+    urls.forEach(function (u, i) {
+      parent.appendChild(document.createTextNode(" "));
+      html("a", urls.length > 1 ? "출처" + (i + 1) : "출처", parent, { href: u, target: "_blank", rel: "noopener" });
+    });
+  }
+
+  function showError(title, err) {
+    panel.innerHTML = "";
+    html("h2", title, panel);
+    html("p", String(err && err.message || err), panel, { class: "meta" });
+    var stage = document.getElementById("stage");
+    if (!document.getElementById("notice")) html("p", title, stage, { id: "notice", role: "alert" });
+  }
 
   fetch("../graph.json").then(function (r) {
-    if (!r.ok) throw new Error(r.status);
+    if (!r.ok) throw new Error("HTTP " + r.status);
     return r.json();
-  }).then(start).catch(function (err) {
-    panel.innerHTML = "";
-    html("h2", "그래프 데이터를 불러오지 못했습니다", panel);
-    html("p", "graph.json을 읽을 수 없습니다 (" + err.message + ").", panel);
-  });
+  }).then(function (data) {
+    try { start(data); ready = true; } catch (e) { showError("지도를 그리지 못했습니다", e); }
+  }, function (err) { showError("그래프 데이터를 불러오지 못했습니다", err); });
 
   function start(data) {
-    graph = data;
     document.getElementById("updated").textContent = "데이터 기준일: " + data.updated;
-    nodes = data.nodes.map(function (n) { var c = Object.assign({}, n); byId[c.id] = c; return c; });
-    edges = data.edges.filter(function (e) { return byId[e.source] && byId[e.target]; })
-      .map(function (e) { return Object.assign({}, e, { s: byId[e.source], t: byId[e.target] }); });
+    nodes = list(data.nodes).map(function (n) {
+      var c = Object.assign({}, n, { aliases: list(n.aliases), themes: list(n.themes) });
+      byId[c.id] = c;
+      return c;
+    });
+    edges = list(data.edges).filter(function (e) { return byId[e.source] && byId[e.target]; })
+      .map(function (e) { return Object.assign({}, e, { s: byId[e.source], t: byId[e.target], evidence: list(e.evidence) }); });
     buildControls();
     layout();
     draw();
@@ -157,23 +195,23 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
       html("option", n.id, select, { value: n.id });
     });
     select.addEventListener("change", applyFilter);
-    var list = document.getElementById("names");
+    var names = document.getElementById("names");
     nodes.forEach(function (n) {
-      html("option", null, list, { value: n.id });
-      (n.aliases || []).forEach(function (a) { html("option", n.id, list, { value: a }); });
+      html("option", null, names, { value: n.id });
+      n.aliases.forEach(function (a) { html("option", n.id, names, { value: a }); });
     });
-    document.getElementById("search").addEventListener("change", function (ev) { find(ev.target.value); });
-    document.getElementById("search").addEventListener("keydown", function (ev) { if (ev.key === "Enter") find(ev.target.value); });
+    var search = document.getElementById("search");
+    search.addEventListener("change", function () { find(search.value); });
+    search.addEventListener("keydown", function (ev) { if (ev.key === "Enter") find(search.value); });
     var legend = document.getElementById("legend");
     KINDS.forEach(function (kind) {
-      var used = edges.some(function (e) { return e.type === kind.key; });
-      if (!used) return;
+      if (!edges.some(function (e) { return e.type === kind.key; })) return;
       var label = html("label", null, legend);
       var box = html("input", null, label, { type: "checkbox" });
       box.checked = true;
       box.addEventListener("change", function () { hidden[kind.key] = !box.checked; applyFilter(); });
       var sw = html("span", null, label, { class: "swatch" });
-      sw.style.background = css(kind.color);
+      sw.style.background = "var(" + kind.color + ")";
       html("span", kind.key, label);
     });
   }
@@ -216,7 +254,6 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
       }
     }
     edges.forEach(function (e) {
-      if (hidden[e.type]) return;
       var len = e.type === "테마" ? 140 : 90, k = e.type === "테마" ? 0.02 : 0.05;
       dx = e.t.x - e.s.x; dy = e.t.y - e.s.y; d = Math.sqrt(dx * dx + dy * dy) || 0.01;
       f = (d - len) * k * alpha;
@@ -224,7 +261,7 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
     });
     nodes.forEach(function (n) {
       n.vx -= n.x * 0.004 * alpha; n.vy -= n.y * 0.004 * alpha;
-      if (!n.fixed) { n.x += n.vx; n.y += n.vy; }
+      n.x += n.vx; n.y += n.vy;
       n.vx *= 0.6; n.vy *= 0.6;
     });
   }
@@ -255,28 +292,29 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
     KINDS.forEach(function (kind) {
       if (!kind.directed) return;
       var m = el("marker", { id: "arrow-" + kind.key, viewBox: "0 0 10 10", refX: 10, refY: 5, markerWidth: 7, markerHeight: 7, orient: "auto-start-reverse" }, defs);
-      el("path", { d: "M0,0 L10,5 L0,10 z", fill: css(kind.color) }, m);
+      el("path", { d: "M0,0 L10,5 L0,10 z", style: "fill: var(" + kind.color + ")" }, m);
     });
     var edgeLayer = el("g", {}, viewport), nodeLayer = el("g", {}, viewport);
     edges.forEach(function (e) {
-      var kind = KINDS.filter(function (k) { return k.key === e.type; })[0] || KINDS[KINDS.length - 1];
-      e.line = el("line", { class: "edge" + (e.tier === 2 ? " tier2" : ""), stroke: css(kind.color) }, edgeLayer);
+      var kind = kindOf(e.type);
+      e.line = el("line", { class: "edge" + (e.tier === 2 ? " tier2" : ""), style: "stroke: var(" + kind.color + ")" }, edgeLayer);
       if (kind.directed) e.line.setAttribute("marker-end", "url(#arrow-" + kind.key + ")");
       e.hit = el("line", { class: "edge-hit" }, edgeLayer);
-      e.hit.addEventListener("mousemove", function (ev) { showTip(ev, edgeText(e)); });
-      e.hit.addEventListener("mouseleave", hideTip);
+      e.hit.addEventListener("pointermove", function (ev) { if (ev.pointerType === "mouse") showTip(ev, edgeText(e)); });
+      e.hit.addEventListener("pointerleave", hideTip);
       e.hit.addEventListener("click", function () { select(e.s); });
     });
     nodes.forEach(function (n) {
-      var fill = n.type === "theme" ? css("--theme-node") : (n.type === "external" ? css("--external-node") : css("--company-node"));
-      n.g = el("g", { class: "node " + n.type, tabindex: 0, role: "button", "aria-label": n.id }, nodeLayer);
-      n.circle = el("circle", { r: n.r, fill: fill }, n.g);
+      n.g = el("g", { class: "node " + n.type, tabindex: 0, role: "button", "aria-label": n.id + (n.summary ? ", " + n.summary : "") }, nodeLayer);
+      n.circle = el("circle", { r: n.r }, n.g);
       var label = el("text", { x: n.r + 3, y: 4 }, n.g);
       label.textContent = n.id;
       n.g.addEventListener("click", function (ev) { if (!n.moved) select(n); ev.stopPropagation(); });
-      n.g.addEventListener("keydown", function (ev) { if (ev.key === "Enter") select(n); });
-      n.g.addEventListener("mousemove", function (ev) { showTip(ev, n.id + (n.summary ? " — " + n.summary : "")); });
-      n.g.addEventListener("mouseleave", hideTip);
+      n.g.addEventListener("keydown", function (ev) {
+        if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); select(n); }
+      });
+      n.g.addEventListener("pointermove", function (ev) { if (ev.pointerType === "mouse" && !n.dragging) showTip(ev, n.id + (n.summary ? " — " + n.summary : "")); });
+      n.g.addEventListener("pointerleave", hideTip);
       n.g.addEventListener("pointerdown", function (ev) { dragNode(ev, n); });
     });
     position();
@@ -297,16 +335,19 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
 
   function fit() {
     var box = svg.getBoundingClientRect();
-    var xs = nodes.map(function (n) { return n.x; }), ys = nodes.map(function (n) { return n.y; });
-    var minX = Math.min.apply(null, xs) - 40, maxX = Math.max.apply(null, nodes.map(function (n) { return n.x + n.w; })) + 20;
-    var minY = Math.min.apply(null, ys) - 40, maxY = Math.max.apply(null, ys) + 40;
+    lastWidth = box.width;
+    if (!nodes.length || !box.width || !box.height) return;
+    var minX = Math.min.apply(null, nodes.map(function (n) { return n.x; })) - 40;
+    var maxX = Math.max.apply(null, nodes.map(function (n) { return n.x + n.w; })) + 20;
+    var minY = Math.min.apply(null, nodes.map(function (n) { return n.y; })) - 40;
+    var maxY = Math.max.apply(null, nodes.map(function (n) { return n.y; })) + 40;
     view.k = Math.min(box.width / (maxX - minX), box.height / (maxY - minY), 2);
     view.x = box.width / 2 - (minX + maxX) / 2 * view.k;
     view.y = box.height / 2 - (minY + maxY) / 2 * view.k;
     position();
   }
 
-  // 테마 필터와 숨긴 관계 종류를 반영한다
+  // 테마 필터와 숨긴 관계 종류를 반영한다. 보이는 선이 하나도 없는 '페이지 없는 상대'는 숨긴다
   function applyFilter() {
     var theme = document.getElementById("theme").value;
     var keep = {};
@@ -315,45 +356,57 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
       edges.forEach(function (e) { if (e.type === "테마" && e.target === theme) keep[e.source] = true; });
       edges.forEach(function (e) {
         if (e.type === "테마" || hidden[e.type]) return;
-        if (keep[e.source] && byId[e.target].type === "external") keep[e.target] = true;
-        if (keep[e.target] && byId[e.source].type === "external") keep[e.source] = true;
+        if (keep[e.source] && e.t.type === "external") keep[e.target] = true;
+        if (keep[e.target] && e.s.type === "external") keep[e.source] = true;
       });
     }
-    nodes.forEach(function (n) { n.visible = !theme || !!keep[n.id]; n.g.style.display = n.visible ? "" : "none"; });
+    nodes.forEach(function (n) { n.visible = !theme || !!keep[n.id]; });
+    var connected = {};
     edges.forEach(function (e) {
-      var show = !hidden[e.type] && e.s.visible && e.t.visible;
+      e.shown = !hidden[e.type] && e.s.visible && e.t.visible;
+      if (e.shown) { connected[e.source] = true; connected[e.target] = true; }
+    });
+    nodes.forEach(function (n) {
+      if (n.type === "external" && !connected[n.id]) n.visible = false;
+      n.g.style.display = n.visible ? "" : "none";
+    });
+    edges.forEach(function (e) {
+      var show = e.shown && e.s.visible && e.t.visible;
       e.line.style.display = e.hit.style.display = show ? "" : "none";
     });
   }
 
   function edgeText(e) {
-    var lines = [e.source + " → " + e.target + " (" + e.type + (e.stage ? ", " + e.stage : "") + ")"];
-    (e.evidence || []).slice(0, 3).forEach(function (v) { lines.push(v.date + " " + (v.text || "")); });
+    var arrow = kindOf(e.type).directed ? " → " : " — ";
+    var lines = [e.source + arrow + e.target + " (" + e.type + (e.stage ? ", " + e.stage : "") + ")"];
+    e.evidence.slice(0, 3).forEach(function (v) { lines.push(v.date + " " + (v.text || "")); });
     return lines.join("\n");
   }
   function showTip(ev, text) {
     var box = document.getElementById("stage").getBoundingClientRect();
     tip.style.display = "block";
-    tip.style.whiteSpace = "pre-line";
     tip.textContent = text;
-    tip.style.left = Math.min(ev.clientX - box.left + 12, box.width - 290) + "px";
+    tip.style.left = Math.max(0, Math.min(ev.clientX - box.left + 12, box.width - 290)) + "px";
     tip.style.top = (ev.clientY - box.top + 12) + "px";
   }
   function hideTip() { tip.style.display = "none"; }
 
+  // 이름·별칭으로 찾기 (대소문자 무시, 정확히 같은 것 먼저)
   function find(text) {
     text = (text || "").trim();
     if (!text) return;
-    var n = byId[text] || nodes.filter(function (m) { return (m.aliases || []).indexOf(text) >= 0; })[0]
-      || nodes.filter(function (m) { return m.id.indexOf(text) >= 0; })[0];
+    var q = text.toLowerCase();
+    function keys(m) { return [m.id].concat(m.aliases).map(function (s) { return String(s).toLowerCase(); }); }
+    var n = byId[text] || nodes.filter(function (m) { return keys(m).indexOf(q) >= 0; })[0]
+      || nodes.filter(function (m) { return keys(m).some(function (s) { return s.indexOf(q) >= 0; }); })[0];
     if (!n) return;
-    if (!n.visible) { document.getElementById("theme").value = ""; applyFilter(); }
+    if (!n.visible) { document.getElementById("theme").value = ""; hidden = {}; resetLegend(); applyFilter(); }
     var box = svg.getBoundingClientRect();
     view.x = box.width / 2 - n.x * view.k; view.y = box.height / 2 - n.y * view.k;
     position();
     select(n);
-    if (window.innerWidth <= 760) panel.scrollIntoView({ behavior: "smooth" });
   }
+  function resetLegend() { Array.prototype.forEach.call(document.querySelectorAll("#legend input"), function (b) { b.checked = true; }); }
 
   // 점을 고르면 관계와 근거를 옆 패널에 보여 준다
   function select(n) {
@@ -371,16 +424,16 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
     html("div", meta.join(" · "), panel, { class: "meta" });
     if (n.summary && n.type !== "external") html("p", n.summary, panel);
     var url = pageUrl(n);
-    if (url) html("a", "위키 페이지 열기 →", html("p", null, panel), { href: url });
+    if (url) html("a", "위키 페이지 열기 →", html("p", null, panel), { href: url, target: "_top" });
 
-    if (n.themes && n.themes.length) {
+    if (n.themes.length) {
       html("h3", "테마", panel);
       var ul = html("ul", null, panel);
       n.themes.forEach(function (t) {
         var li = html("li", null, ul);
         html("span", t.tier === 1 ? "1차" : "2차", li, { class: "tag" });
         li.appendChild(document.createTextNode(t.theme + (t.stage ? " · " + t.stage : "") +
-          " (점수 " + t.score + (t.via ? ", " + t.via + "와 " + t.via_type + " 관계" : "") + ")"));
+          " (점수 " + t.score + (t.via ? ", 연결: " + t.via + " · " + t.via_type : "") + ")"));
       });
     }
     if (n.type === "theme") {
@@ -404,24 +457,19 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
         html("span", e.type, li, { class: "tag" });
         li.appendChild(document.createTextNode((dir ? dir + " " : "") + other));
         var ev = html("ul", null, li);
-        (e.evidence || []).forEach(function (v) {
-          var item = html("li", v.date + " " + (v.text || "") + " ", ev);
-          var link = safeUrl(v.source);
-          if (link) html("a", "출처", item, { href: link, target: "_blank", rel: "noopener" });
-        });
+        e.evidence.forEach(function (v) { addSources(html("li", v.date + " " + (v.text || ""), ev), v); });
       });
     }
     var own = edges.filter(function (e) { return e.type === "테마" && e.source === n.id; });
-    var evidence = [].concat.apply([], own.map(function (e) { return (e.evidence || []).map(function (v) { return Object.assign({ theme: e.target }, v); }); }));
+    var evidence = [].concat.apply([], own.map(function (e) { return e.evidence.map(function (v) { return Object.assign({ theme: e.target }, v); }); }));
     if (evidence.length) {
       html("h3", "테마 근거", panel);
       var el2 = html("ul", null, panel);
       evidence.sort(function (a, b) { return a.date < b.date ? 1 : -1; }).forEach(function (v) {
-        var item = html("li", v.date + " [" + v.kind + "] " + v.text + " ", el2);
-        var link = safeUrl(v.source);
-        if (link) html("a", "출처", item, { href: link, target: "_blank", rel: "noopener" });
+        addSources(html("li", v.date + " [" + v.kind + "] " + v.text, el2), v);
       });
     }
+    if (window.matchMedia(NARROW).matches) panel.scrollIntoView({ block: "start", behavior: "smooth" });
   }
 
   function clearSelection() {
@@ -429,37 +477,43 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
     edges.forEach(function (e) { e.line.classList.remove("dim"); });
   }
 
-  // 점 끌기
+  // 점 끌기 (마우스 왼쪽 버튼, 손가락, 펜)
   function dragNode(ev, n) {
     ev.stopPropagation();
-    n.moved = false;
+    if (ev.pointerType === "mouse" && ev.button !== 0) return;
+    hideTip();
+    n.moved = false; n.dragging = true;
     var start = { x: ev.clientX, y: ev.clientY, nx: n.x, ny: n.y };
     n.g.setPointerCapture(ev.pointerId);
     function move(e) {
       var dx = (e.clientX - start.x) / view.k, dy = (e.clientY - start.y) / view.k;
       if (Math.abs(dx) + Math.abs(dy) > 3) n.moved = true;
-      n.x = start.nx + dx; n.y = start.ny + dy; n.fixed = true;
+      n.x = start.nx + dx; n.y = start.ny + dy;
       position();
     }
     function up() {
-      n.g.removeEventListener("pointermove", move);
-      n.g.removeEventListener("pointerup", up);
+      ["pointermove", "pointerup", "pointercancel", "lostpointercapture"].forEach(function (t, i) {
+        n.g.removeEventListener(t, i === 0 ? move : up);
+      });
+      n.dragging = false;
       setTimeout(function () { n.moved = false; }, 0);
     }
     n.g.addEventListener("pointermove", move);
-    n.g.addEventListener("pointerup", up);
+    ["pointerup", "pointercancel", "lostpointercapture"].forEach(function (t) { n.g.addEventListener(t, up); });
   }
 
   // 배경 끌기(이동), 휠·두 손가락(확대)
   var pointers = {}, pan = null, pinch = null;
   svg.addEventListener("pointerdown", function (ev) {
+    if (ev.pointerType === "mouse" && ev.button !== 0) return;
+    hideTip();
     pointers[ev.pointerId] = { x: ev.clientX, y: ev.clientY };
-    svg.setPointerCapture(ev.pointerId);
     var ids = Object.keys(pointers);
-    if (ids.length === 1) { pan = { x: ev.clientX, y: ev.clientY, vx: view.x, vy: view.y, moved: false }; svg.classList.add("dragging"); }
+    if (ids.length === 1) { pan = { x: ev.clientX, y: ev.clientY, vx: view.x, vy: view.y, moved: false }; }
     if (ids.length === 2) {
+      ids.forEach(function (id) { try { svg.setPointerCapture(Number(id)); } catch (e) {} });
       var a = pointers[ids[0]], b = pointers[ids[1]];
-      pinch = { d: Math.hypot(a.x - b.x, a.y - b.y), k: view.k };
+      pinch = { d: Math.hypot(a.x - b.x, a.y - b.y) || 1, k: view.k };
       pan = null;
     }
   });
@@ -471,16 +525,28 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
       var a = pointers[ids[0]], b = pointers[ids[1]];
       zoomAt((a.x + b.x) / 2, (a.y + b.y) / 2, pinch.k * Math.hypot(a.x - b.x, a.y - b.y) / pinch.d / view.k);
     } else if (pan) {
-      if (Math.abs(ev.clientX - pan.x) + Math.abs(ev.clientY - pan.y) > 3) pan.moved = true;
-      view.x = pan.vx + ev.clientX - pan.x; view.y = pan.vy + ev.clientY - pan.y;
-      position();
+      if (!pan.moved && Math.abs(ev.clientX - pan.x) + Math.abs(ev.clientY - pan.y) > 3) {
+        pan.moved = true;  // 실제로 끌 때만 포인터를 붙잡는다 (그냥 누르면 선의 클릭이 그대로 간다)
+        try { svg.setPointerCapture(ev.pointerId); } catch (e) {}
+        svg.classList.add("dragging");
+      }
+      if (pan.moved) {
+        view.x = pan.vx + ev.clientX - pan.x; view.y = pan.vy + ev.clientY - pan.y;
+        position();
+      }
     }
   });
   function endPointer(ev) {
-    if (pan && !pan.moved && Object.keys(pointers).length === 1) clearSelection();
+    if (!pointers[ev.pointerId]) return;
+    if (pan && !pan.moved && Object.keys(pointers).length === 1 && ev.type === "pointerup") clearSelection();
     delete pointers[ev.pointerId];
-    if (Object.keys(pointers).length < 2) pinch = null;
-    if (!Object.keys(pointers).length) { pan = null; svg.classList.remove("dragging"); }
+    var rest = Object.keys(pointers);
+    if (rest.length === 1 && pinch) {  // 두 손가락 중 하나를 떼면 남은 손가락으로 바로 이동
+      var p = pointers[rest[0]];
+      pan = { x: p.x, y: p.y, vx: view.x, vy: view.y, moved: true };
+    }
+    if (rest.length < 2) pinch = null;
+    if (!rest.length) { pan = null; svg.classList.remove("dragging"); }
   }
   svg.addEventListener("pointerup", endPointer);
   svg.addEventListener("pointercancel", endPointer);
@@ -494,7 +560,14 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
     view.x = px - (px - view.x) * k / view.k; view.y = py - (py - view.y) * k / view.k; view.k = k;
     position();
   }
-  window.addEventListener("resize", function () { if (nodes) fit(); });
+  // 폭이 실제로 바뀔 때만 다시 맞춘다 (휴대폰 주소창·키보드로 생기는 resize는 무시)
+  window.addEventListener("resize", function () {
+    if (ready && Math.abs(svg.getBoundingClientRect().width - lastWidth) > 1) fit();
+  });
+  // 다른 창에서 위키의 밝은/어두운 화면 설정을 바꾸면 따라간다 (색은 CSS 변수라 자동으로 바뀐다)
+  window.addEventListener("storage", function (e) {
+    if (e.key === "theme" && (e.newValue === "dark" || e.newValue === "light")) document.documentElement.setAttribute("data-theme", e.newValue);
+  });
 })();
 </script>
 </body>

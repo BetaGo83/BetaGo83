@@ -10,6 +10,7 @@ NAVER_CLIENT_ID와 NAVER_CLIENT_SECRET이 있으면 네이버 뉴스 검색도 �
 """
 
 import argparse
+import html
 import json
 import os
 import re
@@ -26,7 +27,7 @@ KST = timezone(timedelta(hours=9))
 TAG = re.compile(r"<[^>]+>")
 # 검색 결과에 섞여 들어오는 도박·성인 스팸
 SPAM = re.compile(r"카지노|토토사이트|스포츠토토|포커|바카라|슬롯머신|슬롯사이트|섹스|성인용|성인사이트|베팅|배팅|먹튀|홀덤|도박|룰렛|파워볼")
-SPAM_OUTLETS = {"Calgary Roughnecks"}
+SPAM_OUTLETS = {"Calgary Roughnecks", "dto.ooo", "Histoire"}
 
 
 def fetch(url, headers=None):
@@ -39,6 +40,7 @@ def google_news(query, days):
     q = urllib.parse.quote(f"{query} when:{days}d")
     root = ET.fromstring(fetch(f"https://news.google.com/rss/search?q={q}&hl=ko&gl=KR&ceid=KR:ko"))
     for item in root.iter("item"):
+        source = item.find("source")
         outlet = item.findtext("source") or ""
         title = item.findtext("title") or ""
         if outlet and title.endswith(f" - {outlet}"):
@@ -47,6 +49,7 @@ def google_news(query, days):
             "title": title.strip(),
             "url": item.findtext("link"),
             "outlet": outlet,
+            "outlet_url": source.get("url", "") if source is not None else "",  # 언론사 주소 (접속 허용 목록용)
             "published_at": parsedate_to_datetime(item.findtext("pubDate")).astimezone(KST).isoformat(),
         }
 
@@ -62,10 +65,12 @@ def naver_news(query):
         {"X-Naver-Client-Id": client_id, "X-Naver-Client-Secret": secret},
     ))
     for item in data.get("items", []):
+        link = item.get("originallink") or item["link"]
         yield {
-            "title": TAG.sub("", item["title"]).replace("&quot;", '"').replace("&amp;", "&").strip(),
-            "url": item.get("originallink") or item["link"],
-            "outlet": urllib.parse.urlparse(item.get("originallink") or item["link"]).netloc,
+            "title": html.unescape(TAG.sub("", item["title"])).strip(),
+            "url": link,
+            "outlet": urllib.parse.urlparse(link).netloc,
+            "outlet_url": f"https://{urllib.parse.urlparse(link).netloc}",
             "published_at": parsedate_to_datetime(item["pubDate"]).astimezone(KST).isoformat(),
         }
 
