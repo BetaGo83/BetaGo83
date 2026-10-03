@@ -17,8 +17,7 @@ updated: 2026-10-03
 - 이지스함 등 해군 함정을 건조 ([뉴스밸류](https://news.google.com/rss/articles/CBMiakFVX3lxTE8yNmRlYlg1SlFvbUFwaUZ1d2U2bDBSWW9pUVFzV3FabTVHYVRTYXpLQlVnaEZ1Q0RLS1hGcHl0bktLSWRBS19KNERONmo3SlhZUHU2VjBvOGttOTR3U1ByY3htZ1VMTVFaX2c?oc=5))
 
 ## 관계
-| 관계 | 상대 | 내용 | 날짜 | 출처 |
-|---|---|---|---|---|
+- 아직 확인된 관계가 없습니다.
 
 ## 테마
 - [[방산]] · 함정: 해군 함정 건조 ([뉴스밸류](https://news.google.com/rss/articles/CBMiakFVX3lxTE8yNmRlYlg1SlFvbUFwaUZ1d2U2bDBSWW9pUVFzV3FabTVHYVRTYXpLQlVnaEZ1Q0RLS1hGcHl0bktLSWRBS19KNERONmo3SlhZUHU2VjBvOGttOTR3U1ByY3htZ1VMTVFaX2c?oc=5))

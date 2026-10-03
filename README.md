@@ -42,7 +42,7 @@ wiki/           사람이 읽는 위키 (옵시디언 볼트로도 열 수 있�
   companies/    기업 페이지
   themes/       테마 페이지
 scripts/        수집, 그래프·점수 계산, 점검 스크립트
-site/           웹사이트 설정과 기업 지도 (static/map.html)
+site/           웹사이트 설정, 기업 지도 (static/map.html), Quartz 손보기 (patch_quartz.py)
 docs/           접속 허용 도메인 목록 같은 참고 자료
 CLAUDE.md       Claude가 위키를 관리하는 규칙
 ```

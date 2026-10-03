@@ -31,10 +31,18 @@ const SiteFooter = (() => {
       ),
     )
   }
+  // 하단 영역 CSS는 모든 페이지에 들어가므로 사이트 전체 글자 모양도 여기서 정한다
   Footer.css = `
 footer { text-align: left; margin-bottom: 4rem; opacity: 0.8; }
 footer .disclaimer { font-size: 0.9rem; }
 footer ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 1rem; }
+/* 한국어 낱말이 중간에서 끊기지 않게 */
+.page-title, article p, article li, article blockquote { word-break: keep-all; overflow-wrap: break-word; }
+.search-button p { white-space: nowrap; }
+@media (max-width: 800px) { .page-title { font-size: 1.4rem; } }
+/* 표: 회사 이름·날짜는 한 줄로, 내용 칸만 줄바꿈 (표가 넓어지면 표 안에서 옆으로 민다) */
+article table th, article table td { white-space: nowrap; }
+article table td:nth-child(3) { white-space: normal; word-break: keep-all; min-width: 12em; }
 `
   return Footer
 }) satisfies QuartzComponentConstructor
@@ -64,7 +72,7 @@ export const defaultContentPageLayout: PageLayout = {
       component: breadcrumbs,
       condition: (page) => page.fileData.slug !== "index",
     }),
-    Component.ContentMeta(),
+    Component.ContentMeta({ showReadingTime: false }),
     Component.TagList(),
   ],
   left: [
@@ -92,7 +100,7 @@ export const defaultContentPageLayout: PageLayout = {
 
 // 폴더나 태그처럼 페이지 목록을 보여 줄 때
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [breadcrumbs, Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [breadcrumbs, Component.ArticleTitle(), Component.ContentMeta({ showReadingTime: false })],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),

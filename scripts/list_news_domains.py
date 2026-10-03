@@ -23,7 +23,7 @@ import xml.etree.ElementTree as ET
 
 from collect_news import SPAM, SPAM_OUTLETS, fetch
 from fetch_articles import google_article_url, load_cached
-from wiki_common import ROOT, WIKI, pages, read_jsonl, registrable
+from wiki_common import ROOT, SKIP, WIKI, pages, read_jsonl, registrable
 
 OUTPUT = ROOT / "docs" / "allowed-domains.txt"
 # 본문 읽기와 링크 풀기에 필요한 포털·검색 도메인 (언론사 목록과 별도로 항상 넣는다)
@@ -42,16 +42,6 @@ ALWAYS = [
     "dart.fss.or.kr",       # DART 공시 뷰어
     "betago83.github.io",   # 이 위키의 공개 웹사이트 (배포 확인용)
 ]
-# 뉴스가 아닌 곳: 포털(위 ALWAYS에서 뉴스 주소만 따로 허용), 블로그·영상·SNS, 시장조사·투자의견 사이트, 스팸
-SKIP = {
-    "naver.com", "daum.net", "google.com", "youtu.be", "youtube.com", "fb.com", "facebook.com", "meta.com",
-    "instagram.com", "x.com", "twitter.com", "weverse.io", "tistory.com", "brunch.co.kr", "note.com",
-    "blogspot.com", "medium.com", "actt.org.tt", "mlbkor.com", "calgaryroughnecks.com", "dto.ooo", "seattlen.com",
-    "indexbox.io", "fortunebusinessinsights.com", "businessresearchinsights.com", "straitsresearch.com",
-    "simplywall.st", "tikr.com", "thinkpool.com", "pressreader.com", "deloitte.com",
-    "histoire-pour-tous.fr", "nate.com", "zum.com", "danawa.com", "choicestock.co.kr", "buffettlab.co.kr",
-    "tradingview.com", "tradingkey.com", "metal.com", "ecofile.kr",
-}
 
 
 def outlets(query):

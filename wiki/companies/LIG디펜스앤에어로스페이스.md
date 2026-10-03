@@ -17,8 +17,7 @@ updated: 2026-10-03
 - 유도무기를 만들어 중동 등에 수출 ([핀포인트뉴스](https://news.google.com/rss/articles/CBMid0FVX3lxTE9sZWFZVnJIdlZYRHkzbm9PNWwxeXZ5SVBRUE5KM3J6YmhqV1VVWlVmd3haTDk0bnllSXF3aWl4czFqVnpMeUU2c2RjbjZlODNWSkt4VVBqa3o5N25HOVZvakVmcWc2bXVEVGRuN3pQZzg3RENaODNB0gF3QVVfeXFMT2xlYVlWckh2VlhEeTNub081bDF5dnlJUFFQTkozcnpiaGpXVVVaVWZ3eFpMOTRueWVJcXdpaXhzMWpWekx5RTZzZGNuNmU4M1ZKS3hVUGprejk3bkc5Vm9qRWZxZzZtdURUZG43elBnODdEQ1o4M0E?oc=5))
 
 ## 관계
-| 관계 | 상대 | 내용 | 날짜 | 출처 |
-|---|---|---|---|---|
+- 아직 확인된 관계가 없습니다.
 
 ## 테마
 - [[방산]] · 유도무기: 유도무기 생산·수출 ([핀포인트뉴스](https://news.google.com/rss/articles/CBMid0FVX3lxTE9sZWFZVnJIdlZYRHkzbm9PNWwxeXZ5SVBRUE5KM3J6YmhqV1VVWlVmd3haTDk0bnllSXF3aWl4czFqVnpMeUU2c2RjbjZlODNWSkt4VVBqa3o5N25HOVZvakVmcWc2bXVEVGRuN3pQZzg3RENaODNB0gF3QVVfeXFMT2xlYVlWckh2VlhEeTNub081bDF5dnlJUFFQTkozcnpiaGpXVVVaVWZ3eFpMOTRueWVJcXdpaXhzMWpWekx5RTZzZGNuNmU4M1ZKS3hVUGprejk3bkc5Vm9qRWZxZzZtdURUZG43elBnODdEQ1o4M0E?oc=5))

@@ -8,6 +8,8 @@
 <script>
   // 위키(Quartz)에서 고른 밝은/어두운 화면 설정을 따른다
   try { var t = localStorage.getItem("theme"); if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+  // 위키 페이지 안(iframe)에서는 폭이 좁아 휴대폰처럼 설명 칸을 지도 아래에 둔다
+  if (window.self !== window.top) document.documentElement.classList.add("embedded");
 </script>
 <style>
 :root {
@@ -53,12 +55,17 @@ svg.dragging { cursor: grabbing; }
 .node.company circle { fill: var(--company-node); }
 .node.external circle { fill: var(--external-node); }
 .node text { font-size: 11px; fill: var(--text); cursor: pointer; paint-order: stroke; stroke: var(--bg); stroke-width: 3px; }
-.node-hit { fill: transparent; stroke: none; }
-.node.theme text { font-size: 13px; font-weight: 700; }
+.node.theme text { font-size: var(--theme-label, 13px); font-weight: 700; }
 .node:focus { outline: none; }
 .node:focus-visible circle { stroke: var(--text); stroke-width: 3px; stroke-dasharray: 3 2; }
 .node.dim, .edge.dim { opacity: 0.12; }
 .node.hit circle { stroke: var(--focus); stroke-width: 3px; }
+/* 축소했을 때 누르기 쉽게 하는 영역은 보이지 않게 (위의 점 색·테두리 규칙보다 우선) */
+.node circle.node-hit { fill: transparent !important; stroke: none !important; }
+/* 많이 축소하면 기업 이름이 읽을 수 없을 만큼 작아지므로 숨기고, 고른 점과 이웃 이름만 보인다 */
+svg.far:not(.selecting) .node:not(.theme) text, svg.far.selecting .node.dim text { display: none; }
+#zoomhint { position: absolute; left: 8px; bottom: 6px; font-size: 0.75rem; color: var(--muted); pointer-events: none; display: none; }
+svg.far ~ #zoomhint { display: block; }
 .edge { fill: none; stroke-width: 1.6px; vector-effect: non-scaling-stroke; }
 .edge.tier2 { stroke-dasharray: 4 3; }
 .edge-hit { fill: none; stroke: transparent; stroke-width: 14px; vector-effect: non-scaling-stroke; cursor: pointer; }
@@ -81,6 +88,10 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
   #stage { height: 65vh; }
   aside { width: auto; border-left: 0; border-top: 1px solid var(--line); overflow: visible; }
 }
+html.embedded, html.embedded body { height: auto; }
+html.embedded main { display: block; }
+html.embedded #stage { height: 70vh; min-height: 320px; }
+html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--line); overflow: visible; }
 </style>
 </head>
 <body>
@@ -99,6 +110,7 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
   <div id="stage">
     <svg id="svg" role="group" aria-label="기업 관계 그래프 (Tab으로 점을 고르고 Enter로 자세히 보기)"><g id="viewport"></g></svg>
     <div id="tip"></div>
+    <div id="zoomhint">확대하면 기업 이름이 보입니다</div>
   </div>
   <aside id="panel">
     <h2>보는 법</h2>
@@ -123,12 +135,15 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
     { key: "테마", color: "--theme-edge", directed: false }
   ];
   var NARROW = "(max-width: 600px)";
+  var embedded = window.self !== window.top;
+  function stacked() { return embedded || window.matchMedia(NARROW).matches; }  // 설명 칸이 지도 아래에 있는지
   var SVGNS = "http://www.w3.org/2000/svg";
   var svg = document.getElementById("svg");
   var viewport = document.getElementById("viewport");
   var tip = document.getElementById("tip");
   var panel = document.getElementById("panel");
   var hidden = {};          // 숨긴 관계 종류
+  var intro = "";           // 설명 칸의 처음 내용 ('보는 법')
   var view = { x: 0, y: 0, k: 1 };
   var nodes = [], edges = [], byId = {}, ready = false, lastWidth = 0;
 
@@ -181,6 +196,7 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
 
   function start(data) {
     document.getElementById("updated").textContent = "데이터 기준일: " + data.updated;
+    intro = panel.innerHTML;
     nodes = list(data.nodes).map(function (n) {
       var c = Object.assign({}, n, { aliases: list(n.aliases), themes: list(n.themes) });
       byId[c.id] = c;
@@ -199,7 +215,7 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
     nodes.filter(function (n) { return n.type === "theme"; }).forEach(function (n) {
       html("option", n.id, select, { value: n.id });
     });
-    select.addEventListener("change", function () { applyFilter(); clearSelection(); fit(); });
+    select.addEventListener("change", function () { applyFilter(); clearSelection(true); fit(); });
     var names = document.getElementById("names");
     nodes.forEach(function (n) {
       html("option", null, names, { value: n.id });
@@ -216,7 +232,7 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
       box.checked = true;
       box.addEventListener("change", function () {
         hidden[kind.key] = !box.checked; applyFilter();
-        if (selected && !selected.visible) clearSelection();
+        if (selected && !selected.visible) clearSelection(true);
       });
       var sw = html("span", null, label, { class: "swatch" });
       sw.style.background = "var(" + kind.color + ")";
@@ -351,6 +367,9 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
       n.hitC.setAttribute("r", Math.max(n.r + 3, hitR));
     });
     viewport.setAttribute("transform", "translate(" + view.x + "," + view.y + ") scale(" + view.k + ")");
+    // 기업 이름(11px)이 화면에서 7px보다 작으면 숨기고, 테마 이름은 11px 아래로 작아지지 않게 키운다
+    svg.classList.toggle("far", 11 * view.k < 7);
+    svg.style.setProperty("--theme-label", Math.max(13, 11 / view.k) + "px");
   }
 
   function fit() {
@@ -436,6 +455,7 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
   var selected = null;
   function select(n) {
     selected = n;
+    svg.classList.add("selecting");
     var near = {}; near[n.id] = true;
     edges.forEach(function (e) { if (e.source === n.id) near[e.target] = true; if (e.target === n.id) near[e.source] = true; });
     nodes.forEach(function (m) { m.g.classList.toggle("dim", !near[m.id]); m.g.classList.toggle("hit", m === n); });
@@ -503,11 +523,14 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
       });
     }
     document.getElementById("status").textContent = n.id + " 선택됨, 관계 " + rels.length + "개. 자세한 내용은 옆 패널에 있습니다";
-    if (window.matchMedia(NARROW).matches) panel.scrollIntoView({ block: "start", behavior: "smooth" });
+    if (stacked()) window.scrollTo({ top: panel.getBoundingClientRect().top + window.pageYOffset - 8, behavior: "smooth" });
   }
 
-  function clearSelection() {
+  // ifHidden: 고른 점이 필터로 숨었으면 설명 칸도 처음 내용으로 되돌린다
+  function clearSelection(ifHidden) {
+    if (ifHidden && selected && !selected.visible) panel.innerHTML = intro;
     selected = null;
+    svg.classList.remove("selecting");
     nodes.forEach(function (m) { m.g.classList.remove("dim", "hit"); });
     edges.forEach(function (e) { e.line.classList.remove("dim"); });
   }
@@ -590,7 +613,6 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); font-size: 0.8rem
   }
   svg.addEventListener("pointerup", endPointer);
   svg.addEventListener("pointercancel", endPointer);
-  var embedded = window.self !== window.top;
   if (embedded) document.getElementById("hint").textContent = "확대: Ctrl+휠 또는 두 손가락";
   svg.addEventListener("wheel", function (ev) {
     if (embedded && !ev.ctrlKey && !ev.metaKey) return;

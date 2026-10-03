@@ -111,6 +111,18 @@ def registrable(host):
     return ".".join(labels[-2:])
 
 
+# 뉴스가 아닌 곳: 포털(list_news_domains.ALWAYS에서 뉴스 주소만 따로 허용), 블로그·영상·SNS, 시장조사·투자의견 사이트, 스팸
+SKIP = {
+    "naver.com", "daum.net", "google.com", "youtu.be", "youtube.com", "fb.com", "facebook.com", "meta.com",
+    "instagram.com", "x.com", "twitter.com", "weverse.io", "tistory.com", "brunch.co.kr", "note.com",
+    "blogspot.com", "medium.com", "actt.org.tt", "mlbkor.com", "calgaryroughnecks.com", "dto.ooo", "seattlen.com",
+    "indexbox.io", "fortunebusinessinsights.com", "businessresearchinsights.com", "straitsresearch.com",
+    "simplywall.st", "tikr.com", "thinkpool.com", "pressreader.com", "deloitte.com",
+    "histoire-pour-tous.fr", "nate.com", "zum.com", "danawa.com", "choicestock.co.kr", "buffettlab.co.kr",
+    "tradingview.com", "tradingkey.com", "metal.com", "ecofile.kr",
+}
+
+
 def hide_secrets(text):
     """오류 메시지에 키가 섞이지 않도록 가린다."""
     text = str(text)

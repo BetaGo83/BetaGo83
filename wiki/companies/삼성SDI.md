@@ -18,8 +18,7 @@ updated: 2026-10-03
 - 에코프로비엠의 BMW·벤츠 신형 전기차용 양극재 공급 보도 제목에 언급됨 ([디일렉](https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ybU5JSXd0VjBtMi1uVlJSSnl4ZklYQzJtdlZvU1pXOTlJblI0RFlpZlJRcUU1ZXR4aF92ZmNoUzB6NGpSMk1uRzZsZ0RfM0dBQjdWcl92eFJmVThhNzJ2UmJkdHhsZw?oc=5))
 
 ## 관계
-| 관계 | 상대 | 내용 | 날짜 | 출처 |
-|---|---|---|---|---|
+- 아직 확인된 관계가 없습니다.
 
 ## 테마
 - [[2차전지]]: 에코프로비엠 양극재 공급 보도에 언급 ([디일렉](https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ybU5JSXd0VjBtMi1uVlJSSnl4ZklYQzJtdlZvU1pXOTlJblI0RFlpZlJRcUU1ZXR4aF92ZmNoUzB6NGpSMk1uRzZsZ0RfM0dBQjdWcl92eFJmVThhNzJ2UmJkdHhsZw?oc=5))

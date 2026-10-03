@@ -34,7 +34,7 @@
 | `wiki/themes/<테마명>.md` | 테마 페이지 |
 | `wiki/companies/index.md`, `wiki/themes/index.md` | 폴더 안내 페이지 (사이트의 폴더 제목). 기업·테마 페이지가 아니다 |
 | `scripts/` | 수집, 계산, 점검 스크립트 (Python). 회사 고유번호는 `python scripts/find_corp.py 회사명`으로 찾는다 |
-| `site/` | 웹사이트 설정: `quartz.config.ts`, `quartz.layout.ts`, `static/map.html`(기업 지도) |
+| `site/` | 웹사이트 설정: `quartz.config.ts`, `quartz.layout.ts`, `static/map.html`(기업 지도), `patch_quartz.py`(배포할 때 Quartz 코드를 조금 고친다: 한국어·별칭 검색, 첫 화면 스크롤, 한국어 문구) |
 | `.github/workflows/deploy.yml` | 웹사이트 빌드·배포. Quartz v4.5.2를 커밋으로 고정해 받는다 |
 | `docs/allowed-domains.txt` | 클라우드 환경에 허용한 도메인 목록 (`scripts/list_news_domains.py`가 만든다). 너무 길면 환경 설정이 저장되지 않는다(2026-10-03: 550줄 실패, 77줄 성공). 막힌 언론사는 `fetch_articles.py`가 알려 주니 사용자에게 몇 개씩 더해 달라고 한다 |
 | `.githooks/pre-commit` | 커밋 전 키 검사 (`scripts/check_secrets.py` 실행) |
@@ -42,7 +42,7 @@
 
 ## 페이지 형식
 
-링크는 옵시디언 위키링크 `[[페이지 이름]]`을 쓴다. 날짜는 `YYYY-MM-DD`로 쓰고, 한국 시간(KST) 기준이다(스크립트도 KST로 날짜를 정한다). 이슈 날짜는 출처의 날짜(기사 게재일, 공시 접수일)다. 1단계에서 대상 페이지는 기업과 테마만 만들고, 인물 같은 다른 대상은 나중에 필요할 때 추가한다.
+링크는 옵시디언 위키링크 `[[페이지 이름]]`을 쓴다. 날짜는 `YYYY-MM-DD`로 쓰고, 한국 시간(KST) 기준이다(스크립트도 KST로 날짜를 정한다). 이슈 날짜는 출처의 날짜(기사 게재일, 공시 접수일)다. 기간은 `2026-09-27\~10-02`처럼 물결표 앞에 `\`를 붙인다(한 줄에 `~`가 두 번 나오면 사이트에서 그 사이가 취소선이 된다). 모든 페이지 frontmatter에 `updated`를 둔다(사이트가 이 날짜를 보여 준다). 1단계에서 대상 페이지는 기업과 테마만 만들고, 인물 같은 다른 대상은 나중에 필요할 때 추가한다.
 
 ### 기업 페이지
 
@@ -120,7 +120,7 @@ updated: YYYY-MM-DD
 
 ### 관계 종류
 
-관계는 기업 페이지를 기준으로 적고, 상대 페이지에도 짝이 되는 관계를 같이 적는다.
+관계는 기업 페이지를 기준으로 적고, 상대 페이지에도 짝이 되는 관계를 같이 적는다. 확인된 관계가 없으면 빈 표 대신 `- 아직 확인된 관계가 없습니다.`라고 적는다(첫 관계를 적을 때 표를 만든다).
 
 | 관계 | 뜻 | 상대 페이지의 짝 |
 |---|---|---|
@@ -185,7 +185,7 @@ updated: YYYY-MM-DD
 2. 새 자료를 읽고 테마와 관련 있는 사실만 골라 기업·테마 페이지를 고치거나 만든다. 관계는 양쪽 페이지에 짝을 맞춘다.
 3. `python scripts/build_graph.py`로 관련 기업 표와 그래프 데이터를 다시 만든다.
 4. `python scripts/lint_wiki.py`로 점검하고, 나온 문제를 고친다.
-5. `wiki/log.md`에 날짜, 읽은 자료 수, 새로 만든 페이지, 고친 페이지를 적는다.
+5. `wiki/log.md`에 날짜, 읽은 자료 수, 새로 만든 페이지, 고친 페이지를 적는다. `index.md`(최근 업데이트)와 `log.md`의 `updated`도 오늘 날짜로 고친다.
 6. 커밋하고 `main`에 푸시한다. 푸시하면 웹사이트가 다시 빌드된다.
 7. 무엇이 바뀌었는지 사용자에게 몇 줄로 알린다.
 
@@ -222,7 +222,7 @@ updated: YYYY-MM-DD
 
 ## 공개 웹사이트
 
-- GitHub Actions(`.github/workflows/deploy.yml`)에서 커밋으로 고정한 Quartz v4.5.2를 받아 `wiki/`를 content로 복사하고, `site/`의 설정 파일을 덮어써 빌드한 뒤 GitHub Pages로 배포한다. 저장소에 Quartz 코드를 넣지 않는다.
+- GitHub Actions(`.github/workflows/deploy.yml`)에서 커밋으로 고정한 Quartz v4.5.2를 받아 `wiki/`를 content로 복사하고, `site/`의 설정 파일을 덮어쓰고 `site/patch_quartz.py`로 몇 곳을 고쳐 한국 시간(TZ=Asia/Seoul)으로 빌드한 뒤 GitHub Pages로 배포한다. 저장소에 Quartz 코드를 넣지 않는다. Quartz를 올리면 `patch_quartz.py`가 고칠 곳을 못 찾고 멈추니 그때 같이 고친다.
 - 주소: `https://betago83.github.io/BetaGo83/`, 기업 지도: `https://betago83.github.io/BetaGo83/static/map.html`
 - Quartz는 `wiki/` 안의 `.html` 파일을 확장자 없이 복사하므로, 웹 페이지 파일은 `site/static/`에 둔다.
 - 저장소 Settings → Pages의 Source가 "GitHub Actions"여야 배포된다.

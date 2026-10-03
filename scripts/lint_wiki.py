@@ -64,11 +64,20 @@ def check_pages(files, names, loaded, problems):
 
         if DISCLAIMER not in body:
             problems.append(f"{rel}: 면책 문구가 없습니다")
+        for line in body.splitlines():
+            if len(re.findall(r"(?<![\\~])~(?!~)", line)) >= 2:
+                problems.append(f"{rel}: 한 줄에 물결표(~)가 두 번 나오면 사이트에서 그 사이가 취소선이 됩니다. '\\~'로 쓰세요 {line[:50]}")
         kind = meta.get("type")
         expected = FOLDER_KIND.get(path.parent.name) if path.parent != WIKI and not is_folder_index(path) else None
         if expected and kind != expected:
             problems.append(f"{rel}: frontmatter type이 '{expected}'여야 합니다 (frontmatter를 읽지 못했거나 type이 틀림)")
             kind = expected
+        if kind not in REQUIRED and not meta.get("updated"):
+            problems.append(f"{rel}: frontmatter에 updated가 없습니다 (사이트에 이 날짜가 나온다)")
+        if meta.get("updated") and not (DATE.match(meta["updated"]) and valid_date(meta["updated"])):
+            problems.append(f"{rel}: updated 날짜 형식이 틀립니다 '{meta['updated']}'")
+        elif future(meta.get("updated", "")):
+            problems.append(f"{rel}: updated가 미래 날짜입니다 '{meta['updated']}'")
         if kind not in REQUIRED:
             continue
         for key in REQUIRED[kind]:
@@ -77,10 +86,6 @@ def check_pages(files, names, loaded, problems):
                 problems.append(f"{rel}: frontmatter에 {key}가 없습니다")
         if meta.get("name") and meta["name"] != path.stem:
             problems.append(f"{rel}: frontmatter name '{meta['name']}'이 파일 이름과 다릅니다")
-        if meta.get("updated") and not (DATE.match(meta["updated"]) and valid_date(meta["updated"])):
-            problems.append(f"{rel}: updated 날짜 형식이 틀립니다 '{meta['updated']}'")
-        elif future(meta.get("updated", "")):
-            problems.append(f"{rel}: updated가 미래 날짜입니다 '{meta['updated']}'")
         if kind == "company" and meta.get("market") and meta["market"] not in MARKETS:
             problems.append(f"{rel}: market은 {', '.join(sorted(MARKETS))} 중 하나여야 합니다")
         for key in ("aliases", "themes", "keywords", "stages"):
@@ -110,6 +115,9 @@ def check_pages(files, names, loaded, problems):
             elif match and future(match.group(1)):
                 problems.append(f"{rel}: 최근 동향 날짜가 미래입니다 {line[:50]}")
         if kind == "company":
+            table = [line for line in section(body, "관계").splitlines() if line.strip().startswith("|")]
+            if table and len(table) <= 2:
+                problems.append(f"{rel}: 관계 표가 비었습니다. 관계가 없으면 표 대신 '- 아직 확인된 관계가 없습니다.'로 적습니다")
             for line in section(body, "테마").splitlines():
                 if line.startswith("- ") and not THEME_LINE.match(line.strip()):
                     problems.append(f"{rel}: 테마 줄을 읽을 수 없습니다 ('- [[테마]] · 단계: 역할 (출처)') {line[:50]}")
