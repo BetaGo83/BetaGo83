@@ -99,6 +99,18 @@ def append_jsonl(folder, date, rows):
     return path
 
 
+# 2단계 국가 도메인: mt.co.kr처럼 끝 세 칸이 한 사이트다 (hankyung.com은 끝 두 칸)
+SECOND_LEVEL = {"co", "or", "go", "ne", "re", "ac", "com", "net", "org", "pe", "kg", "es", "hs", "ms", "sc"}
+
+
+def registrable(host):
+    """news.mt.co.kr -> mt.co.kr, biz.chosun.com -> chosun.com"""
+    labels = host.lower().strip(".").split(".")
+    if len(labels) >= 3 and len(labels[-1]) == 2 and labels[-2] in SECOND_LEVEL:
+        return ".".join(labels[-3:])
+    return ".".join(labels[-2:])
+
+
 def hide_secrets(text):
     """오류 메시지에 키가 섞이지 않도록 가린다."""
     text = str(text)

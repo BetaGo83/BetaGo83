@@ -17,7 +17,7 @@ HBM·반도체 · 원전·SMR · 방산 · 2차전지
 
 ## 작동 방식
 
-1. **수집**: DART 오픈API(공시)와 뉴스 검색(구글 뉴스, 네이버)에서 테마 관련 자료를 모읍니다.
+1. **수집**: DART 오픈API(공시)와 뉴스 검색(구글 뉴스, 네이버)에서 테마 관련 자료를 모읍니다. 기사 본문은 읽기만 하고 저장소에는 올리지 않습니다.
 2. **반영**: Claude가 새 자료를 읽고 관련 기업·테마 페이지를 고치거나 새로 만듭니다. 모든 관계와 이슈에는 출처가 붙습니다.
 3. **계산**: 스크립트가 위키에 적힌 관계를 모아 그래프와 테마별 점수를 만듭니다.
 4. **점검**: 깨진 링크, 출처 없는 내용, 짝이 맞지 않는 관계, 오래된 정보를 찾아 정리합니다.
@@ -33,7 +33,7 @@ HBM·반도체 · 원전·SMR · 방산 · 2차전지
 ## 폴더 구조
 
 ```text
-raw/            원자료 목록 (제목, 링크, 날짜, 출처 같은 정보만 저장)
+raw/            원자료 목록 (제목, 링크, 날짜, 출처 같은 정보만 저장. 기사 본문은 raw/.cache에 두고 올리지 않음)
 wiki/           사람이 읽는 위키 (옵시디언 볼트로도 열 수 있음)
   index.md      첫 화면
   log.md        변경 기록
@@ -59,16 +59,15 @@ CLAUDE.md       Claude가 위키를 관리하는 규칙
 - [x] 그래프 설계 반영 (밸류체인 단계, 관계별 근거 목록, 상대 회사 페이지 기준)
 - [x] 공개 웹사이트 설정 (Quartz + GitHub Pages)
 - [x] 관계 종류를 색으로 구분한 기업 지도 페이지
-- [ ] 웹사이트 공개 켜기 (아래 설정 표의 Pages)
-- [ ] 기사 본문 읽기 (접속 허용 도메인 추가 후)
+- [x] 웹사이트 공개 켜기 (아래 설정 표의 Pages)
+- [x] 기사 본문 읽기 (접속 허용 도메인 추가, 2026-10-03)
 - [ ] 매일 자동 업데이트 (Claude 예약 실행)
 
 ## 설정
 
 | 항목 | 위치 | 값 |
 |---|---|---|
-| 사이트 접속 허용 | Claude Code 클라우드 환경 설정 → Network access | `opendart.fss.or.kr`, `news.google.com`, `openapi.naver.com` |
-| 기사 본문 읽기 (선택) | 같은 곳에서 Network access를 **Custom**으로 바꾸고 Allowed domains에 붙여 넣기 ("Also include default list" 체크) | [`docs/allowed-domains.txt`](docs/allowed-domains.txt) |
+| 사이트 접속 허용 | Claude Code 클라우드 환경 설정 → Network access를 **Custom**으로, Allowed domains에 붙여 넣기 ("Also include default list" 체크). 환경 설정은 claude.ai/code 웹이나 PC 앱에서 바꾼다 | [`docs/allowed-domains.txt`](docs/allowed-domains.txt) (DART, 구글 뉴스, 네이버, 언론사 60곳). 목록이 너무 길면 저장되지 않는다(550줄 실패, 77줄 성공). 막힌 언론사는 `fetch_articles.py`가 알려 준다 |
 | DART 인증키 (필수) | 같은 환경 설정의 환경 변수 (API credentials로는 키가 붙지 않음) | `DART_API_KEY` |
 | 네이버 검색 API (선택) | 같은 환경 설정의 환경 변수 (API credentials에 넣으면 스크립트가 키를 읽지 못해 네이버 검색을 건너뜀) | `NAVER_CLIENT_ID`, `NAVER_CLIENT_SECRET` |
 | 웹사이트 공개 | 저장소 Settings → Pages | Source를 **GitHub Actions**로 |
