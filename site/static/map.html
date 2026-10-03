@@ -144,6 +144,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
   var panel = document.getElementById("panel");
   var hidden = {};          // 숨긴 관계 종류
   var intro = "";           // 설명 칸의 처음 내용 ('보는 법')
+  var shown = null;         // 설명 칸이 보여 주는 점 (선택을 풀어도 설명은 남는다)
   var view = { x: 0, y: 0, k: 1 };
   var nodes = [], edges = [], byId = {}, ready = false, lastWidth = 0;
 
@@ -232,7 +233,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
       box.checked = true;
       box.addEventListener("change", function () {
         hidden[kind.key] = !box.checked; applyFilter();
-        if (selected && !selected.visible) clearSelection(true);
+        if (shown && !shown.visible) clearSelection(true);
       });
       var sw = html("span", null, label, { class: "swatch" });
       sw.style.background = "var(" + kind.color + ")";
@@ -454,7 +455,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
   // 점을 고르면 관계와 근거를 옆 패널에 보여 준다
   var selected = null;
   function select(n) {
-    selected = n;
+    selected = shown = n;
     svg.classList.add("selecting");
     var near = {}; near[n.id] = true;
     edges.forEach(function (e) { if (e.source === n.id) near[e.target] = true; if (e.target === n.id) near[e.source] = true; });
@@ -526,9 +527,9 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
     if (stacked()) window.scrollTo({ top: panel.getBoundingClientRect().top + window.pageYOffset - 8, behavior: "smooth" });
   }
 
-  // ifHidden: 고른 점이 필터로 숨었으면 설명 칸도 처음 내용으로 되돌린다
+  // ifHidden: 설명 칸이 보여 주던 점이 필터로 숨었으면 설명 칸도 처음 내용으로 되돌린다
   function clearSelection(ifHidden) {
-    if (ifHidden && selected && !selected.visible) panel.innerHTML = intro;
+    if (ifHidden && shown && !shown.visible) { panel.innerHTML = intro; shown = null; }
     selected = null;
     svg.classList.remove("selecting");
     nodes.forEach(function (m) { m.g.classList.remove("dim", "hit"); });

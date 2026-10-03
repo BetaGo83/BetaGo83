@@ -64,8 +64,9 @@ def strip_source(text):
 
 
 def plain(text):
-    """위키링크를 링크 대상 글자로 바꾼다. [[삼성전자]] -> 삼성전자"""
-    return LINK.sub(lambda m: m.group(1).strip(), text)
+    """위키링크를 링크 대상 글자로 바꾸고 마크다운 이스케이프를 뺀다. [[삼성전자]] -> 삼성전자, 09-27\\~10-02 -> 09-27~10-02"""
+    text = LINK.sub(lambda m: m.group(1).strip(), text)
+    return re.sub(r"\\([\\`*_{}\[\]()#+\-.!~|>])", r"\1", text)
 
 
 def summary(body):

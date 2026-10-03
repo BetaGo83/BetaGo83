@@ -12,6 +12,10 @@ from pathlib import Path
 PATCHES = [
     # 한국어는 낱말 중간도 찾게 한다 ('하이닉스'로 'SK하이닉스', '본더'로 'TC본더'). 기본값은 낱말 앞부분만 찾는다
     ("quartz/components/scripts/search.inline.ts", 'tokenize: "forward"', 'tokenize: "full"', 3),
+    # 검색 결과 미리보기도 낱말 중간 일치를 찾아 그 근처를 보여 준다 (안 고치면 페이지 끝부분이 나온다)
+    ("quartz/components/scripts/search.inline.ts",
+     "tokenizedTerms.some((term) => tok.toLowerCase().startsWith(term.toLowerCase()))",
+     "tokenizedTerms.some((term) => tok.toLowerCase().includes(term.toLowerCase()))", 1),
     ("quartz/components/scripts/search.inline.ts", "<h3>No results.</h3>", "<h3>검색 결과가 없습니다.</h3>", 1),
     ("quartz/components/scripts/search.inline.ts", "<p>Try another search term?</p>", "<p>다른 검색어로 찾아보세요.</p>", 1),
     # 별칭(aliases)도 검색되게 한다 ('한수원'으로 '한국수력원자력')

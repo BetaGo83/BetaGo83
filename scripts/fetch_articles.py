@@ -18,6 +18,7 @@ raw/news에 모은 기사 링크를 열어 본문 글자만 뽑는다. 구글 �
 import argparse
 import collections
 import hashlib
+import html
 import json
 import os
 import re
@@ -75,13 +76,16 @@ HIDDEN_STYLE = re.compile(r"display\s*:\s*none|visibility\s*:\s*hidden", re.I)
 # 글 단위 태그: 이 안의 글은 이 태그를 감싼 묶음의 글로 친다
 INLINE_TAGS = {"p", "span", "b", "strong", "em", "i", "u", "font", "br", "mark", "sup", "sub"}
 # 본문 안에 섞여 들어오는 화면 단추·안내 줄 (줄 전체가 이것일 때만 버린다)
+# 숫자만 있는 줄은 지우지 않는다(본문 표의 숫자가 빠져 칸이 밀린다). 끝이 열린 패턴은 안내 글자 길이만큼만 맞춘다
 JUNK_LINE = re.compile(
-    r"내 댓글 모음|SNS 기사보내기|기사 ?모아 ?보기.*|관련 ?기사|이미지 (?:확대|크게 ?보기)|좋아요|응원해요|후속 원해요|"
-    r"\d{1,3}|close|beta|분석 ?중\.*|arrow_\w+|글자 ?크기.*|가나다라마바사.*|구글 검색 선호 출처로 추가.*|"
-    r"\[email protected\]|.*기사문의 및 제보.*|▶?제보는 .*|당신이 담은 순간이 뉴스입니다!?|"
-    r"(?:등록|입력|수정|업데이트)\s*:?\s*\d{4}[.-]\d{2}[.-]\d{2}.*|"
+    r"내 댓글 모음|SNS 기사보내기|기사 ?모아 ?보기\s*>?|관련 ?기사|이미지 (?:확대|크게 ?보기)|좋아요|응원해요|후속 원해요|"
+    r"close|beta|분석 ?중\.*|arrow_\w+|(?:\d+\s*)?글자 ?크기(?:\s*가나다라마바사)?|가나다라마바사|"
+    r"구글 검색 선호 출처로 추가\s*↗?|\[email protected\]|.{0,30}기사문의 및 제보.{0,60}|▶?제보는 .{0,60}|"
+    r"당신이 담은 순간이 뉴스입니다!?|"
+    r"(?:(?:등록|입력|수정|업데이트)\s*:?\s*\d{4}[.-]\d{2}[.-]\d{2}(?:\.?\s+\d{1,2}:\d{2}(?::\d{2})?)?\s*)+|"
     r"증권정보|현재가|전일대비|등락률|거래량|전일가|KOSPI|KOSDAQ|\d{4}\.\d{2}\.\d{2} \d{2}:\d{2} 기준"
 )
+TRAILER_MAX = 150  # 저작권 안내가 본문 문장과 한 줄로 붙은 경우까지 지우지 않게, 짧은 줄만 저작권 줄로 본다
 # 본문 끝에 붙는 저작권·제보 안내 줄
 TRAILER = re.compile(r"무단\s*전재|재배포\s*금지|저작권자\s*[ⓒ©(]|Copyright\s*[ⓒ©]|ⓒ\s*\S+\s*(?:뉴스|일보|신문|경제)|기사\s*제보")
 
@@ -226,7 +230,7 @@ def node_text(node, sizes):
     lines = []
     for line in "".join(parts).split("\n"):
         line = " ".join(line.split())
-        if line and not TRAILER.search(line) and not JUNK_LINE.fullmatch(line):
+        if line and not (TRAILER.search(line) and len(line) < TRAILER_MAX) and not JUNK_LINE.fullmatch(line):
             lines.append(line)
     return "\n".join(lines)
 
@@ -265,10 +269,11 @@ def extract(html_text, title=""):
     for node in candidates:
         text = node_text(node, sizes)
         overlap = title_overlap(title, text)
-        if node in parser.marked:  # 본문 표시가 붙은 묶음은 낚시성 제목이어도 요약문(description) 낱말이 나오면 받는다
+        if node in parser.marked and meta["description"].strip():
+            # 본문 표시가 붙은 묶음은 낚시성 제목이어도 요약문(description) 낱말이 나오면 받는다
             overlap = max(overlap, title_overlap(meta["description"], text))
         if len(text) >= MIN_TEXT and overlap >= MIN_OVERLAP:
-            return merge_twins(node, sizes, text)[:MAX_TEXT], meta
+            return merge_twins(node, sizes, text, title)[:MAX_TEXT], meta
     text = json_body(html_text)  # 본문을 자바스크립트로 그리는 페이지
     if len(text) >= MIN_TEXT:
         return text[:MAX_TEXT], meta
@@ -283,13 +288,25 @@ def _contains(outer, inner):
     return False
 
 
-def merge_twins(node, sizes, text):
+def article_box(node):
+    """node를 감싼 가장 가까운 기사 묶음(<article> 또는 itemprop=articleBody). 없으면 None."""
+    node = node.parent
+    while node is not None:
+        if node.tag == "article" or node.attrs.get("itemprop") == "articleBody":
+            return node
+        node = node.parent
+    return None
+
+
+def merge_twins(node, sizes, text, title=""):
     """본문이 광고 등으로 끊겨 뒤쪽의 같은 class 묶음에 이어지면 붙인다 (예: jkn.co.kr).
-    두 단계 위 묶음 안에서만 찾는다. 페이지 다른 곳의 같은 이름 묶음(관련 기사 등)을 붙이지 않게."""
+    두 단계 위 묶음 안에서만 찾고, 다른 기사 묶음 안에 있거나 제목과 거의 무관한 묶음은 붙이지 않는다
+    (한 페이지에 기사가 여럿이거나 옆 칸이 같은 class를 쓰는 경우)."""
     cls = node.attrs.get("class", "")
     scope = node.parent.parent if node.parent is not None else None
     if not cls or scope is None:
         return text
+    box = article_box(node)
     order, todo = [], [scope]
     while todo:
         current = todo.pop()
@@ -298,29 +315,44 @@ def merge_twins(node, sizes, text):
             order.append(current)
             continue
         todo.extend(reversed([c for c in current.children if isinstance(c, Node) and not c.skip]))
-    after = order[order.index(node) + 1:]
-    parts = [text] + [node_text(twin, sizes) for twin in after if not twin.junk]
-    return "\n".join(part for part in parts if part)
+    parts = [text]
+    for twin in order[order.index(node) + 1:]:
+        if twin.junk or article_box(twin) is not box:
+            continue
+        twin_text = node_text(twin, sizes)
+        if twin_text and title_overlap(title, twin_text) >= MIN_OVERLAP / 2:
+            parts.append(twin_text)
+    return "\n".join(parts)
+
+
+def json_text(value):
+    """JSON에 든 본문 글: 태그를 빼고 &amp; 같은 HTML 글자를 푼다."""
+    if not isinstance(value, str):
+        return ""
+    value = re.sub(r"<[^>]+>", "", re.sub(r"<br\s*/?>", " ", value, flags=re.I))
+    return " ".join(html.unescape(value).split())
 
 
 def json_body(html_text):
-    """JSON-LD articleBody나 Arc XP(조선일보 등)의 Fusion.globalContent에 든 본문 글."""
+    """JSON-LD articleBody나 Arc XP(조선일보 등)의 Fusion.globalContent에 든 본문 글. 모양이 이상한 JSON은 건너뛴다."""
     best = ""
     for block in re.findall(r"<script[^>]*>(.*?)</script>", html_text, re.S | re.I):
         for match in re.finditer(r'"articleBody"\s*:\s*("(?:[^"\\]|\\.)*")', block):
             try:
-                body = json.loads(match.group(1))
+                best = max(best, json_text(json.loads(match.group(1))), key=len)
             except ValueError:
                 continue
-            best = max(best, body, key=len)
         match = re.search(r"Fusion\.globalContent\s*=\s*(\{.*?\});\s*Fusion\.", block, re.S)
-        if match:
-            try:
-                elements = json.loads(match.group(1)).get("content_elements", [])
-            except ValueError:
-                continue
-            parts = [re.sub(r"<[^>]+>", "", e.get("content", "")) for e in elements if e.get("type") in ("text", "header")]
-            best = max(best, "\n".join(" ".join(p.split()) for p in parts if p.strip()), key=len)
+        if not match:
+            continue
+        try:
+            data = json.loads(match.group(1))
+        except ValueError:
+            continue
+        elements = data.get("content_elements") if isinstance(data, dict) else None
+        parts = [json_text(e.get("content")) for e in (elements if isinstance(elements, list) else [])
+                 if isinstance(e, dict) and e.get("type") in ("text", "header")]
+        best = max(best, "\n".join(part for part in parts if part), key=len)
     return best
 
 
@@ -427,11 +459,12 @@ def load_cached(url):
 
 
 def fetch_article(row, previous=None):
-    """기사 하나를 읽어 캐시에 저장하고 그 기록을 돌려준다. 전에 풀어 둔 원래 기사 주소(previous)가 있으면 그걸 쓴다."""
+    """기사 하나를 읽어 캐시에 저장하고 그 기록을 돌려준다. 구글 뉴스 링크는 전에 풀어 둔 원래 기사 주소(previous)가 있으면 그걸 쓴다."""
     url = row["url"]
     record = {
         "url": url,
         "article_url": "",
+        "resolved_url": "",  # 구글 뉴스 링크를 푼 원래 기사 주소 (다시 읽을 때 쓴다)
         "title": row.get("title", ""),
         "outlet": row.get("outlet", ""),
         "published_at": row.get("published_at", ""),
@@ -446,10 +479,9 @@ def fetch_article(row, previous=None):
     target = url
     try:
         host = urllib.parse.urlparse(url).hostname or ""
-        if previous and previous.get("article_url"):
-            target = previous["article_url"]
-        elif host == "news.google.com" and "/articles/" in url:
-            target = google_article_url(url)
+        if host == "news.google.com" and "/articles/" in url:
+            target = (previous or {}).get("resolved_url") or google_article_url(url)
+            record["resolved_url"] = target
         if target.startswith("http://"):
             target = "https://" + target[len("http://"):]  # 클라우드 환경은 암호화하지 않은 http 접속을 막는다
         record["article_url"] = target
