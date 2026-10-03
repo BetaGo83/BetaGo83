@@ -36,13 +36,20 @@ const SiteFooter = (() => {
 footer { text-align: left; margin-bottom: 4rem; opacity: 0.8; }
 footer .disclaimer { font-size: 0.9rem; }
 footer ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 1rem; }
-/* 한국어 낱말이 중간에서 끊기지 않게 */
-.page-title, article p, article li, article blockquote { word-break: keep-all; overflow-wrap: break-word; }
+/* 한국어 낱말이 중간에서 끊기지 않게 (띄어쓰기에서만 줄을 바꾼다) */
+.page-title, article p, article li, article blockquote, footer p, .section h3,
+article table th, article table td, .preview-inner table th, .preview-inner table td { word-break: keep-all; overflow-wrap: break-word; }
 .search-button p { white-space: nowrap; }
 @media (max-width: 800px) { .page-title { font-size: 1.4rem; } }
-/* 표: 회사 이름·날짜는 한 줄로, 내용 칸만 줄바꿈 (표가 넓어지면 표 안에서 옆으로 민다) */
-article table th, article table td { white-space: nowrap; }
-article table td:nth-child(3) { white-space: normal; word-break: keep-all; min-width: 12em; }
+/* 표의 날짜 칸(관계 표 4번째, 관련 기업 표 6번째)은 하이픈에서 끊기지 않게 한 줄로 */
+article table td:nth-child(4), article table td:nth-child(6),
+.preview-inner table td:nth-child(4), .preview-inner table td:nth-child(6) { white-space: nowrap; }
+/* Quartz의 칸 최소 너비(75px)와 표 좌우 여백을 풀어 순위·점수 같은 좁은 칸이 자리를 덜 차지하게 하고,
+   관계 표(5칸)의 내용 칸만 넓게 둔다 (Quartz 규칙 '.table-container>table td'보다 우선하도록 article을 붙인다) */
+article .table-container > table, .preview-inner .table-container > table { margin: 1rem 0; }
+article .table-container > table th, article .table-container > table td,
+.preview-inner .table-container > table th, .preview-inner .table-container > table td { min-width: 0; }
+article .table-container > table:not(:has(th:nth-child(6))) td:nth-child(3) { min-width: 9em; }
 `
   return Footer
 }) satisfies QuartzComponentConstructor

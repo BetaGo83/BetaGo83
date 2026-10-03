@@ -37,7 +37,7 @@
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; height: 100%; }
-body { background: var(--bg); color: var(--text); font-family: "Noto Sans KR", system-ui, -apple-system, sans-serif; display: flex; flex-direction: column; }
+body { background: var(--bg); color: var(--text); font-family: "Noto Sans KR", system-ui, -apple-system, sans-serif; display: flex; flex-direction: column; word-break: keep-all; overflow-wrap: break-word; }
 header { padding: 12px 16px; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; }
 header h1 { font-size: 1.15rem; margin: 0 8px 0 0; }
 header a { color: var(--theme-node); }
@@ -63,7 +63,8 @@ svg.dragging { cursor: grabbing; }
 /* 축소했을 때 누르기 쉽게 하는 영역은 보이지 않게 (위의 점 색·테두리 규칙보다 우선) */
 .node circle.node-hit { fill: transparent !important; stroke: none !important; }
 /* 많이 축소하면 기업 이름이 읽을 수 없을 만큼 작아지므로 숨기고, 고른 점과 이웃 이름만 보인다 */
-svg.far:not(.selecting) .node:not(.theme) text, svg.far.selecting .node.dim text { display: none; }
+svg.far .node:not(.theme):not(.hit) text, svg.far.selecting .node.dim text { display: none; }
+svg.far .node.hit:not(.theme) text { font-size: var(--theme-label, 13px); font-weight: 700; }
 #zoomhint { position: absolute; left: 8px; bottom: 6px; font-size: 0.75rem; color: var(--muted); pointer-events: none; display: none; }
 svg.far ~ #zoomhint { display: block; }
 .edge { fill: none; stroke-width: 1.6px; vector-effect: non-scaling-stroke; }
@@ -137,6 +138,8 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
   var NARROW = "(max-width: 600px)";
   var embedded = window.self !== window.top;
   function stacked() { return embedded || window.matchMedia(NARROW).matches; }  // 설명 칸이 지도 아래에 있는지
+  // 위키 안 지도는 휠을 페이지 스크롤에 양보하므로 확대 방법을 알려 준다
+  var baseHint = !embedded ? "" : window.matchMedia("(pointer: coarse)").matches ? "확대: 두 손가락" : "확대: Ctrl+휠 또는 두 손가락";
   var SVGNS = "http://www.w3.org/2000/svg";
   var svg = document.getElementById("svg");
   var viewport = document.getElementById("viewport");
@@ -443,7 +446,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
       || nodes.filter(function (m) { return keys(m).some(function (s) { return s.indexOf(q) >= 0; }); })[0];
     var status = document.getElementById("status"), hint = document.getElementById("hint");
     if (!n) { status.textContent = hint.textContent = "'" + text + "'와(과) 맞는 기업이 없습니다"; return; }
-    hint.textContent = "";
+    hint.textContent = baseHint;
     if (!n.visible) { document.getElementById("theme").value = ""; hidden = {}; resetLegend(); applyFilter(); }
     var box = svg.getBoundingClientRect();
     view.x = box.width / 2 - n.x * view.k; view.y = box.height / 2 - n.y * view.k;
@@ -524,7 +527,10 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
       });
     }
     document.getElementById("status").textContent = n.id + " 선택됨, 관계 " + rels.length + "개. 자세한 내용은 옆 패널에 있습니다";
-    if (stacked()) window.scrollTo({ top: panel.getBoundingClientRect().top + window.pageYOffset - 8, behavior: "smooth" });
+    if (stacked()) {
+      var want = panel.getBoundingClientRect().top + window.pageYOffset - window.innerHeight + 220;
+      if (window.pageYOffset < want) window.scrollTo({ top: want, behavior: "smooth" });
+    }
   }
 
   // ifHidden: 설명 칸이 보여 주던 점이 필터로 숨었으면 설명 칸도 처음 내용으로 되돌린다
@@ -614,7 +620,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
   }
   svg.addEventListener("pointerup", endPointer);
   svg.addEventListener("pointercancel", endPointer);
-  if (embedded) document.getElementById("hint").textContent = "확대: Ctrl+휠 또는 두 손가락";
+  document.getElementById("hint").textContent = baseHint;
   svg.addEventListener("wheel", function (ev) {
     if (embedded && !ev.ctrlKey && !ev.metaKey) return;
     ev.preventDefault();
