@@ -226,4 +226,5 @@ updated: YYYY-MM-DD
 - 주소: `https://betago83.github.io/BetaGo83/`, 기업 지도: `https://betago83.github.io/BetaGo83/static/map.html`
 - Quartz는 `wiki/` 안의 `.html` 파일을 확장자 없이 복사하므로, 웹 페이지 파일은 `site/static/`에 둔다.
 - 저장소 Settings → Pages의 Source가 "GitHub Actions"여야 배포된다.
+- 방문 통계는 Google Analytics 4(측정 ID `G-7N54PH33TH`)로 본다. Quartz 설정(`analytics`)이 모든 페이지에 넣고, 기업 지도(`site/static/map.html`)는 따로 넣는다(위키 페이지 안에 들어간 지도는 세지 않는다). 사이트 하단에 쿠키 사용 안내를 둔다. 측정 ID는 공개 값이라 저장소에 둬도 된다.
 - `wiki/index.md`와 모든 페이지에 면책 문구를 넣는다(기업·테마 페이지는 '사람 메모' 앞, `log.md`는 맨 위). 사이트는 하단에도 넣는다: "AI가 뉴스와 공시를 바탕으로 정리한 참고 자료입니다. 틀린 내용이 있을 수 있으니 원문을 확인하세요. 투자 권유가 아닙니다."

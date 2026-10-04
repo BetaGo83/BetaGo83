@@ -9,7 +9,8 @@ const config: QuartzConfig = {
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: null,
+    // 방문 통계: Google Analytics 4 (측정 ID는 페이지에 그대로 보이는 공개 값이라 저장소에 둬도 된다)
+    analytics: { provider: "google", tagId: "G-7N54PH33TH" },
     locale: "ko-KR",
     baseUrl: "betago83.github.io/BetaGo83",
     ignorePatterns: ["private", "templates", ".obsidian"],

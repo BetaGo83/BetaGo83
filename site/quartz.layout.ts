@@ -8,6 +8,7 @@ import { pathToRoot } from "./quartz/util/path"
 
 const DISCLAIMER =
   "AI가 뉴스와 공시를 바탕으로 정리한 참고 자료입니다. 틀린 내용이 있을 수 있으니 원문을 확인하세요. 투자 권유가 아닙니다."
+const COOKIE_NOTICE = "방문 통계(Google Analytics)를 위해 쿠키를 사용합니다."
 
 // 모든 페이지 아래에 면책 문구와 링크를 넣는 하단 영역
 const SiteFooter = (() => {
@@ -21,6 +22,7 @@ const SiteFooter = (() => {
       "footer",
       { class: displayClass ?? "" },
       h("p", { class: "disclaimer" }, DISCLAIMER),
+      h("p", { class: "cookie-notice" }, COOKIE_NOTICE),
       h(
         "ul",
         null,
@@ -35,6 +37,7 @@ const SiteFooter = (() => {
   Footer.css = `
 footer { text-align: left; margin-bottom: 4rem; opacity: 0.8; }
 footer .disclaimer { font-size: 0.9rem; }
+footer .cookie-notice { font-size: 0.8rem; margin-top: -0.5rem; }
 footer ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 1rem; }
 /* 한국어 낱말이 중간에서 끊기지 않게 (띄어쓰기에서만 줄을 바꾼다) */
 .page-title, article p, article li, article blockquote, footer p, .section h3,

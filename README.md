@@ -71,5 +71,6 @@ CLAUDE.md       Claude가 위키를 관리하는 규칙
 | DART 인증키 (필수) | 같은 환경 설정의 환경 변수 (API credentials 기본 방식으로는 DART 요청에 키가 붙지 않았음) | `DART_API_KEY` |
 | 네이버 검색 API (선택) | 같은 환경 설정의 환경 변수 (API credentials에 넣으면 스크립트가 키를 읽지 못해 네이버 검색을 건너뜀) | `NAVER_CLIENT_ID`, `NAVER_CLIENT_SECRET` |
 | 웹사이트 공개 | 저장소 Settings → Pages | Source를 **GitHub Actions**로 |
+| 방문 통계 | [Google Analytics](https://analytics.google.com) (2026-10-04부터 수집) | 측정 ID `G-7N54PH33TH` (`site/quartz.config.ts`, 기업 지도는 `site/static/map.html`) |
 
 키는 Claude 클라우드 환경 설정에만 저장하고, 저장소나 GitHub Actions에는 두지 않습니다. 커밋할 때마다 키가 섞이지 않았는지 자동으로 검사하고, 섞여 있으면 커밋을 막습니다.

@@ -11,6 +11,19 @@
   // 위키 페이지 안(iframe)에서는 폭이 좁아 휴대폰처럼 설명 칸을 지도 아래에 둔다
   if (window.self !== window.top) document.documentElement.classList.add("embedded");
 </script>
+<script>
+  // 방문 통계 (Google Analytics 4). 위키 페이지 안에 들어간 지도는 그 페이지가 이미 세므로 세지 않는다
+  if (window.self === window.top) {
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { window.dataLayer.push(arguments); };
+    gtag("js", new Date());
+    gtag("config", "G-7N54PH33TH");
+    var ga = document.createElement("script");
+    ga.async = true;
+    ga.src = "https://www.googletagmanager.com/gtag/js?id=G-7N54PH33TH";
+    document.head.appendChild(ga);
+  }
+</script>
 <style>
 :root {
   color-scheme: light;
@@ -121,7 +134,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
   </aside>
   <p id="status" class="sr-only" role="status" aria-live="polite"></p>
 </main>
-<footer>AI가 뉴스와 공시를 바탕으로 정리한 참고 자료입니다. 틀린 내용이 있을 수 있으니 원문을 확인하세요. 투자 권유가 아닙니다.</footer>
+<footer>AI가 뉴스와 공시를 바탕으로 정리한 참고 자료입니다. 틀린 내용이 있을 수 있으니 원문을 확인하세요. 투자 권유가 아닙니다. 방문 통계(Google Analytics)를 위해 쿠키를 사용합니다.</footer>
 <script>
 (function () {
   "use strict";
