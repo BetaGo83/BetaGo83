@@ -68,7 +68,7 @@ CLAUDE.md       Claude가 위키를 관리하는 규칙
 | 항목 | 위치 | 값 |
 |---|---|---|
 | 사이트 접속 허용 | Claude Code 클라우드 환경 설정 → Network access를 **Custom**으로, Allowed domains에 붙여 넣기 ("Also include default list" 체크). 환경 설정은 claude.ai/code 웹이나 PC 앱에서 바꾼다 | [`docs/allowed-domains.txt`](docs/allowed-domains.txt) (DART, 구글 뉴스, 네이버, 언론사 60곳). 목록이 너무 길면 저장되지 않는다(550줄 실패, 77줄 성공). 막힌 언론사는 `fetch_articles.py`가 알려 준다 |
-| DART 인증키 (필수) | 같은 환경 설정의 환경 변수 (API credentials로는 키가 붙지 않음) | `DART_API_KEY` |
+| DART 인증키 (필수) | 같은 환경 설정의 환경 변수 (API credentials 기본 방식으로는 DART 요청에 키가 붙지 않았음) | `DART_API_KEY` |
 | 네이버 검색 API (선택) | 같은 환경 설정의 환경 변수 (API credentials에 넣으면 스크립트가 키를 읽지 못해 네이버 검색을 건너뜀) | `NAVER_CLIENT_ID`, `NAVER_CLIENT_SECRET` |
 | 웹사이트 공개 | 저장소 Settings → Pages | Source를 **GitHub Actions**로 |
 
