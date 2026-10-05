@@ -6,3 +6,8 @@
 raw/.cache/
 __pycache__/
 .venv/
+
+# 맥과 옵시디언이 만드는 개인 파일 (외장 SSD의 ._ 파일 포함)
+.DS_Store
+._*
+.obsidian/
