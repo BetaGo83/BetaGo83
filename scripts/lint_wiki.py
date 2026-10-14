@@ -20,9 +20,11 @@ import json
 import re
 import sys
 from datetime import date, timedelta
+from urllib.parse import urlparse
 
 from build_graph import CHAIN_LINE, ISSUE, LINK, THEME_LINE, build, relations, section, theme_roles, valid_date, value_chain
 from wiki_common import WIKI, is_folder_index, read_page, today_kst
+from build_graph import CLASSIFICATIONS, EVIDENCE_LEVELS, STATES, classifications
 
 DISCLAIMER = "AI가 뉴스와 공시를 바탕으로 정리한 참고 자료입니다. 틀린 내용이 있을 수 있으니 원문을 확인하세요. 투자 권유가 아닙니다."
 PAIRS = {
@@ -81,6 +83,8 @@ def check_pages(files, names, loaded, problems):
         if kind not in REQUIRED:
             continue
         for key in REQUIRED[kind]:
+            if kind == "company" and meta.get("page_scope") == "counterparty" and key == "market":
+                continue  # 확인되지 않은 상장구분은 추정하지 않는다
             missing = key not in meta if key in LIST_REQUIRED and kind == "company" else not meta.get(key)
             if missing:
                 problems.append(f"{rel}: frontmatter에 {key}가 없습니다")
@@ -172,6 +176,9 @@ def check_relations(loaded, problems):
             partner = relations(loaded[row["target"]][2])
             if not any(p["target"] == name and p["type"] == PAIRS[row["type"]] for p in partner):
                 problems.append(f"{rel}: 짝이 없는 관계 — [[{row['target']}]]에 '{PAIRS[row['type']]} [[{name}]]' 줄이 필요합니다")
+            for p in partner:
+                if p["target"] == name and p["type"] == PAIRS[row["type"]] and set(p["sources"]) == set(row["sources"]) and p["status"] != row["status"]:
+                    problems.append(f"{rel}: 양쪽 관계의 상태가 다릅니다: {row['target']}")
     for target, sources in sorted(unlinked.items()):
         if target in loaded:
             problems.append(f"'{target}' 페이지가 있으니 관계 표에서 [[{target}]]로 링크하세요 ({', '.join(sorted(sources))})")
@@ -262,6 +269,44 @@ def check_generated(loaded, problems):
             problems.append(f"themes/{theme}.md: 관련 기업 표가 최신이 아닙니다. python3 scripts/build_graph.py를 실행하세요")
 
 
+def check_classifications(loaded, problems):
+    for name, (path, meta, body) in loaded.items():
+        if meta.get("type") != "company":
+            continue
+        rel = path.relative_to(WIKI)
+        if meta.get("page_scope") != "counterparty":
+            if not meta.get("krx_industry"):
+                problems.append(f"{rel}: 거래소 업종 또는 적용 대상 아님 표시가 없습니다")
+            if not valid_date(meta.get("classification_as_of", "")):
+                problems.append(f"{rel}: 분류 기준일이 없거나 잘못되었습니다")
+            groups = classifications(body)
+            if not groups:
+                problems.append(f"{rel}: 분류 근거 표가 없습니다")
+            seen = set()
+            for c in groups:
+                if c["malformed"]:
+                    problems.append(f"{rel}: {c['malformed']}")
+                    continue
+                if c["topic"] in seen:
+                    problems.append(f"{rel}: 같은 주제 분류가 중복됩니다: {c['topic']}")
+                seen.add(c["topic"])
+                if c["classification"] not in CLASSIFICATIONS or c["status"] not in STATES or c["evidence_level"] not in EVIDENCE_LEVELS:
+                    problems.append(f"{rel}: 알 수 없는 분류·상태·근거 수준: {c['topic']}")
+                if not valid_date(c["date"]) or future(c["date"]) or not c["text"] or not c["sources"]:
+                    problems.append(f"{rel}: 분류에 유효한 날짜·내용·출처가 필요합니다: {c['topic']}")
+                hosts = {urlparse(u).hostname for u in c["sources"]}
+                official = hosts & {"dart.fss.or.kr", "kind.krx.co.kr", "index.krx.co.kr", "data.krx.co.kr"}
+                if c["classification"] != "후보" and (not official or c["weak"]):
+                    problems.append(f"{rel}: 확인 분류에는 공시 원문·항목 또는 거래소 자료가 필요합니다: {c['topic']}")
+                if c["classification"] == "거래소 지수 편입" and not hosts & {"index.krx.co.kr", "data.krx.co.kr"}:
+                    problems.append(f"{rel}: 지수 편입 출처가 거래소가 아닙니다: {c['topic']}")
+        for r in relations(body):
+            if r["malformed"]:
+                continue
+            if r["status"] not in STATES or r["evidence_level"] not in EVIDENCE_LEVELS:
+                problems.append(f"{rel}: 관계 상태 또는 근거 수준이 올바르지 않습니다: {r['target']}")
+
+
 def main():
     files = sorted(WIKI.rglob("*.md"))
     pages_only = [path for path in files if not is_folder_index(path)]
@@ -274,6 +319,7 @@ def main():
     check_relations(loaded, problems)
     check_stages(loaded, problems)
     check_identity(loaded, problems)
+    check_classifications(loaded, problems)
     check_generated(loaded, problems)
 
     for problem in problems:

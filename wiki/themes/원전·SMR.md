@@ -4,7 +4,7 @@ name: 원전·SMR
 aliases: []
 keywords: [원전 수주, 원자력발전, SMR, 소형모듈원전]
 stages: [해외 원전사업, 설계, 원전·SMR 사업, 사업개발·투자, 사용후핵연료 처분, 해상 SMR(조선), 원전 설비·장비]
-updated: 2026-10-03
+updated: 2026-10-14
 ---
 
 # 원전·SMR
@@ -29,21 +29,41 @@ updated: 2026-10-03
 ## 관련 기업
 <!-- scripts/build_graph.py가 만드는 표. 손으로 고치지 않는다 -->
 
-### 1차 관련 기업
-
-| 순위 | 기업 | 단계 | 점수 | 근거 수 | 최근 근거 |
+| 기업 | 주제 | 분류 | 상태 | 근거 날짜 | 근거 |
 |---|---|---|---|---|---|
-| 1 | [[한국수력원자력]] | 해외 원전사업 | 4.0 | 3 | 2026-10-02 |
-| 2 | [[한미글로벌]] | 사업개발·투자 | 3.0 | 1 | 2026-10-02 |
-| 3 | [[HD한국조선해양]] | 해상 SMR(조선) | 2.0 | 1 | 2026-10-01 |
-| 4 | [[삼성중공업]] | 해상 SMR(조선) | 2.0 | 1 | 2026-10-01 |
-| 5 | [[한화오션]] | 해상 SMR(조선) | 2.0 | 1 | 2026-10-01 |
-| 6 | [[한전기술]] | 설계 | 1.9 | 1 | 2026-09-30 |
-| 7 | [[케이엔알시스템]] | 원전 설비·장비 | 1.5 | 1 | 2026-09-30 |
-| 8 | [[현대건설]] | 사용후핵연료 처분 | 1.0 | 1 | 2026-10-02 |
-| 9 | [[두산에너빌리티]] | 원전·SMR 사업 | 0.0 | 0 | - |
+| [[HD한국조선해양]] | SMR 상용화 | 공시·거래소 확인 | 계획(확인 중) | 2026-03-20 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001032) |
+| [[HD현대중공업]] | SMR 상용화 | 공시·거래소 확인 | 확인 | 2026-03-20 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000859) |
+| [[두산에너빌리티]] | 원전·SMR | 공시·거래소 확인 | 확인 | 2026-03-20 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001246) |
+| [[삼성중공업]] | SMR 상용화 | 후보 | 후보(확인 중) | 2026-10-01 | 기사 제목 · 약한 근거 [출처](https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWTlidElDR1ZaXzRialRhbE9TQjNmeVRVRERUQUxzLTBlLWxPS3NKVVJZamFPX0FyZG1iLUlnM2VxVG9Eb1E5UnBERG1qMFdCbjl6Yk1pdEdlUzVnUmkzRDFRNWE2TmRhT3Qw?oc=5) |
+| [[케이엔알시스템]] | 원전·SMR | 공시·거래소 확인 | 확인 | 2026-09-30 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930901316) |
+| [[한국수력원자력]] | 원전·SMR | 공시·거래소 확인 | 확인 | 2026-08-14 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003151) |
+| [[한국수력원자력]] | SMR 상용화 | 공시·거래소 확인 | 확인 | 2026-08-14 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003151) |
+| [[한국수력원자력]] | 원전 수출 | 공시·거래소 확인 | 확인 | 2026-08-14 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003151) |
+| [[한미글로벌]] | SMR 상용화 | 후보 | 후보(확인 중) | 2026-10-02 | 기사 제목 · 약한 근거 [출처](https://news.google.com/rss/articles/CBMibkFVX3lxTE5jTTRGYXVJU0dMWmZkVzA0TFZjaFZTeGtQblhybjk5UG5mbUtrMk9YaW5PUzV1bEZSeFhaem9obTNyZ1hVTjZXci0zcjhuWVhzamJaRGp0OEhkNXRkaXd6Y3pTMUkxMkdkUE01MjVn?oc=5) |
+| [[한미글로벌]] | 원전 수출 | 후보 | 후보(확인 중) | 2026-03-16 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001377) |
+| [[한전기술]] | 원전·SMR | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage) |
+| [[한전기술]] | SMR 상용화 | 공시·거래소 확인 | 확인 | 2026-03-23 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000234) |
+| [[한화오션]] | SMR 상용화 | 후보 | 후보(확인 중) | 2026-10-01 | 기사 제목 · 약한 근거 [출처](https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWTlidElDR1ZaXzRialRhbE9TQjNmeVRVRERUQUxzLTBlLWxPS3NKVVJZamFPX0FyZG1iLUlnM2VxVG9Eb1E5UnBERG1qMFdCbjl6Yk1pdEdlUzVnUmkzRDFRNWE2TmRhT3Qw?oc=5) |
+| [[현대건설]] | 원전·SMR | 공시·거래소 확인 | 확인 | 2026-03-18 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001395) |
+| [[현대건설]] | SMR 상용화 | 공시·거래소 확인 | 확인 | 2026-03-18 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001395) |
+| [[현대건설]] | 원전 수출 | 공시·거래소 확인 | 확인 | 2026-08-24 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824800602) |
 
-점수: 근거마다 가중치 × 0.5^(경과일/90)의 합, 2026-10-03 기준. 계산 방법은 첫 화면(index)의 '보는 법'에 있습니다.
+### 2차 관련 기업
+
+기업 간 관계로 이어진 회사입니다. 주제의 직접 분류 근거를 뜻하지 않으며, 개별 관계의 상태와 근거는 기업 페이지에서 확인할 수 있습니다.
+
+| 기업 | 이어진 1차 기업 | 관계 |
+|---|---|---|
+| [[한화에어로스페이스]] | [[한화오션]] | 출자 |
+
+기사·공시 제목만 확인한 항목에는 약한 근거 표시가 붙습니다. 분류는 사업의 성공이나 현재 거래 가능 여부를 보증하지 않습니다.
+
+## 주제 안내
+이 페이지는 관련 기업과 근거를 함께 읽는 주제 안내입니다. 밸류체인의 단계 이름은 설명을 위한 구분입니다.
+
+거래소 지수에 들어 있는 회사, 공시·거래소 자료에서 관련 사업을 확인한 회사, 추가 확인이 필요한 후보를 나누어 표시합니다. 계획 단계는 확인 중으로 표시합니다.
+
+이 안내에는 거래소 지수 편입 기준을 적용하지 않았습니다. 기업별 공시 근거와 후보 여부를 확인하세요.
 
 ## 최근 동향
 - 2026-10-02 12차 전력수급기본계획 원전 공론화위원회 출범, 국민 숙의 시작 · [전자신문](https://news.google.com/rss/articles/CBMiTkFVX3lxTE5TaXpiNFlRMXpNeXM3bXl0dXpwVGlyUnpMU1U2QlhGZG9PYzlibGlrSGxvYkpnem4zd1N2VWo4eWtiaWxmbkltTlZKT0liZw?oc=5)

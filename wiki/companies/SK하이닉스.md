@@ -6,7 +6,9 @@ market: KOSPI
 dart_corp_code: "00164779"
 aliases: [에스케이하이닉스, 하이닉스]
 themes: [HBM·반도체]
-updated: 2026-10-03
+updated: 2026-10-14
+krx_industry: 전기·전자
+classification_as_of: 2026-10-08
 ---
 
 # SK하이닉스
@@ -17,17 +19,31 @@ updated: 2026-10-03
 - 마이크론과의 점유율 차이가 D램 1%p, HBM 32%p라고 보도됨 ([아이티데일리](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ZSERCVUdyNnN3VE9BTGJvTDRCb0JqaXQ2Z0JCLWhZN1dzQWdENXR2dTBNVjZoX09iTmhwNUtYaGhVZ3VpSG16TGZTeEhza04wV044QXdjLV93SF9DendWWFdvaUVxZEZE?oc=5))
 
 ## 관계
-| 관계 | 상대 | 내용 | 날짜 | 출처 |
-|---|---|---|---|---|
-| 경쟁 | [[마이크론]] | HBM (마이크론 커스텀 HBM 도전) | 2026-10-01 | [아주경제](https://news.google.com/rss/articles/CBMiWkFVX3lxTFBra2pkdEY0QkRRQkxWd3RVZFVsaFhLMDJrUzRFT0lGMFJvalNzZWFfZE5aYVhDbTh2UjhmbGxHQnJMQUpEc01JTWlJM0hRVm96R09OWDRPSzRLZ9IBWEFVX3lxTFAtYS1hNjZ5TzN3a09LeG5Cd1VFV2pBU083SktkYm11LWEwODNkTDBCM2Q1N2lDUUNpYzVkWWUyaU9fRzl2SGJldzZtUWxvdEJ1TXMyZ2RDSWs?oc=5) |
-| 경쟁 | [[삼성전자]] | HBM (반도체 전시회에서 차세대 HBM 기술로 격돌) | 2026-10-01 | [뉴시스](https://news.google.com/rss/articles/CBMieEFVX3lxTE9Xc195OENHdmdzNXRoM0JDNzJTLUppbkZETzBLdm41WE5EYUx1ZXNJaTBYdk1iMGE3bmd4X01XY1pVVEdxd2dGYktpWVRMblpETk5ZUkh5LXBGalBnakdBMEszTXJTN1lCSE5KUEFrNjE3Rk9PdnBIdNIBeEFVX3lxTE9Xc195OENHdmdzNXRoM0JDNzJTLUppbkZETzBLdm41WE5EYUx1ZXNJaTBYdk1iMGE3bmd4X01XY1pVVEdxd2dGYktpWVRMblpETk5ZUkh5LXBGalBnakdBMEszTXJTN1lCSE5KUEFrNjE3Rk9PdnBIdA?oc=5) |
-| 공급사 | [[위드텍]] | 공정·제조환경 모니터링 장비 41억5,160만 원 | 2026-09-30 | [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930901244) |
+| 관계 | 상대 | 내용 | 날짜 | 출처 | 상태 | 근거 수준 |
+|---|---|---|---|---|---|---|
+| 공급사 | [[위드텍]] | 위드텍은 SK하이닉스에 공정·제조환경 모니터링 장비를 공급한다. 확인한 계약은 4건으로, 2025년 39억3,120만 원·35억9,600만 원과 2026년 36억8,100만 원·41억5,160만 원이며, 최근 계약기간은 2026-09-29\~2027-04-30이다. | 2026-09-30 | [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930901244), [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313000682), [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310900445) | 확인 | 공시 원문 |
+| 경쟁 | [[마이크론]] | 마이크론과 HBM 경쟁 후보(커스텀 HBM 도전 보도, 기사 제목 근거). | 2026-10-01 | [아주경제](https://news.google.com/rss/articles/CBMiWkFVX3lxTFBra2pkdEY0QkRRQkxWd3RVZFVsaFhLMDJrUzRFT0lGMFJvalNzZWFfZE5aYVhDbTh2UjhmbGxHQnJMQUpEc01JTWlJM0hRVm96R09OWDRPSzRLZ9IBWEFVX3lxTFAtYS1hNjZ5TzN3a09LeG5Cd1VFV2pBU083SktkYm11LWEwODNkTDBCM2Q1N2lDUUNpYzVkWWUyaU9fRzl2SGJldzZtUWxvdEJ1TXMyZ2RDSWs?oc=5) | 후보(확인 중) | 기사 제목 |
+| 경쟁 | [[삼성전자]] | 삼성전자와 HBM·HBM4 경쟁 후보(전시회 기술 공개와 경쟁 보도, 기사 제목 근거). | 2026-10-01 | [기사 제목](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zNEJ5OHNfSEJQWkEtekEwYXFnd1FNcFViWXBBSGhsRExnQVMtX01HZEZZLWFEYnZZYjdGNEU3dmNFa3JEemlTUVgzVVFTdmpRTkQzTjh6LURVNjZVNGZ1V9IBeEFVX3lxTE9Xc195OENHdmdzNXRoM0JDNzJTLUppbkZETzBLdm41WE5EYUx1ZXNJaTBYdk1iMGE3bmd4X01XY1pVVEdxd2dGYktpWVRMblpETk5ZUkh5LXBGalBnakdBMEszTXJTN1lCSE5KUEFrNjE3Rk9PdnBIdA?oc=5), [비즈워치](https://news.google.com/rss/articles/CBMibEFVX3lxTE1kTUkwWlRDbkw4NU55MzQ1Q25PaW1YVUc2TExkWnZTMjBUYXFLa1A4NGtNZDNrR3d3enVYQkJack5XX29abWNVenF0cnk3VVVHeTNuOUh4SU4tVXUzd0ZrTU1OblVkRDBObXlQRw?oc=5) | 후보(확인 중) | 기사 제목 |
+| 공급사 | 에이에스엠엘코리아 유한회사 | 에이에스엠엘코리아에서 EUV Scanner 등 장비를 취득하는 계약으로 약 11조9,497억 원을 예상하며, 최종 취득예정일은 2027-12-31이다. | 2026-03-24 | [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324800457) | 확인 | 공시 원문 |
+| 공급사 | [[한미반도체]] | 한미반도체의 HBM 제조장비 공급계약 3건(TC BONDER 명시 2건)은 공시상 기간이 모두 만료됐다(가장 늦은 종료일 2026-09-02). | 2026-06-08 | [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251117800179), [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260114800028), [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260608800436) | 종료 | 공시 원문 |
+| 공급사 | [[디지털프론티어]] | 디지털프론티어의 HBM·DDR5용 반도체 검사장비 공급계약 3건은 2025년 사업보고서에서 모두 납품 완료로 확인된다. | 2026-03-12 | [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001121) | 종료 | 공시 원문 |
 
 ## 테마
-- [[HBM·반도체]] · 메모리 제조: HBM을 만드는 메모리 회사 ([아이티데일리](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ZSERCVUdyNnN3VE9BTGJvTDRCb0JqaXQ2Z0JCLWhZN1dzQWdENXR2dTBNVjZoX09iTmhwNUtYaGhVZ3VpSG16TGZTeEhza04wV044QXdjLV93SF9DendWWFdvaUVxZEZE?oc=5))
+- [[HBM·반도체]] · 메모리 제조: HBM을 만드는 메모리 회사 (역할 상태: 확인) ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000635))
 
 ## 최근 이슈
-- 2026-10-01 [기타] 이달 국내 최대 반도체 전시회에서 삼성전자와 맞붙으며 차세대 HBM 기술을 공개한다고 보도됨 · [[HBM·반도체]] · [뉴시스](https://news.google.com/rss/articles/CBMieEFVX3lxTE9Xc195OENHdmdzNXRoM0JDNzJTLUppbkZETzBLdm41WE5EYUx1ZXNJaTBYdk1iMGE3bmd4X01XY1pVVEdxd2dGYktpWVRMblpETk5ZUkh5LXBGalBnakdBMEszTXJTN1lCSE5KUEFrNjE3Rk9PdnBIdNIBeEFVX3lxTE9Xc195OENHdmdzNXRoM0JDNzJTLUppbkZETzBLdm41WE5EYUx1ZXNJaTBYdk1iMGE3bmd4X01XY1pVVEdxd2dGYktpWVRMblpETk5ZUkh5LXBGalBnakdBMEszTXJTN1lCSE5KUEFrNjE3Rk9PdnBIdA?oc=5)
+- 2026-10-01 [기타] 이달 국내 최대 반도체 전시회에서 삼성전자와 맞붙으며 차세대 HBM 기술을 공개한다고 보도됨 (근거 수준: 기사 제목) · [[HBM·반도체]] · [기사 제목](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zNEJ5OHNfSEJQWkEtekEwYXFnd1FNcFViWXBBSGhsRExnQVMtX01HZEZZLWFEYnZZYjdGNEU3dmNFa3JEemlTUVgzVVFTdmpRTkQzTjh6LURVNjZVNGZ1V9IBeEFVX3lxTE9Xc195OENHdmdzNXRoM0JDNzJTLUppbkZETzBLdm41WE5EYUx1ZXNJaTBYdk1iMGE3bmd4X01XY1pVVEdxd2dGYktpWVRMblpETk5ZUkh5LXBGalBnakdBMEszTXJTN1lCSE5KUEFrNjE3Rk9PdnBIdA?oc=5)
+
+## 분류와 확인 근거
+거래소 업종: **전기·전자** · 기준일 2026-10-08 · [KRX 종목별 업종](https://index.krx.co.kr/contents/MKD/03/0303/03030103/MKD03030103.jsp)
+
+분류의 기준일과 개별 근거 날짜가 다를 수 있습니다. 지수 편입은 해당 주제의 모든 사업을 수행한다는 뜻이 아닙니다.
+
+| 주제 | 분류 | 상태 | 기준일 | 확인 내용 | 근거 수준 | 출처 |
+|---|---|---|---|---|---|---|
+| 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | KRX 반도체 구성종목 | 거래소 자료 | [KRX XGS02P](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
+| AI 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | KRX AI 반도체 지수 구성종목 | 거래소 자료 | [KRX XGT18P](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
+| HBM 수요 확대 | 공시·거래소 확인 | 확인 | 2026-03-17 | 회사 연혁에 HBM3 개발과 HBM3E 양산이 기재됨 | 공시 원문 | [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000635) |
 
 ---
 *AI가 뉴스와 공시를 바탕으로 정리한 참고 자료입니다. 틀린 내용이 있을 수 있으니 원문을 확인하세요. 투자 권유가 아닙니다.*

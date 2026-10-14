@@ -4,7 +4,7 @@ name: HBM·반도체
 aliases: []
 keywords: [HBM, 고대역폭메모리, TC본더, 하이브리드 본딩, 반도체 후공정]
 stages: [메모리 제조, 후공정 장비, 하이브리드 본딩, 검사 장비·부품, 공정 모니터링, 패키지기판, 전력반도체 후공정]
-updated: 2026-10-03
+updated: 2026-10-14
 ---
 
 # HBM·반도체
@@ -29,25 +29,52 @@ updated: 2026-10-03
 ## 관련 기업
 <!-- scripts/build_graph.py가 만드는 표. 손으로 고치지 않는다 -->
 
-### 1차 관련 기업
-
-| 순위 | 기업 | 단계 | 점수 | 근거 수 | 최근 근거 |
+| 기업 | 주제 | 분류 | 상태 | 근거 날짜 | 근거 |
 |---|---|---|---|---|---|
-| 1 | [[삼성전기]] | 패키지기판 | 8.7 | 2 | 2026-09-28 |
-| 2 | [[한미반도체]] | 후공정 장비 | 5.3 | 2 | 2026-09-30 |
-| 3 | [[LB세미콘]] | 전력반도체 후공정 | 4.9 | 2 | 2026-10-01 |
-| 4 | [[디아이]] | 검사 장비·부품 | 4.4 | 1 | 2026-10-01 |
-| 5 | [[위드텍]] | 공정 모니터링 | 4.4 | 1 | 2026-09-30 |
-| 6 | [[베시]] | 하이브리드 본딩 | 2.0 | 1 | 2026-10-02 |
-| 7 | [[어플라이드 머티어리얼즈]] | 하이브리드 본딩 | 2.0 | 1 | 2026-10-02 |
-| 8 | [[마이크론]] | 메모리 제조 | 2.0 | 2 | 2026-10-01 |
-| 9 | [[와이씨]] | 검사 장비·부품 | 1.4 | 1 | 2026-09-29 |
-| 10 | [[테크윙]] | 검사 장비·부품 | 1.4 | 1 | 2026-09-29 |
-| 11 | [[네오셈]] | 검사 장비·부품 | 1.4 | 1 | 2026-09-28 |
-| 12 | [[SK하이닉스]] | 메모리 제조 | 1.0 | 1 | 2026-10-01 |
-| 13 | [[삼성전자]] | 메모리 제조 | 1.0 | 1 | 2026-10-01 |
+| [[LB세미콘]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage) |
+| [[SK하이닉스]] | 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
+| [[SK하이닉스]] | AI 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
+| [[SK하이닉스]] | HBM 수요 확대 | 공시·거래소 확인 | 확인 | 2026-03-17 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000635) |
+| [[네오셈]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-09-28 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900837) |
+| [[네오셈]] | HBM 수요 확대 | 후보 | 후보(확인 중) | 2026-03-18 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000748) |
+| [[디아이]] | AI 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
+| [[디아이]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage) |
+| [[디아이]] | HBM 수요 확대 | 공시·거래소 확인 | 확인 | 2026-03-12 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001121) |
+| [[마이크론]] | HBM 수요 확대 | 후보 | 후보(확인 중) | 2026-10-01 | 기사 제목 · 약한 근거 [출처](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5XNElDZXBLNTd3VmNlMUZjTzkyT2dwM0FScl9ybWtxb2wyRGxURy1aV2VSZ1c3MFVabFdBQUpuQU9HYTlfSERvWTIzandnMHRKUkMxSWRJdEdpd3RBeTR1V3BtU3M?oc=5) |
+| [[마이크론]] | 반도체 | 후보 | 후보(확인 중) | 2026-10-01 | 기사 제목 · 약한 근거 [출처](https://news.google.com/rss/articles/CBMiWkFVX3lxTFBra2pkdEY0QkRRQkxWd3RVZFVsaFhLMDJrUzRFT0lGMFJvalNzZWFfZE5aYVhDbTh2UjhmbGxHQnJMQUpEc01JTWlJM0hRVm96R09OWDRPSzRLZ9IBWEFVX3lxTFAtYS1hNjZ5TzN3a09LeG5Cd1VFV2pBU083SktkYm11LWEwODNkTDBCM2Q1N2lDUUNpYzVkWWUyaU9fRzl2SGJldzZtUWxvdEJ1TXMyZ2RDSWs?oc=5) |
+| [[베시]] | 반도체 | 후보 | 후보(확인 중) | 2026-10-02 | 기사 제목 · 약한 근거 [출처](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KdXh0SllfSlRabUJDUllHTnQ3NWNIWko4RFNpakJncXhacnRjTWdSNGJSNGFkanE4aXpURzNiXzBoVnlvdl9FNk1mMExJc0x2WGxyRG0yWDUwM044RWhOUVZFTjh1QQ?oc=5) |
+| [[삼성전기]] | AI 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
+| [[삼성전기]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage) |
+| [[삼성전자]] | 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
+| [[삼성전자]] | AI 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
+| [[삼성전자]] | HBM 수요 확대 | 공시·거래소 확인 | 확인 | 2026-03-10 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002820) |
+| [[어플라이드 머티어리얼즈]] | 반도체 | 후보 | 후보(확인 중) | 2026-10-02 | 기사 제목 · 약한 근거 [출처](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KdXh0SllfSlRabUJDUllHTnQ3NWNIWko4RFNpakJncXhacnRjTWdSNGJSNGFkanE4aXpURzNiXzBoVnlvdl9FNk1mMExJc0x2WGxyRG0yWDUwM044RWhOUVZFTjh1QQ?oc=5) |
+| [[와이씨]] | AI 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
+| [[와이씨]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage) |
+| [[위드텍]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage) |
+| [[테크윙]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-09-29 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900917) |
+| [[테크윙]] | HBM 수요 확대 | 공시·거래소 확인 | 확인 | 2026-08-13 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813900654) |
+| [[한미반도체]] | 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
+| [[한미반도체]] | AI 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
+| [[한미반도체]] | HBM 수요 확대 | 공시·거래소 확인 | 확인 | 2026-06-08 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260608800436) |
 
-점수: 근거마다 가중치 × 0.5^(경과일/90)의 합, 2026-10-03 기준. 계산 방법은 첫 화면(index)의 '보는 법'에 있습니다.
+### 2차 관련 기업
+
+기업 간 관계로 이어진 회사입니다. 주제의 직접 분류 근거를 뜻하지 않으며, 개별 관계의 상태와 근거는 기업 페이지에서 확인할 수 있습니다.
+
+| 기업 | 이어진 1차 기업 | 관계 |
+|---|---|---|
+| [[Samsung (China) Semiconductor Co., Ltd.]] | [[디아이]] | 공급사 |
+| [[디지털프론티어]] | [[디아이]] | 피출자 |
+
+기사·공시 제목만 확인한 항목에는 약한 근거 표시가 붙습니다. 분류는 사업의 성공이나 현재 거래 가능 여부를 보증하지 않습니다.
+
+## 주제 안내
+이 페이지는 관련 기업과 근거를 함께 읽는 주제 안내입니다. 밸류체인의 단계 이름은 설명을 위한 구분입니다.
+
+거래소 지수에 들어 있는 회사, 공시·거래소 자료에서 관련 사업을 확인한 회사, 추가 확인이 필요한 후보를 나누어 표시합니다. 계획 단계는 확인 중으로 표시합니다.
+
+지수 구성종목 확인 기준일: 2026-10-08. 확인한 지수: KRX AI 반도체 지수, KRX 반도체 ([KRX 지수정보](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp)).
 
 ## 최근 동향
 - 2026-10-02 어플라이드 머티어리얼즈와 베시가 EPIC 센터에서 하이브리드 본딩을 공동 개발 · [디일렉](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KdXh0SllfSlRabUJDUllHTnQ3NWNIWko4RFNpakJncXhacnRjTWdSNGJSNGFkanE4aXpURzNiXzBoVnlvdl9FNk1mMExJc0x2WGxyRG0yWDUwM044RWhOUVZFTjh1QQ?oc=5)

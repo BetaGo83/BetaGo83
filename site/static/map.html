@@ -82,6 +82,10 @@ svg.far .node.hit:not(.theme) text { font-size: var(--theme-label, 13px); font-w
 svg.far ~ #zoomhint { display: block; }
 .edge { fill: none; stroke-width: 1.6px; vector-effect: non-scaling-stroke; }
 .edge.tier2 { stroke-dasharray: 4 3; }
+.edge.ended { opacity: 0.3; }
+.edge.pending { stroke-dasharray: 6 4; }
+.edge.ended.dim { opacity: 0.12; }
+.tag.weak { border: 1px dashed var(--muted); }
 .edge-hit { fill: none; stroke: transparent; stroke-width: 14px; vector-effect: non-scaling-stroke; cursor: pointer; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 #hint { font-size: 0.8rem; color: var(--muted); }
@@ -128,7 +132,8 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
   </div>
   <aside id="panel">
     <h2>보는 법</h2>
-    <p>점은 기업과 테마, 선은 관계입니다. 선 색이 관계 종류이고, 화살표는 방향입니다(공급: 납품하는 쪽 → 받는 쪽, 출자·인수: 하는 쪽 → 받는 쪽). 테마로 이어진 회색 선 중 점선은 2차 관련 기업입니다.</p>
+    <p>점은 기업과 주제 안내, 선은 관계입니다. 색은 관계 종류, 화살표는 방향입니다. 종료된 관계는 흐리게 표시합니다. 계획·후보는 점선이며, 상세 설명에 확인 중으로 표시합니다.</p>
+    <p>기업별 거래소 업종과 지수 편입·공시 확인·후보를 구분합니다. 기사 제목만 확인한 자료에는 약한 근거 표시가 붙습니다.</p>
     <p>점이나 선을 누르면 관계와 근거(공시·기사 링크)가 여기 나옵니다. 끌어서 옮기고, 휠이나 두 손가락으로 확대할 수 있습니다.</p>
     <p class="meta" id="updated"></p>
   </aside>
@@ -189,6 +194,8 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
   function safeUrl(u) { return /^https?:\/\//.test(u || "") ? u : null; }
   function sourcesOf(v) { return list(v.sources || v.source).map(safeUrl).filter(Boolean); }
   function addSources(parent, v) {
+    if (v.weak) html("span", "약한 근거", parent, { class: "tag weak" });
+    if (v.evidence_level) parent.appendChild(document.createTextNode(" · " + v.evidence_level));
     var urls = sourcesOf(v);
     urls.forEach(function (u, i) {
       parent.appendChild(document.createTextNode(" "));
@@ -338,7 +345,8 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
     var edgeLayer = el("g", {}, viewport), nodeLayer = el("g", {}, viewport);
     edges.forEach(function (e) {
       var kind = kindOf(e.type);
-      e.line = el("line", { class: "edge" + (e.tier === 2 ? " tier2" : ""), style: "stroke: var(" + kind.color + ")" }, edgeLayer);
+      var p = e.presentation || {};
+      e.line = el("line", { class: "edge" + (e.tier === 2 ? " tier2" : "") + (p.muted ? " ended" : "") + (p.line_style === "dashed" ? " pending" : ""), style: "stroke: var(" + kind.color + ")" }, edgeLayer);
       if (kind.directed) e.line.setAttribute("marker-end", "url(#arrow-" + kind.key + ")");
       e.hit = el("line", { class: "edge-hit" }, edgeLayer);
       e.hit.addEventListener("pointermove", function (ev) { if (ev.pointerType === "mouse") showTip(ev, edgeText(e)); });
@@ -437,7 +445,8 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
   function edgeText(e) {
     var arrow = kindOf(e.type).directed ? " → " : " — ";
     var lines = [e.source + arrow + e.target + " (" + e.type + (e.stage ? ", " + e.stage : "") + ")"];
-    e.evidence.slice(0, 3).forEach(function (v) { lines.push(v.date + " " + (v.text || "")); });
+    if (e.presentation && e.presentation.label) lines.push(e.presentation.label);
+    e.evidence.slice(0, 3).forEach(function (v) { lines.push(v.date + " " + (v.text || "") + (v.weak ? " · 약한 근거" : "")); });
     return lines.join("\n");
   }
   function showTip(ev, text) {
@@ -481,31 +490,44 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
     panel.innerHTML = "";
     html("h2", n.id, panel);
     var meta = [];
-    if (n.type === "theme") meta.push("테마");
+    if (n.type === "theme") meta.push("주제 안내");
     if (n.type === "external") meta.push("위키 페이지가 아직 없는 상대");
     if (n.market) meta.push(n.market + (n.ticker ? " " + n.ticker : ""));
+    if (n.krx_industry) meta.push("거래소 업종: " + n.krx_industry + " (" + (n.classification_as_of || "기준일 미상") + ")");
     html("div", meta.join(" · "), panel, { class: "meta" });
     if (n.summary && n.type !== "external") html("p", n.summary, panel);
     var url = pageUrl(n);
     if (url) html("a", "위키 페이지 열기 →", html("p", null, panel), { href: url, target: "_top" });
 
+    if (list(n.classifications).length) {
+      html("h3", "분류와 확인 근거", panel);
+      var cl = html("ul", null, panel);
+      n.classifications.forEach(function (c) {
+        var item = html("li", c.topic + " · " + c.classification + " · " + c.status + " (" + c.date + ") — " + c.text, cl);
+        addSources(item, c);
+      });
+    }
+
     if (n.themes.length) {
-      html("h3", "테마", panel);
+      html("h3", "주제 안내", panel);
       var ul = html("ul", null, panel);
       n.themes.forEach(function (t) {
         var li = html("li", null, ul);
-        html("span", t.tier === 1 ? "1차" : "2차", li, { class: "tag" });
-        li.appendChild(document.createTextNode(t.theme + (t.stage ? " · " + t.stage : "") +
-          " (점수 " + t.score + (t.via ? ", 연결: " + t.via + " · " + t.via_type : "") + ")"));
+        if (t.presentation && t.presentation.label) html("span", t.presentation.label, li, { class: "tag" });
+        li.appendChild(document.createTextNode(t.theme + (t.stage ? " · " + t.stage : "")));
       });
     }
     if (n.type === "theme") {
       var members = edges.filter(function (e) { return e.type === "테마" && e.target === n.id; })
-        .sort(function (a, b) { return a.tier - b.tier || b.score - a.score; });
+        .sort(function (a, b) { return a.source.localeCompare(b.source, "ko"); });
       html("h3", "관련 기업 " + members.length + "곳", panel);
       var ml = html("ul", null, panel);
       members.forEach(function (e) {
-        html("li", e.source + (e.stage ? " · " + e.stage : "") + " (" + (e.tier === 1 ? "1차" : "2차") + ", 점수 " + e.score + ")", ml);
+        var item = html("li", e.source + (e.stage ? " · " + e.stage : "") + (e.presentation && e.presentation.label ? " · " + e.presentation.label : ""), ml);
+        var facts = html("ul", null, item);
+        list(e.classifications).forEach(function (c) {
+          addSources(html("li", c.topic + " · " + c.classification + " · " + c.status + " (" + c.date + ")", facts), c);
+        });
       });
     }
     var rels = edges.filter(function (e) { return e.type !== "테마" && (e.source === n.id || e.target === n.id); });
@@ -518,9 +540,10 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
                     "인수": e.source === n.id ? "인수 →" : "← 인수됨" }[e.type] || "";
         var li = html("li", null, rl);
         html("span", e.type, li, { class: "tag" });
+        if (e.presentation && e.presentation.label) html("span", e.presentation.label, li, { class: "tag" });
         li.appendChild(document.createTextNode((dir ? dir + " " : "") + other));
         var ev = html("ul", null, li);
-        e.evidence.forEach(function (v) { addSources(html("li", v.date + " " + (v.text || ""), ev), v); });
+        e.evidence.forEach(function (v) { addSources(html("li", v.date + " " + (v.text || "") + (v.status ? " · " + v.status : ""), ev), v); });
       });
     }
     var own = edges.filter(function (e) { return e.type === "테마" && e.source === n.id; });

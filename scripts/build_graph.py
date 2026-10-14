@@ -32,6 +32,46 @@ EDGE = {
     "계열": ("계열", None), "협력": ("협력", None), "경쟁": ("경쟁", None),
 }
 TABLE_NOTE = "<!-- scripts/build_graph.py가 만드는 표. 손으로 고치지 않는다 -->"
+TOPIC_PAGES = {
+    "반도체": "HBM·반도체", "AI 반도체": "HBM·반도체", "HBM 수요 확대": "HBM·반도체",
+    "2차전지": "2차전지", "LFP 양극재 양산": "2차전지", "ESS 수요 확대": "2차전지",
+    "방산": "방산", "방산 수출 확대": "방산",
+    "원전·SMR": "원전·SMR", "SMR 상용화": "원전·SMR", "원전 수출": "원전·SMR",
+}
+CLASSIFICATIONS = {"거래소 지수 편입", "공시·거래소 확인", "후보"}
+EVIDENCE_LEVELS = {"거래소 자료", "공시 원문", "공시 항목", "공시 제목", "기사 제목", "공식 발표", "공시 원문·기사 제목", "공시 항목·기사 제목", "미확인"}
+STATES = {"확인", "계획(확인 중)", "후보(확인 중)", "종료", "미확인"}
+
+
+def presentation(states):
+    """현재 선의 상태 표시. 확정 사실과 미확인 항목이 섞이면 미확인 표시를 남긴다."""
+    states = list(states)
+    ended = bool(states) and all(s == "종료" for s in states)
+    pending = any(s in {"계획(확인 중)", "후보(확인 중)", "미확인"} for s in states)
+    return {"label": "종료" if ended else "확인 중" if pending else "",
+            "muted": ended, "line_style": "dashed" if pending else "solid"}
+
+
+def weak(level):
+    return level in {"기사 제목", "공시 제목", "공시 원문·기사 제목", "공시 항목·기사 제목", "미확인"}
+
+
+def classifications(body):
+    rows = []
+    for line in section(body, "분류와 확인 근거").splitlines():
+        if not line.startswith("|"):
+            continue
+        cells = [c.strip().replace("\\|", "|") for c in CELL_SPLIT.split(line.strip("|"))]
+        if cells[0] == "주제" or all(set(c) <= set("-: ") for c in cells):
+            continue
+        if len(cells) != 7:
+            rows.append({"malformed": "분류 표는 7칸이어야 합니다"})
+            continue
+        topic, kind, state, as_of, detail, level, sources = cells
+        rows.append({"topic": topic, "page": TOPIC_PAGES.get(topic, ""), "classification": kind,
+                     "status": state, "date": as_of, "text": detail, "evidence_level": level,
+                     "weak": weak(level), "sources": sources_of(sources), "malformed": ""})
+    return rows
 
 
 # 칸의 끝: 다음 '## ' 제목, 면책 문구 앞의 '---' 줄, 또는 파일 끝
@@ -85,8 +125,8 @@ def relations(body):
         if cells[0] == "관계" or all(cell and set(cell) <= set("-: ") for cell in cells):
             continue  # 머리글 줄과 구분선
         problem = ""
-        if len(cells) != 5:
-            problem = "칸 수가 5개가 아닙니다 (관계|상대|내용|날짜|출처)"
+        if len(cells) not in (5, 7):
+            problem = "관계 표는 5칸 또는 상태·근거 수준을 포함한 7칸이어야 합니다"
         elif not cells[0] or not cells[1]:
             problem = "관계나 상대 칸이 비었습니다"
         if problem:
@@ -101,6 +141,9 @@ def relations(body):
             "detail": plain(cells[2]),
             "date": cells[3],
             "sources": sources_of(cells[4]),
+            "status": cells[5] if len(cells) == 7 else "미확인",
+            "evidence_level": cells[6] if len(cells) == 7 else "미확인",
+            "weak": weak(cells[6]) if len(cells) == 7 else True,
             "malformed": "",
         })
     return rows
@@ -113,12 +156,21 @@ def issues(body):
         if not match:
             continue
         text = match.group(3)
+        source_urls = sources_of(text)
+        quality = re.search(r"\(근거 수준: ([^)]+)\)", text)
+        evidence_level = quality.group(1).strip() if quality else (
+            "공시 항목" if any("dart.fss.or.kr" in u for u in source_urls) else "기사 제목")
+        if evidence_level not in EVIDENCE_LEVELS:
+            raise ValueError("알 수 없는 이슈 근거 수준: " + evidence_level)
+        text = re.sub(r"\s*\(근거 수준: [^)]+\)", "", text)
         result.append({
             "date": match.group(1),
             "kind": match.group(2),
             "text": text,  # load()에서 테마 링크를 빼고 다듬는다
             "links": [name.strip() for name in LINK.findall(text)],
-            "sources": sources_of(text),
+            "sources": source_urls,
+            "evidence_level": evidence_level,
+            "weak": weak(evidence_level),
         })
     return result
 
@@ -133,8 +185,22 @@ def theme_roles(body):
                 "stage": (match.group(2) or "").strip(),
                 "role": strip_source(plain(match.group(3))),
                 "sources": sources_of(match.group(3)),
+                "presentation": role_presentation(match.group(3)),
             }
     return roles
+
+
+
+def role_presentation(text):
+    """공개 역할 문장에 명시된 상태를 지도에도 전달한다."""
+    match = re.search(r"\(역할 상태:\s*((?:[^()]|\([^()]*\))*)\)", text)
+    if not match:
+        return None
+    label = match.group(1).strip()
+    ended = label == "종료"
+    pending = "확인 중" in label or "미확인" in label
+    return {"label": "" if label == "확인" else label,
+            "muted": ended, "line_style": "dashed" if pending else "solid"}
 
 
 def value_chain(body):
@@ -179,6 +245,7 @@ def load():
         companies[name] = {
             "meta": meta, "summary": summary(body), "relations": [r for r in relations(body) if not r["malformed"]],
             "issues": found, "roles": theme_roles(body),
+            "classifications": [c for c in classifications(body) if not c["malformed"]],
         }
     return companies, themes
 
@@ -189,12 +256,17 @@ def score_theme(theme, info, companies, today):
     first = {}
     for name, company in companies.items():
         evidence = [i for i in company["issues"] if theme in i["themes"]]
-        if evidence or name in stage_of:
+        groups = [c for c in company["classifications"] if c["page"] == theme]
+        if evidence or name in stage_of or groups:
             first[name] = {
                 "tier": 1,
                 "stage": stage_of.get(name, company["roles"].get(theme, {}).get("stage", "")),
                 "score": round(sum(evidence_score(i, today) for i in evidence), 2),
-                "evidence": [{k: i[k] for k in ("date", "kind", "text", "sources")} for i in evidence],
+                "evidence": [{**{k: i[k] for k in ("date", "kind", "text", "sources")},
+                              "evidence_level": i["evidence_level"],
+                              "weak": i["weak"]} for i in evidence],
+                "classifications": groups,
+                "presentation": company["roles"].get(theme, {}).get("presentation") or presentation(c["status"] for c in groups),
             }
     second = {}
     for name, company in companies.items():
@@ -212,21 +284,22 @@ def score_theme(theme, info, companies, today):
 
 
 def table(first, second, today):
+    """분류별 근거와 상태를 보여 준다. 과거 가중치 합산은 호환용 데이터에만 남긴다."""
     lines = [TABLE_NOTE, ""]
     if first:
-        lines += ["### 1차 관련 기업", "", "| 순위 | 기업 | 단계 | 점수 | 근거 수 | 최근 근거 |", "|---|---|---|---|---|---|"]
-        ranked = sorted(first.items(), key=lambda item: (-item[1]["score"], item[0]))
-        for rank, (name, row) in enumerate(ranked, 1):
-            latest = max((e["date"] for e in row["evidence"]), default="-")
-            lines.append(f"| {rank} | [[{name}]] | {row['stage'] or '-'} | {row['score']:.1f} | "
-                         f"{len(row['evidence'])} | {latest} |")
+        lines += ["| 기업 | 주제 | 분류 | 상태 | 근거 날짜 | 근거 |", "|---|---|---|---|---|---|"]
+        for name, row in sorted(first.items()):
+            for c in row["classifications"]:
+                refs = ", ".join(f"[출처]({u})" for u in c["sources"])
+                quality = " · 약한 근거" if c["weak"] else ""
+                lines.append(f"| [[{name}]] | {c['topic']} | {c['classification']} | {c['status']} | {c['date']} | {c['evidence_level']}{quality} {refs} |")
     if second:
-        lines += ["", "### 2차 관련 기업", "", "| 기업 | 점수 | 이어진 1차 기업 | 관계 |", "|---|---|---|---|"]
-        for name, row in sorted(second.items(), key=lambda item: (-item[1]["score"], item[0])):
-            lines.append(f"| [[{name}]] | {row['score']:.1f} | [[{row['via']}]] | {row['via_type']} |")
+        lines += ["", "### 2차 관련 기업", "", "기업 간 관계로 이어진 회사입니다. 주제의 직접 분류 근거를 뜻하지 않으며, 개별 관계의 상태와 근거는 기업 페이지에서 확인할 수 있습니다.", "", "| 기업 | 이어진 1차 기업 | 관계 |", "|---|---|---|"]
+        for name, row in sorted(second.items()):
+            lines.append(f"| [[{name}]] | [[{row['via']}]] | {row['via_type']} |")
     if not (first or second):
         lines.append("아직 근거가 있는 기업이 없습니다.")
-    lines += ["", f"점수: 근거마다 가중치 × 0.5^(경과일/90)의 합, {today} 기준. 계산 방법은 첫 화면(index)의 '보는 법'에 있습니다."]
+    lines += ["", "기사·공시 제목만 확인한 항목에는 약한 근거 표시가 붙습니다. 분류는 사업의 성공이나 현재 거래 가능 여부를 보증하지 않습니다."]
     return "\n".join(lines)
 
 
@@ -253,12 +326,16 @@ def build(today=None):
             "id": name, "type": "company", "path": f"companies/{name}", "summary": company["summary"],
             "market": meta.get("market", ""), "ticker": meta.get("ticker", ""),
             "dart_corp_code": meta.get("dart_corp_code", ""), "aliases": meta.get("aliases", []),
+            "krx_industry": meta.get("krx_industry", ""), "classification_as_of": meta.get("classification_as_of", ""),
+            "classifications": company["classifications"],
             "themes": [{k: v for k, v in link.items() if k != "evidence"} for link in links],
         })
         for link in links:
             key = (name, link["theme"], "테마")
             edges[key] = {"source": name, "target": link["theme"], "type": "테마", "tier": link["tier"],
-                          "stage": link["stage"], "score": link["score"], "evidence": link["evidence"]}
+                          "stage": link["stage"], "score": link["score"], "evidence": link["evidence"],
+                          "classifications": link.get("classifications", []),
+                          "presentation": link.get("presentation", presentation(["미확인"]))}
         for rel in company["relations"]:
             if rel["type"] not in EDGE:
                 continue
@@ -270,14 +347,17 @@ def build(today=None):
                 externals.add(rel["target"])
             edge = edges.setdefault((source, target, kind),
                                     {"source": source, "target": target, "type": kind, "evidence": []})
-            item = {"date": rel["date"], "text": rel["detail"], "sources": rel["sources"]}
-            if not any(e["date"] == item["date"] and e["sources"] == item["sources"] for e in edge["evidence"]):
+            item = {"date": rel["date"], "text": rel["detail"], "sources": rel["sources"],
+                    "status": rel["status"], "evidence_level": rel["evidence_level"], "weak": rel["weak"]}
+            if not any(all(e.get(k) == item.get(k) for k in ("date", "sources", "text", "status", "evidence_level")) for e in edge["evidence"]):
                 edge["evidence"].append(item)
 
     for name in sorted(externals - set(companies)):
         nodes.append({"id": name, "type": "external", "path": None, "summary": "위키 페이지가 아직 없는 상대"})
     for edge in edges.values():
         edge["evidence"].sort(key=lambda e: e["date"], reverse=True)
+        if edge["type"] != "테마":
+            edge["presentation"] = presentation(e["status"] for e in edge["evidence"])
     graph = {
         "updated": today.isoformat(),
         "nodes": nodes,
