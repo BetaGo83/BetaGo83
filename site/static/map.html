@@ -13,7 +13,7 @@
 </script>
 <script>
   // 방문 통계 (Google Analytics 4). 위키 페이지 안에 들어간 지도는 그 페이지가 이미 세므로 세지 않는다
-  if (window.self === window.top) {
+  if (window.location.protocol !== "file:" && window.self === window.top) {
     window.dataLayer = window.dataLayer || [];
     window.gtag = function () { window.dataLayer.push(arguments); };
     gtag("js", new Date());
@@ -209,6 +209,18 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
     html("p", String(err && err.message || err), panel, { class: "meta" });
     var stage = document.getElementById("stage");
     if (!document.getElementById("notice")) html("p", title, stage, { id: "notice", role: "alert" });
+  }
+
+  if (window.location.protocol === "file:") {
+    var notice = html("div", null, document.getElementById("stage"), { id: "notice", role: "status" });
+    html("h2", "공개 웹사이트에서 지도를 열어 주세요", notice);
+    html("p", "컴퓨터에 저장된 HTML 파일을 직접 연 상태입니다. 이 방식으로는 그래프 데이터를 불러올 수 없습니다.", notice);
+    html("a", "공개 기업 지도 열기", notice, { href: "https://betago83.github.io/BetaGo83/static/map.html", target: "_top", rel: "noopener noreferrer" });
+    document.getElementById("home").href = "https://betago83.github.io/BetaGo83/";
+    document.getElementById("theme").disabled = true;
+    document.getElementById("search").disabled = true;
+    svg.setAttribute("aria-hidden", "true");
+    return;
   }
 
   fetch("../graph.json", { cache: "no-store" }).then(function (r) {
