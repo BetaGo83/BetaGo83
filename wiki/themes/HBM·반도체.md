@@ -65,7 +65,7 @@ updated: 2026-10-14
 | 기업 | 이어진 1차 기업 | 관계 |
 |---|---|---|
 | [[Samsung (China) Semiconductor Co., Ltd.]] | [[디아이]] | 공급사 |
-| [[디지털프론티어]] | [[디아이]] | 피출자 |
+| [[디지털프론티어]] | [[SK하이닉스]] | 고객사 |
 
 기사·공시 제목만 확인한 항목에는 약한 근거 표시가 붙습니다. 분류는 사업의 성공이나 현재 거래 가능 여부를 보증하지 않습니다.
 
@@ -77,10 +77,18 @@ updated: 2026-10-14
 지수 구성종목 확인 기준일: 2026-10-08. 확인한 지수: KRX AI 반도체 지수, KRX 반도체 ([KRX 지수정보](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp)).
 
 ## 최근 동향
+- 2026-10-14 [[SK하이닉스]]: 안현 SK하이닉스 사장이 HBF 최종 규격의 2027년 1월 확정 계획을 밝혔다는 보도. 기사 제목 기준이며 규격 확정이나 양산 완료를 뜻하지 않는다. (근거 수준: 기사 제목) · [디일렉](https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aSGFUSWNIQ29UdnEzZ185Tks0bUQ1U3RuLVhicUVDVHlEZ3ZVOS05LWRJbGVoZWhjSzNwYUpCSHdxd2pZUkt5dURuWEVhazh6S1NxTXpMSUFrUUNUbU5fcktzZmZGQQ?oc=5)
+- 2026-10-14 [[SK하이닉스]]: SK하이닉스가 HBM4 후공정 장비 일부 물량을 2027년으로 미뤘다는 보도. 기사 제목만 확인했으며 대상 장비·공급사·규모는 공식 확인이 필요하다. (근거 수준: 기사 제목) · [딜사이트](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5TOGJGeHpCR1lnUExrRXVvOF9oNXNIdWtHdzQ0M3Q5X2ROSE5VWGk1eTNtT29qYmJMUXllYTZoNGxiZXFLZGpYM0J2VWRrUWs?oc=5)
+- 2026-10-14 [[한미반도체]]: 한미반도체가 한국·미국 반도체 전시회에서 HBM4·2.5D 패키징 장비를 공개했다는 보도. 기사 제목 기준이며 수주·납품 확정을 뜻하지 않는다. (근거 수준: 기사 제목) · [이투데이](https://news.google.com/rss/articles/CBMidEFVX3lxTFB2Rm5wV3pqZGVKQW1yQjB4RkI4eEhQMDBVaHV2c3pxYk9Vd0VlR3JRbFhFbmN6TVVkT0tSbGlraWlKbFViTURZUkRZcTk4YUgwZy03UE10WlpvQktNRm1QSzc0bzJiRnFTdTFCaXU4TVZNTW0y?oc=5)
+- 2026-10-13 [[삼성전자]]: 삼성전자가 OCP에서 AI 메모리·스토리지 전략을 제시하고 AMD와 기술을 시연했다는 보도. 기사 제목만 확인했으며 기술·행사 세부 내용은 추가 확인이 필요하다. (근거 수준: 기사 제목) · [데일리한국](https://news.google.com/rss/articles/CBMib0FVX3lxTFBIYUJGNHA3aFVFUGJBS3czV3hUZzhpbEozRXpkMjBwNFJSTFRwNkpxQ1dhbktVblVPRm8wbmlTN0YxUzNBYmFiVnpsRlFjX0Myek1GSTZPelNQdVpkZUpzUEV5dkVOUUM3M19yYzdhUdIBc0FVX3lxTE9pU0dwQ1p2UDdFd3ZUbTJsR1VLSXgxazV5NnZXNDQyN0QyS3N3Z0lWU0tiR1d4a1N0STZBS3BCbGE5ZldYdEJhWmc2eTNMRFBmOXdLM1c0VjRTVmVKWDB3aFQ5M3Z5UkFsN211QW9aWWc4Z28?oc=5)
+- 2026-10-13 [[삼성전자]]·[[SK하이닉스]]·[[어플라이드 머티어리얼즈]]: 삼성전자·SK하이닉스가 어플라이드 머티어리얼즈와 차세대 반도체 공동개발에 나섰다는 보도. 기사 제목만 확인했으며 참여 범위·협약 조건은 공식 확인이 필요하다. (근거 수준: 기사 제목) · [포쓰저널](https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTcTNIOFZuS2Z6TmhUUzlrcWF4Z0tGQjE4RHdWWnRoa19ndnJaZFRpYXhsNHdaeWtGTld6d2JYaV9qMVF1OWJXbUdYbi1HRF9MSjFTbEM5TkxLRWxqcV9PRzcwWmQ?oc=5)
+- 2026-10-06 [[한미반도체]]·[[삼성전기]]: 한미반도체는 삼성전기에 AI 반도체 기판 제조용 대면적 MSVP 장비 244억8,000만 원을 공급하는 계약을 공시했다. 발주서 수령일은 10월 2일, 계약기간은 2026년 10월 2일부터 2027년 12월 17일까지다. (근거 수준: 공시 원문) · [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006800023)
+- 2026-10-06 [[마이크론]]: 넷리스트는 마이크론과 10월 5일 소송 합의 및 5년 특허 라이선스 계약을 체결했다고 발표했다. 계약에 적힌 양사 간 계류 소송을 상호 해결·면책하고, 마이크론은 2026년 4분기부터 2031년 3분기까지 분기별 3천만 달러씩 총 6억 달러를 지급하는 조건이다. (근거 수준: 공식 발표) · [Netlist Investor Relations](https://investors.netlist.com/news/netlist-and-micron-enter-patent-license-and-settlement-agreements/c8615305-0590-43e4-bcb2-fe05e120f947) · [SEC EDGAR](https://www.sec.gov/Archives/edgar/data/1282631/000110465926113897/tm2626949d1_8k.htm)
+- 2026-10-05 [[마이크론]]: 마이크론이 2028년까지 메모리 공급 제약을 전망했다는 보도. 기사 제목 기준의 전망이며 특정 고객과의 공급계약이나 실현된 생산량을 뜻하지 않는다. (근거 수준: 기사 제목) · [이투데이](https://news.google.com/rss/articles/CBMiVEFVX3lxTE41bEEwbkExNHFKRmY4WVptWVVDVDVzTkpnbUFPMXhMOUxqa2Z0OFBRdmFQVkpNMXdQR1gyWVh5UXlFbnlMSWkzUkp0TEZiU0FadFlxWQ?oc=5)
 - 2026-10-02 어플라이드 머티어리얼즈와 베시가 EPIC 센터에서 하이브리드 본딩을 공동 개발 · [디일렉](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KdXh0SllfSlRabUJDUllHTnQ3NWNIWko4RFNpakJncXhacnRjTWdSNGJSNGFkanE4aXpURzNiXzBoVnlvdl9FNk1mMExJc0x2WGxyRG0yWDUwM044RWhOUVZFTjh1QQ?oc=5)
 - 2026-10-02 메모리 3사가 HBM4 매출 비중을 크게 늘리는 중 · [뉴시스](https://news.google.com/rss/articles/CBMieEFVX3lxTFBZSzFRX21ndjVydUdRR3h4azN6UXpJTVNtSEcyN2cwU0gtT3lrd2tLTkYzUW5MQWJqVFM4VVlnWlVISGhVMm9xRk4zSmVtOW1JbENmaGRqQ0poSGEzMi1uRkluZHdtWTVtU0tSUGxMbjdCLVREN3hWUdIBeEFVX3lxTFBZSzFRX21ndjVydUdRR3h4azN6UXpJTVNtSEcyN2cwU0gtT3lrd2tLTkYzUW5MQWJqVFM4VVlnWlVISGhVMm9xRk4zSmVtOW1JbENmaGRqQ0poSGEzMi1uRkluZHdtWTVtU0tSUGxMbjdCLVREN3hWUQ?oc=5)
 - 2026-10-01 마이크론 분기 매출 73조5천억 원, 사상 최대 · [연합뉴스](https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CdkFtY2M5UVl1anMtaGlOT0luQmdod1VOLXZVbF9fV0FTT0xaX3JpR0lRSDdfRmVWcmRuVHpJMmhzZ3V0YXB6VE94dTJHa0ROcU9CTHVhVmVJX1ZHUE5ZeNIBYEFVX3lxTE9CdkFtY2M5UVl1anMtaGlOT0luQmdod1VOLXZVbF9fV0FTT0xaX3JpR0lRSDdfRmVWcmRuVHpJMmhzZ3V0YXB6VE94dTJHa0ROcU9CTHVhVmVJX1ZHUE5ZeA?oc=5)
-- 2026-10-01 넷리스트가 마이크론의 HBM 특허 침해를 주장하며 미국 ITC에 제소 · [아시아타임즈](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fTlBGNHZadlQ0YllMckhjaG1obUJ3dzdSQ3JZWFgteDY1MGNoaVF3bWNIdW1YRnhTRU96TVptUWp1OUpPYWwyRGJ5UjdNVlBlSmcyXzhDOTIxcWhtdEE?oc=5)
+- 2026-10-01 넷리스트가 마이크론의 HBM 특허 침해를 주장하며 미국 ITC에 제소 · [아시아타임즈](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fTlBGNHZadlQ0YllMckhjaG1obUJ3dzdSQ3JZWFgteDY1MGNoaVF3bWNIdW1YRnhTRU96TVptUWp1OUpPYWwyRGJ5UjdNVlBlSmcyXzhDOTIxcWhtdEE?oc=5) · 후속: 10월 6일 양사 소송 합의·특허 라이선스 계약 발표([Netlist Investor Relations](https://investors.netlist.com/news/netlist-and-micron-enter-patent-license-and-settlement-agreements/c8615305-0590-43e4-bcb2-fe05e120f947))
 - 2026-10-01 LB세미콘이 구미 전력반도체 후공정 설비에 746억 원 투자 · [뉴스1](https://news.google.com/rss/articles/CBMiX0FVX3lxTE44WHhma09WNEhkMlF6NFhPV1JpRjdUSXpiN3BHclQwM0tDaVNJMmRBRElqN01CdEtnMHFpbG9JODgzOWd4M0V0alhJYU5HM3BOMnRUdlVLYk1vUGFNTHB30gFkQVVfeXFMTXhiRWVSbzA5c0t6OFFiWjJtblRGbHprdnNCYWpJZU9lRlZPdkw3NzFPRmVxcW5BZVJfVHdzNk5POUFRUTF1c3Jna19nTGl3c1pjazlMSjVLeXpmVmJzd2p3Ul9oRQ?oc=5)
 - 2026-10-01 디아이가 삼성전자와 반도체 검사장비 약 153억 원 공급계약 · [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001800054)
 - 2026-09-28 삼성전기가 패키지기판 증설에 4조2,700억 원 투자 결정 · [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928800810)

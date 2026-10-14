@@ -17,7 +17,7 @@ classification_as_of: 2026-10-08
 
 ## 사업 개요
 - 삼성중공업·한화오션과 해상 SMR 개발을 함께 논의 ([해사신문](https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWTlidElDR1ZaXzRialRhbE9TQjNmeVRVRERUQUxzLTBlLWxPS3NKVVJZamFPX0FyZG1iLUlnM2VxVG9Eb1E5UnBERG1qMFdCbjl6Yk1pdEdlUzVnUmkzRDFRNWE2TmRhT3Qw?oc=5))
-- 자회사가 멕시코 소재 원유 개발 업체와 맺은 FPU 1기 공급계약(2023-06-30)의 금액을 1조8,422억 원에서 1조9,539억 원으로, 종료일을 2027-04-01에서 2027-06-01로 바꾸는 정정 공시 (2026-09-30) ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930800164))
+- 자회사 HD현대중공업의 멕시코 소재 원유 개발 업체 대상 FPU 1기 공급계약(2023-06-30 체결)을 2026-10-13 금액 1조9,648억 원으로 다시 정정했다(직전 1조9,539억 원). 계약 종료일은 2027-06-01이다. ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800234))
 
 ## 관계
 | 관계 | 상대 | 내용 | 날짜 | 출처 | 상태 | 근거 수준 |
@@ -30,6 +30,8 @@ classification_as_of: 2026-10-08
 - [[원전·SMR]] · 해상 SMR(조선): SMR 추진 컨테이너선 설계 모델 공개와 테라파워 협력 계약을 공시했다. 삼성중공업·한화오션과의 해상 SMR 개발 협의는 기사 제목으로만 확인된다. (역할 상태: 확인 중) ([해사신문](https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWTlidElDR1ZaXzRialRhbE9TQjNmeVRVRERUQUxzLTBlLWxPS3NKVVJZamFPX0FyZG1iLUlnM2VxVG9Eb1E5UnBERG1qMFdCbjl6Yk1pdEdlUzVnUmkzRDFRNWE2TmRhT3Qw?oc=5), [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001032))
 
 ## 최근 이슈
+- 2026-10-13 [계약] HD현대중공업은 멕시코 소재 원유 개발 업체와 맺은 FPU 1기 계약금액을 1조9,539억 원에서 1조9,648억 원으로 정정했다. 2023년 6월 30일 체결한 조건부 계약이며 계약기간은 2023년 7월 1일부터 2027년 6월 1일까지다. (근거 수준: 공시 원문) · [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800234)
+- 2026-10-06 [계약] 자회사 HD현대삼호의 한국중부발전 보령화력 1\~8호기 저탄장 옥내화 공사 계약금액을 3,330억 원에서 3,385억 원으로 정정했다. 계약기간은 2021년 9월 2일부터 2027년 8월 31일까지다. (근거 수준: 공시 원문) · [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006800410)
 - 2026-10-01 [협력] 삼성중공업·한화오션과 해상 SMR 개발을 협의한다는 보도(기사 제목 근거). (근거 수준: 기사 제목) · [[원전·SMR]] · [해사신문](https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWTlidElDR1ZaXzRialRhbE9TQjNmeVRVRERUQUxzLTBlLWxPS3NKVVJZamFPX0FyZG1iLUlnM2VxVG9Eb1E5UnBERG1qMFdCbjl6Yk1pdEdlUzVnUmkzRDFRNWE2TmRhT3Qw?oc=5)
 
 ## 분류와 확인 근거

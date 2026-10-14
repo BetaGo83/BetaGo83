@@ -203,6 +203,24 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
     });
   }
 
+  function recentIssues(n) {
+    // 새 그래프는 테마 연결이 없는 이슈도 기업 노드에 담는다. 빈 목록도 그대로 존중한다.
+    var evidence = Array.isArray(n.issues) ? n.issues.slice() : null;
+    if (!evidence) {
+      // 예전 그래프는 테마 선에만 근거가 있으므로 같은 이슈의 테마들을 합친다.
+      var merged = Object.create(null);
+      edges.filter(function (e) { return e.type === "테마" && e.source === n.id; }).forEach(function (e) {
+        e.evidence.forEach(function (v) {
+          var k = JSON.stringify([v.date, v.kind, v.text, sourcesOf(v)]);
+          var item = merged[k] = merged[k] || Object.assign({}, v, { themes: [] });
+          if (item.themes.indexOf(e.target) < 0) item.themes.push(e.target);
+        });
+      });
+      evidence = Object.keys(merged).map(function (k) { return merged[k]; });
+    }
+    return evidence.sort(function (a, b) { return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; });
+  }
+
   function showError(title, err) {
     panel.innerHTML = "";
     html("h2", title, panel);
@@ -231,7 +249,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
   }, function (err) { showError("그래프 데이터를 불러오지 못했습니다", err); });
 
   function start(data) {
-    document.getElementById("updated").textContent = "데이터 기준일: " + data.updated;
+    document.getElementById("updated").textContent = "위키 갱신일: " + data.updated;
     intro = panel.innerHTML;
     nodes = list(data.nodes).map(function (n) {
       var c = Object.assign({}, n, { aliases: list(n.aliases), themes: list(n.themes) });
@@ -511,6 +529,18 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
     var url = pageUrl(n);
     if (url) html("a", "위키 페이지 열기 →", html("p", null, panel), { href: url, target: "_top" });
 
+    if (n.type === "company") {
+      var evidence = recentIssues(n);
+      if (evidence.length) {
+        html("h3", "최근 이슈", panel);
+        var issueList = html("ul", null, panel);
+        evidence.forEach(function (v) {
+          var themes = list(v.themes);
+          addSources(html("li", v.date + " [" + v.kind + "] " + v.text + (themes.length ? " · " + themes.join(", ") : ""), issueList), v);
+        });
+      }
+    }
+
     if (list(n.classifications).length) {
       html("h3", "분류와 확인 근거", panel);
       var cl = html("ul", null, panel);
@@ -556,22 +586,6 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
         li.appendChild(document.createTextNode((dir ? dir + " " : "") + other));
         var ev = html("ul", null, li);
         e.evidence.forEach(function (v) { addSources(html("li", v.date + " " + (v.text || "") + (v.status ? " · " + v.status : ""), ev), v); });
-      });
-    }
-    var own = edges.filter(function (e) { return e.type === "테마" && e.source === n.id; });
-    var merged = {};
-    own.forEach(function (e) {
-      e.evidence.forEach(function (v) {
-        var k = v.date + "|" + v.kind + "|" + v.text + "|" + sourcesOf(v).join(" ");
-        (merged[k] = merged[k] || Object.assign({ themes: [] }, v)).themes.push(e.target);
-      });
-    });
-    var evidence = Object.keys(merged).map(function (k) { return merged[k]; });
-    if (evidence.length) {
-      html("h3", "테마 근거", panel);
-      var el2 = html("ul", null, panel);
-      evidence.sort(function (a, b) { return a.date < b.date ? 1 : -1; }).forEach(function (v) {
-        addSources(html("li", v.date + " [" + v.kind + "] " + v.text + " · " + v.themes.join(", "), el2), v);
       });
     }
     document.getElementById("status").textContent = n.id + " 선택됨, 관계 " + rels.length + "개. 자세한 내용은 옆 패널에 있습니다";

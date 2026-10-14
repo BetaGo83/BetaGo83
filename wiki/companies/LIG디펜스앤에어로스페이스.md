@@ -30,6 +30,9 @@ classification_as_of: 2026-10-08
 - [[방산]] · 유도무기: 유도무기와 방산 장비를 생산·공급하며 천궁-Ⅱ 등 수출 계약과 수출 매출을 공시했다. (역할 상태: 확인) ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001211), [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800282), [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729800398))
 
 ## 최근 이슈
+- 2026-10-13 [기타] 방위사업청의 LIG D&A 제재 수위 검토가 보도됐다(기사 제목 근거, 제재 확정 여부 미확인). (근거 수준: 기사 제목) · [[방산]] · [디지털데일리](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5jWm1CdHRoazBTUU5qaHRCZzlaOEZSWHR4NHFrLTVxRHhOQ0x6RGQwY3hiYTc0YlU3d3NLRHF3OVByVXEyM2J5YzhsY1hFbmFDekkwTVVsallMckhMVkJXQVh1eDI?oc=5)
+- 2026-10-07 [기타] 준법경영 프로그램(CP) 강화 선포식 개최가 보도됐다(기사 제목 근거). (근거 수준: 기사 제목) · [디펜스투데이](https://news.google.com/rss/articles/CBMibkFVX3lxTE4wc3l1MkpVZHZaM0FCTFo1ci1nLWFLSngxenI3M1pkTDl2X2YwM3g1THl4Rk1TWlNKaUN6YmZ1Mmc2UTc5SlZhSUNYeEY1Tnd4blZYby1ZME9SLU85NzhsOEZuQkQ0RGlseXhUc1F3?oc=5)
+- 2026-10-04 [기타] 페루 방산 기술 거점을 통한 중남미 안티드론 시장 공략이 보도됐다(기사 제목 근거). (근거 수준: 기사 제목) · [[방산]] · [한국경제](https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5blNpa3ZqZFZOY0xyaTJZTVRkQUQ0Sk5GQ3BZeEtUWUd3VV9IQ3JhS2hPVGdNTEFmc2ZiMUtVOGl3SUpBam85SHg2Y1U3TnB2b0lvbVh0VFlldw?oc=5)
 - 2026-10-01 [기타] L3해리스 등 3개사에 390억6,004만 원 선급금 지급 결정(2026-09-29). (근거 수준: 공시 원문) · [[방산]] · [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929800468)
 - 2026-09-30 [기타] 1조9천억 원 규모 '한국판 미티어' 사업을 놓고 한화와 현대로템·LIG가 수주 경쟁 중이라는 보도(기사 제목 근거). (근거 수준: 기사 제목) · [[방산]] · [데일리안](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBsN0IzVGROTjh0ZXZ6Y3JKNTNUejlWT293TnFEYkZsbmg1Zi1fWkljYXNSN04tVzBmOEk3THBrQVFaY1c5bThhRG96OV9vV1N2dDI4?oc=5)
 

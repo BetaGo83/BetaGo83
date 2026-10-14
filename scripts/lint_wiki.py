@@ -5,7 +5,7 @@
 - 짝이 맞지 않는 관계, 1년 넘게 갱신되지 않은 관계, 모르는 관계 종류
 - 고아 페이지(들어오는 링크 없음)
 - 밸류체인 단계: 테마 페이지의 stages·밸류체인과 기업 페이지 테마 줄의 단계가 서로 맞는지
-- 기업 frontmatter themes와 '## 테마' 줄이 맞는지, 이슈마다 [[테마]] 링크가 있는지
+- 기업 frontmatter themes와 '## 테마' 줄이 맞는지 (회사 이슈의 테마 링크는 관련성이 있을 때만 사용)
 - 같은 별칭·DART 고유번호·종목코드를 두 페이지가 쓰는지
 - 페이지 없이 두 번 이상 나온 상대 회사 (페이지를 만들 차례)
 - wiki/graph.json과 테마 표가 최신인지 (build_graph.py를 다시 돌렸는지)
@@ -51,7 +51,6 @@ COUNTERPARTY_PAGE_AT = 2  # 페이지 없는 상대가 이만큼 나오면 페�
 
 def check_pages(files, names, loaded, problems):
     inbound = {name: 0 for name in names}
-    theme_names = {p.stem for p in files if p.parent.name == "themes" and not is_folder_index(p)}
     for path in files:
         meta, body = read_page(path)
         if not is_folder_index(path):
@@ -107,11 +106,11 @@ def check_pages(files, names, loaded, problems):
                 continue
             match = ISSUE.match(line.strip())
             if not (match and valid_date(match.group(1)) and match.group(2) in ISSUE_KINDS):
-                problems.append(f"{rel}: 이슈 형식이 틀립니다 (- YYYY-MM-DD [종류] 내용 · [[테마]] · [출처](URL)) {line[:50]}")
+                problems.append(f"{rel}: 이슈 형식이 틀립니다 (- YYYY-MM-DD [종류] 내용 · [출처](URL), 관련된 경우 [[테마]] 추가) {line[:50]}")
             elif future(match.group(1)):
                 problems.append(f"{rel}: 이슈 날짜가 미래입니다 {line[:50]}")
-            elif kind == "company" and not any(t in names and t in theme_names for t in LINK.findall(line)):
-                problems.append(f"{rel}: 이슈에 [[테마]] 링크가 없습니다 (테마와 관련된 사실만 이슈로 적습니다) {line[:50]}")
+            if re.search(r"\[\[\s*(?:[|#][^\]]*)?\]\]", line):
+                problems.append(f"{rel}: 이슈에 빈 위키링크가 있습니다 {line[:50]}")
         for line in section(body, "최근 동향").splitlines():
             match = re.match(r"^- (\d{4}-\d{2}-\d{2}) ", line)
             if line.startswith("- ") and not (match and valid_date(match.group(1))):

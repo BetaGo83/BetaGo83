@@ -32,6 +32,9 @@ classification_as_of: 2026-10-08
 - [[HBM·반도체]] · 메모리 제조: HBM을 만드는 메모리 회사 (역할 상태: 확인) ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000635))
 
 ## 최근 이슈
+- 2026-10-14 [기타] 안현 SK하이닉스 사장이 HBF 최종 규격의 2027년 1월 확정 계획을 밝혔다는 보도. 기사 제목 기준이며 규격 확정이나 양산 완료를 뜻하지 않는다. (근거 수준: 기사 제목) · [[HBM·반도체]] · [디일렉](https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aSGFUSWNIQ29UdnEzZ185Tks0bUQ1U3RuLVhicUVDVHlEZ3ZVOS05LWRJbGVoZWhjSzNwYUpCSHdxd2pZUkt5dURuWEVhazh6S1NxTXpMSUFrUUNUbU5fcktzZmZGQQ?oc=5)
+- 2026-10-14 [기타] SK하이닉스가 HBM4 후공정 장비 일부 물량을 2027년으로 미뤘다는 보도. 기사 제목만 확인했으며 대상 장비·공급사·규모는 공식 확인이 필요하다. (근거 수준: 기사 제목) · [[HBM·반도체]] · [딜사이트](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5TOGJGeHpCR1lnUExrRXVvOF9oNXNIdWtHdzQ0M3Q5X2ROSE5VWGk1eTNtT29qYmJMUXllYTZoNGxiZXFLZGpYM0J2VWRrUWs?oc=5)
+- 2026-10-13 [협력] 삼성전자·SK하이닉스가 어플라이드 머티어리얼즈와 차세대 반도체 공동개발에 나섰다는 보도. 기사 제목만 확인했으며 참여 범위·협약 조건은 공식 확인이 필요하다. (근거 수준: 기사 제목) · [[HBM·반도체]] · [포쓰저널](https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTcTNIOFZuS2Z6TmhUUzlrcWF4Z0tGQjE4RHdWWnRoa19ndnJaZFRpYXhsNHdaeWtGTld6d2JYaV9qMVF1OWJXbUdYbi1HRF9MSjFTbEM5TkxLRWxqcV9PRzcwWmQ?oc=5)
 - 2026-10-01 [기타] 이달 국내 최대 반도체 전시회에서 삼성전자와 맞붙으며 차세대 HBM 기술을 공개한다고 보도됨 (근거 수준: 기사 제목) · [[HBM·반도체]] · [기사 제목](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zNEJ5OHNfSEJQWkEtekEwYXFnd1FNcFViWXBBSGhsRExnQVMtX01HZEZZLWFEYnZZYjdGNEU3dmNFa3JEemlTUVgzVVFTdmpRTkQzTjh6LURVNjZVNGZ1V9IBeEFVX3lxTE9Xc195OENHdmdzNXRoM0JDNzJTLUppbkZETzBLdm41WE5EYUx1ZXNJaTBYdk1iMGE3bmd4X01XY1pVVEdxd2dGYktpWVRMblpETk5ZUkh5LXBGalBnakdBMEszTXJTN1lCSE5KUEFrNjE3Rk9PdnBIdA?oc=5)
 
 ## 분류와 확인 근거

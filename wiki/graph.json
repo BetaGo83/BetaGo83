@@ -136,6 +136,43 @@
       "line_style": "dashed"
      }
     }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-13",
+     "kind": "계약",
+     "text": "HD현대중공업은 멕시코 소재 원유 개발 업체와 맺은 FPU 1기 계약금액을 1조9,539억 원에서 1조9,648억 원으로 정정했다. 2023년 6월 30일 체결한 조건부 계약이며 계약기간은 2023년 7월 1일부터 2027년 6월 1일까지다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800234"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-10-06",
+     "kind": "계약",
+     "text": "자회사 HD현대삼호의 한국중부발전 보령화력 1~8호기 저탄장 옥내화 공사 계약금액을 3,330억 원에서 3,385억 원으로 정정했다. 계약기간은 2021년 9월 2일부터 2027년 8월 31일까지다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006800410"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-10-01",
+     "kind": "협력",
+     "text": "삼성중공업·한화오션과 해상 SMR 개발을 협의한다는 보도(기사 제목 근거).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWTlidElDR1ZaXzRialRhbE9TQjNmeVRVRERUQUxzLTBlLWxPS3NKVVJZamFPX0FyZG1iLUlnM2VxVG9Eb1E5UnBERG1qMFdCbjl6Yk1pdEdlUzVnUmkzRDFRNWE2TmRhT3Qw?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "원전·SMR"
+     ]
+    }
    ]
   },
   {
@@ -227,7 +264,7 @@
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "",
-     "score": 0.91,
+     "score": 2.81,
      "classifications": [
       {
        "topic": "SMR 상용화",
@@ -249,6 +286,57 @@
       "muted": false,
       "line_style": "solid"
      }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-13",
+     "kind": "계약",
+     "text": "HD현대중공업은 멕시코 소재 원유 개발 업체와 맺은 FPU 1기 계약금액을 1조9,539억 원에서 1조9,648억 원으로 정정했다. 2023년 6월 30일 체결한 조건부 계약이며 계약기간은 2023년 7월 1일부터 2027년 6월 1일까지다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800234"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-10-07",
+     "kind": "협력",
+     "text": "HD현대중공업 등 12개 기관의 해양 SMR 기술 실증센터 출범이 보도됐다(기사 제목 근거).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fQW1PUGtvMm1ybDRTU0xTN0YtSE1EX2paZndQTDJ6S3RyRFZVcmY3RUFCeWcxOEp2QzN5ME55RjI4ZWV1alMyQW8zNllhU3FXbEHSAVNBVV95cUxQQ2xQN0JDRm95ZHRNU3lyMEVsd2pNeWw4SXcyTTNaMC0tcDg1UUJ4VDNVRmVIV1QzcWFsX2tXMnZpR3RiSW9obnEwcjlLYXBBNGhjOA?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "원전·SMR"
+     ]
+    },
+    {
+     "date": "2026-10-07",
+     "kind": "기타",
+     "text": "누리호 5차 발사대 운용 지원이 보도됐다(기사 제목 근거).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oVllSejRETTQxTUNuTG5wUXZtcks5dFZ0RmhseHB0eFJWU1MxMXZxbmVvQkNaeC13bEhqR2pVVUg3UEk1dElna3ZkUnBvNjFYaGdDRnVjRXE5M2x0VGFmLUlCNTNKQQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": []
+    },
+    {
+     "date": "2026-10-02",
+     "kind": "기타",
+     "text": "'대호김종서함' 진수 보도(기사 제목 근거).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMibkFVX3lxTE1KTE1lVU5SY051RTd4YS1YdV9LY0dlZ1ZlU2JXSXV0YW5xak1xbTlrcENSMjBhT2ZJRHV2ZDNuTU5vdVc3WVQyNTFINzJqbEU1TUs0UWwzWWdwT2R3b0lyaElRWGgtWmc0VmJNdHFn?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "방산",
+      "원전·SMR"
+     ]
     }
    ]
   },
@@ -308,6 +396,34 @@
       "muted": false,
       "line_style": "dashed"
      }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-01",
+     "kind": "투자",
+     "text": "구미에 746억 원을 투자해 전력반도체 후공정 설비를 증설한다는 보도(기사 제목 기준).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44WHhma09WNEhkMlF6NFhPV1JpRjdUSXpiN3BHclQwM0tDaVNJMmRBRElqN01CdEtnMHFpbG9JODgzOWd4M0V0alhJYU5HM3BOMnRUdlVLYk1vUGFNTHB30gFkQVVfeXFMTXhiRWVSbzA5c0t6OFFiWjJtblRGbHprdnNCYWpJZU9lRlZPdkw3NzFPRmVxcW5BZVJfVHdzNk5POUFRUTF1c3Jna19nTGl3c1pjazlMSjVLeXpmVmJzd2p3Ul9oRQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "HBM·반도체"
+     ]
+    },
+    {
+     "date": "2026-09-30",
+     "kind": "협력",
+     "text": "경북도·구미시와 구미산단 전력반도체 후공정 설비 증설 MOU를 체결했다는 보도(기사 제목 기준).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sX2VxZ0xvaVY0NXlJMTJZb3RCT0R6emE5eXRCWW9ubXo2LU5jODhfSFdlQ0VzbXNXLUxxRUh4RUlfamtkeHEwQ2xmeDRLMVZPZHlBSjlWLTBaUG12ZXpwZ3dHRjd1QQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "HBM·반도체"
+     ]
     }
    ]
   },
@@ -374,7 +490,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "배터리",
-     "score": 4.98,
+     "score": 7.45,
      "classifications": [
       {
        "topic": "2차전지",
@@ -424,6 +540,95 @@
       "muted": false,
       "line_style": "dashed"
      }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-14",
+     "kind": "기타",
+     "text": "엘앤에프는 LG에너지솔루션과의 LFP 공급계약 보도에 대해 고객사와 협의 중이며 계약 체결과 관련해 구체적으로 확정된 사항은 없다고 공시했다. 재공시 예정일은 11월 13일이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800059"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "2차전지"
+     ]
+    },
+    {
+     "date": "2026-10-14",
+     "kind": "기타",
+     "text": "LG에너지솔루션은 전 임원의 업무상 배임 혐의와 관련해 2월 10일 고소장을 제출했다고 공시했다. 혐의 금액 6억4,685만 원은 고소장 기재 금액이며 수사·재판으로 확정된 금액이 아니다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800616"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-10-11",
+     "kind": "기타",
+     "text": "LG에너지솔루션이 캐나다 리튬 정광 24만 톤을 확보했다는 보도. 기사 제목만 확인했으며 공급 상대·기간·구속력은 공식 확인이 필요하다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMia0FVX3lxTE1UdG1YeUpubjNEd0drMVZ6Mm9nVFhpcVdKd2JYWEJDYS1FbDVJVzV5RWJtUFpWZHNQWGo1NkpfajR3ajFkc2hIWWlQbURHTnN1bUFWdFFkdnFLYXRzUHVCRlQySU82Q1VJbGpR0gFvQVVfeXFMUFBXbVJYQ2NIcjF2dVdCeHlwR0x4QklkR2FoUTRzblZwYUFjeFhYdmxPeDAwSExEQVdnWVFHWXBoQWNsNWJjamdFMndsTXppbzVYUzBCTUtvc2Q5OFA4UjhqdFE1bFBxTHBZMERyVk9V?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "2차전지"
+     ]
+    },
+    {
+     "date": "2026-10-08",
+     "kind": "실적",
+     "text": "2026년 3분기 연결 잠정 매출액은 9조6,434억 원, 영업이익은 7,560억 원이다. 북미 생산 보조금 효과를 제외하면 매출액 9조2,265억 원, 영업이익 3,391억 원이며, 외부감사가 완료되지 않은 잠정치다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800055"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-10-02",
+     "kind": "협력",
+     "text": "미국 인디고테크와 신규 차량용 46시리즈 배터리 공급 MOU를 맺었다는 보도(기사 제목 근거).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjV2NJbEp6SnhrQU5uaDZVaWVCTElOSk1aa3pUYjZLWHdUODMwX0JkT2xocjZsa1BqeER5Q2JPWm1rTHlraG8tTnBRdmF1MUFudDJrME15b21zc2VPbS1lSl9nNjg1Tk5ISENF0gFvQVVfeXFMUGZDUEtyaFFLekhvb3ZDRkhNd1VISGdSTVBZT3U0Y1NjN0lBdmFadWZFU0I4U24tZS1GZ3FLWmRWdHJlRTNxRjczTFd1a2tHYm5oeXkyUXJFamF1dDBZQkxhdUFHUEJtR3ZDYnFiTFRN?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "2차전지"
+     ]
+    },
+    {
+     "date": "2026-10-01",
+     "kind": "기타",
+     "text": "Hanwha Q CELLS USA ESS 배터리 계약(2024-05-16~2026-10-01)이 기간 만료돼 공시유보를 해제하고 매출 실적 환산액 약 1조2,813억 원을 공개한 정정 공시.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001800119"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "2차전지"
+     ]
+    },
+    {
+     "date": "2026-09-30",
+     "kind": "협력",
+     "text": "포스코퓨처엠 LFP 양극재 도입 보도(기사 제목 근거, 관련 공급계약은 미확인).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WdXZUSnB3UFVrcTQ2azBjcTg4d0NBd0p3Q19PQmtEQm04Y3JiSDFUZ1BFQmFxc1ZaTHgzOUtMMjhhQUJDZ3ZUUC1DNE1mZWc?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "2차전지"
+     ]
     }
    ]
   },
@@ -476,7 +681,7 @@
      "theme": "방산",
      "tier": 1,
      "stage": "유도무기",
-     "score": 2.25,
+     "score": 4.17,
      "classifications": [
       {
        "topic": "방산",
@@ -512,6 +717,71 @@
       "muted": false,
       "line_style": "solid"
      }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-13",
+     "kind": "기타",
+     "text": "방위사업청의 LIG D&A 제재 수위 검토가 보도됐다(기사 제목 근거, 제재 확정 여부 미확인).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5jWm1CdHRoazBTUU5qaHRCZzlaOEZSWHR4NHFrLTVxRHhOQ0x6RGQwY3hiYTc0YlU3d3NLRHF3OVByVXEyM2J5YzhsY1hFbmFDekkwTVVsallMckhMVkJXQVh1eDI?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "방산"
+     ]
+    },
+    {
+     "date": "2026-10-07",
+     "kind": "기타",
+     "text": "준법경영 프로그램(CP) 강화 선포식 개최가 보도됐다(기사 제목 근거).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMibkFVX3lxTE4wc3l1MkpVZHZaM0FCTFo1ci1nLWFLSngxenI3M1pkTDl2X2YwM3g1THl4Rk1TWlNKaUN6YmZ1Mmc2UTc5SlZhSUNYeEY1Tnd4blZYby1ZME9SLU85NzhsOEZuQkQ0RGlseXhUc1F3?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": []
+    },
+    {
+     "date": "2026-10-04",
+     "kind": "기타",
+     "text": "페루 방산 기술 거점을 통한 중남미 안티드론 시장 공략이 보도됐다(기사 제목 근거).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5blNpa3ZqZFZOY0xyaTJZTVRkQUQ0Sk5GQ3BZeEtUWUd3VV9IQ3JhS2hPVGdNTEFmc2ZiMUtVOGl3SUpBam85SHg2Y1U3TnB2b0lvbVh0VFlldw?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "방산"
+     ]
+    },
+    {
+     "date": "2026-10-01",
+     "kind": "기타",
+     "text": "L3해리스 등 3개사에 390억6,004만 원 선급금 지급 결정(2026-09-29).",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929800468"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "방산"
+     ]
+    },
+    {
+     "date": "2026-09-30",
+     "kind": "기타",
+     "text": "1조9천억 원 규모 '한국판 미티어' 사업을 놓고 한화와 현대로템·LIG가 수주 경쟁 중이라는 보도(기사 제목 근거).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBsN0IzVGROTjh0ZXZ6Y3JKNTNUejlWT293TnFEYkZsbmg1Zi1fWkljYXNSN04tVzBmOEk3THBrQVFaY1c5bThhRG96OV9vV1N2dDI4?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "방산"
+     ]
     }
    ]
   },
@@ -578,7 +848,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "메모리 제조",
-     "score": 0.9,
+     "score": 4.89,
      "classifications": [
       {
        "topic": "반도체",
@@ -629,6 +899,60 @@
       "line_style": "solid"
      }
     }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-14",
+     "kind": "기타",
+     "text": "안현 SK하이닉스 사장이 HBF 최종 규격의 2027년 1월 확정 계획을 밝혔다는 보도. 기사 제목 기준이며 규격 확정이나 양산 완료를 뜻하지 않는다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aSGFUSWNIQ29UdnEzZ185Tks0bUQ1U3RuLVhicUVDVHlEZ3ZVOS05LWRJbGVoZWhjSzNwYUpCSHdxd2pZUkt5dURuWEVhazh6S1NxTXpMSUFrUUNUbU5fcktzZmZGQQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "HBM·반도체"
+     ]
+    },
+    {
+     "date": "2026-10-14",
+     "kind": "기타",
+     "text": "SK하이닉스가 HBM4 후공정 장비 일부 물량을 2027년으로 미뤘다는 보도. 기사 제목만 확인했으며 대상 장비·공급사·규모는 공식 확인이 필요하다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5TOGJGeHpCR1lnUExrRXVvOF9oNXNIdWtHdzQ0M3Q5X2ROSE5VWGk1eTNtT29qYmJMUXllYTZoNGxiZXFLZGpYM0J2VWRrUWs?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "HBM·반도체"
+     ]
+    },
+    {
+     "date": "2026-10-13",
+     "kind": "협력",
+     "text": "삼성전자·SK하이닉스가 어플라이드 머티어리얼즈와 차세대 반도체 공동개발에 나섰다는 보도. 기사 제목만 확인했으며 참여 범위·협약 조건은 공식 확인이 필요하다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTcTNIOFZuS2Z6TmhUUzlrcWF4Z0tGQjE4RHdWWnRoa19ndnJaZFRpYXhsNHdaeWtGTld6d2JYaV9qMVF1OWJXbUdYbi1HRF9MSjFTbEM5TkxLRWxqcV9PRzcwWmQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "HBM·반도체"
+     ]
+    },
+    {
+     "date": "2026-10-01",
+     "kind": "기타",
+     "text": "이달 국내 최대 반도체 전시회에서 삼성전자와 맞붙으며 차세대 HBM 기술을 공개한다고 보도됨",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zNEJ5OHNfSEJQWkEtekEwYXFnd1FNcFViWXBBSGhsRExnQVMtX01HZEZZLWFEYnZZYjdGNEU3dmNFa3JEemlTUVgzVVFTdmpRTkQzTjh6LURVNjZVNGZ1V9IBeEFVX3lxTE9Xc195OENHdmdzNXRoM0JDNzJTLUppbkZETzBLdm41WE5EYUx1ZXNJaTBYdk1iMGE3bmd4X01XY1pVVEdxd2dGYktpWVRMblpETk5ZUkh5LXBGalBnakdBMEszTXJTN1lCSE5KUEFrNjE3Rk9PdnBIdA?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "HBM·반도체"
+     ]
+    }
    ]
   },
   {
@@ -654,7 +978,8 @@
      "via": "디아이",
      "via_type": "공급사"
     }
-   ]
+   ],
+   "issues": []
   },
   {
    "id": "강원에너지",
@@ -710,6 +1035,35 @@
       "muted": false,
       "line_style": "solid"
      }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-09-30",
+     "kind": "기타",
+     "text": "포스코퓨처엠에 공급하는 광양 양극재 5단계 수세설비 계약 234억8,700만 원의 종료일을 2026-09-30에서 2026-10-31로 연장했다(2026-09-30 정정공시).",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930900759",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828900516"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "2차전지"
+     ]
+    },
+    {
+     "date": "2026-09-30",
+     "kind": "기타",
+     "text": "포스코퓨처엠과 맺은 광양 양극재 5단계 기구부 436억2천만 원 계약(2024-05-13)의 종료일을 2026-09-30에서 2026-10-31로 연장했다. 수세설비와 별개 계약이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930900767"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "2차전지"
+     ]
     }
    ]
   },
@@ -796,6 +1150,22 @@
       "line_style": "solid"
      }
     }
+   ],
+   "issues": [
+    {
+     "date": "2026-09-28",
+     "kind": "기타",
+     "text": "삼성전자와 맺은 CLT Interface Board 약 69억 원 계약(2026-05-28)의 기간을 2026-11-04까지 늘리는 정정 공시",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900895",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260528900396"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "HBM·반도체"
+     ]
+    }
    ]
   },
   {
@@ -854,6 +1224,33 @@
       "muted": false,
       "line_style": "dashed"
      }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-14",
+     "kind": "투자",
+     "text": "종속회사 두산퓨얼셀이 채무상환용 영구 신주인수권부사채 1,000억 원과 연료전지 사업 운영자금용 영구 전환사채 3,000억 원 발행을 결정했다고 공시했다. 청약·납입 예정일은 11월 12일이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800638",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800640"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-09-17",
+     "kind": "기타",
+     "text": "회사는 뉴스케일파워·스탠다드파워 사업 추진을 전제로 한 SMR 기자재 공급 보도를 부인함. 모든 SMR 사업의 중단을 뜻하지 않음",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917800618"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": [
+      "원전·SMR"
+     ]
     }
    ]
   },
@@ -968,6 +1365,21 @@
       "line_style": "solid"
      }
     }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-01",
+     "kind": "계약",
+     "text": "삼성전자와 반도체 검사장비 약 153억 원 공급계약 체결 (2026-09-30~2027-12-31)",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001800054"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "HBM·반도체"
+     ]
+    }
    ]
   },
   {
@@ -989,11 +1401,12 @@
      "theme": "HBM·반도체",
      "tier": 2,
      "stage": "",
-     "score": 1.22,
-     "via": "디아이",
-     "via_type": "피출자"
+     "score": 1.47,
+     "via": "SK하이닉스",
+     "via_type": "고객사"
     }
-   ]
+   ],
+   "issues": []
   },
   {
    "id": "마이크론",
@@ -1044,7 +1457,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "메모리 제조",
-     "score": 1.81,
+     "score": 3.68,
      "classifications": [
       {
        "topic": "HBM 수요 확대",
@@ -1080,6 +1493,62 @@
       "muted": false,
       "line_style": "dashed"
      }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-06",
+     "kind": "기타",
+     "text": "넷리스트는 마이크론과 10월 5일 소송 합의 및 5년 특허 라이선스 계약을 체결했다고 발표했다. 계약에 적힌 양사 간 계류 소송을 상호 해결·면책하고, 마이크론은 2026년 4분기부터 2031년 3분기까지 분기별 3천만 달러씩 총 6억 달러를 지급하는 조건이다.",
+     "sources": [
+      "https://investors.netlist.com/news/netlist-and-micron-enter-patent-license-and-settlement-agreements/c8615305-0590-43e4-bcb2-fe05e120f947",
+      "https://www.sec.gov/Archives/edgar/data/1282631/000110465926113897/tm2626949d1_8k.htm"
+     ],
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "themes": [
+      "HBM·반도체"
+     ]
+    },
+    {
+     "date": "2026-10-05",
+     "kind": "기타",
+     "text": "마이크론이 2028년까지 메모리 공급 제약을 전망했다는 보도. 기사 제목 기준의 전망이며 특정 고객과의 공급계약이나 실현된 생산량을 뜻하지 않는다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiVEFVX3lxTE41bEEwbkExNHFKRmY4WVptWVVDVDVzTkpnbUFPMXhMOUxqa2Z0OFBRdmFQVkpNMXdQR1gyWVh5UXlFbnlMSWkzUkp0TEZiU0FadFlxWQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "HBM·반도체"
+     ]
+    },
+    {
+     "date": "2026-10-01",
+     "kind": "실적",
+     "text": "분기 매출이 사상 최대를 기록했다는 보도(기사 제목 기준·실적 원공시 미확인).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CdkFtY2M5UVl1anMtaGlOT0luQmdod1VOLXZVbF9fV0FTT0xaX3JpR0lRSDdfRmVWcmRuVHpJMmhzZ3V0YXB6VE94dTJHa0ROcU9CTHVhVmVJX1ZHUE5ZeNIBYEFVX3lxTE9CdkFtY2M5UVl1anMtaGlOT0luQmdod1VOLXZVbF9fV0FTT0xaX3JpR0lRSDdfRmVWcmRuVHpJMmhzZ3V0YXB6VE94dTJHa0ROcU9CTHVhVmVJX1ZHUE5ZeA?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "HBM·반도체"
+     ]
+    },
+    {
+     "date": "2026-10-01",
+     "kind": "기타",
+     "text": "넷리스트가 마이크론의 HBM 특허 침해를 주장하며 미국 ITC에 제소했다는 보도(기사 제목 기준). · · 후속: 10월 6일 양사 소송 합의·특허 라이선스 계약 발표",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fTlBGNHZadlQ0YllMckhjaG1obUJ3dzdSQ3JZWFgteDY1MGNoaVF3bWNIdW1YRnhTRU96TVptUWp1OUpPYWwyRGJ5UjdNVlBlSmcyXzhDOTIxcWhtdEE?oc=5",
+      "https://investors.netlist.com/news/netlist-and-micron-enter-patent-license-and-settlement-agreements/c8615305-0590-43e4-bcb2-fe05e120f947"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "HBM·반도체"
+     ]
     }
    ]
   },
@@ -1141,6 +1610,22 @@
       "line_style": "dashed"
      }
     }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-02",
+     "kind": "협력",
+     "text": "어플라이드 머티어리얼즈 EPIC 센터 혁신 파트너 합류 및 하이브리드 본딩 공동개발 보도(기사 제목 기준).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBVaXBJdDR2QkFNaHcxazgzOWxEMGxTdHhGd3FfMV8xZlZjc2J5aDc1b3hJQWs1aG1IZDJLSHFpbzlNbUNqWkdRYjBCNE96dw?oc=5",
+      "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KdXh0SllfSlRabUJDUllHTnQ3NWNIWko4RFNpakJncXhacnRjTWdSNGJSNGFkanE4aXpURzNiXzBoVnlvdl9FNk1mMExJc0x2WGxyRG0yWDUwM044RWhOUVZFTjh1QQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "HBM·반도체"
+     ]
+    }
    ]
   },
   {
@@ -1191,7 +1676,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "",
-     "score": 0.9,
+     "score": 5.61,
      "classifications": [
       {
        "topic": "2차전지",
@@ -1227,6 +1712,47 @@
       "muted": false,
       "line_style": "dashed"
      }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-07",
+     "kind": "협력",
+     "text": "에코프로비엠·삼성SDI의 전고체 배터리 소재 개발 MOU가 공식 발표됐다(10월 6일 발표 내용, 홈페이지 게시일 10월 7일). 2027년 상용화를 목표로 공동개발을 추진하며 양산 완료를 뜻하지 않는다.",
+     "sources": [
+      "https://www.ecopro.co.kr/sub0401/view/sub010401/page/sub020104/page/sub020201/page/10/31/id/2198"
+     ],
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "themes": [
+      "2차전지"
+     ]
+    },
+    {
+     "date": "2026-10-06",
+     "kind": "계약",
+     "text": "포스코퓨처엠과 삼성SDI가 LFP 양극재 약 6조 원 규모의 장기 공급계약을 발표했다. 기존 2023년 공급계약의 품목 확대·개정을 포함하며, 공시의 전체 소재 계약금액과 별개 신규 계약으로 합산하지 않는다.",
+     "sources": [
+      "https://newsroom.posco.com/kr/포스코퓨처엠-삼성sdi와-lfp-6조원-규모-공급계약-체결-non/"
+     ],
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "themes": [
+      "2차전지"
+     ]
+    },
+    {
+     "date": "2026-09-30",
+     "kind": "기타",
+     "text": "에코프로비엠의 BMW·벤츠 신형 전기차용 양극재 공급 보도 제목에 언급됨",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ybU5JSXd0VjBtMi1uVlJSSnl4ZklYQzJtdlZvU1pXOTlJblI0RFlpZlJRcUU1ZXR4aF92ZmNoUzB6NGpSMk1uRzZsZ0RfM0dBQjdWcl92eFJmVThhNzJ2UmJkdHhsZw?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "2차전지"
+     ]
     }
    ]
   },
@@ -1278,7 +1804,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "패키지기판",
-     "score": 7.96,
+     "score": 12.19,
      "classifications": [
       {
        "topic": "AI 반도체",
@@ -1314,6 +1840,58 @@
       "muted": false,
       "line_style": "dashed"
      }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-06",
+     "kind": "계약",
+     "text": "상대방을 공개하지 않은 글로벌 대형기업과 2,856억1,104만 원 규모의 MLCC 공급계약을 체결했다. 계약일은 10월 6일이며 공급기간은 2027년 1월 1일부터 12월 31일까지다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006800130"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-10-06",
+     "kind": "계약",
+     "text": "한미반도체는 삼성전기에 AI 반도체 기판 제조용 대면적 MSVP 장비 244억8,000만 원을 공급하는 계약을 공시했다. 발주서 수령일은 10월 2일, 계약기간은 2026년 10월 2일부터 2027년 12월 17일까지다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006800023"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "HBM·반도체"
+     ]
+    },
+    {
+     "date": "2026-09-28",
+     "kind": "투자",
+     "text": "패키지기판 생산능력 확대를 위해 4조2,700억 원 시설증설 투자를 결정했다(투자기간 2026-09-28~2028-05-31).",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928800810"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "HBM·반도체"
+     ]
+    },
+    {
+     "date": "2026-09-28",
+     "kind": "투자",
+     "text": "베트남 종속회사 Samsung Electro-Mechanics Vietnam Co., Ltd.가 패키지기판 공장 증설을 위해 2조5,100억 원 규모 유형자산을 취득하기로 결정했다(2026-09-28).",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928800821"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "HBM·반도체"
+     ]
     }
    ]
   },
@@ -1379,7 +1957,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "메모리 제조",
-     "score": 0.9,
+     "score": 3.88,
      "classifications": [
       {
        "topic": "반도체",
@@ -1429,6 +2007,58 @@
       "muted": false,
       "line_style": "solid"
      }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-13",
+     "kind": "기타",
+     "text": "삼성전자가 OCP에서 AI 메모리·스토리지 전략을 제시하고 AMD와 기술을 시연했다는 보도. 기사 제목만 확인했으며 기술·행사 세부 내용은 추가 확인이 필요하다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMib0FVX3lxTFBIYUJGNHA3aFVFUGJBS3czV3hUZzhpbEozRXpkMjBwNFJSTFRwNkpxQ1dhbktVblVPRm8wbmlTN0YxUzNBYmFiVnpsRlFjX0Myek1GSTZPelNQdVpkZUpzUEV5dkVOUUM3M19yYzdhUdIBc0FVX3lxTE9pU0dwQ1p2UDdFd3ZUbTJsR1VLSXgxazV5NnZXNDQyN0QyS3N3Z0lWU0tiR1d4a1N0STZBS3BCbGE5ZldYdEJhWmc2eTNMRFBmOXdLM1c0VjRTVmVKWDB3aFQ5M3Z5UkFsN211QW9aWWc4Z28?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "HBM·반도체"
+     ]
+    },
+    {
+     "date": "2026-10-13",
+     "kind": "협력",
+     "text": "삼성전자·SK하이닉스가 어플라이드 머티어리얼즈와 차세대 반도체 공동개발에 나섰다는 보도. 기사 제목만 확인했으며 참여 범위·협약 조건은 공식 확인이 필요하다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTcTNIOFZuS2Z6TmhUUzlrcWF4Z0tGQjE4RHdWWnRoa19ndnJaZFRpYXhsNHdaeWtGTld6d2JYaV9qMVF1OWJXbUdYbi1HRF9MSjFTbEM5TkxLRWxqcV9PRzcwWmQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "HBM·반도체"
+     ]
+    },
+    {
+     "date": "2026-10-08",
+     "kind": "실적",
+     "text": "2026년 3분기 연결 잠정 매출액 195조 원과 영업이익 107조4,000억 원을 공시했다. 외부감사가 완료되지 않은 잠정치이며 이사회 승인 시점에 다시 공시할 예정이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800004"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-10-01",
+     "kind": "기타",
+     "text": "2026년 10월 국내 반도체 전시회에서 SK하이닉스와 차세대 HBM 기술을 공개할 예정이라고 보도됐다(2026-10-01 기사 제목 기준, 확인 중).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zNEJ5OHNfSEJQWkEtekEwYXFnd1FNcFViWXBBSGhsRExnQVMtX01HZEZZLWFEYnZZYjdGNEU3dmNFa3JEemlTUVgzVVFTdmpRTkQzTjh6LURVNjZVNGZ1V9IBeEFVX3lxTE9Xc195OENHdmdzNXRoM0JDNzJTLUppbkZETzBLdm41WE5EYUx1ZXNJaTBYdk1iMGE3bmd4X01XY1pVVEdxd2dGYktpWVRMblpETk5ZUkh5LXBGalBnakdBMEszTXJTN1lCSE5KUEFrNjE3Rk9PdnBIdA?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "HBM·반도체"
+     ]
     }
    ]
   },
@@ -1502,6 +2132,21 @@
       "muted": false,
       "line_style": "dashed"
      }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-01",
+     "kind": "협력",
+     "text": "HD한국조선해양·한화오션과 해상 SMR 개발을 협의한다는 보도(기사 제목 기준).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWTlidElDR1ZaXzRialRhbE9TQjNmeVRVRERUQUxzLTBlLWxPS3NKVVJZamFPX0FyZG1iLUlnM2VxVG9Eb1E5UnBERG1qMFdCbjl6Yk1pdEdlUzVnUmkzRDFRNWE2TmRhT3Qw?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "원전·SMR"
+     ]
     }
    ]
   },
@@ -1590,6 +2235,21 @@
       "line_style": "solid"
      }
     }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-01",
+     "kind": "수주",
+     "text": "해외 방산업체와 적외선 검출기 조립체 약 618억 원 공급계약 (2026-09-30~2029-09-01)",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001900495"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "방산"
+     ]
+    }
    ]
   },
   {
@@ -1649,6 +2309,21 @@
       "line_style": "solid"
      }
     }
+   ],
+   "issues": [
+    {
+     "date": "2026-09-30",
+     "kind": "수주",
+     "text": "이차전지(각형배터리) 제조공정용 레이저 시스템 82억2,400만 원 공급계약 (공급지역 대한민국)",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930900127"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "2차전지"
+     ]
+    }
    ]
   },
   {
@@ -1686,7 +2361,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "하이브리드 본딩",
-     "score": 1.82,
+     "score": 3.81,
      "classifications": [
       {
        "topic": "반도체",
@@ -1709,6 +2384,35 @@
       "line_style": "dashed"
      }
     }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-13",
+     "kind": "협력",
+     "text": "삼성전자·SK하이닉스가 어플라이드 머티어리얼즈와 차세대 반도체 공동개발에 나섰다는 보도. 기사 제목만 확인했으며 참여 범위·협약 조건은 공식 확인이 필요하다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTcTNIOFZuS2Z6TmhUUzlrcWF4Z0tGQjE4RHdWWnRoa19ndnJaZFRpYXhsNHdaeWtGTld6d2JYaV9qMVF1OWJXbUdYbi1HRF9MSjFTbEM5TkxLRWxqcV9PRzcwWmQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "HBM·반도체"
+     ]
+    },
+    {
+     "date": "2026-10-02",
+     "kind": "협력",
+     "text": "베시의 EPIC 센터 혁신 파트너 합류와 양사의 하이브리드 본딩 공동개발이 보도됐다(2026-10-02 기사 제목 기준, 확인 중).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBVaXBJdDR2QkFNaHcxazgzOWxEMGxTdHhGd3FfMV8xZlZjc2J5aDc1b3hJQWs1aG1IZDJLSHFpbzlNbUNqWkdRYjBCNE96dw?oc=5",
+      "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KdXh0SllfSlRabUJDUllHTnQ3NWNIWko4RFNpakJncXhacnRjTWdSNGJSNGFkanE4aXpURzNiXzBoVnlvdl9FNk1mMExJc0x2WGxyRG0yWDUwM044RWhOUVZFTjh1QQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "HBM·반도체"
+     ]
+    }
    ]
   },
   {
@@ -1730,11 +2434,12 @@
      "theme": "2차전지",
      "tier": 2,
      "stage": "",
-     "score": 1.2,
-     "via": "자비스",
+     "score": 2.26,
+     "via": "포스코퓨처엠",
      "via_type": "공급사"
     }
-   ]
+   ],
+   "issues": []
   },
   {
    "id": "에코프로비엠",
@@ -1770,7 +2475,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "양극재",
-     "score": 0.9,
+     "score": 2.79,
      "classifications": [
       {
        "topic": "2차전지",
@@ -1793,6 +2498,45 @@
       "line_style": "dashed"
      }
     }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-13",
+     "kind": "투자",
+     "text": "주주배정 후 실권주 일반공모 유상증자의 최종 발행가액을 1주당 8만9,500원으로 확정했다. 신주는 990만990주, 조달 예정액은 8,861억3,860만5,000원이며 납입일은 10월 23일로 예정돼 있다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000198"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-10-07",
+     "kind": "협력",
+     "text": "에코프로비엠·삼성SDI의 전고체 배터리 소재 개발 MOU가 공식 발표됐다(10월 6일 발표 내용, 홈페이지 게시일 10월 7일). 2027년 상용화를 목표로 공동개발을 추진하며 양산 완료를 뜻하지 않는다.",
+     "sources": [
+      "https://www.ecopro.co.kr/sub0401/view/sub010401/page/sub020104/page/sub020201/page/10/31/id/2198"
+     ],
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "themes": [
+      "2차전지"
+     ]
+    },
+    {
+     "date": "2026-09-30",
+     "kind": "기타",
+     "text": "BMW·벤츠 신형 전기차용 양극재 공급 보도(제목에 삼성SDI 언급, 직접 거래 상대는 확인되지 않음).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ybU5JSXd0VjBtMi1uVlJSSnl4ZklYQzJtdlZvU1pXOTlJblI0RFlpZlJRcUU1ZXR4aF92ZmNoUzB6NGpSMk1uRzZsZ0RfM0dBQjdWcl92eFJmVThhNzJ2UmJkdHhsZw?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "2차전지"
+     ]
+    }
    ]
   },
   {
@@ -1814,11 +2558,12 @@
      "theme": "2차전지",
      "tier": 2,
      "stage": "",
-     "score": 0.27,
-     "via": "에코프로비엠",
+     "score": 1.68,
+     "via": "삼성SDI",
      "via_type": "피출자"
     }
-   ]
+   ],
+   "issues": []
   },
   {
    "id": "엘앤에프",
@@ -1868,7 +2613,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "양극재",
-     "score": 3.23,
+     "score": 6.72,
      "classifications": [
       {
        "topic": "2차전지",
@@ -1904,6 +2649,86 @@
       "muted": false,
       "line_style": "dashed"
      }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-14",
+     "kind": "기타",
+     "text": "엘앤에프는 LG에너지솔루션과의 LFP 공급계약 보도에 대해 고객사와 협의 중이며 계약 체결과 관련해 구체적으로 확정된 사항은 없다고 공시했다. 재공시 예정일은 11월 13일이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800059"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "2차전지"
+     ]
+    },
+    {
+     "date": "2026-10-14",
+     "kind": "기타",
+     "text": "엘앤에프 자회사 JHC가 폐배터리 1만 5천 톤 전처리 능력을 확보했다는 보도. 기사 제목만 확인했으며 처리능력의 기간 기준과 실제 가동량은 추가 확인이 필요하다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBobXl1TnR5cHBlU09jNlJwdDkyMEZiZUJnUnVSbGxmVHV5dGtfOVJvU0o0bkMtbG03UHlPckU2a3lMSDVzR1pYRTdVUXR4bndPLV91SHdmSDB0WEVPd1BEcndUTlQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "2차전지"
+     ]
+    },
+    {
+     "date": "2026-10-12",
+     "kind": "기타",
+     "text": "엘앤에프가 양극재 탄소발자국 국제표준 검증을 획득했다는 보도. 기사 제목만 확인했으며 대상 제품·표준·검증기관은 추가 확인이 필요하다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxQY0M2aVdzZnczdjFmcUFPSXltdjJCallHdkN2VUNMS0hEZUpvVVE2SXhvX3VsNGQ0SFJQajloRWdicVNOYjVTdG1yajg4N2tYbXVFelRtUUxua0VNVWhreTFUNkFpVzJZTjFVTEtlSWpxLVk4cFZXU0FWQ2l3UHRkbw?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "2차전지"
+     ]
+    },
+    {
+     "date": "2026-10-07",
+     "kind": "기타",
+     "text": "회사는 CB 발행을 포함한 자금조달 방안을 검토 중이며 확정 사항이 없다고 공시함. 이 해명은 9월 8일 보도를 대상으로 함",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007800399"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": [
+      "2차전지"
+     ]
+    },
+    {
+     "date": "2026-10-01",
+     "kind": "기타",
+     "text": "LFP 양극재 양산 자금 마련을 위한 3천억 원 전환사채 발행 보도(2026-10-01 기사 제목 근거, 발행 확정은 미확인).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9qZEZMcjgySGluWnpEQkJZMExwWXpYMlRVcDhMTEhON0pKcmEtZTNUQ3JMOGh3SWh2UVZ6SlV0RDVmNUh0d2gwR0Iwa09HNHBJVmd6ZzR0VXlyVTU2dTdLWUo1OVVjWkUy0gFuQVVfeXFMTzNJZHZndTV1WXFnTzItbnBFWjBuUVlwSDctVFA5MlBDUC1iNjJVTXE5bmtpN2hhQlZMU25Da2dLY3pLRzFFWEt0RXM0Z1h3WlY3N0U5ak1iS2NsRGtXUFV2XzJtOTV1alM5azRReEE?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "2차전지"
+     ]
+    },
+    {
+     "date": "2026-10-01",
+     "kind": "기타",
+     "text": "LFP 양극재 공장 준공과 3분기 양산 시작 보도(2026-10-01 기사 제목 근거).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BUGlJZmRkWDcyV0lhTFR2MWthSWFNbUxPeDFDUjNfT2F2YW1CZDA1MmNGOUNwV05SWUstaGlhMHZRSWdqXzhudlZRdDRWbmY1b3dKN3dPUEd0R29jd3VMSmlGcw?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "2차전지"
+     ]
     }
    ]
   },
@@ -1992,6 +2817,22 @@
       "line_style": "solid"
      }
     }
+   ],
+   "issues": [
+    {
+     "date": "2026-09-29",
+     "kind": "기타",
+     "text": "삼성전자와 맺은 반도체 검사장비 403억 원 계약(2026-03-03)의 종료일을 2026-09-30에서 2026-12-31로 연장했다. 9/29 정정 공시 기준 계약금액의 약 79%에 해당하는 장비는 납품 완료됐고 약 21%는 12/31까지 납품 예정이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900723",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260304900875"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "HBM·반도체"
+     ]
+    }
    ]
   },
   {
@@ -2049,6 +2890,21 @@
       "line_style": "solid"
      }
     }
+   ],
+   "issues": [
+    {
+     "date": "2026-09-30",
+     "kind": "계약",
+     "text": "SK하이닉스와 반도체 공정·제조환경 모니터링 장비 41억5,160만 원 공급계약 체결",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930901244"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "HBM·반도체"
+     ]
+    }
    ]
   },
   {
@@ -2105,6 +2961,21 @@
       "muted": false,
       "line_style": "dashed"
      }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-09-30",
+     "kind": "기타",
+     "text": "10월 황화리튬 상업생산에 들어갈 예정이라는 2026-09-30 보도(기사 제목 기준·개시 확인 전).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMicEFVX3lxTFBxWkw2dV9RMG9oQnpVb1ZrSXk2VmN6LUktdEhDTHVGa1ROV21EdjBDQTlaNzNWZF94RVdxS1N2NE05VWZlOG1TWUZnSnFrcS1ObWJvMFNkZU1kY3hQclVsMG11eEZ2dkdlck01SG56eEk?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "2차전지"
+     ]
     }
    ]
   },
@@ -2165,6 +3036,21 @@
       "line_style": "solid"
      }
     }
+   ],
+   "issues": [
+    {
+     "date": "2026-09-29",
+     "kind": "계약",
+     "text": "케이알엠과 국방 드론용 모터·ESC 13억7천만 원 구매 계약 (케이알엠 공시)",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900334"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "방산"
+     ]
+    }
    ]
   },
   {
@@ -2224,13 +3110,28 @@
       "line_style": "solid"
      }
     }
+   ],
+   "issues": [
+    {
+     "date": "2026-09-29",
+     "kind": "수주",
+     "text": "배터리 X-ray 검사장비 34억 원 계약 (공급지역 대한민국, 계약기간 2026-09-29~2028-03-31)",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900510"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "2차전지"
+     ]
+    }
    ]
   },
   {
    "id": "제일엠앤에스",
    "type": "company",
    "path": "companies/제일엠앤에스",
-   "summary": "회생절차 개시·상장폐지 결정·효력정지 가처분 신청을 공시한 2차전지 장비 회사",
+   "summary": "회생계획 인가 후 에프지투자3호의 신주 납입·최대주주 변경이 확인된 2차전지 장비 회사",
    "market": "KOSDAQ",
    "ticker": "412540",
    "dart_corp_code": "00528791",
@@ -2244,7 +3145,7 @@
      "classification": "공시·거래소 확인",
      "status": "확인",
      "date": "2026-10-09",
-     "text": "KIND 주요제품: 2차전지 믹싱시스템",
+     "text": "KIND 주요제품: 2차전지 믹싱시스템. 제품 분류의 확인이며 현재 생산·회생절차 종결을 뜻하지 않음",
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
@@ -2258,7 +3159,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "제조 장비",
-     "score": 4.07,
+     "score": 10.05,
      "classifications": [
       {
        "topic": "2차전지",
@@ -2266,7 +3167,7 @@
        "classification": "공시·거래소 확인",
        "status": "확인",
        "date": "2026-10-09",
-       "text": "KIND 주요제품: 2차전지 믹싱시스템",
+       "text": "KIND 주요제품: 2차전지 믹싱시스템. 제품 분류의 확인이며 현재 생산·회생절차 종결을 뜻하지 않음",
        "evidence_level": "거래소 자료",
        "weak": false,
        "sources": [
@@ -2280,6 +3181,49 @@
       "muted": false,
       "line_style": "dashed"
      }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-14",
+     "kind": "인수합병",
+     "text": "회생계획 인가에 따른 제3자배정 유상증자 신주 3,100만 주·155억 원이 납입됐고, 에프지투자3호가 지분 79.91%의 최대주주로 변경됐다. 에프지투자3호의 최대주주는 푸른 재무안정 신기술투자조합 제1호(99.60%)이며 조합의 최대출자자는 핑거다. 회생절차 종결·가처분 결과·거래 재개는 이 공시로 확인되지 않는다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900183",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900687"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "2차전지"
+     ]
+    },
+    {
+     "date": "2026-10-12",
+     "kind": "기타",
+     "text": "수원회생법원이 10월 8일 회생계획을 인가했고, 회사는 10월 12일 결정문을 받아 공시했다. 인가된 계획에는 출자전환·주식병합 및 에프지투자3호 대상 신주 3,100만 주 발행이 포함됐다. 인가는 회생절차 종결과 다르며 실제 납입은 위 10월 14일 후속 이슈에서 확인한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012900751"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "2차전지"
+     ]
+    },
+    {
+     "date": "2026-10-01",
+     "kind": "인수합병",
+     "text": "당시 인수 보도 이후, 10월 6일 핑거 종속회사 에프지투자3호가 제일엠앤에스 신주 3,100만 주를 155억 원에 취득하기로 결정했다(취득 후 예정 지분 79.91%). 10월 21일은 법원 회생계획 인가·납입을 전제로 한 당시 추정 예정일이었다. 이후 인가와 실제 납입·최대주주 변경은 위 10월 12일·14일 후속 이슈를 참고한다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XVlgzRFZCU0RaR2FYZ0pjWUlPazBtOExvdkIydElNSlVFaGpHN0VRcC1HckZ4NEVHOVFMTnh4UU9neDhyWjNqbEd1d2hKdkJfbUlucFNB?oc=5",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006900724"
+     ],
+     "evidence_level": "공시 원문·기사 제목",
+     "weak": true,
+     "themes": [
+      "2차전지"
+     ]
     }
    ]
   },
@@ -2340,6 +3284,34 @@
       "line_style": "solid"
      }
     }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-02",
+     "kind": "기타",
+     "text": "육군 교육용 기체 탑재 체계를 확보했다고 보도됨 (기사 제목 표현: '드론 핵심 구동부 내수 전환')",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44bmpNdVl3MXczRlV2WXRvcGo3allzOGFvVnQwcnY3ZW5sLUJzR1JhaG1WQTFsaDByYzRSMnZaMXpDMW93Vm05RWk3bUFaOXFSQ1NwS05EcXFNbl8zVlNj?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "방산"
+     ]
+    },
+    {
+     "date": "2026-09-29",
+     "kind": "수주",
+     "text": "인탑스와 국방 드론용 모터·ESC 13억7천만 원 공급계약",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900334"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "방산"
+     ]
+    }
    ]
   },
   {
@@ -2398,6 +3370,21 @@
       "muted": true,
       "line_style": "solid"
      }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-09-30",
+     "kind": "기타",
+     "text": "부산지방조달청과의 PHWR 방사화구조물 절단 플랫폼 약 25억 원 계약에서 납품·검수는 2026-09-22 완료됐다. 9월 30일 정정은 대금지급 조건과 잔금 60%의 10월 수령 예정일을 추가한 것이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930901316"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "원전·SMR"
+     ]
     }
    ]
   },
@@ -2486,6 +3473,32 @@
       "line_style": "solid"
      }
     }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-14",
+     "kind": "실적",
+     "text": "2026년 3분기 연결 잠정 매출액은 877억8,400만 원, 영업이익은 179억9,400만 원으로 공시했다. 외부감사인의 회계검토 전 잠정치다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900085"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-09-29",
+     "kind": "기타",
+     "text": "Micron Memory Malaysia와의 반도체 검사장비 약 228.63억 원 계약은 2026-09-04 납품을 마쳤으며, 입금일 연장으로 종료일을 2026-10-02에서 2026-11-06으로 정정했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900917"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "HBM·반도체"
+     ]
+    }
    ]
   },
   {
@@ -2536,7 +3549,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "양극재",
-     "score": 2.71,
+     "score": 7.52,
      "classifications": [
       {
        "topic": "2차전지",
@@ -2572,6 +3585,73 @@
       "muted": false,
       "line_style": "dashed"
      }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-14",
+     "kind": "기타",
+     "text": "포스코퓨처엠이 양극재 생산의 AI 도입을 통해 2028년 생산성을 30% 높이는 목표를 제시했다는 보도. 기사 제목 기준이며 달성 실적을 뜻하지 않는다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcFZmNjN2cHpqTndzc3NzSm9EN21xcGVoMTNpTldzVTJhaGJxZVg3eGJnNHdlYmdqQ0RHY1F0ckFneDZ5WFBOSktGeTBCYUJIUVpvMTdNSjE0VnBfRHBaTkRiNnFDYUpNV3d4cF9vQlpSVU5KYVN2YmdhVWtOMDFNanZBbUl2QQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "2차전지"
+     ]
+    },
+    {
+     "date": "2026-10-13",
+     "kind": "기타",
+     "text": "포스코퓨처엠·GM 합작 얼티엄캠의 캐나다 하이니켈 공장이 양산을 앞두고 있다는 보도. 기사 제목 기준의 전망이며 양산 개시 확정으로 표현하지 않는다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiXkFVX3lxTE44TnVDV1k2Q0xHWGRhZ25KN0s5ZmF1YmdqeDlIV1F0ZUxndV9mNzFmQUtMMGJwVUJWZjBWcDBLYXNSZlhBUlI1UnFsRTlBeWxBUTNSNlAzbTR0V2ZDenc?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "2차전지"
+     ]
+    },
+    {
+     "date": "2026-10-06",
+     "kind": "계약",
+     "text": "포스코퓨처엠과 삼성SDI가 LFP 양극재 약 6조 원 규모의 장기 공급계약을 발표했다. 기존 2023년 공급계약의 품목 확대·개정을 포함하며, 공시의 전체 소재 계약금액과 별개 신규 계약으로 합산하지 않는다.",
+     "sources": [
+      "https://newsroom.posco.com/kr/포스코퓨처엠-삼성sdi와-lfp-6조원-규모-공급계약-체결-non/"
+     ],
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "themes": [
+      "2차전지"
+     ]
+    },
+    {
+     "date": "2026-10-02",
+     "kind": "기타",
+     "text": "LFP 양극재 전환 라인 준비를 마치고 2026년 말 양산할 계획이라고 보도됐다(2026-10-02 기사 제목 기준, 확인 중).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMib0FVX3lxTE5OamRBaW13V1ljRXFrN1BYZlZYc1ZfVE1oM01yNTBVSVJ5Z2VSaE1QZHRGUWNFZGdVejl6dFEtUWtmT2lHNVE0Z3N6dUxNX1BQVXZiYkhnRFlxbGEyUEFfYURHWUZtdHRZWDhFQktIaw?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "2차전지"
+     ]
+    },
+    {
+     "date": "2026-09-30",
+     "kind": "협력",
+     "text": "LG에너지솔루션이 포스코퓨처엠 LFP 양극재를 도입한다는 보도가 있다(2026-09-30 기사 제목 기준, 확인 중).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WdXZUSnB3UFVrcTQ2azBjcTg4d0NBd0p3Q19PQmtEQm04Y3JiSDFUZ1BFQmFxc1ZaTHgzOUtMMjhhQUJDZ3ZUUC1DNE1mZWc?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "2차전지"
+     ]
     }
    ]
   },
@@ -2609,7 +3689,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "제조 장비",
-     "score": 4.01,
+     "score": 4.96,
      "classifications": [
       {
        "topic": "2차전지",
@@ -2632,13 +3712,41 @@
       "line_style": "dashed"
      }
     }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-07",
+     "kind": "기타",
+     "text": "피엔티가 미국·인도에서 배터리 생산 통합 솔루션을 공개했다는 보도. 기사 제목 기준이며 계약·공장 가동 확정을 뜻하지 않는다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBvYWh1ZVhoUy1SZzg4eWsxRnJXNkhyMEkyZ2tBaGpNb0dOUkZKY3RVUUlCOHF4a1l5dmRpU3pFNXB1YjRUT0hFd01wcFpZTkFWdWpUN09tSDRwcEF1QzlvaWtpb0tlZw?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "2차전지"
+     ]
+    },
+    {
+     "date": "2026-09-29",
+     "kind": "수주",
+     "text": "중국 Huaian Tenpower Lithium과 2차전지 전극공정 장비 444억7,200만 원 계약",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900946"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "2차전지"
+     ]
+    }
    ]
   },
   {
    "id": "핑거",
    "type": "company",
    "path": "companies/핑거",
-   "summary": "종속회사를 통한 제일엠앤에스 신주 취득을 결정한 코스닥 상장사",
+   "summary": "푸른 재무안정 신기술투자조합 제1호의 최대출자자로, 조합·에프지투자3호를 통한 제일엠앤에스 투자 경로가 확인된 코스닥 상장사",
    "market": "KOSDAQ",
    "ticker": "163730",
    "dart_corp_code": "01142075",
@@ -2653,12 +3761,13 @@
      "page": "2차전지",
      "classification": "후보",
      "status": "후보(확인 중)",
-     "date": "2026-10-06",
-     "text": "종속회사 에프지투자3호의 제일엠앤에스 신주 취득 결정. 납입 완료는 이 공시로 확인되지 않음",
+     "date": "2026-10-14",
+     "text": "핑거가 최대출자자인 조합·에프지투자3호를 통한 제일엠앤에스 투자 경로와 에프지투자3호의 신주 납입·최대주주 변경을 확인. 핑거 자체의 2차전지 제조사업 수행은 미확인",
      "evidence_level": "공시 원문",
      "weak": false,
      "sources": [
-      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006900724"
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900687",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900183"
      ],
      "malformed": ""
     }
@@ -2668,28 +3777,61 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "",
-     "score": 4.07,
+     "score": 8.57,
      "classifications": [
       {
        "topic": "2차전지",
        "page": "2차전지",
        "classification": "후보",
        "status": "후보(확인 중)",
-       "date": "2026-10-06",
-       "text": "종속회사 에프지투자3호의 제일엠앤에스 신주 취득 결정. 납입 완료는 이 공시로 확인되지 않음",
+       "date": "2026-10-14",
+       "text": "핑거가 최대출자자인 조합·에프지투자3호를 통한 제일엠앤에스 투자 경로와 에프지투자3호의 신주 납입·최대주주 변경을 확인. 핑거 자체의 2차전지 제조사업 수행은 미확인",
        "evidence_level": "공시 원문",
        "weak": false,
        "sources": [
-        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006900724"
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900687",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900183"
        ],
        "malformed": ""
       }
      ],
      "presentation": {
-      "label": "확인 중",
+      "label": "후보(확인 중)",
       "muted": false,
       "line_style": "dashed"
      }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-14",
+     "kind": "인수합병",
+     "text": "제일엠앤에스 공시에서 에프지투자3호의 신주 3,100만 주·155억 원 납입과 지분 79.91%의 최대주주 변경이 확인됐다. 에프지투자3호의 최대주주는 푸른 재무안정 신기술투자조합 제1호(99.60%)이고, 핑거는 이 조합의 최대출자자다. 핑거의 에프지투자3호 현재 직접 지분율이나 조합 출자 140억 원의 납입 완료는 이 공시로 확인되지 않는다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900687",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900183"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "2차전지"
+     ]
+    },
+    {
+     "date": "2026-10-01",
+     "kind": "인수합병",
+     "text": "당시 조합 출자 140억 원과 조합의 에프지투자3호 신주 취득 138억 원이 결정됐다. 후속 10월 6일 에프지투자3호가 제일엠앤에스 신주 취득을 결정했고, 10월 21일은 법원 인가·납입을 전제로 한 당시 추정 일정이었다. 에프지투자3호의 제일엠앤에스 신주 납입·최대주주 변경은 위 10월 14일 후속 이슈를 참고한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001900536",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001900550",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006900724",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001900546"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "2차전지"
+     ]
     }
    ]
   },
@@ -2756,7 +3898,7 @@
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "해외 원전사업",
-     "score": 3.63,
+     "score": 4.59,
      "classifications": [
       {
        "topic": "원전·SMR",
@@ -2807,6 +3949,60 @@
       "line_style": "dashed"
      }
     }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-08",
+     "kind": "기타",
+     "text": "엘다바 원전 사업의 손익 악화 우려가 보도됐다(기사 제목 근거, 실제 손익 규모 미확인).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMic0FVX3lxTFBmR29JREYwU3R3REhkVFJCUXRHUkpUM3hhWXVCZ1VpQUJ6SWpwTTluTnNVVmRGcFNzLWJlQzBtd2ZrM1lNNU5mR2NIYl9SMXA4WG53U0JYMmx4SVBqOGZza2QwYVJmTEIyVHFHMzczakpmSE3SAXNBVV95cUxQZkdvSURGMFN0d0RIZFRSQlF0R1JKVDN4YVl1QmdVaUFCeklqcE05bk5zVVZkRnBTcy1iZUMwbXdmazNZTTVOZkdjSGJfUjFwOFhud1NCWDJseElQajhmc2tkMGFSZkxCMlRxRzM3M2pKZkhN?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "원전·SMR"
+     ]
+    },
+    {
+     "date": "2026-10-02",
+     "kind": "기타",
+     "text": "체코 두코바니 원전사업의 보조기기 입찰설명회를 개최했다고 보도됐다(2026-10-02 기사 제목 기준, 확인 중).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiakFVX3lxTE9vSjRrSXJEWXlyTUR0MDVXbWJCU0dMd1hJZ2Vuczd4QkdpbmsyRDdGSkNSRHp6cFFHb1ZCVHJqeVR5YUlraWk1dkVEN0VRYWRhVFVFbUsxZ1pfRFhDVGlPQmJTbnBYUkxIZlE?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "원전·SMR"
+     ]
+    },
+    {
+     "date": "2026-10-02",
+     "kind": "기타",
+     "text": "원전·AI 등 보유 특허기술 401건을 중소기업에 이전했다고 보도됐다(2026-10-02 기사 제목 기준, 확인 중).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMic0FVX3lxTFBDX05YM0U0cjNkM3F4eVN2UFRCYUd5Mmc1azFPMzB5REF6bEw0R0l1MEcxZXlyMWw3MWFKM0twbV9NTTZSRTc2VEJrbVVSR1MtV1VxaU90VGxSeXhJRk5tQ05GOU50aTJ5QU5uc1Q1ZWdYY0XSAXdBVV95cUxNZFFNdlZLSm81c1lQZ0FCUU9SWUp4QUNCT2p4NzBMMkdlb0ZSNzVqR1o3VXFsRUU2N3BzckVEc2ViNFd1NkVWc29YM3J3b3JZdER6T0lVeTZBbVd6eUZyaHl1REwyZGRFakFSZmZ3aC1Edlh4MVdfSQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "원전·SMR"
+     ]
+    },
+    {
+     "date": "2026-10-01",
+     "kind": "협력",
+     "text": "태국 GPSC와 SMR 개발에 착수하고 공동 투자·전담 조직 설립을 논의한다고 보도됐다(2026-10-01 기사 제목 기준, 확인 중).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5PUHRwREpwa3BUcmlHLXozbDhHakxnRW1Yem5EN2ZHRVZWbmNtVkEtSlROMVUzZGJtZGprVFRqWWJzZmRKdm5RTENEc1c1dFEyaUNDc1NwT3ZGamVVcDAta3dvZw?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "원전·SMR"
+     ]
+    }
    ]
   },
   {
@@ -2828,11 +4024,12 @@
      "theme": "방산",
      "tier": 2,
      "stage": "",
-     "score": 0.67,
+     "score": 1.25,
      "via": "LIG디펜스앤에어로스페이스",
      "via_type": "공급사"
     }
-   ]
+   ],
+   "issues": []
   },
   {
    "id": "한미글로벌",
@@ -2919,6 +4116,21 @@
       "line_style": "dashed"
      }
     }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-02",
+     "kind": "투자",
+     "text": "미국 SMR 법인에 200만 달러 출자 보도(기사 제목 근거, 대상 법인명 미확인).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jTTRGYXVJU0dMWmZkVzA0TFZjaFZTeGtQblhybjk5UG5mbUtrMk9YaW5PUzV1bEZSeFhaem9obTNyZ1hVTjZXci0zcjhuWVhzamJaRGp0OEhkNXRkaXd6Y3pTMUkxMkdkUE01MjVn?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "원전·SMR"
+     ]
+    }
    ]
   },
   {
@@ -2981,7 +4193,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "후공정 장비",
-     "score": 4.91,
+     "score": 10.14,
      "classifications": [
       {
        "topic": "반도체",
@@ -3031,6 +4243,60 @@
       "muted": false,
       "line_style": "solid"
      }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-14",
+     "kind": "기타",
+     "text": "한미반도체가 한국·미국 반도체 전시회에서 HBM4·2.5D 패키징 장비를 공개했다는 보도. 기사 제목 기준이며 수주·납품 확정을 뜻하지 않는다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2Rm5wV3pqZGVKQW1yQjB4RkI4eEhQMDBVaHV2c3pxYk9Vd0VlR3JRbFhFbmN6TVVkT0tSbGlraWlKbFViTURZUkRZcTk4YUgwZy03UE10WlpvQktNRm1QSzc0bzJiRnFTdTFCaXU4TVZNTW0y?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "HBM·반도체"
+     ]
+    },
+    {
+     "date": "2026-10-06",
+     "kind": "계약",
+     "text": "한미반도체는 삼성전기에 AI 반도체 기판 제조용 대면적 MSVP 장비 244억8,000만 원을 공급하는 계약을 공시했다. 발주서 수령일은 10월 2일, 계약기간은 2026년 10월 2일부터 2027년 12월 17일까지다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006800023"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "HBM·반도체"
+     ]
+    },
+    {
+     "date": "2026-09-30",
+     "kind": "기타",
+     "text": "후공정 장비 MSVP가 세계 1위라는 회사 발표 보도(기사 제목 기준).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMidEFVX3lxTE16M184YlE2aHRJUEZGbWlicGpPNHlUdmctbHQ2dHRrRTJvc0RBbXlYRUtnQUdURV9YMWQ0UkJ6dEkwTEJ4VHJONDZna2phLUR0OE9QTmlOY0VjLXdRbldZTE01Z083RW1JZVJ4ZEpXT1h5R0VW0gF0QVVfeXFMTXozXzhiUTZodElQRkZtaWJwak80eVR2Zy1sdDZ0dGtFMm9zREFteVhFS2dBR1RFX1gxZDRSQnp0STBMQnhUck40NmdramEtRHQ4T1BOaU5jRWMtd1FuV1lMTTVnTzdFbUllUnhkSldPWHlHRVY?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "HBM·반도체"
+     ]
+    },
+    {
+     "date": "2026-09-29",
+     "kind": "수주",
+     "text": "UTAC Thai Limited에서 반도체 제조용 MSVP 장비 약 78억7천만 원 수주 (태국)",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929800083"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": [
+      "HBM·반도체"
+     ]
     }
    ]
   },
@@ -3120,6 +4386,33 @@
       "line_style": "solid"
      }
     }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-12",
+     "kind": "기타",
+     "text": "설계자산의 AI 전환 추진과 협력사 대상 활용 사례 공유가 보도됐다(기사 제목 근거).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtUzVFdHVNeGhpVmJiLS1YaEpScWtPN3hBQnhkNmFPMmtaQ0FZejNqR05DenBiYVdyOE1GOE5iYlV3UDlkUWRfc2s3RENTakJ1dVJrZl9pVTdtaVZEWEUyU0szajdMNmvSAWtBVV95cUxQR1NVVVBiMFpzbG9LYmR5OWV0NXRUMkt4TzFZSjNqWEI0aWZvRkxrN3RfZ25HSzdxXzFoUnNHSDU1dXZkU2ZFeGc5LWdOcGJkNDk5eWRNazRVczBmM3laMUFjZGxwWVRVNkYyQQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": []
+    },
+    {
+     "date": "2026-09-30",
+     "kind": "협력",
+     "text": "한국전력기술은 한국선급과 2026-09-21 해양 원자력 분야 업무협약을 체결했다고 9월 30일 발표했다. 협약에는 해양 SMR 'BANDI' 설계 검토와 선급 인증 관련 협력이 포함된다. 날짜는 공식 발표일 기준이다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMibEFVX3lxTE5BbEttYzlKRnFpeXFxNUJFQXVEMzR1djZKWEd1QTcyTk9qZllWLTJkeGFUYXFKbmJOWjRBX2xvT2p4d3p4UkhRWGFtNEd2MXFCTWZ3b05LalNWSDZhYUZoRkw3UmJFblFncGhPR9IBcEFVX3lxTFAyTk5BTXlFVTN1V3VHaU9KbXY0a3FDR1hTVUV6ajZna1N2NEFoYm5QRkhWUThNWkdhb0tSaGZtcmhEVWdwaC1JMlQ4X1g4aV9xUElVSnpOQzdscThkWmtXeHdVVXdodUYzRGJNdVZFUXU?oc=5",
+      "https://kepco-enc.com/board.es?act=view&bid=0038&list_no=45132&mid=a10603000000"
+     ],
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "themes": [
+      "원전·SMR"
+     ]
+    }
    ]
   },
   {
@@ -3171,7 +4464,7 @@
      "theme": "방산",
      "tier": 1,
      "stage": "지상 무기체계",
-     "score": 1.8,
+     "score": 3.68,
      "classifications": [
       {
        "topic": "방산",
@@ -3215,6 +4508,47 @@
      "score": 0.54,
      "via": "한화오션",
      "via_type": "출자"
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-06",
+     "kind": "협력",
+     "text": "창원대와 방산 AI 인재 양성을 위한 AX대학원 가동이 보도됐다(기사 제목 근거).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ncVFrTGJ1WENNTmdJMmJXMS0wQnpSazBtbkJBMmF5QWxkYm54QVRKNVVoNXJPNzg4NzRsRjFvMGZOUzBkWUxmbjRiRGVVZzI5Nzk4Z0YwRy1fSXRwM2lzQ0ZxczQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "방산"
+     ]
+    },
+    {
+     "date": "2026-10-01",
+     "kind": "기타",
+     "text": "미국·스페인을 거점으로 K9·천무 해외 공략을 확대한다는 보도(기사 제목 기준).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ZVDIwaVZjYVZCQ3pZX3pqVFZaSkltQUVnMHFLcy1tdlc1WTZDSThMNzFuajJnUmozNEkyQ0tFTDkzTFBwVUVGdzZHcWxFQU5nVE81dGhKTkVubFlFVVpBU2ZQcllBZWJZZFJuNTcwMNIBc0FVX3lxTFBCVUd2NVRpOGVwenNXRXVIV2w0Vl9SQVBqYnhzclU5MEFyemtDQ0xEVTZabEtyMTZJREdUVy1yY1R5QmVXaE9Od0hhU2dRTW50dkEyc0pXQ1JyMU8zOTFKX3lMVEZMa1hqdTN5SGdORWlDbDQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "방산"
+     ]
+    },
+    {
+     "date": "2026-09-30",
+     "kind": "기타",
+     "text": "2026 협력사 경영자 총회 개최 및 협력사 해외 동반 진출 지원 보도(기사 제목 기준).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMibkFVX3lxTFBjNFMyRm4wLWNUSU4yZ1hQanJDV0x6dm1ESjZDRFN3VWtia0dXM192MFFHbEMtVllYeTNSdlBWckdDRGNEdDdvajRidEtoaExKdVBaelFBcEM0bDh3MFJhb0JQUnl6QUE2azI4VndR?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "방산"
+     ]
     }
    ]
   },
@@ -3330,6 +4664,55 @@
       "line_style": "dashed"
      }
     }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-12",
+     "kind": "기타",
+     "text": "맥코믹 미국 상원의원의 거제사업장 방문이 보도됐다(기사 제목 근거).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvbHV1cy1ZSkNTeTRBYXhZLTVxLVd4V01VZW9HMHhsQmtpQWFwdmxqTm5meThaMmxqTU5kUmhnSlFWY0JrbGhEYmp1bjJpb3NpRGVSSVJSZlVaQWdseWVXc1dCR0lVei1oWENfUmRB?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": []
+    },
+    {
+     "date": "2026-10-08",
+     "kind": "투자",
+     "text": "종속회사 Hanwha Ocean USA Holdings Corp.가 Hanwha Ocean USA International LLC의 운영·투자 재원을 위한 1억1,039만615달러 출자를 10월 8일 완료했다고 공시했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800626"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-10-07",
+     "kind": "투자",
+     "text": "한화오션은 Hanwha Ocean USA Holdings Corp.에 대한 1억1,070만 달러 출자를 10월 7일 완료했다고 정정 공시했다. 취득 후 보유 주식은 9,723주, 지분율은 100%다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007800463"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-10-01",
+     "kind": "협력",
+     "text": "HD한국조선해양·삼성중공업과 해상 SMR 개발을 협의한다는 보도(기사 제목 기준).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWTlidElDR1ZaXzRialRhbE9TQjNmeVRVRERUQUxzLTBlLWxPS3NKVVJZamFPX0FyZG1iLUlnM2VxVG9Eb1E5UnBERG1qMFdCbjl6Yk1pdEdlUzVnUmkzRDFRNWE2TmRhT3Qw?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "방산",
+      "원전·SMR"
+     ]
+    }
    ]
   },
   {
@@ -3394,7 +4777,7 @@
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "사용후핵연료 처분",
-     "score": 0.91,
+     "score": 3.78,
      "classifications": [
       {
        "topic": "원전·SMR",
@@ -3444,6 +4827,46 @@
       "muted": false,
       "line_style": "dashed"
      }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-14",
+     "kind": "기타",
+     "text": "홍콩 병원관리국과 맺은 유나이티드 크리스천 병원공사의 종료일을 2026년 10월 14일에서 미정으로 정정했다. 발주처와 기간을 협의 중이며, 공시 계약금액 3,938억1,588만 원은 현대건설의 지분 30%에 해당한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800177"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-10-08",
+     "kind": "계약",
+     "text": "웨스팅하우스와 네덜란드 AP1000 원전 2기의 1단계 기본설계(FEED 1) 계약을 10월 7일 체결했다고 발표했다. 기본설계·사업 검토 범위이며 본공사 수주나 완공은 아니다.",
+     "sources": [
+      "https://www.hdec.kr/kr/newsroom/news_view.aspx?NewsListType=news_clist&NewsSeq=1575&NewsType=LATEST"
+     ],
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "themes": [
+      "원전·SMR"
+     ]
+    },
+    {
+     "date": "2026-10-02",
+     "kind": "기타",
+     "text": "사용후핵연료 처분기술 확보와 처분시설용 암반 굴착장비 개발·실증 완료가 보도됐다(2026-10-02 기사 제목 기준, 확인 중).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TRjRzV0VLRVNiQklhNUFQbUdOSHd3ZGxISGw1clZBMkNrWXdVRlpqeFZnRXZwc1JtWG5FTnlVWWV2WWViNEROcTBXRks3T19MR2tZd05Ya1BpTlZrVzNoNVpjcGw?oc=5",
+      "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ES2l1aV9nU0h1Y193UWJISGxrOTlfTXNrVjBDTHY1NjBUNjNHQ3hESlNhZzdqM1hyWjRsUWhJUWdsdWtnTkVIU1pOTy1OS1VGMTc2anNOZnI?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "원전·SMR"
+     ]
     }
    ]
   },
@@ -3495,7 +4918,7 @@
      "theme": "방산",
      "tier": 1,
      "stage": "추진기관",
-     "score": 0.9,
+     "score": 1.86,
      "classifications": [
       {
        "topic": "방산",
@@ -3532,6 +4955,56 @@
       "line_style": "dashed"
      }
     }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-14",
+     "kind": "계약",
+     "text": "필리핀 ULC와 맺은 MRT7 전동차·신호·통신 시스템 공급계약을 공기 연장비용 수령에 따라 약 8,239억7,690만 원 규모로 정정했다. 2016년 계약의 변경이며 종료일은 협의 중이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800442"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-10-12",
+     "kind": "협력",
+     "text": "이집트 수소트램 사업 양해각서 체결이 보도됐다(기사 제목 근거, 본계약·납품 완료는 미확인).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMibkFVX3lxTE5VQ0YxSUdnSzhlT09rbXgwSnlGOHUzMUNDeFpGa25KcjlZM05TOVIwSGVVeUVGTnpncFZ1RV9UQTE4amhsaFpYcVJBTUg2Q1h6TWlhRmY5MERiVDdUTlZLU0tQbk03MmRjLTItMU9R?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": []
+    },
+    {
+     "date": "2026-10-09",
+     "kind": "기타",
+     "text": "페루 장갑차 사업의 대규모 수주 추진이 보도됐다(기사 제목 근거, 계약·납품 완료 미확인).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1teURNWFJSSmI0ZUNHNkZfMWozV3lWWUJURjhGakdVRFFjWmhOZ0VQT3R4TktPanB0anFhd1c0LUlOYzZvbkV3b3gwNlYtWGFsNW5zS1luUkZtdw?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "방산"
+     ]
+    },
+    {
+     "date": "2026-09-30",
+     "kind": "기타",
+     "text": "1조9천억 원 규모의 '한국판 미티어' 사업에서 한화와 현대로템·LIG가 수주 경쟁을 벌인다고 보도됐다(2026-09-30 기사 제목 기준, 확인 중).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBsN0IzVGROTjh0ZXZ6Y3JKNTNUejlWT293TnFEYkZsbmg1Zi1fWkljYXNSN04tVzBmOEk3THBrQVFaY1c5bThhRG96OV9vV1N2dDI4?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true,
+     "themes": [
+      "방산"
+     ]
+    }
    ]
   },
   {
@@ -3560,6 +5033,12 @@
   },
   {
    "id": "Ghost Robotics Corporation",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "Hanwha Ocean USA Holdings Corp.",
    "type": "external",
    "path": null,
    "summary": "위키 페이지가 아직 없는 상대"
@@ -3680,6 +5159,12 @@
   },
   {
    "id": "엠아이씨텍글로벌",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "웨스팅하우스",
    "type": "external",
    "path": null,
    "summary": "위키 페이지가 아직 없는 상대"
@@ -4984,7 +6469,7 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006800023"
      ],
      "status": "확인",
-     "evidence_level": "공시 항목",
+     "evidence_level": "공시 원문",
      "weak": false
     },
     {
@@ -4994,7 +6479,7 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006800023"
      ],
      "status": "확인",
-     "evidence_level": "공시 항목",
+     "evidence_level": "공시 원문",
      "weak": false
     }
    ],
@@ -5505,27 +6990,26 @@
    }
   },
   {
-   "source": "핑거",
-   "target": "에프지투자3호",
+   "source": "에프지투자3호",
+   "target": "제일엠앤에스",
    "type": "출자",
    "evidence": [
     {
-     "date": "2026-10-06",
-     "text": "에프지투자3호는 2026-10-01 공시의 증자 전 기준 핑거 지분 100% 종속회사다. 조합의 신주 취득 후 예정 지분은 99.60%이며, 납입 완료와 현재 핑거 직접 지분율은 확인 전이다.",
+     "date": "2026-10-14",
+     "text": "회생계획 인가에 따른 제3자배정 유상증자에서 신주 3,100만 주·155억 원을 납입해 지분 79.91%의 최대주주가 됐다. 에프지투자3호의 최대주주는 푸른 재무안정 신기술투자조합 제1호(99.60%)이며, 조합의 최대출자자는 핑거다.",
      "sources": [
-      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001900550",
-      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006900724",
-      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001900546"
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900687",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900183"
      ],
-     "status": "후보(확인 중)",
+     "status": "확인",
      "evidence_level": "공시 원문",
      "weak": false
     }
    ],
    "presentation": {
-    "label": "확인 중",
+    "label": "",
     "muted": false,
-    "line_style": "dashed"
+    "line_style": "solid"
    }
   },
   {
@@ -5534,20 +7018,21 @@
    "type": "출자",
    "evidence": [
     {
-     "date": "2026-10-01",
-     "text": "푸른재무안정 신기술투자조합 제1호에 14,000좌·140억 원 출자 결정(취득 후 예정 99.22%, 2026-10-01). 납입 완료는 확인 전이다.",
+     "date": "2026-10-14",
+     "text": "10월 14일 제일엠앤에스 공시에서 핑거가 조합의 최대출자자임이 확인됐다. 10월 1일 결정한 14,000좌·140억 원 출자와 취득 후 예정 99.22%의 실제 납입·지분율까지 이 후속 공시로 확인되지는 않는다.",
      "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900687",
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001900536"
      ],
-     "status": "계획(확인 중)",
+     "status": "확인",
      "evidence_level": "공시 원문",
      "weak": false
     }
    ],
    "presentation": {
-    "label": "확인 중",
+    "label": "",
     "muted": false,
-    "line_style": "dashed"
+    "line_style": "solid"
    }
   },
   {
@@ -5572,6 +7057,28 @@
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001112",
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000644"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "한화오션",
+   "target": "Hanwha Ocean USA Holdings Corp.",
+   "type": "출자",
+   "evidence": [
+    {
+     "date": "2026-10-07",
+     "text": "1억1,070만 달러 출자를 2026-10-07 완료했다. 취득 후 보유 주식 9,723주, 지분율 100%.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007800463"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
@@ -5687,8 +7194,18 @@
    "type": "테마",
    "tier": 1,
    "stage": "",
-   "score": 0.91,
+   "score": 2.81,
    "evidence": [
+    {
+     "date": "2026-10-07",
+     "kind": "협력",
+     "text": "HD현대중공업 등 12개 기관의 해양 SMR 기술 실증센터 출범이 보도됐다(기사 제목 근거).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fQW1PUGtvMm1ybDRTU0xTN0YtSE1EX2paZndQTDJ6S3RyRFZVcmY3RUFCeWcxOEp2QzN5ME55RjI4ZWV1alMyQW8zNllhU3FXbEHSAVNBVV95cUxQQ2xQN0JDRm95ZHRNU3lyMEVsd2pNeWw4SXcyTTNaMC0tcDg1UUJ4VDNVRmVIV1QzcWFsX2tXMnZpR3RiSW9obnEwcjlLYXBBNGhjOA?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true
+    },
     {
      "date": "2026-10-02",
      "kind": "기타",
@@ -5779,8 +7296,28 @@
    "type": "테마",
    "tier": 1,
    "stage": "배터리",
-   "score": 4.98,
+   "score": 7.45,
    "evidence": [
+    {
+     "date": "2026-10-14",
+     "kind": "기타",
+     "text": "엘앤에프는 LG에너지솔루션과의 LFP 공급계약 보도에 대해 고객사와 협의 중이며 계약 체결과 관련해 구체적으로 확정된 사항은 없다고 공시했다. 재공시 예정일은 11월 13일이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800059"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-10-11",
+     "kind": "기타",
+     "text": "LG에너지솔루션이 캐나다 리튬 정광 24만 톤을 확보했다는 보도. 기사 제목만 확인했으며 공급 상대·기간·구속력은 공식 확인이 필요하다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMia0FVX3lxTE1UdG1YeUpubjNEd0drMVZ6Mm9nVFhpcVdKd2JYWEJDYS1FbDVJVzV5RWJtUFpWZHNQWGo1NkpfajR3ajFkc2hIWWlQbURHTnN1bUFWdFFkdnFLYXRzUHVCRlQySU82Q1VJbGpR0gFvQVVfeXFMUFBXbVJYQ2NIcjF2dVdCeHlwR0x4QklkR2FoUTRzblZwYUFjeFhYdmxPeDAwSExEQVdnWVFHWXBoQWNsNWJjamdFMndsTXppbzVYUzBCTUtvc2Q5OFA4UjhqdFE1bFBxTHBZMERyVk9V?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true
+    },
     {
      "date": "2026-10-02",
      "kind": "협력",
@@ -5868,8 +7405,28 @@
    "type": "테마",
    "tier": 1,
    "stage": "유도무기",
-   "score": 2.25,
+   "score": 4.17,
    "evidence": [
+    {
+     "date": "2026-10-13",
+     "kind": "기타",
+     "text": "방위사업청의 LIG D&A 제재 수위 검토가 보도됐다(기사 제목 근거, 제재 확정 여부 미확인).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5jWm1CdHRoazBTUU5qaHRCZzlaOEZSWHR4NHFrLTVxRHhOQ0x6RGQwY3hiYTc0YlU3d3NLRHF3OVByVXEyM2J5YzhsY1hFbmFDekkwTVVsallMckhMVkJXQVh1eDI?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true
+    },
+    {
+     "date": "2026-10-04",
+     "kind": "기타",
+     "text": "페루 방산 기술 거점을 통한 중남미 안티드론 시장 공략이 보도됐다(기사 제목 근거).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5blNpa3ZqZFZOY0xyaTJZTVRkQUQ0Sk5GQ3BZeEtUWUd3VV9IQ3JhS2hPVGdNTEFmc2ZiMUtVOGl3SUpBam85SHg2Y1U3TnB2b0lvbVh0VFlldw?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true
+    },
     {
      "date": "2026-10-01",
      "kind": "기타",
@@ -5933,8 +7490,38 @@
    "type": "테마",
    "tier": 1,
    "stage": "메모리 제조",
-   "score": 0.9,
+   "score": 4.89,
    "evidence": [
+    {
+     "date": "2026-10-14",
+     "kind": "기타",
+     "text": "안현 SK하이닉스 사장이 HBF 최종 규격의 2027년 1월 확정 계획을 밝혔다는 보도. 기사 제목 기준이며 규격 확정이나 양산 완료를 뜻하지 않는다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aSGFUSWNIQ29UdnEzZ185Tks0bUQ1U3RuLVhicUVDVHlEZ3ZVOS05LWRJbGVoZWhjSzNwYUpCSHdxd2pZUkt5dURuWEVhazh6S1NxTXpMSUFrUUNUbU5fcktzZmZGQQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true
+    },
+    {
+     "date": "2026-10-14",
+     "kind": "기타",
+     "text": "SK하이닉스가 HBM4 후공정 장비 일부 물량을 2027년으로 미뤘다는 보도. 기사 제목만 확인했으며 대상 장비·공급사·규모는 공식 확인이 필요하다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5TOGJGeHpCR1lnUExrRXVvOF9oNXNIdWtHdzQ0M3Q5X2ROSE5VWGk1eTNtT29qYmJMUXllYTZoNGxiZXFLZGpYM0J2VWRrUWs?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true
+    },
+    {
+     "date": "2026-10-13",
+     "kind": "협력",
+     "text": "삼성전자·SK하이닉스가 어플라이드 머티어리얼즈와 차세대 반도체 공동개발에 나섰다는 보도. 기사 제목만 확인했으며 참여 범위·협약 조건은 공식 확인이 필요하다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTcTNIOFZuS2Z6TmhUUzlrcWF4Z0tGQjE4RHdWWnRoa19ndnJaZFRpYXhsNHdaeWtGTld6d2JYaV9qMVF1OWJXbUdYbi1HRF9MSjFTbEM5TkxLRWxqcV9PRzcwWmQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true
+    },
     {
      "date": "2026-10-01",
      "kind": "기타",
@@ -6235,7 +7822,7 @@
    "type": "테마",
    "tier": 2,
    "stage": "",
-   "score": 1.22,
+   "score": 1.47,
    "evidence": [],
    "classifications": [],
    "presentation": {
@@ -6250,8 +7837,29 @@
    "type": "테마",
    "tier": 1,
    "stage": "메모리 제조",
-   "score": 1.81,
+   "score": 3.68,
    "evidence": [
+    {
+     "date": "2026-10-06",
+     "kind": "기타",
+     "text": "넷리스트는 마이크론과 10월 5일 소송 합의 및 5년 특허 라이선스 계약을 체결했다고 발표했다. 계약에 적힌 양사 간 계류 소송을 상호 해결·면책하고, 마이크론은 2026년 4분기부터 2031년 3분기까지 분기별 3천만 달러씩 총 6억 달러를 지급하는 조건이다.",
+     "sources": [
+      "https://investors.netlist.com/news/netlist-and-micron-enter-patent-license-and-settlement-agreements/c8615305-0590-43e4-bcb2-fe05e120f947",
+      "https://www.sec.gov/Archives/edgar/data/1282631/000110465926113897/tm2626949d1_8k.htm"
+     ],
+     "evidence_level": "공식 발표",
+     "weak": false
+    },
+    {
+     "date": "2026-10-05",
+     "kind": "기타",
+     "text": "마이크론이 2028년까지 메모리 공급 제약을 전망했다는 보도. 기사 제목 기준의 전망이며 특정 고객과의 공급계약이나 실현된 생산량을 뜻하지 않는다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiVEFVX3lxTE41bEEwbkExNHFKRmY4WVptWVVDVDVzTkpnbUFPMXhMOUxqa2Z0OFBRdmFQVkpNMXdQR1gyWVh5UXlFbnlMSWkzUkp0TEZiU0FadFlxWQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true
+    },
     {
      "date": "2026-10-01",
      "kind": "실적",
@@ -6265,9 +7873,10 @@
     {
      "date": "2026-10-01",
      "kind": "기타",
-     "text": "넷리스트가 마이크론의 HBM 특허 침해를 주장하며 미국 ITC에 제소했다는 보도(기사 제목 기준).",
+     "text": "넷리스트가 마이크론의 HBM 특허 침해를 주장하며 미국 ITC에 제소했다는 보도(기사 제목 기준). · · 후속: 10월 6일 양사 소송 합의·특허 라이선스 계약 발표",
      "sources": [
-      "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fTlBGNHZadlQ0YllMckhjaG1obUJ3dzdSQ3JZWFgteDY1MGNoaVF3bWNIdW1YRnhTRU96TVptUWp1OUpPYWwyRGJ5UjdNVlBlSmcyXzhDOTIxcWhtdEE?oc=5"
+      "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fTlBGNHZadlQ0YllMckhjaG1obUJ3dzdSQ3JZWFgteDY1MGNoaVF3bWNIdW1YRnhTRU96TVptUWp1OUpPYWwyRGJ5UjdNVlBlSmcyXzhDOTIxcWhtdEE?oc=5",
+      "https://investors.netlist.com/news/netlist-and-micron-enter-patent-license-and-settlement-agreements/c8615305-0590-43e4-bcb2-fe05e120f947"
      ],
      "evidence_level": "기사 제목",
      "weak": true
@@ -6357,8 +7966,28 @@
    "type": "테마",
    "tier": 1,
    "stage": "",
-   "score": 0.9,
+   "score": 5.61,
    "evidence": [
+    {
+     "date": "2026-10-07",
+     "kind": "협력",
+     "text": "에코프로비엠·삼성SDI의 전고체 배터리 소재 개발 MOU가 공식 발표됐다(10월 6일 발표 내용, 홈페이지 게시일 10월 7일). 2027년 상용화를 목표로 공동개발을 추진하며 양산 완료를 뜻하지 않는다.",
+     "sources": [
+      "https://www.ecopro.co.kr/sub0401/view/sub010401/page/sub020104/page/sub020201/page/10/31/id/2198"
+     ],
+     "evidence_level": "공식 발표",
+     "weak": false
+    },
+    {
+     "date": "2026-10-06",
+     "kind": "계약",
+     "text": "포스코퓨처엠과 삼성SDI가 LFP 양극재 약 6조 원 규모의 장기 공급계약을 발표했다. 기존 2023년 공급계약의 품목 확대·개정을 포함하며, 공시의 전체 소재 계약금액과 별개 신규 계약으로 합산하지 않는다.",
+     "sources": [
+      "https://newsroom.posco.com/kr/포스코퓨처엠-삼성sdi와-lfp-6조원-규모-공급계약-체결-non/"
+     ],
+     "evidence_level": "공식 발표",
+     "weak": false
+    },
     {
      "date": "2026-09-30",
      "kind": "기타",
@@ -6412,8 +8041,18 @@
    "type": "테마",
    "tier": 1,
    "stage": "패키지기판",
-   "score": 7.96,
+   "score": 12.19,
    "evidence": [
+    {
+     "date": "2026-10-06",
+     "kind": "계약",
+     "text": "한미반도체는 삼성전기에 AI 반도체 기판 제조용 대면적 MSVP 장비 244억8,000만 원을 공급하는 계약을 공시했다. 발주서 수령일은 10월 2일, 계약기간은 2026년 10월 2일부터 2027년 12월 17일까지다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006800023"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
     {
      "date": "2026-09-28",
      "kind": "투자",
@@ -6477,8 +8116,28 @@
    "type": "테마",
    "tier": 1,
    "stage": "메모리 제조",
-   "score": 0.9,
+   "score": 3.88,
    "evidence": [
+    {
+     "date": "2026-10-13",
+     "kind": "기타",
+     "text": "삼성전자가 OCP에서 AI 메모리·스토리지 전략을 제시하고 AMD와 기술을 시연했다는 보도. 기사 제목만 확인했으며 기술·행사 세부 내용은 추가 확인이 필요하다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMib0FVX3lxTFBIYUJGNHA3aFVFUGJBS3czV3hUZzhpbEozRXpkMjBwNFJSTFRwNkpxQ1dhbktVblVPRm8wbmlTN0YxUzNBYmFiVnpsRlFjX0Myek1GSTZPelNQdVpkZUpzUEV5dkVOUUM3M19yYzdhUdIBc0FVX3lxTE9pU0dwQ1p2UDdFd3ZUbTJsR1VLSXgxazV5NnZXNDQyN0QyS3N3Z0lWU0tiR1d4a1N0STZBS3BCbGE5ZldYdEJhWmc2eTNMRFBmOXdLM1c0VjRTVmVKWDB3aFQ5M3Z5UkFsN211QW9aWWc4Z28?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true
+    },
+    {
+     "date": "2026-10-13",
+     "kind": "협력",
+     "text": "삼성전자·SK하이닉스가 어플라이드 머티어리얼즈와 차세대 반도체 공동개발에 나섰다는 보도. 기사 제목만 확인했으며 참여 범위·협약 조건은 공식 확인이 필요하다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTcTNIOFZuS2Z6TmhUUzlrcWF4Z0tGQjE4RHdWWnRoa19ndnJaZFRpYXhsNHdaeWtGTld6d2JYaV9qMVF1OWJXbUdYbi1HRF9MSjFTbEM5TkxLRWxqcV9PRzcwWmQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true
+    },
     {
      "date": "2026-10-01",
      "kind": "기타",
@@ -6683,8 +8342,18 @@
    "type": "테마",
    "tier": 1,
    "stage": "하이브리드 본딩",
-   "score": 1.82,
+   "score": 3.81,
    "evidence": [
+    {
+     "date": "2026-10-13",
+     "kind": "협력",
+     "text": "삼성전자·SK하이닉스가 어플라이드 머티어리얼즈와 차세대 반도체 공동개발에 나섰다는 보도. 기사 제목만 확인했으며 참여 범위·협약 조건은 공식 확인이 필요하다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTcTNIOFZuS2Z6TmhUUzlrcWF4Z0tGQjE4RHdWWnRoa19ndnJaZFRpYXhsNHdaeWtGTld6d2JYaV9qMVF1OWJXbUdYbi1HRF9MSjFTbEM5TkxLRWxqcV9PRzcwWmQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true
+    },
     {
      "date": "2026-10-02",
      "kind": "협력",
@@ -6725,7 +8394,7 @@
    "type": "테마",
    "tier": 2,
    "stage": "",
-   "score": 1.2,
+   "score": 2.26,
    "evidence": [],
    "classifications": [],
    "presentation": {
@@ -6740,8 +8409,18 @@
    "type": "테마",
    "tier": 1,
    "stage": "양극재",
-   "score": 0.9,
+   "score": 2.79,
    "evidence": [
+    {
+     "date": "2026-10-07",
+     "kind": "협력",
+     "text": "에코프로비엠·삼성SDI의 전고체 배터리 소재 개발 MOU가 공식 발표됐다(10월 6일 발표 내용, 홈페이지 게시일 10월 7일). 2027년 상용화를 목표로 공동개발을 추진하며 양산 완료를 뜻하지 않는다.",
+     "sources": [
+      "https://www.ecopro.co.kr/sub0401/view/sub010401/page/sub020104/page/sub020201/page/10/31/id/2198"
+     ],
+     "evidence_level": "공식 발표",
+     "weak": false
+    },
     {
      "date": "2026-09-30",
      "kind": "기타",
@@ -6781,7 +8460,7 @@
    "type": "테마",
    "tier": 2,
    "stage": "",
-   "score": 0.27,
+   "score": 1.68,
    "evidence": [],
    "classifications": [],
    "presentation": {
@@ -6796,8 +8475,38 @@
    "type": "테마",
    "tier": 1,
    "stage": "양극재",
-   "score": 3.23,
+   "score": 6.72,
    "evidence": [
+    {
+     "date": "2026-10-14",
+     "kind": "기타",
+     "text": "엘앤에프는 LG에너지솔루션과의 LFP 공급계약 보도에 대해 고객사와 협의 중이며 계약 체결과 관련해 구체적으로 확정된 사항은 없다고 공시했다. 재공시 예정일은 11월 13일이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800059"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-10-14",
+     "kind": "기타",
+     "text": "엘앤에프 자회사 JHC가 폐배터리 1만 5천 톤 전처리 능력을 확보했다는 보도. 기사 제목만 확인했으며 처리능력의 기간 기준과 실제 가동량은 추가 확인이 필요하다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBobXl1TnR5cHBlU09jNlJwdDkyMEZiZUJnUnVSbGxmVHV5dGtfOVJvU0o0bkMtbG03UHlPckU2a3lMSDVzR1pYRTdVUXR4bndPLV91SHdmSDB0WEVPd1BEcndUTlQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true
+    },
+    {
+     "date": "2026-10-12",
+     "kind": "기타",
+     "text": "엘앤에프가 양극재 탄소발자국 국제표준 검증을 획득했다는 보도. 기사 제목만 확인했으며 대상 제품·표준·검증기관은 추가 확인이 필요하다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxQY0M2aVdzZnczdjFmcUFPSXltdjJCallHdkN2VUNMS0hEZUpvVVE2SXhvX3VsNGQ0SFJQajloRWdicVNOYjVTdG1yajg4N2tYbXVFelRtUUxua0VNVWhreTFUNkFpVzJZTjFVTEtlSWpxLVk4cFZXU0FWQ2l3UHRkbw?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true
+    },
     {
      "date": "2026-10-07",
      "kind": "기타",
@@ -7091,12 +8800,33 @@
    "type": "테마",
    "tier": 1,
    "stage": "제조 장비",
-   "score": 4.07,
+   "score": 10.05,
    "evidence": [
+    {
+     "date": "2026-10-14",
+     "kind": "인수합병",
+     "text": "회생계획 인가에 따른 제3자배정 유상증자 신주 3,100만 주·155억 원이 납입됐고, 에프지투자3호가 지분 79.91%의 최대주주로 변경됐다. 에프지투자3호의 최대주주는 푸른 재무안정 신기술투자조합 제1호(99.60%)이며 조합의 최대출자자는 핑거다. 회생절차 종결·가처분 결과·거래 재개는 이 공시로 확인되지 않는다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900183",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900687"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-10-12",
+     "kind": "기타",
+     "text": "수원회생법원이 10월 8일 회생계획을 인가했고, 회사는 10월 12일 결정문을 받아 공시했다. 인가된 계획에는 출자전환·주식병합 및 에프지투자3호 대상 신주 3,100만 주 발행이 포함됐다. 인가는 회생절차 종결과 다르며 실제 납입은 위 10월 14일 후속 이슈에서 확인한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012900751"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
     {
      "date": "2026-10-01",
      "kind": "인수합병",
-     "text": "2026-10-01 인수 보도 이후, 10월 6일 핑거 종속회사 에프지투자3호가 제일엠앤에스 신주 3,100만 주를 155억 원에 취득하기로 결정했다(취득 후 지분 79.91%). 10월 21일은 추정 예정일이며 법원 회생계획 인가와 납입이 필요한 단계로, 종결은 확인되지 않았다.",
+     "text": "당시 인수 보도 이후, 10월 6일 핑거 종속회사 에프지투자3호가 제일엠앤에스 신주 3,100만 주를 155억 원에 취득하기로 결정했다(취득 후 예정 지분 79.91%). 10월 21일은 법원 회생계획 인가·납입을 전제로 한 당시 추정 예정일이었다. 이후 인가와 실제 납입·최대주주 변경은 위 10월 12일·14일 후속 이슈를 참고한다.",
      "sources": [
       "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XVlgzRFZCU0RaR2FYZ0pjWUlPazBtOExvdkIydElNSlVFaGpHN0VRcC1HckZ4NEVHOVFMTnh4UU9neDhyWjNqbEd1d2hKdkJfbUlucFNB?oc=5",
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006900724"
@@ -7112,7 +8842,7 @@
      "classification": "공시·거래소 확인",
      "status": "확인",
      "date": "2026-10-09",
-     "text": "KIND 주요제품: 2차전지 믹싱시스템",
+     "text": "KIND 주요제품: 2차전지 믹싱시스템. 제품 분류의 확인이며 현재 생산·회생절차 종결을 뜻하지 않음",
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
@@ -7280,8 +9010,38 @@
    "type": "테마",
    "tier": 1,
    "stage": "양극재",
-   "score": 2.71,
+   "score": 7.52,
    "evidence": [
+    {
+     "date": "2026-10-14",
+     "kind": "기타",
+     "text": "포스코퓨처엠이 양극재 생산의 AI 도입을 통해 2028년 생산성을 30% 높이는 목표를 제시했다는 보도. 기사 제목 기준이며 달성 실적을 뜻하지 않는다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcFZmNjN2cHpqTndzc3NzSm9EN21xcGVoMTNpTldzVTJhaGJxZVg3eGJnNHdlYmdqQ0RHY1F0ckFneDZ5WFBOSktGeTBCYUJIUVpvMTdNSjE0VnBfRHBaTkRiNnFDYUpNV3d4cF9vQlpSVU5KYVN2YmdhVWtOMDFNanZBbUl2QQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true
+    },
+    {
+     "date": "2026-10-13",
+     "kind": "기타",
+     "text": "포스코퓨처엠·GM 합작 얼티엄캠의 캐나다 하이니켈 공장이 양산을 앞두고 있다는 보도. 기사 제목 기준의 전망이며 양산 개시 확정으로 표현하지 않는다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiXkFVX3lxTE44TnVDV1k2Q0xHWGRhZ25KN0s5ZmF1YmdqeDlIV1F0ZUxndV9mNzFmQUtMMGJwVUJWZjBWcDBLYXNSZlhBUlI1UnFsRTlBeWxBUTNSNlAzbTR0V2ZDenc?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true
+    },
+    {
+     "date": "2026-10-06",
+     "kind": "계약",
+     "text": "포스코퓨처엠과 삼성SDI가 LFP 양극재 약 6조 원 규모의 장기 공급계약을 발표했다. 기존 2023년 공급계약의 품목 확대·개정을 포함하며, 공시의 전체 소재 계약금액과 별개 신규 계약으로 합산하지 않는다.",
+     "sources": [
+      "https://newsroom.posco.com/kr/포스코퓨처엠-삼성sdi와-lfp-6조원-규모-공급계약-체결-non/"
+     ],
+     "evidence_level": "공식 발표",
+     "weak": false
+    },
     {
      "date": "2026-10-02",
      "kind": "기타",
@@ -7345,8 +9105,18 @@
    "type": "테마",
    "tier": 1,
    "stage": "제조 장비",
-   "score": 4.01,
+   "score": 4.96,
    "evidence": [
+    {
+     "date": "2026-10-07",
+     "kind": "기타",
+     "text": "피엔티가 미국·인도에서 배터리 생산 통합 솔루션을 공개했다는 보도. 기사 제목 기준이며 계약·공장 가동 확정을 뜻하지 않는다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBvYWh1ZVhoUy1SZzg4eWsxRnJXNkhyMEkyZ2tBaGpNb0dOUkZKY3RVUUlCOHF4a1l5dmRpU3pFNXB1YjRUT0hFd01wcFpZTkFWdWpUN09tSDRwcEF1QzlvaWtpb0tlZw?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true
+    },
     {
      "date": "2026-09-29",
      "kind": "수주",
@@ -7386,12 +9156,23 @@
    "type": "테마",
    "tier": 1,
    "stage": "",
-   "score": 4.07,
+   "score": 8.57,
    "evidence": [
+    {
+     "date": "2026-10-14",
+     "kind": "인수합병",
+     "text": "제일엠앤에스 공시에서 에프지투자3호의 신주 3,100만 주·155억 원 납입과 지분 79.91%의 최대주주 변경이 확인됐다. 에프지투자3호의 최대주주는 푸른 재무안정 신기술투자조합 제1호(99.60%)이고, 핑거는 이 조합의 최대출자자다. 핑거의 에프지투자3호 현재 직접 지분율이나 조합 출자 140억 원의 납입 완료는 이 공시로 확인되지 않는다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900687",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900183"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
     {
      "date": "2026-10-01",
      "kind": "인수합병",
-     "text": "2026-10-01 조합 출자 140억 원과 조합의 에프지투자3호 신주 취득 138억 원이 결정됐다. 후속 10월6일 에프지투자3호가 제일엠앤에스 신주 취득을 결정했으며, 10월21일은 추정 일정이고 법원 인가·납입을 전제로 한다.",
+     "text": "당시 조합 출자 140억 원과 조합의 에프지투자3호 신주 취득 138억 원이 결정됐다. 후속 10월 6일 에프지투자3호가 제일엠앤에스 신주 취득을 결정했고, 10월 21일은 법원 인가·납입을 전제로 한 당시 추정 일정이었다. 에프지투자3호의 제일엠앤에스 신주 납입·최대주주 변경은 위 10월 14일 후속 이슈를 참고한다.",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001900536",
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001900550",
@@ -7408,18 +9189,19 @@
      "page": "2차전지",
      "classification": "후보",
      "status": "후보(확인 중)",
-     "date": "2026-10-06",
-     "text": "종속회사 에프지투자3호의 제일엠앤에스 신주 취득 결정. 납입 완료는 이 공시로 확인되지 않음",
+     "date": "2026-10-14",
+     "text": "핑거가 최대출자자인 조합·에프지투자3호를 통한 제일엠앤에스 투자 경로와 에프지투자3호의 신주 납입·최대주주 변경을 확인. 핑거 자체의 2차전지 제조사업 수행은 미확인",
      "evidence_level": "공시 원문",
      "weak": false,
      "sources": [
-      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006900724"
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900687",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900183"
      ],
      "malformed": ""
     }
    ],
    "presentation": {
-    "label": "확인 중",
+    "label": "후보(확인 중)",
     "muted": false,
     "line_style": "dashed"
    }
@@ -7430,8 +9212,18 @@
    "type": "테마",
    "tier": 1,
    "stage": "해외 원전사업",
-   "score": 3.63,
+   "score": 4.59,
    "evidence": [
+    {
+     "date": "2026-10-08",
+     "kind": "기타",
+     "text": "엘다바 원전 사업의 손익 악화 우려가 보도됐다(기사 제목 근거, 실제 손익 규모 미확인).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMic0FVX3lxTFBmR29JREYwU3R3REhkVFJCUXRHUkpUM3hhWXVCZ1VpQUJ6SWpwTTluTnNVVmRGcFNzLWJlQzBtd2ZrM1lNNU5mR2NIYl9SMXA4WG53U0JYMmx4SVBqOGZza2QwYVJmTEIyVHFHMzczakpmSE3SAXNBVV95cUxQZkdvSURGMFN0d0RIZFRSQlF0R1JKVDN4YVl1QmdVaUFCeklqcE05bk5zVVZkRnBTcy1iZUMwbXdmazNZTTVOZkdjSGJfUjFwOFhud1NCWDJseElQajhmc2tkMGFSZkxCMlRxRzM3M2pKZkhN?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true
+    },
     {
      "date": "2026-10-02",
      "kind": "기타",
@@ -7519,7 +9311,7 @@
    "type": "테마",
    "tier": 2,
    "stage": "",
-   "score": 0.67,
+   "score": 1.25,
    "evidence": [],
    "classifications": [],
    "presentation": {
@@ -7589,8 +9381,28 @@
    "type": "테마",
    "tier": 1,
    "stage": "후공정 장비",
-   "score": 4.91,
+   "score": 10.14,
    "evidence": [
+    {
+     "date": "2026-10-14",
+     "kind": "기타",
+     "text": "한미반도체가 한국·미국 반도체 전시회에서 HBM4·2.5D 패키징 장비를 공개했다는 보도. 기사 제목 기준이며 수주·납품 확정을 뜻하지 않는다.",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2Rm5wV3pqZGVKQW1yQjB4RkI4eEhQMDBVaHV2c3pxYk9Vd0VlR3JRbFhFbmN6TVVkT0tSbGlraWlKbFViTURZUkRZcTk4YUgwZy03UE10WlpvQktNRm1QSzc0bzJiRnFTdTFCaXU4TVZNTW0y?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true
+    },
+    {
+     "date": "2026-10-06",
+     "kind": "계약",
+     "text": "한미반도체는 삼성전기에 AI 반도체 기판 제조용 대면적 MSVP 장비 244억8,000만 원을 공급하는 계약을 공시했다. 발주서 수령일은 10월 2일, 계약기간은 2026년 10월 2일부터 2027년 12월 17일까지다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006800023"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
     {
      "date": "2026-09-30",
      "kind": "기타",
@@ -7724,8 +9536,18 @@
    "type": "테마",
    "tier": 1,
    "stage": "지상 무기체계",
-   "score": 1.8,
+   "score": 3.68,
    "evidence": [
+    {
+     "date": "2026-10-06",
+     "kind": "협력",
+     "text": "창원대와 방산 AI 인재 양성을 위한 AX대학원 가동이 보도됐다(기사 제목 근거).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ncVFrTGJ1WENNTmdJMmJXMS0wQnpSazBtbkJBMmF5QWxkYm54QVRKNVVoNXJPNzg4NzRsRjFvMGZOUzBkWUxmbjRiRGVVZzI5Nzk4Z0YwRy1fSXRwM2lzQ0ZxczQ?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true
+    },
     {
      "date": "2026-10-01",
      "kind": "기타",
@@ -7886,8 +9708,18 @@
    "type": "테마",
    "tier": 1,
    "stage": "사용후핵연료 처분",
-   "score": 0.91,
+   "score": 3.78,
    "evidence": [
+    {
+     "date": "2026-10-08",
+     "kind": "계약",
+     "text": "웨스팅하우스와 네덜란드 AP1000 원전 2기의 1단계 기본설계(FEED 1) 계약을 10월 7일 체결했다고 발표했다. 기본설계·사업 검토 범위이며 본공사 수주나 완공은 아니다.",
+     "sources": [
+      "https://www.hdec.kr/kr/newsroom/news_view.aspx?NewsListType=news_clist&NewsSeq=1575&NewsType=LATEST"
+     ],
+     "evidence_level": "공식 발표",
+     "weak": false
+    },
     {
      "date": "2026-10-02",
      "kind": "기타",
@@ -7956,8 +9788,18 @@
    "type": "테마",
    "tier": 1,
    "stage": "추진기관",
-   "score": 0.9,
+   "score": 1.86,
    "evidence": [
+    {
+     "date": "2026-10-09",
+     "kind": "기타",
+     "text": "페루 장갑차 사업의 대규모 수주 추진이 보도됐다(기사 제목 근거, 계약·납품 완료 미확인).",
+     "sources": [
+      "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1teURNWFJSSmI0ZUNHNkZfMWozV3lWWUJURjhGakdVRFFjWmhOZ0VQT3R4TktPanB0anFhd1c0LUlOYzZvbkV3b3gwNlYtWGFsNW5zS1luUkZtdw?oc=5"
+     ],
+     "evidence_level": "기사 제목",
+     "weak": true
+    },
     {
      "date": "2026-09-30",
      "kind": "기타",
@@ -8153,32 +9995,30 @@
    "type": "협력",
    "evidence": [
     {
-     "date": "2026-10-06",
-     "text": "에코프로비엠과 전고체 배터리 소재 공동개발 MOU를 체결했다는 보도(2027년 상용화 목표, 기사 제목 기준).",
+     "date": "2026-10-07",
+     "text": "에코프로비엠과 전고체 배터리 소재 개발 MOU를 체결했다(10월 6일 발표, 홈페이지 게시 10월 7일). 2027년 상용화는 목표이며 양산 완료가 아니다.",
      "sources": [
-      "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1zNXo3dWZrMmV0b1NwTGxZY2xBb1d5a2l2dXVOUHhuUWFCaGg5c3Q2Z3pIQUVwcHhCeDNVY3dVSXBxdzhfT3kydzhLQVdVcVk?oc=5",
-      "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCUFdWbkNLenZyRk1jNi1GWVd2QnBSWHhIVk1fRXVpWDZaVVNMbVBpcXdVNDVQNDdVaVJrMWM1Z0dtR2FnNGlxU0FjMjFTb196MkgtaQ?oc=5"
+      "https://www.ecopro.co.kr/sub0401/view/sub010401/page/sub020104/page/sub020201/page/10/31/id/2198"
      ],
-     "status": "후보(확인 중)",
-     "evidence_level": "기사 제목",
-     "weak": true
+     "status": "확인",
+     "evidence_level": "공식 발표",
+     "weak": false
     },
     {
-     "date": "2026-10-06",
-     "text": "삼성SDI와 전고체 배터리 소재 공동개발 MOU 체결 보도(2027년 상용화 목표, 기사 제목 기준).",
+     "date": "2026-10-07",
+     "text": "삼성SDI와 전고체 배터리 소재 개발 MOU를 체결했다(10월 6일 발표, 홈페이지 게시 10월 7일). 2027년 상용화는 목표이며 양산 완료가 아니다.",
      "sources": [
-      "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1zNXo3dWZrMmV0b1NwTGxZY2xBb1d5a2l2dXVOUHhuUWFCaGg5c3Q2Z3pIQUVwcHhCeDNVY3dVSXBxdzhfT3kydzhLQVdVcVk?oc=5",
-      "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCUFdWbkNLenZyRk1jNi1GWVd2QnBSWHhIVk1fRXVpWDZaVVNMbVBpcXdVNDVQNDdVaVJrMWM1Z0dtR2FnNGlxU0FjMjFTb196MkgtaQ?oc=5"
+      "https://www.ecopro.co.kr/sub0401/view/sub010401/page/sub020104/page/sub020201/page/10/31/id/2198"
      ],
-     "status": "후보(확인 중)",
-     "evidence_level": "기사 제목",
-     "weak": true
+     "status": "확인",
+     "evidence_level": "공식 발표",
+     "weak": false
     }
    ],
    "presentation": {
-    "label": "확인 중",
+    "label": "",
     "muted": false,
-    "line_style": "dashed"
+    "line_style": "solid"
    }
   },
   {
@@ -8233,6 +10073,28 @@
     "label": "확인 중",
     "muted": false,
     "line_style": "dashed"
+   }
+  },
+  {
+   "source": "웨스팅하우스",
+   "target": "현대건설",
+   "type": "협력",
+   "evidence": [
+    {
+     "date": "2026-10-08",
+     "text": "네덜란드 AP1000 원전 2기의 1단계 기본설계(FEED 1) 계약을 2026-10-07 체결했다. 기본설계·사업 검토 범위다.",
+     "sources": [
+      "https://www.hdec.kr/kr/newsroom/news_view.aspx?NewsListType=news_clist&NewsSeq=1575&NewsType=LATEST"
+     ],
+     "status": "확인",
+     "evidence_level": "공식 발표",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
    }
   },
   {

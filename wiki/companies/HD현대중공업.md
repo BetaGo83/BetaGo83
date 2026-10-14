@@ -28,6 +28,9 @@ classification_as_of: 2026-10-08
 - [[원전·SMR]]: 해외 SMR 실증 프로젝트 제작을 수행 중이며, 후속 상업 공사는 공동 연구·협의 단계다. (역할 상태: 확인) ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000859))
 
 ## 최근 이슈
+- 2026-10-13 [계약] HD현대중공업은 멕시코 소재 원유 개발 업체와 맺은 FPU 1기 계약금액을 1조9,539억 원에서 1조9,648억 원으로 정정했다. 2023년 6월 30일 체결한 조건부 계약이며 계약기간은 2023년 7월 1일부터 2027년 6월 1일까지다. (근거 수준: 공시 원문) · [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800234)
+- 2026-10-07 [협력] HD현대중공업 등 12개 기관의 해양 SMR 기술 실증센터 출범이 보도됐다(기사 제목 근거). (근거 수준: 기사 제목) · [[원전·SMR]] · [서울경제](https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fQW1PUGtvMm1ybDRTU0xTN0YtSE1EX2paZndQTDJ6S3RyRFZVcmY3RUFCeWcxOEp2QzN5ME55RjI4ZWV1alMyQW8zNllhU3FXbEHSAVNBVV95cUxQQ2xQN0JDRm95ZHRNU3lyMEVsd2pNeWw4SXcyTTNaMC0tcDg1UUJ4VDNVRmVIV1QzcWFsX2tXMnZpR3RiSW9obnEwcjlLYXBBNGhjOA?oc=5)
+- 2026-10-07 [기타] 누리호 5차 발사대 운용 지원이 보도됐다(기사 제목 근거). (근거 수준: 기사 제목) · [디일렉](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oVllSejRETTQxTUNuTG5wUXZtcks5dFZ0RmhseHB0eFJWU1MxMXZxbmVvQkNaeC13bEhqR2pVVUg3UEk1dElna3ZkUnBvNjFYaGdDRnVjRXE5M2x0VGFmLUlCNTNKQQ?oc=5)
 - 2026-10-02 [기타] '대호김종서함' 진수 보도(기사 제목 근거). (근거 수준: 기사 제목) · [[방산]] · [[원전·SMR]] · [디펜스투데이](https://news.google.com/rss/articles/CBMibkFVX3lxTE1KTE1lVU5SY051RTd4YS1YdV9LY0dlZ1ZlU2JXSXV0YW5xak1xbTlrcENSMjBhT2ZJRHV2ZDNuTU5vdVc3WVQyNTFINzJqbEU1TUs0UWwzWWdwT2R3b0lyaElRWGgtWmc0VmJNdHFn?oc=5)
 
 ## 분류와 확인 근거

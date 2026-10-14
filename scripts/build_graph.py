@@ -329,6 +329,8 @@ def build(today=None):
             "krx_industry": meta.get("krx_industry", ""), "classification_as_of": meta.get("classification_as_of", ""),
             "classifications": company["classifications"],
             "themes": [{k: v for k, v in link.items() if k != "evidence"} for link in links],
+            "issues": [{k: item[k] for k in ("date", "kind", "text", "sources", "evidence_level", "weak", "themes")}
+                       for item in sorted(company["issues"], key=lambda item: item["date"], reverse=True)],
         })
         for link in links:
             key = (name, link["theme"], "테마")
