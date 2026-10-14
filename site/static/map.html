@@ -211,7 +211,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
     if (!document.getElementById("notice")) html("p", title, stage, { id: "notice", role: "alert" });
   }
 
-  fetch("../graph.json").then(function (r) {
+  fetch("../graph.json", { cache: "no-store" }).then(function (r) {
     if (!r.ok) throw new Error("HTTP " + r.status);
     return r.json();
   }).then(function (data) {
