@@ -1,10 +1,11 @@
 ---
-type: theme
-name: 원전·SMR
+type: "theme"
+name: "원전·SMR"
 aliases: []
-keywords: [원전 수주, 원자력발전, SMR, 소형모듈원전]
-stages: [해외 원전사업, 설계, 원전·SMR 사업, 사업개발·투자, 사용후핵연료 처분, 해상 SMR(조선), 원전 설비·장비]
-updated: 2026-10-14
+keywords: ["원전 수주", "원자력발전", "SMR", "소형모듈원전"]
+stages: ["해외 원전사업", "설계", "원전·SMR 사업", "사업개발·투자", "사용후핵연료 처분", "해상 SMR(조선)", "원전 설비·장비"]
+updated: "2026-10-15"
+category: "에너지·환경"
 ---
 
 # 원전·SMR

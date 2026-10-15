@@ -1,14 +1,14 @@
 ---
-type: company
-name: LG에너지솔루션
+type: "company"
+name: "LG에너지솔루션"
 ticker: "373220"
-market: KOSPI
+market: "KOSPI"
 dart_corp_code: "01515323"
-aliases: [LG엔솔, LG Energy Solution]
-themes: [2차전지]
-updated: 2026-10-14
-krx_industry: 전기·전자
-classification_as_of: 2026-10-08
+aliases: ["LG엔솔", "LG Energy Solution"]
+themes: ["2차전지", "ESS"]
+updated: "2026-10-15"
+krx_industry: "전기·전자"
+classification_as_of: "2026-10-08"
 ---
 
 # LG에너지솔루션
@@ -32,6 +32,7 @@ classification_as_of: 2026-10-08
 
 ## 테마
 - [[2차전지]] · 배터리: 소형·ESS·자동차용 2차전지를 제조하며 차세대 전지를 개발한다. Hanwha Q CELLS USA ESS 계약은 2026-10-01 기간 만료됐고, 포스코퓨처엠 LFP 양극재 도입은 기사 제목만 확인된 후보다. (역할 상태: 상태 혼재 · 확인 중) ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001800119), [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000217), [dealsite.co.kr](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WdXZUSnB3UFVrcTQ2azBjcTg4d0NBd0p3Q19PQmtEQm04Y3JiSDFUZ1BFQmFxc1ZaTHgzOUtMMjhhQUJDZ3ZUUC1DNE1mZWc?oc=5), [KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage))
+- [[ESS]] · 배터리: ESS용 이차전지 제조. (자료 기준일: 2026-10-09) (역할 상태: 확인) ([한국거래소](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt))
 
 ## 최근 이슈
 - 2026-10-14 [기타] 엘앤에프는 LG에너지솔루션과의 LFP 공급계약 보도에 대해 고객사와 협의 중이며 계약 체결과 관련해 구체적으로 확정된 사항은 없다고 공시했다. 재공시 예정일은 11월 13일이다. (근거 수준: 공시 원문) · [[2차전지]] · [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800059)
@@ -52,6 +53,7 @@ classification_as_of: 2026-10-08
 | 2차전지 | 거래소 지수 편입 | 확인 | 2026-10-08 | KRX 2차전지 TOP 10 지수 구성종목 | 거래소 자료 | [KRX XGT02P](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
 | ESS 수요 확대 | 후보 | 종료 | 2026-10-01 | ESS 배터리 공급계약의 기간 만료에 따른 공시유보 해제 | 공시 원문 | [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001800119) |
 | LFP 양극재 양산 | 후보 | 후보(확인 중) | 2026-09-30 | 기사 제목에 관련 내용 언급; 구체 사업·거래는 추가 확인 필요 | 기사 제목 | [기사](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WdXZUSnB3UFVrcTQ2azBjcTg4d0NBd0p3Q19PQmtEQm04Y3JiSDFUZ1BFQmFxc1ZaTHgzOUtMMjhhQUJDZ3ZUUC1DNE1mZWc?oc=5) |
+| ESS | 공시·거래소 확인 | 확인 | 2026-10-09 | ESS용 이차전지 제조. (자료 기준일: 2026-10-09) | 거래소 자료 | [한국거래소](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 
 ---
 *AI가 뉴스와 공시를 바탕으로 정리한 참고 자료입니다. 틀린 내용이 있을 수 있으니 원문을 확인하세요. 투자 권유가 아닙니다.*

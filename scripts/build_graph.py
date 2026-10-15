@@ -38,7 +38,7 @@ TOPIC_PAGES = {
     "방산": "방산", "방산 수출 확대": "방산",
     "원전·SMR": "원전·SMR", "SMR 상용화": "원전·SMR", "원전 수출": "원전·SMR",
 }
-CLASSIFICATIONS = {"거래소 지수 편입", "공시·거래소 확인", "후보"}
+CLASSIFICATIONS = {"거래소 지수 편입", "공시·거래소 확인", "공식 발표 확인", "후보"}
 EVIDENCE_LEVELS = {"거래소 자료", "공시 원문", "공시 항목", "공시 제목", "기사 제목", "공식 발표", "공시 원문·기사 제목", "공시 항목·기사 제목", "미확인"}
 STATES = {"확인", "계획(확인 중)", "후보(확인 중)", "종료", "미확인"}
 
@@ -56,7 +56,8 @@ def weak(level):
     return level in {"기사 제목", "공시 제목", "공시 원문·기사 제목", "공시 항목·기사 제목", "미확인"}
 
 
-def classifications(body):
+def classifications(body, topic_pages=None):
+    topic_pages = TOPIC_PAGES if topic_pages is None else topic_pages
     rows = []
     for line in section(body, "분류와 확인 근거").splitlines():
         if not line.startswith("|"):
@@ -68,7 +69,7 @@ def classifications(body):
             rows.append({"malformed": "분류 표는 7칸이어야 합니다"})
             continue
         topic, kind, state, as_of, detail, level, sources = cells
-        rows.append({"topic": topic, "page": TOPIC_PAGES.get(topic, ""), "classification": kind,
+        rows.append({"topic": topic, "page": topic_pages.get(topic, ""), "classification": kind,
                      "status": state, "date": as_of, "text": detail, "evidence_level": level,
                      "weak": weak(level), "sources": sources_of(sources), "malformed": ""})
     return rows
@@ -229,6 +230,7 @@ def load():
     themes = {}
     for name, path, meta, body in pages("themes"):
         themes[name] = {"meta": meta, "path": path, "summary": summary(body), "chain": value_chain(body)}
+    topic_pages = {**TOPIC_PAGES, **{name: name for name in themes}}
     companies = {}
     for name, path, meta, body in pages("companies"):
         found = []
@@ -245,7 +247,7 @@ def load():
         companies[name] = {
             "meta": meta, "summary": summary(body), "relations": [r for r in relations(body) if not r["malformed"]],
             "issues": found, "roles": theme_roles(body),
-            "classifications": [c for c in classifications(body) if not c["malformed"]],
+            "classifications": [c for c in classifications(body, topic_pages) if not c["malformed"]],
         }
     return companies, themes
 
@@ -316,7 +318,7 @@ def build(today=None):
         for name, row in {**first, **second}.items():
             theme_links.setdefault(name, []).append({"theme": theme, **row})
         nodes.append({"id": theme, "type": "theme", "path": f"themes/{theme}", "summary": info["summary"],
-                      "stages": info["meta"].get("stages", [])})
+                      "category": info["meta"].get("category", "기타"), "stages": info["meta"].get("stages", [])})
 
     externals = set()
     for name, company in companies.items():

@@ -91,7 +91,7 @@ def check_pages(files, names, loaded, problems):
             problems.append(f"{rel}: frontmatter name '{meta['name']}'이 파일 이름과 다릅니다")
         if kind == "company" and meta.get("market") and meta["market"] not in MARKETS:
             problems.append(f"{rel}: market은 {', '.join(sorted(MARKETS))} 중 하나여야 합니다")
-        for key in ("aliases", "themes", "keywords", "stages"):
+        for key in ("aliases", "themes", "keywords", "stages", "official_domains"):
             if key in meta and not isinstance(meta[key], list):
                 problems.append(f"{rel}: {key}는 [a, b] 목록이어야 합니다")
         if "## 사람 메모" not in body:
@@ -295,7 +295,13 @@ def check_classifications(loaded, problems):
                     problems.append(f"{rel}: 분류에 유효한 날짜·내용·출처가 필요합니다: {c['topic']}")
                 hosts = {urlparse(u).hostname for u in c["sources"]}
                 official = hosts & {"dart.fss.or.kr", "kind.krx.co.kr", "index.krx.co.kr", "data.krx.co.kr"}
-                if c["classification"] != "후보" and (not official or c["weak"]):
+                if c["classification"] == "공식 발표 확인":
+                    # 검토자가 원문 주체를 확인해 등록한 정확한 호스트만 허용한다.
+                    # 하위 도메인·문자열 포함 일치로 타 사이트를 회사 출처로 인정하지 않는다.
+                    corporate = set(meta.get("official_domains", []))
+                    if (not hosts & corporate or c["evidence_level"] != "공식 발표" or c["weak"]):
+                        problems.append(f"{rel}: 공식 발표 확인에는 검토한 회사 공식 도메인과 공식 발표 근거가 필요합니다: {c['topic']}")
+                elif c["classification"] != "후보" and (not official or c["weak"]):
                     problems.append(f"{rel}: 확인 분류에는 공시 원문·항목 또는 거래소 자료가 필요합니다: {c['topic']}")
                 if c["classification"] == "거래소 지수 편입" and not hosts & {"index.krx.co.kr", "data.krx.co.kr"}:
                     problems.append(f"{rel}: 지수 편입 출처가 거래소가 아닙니다: {c['topic']}")

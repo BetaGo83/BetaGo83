@@ -1,14 +1,15 @@
 ---
-type: company
-name: 삼성SDI
+type: "company"
+name: "삼성SDI"
 ticker: "006400"
-market: KOSPI
+market: "KOSPI"
 dart_corp_code: "00126362"
-aliases: [Samsung SDI]
-themes: [2차전지]
-updated: 2026-10-14
-krx_industry: 전기·전자
-classification_as_of: 2026-10-08
+aliases: ["Samsung SDI"]
+themes: ["2차전지", "ESS"]
+updated: "2026-10-15"
+krx_industry: "전기·전자"
+classification_as_of: "2026-10-08"
+official_domains: ["www.samsungsdi.co.kr"]
 ---
 
 # 삼성SDI
@@ -33,6 +34,7 @@ classification_as_of: 2026-10-08
 
 ## 테마
 - [[2차전지]]: 2차전지·전자재료 제조와 차세대 전지 개발을 진행하며, BMW와 전고체 실증 협약을 맺었다. 포스코퓨처엠·엘앤에프의 LFP 양극재를 구매하는 계약이 있고, 에코프로비엠과의 전고체 소재 개발 MOU는 공식 발표로 확인했으며 2027년 상용화는 목표다. (역할 상태: 상태 혼재 · 확인 중) ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006800617), [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324800257), [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002954), [기사 제목](https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCUFdWbkNLenZyRk1jNi1GWVd2QnBSWHhIVk1fRXVpWDZaVVNMbVBpcXdVNDVQNDdVaVJrMWM1Z0dtR2FnNGlxU0FjMjFTb196MkgtaQ?oc=5), [에코프로](https://www.ecopro.co.kr/sub0401/view/sub010401/page/sub020104/page/sub020201/page/10/31/id/2198))
+- [[ESS]] · 배터리·솔루션: 전력·상업용, 가정용 및 UPS 등 ESS 배터리 솔루션. (확인일: 2026-10-15) (역할 상태: 확인) ([삼성SDI](https://www.samsungsdi.co.kr/business/ess.html), [한국거래소](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt))
 
 ## 최근 이슈
 - 2026-10-07 [협력] 에코프로비엠·삼성SDI의 전고체 배터리 소재 개발 MOU가 공식 발표됐다(10월 6일 발표 내용, 홈페이지 게시일 10월 7일). 2027년 상용화를 목표로 공동개발을 추진하며 양산 완료를 뜻하지 않는다. (근거 수준: 공식 발표) · [[2차전지]] · [에코프로](https://www.ecopro.co.kr/sub0401/view/sub010401/page/sub020104/page/sub020201/page/10/31/id/2198)
@@ -48,6 +50,7 @@ classification_as_of: 2026-10-08
 |---|---|---|---|---|---|---|
 | 2차전지 | 거래소 지수 편입 | 확인 | 2026-10-08 | KRX 2차전지 TOP 10 지수 구성종목 | 거래소 자료 | [KRX XGT02P](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
 | LFP 양극재 양산 | 공시·거래소 확인 | 확인 | 2026-10-06 | 포스코퓨처엠 공시에 삼성SDI와 NCA 물량 일부의 LFP 전환 합의가 기재됨 | 공시 원문 | [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006800617) |
+| ESS | 공식 발표 확인 | 확인 | 2026-10-15 | 전력·상업용, 가정용 및 UPS 등 ESS 배터리 솔루션. (확인일: 2026-10-15) | 공식 발표 | [삼성SDI](https://www.samsungsdi.co.kr/business/ess.html), [한국거래소](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 
 ---
 *AI가 뉴스와 공시를 바탕으로 정리한 참고 자료입니다. 틀린 내용이 있을 수 있으니 원문을 확인하세요. 투자 권유가 아닙니다.*

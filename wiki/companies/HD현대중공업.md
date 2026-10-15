@@ -1,14 +1,14 @@
 ---
-type: company
-name: HD현대중공업
+type: "company"
+name: "HD현대중공업"
 ticker: "329180"
-market: KOSPI
+market: "KOSPI"
 dart_corp_code: "01390344"
-aliases: [에이치디현대중공업]
-themes: [방산, 원전·SMR]
-updated: 2026-10-14
-krx_industry: 운송장비·부품
-classification_as_of: 2026-10-08
+aliases: ["에이치디현대중공업"]
+themes: ["방산", "원전·SMR", "조선·해운"]
+updated: "2026-10-15"
+krx_industry: "운송장비·부품"
+classification_as_of: "2026-10-08"
 ---
 
 # HD현대중공업
@@ -26,6 +26,7 @@ classification_as_of: 2026-10-08
 ## 테마
 - [[방산]] · 함정: 해군 함정 건조 (역할 상태: 확인) ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000859))
 - [[원전·SMR]]: 해외 SMR 실증 프로젝트 제작을 수행 중이며, 후속 상업 공사는 공동 연구·협의 단계다. (역할 상태: 확인) ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000859))
+- [[조선·해운]] · 조선·해양 기자재: 선박·해양플랜트 및 엔진기계 사업. (자료 기준일: 2026-10-09) (역할 상태: 확인) ([한국거래소](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt))
 
 ## 최근 이슈
 - 2026-10-13 [계약] HD현대중공업은 멕시코 소재 원유 개발 업체와 맺은 FPU 1기 계약금액을 1조9,539억 원에서 1조9,648억 원으로 정정했다. 2023년 6월 30일 체결한 조건부 계약이며 계약기간은 2023년 7월 1일부터 2027년 6월 1일까지다. (근거 수준: 공시 원문) · [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800234)
@@ -43,6 +44,7 @@ classification_as_of: 2026-10-08
 | 조선 | 거래소 지수 편입 | 확인 | 2026-10-08 | KRX 조선 TOP10 지수 구성종목 | 거래소 자료 | [KRX XGT19P](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
 | 방산 | 공시·거래소 확인 | 확인 | 2026-03-20 | 이지스구축함 정조대왕함과 호위함 충남함 인도 이력이 기재됨 | 공시 원문 | [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000859) |
 | SMR 상용화 | 공시·거래소 확인 | 확인 | 2026-03-20 | 테라파워와 SMR 핵심 설비 개발 착수 및 제조 공급망 협약 이력 | 공시 원문 | [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000859) |
+| 조선·해운 | 공시·거래소 확인 | 확인 | 2026-10-09 | 선박·해양플랜트 및 엔진기계 사업. (자료 기준일: 2026-10-09) | 거래소 자료 | [한국거래소](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 
 ---
 *AI가 뉴스와 공시를 바탕으로 정리한 참고 자료입니다. 틀린 내용이 있을 수 있으니 원문을 확인하세요. 투자 권유가 아닙니다.*

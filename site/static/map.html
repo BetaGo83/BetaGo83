@@ -116,7 +116,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
 <header>
   <h1>기업 지도</h1>
   <div class="controls">
-    <select id="theme" aria-label="테마 고르기"><option value="">모든 테마</option></select>
+    <select id="theme" aria-label="테마 고르기"><option value="">모든 산업·테마</option></select>
     <input id="search" type="search" placeholder="기업 이름 찾기" aria-label="기업 이름 찾기" list="names">
     <datalist id="names"></datalist>
   </div>
@@ -133,7 +133,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
   <aside id="panel">
     <h2>보는 법</h2>
     <p>점은 기업과 주제 안내, 선은 관계입니다. 색은 관계 종류, 화살표는 방향입니다. 종료된 관계는 흐리게 표시합니다. 계획·후보는 점선이며, 상세 설명에 확인 중으로 표시합니다.</p>
-    <p>기업별 거래소 업종과 지수 편입·공시 확인·후보를 구분합니다. 기사 제목만 확인한 자료에는 약한 근거 표시가 붙습니다.</p>
+    <p>위의 산업·테마 목록에서 분야를 골라 보세요. 분야 묶음은 탐색용이며 기업별 거래소 업종과 다릅니다. 지수 편입·공시 확인·공식 발표 확인·후보를 구분하고, 기사 제목 근거에는 약한 근거 표시를 붙입니다.</p>
     <p>점이나 선을 누르면 관계와 근거(공시·기사 링크)가 여기 나옵니다. 끌어서 옮기고, 휠이나 두 손가락으로 확대할 수 있습니다.</p>
     <p class="meta" id="updated"></p>
   </aside>
@@ -266,9 +266,15 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
 
   function buildControls() {
     var select = document.getElementById("theme");
-    nodes.filter(function (n) { return n.type === "theme"; }).forEach(function (n) {
-      html("option", n.id, select, { value: n.id });
+    var themes = nodes.filter(function (n) { return n.type === "theme"; });
+    var categories = Array.from(new Set(themes.map(function (n) { return n.category || "기타"; }))).sort();
+    categories.forEach(function (category) {
+      var group = html("optgroup", null, select, { label: category });
+      themes.filter(function (n) { return (n.category || "기타") === category; }).forEach(function (n) {
+        html("option", n.id, group, { value: n.id });
+      });
     });
+    select.options[0].textContent = "모든 산업·테마 (" + themes.length + ")";
     select.addEventListener("change", function () { applyFilter(); clearSelection(true); fit(); });
     var names = document.getElementById("names");
     nodes.forEach(function (n) {
@@ -297,7 +303,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
   // 힘으로 점 자리를 잡는다 (서로 밀어내고, 선으로 이어진 점은 당긴다)
   function layout() {
     var themes = nodes.filter(function (n) { return n.type === "theme"; });
-    var R = 340;
+    var R = Math.max(340, themes.length * 24);
     themes.forEach(function (n, i) {
       var a = 2 * Math.PI * i / themes.length - Math.PI / 2;
       n.x = R * Math.cos(a); n.y = R * Math.sin(a);
