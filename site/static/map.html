@@ -123,6 +123,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
   <div class="legend" id="legend" role="group" aria-label="지도에 보일 관계 종류"></div>
   <span id="hint" aria-live="polite"></span>
   <a href="../" id="home" target="_top">위키로 돌아가기</a>
+  <a href="./news.html" id="news" target="_top">뉴스 흐름</a>
 </header>
 <main>
   <div id="stage">
@@ -235,6 +236,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
     html("p", "컴퓨터에 저장된 HTML 파일을 직접 연 상태입니다. 이 방식으로는 그래프 데이터를 불러올 수 없습니다.", notice);
     html("a", "공개 기업 지도 열기", notice, { href: "https://betago83.github.io/BetaGo83/static/map.html", target: "_top", rel: "noopener noreferrer" });
     document.getElementById("home").href = "https://betago83.github.io/BetaGo83/";
+    document.getElementById("news").href = "https://betago83.github.io/BetaGo83/static/news.html";
     document.getElementById("theme").disabled = true;
     document.getElementById("search").disabled = true;
     svg.setAttribute("aria-hidden", "true");
@@ -262,6 +264,8 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
     layout();
     draw();
     fit();
+    var requested = new URLSearchParams(window.location.search).get("node");
+    if (requested && Object.prototype.hasOwnProperty.call(byId, requested)) find(requested);
   }
 
   function buildControls() {
@@ -534,6 +538,10 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
     if (n.summary && n.type !== "external") html("p", n.summary, panel);
     var url = pageUrl(n);
     if (url) html("a", "위키 페이지 열기 →", html("p", null, panel), { href: url, target: "_top" });
+    if (n.type === "company" || n.type === "theme") {
+      var newsFilter = n.type === "theme" ? "theme" : "company";
+      html("a", "관련 뉴스·공시 제목 보기 →", html("p", null, panel), { href: "./news.html?" + newsFilter + "=" + encodeURIComponent(n.id), target: "_top" });
+    }
 
     if (n.type === "company") {
       var evidence = recentIssues(n);
