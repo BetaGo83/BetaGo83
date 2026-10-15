@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>기업 지도</title>
 <meta name="description" content="뉴스와 공시로 정리한 기업 관계를 관계 종류별 색으로 보여 주는 지도">
+<link rel="stylesheet" href="./map-view.css">
+<script src="./map-news.js" defer></script>
+<script src="./map-view.js" defer></script>
 <script>
   // 위키(Quartz)에서 고른 밝은/어두운 화면 설정을 따른다
   try { var t = localStorage.getItem("theme"); if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
@@ -125,11 +128,42 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
   <a href="../" id="home" target="_top">위키로 돌아가기</a>
   <a href="./news.html" id="news" target="_top">뉴스 흐름</a>
 </header>
+<section id="map-tools" aria-label="지도 표시와 자료 기간">
+  <div class="map-toolbar">
+    <label>보기 <select id="map-mode"><option value="relations">기업 관계</option><option value="news">뉴스·공시 분포</option></select></label>
+    <label>기사·공시 지표
+      <select id="map-metric">
+        <option value="news">공개 기사 건수</option>
+        <option value="disclosure">공개 공시 건수</option>
+      </select>
+    </label>
+    <label>척도 <select id="map-scale"><option value="log">압축</option><option value="area">면적 비례</option></select></label>
+    <label><input id="map-active" type="checkbox" checked> 뉴스 보기에서 자료 있는 기업만</label>
+    <button id="map-fit" type="button">화면 맞춤</button>
+  </div>
+  <div class="map-toolbar">
+    <label>자료 기준일 <input id="map-date" type="date" disabled></label>
+    <label>기간 <select id="map-days" disabled><option value="1">하루</option><option value="7">7일</option><option value="14">14일</option></select></label>
+    <button id="map-play" type="button" disabled>날짜 재생</button>
+    <label><input id="map-motion" type="checkbox"> 움직임 줄이기</label>
+    <button id="map-refresh" type="button">게시 자료 다시 확인</button>
+    <span id="map-play-state" role="status">정적 게시본</span>
+  </div>
+  <p id="map-data-status" role="status">뉴스 자료를 확인하고 있습니다.</p>
+  <p id="map-encoding"></p>
+  <details><summary>표시 기준과 수집 범위</summary>
+    <p>기사와 공시는 따로 셉니다. 이 수는 공개된 제목 목록 안의 고유 출처 수이며 시장 전체 보도량이 아닙니다. 기업·테마 분류는 제목 기준입니다. 테마를 고르면 그 테마에 속한 기업의 전체 소식을 보여 줍니다.</p>
+    <p>관계 크기는 종료·계획·제목만의 근거를 제외한 등록 관계의 상대 수입니다. 기간은 한국 날짜의 시작부터 마지막 날의 끝까지입니다. 기사는 매체 제공일, 공시는 접수일을 사용합니다.</p>
+    <p>사건 수와 평소 대비 급증은 아직 계산하지 않습니다. 바깥 점선 테두리는 비교 이력이 부족하다는 뜻입니다. 재생 중 강조는 그 날짜의 보유 자료를 가리키며, 새로 들어온 속보라는 뜻이 아닙니다.</p>
+    <p>면적 비례: 반지름 = 5 × √건수. 압축: 반지름 = 8 × √ln(1 + 건수). 최대 반지름은 30이며 상한 적용 시 상세에 표시합니다. 0건은 반지름 3의 빈 표식으로 남깁니다.</p>
+  </details>
+</section>
 <main>
   <div id="stage">
     <svg id="svg" role="group" aria-label="기업 관계 그래프 (Tab으로 점을 고르고 Enter로 자세히 보기)"><g id="viewport"></g></svg>
     <div id="tip"></div>
     <div id="zoomhint">확대하면 기업 이름이 보입니다</div>
+    <div id="map-empty" hidden>선택한 날짜·종류에서 지도에 연결할 기업 자료가 없습니다.</div>
   </div>
   <aside id="panel">
     <h2>보는 법</h2>
@@ -142,7 +176,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
 </main>
 <footer>AI가 뉴스와 공시를 바탕으로 정리한 참고 자료입니다. 틀린 내용이 있을 수 있으니 원문을 확인하세요. 투자 권유가 아닙니다. 방문 통계(Google Analytics)를 위해 쿠키를 사용합니다.</footer>
 <script>
-(function () {
+window.addEventListener("DOMContentLoaded", function () {
   "use strict";
   // 관계 종류: 이름, 색 변수, 방향이 있는지
   var KINDS = [
@@ -169,6 +203,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
   var shown = null;         // 설명 칸이 보여 주는 점 (선택을 풀어도 설명은 남는다)
   var view = { x: 0, y: 0, k: 1 };
   var nodes = [], edges = [], byId = {}, ready = false, lastWidth = 0;
+  var newsView = null;
 
   function kindOf(type) { return KINDS.filter(function (k) { return k.key === type; })[0] || KINDS[KINDS.length - 1]; }
   function el(tag, attrs, parent) {
@@ -239,6 +274,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
     document.getElementById("news").href = "https://betago83.github.io/BetaGo83/static/news.html";
     document.getElementById("theme").disabled = true;
     document.getElementById("search").disabled = true;
+    document.getElementById("map-tools").hidden = true;
     svg.setAttribute("aria-hidden", "true");
     return;
   }
@@ -263,6 +299,14 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
     buildControls();
     layout();
     draw();
+    newsView = MapNewsView.create({
+      nodes: nodes, edges: edges, svg: svg, panel: panel,
+      position: position, fit: fit, applyFilter: applyFilter,
+      clear: function () { clearSelection(); shown = null; panel.innerHTML = intro; },
+      find: find,
+      getTheme: function () { return document.getElementById("theme").value; },
+      getShown: function () { return shown; }
+    });
     fit();
     var requested = new URLSearchParams(window.location.search).get("node");
     if (requested && Object.prototype.hasOwnProperty.call(byId, requested)) find(requested);
@@ -279,7 +323,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
       });
     });
     select.options[0].textContent = "모든 산업·테마 (" + themes.length + ")";
-    select.addEventListener("change", function () { applyFilter(); clearSelection(true); fit(); });
+    select.addEventListener("change", function () { applyFilter(); clearSelection(true); if (newsView) newsView.filterChanged(); fit(); });
     var names = document.getElementById("names");
     nodes.forEach(function (n) {
       html("option", null, names, { value: n.id });
@@ -397,7 +441,10 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
       n.g = el("g", { class: "node " + n.type, tabindex: 0, role: "button", "aria-label": n.id + (n.summary ? ", " + n.summary : "") }, nodeLayer);
       n.hitC = el("circle", { class: "node-hit", r: n.r + 3 }, n.g);  // 축소해도 누르기 쉽게 하는 투명 영역
       n.circle = el("circle", { r: n.r }, n.g);
-      var label = el("text", { x: n.r + 3, y: 4 }, n.g);
+      n.ring = el("circle", { class: "attention-ring", r: n.r + 4, "aria-hidden": "true" }, n.g);
+      n.pulse = el("circle", { class: "replay-pulse", r: n.r + 8, "aria-hidden": "true" }, n.g);
+      n.badge = el("text", { class: "news-badge", x: 0, y: 4, "text-anchor": "middle", "aria-hidden": "true" }, n.g);
+      var label = n.label = el("text", { x: n.r + 7, y: 4 }, n.g);
       label.textContent = n.id;
       n.g.addEventListener("click", function (ev) { if (!n.moved) select(n); ev.stopPropagation(); });
       n.g.addEventListener("keydown", function (ev) {
@@ -419,9 +466,10 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
   }
 
   function position() {
+    if (newsView) newsView.updateZoom(view.k);
     edges.forEach(function (e) {
       var dx = e.t.x - e.s.x, dy = e.t.y - e.s.y, d = Math.sqrt(dx * dx + dy * dy) || 1;
-      var x2 = e.t.x - dx / d * (e.t.r + 2), y2 = e.t.y - dy / d * (e.t.r + 2);
+      var x2 = e.t.x - dx / d * ((e.t.drawR || e.t.r) + 2), y2 = e.t.y - dy / d * ((e.t.drawR || e.t.r) + 2);
       [e.line, e.hit].forEach(function (l) {
         l.setAttribute("x1", e.s.x); l.setAttribute("y1", e.s.y); l.setAttribute("x2", x2); l.setAttribute("y2", y2);
       });
@@ -429,7 +477,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
     var hitR = 12 / view.k;  // 화면에서 지름 약 24px
     nodes.forEach(function (n) {
       n.g.setAttribute("transform", "translate(" + n.x + "," + n.y + ")");
-      n.hitC.setAttribute("r", Math.max(n.r + 3, hitR));
+      n.hitC.setAttribute("r", Math.max((n.drawR || n.r) + 3, hitR));
     });
     viewport.setAttribute("transform", "translate(" + view.x + "," + view.y + ") scale(" + view.k + ")");
     // 기업 이름(11px)이 화면에서 7px보다 작으면 숨기고, 테마 이름은 11px 아래로 작아지지 않게 키운다
@@ -447,8 +495,9 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
     var maxX = Math.max.apply(null, vis.map(function (n) { return n.x + n.w; })) + 20;
     var minY = Math.min.apply(null, vis.map(function (n) { return n.y; })) - 40;
     var maxY = Math.max.apply(null, vis.map(function (n) { return n.y; })) + 40;
-    view.k = Math.min(box.width / (maxX - minX), box.height / (maxY - minY), 2);
-    view.x = box.width / 2 - (minX + maxX) / 2 * view.k;
+    var newsMargin = svg.classList.contains("news-mode") ? Math.min(140, box.width / 4) : 0;
+    view.k = Math.min((box.width - newsMargin) / (maxX - minX), (box.height - 36) / (maxY - minY), 2);
+    view.x = (box.width - newsMargin) / 2 - (minX + maxX) / 2 * view.k;
     view.y = box.height / 2 - (minY + maxY) / 2 * view.k;
     position();
   }
@@ -466,7 +515,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
         if (keep[e.target] && e.s.type === "external") keep[e.source] = true;
       });
     }
-    nodes.forEach(function (n) { n.visible = !theme || !!keep[n.id]; });
+    nodes.forEach(function (n) { n.visible = (!theme || !!keep[n.id]) && (!newsView || newsView.isVisible(n)); });
     var connected = {};
     edges.forEach(function (e) {
       e.shown = !hidden[e.type] && e.s.visible && e.t.visible;
@@ -480,6 +529,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
       var show = e.shown && e.s.visible && e.t.visible;
       e.line.style.display = e.hit.style.display = show ? "" : "none";
     });
+    if (newsView) newsView.visibilityChanged();
   }
 
   function edgeText(e) {
@@ -509,7 +559,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
     var status = document.getElementById("status"), hint = document.getElementById("hint");
     if (!n) { status.textContent = hint.textContent = "'" + text + "'와(과) 맞는 기업이 없습니다"; return; }
     hint.textContent = baseHint;
-    if (!n.visible) { document.getElementById("theme").value = ""; hidden = {}; resetLegend(); applyFilter(); }
+    if (!n.visible) { document.getElementById("theme").value = ""; hidden = {}; resetLegend(); if (newsView) newsView.reveal(n); applyFilter(); }
     var box = svg.getBoundingClientRect();
     view.x = box.width / 2 - n.x * view.k; view.y = box.height / 2 - n.y * view.k;
     position();
@@ -542,6 +592,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
       var newsFilter = n.type === "theme" ? "theme" : "company";
       html("a", "관련 뉴스·공시 제목 보기 →", html("p", null, panel), { href: "./news.html?" + newsFilter + "=" + encodeURIComponent(n.id), target: "_top" });
     }
+    if (newsView) newsView.showDetails(n);
 
     if (n.type === "company") {
       var evidence = recentIssues(n);
@@ -716,7 +767,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
   window.addEventListener("storage", function (e) {
     if (e.key === "theme" && (e.newValue === "dark" || e.newValue === "light")) document.documentElement.setAttribute("data-theme", e.newValue);
   });
-})();
+});
 </script>
 </body>
 </html>

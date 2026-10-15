@@ -67,6 +67,9 @@ jobs:
           test -f quartz/public/index.html
           test -f quartz/public/graph.json
           test -f quartz/public/static/map.html
+          test -f quartz/public/static/map-news.js
+          test -f quartz/public/static/map-view.js
+          test -f quartz/public/static/map-view.css
           test -f quartz/public/static/news.html
           test -f quartz/public/static/news-feed.json
           ls quartz/public | head -20
