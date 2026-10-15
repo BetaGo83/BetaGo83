@@ -27,7 +27,9 @@ const SiteFooter = (() => {
         "ul",
         null,
         // 기업 지도는 Quartz 페이지가 아니라서 페이지 전환 기능(SPA)이 가로채지 않게 한다
-        h("li", null, h("a", { href: `${root}/static/map.html`, "data-router-ignore": "" }, "기업 지도")),
+        h("li", null, h("a", { href: `${root}/static/map.html`, "data-router-ignore": "" }, "기업 관계")),
+        h("li", null, h("a", { href: `${root}/static/map.html?view=knowledge`, "data-router-ignore": "" }, "지식 탐색")),
+        h("li", null, h("a", { href: `${root}/static/documents.html`, "data-router-ignore": "" }, "문서 연결")),
         h("li", null, h("a", { href: "https://github.com/BetaGo83/BetaGo83" }, "GitHub")),
         h("li", null, h("a", { href: "https://quartz.jzhao.xyz/" }, "Quartz로 만듦")),
       ),
@@ -75,6 +77,37 @@ export const sharedPageComponents: SharedLayout = {
 
 const breadcrumbs = Component.Breadcrumbs({ rootName: "처음" })
 
+// 문서 참조는 기업 사이의 사업 관계와 다른 화면에서 살펴본다.
+const DocumentConnections = (() => {
+  const Connections: QuartzComponent = ({ fileData, cfg }) => {
+    const slug = fileData.slug!
+    const root = slug === "404"
+      ? new URL(`https://${cfg.baseUrl ?? "example.com"}`).pathname.replace(/\/$/, "")
+      : pathToRoot(slug)
+    const query = /^(companies|themes|industries)\//.test(slug)
+      ? `?node=${encodeURIComponent(slug)}`
+      : ""
+    return h(
+      "section",
+      { class: "document-connections", "aria-label": "문서 연결" },
+      h("h3", null, "문서 연결"),
+      h("p", null, "이 문서가 참조하는 문서와 이 문서를 참조하는 문서를 살펴봅니다."),
+      h("a", { href: `${root}/static/documents.html${query}`, "data-router-ignore": "" }, "문서 연결 열기 →"),
+      h("p", { class: "document-connections-note" }, "선은 문서 링크입니다. 기업의 사업 관계는 기업 관계 지도에서 확인하세요."),
+      h("a", { href: `${root}/static/map.html`, "data-router-ignore": "" }, "기업 관계"),
+      " · ",
+      h("a", { href: `${root}/static/map.html?view=knowledge`, "data-router-ignore": "" }, "지식 탐색"),
+    )
+  }
+  Connections.css = `
+.document-connections { border: 1px solid var(--lightgray); padding: 1rem; border-radius: 8px; font-size: .85rem; }
+.document-connections h3 { margin: 0 0 .5rem; font-size: 1rem; }
+.document-connections p { margin: .5rem 0; word-break: keep-all; overflow-wrap: anywhere; }
+.document-connections .document-connections-note { color: var(--gray); font-size: .8rem; }
+`
+  return Connections
+}) satisfies QuartzComponentConstructor
+
 // 위키 페이지 하나를 보여 줄 때. 페이지 본문이 '# 제목'으로 시작하므로 ArticleTitle은 넣지 않는다(제목이 두 번 나옴)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
@@ -98,11 +131,7 @@ export const defaultContentPageLayout: PageLayout = {
     explorer,
   ],
   right: [
-    // 옵시디언처럼 페이지끼리 이어진 그림. 오른쪽 위 버튼을 누르면 전체 그림이 열린다
-    Component.Graph({
-      localGraph: { depth: 1, showTags: false },
-      globalGraph: { depth: -1, showTags: false },
-    }),
+    DocumentConnections(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],

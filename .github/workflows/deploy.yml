@@ -70,6 +70,11 @@ jobs:
           test -f quartz/public/static/map-news.js
           test -f quartz/public/static/map-view.js
           test -f quartz/public/static/map-view.css
+          test -f quartz/public/static/map-scope.js
+          test -f quartz/public/static/documents.html
+          test -f quartz/public/static/documents.js
+          test -f quartz/public/static/documents.css
+          test -f quartz/public/static/contentIndex.json
           test -f quartz/public/static/news.html
           test -f quartz/public/static/news-feed.json
           ls quartz/public | head -20

@@ -7,7 +7,7 @@
     ids.forEach(function (id) { ui[id] = document.getElementById("map-" + id); });
     var data = null, result = null, playing = false, timer = null, pulseTimer = null;
     var loading = false, failed = false, epoch = 0;
-    var counterpart = MapNews.relationCounts(graph.nodes, graph.edges);
+    var counterpart = MapNews.relationCounts(graph.nodes.filter(function (n) { return n.type === "company"; }), graph.edges);
     var reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
     ui.motion.checked = reduced.matches;
     ui.mode.options[1].disabled = true;
@@ -27,12 +27,13 @@
     function isNews() { return ui.mode.value === "news" && !!result; }
     function metricName() { return ui.metric.value === "news" ? "기사" : "공시"; }
     function inTheme(n) {
+      if (graph.inScope) return graph.inScope(n);
       var theme = graph.getTheme();
       return !theme || graph.edges.some(function (e) { return e.type === "테마" && e.source === n.id && e.target === theme; });
     }
     function visible(n) {
       if (!isNews()) return true;
-      if (n.type !== "company") return false;
+      if (n.type !== "company") return !!(graph.isKnowledge && graph.isKnowledge() && (n.type === "theme" || n.type === "industry" || n.type === "external"));
       return !ui.active.checked || counts(n)[ui.metric.value] > 0;
     }
     function dateText() { return result ? result.startDate + " ~ " + result.endDate + " · 한국 날짜" : "자료 확인 전"; }
@@ -64,9 +65,9 @@
       if (!result) { element("p", "뉴스 자료를 아직 확인하지 못했습니다.", box, "meta"); return; }
       element("p", dateText(), box, "meta");
       var scopeIds = new Set(graph.nodes.filter(function (n) { return n.type === "company" && inTheme(n); }).map(function (n) { return n.id; }));
-      var scoped = graph.getTheme() ? result.documents.filter(function (d) { return d.companies.some(function (id) { return scopeIds.has(id); }); }) : result.documents;
+      var scoped = graph.inScope || graph.getTheme() ? result.documents.filter(function (d) { return d.companies.some(function (id) { return scopeIds.has(id); }); }) : result.documents;
       element("p", "기사 " + scoped.filter(function (d) { return d.kind === "news"; }).length + " · 공시 " + scoped.filter(function (d) { return d.kind === "disclosure"; }).length, box, "counts");
-      element("p", graph.getTheme() ? "선택한 테마 소속 기업의 전체 소식입니다. 해당 테마만을 다룬 기사 수는 아닙니다." : "아래 수는 공개된 제목 목록 안에서만 비교합니다.", box, "meta");
+      element("p", graph.inScope ? "현재 탐색 범위에 포함된 기업의 전체 소식입니다. 주제별 기사 판정은 아닙니다." : graph.getTheme() ? "선택한 테마 소속 기업의 전체 소식입니다. 해당 테마만을 다룬 기사 수는 아닙니다." : "아래 수는 공개된 제목 목록 안에서만 비교합니다.", box, "meta");
       var ranked = graph.nodes.filter(function (n) { return n.type === "company" && inTheme(n) && counts(n)[ui.metric.value] > 0; })
         .sort(function (a, b) { return counts(b)[ui.metric.value] - counts(a)[ui.metric.value] || a.id.localeCompare(b.id, "ko"); }).slice(0, 10);
       var list = element("ol", null, box, "news-ranking");
@@ -83,6 +84,7 @@
       if (n.type !== "company" && n.type !== "external") return;
       var box = element("section", null, graph.panel, "news-detail"); box.id = "map-news-detail";
       element("h3", "점 크기와 소식", box);
+      if (n.type === "external") { element("p", "페이지 없는 상대는 기업 여부가 분류되지 않아 기업 관계 수·뉴스 집계에서 제외합니다.", box, "meta"); return; }
       element("p", "조건에 맞는 등록 관계 상대 " + (counterpart[n.id] || 0) + "곳", box, "meta");
       if (!result || n.type === "external") { element("p", "이 점의 뉴스 집계 자료는 확인할 수 없습니다.", box, "meta"); return; }
       var c = counts(n);
@@ -127,7 +129,7 @@
       graph.svg.classList.toggle("disclosure-mode", ui.metric.value === "disclosure");
       graph.svg.classList.toggle("reduced-motion", ui.motion.checked || reduced.matches);
       graph.nodes.forEach(function (n) {
-        if (n.type === "theme") return;
+        if (n.type !== "company") return;
         var c = counts(n), value = isNews() ? c[ui.metric.value] : counterpart[n.id] || 0;
         n.r = MapNews.radius(value, ui.scale.value);
         n.w = n.labelWidth + n.r + 8;
@@ -197,12 +199,13 @@
         if (first || ui.date.value < data.minDate || ui.date.value > data.maxDate) ui.date.value = data.maxDate;
         ui.date.disabled = ui.days.disabled = false; ui.mode.options[1].disabled = false;
         if (first && new URLSearchParams(window.location.search).get("mode") === "news") ui.mode.value = "news";
+        if (first && ui.mode.value === "news" && graph.chooseNewsStart) graph.chooseNewsStart(MapNews.aggregate(data, { endDate: ui.date.value, days: Number(ui.days.value) }).byCompany);
         var selected = graph.getShown();
         if (first && selected) {
-          if (selected.type !== "company") ui.mode.value = "relations";
+          if (selected.type !== "company" && !(graph.isKnowledge && graph.isKnowledge())) ui.mode.value = "relations";
           ui.active.checked = false;
         }
-        render(); if (first && !selected) graph.fit();
+        render(); if (first && !selected) { if (graph.arrangeScope) graph.arrangeScope(); graph.fit(); }
       } catch (e) { failed = true; message(); }
       finally { loading = false; ui.refresh.disabled = false; ui.play.disabled = !data; }
     }
@@ -223,7 +226,7 @@
       updateZoom: function (k) {
         var factor = isNews() ? Math.max(1, .8 / k) : 1;
         graph.nodes.forEach(function (n) {
-          if (n.type === "theme") return;
+          if (n.type !== "company") return;
           n.drawR = n.r * factor;
           n.circle.setAttribute("r", n.drawR);
           n.ring.setAttribute("r", n.drawR + 4 * factor);
@@ -234,12 +237,12 @@
           n.badge.setAttribute("y", isNews() ? Math.max(4, 3 / k) : 4);
         });
       },
-      reveal: function (n) { stop(); if (n.type !== "company") ui.mode.value = "relations"; ui.active.checked = false; render(); },
+      reveal: function (n) { stop(); if (n.type !== "company" && !(graph.isKnowledge && graph.isKnowledge())) ui.mode.value = "relations"; ui.active.checked = false; render(); },
       filterChanged: function () { stop(); render(); },
       visibilityChanged: function () {
         graph.nodes.forEach(function (n) { n.g.setAttribute("tabindex", n.visible ? "0" : "-1"); });
         var empty = document.getElementById("map-empty");
-        if (empty) empty.hidden = !isNews() || graph.nodes.some(function (n) { return n.visible; });
+        if (empty) empty.hidden = !isNews() || graph.nodes.some(function (n) { return n.type === "company" && n.visible; });
       }
     };
   }};

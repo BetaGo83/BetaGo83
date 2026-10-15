@@ -32,3 +32,30 @@ svg.news-mode.far .node:not(.theme):not(.hit):not(.dim) text { display: block; }
 @media (prefers-reduced-motion: reduce) { .node.replaying .replay-pulse { animation: none; } }
 svg.reduced-motion .node.replaying .replay-pulse { animation: none; }
 @media (max-width: 600px) { #map-tools { padding: 8px; } .map-toolbar { gap: 6px 10px; } }
+.view-tabs { display: flex; gap: 4px; flex-wrap: wrap; }
+.view-tabs a { display: inline-block; padding: 8px 12px; border: 1px solid var(--line); border-radius: 7px; text-decoration: none; }
+.view-tabs a[aria-current=page] { background: var(--theme-node); color: var(--bg); font-weight: 700; }
+#map-scope-tools { padding: 6px 16px; border-bottom: 1px solid var(--line); font-size: .83rem; }
+#map-scope-tools p { margin: 4px 0; color: var(--muted); }
+#map-scope-tools button, .explore-button { font: inherit; padding: 6px 10px; border: 1px solid var(--line); border-radius: 5px; background: var(--panel); color: var(--text); cursor: pointer; }
+#scope-status { color: var(--muted); }
+#scope-list summary { cursor: pointer; }
+#scope-members { display: flex; gap: 5px; flex-wrap: wrap; max-height: 180px; overflow-y: auto; padding-top: 6px; }
+#knowledge-types[hidden] { display: none; }
+.node.theme .node-body, .node.industry .node-body, .node.industry .attention-ring, .node.industry .replay-pulse, .node.industry .news-badge { display: none; }
+.concept-shape { stroke: var(--bg); stroke-width: 1.5px; cursor: pointer; }
+.theme-shape { fill: var(--theme-node); }
+.industry-shape { fill: #9b6bb5; }
+.node.hit .concept-shape, .node:focus-visible .concept-shape { stroke: var(--focus); stroke-width: 3px; }
+.node.industry text { font-weight: 700; }
+svg.far .node.industry text { display: block; font-size: var(--theme-label, 13px); }
+:root { --industry-edge: #9b6bb5; }
+@media (max-width: 600px) {
+  .view-tabs { width: 100%; }
+  .view-tabs a { min-height: 44px; display: flex; align-items: center; }
+  #map-scope-tools { padding: 8px; }
+  #map-scope-tools button, #scope-members button, .explore-button { min-height: 44px; }
+}
+
+.node.external .node-body, .node.external .attention-ring, .node.external .replay-pulse, .node.external .news-badge { display: none; }
+.external-shape { fill: var(--external-node); }

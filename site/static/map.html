@@ -3,10 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>기업 지도</title>
+<title>기업 관계 지도</title>
 <meta name="description" content="뉴스와 공시로 정리한 기업 관계를 관계 종류별 색으로 보여 주는 지도">
 <link rel="stylesheet" href="./map-view.css">
 <script src="./map-news.js" defer></script>
+<script src="./map-scope.js" defer></script>
 <script src="./map-view.js" defer></script>
 <script>
   // 위키(Quartz)에서 고른 밝은/어두운 화면 설정을 따른다
@@ -117,7 +118,12 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
 </head>
 <body>
 <header>
-  <h1>기업 지도</h1>
+  <h1 id="map-title">기업 관계 지도</h1>
+  <nav class="view-tabs" aria-label="지도 종류">
+    <a id="relations-link" href="./map.html" aria-current="page">기업 관계</a>
+    <a id="knowledge-link" href="./map.html?view=knowledge">지식 탐색</a>
+    <a href="./documents.html">문서 연결</a>
+  </nav>
   <div class="controls">
     <select id="theme" aria-label="테마 고르기"><option value="">모든 산업·테마</option></select>
     <input id="search" type="search" placeholder="기업 이름 찾기" aria-label="기업 이름 찾기" list="names">
@@ -128,9 +134,20 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
   <a href="../" id="home" target="_top">위키로 돌아가기</a>
   <a href="./news.html" id="news" target="_top">뉴스 흐름</a>
 </header>
-<section id="map-tools" aria-label="지도 표시와 자료 기간">
+<section id="map-scope-tools" aria-label="주변 탐색 범위">
+  <p id="view-description"></p>
   <div class="map-toolbar">
-    <label>보기 <select id="map-mode"><option value="relations">기업 관계</option><option value="news">뉴스·공시 분포</option></select></label>
+    <label>주변 범위 <select id="map-depth"><option value="1">1단계</option><option value="2">2단계</option></select></label>
+    <label><input id="map-unconfirmed" type="checkbox"> 확인 중·종료 관계도 보기</label>
+    <span id="knowledge-types" hidden><label><input id="show-theme" type="checkbox" checked> ◇ 주제</label> <label><input id="show-industry" type="checkbox" checked> □ 거래소 업종</label></span>
+    <button id="scope-reset" type="button">처음 범위</button>
+    <span id="scope-status" role="status"></span>
+  </div>
+  <details id="scope-list"><summary>현재 표시 대상 목록</summary><div id="scope-members"></div></details>
+</section>
+<section id="map-tools" aria-label="점 크기와 뉴스 기간">
+  <div class="map-toolbar">
+    <label>기업 점 크기 <select id="map-mode"><option value="relations">관계 상대 수</option><option value="news">기사·공시 수</option></select></label>
     <label>기사·공시 지표
       <select id="map-metric">
         <option value="news">공개 기사 건수</option>
@@ -167,7 +184,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
   </div>
   <aside id="panel">
     <h2>보는 법</h2>
-    <p>점은 기업과 주제 안내, 선은 관계입니다. 색은 관계 종류, 화살표는 방향입니다. 종료된 관계는 흐리게 표시합니다. 계획·후보는 점선이며, 상세 설명에 확인 중으로 표시합니다.</p>
+    <p id="intro-kind">기업을 고르면 주변 기업과 등록된 관계를 확인할 수 있습니다. 기본 화면에는 확인된 관계를 표시하며, 확인 중·종료 관계는 위에서 추가할 수 있습니다.</p>
     <p>위의 산업·테마 목록에서 분야를 골라 보세요. 분야 묶음은 탐색용이며 기업별 거래소 업종과 다릅니다. 지수 편입·공시 확인·공식 발표 확인·후보를 구분하고, 기사 제목 근거에는 약한 근거 표시를 붙입니다.</p>
     <p>점이나 선을 누르면 관계와 근거(공시·기사 링크)가 여기 나옵니다. 끌어서 옮기고, 휠이나 두 손가락으로 확대할 수 있습니다.</p>
     <p class="meta" id="updated"></p>
@@ -186,7 +203,8 @@ window.addEventListener("DOMContentLoaded", function () {
     { key: "계열", color: "--affiliate", directed: false },
     { key: "협력", color: "--partner", directed: false },
     { key: "경쟁", color: "--compete", directed: false },
-    { key: "테마", color: "--theme-edge", directed: false }
+    { key: "테마", color: "--theme-edge", directed: false },
+    { key: "업종", color: "--industry-edge", directed: false }
   ];
   var NARROW = "(max-width: 600px)";
   var embedded = window.self !== window.top;
@@ -204,6 +222,24 @@ window.addEventListener("DOMContentLoaded", function () {
   var view = { x: 0, y: 0, k: 1 };
   var nodes = [], edges = [], byId = {}, ready = false, lastWidth = 0;
   var newsView = null;
+  var params = new URLSearchParams(window.location.search);
+  var mapKind = params.get("view") === "knowledge" ? "knowledge" : "relations";
+  var focusId = params.get("node") || "", scope = null;
+  var isCompany = function (n) { return n.type === "company"; };
+  var scopeUI = { depth: document.getElementById("map-depth"), uncertain: document.getElementById("map-unconfirmed"),
+    themes: document.getElementById("show-theme"), industries: document.getElementById("show-industry") };
+  function nodeName(n) { return n.name || n.id; }
+  document.body.classList.toggle("knowledge-view", mapKind === "knowledge");
+  document.getElementById("map-title").textContent = document.title = mapKind === "knowledge" ? "지식 탐색 지도" : "기업 관계 지도";
+  document.getElementById("relations-link").removeAttribute("aria-current");
+  document.getElementById(mapKind === "knowledge" ? "knowledge-link" : "relations-link").setAttribute("aria-current", "page");
+  document.getElementById("knowledge-types").hidden = mapKind !== "knowledge";
+  document.getElementById("view-description").textContent = mapKind === "knowledge"
+    ? "● 기업 · ◇ 주제 · □ 거래소 업종 · △ 페이지 없는 상대. 선택한 대상 주변의 분류와 관계를 함께 살펴봅니다. 기술·프로젝트·기관은 아직 별도 자료가 없습니다."
+    : "기업 사이의 관계를 살펴봅니다. 산업·테마는 필터이며 기업 사이의 거래를 뜻하지 않습니다.";
+  document.getElementById("intro-kind").textContent = document.getElementById("view-description").textContent;
+  document.getElementById("search").placeholder = mapKind === "knowledge" ? "기업·주제·업종 찾기" : "기업 이름 찾기";
+  svg.setAttribute("aria-label", (mapKind === "knowledge" ? "지식 탐색" : "기업 관계") + " 지도. Tab으로 선택하고 Enter로 자세히 보기");
 
   function kindOf(type) { return KINDS.filter(function (k) { return k.key === type; })[0] || KINDS[KINDS.length - 1]; }
   function el(tag, attrs, parent) {
@@ -279,14 +315,31 @@ window.addEventListener("DOMContentLoaded", function () {
     return;
   }
 
-  fetch("../graph.json", { cache: "no-store" }).then(function (r) {
-    if (!r.ok) throw new Error("HTTP " + r.status);
-    return r.json();
-  }).then(function (data) {
+  async function readGraph() {
+    var controller = new AbortController(), timeout = setTimeout(function () { controller.abort(); }, 10000);
+    try {
+      var response = await fetch("../graph.json", { cache: "no-store", signal: controller.signal, credentials: "omit" });
+      if (!response.ok || Number(response.headers.get("content-length")) > 4194304) throw new Error("지도 응답 확인 실패");
+      var reader = response.body.getReader(), parts = [], size = 0;
+      while (true) {
+        var part = await reader.read(); if (part.done) break;
+        size += part.value.byteLength;
+        if (size > 4194304) { await reader.cancel(); throw new Error("지도 자료 크기 제한"); }
+        parts.push(part.value);
+      }
+      var bytes = new Uint8Array(size), offset = 0;
+      parts.forEach(function (part) { bytes.set(part, offset); offset += part.byteLength; });
+      var data = JSON.parse(new TextDecoder("utf-8", { fatal: true }).decode(bytes));
+      if (!Array.isArray(data.nodes) || data.nodes.length > 1000 || !Array.isArray(data.edges) || data.edges.length > 6000) throw new Error("지도 항목 수 제한");
+      return data;
+    } finally { clearTimeout(timeout); }
+  }
+  readGraph().then(function (data) {
     try { start(data); ready = true; } catch (e) { showError("지도를 그리지 못했습니다", e); }
   }, function (err) { showError("그래프 데이터를 불러오지 못했습니다", err); });
 
   function start(data) {
+    data = MapScope.enrich(data);
     document.getElementById("updated").textContent = "위키 갱신일: " + data.updated;
     intro = panel.innerHTML;
     nodes = list(data.nodes).map(function (n) {
@@ -296,7 +349,13 @@ window.addEventListener("DOMContentLoaded", function () {
     });
     edges = list(data.edges).filter(function (e) { return byId[e.source] && byId[e.target]; })
       .map(function (e) { return Object.assign({}, e, { s: byId[e.source], t: byId[e.target], evidence: list(e.evidence) }); });
+    if (mapKind === "relations" && byId[focusId] && !isCompany(byId[focusId])) {
+      mapKind = "knowledge";
+      var destination = new URL(window.location.href); destination.searchParams.set("view", "knowledge");
+      window.location.replace(destination.href); return;
+    }
     buildControls();
+    if (params.get("theme") && byId[params.get("theme")] && byId[params.get("theme")].type === "theme") document.getElementById("theme").value = params.get("theme");
     layout();
     draw();
     newsView = MapNewsView.create({
@@ -305,9 +364,19 @@ window.addEventListener("DOMContentLoaded", function () {
       clear: function () { clearSelection(); shown = null; panel.innerHTML = intro; },
       find: find,
       getTheme: function () { return document.getElementById("theme").value; },
-      getShown: function () { return shown; }
+      getShown: function () { return shown; },
+      isKnowledge: function () { return mapKind === "knowledge"; },
+      inScope: function (n) { return !!scope && scope.nodeIds.indexOf(n.id) >= 0; },
+      chooseNewsStart: function (stats) {
+        if (focusId || document.getElementById("theme").value || params.get("mode") !== "news") return;
+        var ranked = nodes.filter(function (n) { return n.type === "company"; }).sort(function (a, b) {
+          return ((stats[b.id] || {}).news || 0) - ((stats[a.id] || {}).news || 0) || a.id.localeCompare(b.id, "ko");
+        });
+        if (ranked.length) focusId = ranked[0].id;
+      },
+      arrangeScope: arrangeScope
     });
-    fit();
+    applyFilter(); arrangeScope(); fit();
     var requested = new URLSearchParams(window.location.search).get("node");
     if (requested && Object.prototype.hasOwnProperty.call(byId, requested)) find(requested);
   }
@@ -323,9 +392,24 @@ window.addEventListener("DOMContentLoaded", function () {
       });
     });
     select.options[0].textContent = "모든 산업·테마 (" + themes.length + ")";
-    select.addEventListener("change", function () { applyFilter(); clearSelection(true); if (newsView) newsView.filterChanged(); fit(); });
+    select.addEventListener("change", function () {
+      focusId = ""; clearSelection(); shown = null; panel.innerHTML = intro;
+      if (newsView) newsView.filterChanged(); else applyFilter(); arrangeScope(); fit();
+    });
+    [scopeUI.depth, scopeUI.uncertain, scopeUI.themes, scopeUI.industries].forEach(function (control) {
+      control.addEventListener("change", function () {
+        if (newsView) newsView.filterChanged(); else applyFilter(); clearSelection(true); arrangeScope(); fit();
+        if (shown && shown.visible) select(shown);
+      });
+    });
+    document.getElementById("scope-reset").addEventListener("click", function () {
+      focusId = ""; select.value = ""; scopeUI.depth.value = "1"; scopeUI.uncertain.checked = false;
+      scopeUI.themes.checked = scopeUI.industries.checked = true; hidden = {}; resetLegend();
+      clearSelection(); shown = null; panel.innerHTML = intro;
+      if (newsView) newsView.filterChanged(); else applyFilter(); arrangeScope(); fit();
+    });
     var names = document.getElementById("names");
-    nodes.forEach(function (n) {
+    nodes.filter(function (n) { return mapKind === "knowledge" || isCompany(n); }).forEach(function (n) {
       html("option", null, names, { value: n.id });
       n.aliases.forEach(function (a) { html("option", n.id, names, { value: a }); });
     });
@@ -334,13 +418,15 @@ window.addEventListener("DOMContentLoaded", function () {
     search.addEventListener("keydown", function (ev) { if (ev.key === "Enter") find(search.value); });
     var legend = document.getElementById("legend");
     KINDS.forEach(function (kind) {
-      if (!edges.some(function (e) { return e.type === kind.key; })) return;
+      if ((mapKind === "relations" && (kind.key === "테마" || kind.key === "업종")) || !edges.some(function (e) { return e.type === kind.key; })) return;
       var label = html("label", null, legend);
       var box = html("input", null, label, { type: "checkbox" });
       box.checked = true;
       box.addEventListener("change", function () {
         hidden[kind.key] = !box.checked; applyFilter();
         if (shown && !shown.visible) clearSelection(true);
+        arrangeScope(); fit();
+        if (shown && shown.visible) select(shown);
       });
       var sw = html("span", null, label, { class: "swatch" });
       sw.style.background = "var(" + kind.color + ")";
@@ -348,74 +434,27 @@ window.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // 힘으로 점 자리를 잡는다 (서로 밀어내고, 선으로 이어진 점은 당긴다)
+  // 좌표는 탐색 범위를 바꿀 때만 정한다. 날짜 재생과 뉴스 수 변화는 위치를 바꾸지 않는다.
   function layout() {
-    var themes = nodes.filter(function (n) { return n.type === "theme"; });
-    var R = Math.max(340, themes.length * 24);
-    themes.forEach(function (n, i) {
-      var a = 2 * Math.PI * i / themes.length - Math.PI / 2;
-      n.x = R * Math.cos(a); n.y = R * Math.sin(a);
-    });
-    var anchor = {};
-    edges.forEach(function (e) { if (e.type === "테마") anchor[e.source] = anchor[e.source] || byId[e.target]; });
-    nodes.forEach(function (n, i) {
-      if (n.type === "theme") return;
-      var base = anchor[n.id] || { x: 0, y: 0 };
-      var a = i * 2.399963; // 황금각으로 흩뿌려 겹치지 않게
-      n.x = base.x + 60 * Math.cos(a); n.y = base.y + 60 * Math.sin(a);
-    });
     var ctx = document.createElement("canvas").getContext("2d");
-    nodes.forEach(function (n) {
-      n.vx = 0; n.vy = 0; n.r = n.type === "theme" ? 14 : (n.type === "external" ? 5 : 7);
-      ctx.font = (n.type === "theme" ? "700 13px" : "11px") + " 'Noto Sans KR', system-ui, sans-serif";
-      n.w = n.r + 3 + ctx.measureText(n.id).width;  // 점 왼쪽 끝부터 글자 오른쪽 끝까지
-    });
-    for (var step = 0; step < 500; step++) tick(1 - step / 500);
-    for (step = 0; step < 150; step++) separate();
-  }
-
-  function tick(alpha) {
-    var i, j, a, b, dx, dy, d2, d, f;
-    for (i = 0; i < nodes.length; i++) {
-      for (j = i + 1; j < nodes.length; j++) {
-        a = nodes[i]; b = nodes[j];
-        dx = b.x - a.x; dy = b.y - a.y; d2 = dx * dx + dy * dy || 0.01; d = Math.sqrt(d2);
-        f = 2200 / d2 * alpha;
-        if (d < a.r + b.r + 24) f += (a.r + b.r + 24 - d) * 0.5 * alpha;
-        a.vx -= dx / d * f; a.vy -= dy / d * f; b.vx += dx / d * f; b.vy += dy / d * f;
-      }
-    }
-    edges.forEach(function (e) {
-      var len = e.type === "테마" ? 140 : 90, k = e.type === "테마" ? 0.02 : 0.05;
-      dx = e.t.x - e.s.x; dy = e.t.y - e.s.y; d = Math.sqrt(dx * dx + dy * dy) || 0.01;
-      f = (d - len) * k * alpha;
-      e.s.vx += dx / d * f; e.s.vy += dy / d * f; e.t.vx -= dx / d * f; e.t.vy -= dy / d * f;
-    });
-    nodes.forEach(function (n) {
-      n.vx -= n.x * 0.004 * alpha; n.vy -= n.y * 0.004 * alpha;
-      n.x += n.vx; n.y += n.vy;
-      n.vx *= 0.6; n.vy *= 0.6;
+    nodes.forEach(function (n, i) {
+      n.x = (i % 12) * 150; n.y = Math.floor(i / 12) * 90;
+      n.r = isCompany(n) ? 7 : 13;
+      ctx.font = "11px system-ui, sans-serif";
+      n.w = n.r + 8 + ctx.measureText(nodeName(n)).width;
     });
   }
-
-  // 점과 글자 상자가 겹치면 위아래(조금은 옆으로)로 밀어낸다
-  function separate() {
-    for (var i = 0; i < nodes.length; i++) {
-      for (var j = i + 1; j < nodes.length; j++) {
-        var a = nodes[i], b = nodes[j];
-        var ax1 = a.x - a.r - 4, ax2 = a.x + a.w + 4, bx1 = b.x - b.r - 4, bx2 = b.x + b.w + 4;
-        var ah = Math.max(a.r, 9) + 3, bh = Math.max(b.r, 9) + 3;
-        var ox = Math.min(ax2, bx2) - Math.max(ax1, bx1), oy = Math.min(a.y + ah, b.y + bh) - Math.max(a.y - ah, b.y - bh);
-        if (ox <= 0 || oy <= 0) continue;
-        if (oy < ox) {
-          var sy = (a.y < b.y ? -1 : 1) * oy / 2;
-          a.y += sy; b.y -= sy;
-        } else {
-          var sx = (a.x < b.x ? -1 : 1) * ox / 2;
-          a.x += sx; b.x -= sx;
-        }
-      }
-    }
+  function arrangeScope() {
+    if (!scope) return;
+    var ordered = scope.nodeIds.map(function (id) { return byId[id]; });
+    ordered.forEach(function (n, i) {
+      if (!i) { n.x = 0; n.y = 0; return; }
+      var ring = Math.floor((i - 1) / 10) + 1;
+      var count = Math.min(10, ordered.length - 1 - (ring - 1) * 10);
+      var angle = 2 * Math.PI * ((i - 1) % 10) / Math.max(1, count) - Math.PI / 2;
+      n.x = Math.cos(angle) * ring * 235; n.y = Math.sin(angle) * ring * 135;
+    });
+    position();
   }
 
   function draw() {
@@ -441,11 +480,14 @@ window.addEventListener("DOMContentLoaded", function () {
       n.g = el("g", { class: "node " + n.type, tabindex: 0, role: "button", "aria-label": n.id + (n.summary ? ", " + n.summary : "") }, nodeLayer);
       n.hitC = el("circle", { class: "node-hit", r: n.r + 3 }, n.g);  // 축소해도 누르기 쉽게 하는 투명 영역
       n.circle = el("circle", { r: n.r }, n.g);
+      if (n.type === "external") el("path", { d: "M0,-12 L12,10 L-12,10 Z", class: "concept-shape external-shape" }, n.g);
+      if (n.type === "theme") el("path", { d: "M0,-14 L14,0 L0,14 L-14,0 Z", class: "concept-shape theme-shape" }, n.g);
+      if (n.type === "industry") el("rect", { x: -11, y: -11, width: 22, height: 22, rx: 2, class: "concept-shape industry-shape" }, n.g);
       n.ring = el("circle", { class: "attention-ring", r: n.r + 4, "aria-hidden": "true" }, n.g);
       n.pulse = el("circle", { class: "replay-pulse", r: n.r + 8, "aria-hidden": "true" }, n.g);
       n.badge = el("text", { class: "news-badge", x: 0, y: 4, "text-anchor": "middle", "aria-hidden": "true" }, n.g);
       var label = n.label = el("text", { x: n.r + 7, y: 4 }, n.g);
-      label.textContent = n.id;
+      label.textContent = nodeName(n);
       n.g.addEventListener("click", function (ev) { if (!n.moved) select(n); ev.stopPropagation(); });
       n.g.addEventListener("keydown", function (ev) {
         if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); select(n); }
@@ -502,34 +544,45 @@ window.addEventListener("DOMContentLoaded", function () {
     position();
   }
 
-  // 테마 필터와 숨긴 관계 종류를 반영한다. 보이는 선이 하나도 없는 '페이지 없는 상대'는 숨긴다
   function applyFilter() {
-    var theme = document.getElementById("theme").value;
-    var keep = {};
-    if (theme) {
-      keep[theme] = true;
-      edges.forEach(function (e) { if (e.type === "테마" && e.target === theme) keep[e.source] = true; });
-      edges.forEach(function (e) {
-        if (e.type === "테마" || hidden[e.type]) return;
-        if (keep[e.source] && e.t.type === "external") keep[e.target] = true;
-        if (keep[e.target] && e.s.type === "external") keep[e.source] = true;
-      });
+    var types = ["company"];
+    if (mapKind === "knowledge") {
+      types.push("external");
+      if (scopeUI.themes.checked) types.push("theme");
+      if (scopeUI.industries.checked) types.push("industry");
     }
-    nodes.forEach(function (n) { n.visible = (!theme || !!keep[n.id]) && (!newsView || newsView.isVisible(n)); });
-    var connected = {};
-    edges.forEach(function (e) {
-      e.shown = !hidden[e.type] && e.s.visible && e.t.visible;
-      if (e.shown) { connected[e.source] = true; connected[e.target] = true; }
-    });
+    scope = MapScope.select(nodes, edges, { view: mapKind, focus: focusId,
+      theme: document.getElementById("theme").value, depth: Number(scopeUI.depth.value), limit: 80,
+      hiddenKinds: hidden, includeUnconfirmed: scopeUI.uncertain.checked, types: types });
+    var kept = new Set(scope.nodeIds), keptEdges = new Set(scope.edgeIndices);
     nodes.forEach(function (n) {
-      if (n.type === "external" && !connected[n.id]) n.visible = false;
-      n.g.style.display = n.visible ? "" : "none";
+      n.visible = kept.has(n.id) && (!newsView || newsView.isVisible(n));
+      n.g.style.display = n.visible ? "" : "none"; n.g.setAttribute("tabindex", n.visible ? "0" : "-1");
+      n.g.setAttribute("aria-hidden", n.visible ? "false" : "true");
     });
-    edges.forEach(function (e) {
-      var show = e.shown && e.s.visible && e.t.visible;
-      e.line.style.display = e.hit.style.display = show ? "" : "none";
+    edges.forEach(function (e, i) {
+      e.shown = keptEdges.has(i) && e.s.visible && e.t.visible;
+      e.line.style.display = e.hit.style.display = e.shown ? "" : "none";
+    });
+    var visible = nodes.filter(function (n) { return n.visible; });
+    var visibleEdges = edges.filter(function (e) { return e.shown; }).length;
+    var root = document.getElementById("theme").value || focusId || scope.focusId || "선택 없음";
+    document.getElementById("scope-status").textContent = root + " 주변 · 표시 " + visible.length + "점 / " + visibleEdges
+      + "선 · 범위 내 숨김 " + (scope.totalNodes - visible.length) + "점 / " + (scope.totalEdges - visibleEdges) + "선 · 최대 80점";
+    var members = document.getElementById("scope-members"); members.textContent = "";
+    visible.forEach(function (n) {
+      var button = html("button", nodeName(n) + (n.type === "theme" ? " · 주제" : n.type === "industry" ? " · 업종" : n.type === "external" ? " · 페이지 없는 상대" : " · 기업"), members, { type: "button" });
+      button.addEventListener("click", function () { select(n); });
     });
     if (newsView) newsView.visibilityChanged();
+    ["relations", "knowledge"].forEach(function (kind) {
+      var query = new URLSearchParams(); if (kind === "knowledge") query.set("view", "knowledge");
+      var theme = document.getElementById("theme").value;
+      if (theme) query.set("theme", theme);
+      else if (scope.focusId && (kind === "knowledge" || byId[scope.focusId].type === "company")) query.set("node", scope.focusId);
+      if (document.getElementById("map-mode").value === "news") query.set("mode", "news");
+      document.getElementById(kind + "-link").href = "./map.html" + (query.size ? "?" + query.toString() : "");
+    });
   }
 
   function edgeText(e) {
@@ -559,7 +612,13 @@ window.addEventListener("DOMContentLoaded", function () {
     var status = document.getElementById("status"), hint = document.getElementById("hint");
     if (!n) { status.textContent = hint.textContent = "'" + text + "'와(과) 맞는 기업이 없습니다"; return; }
     hint.textContent = baseHint;
-    if (!n.visible) { document.getElementById("theme").value = ""; hidden = {}; resetLegend(); if (newsView) newsView.reveal(n); applyFilter(); }
+    if (mapKind === "relations" && !isCompany(n)) {
+      window.location.href = "./map.html?view=knowledge&node=" + encodeURIComponent(n.id); return;
+    }
+    focusId = n.id; document.getElementById("theme").value = "";
+    if (n.type === "theme") scopeUI.themes.checked = true;
+    if (n.type === "industry") scopeUI.industries.checked = true;
+    hidden = {}; resetLegend(); if (newsView) newsView.reveal(n); applyFilter(); arrangeScope(); fit();
     var box = svg.getBoundingClientRect();
     view.x = box.width / 2 - n.x * view.k; view.y = box.height / 2 - n.y * view.k;
     position();
@@ -573,14 +632,17 @@ window.addEventListener("DOMContentLoaded", function () {
     selected = shown = n;
     svg.classList.add("selecting");
     var near = {}; near[n.id] = true;
-    edges.forEach(function (e) { if (e.source === n.id) near[e.target] = true; if (e.target === n.id) near[e.source] = true; });
+    edges.forEach(function (e) { if (!e.shown) return; if (e.source === n.id) near[e.target] = true; if (e.target === n.id) near[e.source] = true; });
     nodes.forEach(function (m) { m.g.classList.toggle("dim", !near[m.id]); m.g.classList.toggle("hit", m === n); });
     edges.forEach(function (e) { e.line.classList.toggle("dim", !(e.source === n.id || e.target === n.id)); });
 
     panel.innerHTML = "";
-    html("h2", n.id, panel);
+    html("h2", nodeName(n), panel);
+    var explore = html("button", "이 대상 주변 펼치기", html("p", null, panel), { type: "button", class: "explore-button" });
+    explore.addEventListener("click", function () { find(n.id); });
     var meta = [];
     if (n.type === "theme") meta.push("주제 안내");
+    if (n.type === "industry") meta.push("공개 기업 정보의 거래소 업종을 묶어 표시 · 별도 위키 페이지 없음");
     if (n.type === "external") meta.push("위키 페이지가 아직 없는 상대");
     if (n.market) meta.push(n.market + (n.ticker ? " " + n.ticker : ""));
     if (n.krx_industry) meta.push("거래소 업종: " + n.krx_industry + " (" + (n.classification_as_of || "기준일 미상") + ")");
@@ -637,9 +699,9 @@ window.addEventListener("DOMContentLoaded", function () {
         });
       });
     }
-    var rels = edges.filter(function (e) { return e.type !== "테마" && (e.source === n.id || e.target === n.id); });
+    var rels = edges.filter(function (e) { return e.shown && e.type !== "테마" && (e.source === n.id || e.target === n.id); });
     if (rels.length) {
-      html("h3", "관계", panel);
+      html("h3", "현재 지도에 표시된 연결", panel);
       var rl = html("ul", null, panel);
       rels.forEach(function (e) {
         var other = e.source === n.id ? e.target : e.source;
