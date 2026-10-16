@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>상장사 목록 — BetaGo83</title>
+<meta name="description" content="한국거래소 상장법인 보관 목록에서 회사·종목코드·업종을 찾고, 작성된 기업 위키와 지도로 이동합니다.">
+<script src="./companies.js?v=20261017-2" defer></script>
+<style>
+:root { color-scheme:light; --bg:#faf8f8; --panel:#fff; --text:#2b2b2b; --muted:#5f5f5f; --line:#dedede; --link:#284b63; --soft:#edf3f1; }
+@media(prefers-color-scheme:dark) { :root:not([data-theme="light"]) { color-scheme:dark; --bg:#161618; --panel:#1f1f22; --text:#ebebec; --muted:#b4b4ba; --line:#464348; --link:#a3c2d7; --soft:#273a35; } }
+:root[data-theme="dark"] { color-scheme:dark; --bg:#161618; --panel:#1f1f22; --text:#ebebec; --muted:#b4b4ba; --line:#464348; --link:#a3c2d7; --soft:#273a35; }
+* { box-sizing:border-box; }
+[hidden] { display:none!important; }
+body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 "Noto Sans KR",system-ui,-apple-system,sans-serif; word-break:keep-all; overflow-wrap:anywhere; }
+a { color:var(--link); text-underline-offset:3px; }
+button,input,select { font:inherit; color:var(--text); min-height:44px; padding:8px 11px; background:var(--panel); border:1px solid var(--line); border-radius:7px; }
+button { cursor:pointer; } button:disabled { opacity:.45; cursor:default; }
+:focus-visible { outline:3px solid var(--link); outline-offset:3px; }
+.wrap { width:min(100% - 36px,1080px); margin:auto; }
+header { background:var(--panel); border-bottom:1px solid var(--line); }
+.topbar { display:flex; justify-content:space-between; gap:16px; padding-block:14px; align-items:center; }
+.brand { font-weight:700; text-decoration:none; }
+nav { display:flex; gap:8px 18px; flex-wrap:wrap; font-size:.9rem; }
+main { padding-block:24px 40px; }
+h1 { margin:0; font-size:clamp(1.8rem,4vw,2.35rem); letter-spacing:-.04em; }
+.intro,.small { color:var(--muted); }.small { font-size:.85rem; }
+.snapshot { padding:14px 16px; border:1px solid var(--line); border-radius:10px; background:var(--panel); }
+.snapshot p { margin:3px 0; }.snapshot #counts { font-weight:650; color:var(--text); }
+.sources { display:flex; gap:12px; flex-wrap:wrap; }
+.filters { margin:22px 0; }.filters fieldset { padding:0; margin:0; border:0; display:grid; grid-template-columns:2fr 1fr; gap:12px; }
+.filters label { display:flex; flex-direction:column; gap:4px; font-size:.85rem; min-width:0; }.filters input,.filters select { width:100%; min-width:0; }
+.filters legend { font-weight:650; margin-bottom:8px; }
+.result-title { font-size:1.05rem; margin:0 0 8px; }
+.table-wrap { width:100%; overflow-x:auto; border:1px solid var(--line); border-radius:8px; background:var(--panel); }
+table { width:100%; border-collapse:collapse; table-layout:fixed; font-size:.9rem; }
+caption { padding:10px; text-align:left; color:var(--muted); font-size:.82rem; }
+th,td { padding:12px 14px; text-align:left; vertical-align:top; border-bottom:1px solid var(--line); }
+thead { background:var(--soft); }th:nth-child(1) { width:28%; }th:nth-child(2) { width:16%; }th:nth-child(3) { width:29%; }th:nth-child(4) { width:27%; }
+tbody tr:last-child td { border-bottom:0; }.code { font-size:.8rem; font-variant-numeric:tabular-nums; color:var(--muted); }
+.row-links { display:flex; flex-wrap:wrap; gap:6px 14px; }
+.pending { color:var(--muted); font-size:.83rem; }
+.pager { display:flex; justify-content:center; align-items:center; gap:16px; margin-top:22px; }
+.notice { padding:16px; background:var(--soft); border-radius:8px; }
+footer { border-top:1px solid var(--line); padding:18px 0; color:var(--muted); font-size:.82rem; }
+.skip { position:absolute; top:-80px; left:12px; padding:10px; background:var(--panel); }.skip:focus { top:8px; }
+@media(max-width:650px) { .wrap { width:calc(100% - 28px); }.topbar { align-items:flex-start; }.filters fieldset { grid-template-columns:1fr; }th,td { padding:10px 8px; }table { font-size:.83rem; }th:nth-child(1) { width:29%; }th:nth-child(2) { width:18%; }th:nth-child(3) { width:28%; }th:nth-child(4) { width:25%; }.row-links { flex-direction:column; gap:6px; }.pager { gap:10px; font-size:.85rem; } }
+@media(max-width:380px) { .topbar { display:block; }nav { margin-top:8px; } }
+</style>
+</head>
+<body>
+<a class="skip" href="#results">회사 목록으로 이동</a>
+<header><div class="wrap topbar"><a class="brand" href="../" target="_top">BetaGo83</a><nav aria-label="사이트 탐색"><a href="./map.html?view=knowledge&amp;scope=all" target="_top">전체 맵</a><a href="./news.html" target="_top">뉴스 흐름</a><a href="../" target="_top">위키</a></nav></div></header>
+<main class="wrap">
+  <h1>상장사 목록</h1>
+  <p class="intro">코스피·코스닥 회사의 이름, 종목코드와 KIND 기재 업종을 찾아보세요. 작성된 기업 위키가 있는 회사는 지도에서도 살펴볼 수 있습니다.</p>
+  <section class="snapshot" aria-label="목록 기준과 구축 범위">
+    <p id="as-of">자료 기준일 확인 중</p><p id="counts">목록을 불러오는 중입니다.</p>
+    <p class="small">과거에 보관한 상장법인 목록입니다. 현재 상장 여부와 이름 변경은 공식 자료에서 확인하세요. 코넥스·해외·비상장 회사는 이 목록에 포함하지 않습니다.</p>
+    <p class="small">이 표의 업종은 KIND 목록에 적힌 분류로, 지도에서 쓰는 시장 업종과 다를 수 있습니다. 업종만으로 테마나 회사 사이의 관계를 만들지 않습니다. 위키가 없는 회사는 테마 연결 미구축으로 표시합니다.</p>
+    <p class="small">일부 회사의 업종 표기는 이 페이지에서 생략했습니다. 해당 업종은 아래 공식 KIND 목록에서 확인하세요.</p>
+    <p id="sources" class="small sources"></p>
+  </section>
+  <form id="filters" class="filters" role="search"><fieldset id="filter-fields" disabled><legend>목록에서 찾기</legend>
+    <label>회사명·종목코드·업종<input id="search" type="search" maxlength="120" autocomplete="off" placeholder="예: 삼성전자, 005930, 반도체"></label>
+    <label>시장<select id="market"><option value="">전체 시장</option><option value="KOSPI">코스피</option><option value="KOSDAQ">코스닥</option></select></label>
+  </fieldset></form>
+  <section id="results" tabindex="-1" aria-labelledby="result-title"><h2 id="result-title" class="result-title" role="status" aria-live="polite">목록 확인 중</h2>
+    <p id="error" class="notice" role="alert" hidden>목록을 불러오지 못했습니다. 잠시 뒤 페이지를 다시 열어 주세요. 이 표시는 회사가 0개라는 뜻이 아닙니다.</p>
+    <div id="table-wrap" class="table-wrap" hidden><table><caption>회사 이름순 · 한 페이지 최대 50개 · 같은 종목코드의 중복 행은 합쳤습니다.</caption><thead><tr><th scope="col">회사 / 종목코드</th><th scope="col">시장</th><th scope="col">KIND 기재 업종</th><th scope="col">위키·지도</th></tr></thead><tbody id="company-rows"></tbody></table></div>
+    <p id="empty" class="notice" hidden>검색 조건에 맞는 회사가 없습니다.</p>
+    <div id="pager" class="pager" hidden><button id="prev" type="button">이전</button><span id="page-number"></span><button id="next" type="button">다음</button></div>
+  </section>
+  <noscript><p class="notice">검색 목록에는 JavaScript가 필요합니다. <a href="../" target="_top">기업 위키</a>에서 작성된 회사 정보를 볼 수 있습니다.</p></noscript>
+</main>
+<footer><div class="wrap"><p>목록에 있다는 사실은 특정 테마 소속이나 사업 관계를 뜻하지 않습니다. 거래소 원문과 기업별 확인 근거를 구분해 살펴보세요.</p><p>AI가 뉴스와 공시를 바탕으로 정리한 참고 자료입니다. 틀린 내용이 있을 수 있으니 원문을 확인하세요. 투자 권유가 아닙니다.</p></div></footer>
+</body>
+</html>

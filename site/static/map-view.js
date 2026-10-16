@@ -305,10 +305,10 @@
         return readViewState(state);
       },
       updateZoom: function (k) {
-        var factor = isNews() ? Math.max(1, .8 / k) : 1;
+        var factor = graph.svg.classList.contains("overview") ? Math.max(1, .6 / k) : isNews() ? Math.max(1, .8 / k) : 1;
         graph.nodes.forEach(function (n) {
           if (n.type !== "company") return;
-          n.drawR = n.r * factor;
+          n.drawR = graph.svg.classList.contains("overview") && !isNews() ? Math.max(n.r * factor, 3.2 / k) : n.r * factor;
           n.circle.setAttribute("r", n.drawR);
           n.ring.setAttribute("r", n.drawR + 4 * factor);
           n.pulse.setAttribute("r", n.drawR + 8 * factor);

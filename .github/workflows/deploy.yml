@@ -72,6 +72,11 @@ jobs:
           test -f quartz/public/static/map-view.js
           test -f quartz/public/static/map-view.css
           test -f quartz/public/static/map-scope.js
+          test -f quartz/public/static/map-overview.js
+          test -f quartz/public/static/analytics.js
+          test -f quartz/public/static/companies.html
+          test -f quartz/public/static/companies.js
+          test -f quartz/public/static/companies.json
           test -f quartz/public/static/documents.html
           test -f quartz/public/static/documents.js
           test -f quartz/public/static/documents.css

@@ -120,10 +120,17 @@
     return Object.keys(peers).sort(function (a, b) { return peers[b].size - peers[a].size || ordered(a, b); })[0] || null;
   }
   function normalize(options) {
-    var result = Object.assign({ view: "relations", depth: 1, limit: 80, includeUnconfirmed: false }, options || {});
-    if (["relations", "knowledge"].indexOf(result.view) < 0 || [1, 2].indexOf(result.depth) < 0
+    var result = Object.assign({ view: "relations", mode: "nearby", depth: 1, includeUnconfirmed: false }, options || {});
+    if (result.limit === undefined) result.limit = result.mode === "all" ? 400 : 80;
+    if (["relations", "knowledge"].indexOf(result.view) < 0 || ["nearby", "all"].indexOf(result.mode) < 0
+      || [1, 2].indexOf(result.depth) < 0
       || !Number.isInteger(result.limit) || result.limit < 1) throw new Error("Invalid graph scope options");
-    result.limit = Math.min(80, result.limit);
+    result.limit = Math.min(result.mode === "all" ? 400 : 80, result.limit);
+    if (result.mode === "all") {
+      if (result.edgeLimit === undefined) result.edgeLimit = 1200;
+      if (!Number.isInteger(result.edgeLimit) || result.edgeLimit < 1) throw new Error("Invalid graph edge limit");
+      result.edgeLimit = Math.min(1200, result.edgeLimit);
+    }
     return result;
   }
   function defaultFocus(nodes, edges, options) {
@@ -133,6 +140,25 @@
   }
   function select(nodes, edges, options) {
     var all = validGraph(nodes, edges), opts = normalize(options), allowed = permittedNodes(nodes, opts);
+    if (opts.mode === "all") {
+      // Whole-map scope ignores focus/theme. Use nearby mode for a subject or theme neighborhood.
+      var rankedAll = Object.keys(allowed).sort(ordered), nodeIdsAll = rankedAll.slice(0, opts.limit);
+      var keptAll = new Set(nodeIdsAll), candidatesAll = [];
+      edges.forEach(function (edge, index) { if (eligible(edge, allowed, opts)) candidatesAll.push(index); });
+      candidatesAll.sort(function (a, b) {
+        return ordered(edges[a].source, edges[b].source) || ordered(edges[a].target, edges[b].target)
+          || ordered(edges[a].type || "", edges[b].type || "") || a - b;
+      });
+      var edgeIndicesAll = candidatesAll.filter(function (index) {
+        return keptAll.has(edges[index].source) && keptAll.has(edges[index].target);
+      }).slice(0, opts.edgeLimit);
+      var hiddenNodesAll = rankedAll.length - nodeIdsAll.length;
+      var hiddenEdgesAll = candidatesAll.length - edgeIndicesAll.length;
+      return { nodeIds: nodeIdsAll, edgeIndices: edgeIndicesAll, focusId: null, rootIds: [],
+        totalNodes: rankedAll.length, hiddenNodes: hiddenNodesAll,
+        totalEdges: candidatesAll.length, hiddenEdges: hiddenEdgesAll,
+        truncated: hiddenNodesAll > 0 || hiddenEdgesAll > 0 };
+    }
     var candidates = [], adjacent = Object.create(null);
     Object.keys(allowed).forEach(function (id) { adjacent[id] = new Set(); });
     edges.forEach(function (edge, index) {
