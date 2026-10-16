@@ -1,13 +1,32 @@
 /* Public map controls. Counts are derived only from the published title feed. */
 (function () {
   "use strict";
-  window.MapNewsView = { create: function (graph) {
+  function validDate(value) {
+    if (typeof value !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(value) || value.slice(0, 4) === "0000") return false;
+    var time = Date.parse(value + "T00:00:00Z");
+    return Number.isFinite(time) && new Date(time).toISOString().slice(0, 10) === value;
+  }
+  // Keep this small URL whitelist in sync with the document view's readViewState.
+  function readViewState(search) {
+    var params = new URLSearchParams(search), state = {};
+    var allowed = { mode: ["relations", "news"], metric: ["news", "disclosure"], scale: ["log", "area"], days: ["1", "7", "14"] };
+    Object.keys(allowed).forEach(function (key) {
+      var values = params.getAll(key);
+      if (values.length === 1 && allowed[key].indexOf(values[0]) >= 0) state[key] = values[0];
+    });
+    var dates = params.getAll("date");
+    if (dates.length === 1 && validDate(dates[0])) state.date = dates[0];
+    return state;
+  }
+  window.MapNewsView = { readViewState: readViewState, create: function (graph) {
     var ids = ["mode", "metric", "scale", "active", "fit", "date", "days", "play", "motion", "refresh", "play-state", "data-status", "encoding", "new-material", "new-status", "new-date"];
     var ui = {};
     ids.forEach(function (id) { ui[id] = document.getElementById("map-" + id); });
     var data = null, result = null, playing = false, timer = null, pulseTimer = null;
     var loading = false, failed = false, epoch = 0, observedTimer = null, checkedAt = null, rollback = false, recentChange = null, request = null;
-    var modeChosen = false, startChosen = false;
+    var modeChosen = false, startChosen = false, dateChosen = false;
+    var initialState = readViewState(window.location.search);
+    ["metric", "scale", "days"].forEach(function (key) { if (initialState[key]) ui[key].value = initialState[key]; });
     var browserClock = new Intl.DateTimeFormat("ko-KR", { timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", second: "2-digit", hourCycle: "h23" });
     var counterpart = MapNews.relationCounts(graph.nodes.filter(function (n) { return n.type === "company"; }), graph.edges);
     var reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -223,12 +242,12 @@
         rollback = change.reason === "rollback";
         if (rollback) { recentChange = change; updateNotice(); message(); setState("이전 게시본 · 직전 자료 유지"); return; }
         data = incoming; recentChange = first ? null : change;
-        if (first) ui.date.value = data.maxDate;
+        if (first) ui.date.value = dateChosen && validDate(ui.date.value) ? ui.date.value : !dateChosen && initialState.date || data.maxDate;
         ui.date.min = ui.date.value < data.minDate ? ui.date.value : data.minDate;
         ui.date.max = ui.date.value > data.maxDate ? ui.date.value : data.maxDate;
         ui.date.disabled = ui.days.disabled = false; ui.mode.options[1].disabled = false;
         var selected = graph.getShown();
-        if (first && !modeChosen && new URLSearchParams(window.location.search).get("mode") === "news") ui.mode.value = "news";
+        if (first && !modeChosen && initialState.mode === "news") ui.mode.value = "news";
         if (first && !selected && !startChosen && ui.mode.value === "news" && graph.chooseNewsStart) graph.chooseNewsStart(MapNews.aggregate(data, { endDate: ui.date.value, days: Number(ui.days.value) }).byCompany);
         if (first && selected) {
           if (selected.type !== "company" && !(graph.isKnowledge && graph.isKnowledge())) ui.mode.value = "relations";
@@ -253,7 +272,8 @@
       startChosen = true; stop(); graph.clear(); render(); if (key === "mode" || key === "active") graph.fit();
     }); });
     ui.date.addEventListener("change", function () {
-      if (!data || !/^\d{4}-\d{2}-\d{2}$/.test(ui.date.value) || ui.date.value < ui.date.min || ui.date.value > ui.date.max) { ui.date.value = data && data.maxDate || ""; }
+      dateChosen = startChosen = true;
+      if (!validDate(ui.date.value) || data && (ui.date.value < ui.date.min || ui.date.value > ui.date.max)) { ui.date.value = data && data.maxDate || ""; }
       stop(); graph.clear(); render();
     });
     ui.play.addEventListener("click", play); ui.refresh.addEventListener("click", refresh); ui.fit.addEventListener("click", graph.fit);
@@ -270,6 +290,13 @@
     render(); refresh();
     return {
       isVisible: visible, showDetails: details,
+      navigationState: function () {
+        var state = new URLSearchParams();
+        ["mode", "metric", "scale", "days"].forEach(function (key) { state.set(key, ui[key].value); });
+        if (!data && !modeChosen && initialState.mode) state.set("mode", initialState.mode);
+        state.set("date", !data && !dateChosen ? initialState.date || "" : ui.date.value);
+        return readViewState(state);
+      },
       updateZoom: function (k) {
         var factor = isNews() ? Math.max(1, .8 / k) : 1;
         graph.nodes.forEach(function (n) {

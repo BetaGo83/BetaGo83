@@ -23,6 +23,21 @@
       return part.replace(/\s/g, "-").replace(/&/g, "-and-").replace(/%/g, "-percent").replace(/\?/g, "").replace(/#/g, "");
     }).join("/") : null;
   }
+  // Same navigation whitelist as MapNewsView; document selection has its own slug check.
+  function readViewState(search) {
+    var params = new URLSearchParams(search), state = {};
+    var allowed = { mode: ["relations", "news"], metric: ["news", "disclosure"], scale: ["log", "area"], days: ["1", "7", "14"] };
+    Object.keys(allowed).forEach(function (key) {
+      var values = params.getAll(key);
+      if (values.length === 1 && allowed[key].indexOf(values[0]) >= 0) state[key] = values[0];
+    });
+    var dates = params.getAll("date"), date = dates.length === 1 ? dates[0] : "";
+    if (/^\d{4}-\d{2}-\d{2}$/.test(date) && date.slice(0, 4) !== "0000") {
+      var time = Date.parse(date + "T00:00:00Z");
+      if (Number.isFinite(time) && new Date(time).toISOString().slice(0, 10) === date) state.date = date;
+    }
+    return state;
+  }
   function prepare(index) {
     if (!object(index)) throw new Error("Invalid content index");
     var keys = Object.keys(index);
@@ -99,7 +114,7 @@
   async function start() {
     var select = document.getElementById("document-select"), search = document.getElementById("document-search"), depth = document.getElementById("document-depth");
     var status = document.getElementById("document-status"), counts = document.getElementById("document-counts"), svg = document.getElementById("document-graph"), panel = document.getElementById("document-detail");
-    var model, selected;
+    var model, selected, viewState = readViewState(window.location.search);
     function html(tag, text, parent) { var element = document.createElement(tag); if (text != null) element.textContent = text; if (parent) parent.appendChild(element); return element; }
     function shape(tag, attrs, parent) { var element = document.createElementNS("http://www.w3.org/2000/svg", tag); Object.keys(attrs).forEach(function (key) { element.setAttribute(key, attrs[key]); }); parent.appendChild(element); return element; }
     function options(query) {
@@ -131,6 +146,13 @@
     }
     function render() {
       var view = neighborhood(model, selected, Number(depth.value)), layout = positions(view.ids), pointById = Object.create(null), current = model.bySlug[selected];
+      ["relations", "knowledge"].forEach(function (kind) {
+        var query = new URLSearchParams(viewState);
+        if (kind === "knowledge") query.set("view", "knowledge");
+        // The map verifies this public slug against its loaded graph; never guess from a title.
+        if (current.kind === "companies" || current.kind === "themes") query.set("document", current.id);
+        document.getElementById(kind + "-link").href = "./map.html" + (query.size ? "?" + query.toString() : "");
+      });
       layout.points.forEach(function (point) { pointById[point.id] = point; });
       svg.replaceChildren(); svg.setAttribute("viewBox", "0 0 " + layout.width + " " + layout.height);
       var defs = shape("defs", {}, svg);
@@ -170,7 +192,8 @@
     try {
       model = await readIndex(fetch, controller.signal);
       if (!model.nodes.length) throw new Error("No public knowledge documents");
-      var requested = new URLSearchParams(window.location.search).get("node");
+      var requestedValues = new URLSearchParams(window.location.search).getAll("node");
+      var requested = requestedValues.length === 1 ? requestedValues[0] : null;
       selected = requested && Object.prototype.hasOwnProperty.call(model.bySlug, requested) ? requested : Object.prototype.hasOwnProperty.call(model.bySlug, "companies/삼성전자") ? "companies/삼성전자" : model.nodes[0].id;
       search.disabled = select.disabled = depth.disabled = false; options(""); render();
       select.addEventListener("change", function () { choose(select.value); });
@@ -186,5 +209,5 @@
       counts.textContent = "자료 확인 실패 · 문서나 링크가 0개라는 뜻은 아닙니다.";
     } finally { clearTimeout(timer); }
   }
-  return { prepare: prepare, neighborhood: neighborhood, positions: positions, safeSlug: safeSlug, pageURL: pageURL, readIndex: readIndex, start: start };
+  return { prepare: prepare, neighborhood: neighborhood, positions: positions, safeSlug: safeSlug, pageURL: pageURL, readIndex: readIndex, readViewState: readViewState, start: start };
 });

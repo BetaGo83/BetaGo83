@@ -9,7 +9,7 @@
 <script src="./map-news.js?v=20261016-observed1" defer></script>
 <script src="./news-feed.js?v=20261016-observed1" defer></script>
 <script src="./map-scope.js" defer></script>
-<script src="./map-view.js?v=20261016-scopefit1" defer></script>
+<script src="./map-view.js?v=20261016-navigation1" defer></script>
 <script>
   // 위키(Quartz)에서 고른 밝은/어두운 화면 설정을 따른다
   try { var t = localStorage.getItem("theme"); if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
@@ -123,7 +123,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
   <nav class="view-tabs" aria-label="지도 종류">
     <a id="relations-link" href="./map.html" aria-current="page">기업 관계</a>
     <a id="knowledge-link" href="./map.html?view=knowledge">지식 탐색</a>
-    <a href="./documents.html">문서 연결</a>
+    <a id="documents-link" href="./documents.html">문서 연결</a>
   </nav>
   <div class="controls">
     <select id="theme" aria-label="테마 고르기"><option value="">모든 산업·테마</option></select>
@@ -231,8 +231,8 @@ window.addEventListener("DOMContentLoaded", function () {
   var nodes = [], edges = [], byId = {}, ready = false, lastWidth = 0;
   var newsView = null;
   var params = new URLSearchParams(window.location.search);
-  var mapKind = params.get("view") === "knowledge" ? "knowledge" : "relations";
-  var focusId = params.get("node") || "", scope = null;
+  var mapKind = singleParam("view") === "knowledge" ? "knowledge" : "relations";
+  var focusId = "", scope = null;
   var isCompany = function (n) { return n.type === "company"; };
   var scopeUI = { depth: document.getElementById("map-depth"), uncertain: document.getElementById("map-unconfirmed"),
     themes: document.getElementById("show-theme"), industries: document.getElementById("show-industry") };
@@ -269,6 +269,49 @@ window.addEventListener("DOMContentLoaded", function () {
     return path.split("/").map(function (s) {
       return s.replace(/\s/g, "-").replace(/&/g, "-and-").replace(/%/g, "-percent").replace(/\?/g, "").replace(/#/g, "");
     }).join("/");
+  }
+  function singleParam(key) { var values = params.getAll(key); return values.length === 1 ? values[0] : null; }
+  function documentSlug(node) {
+    if (!node || !Object.prototype.hasOwnProperty.call(byId, node.id) || byId[node.id] !== node || typeof node.path !== "string") return null;
+    var folder = node.type === "company" ? "companies" : node.type === "theme" ? "themes" : null;
+    var value = slug(node.path), parts = value.split("/");
+    return folder && parts.length === 2 && parts[0] === folder && parts[1] && !parts[1].startsWith(".")
+      && !["index", "log", "readme", "claude"].includes(parts[1].toLowerCase())
+      && value.length <= 250 && !/[\s%?#:\\\x00-\x1f\x7f]/.test(value) ? value : null;
+  }
+  function requestedContext() {
+    var documentId = singleParam("document"), nodeId = singleParam("node"), themeId = singleParam("theme");
+    var matches = documentId ? nodes.filter(function (n) { return documentSlug(n) === documentId; }) : [];
+    var node = matches.length === 1 ? matches[0] : nodeId && Object.prototype.hasOwnProperty.call(byId, nodeId) ? byId[nodeId] : null;
+    var theme = themeId && Object.prototype.hasOwnProperty.call(byId, themeId) && byId[themeId].type === "theme" ? themeId : "";
+    // A theme document becomes a filter on the company-only map, not a company placeholder.
+    if (matches.length === 1 && node.type === "theme" && mapKind === "relations") { theme = node.id; node = null; }
+    return { node: theme ? null : node, theme: theme };
+  }
+  function viewQuery() {
+    return new URLSearchParams(newsView ? newsView.navigationState() : MapNewsView.readViewState(params));
+  }
+  function mapURL(kind, root, theme) {
+    var query = viewQuery();
+    if (kind === "knowledge") query.set("view", "knowledge");
+    if (theme && Object.prototype.hasOwnProperty.call(byId, theme) && byId[theme].type === "theme") query.set("theme", theme);
+    else if (root && Object.prototype.hasOwnProperty.call(byId, root.id) && byId[root.id] === root) {
+      if (kind === "knowledge" || root.type === "company") query.set("node", root.id);
+      else if (root.type === "theme") query.set("theme", root.id);
+    }
+    return "./map.html" + (query.size ? "?" + query.toString() : "");
+  }
+  function updateNavigation() {
+    var theme = document.getElementById("theme").value;
+    var rootId = scope && scope.focusId || focusId;
+    var root = Object.prototype.hasOwnProperty.call(byId, rootId) ? byId[rootId] : null;
+    ["relations", "knowledge"].forEach(function (kind) {
+      document.getElementById(kind + "-link").href = mapURL(kind, root, theme);
+    });
+    var documentId = documentSlug(shown && shown.visible ? shown : null)
+      || documentSlug(Object.prototype.hasOwnProperty.call(byId, theme) ? byId[theme] : null) || documentSlug(root);
+    var query = viewQuery(); if (documentId) query.set("node", documentId);
+    document.getElementById("documents-link").href = "./documents.html" + (query.size ? "?" + query.toString() : "");
   }
   function pageUrl(node) { return node.path ? "../" + slug(node.path).split("/").map(encodeURIComponent).join("/") : null; }
   function safeUrl(u) { return /^https?:\/\//.test(u || "") ? u : null; }
@@ -357,13 +400,12 @@ window.addEventListener("DOMContentLoaded", function () {
     });
     edges = list(data.edges).filter(function (e) { return byId[e.source] && byId[e.target]; })
       .map(function (e) { return Object.assign({}, e, { s: byId[e.source], t: byId[e.target], evidence: list(e.evidence) }); });
-    if (mapKind === "relations" && byId[focusId] && !isCompany(byId[focusId])) {
-      mapKind = "knowledge";
-      var destination = new URL(window.location.href); destination.searchParams.set("view", "knowledge");
-      window.location.replace(destination.href); return;
+    var requested = requestedContext(); focusId = requested.node ? requested.node.id : "";
+    if (mapKind === "relations" && requested.node && !isCompany(requested.node)) {
+      window.location.replace(mapURL("knowledge", requested.node, "")); return;
     }
     buildControls();
-    if (params.get("theme") && byId[params.get("theme")] && byId[params.get("theme")].type === "theme") document.getElementById("theme").value = params.get("theme");
+    if (requested.theme) document.getElementById("theme").value = requested.theme;
     layout();
     draw();
     newsView = MapNewsView.create({
@@ -377,7 +419,7 @@ window.addEventListener("DOMContentLoaded", function () {
       isKnowledge: function () { return mapKind === "knowledge"; },
       inScope: function (n) { return !!scope && scope.nodeIds.indexOf(n.id) >= 0; },
       chooseNewsStart: function (stats) {
-        if (viewInteracted || focusId || document.getElementById("theme").value || params.get("mode") !== "news") return;
+        if (viewInteracted || focusId || document.getElementById("theme").value || MapNewsView.readViewState(params).mode !== "news") return;
         var ranked = nodes.filter(function (n) { return n.type === "company"; }).sort(function (a, b) {
           return ((stats[b.id] || {}).news || 0) - ((stats[a.id] || {}).news || 0) || a.id.localeCompare(b.id, "ko");
         });
@@ -386,8 +428,7 @@ window.addEventListener("DOMContentLoaded", function () {
       arrangeScope: arrangeScope
     });
     applyFilter(); arrangeScope(); fit();
-    var requested = new URLSearchParams(window.location.search).get("node");
-    if (requested && Object.prototype.hasOwnProperty.call(byId, requested)) find(requested);
+    if (requested.node) find(requested.node.id);
   }
 
   function buildControls() {
@@ -586,14 +627,7 @@ window.addEventListener("DOMContentLoaded", function () {
       button.addEventListener("click", function () { select(n); });
     });
     if (newsView) newsView.visibilityChanged();
-    ["relations", "knowledge"].forEach(function (kind) {
-      var query = new URLSearchParams(); if (kind === "knowledge") query.set("view", "knowledge");
-      var theme = document.getElementById("theme").value;
-      if (theme) query.set("theme", theme);
-      else if (scope.focusId && (kind === "knowledge" || byId[scope.focusId].type === "company")) query.set("node", scope.focusId);
-      if (document.getElementById("map-mode").value === "news") query.set("mode", "news");
-      document.getElementById(kind + "-link").href = "./map.html" + (query.size ? "?" + query.toString() : "");
-    });
+    updateNavigation();
   }
 
   function edgeText(e) {
@@ -624,7 +658,7 @@ window.addEventListener("DOMContentLoaded", function () {
     if (!n) { status.textContent = hint.textContent = "'" + text + "'와(과) 맞는 기업이 없습니다"; return; }
     hint.textContent = baseHint;
     if (mapKind === "relations" && !isCompany(n)) {
-      window.location.href = "./map.html?view=knowledge&node=" + encodeURIComponent(n.id); return;
+      window.location.href = mapURL("knowledge", n, ""); return;
     }
     focusId = n.id; document.getElementById("theme").value = "";
     if (n.type === "theme") scopeUI.themes.checked = true;
@@ -638,6 +672,7 @@ window.addEventListener("DOMContentLoaded", function () {
   var selected = null;
   function select(n) {
     selected = shown = n;
+    updateNavigation();
     svg.classList.add("selecting");
     var near = {}; near[n.id] = true;
     edges.forEach(function (e) { if (!e.shown) return; if (e.source === n.id) near[e.target] = true; if (e.target === n.id) near[e.source] = true; });
@@ -737,6 +772,7 @@ window.addEventListener("DOMContentLoaded", function () {
     svg.classList.remove("selecting");
     nodes.forEach(function (m) { m.g.classList.remove("dim", "hit"); });
     edges.forEach(function (e) { e.line.classList.remove("dim"); });
+    updateNavigation();
   }
 
   // 점 끌기 (마우스 왼쪽 버튼, 손가락, 펜)
