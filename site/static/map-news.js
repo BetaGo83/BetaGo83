@@ -101,6 +101,7 @@
     requireValue(Number.isInteger(coverage.queries_total) && coverage.queries_total >= 0 && coverage.queries_total <= 1000
       && Number.isInteger(coverage.queries_ok) && coverage.queries_ok >= 0 && coverage.queries_ok <= coverage.queries_total
       && typeof coverage.partial === "boolean" && (coverage.queries_ok === coverage.queries_total || coverage.partial), "Invalid coverage status");
+    requireValue(coverage.note === "" || text(coverage.note, 300), "Invalid coverage note");
     requireValue(Array.isArray(feed.items) && feed.items.length <= 300 && Array.isArray(nodes) && nodes.length <= 5000, "Feed exceeds display limits");
     var companies = Object.create(null), companyIds = [];
     nodes.forEach(function (node) {
@@ -175,7 +176,7 @@
     documents.sort(compareDocuments);
     return { documents: documents, companyIds: companyIds, minDate: documents.length ? documents[documents.length - 1].date : null,
       maxDate: documents.length ? documents[0].date : null, generatedAt: feed.generated_at, collectedAt: feed.collected_at, partial: coverage.partial,
-      queriesOK: coverage.queries_ok, queriesTotal: coverage.queries_total };
+      queriesOK: coverage.queries_ok, queriesTotal: coverage.queries_total, note: coverage.note };
   }
   function snapshot(value) {
     requireValue(object(value) && Array.isArray(value.documents) && value.documents.length <= 1500, "Invalid prepared feed");

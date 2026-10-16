@@ -6,7 +6,7 @@ market: "KOSPI"
 dart_corp_code: ""
 aliases: []
 themes: ["통신·네트워크"]
-updated: "2026-10-15"
+updated: "2026-10-16"
 krx_industry: "전기 통신업"
 classification_as_of: "2026-10-09"
 ---
@@ -26,7 +26,7 @@ classification_as_of: "2026-10-09"
 - [[통신·네트워크]] · 이동통신·데이터 서비스: KIND 주요제품에 개인휴대통신·음성·데이터·부가통신 서비스가 기재되어 있다. (확인일: 2026-10-09) (역할 상태: 확인) ([한국거래소 KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt))
 
 ## 최근 이슈
-최근 사건은 아직 개별 검토하지 않았습니다. 아래 사업 확인일은 새 공시나 계약의 발생일이 아닙니다.
+- 2026-10-15 [기타] 수요예측 결과에 따라 제121-1·2회 무보증 공모사채 모집 예정액을 1,500억원에서 3,000억원으로 확정했다(각 1,100억원·1,900억원). 채무상환 1,300억원과 단말기 대금 지급을 위한 운영자금 1,700억원에 사용할 계획이며 청약·납입 예정일은 10월 21일이다. 확정된 모집 조건이며 발행·납입 완료를 확인한 공시는 아니다. (근거 수준: 공시 원문) · [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015000369)
 
 ## 분류와 확인 근거
 
