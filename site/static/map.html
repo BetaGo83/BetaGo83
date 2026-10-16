@@ -391,17 +391,17 @@ window.addEventListener("DOMContentLoaded", function () {
   }
 
   function buildControls() {
-    var select = document.getElementById("theme");
+    var themeSelect = document.getElementById("theme");
     var themes = nodes.filter(function (n) { return n.type === "theme"; });
     var categories = Array.from(new Set(themes.map(function (n) { return n.category || "기타"; }))).sort();
     categories.forEach(function (category) {
-      var group = html("optgroup", null, select, { label: category });
+      var group = html("optgroup", null, themeSelect, { label: category });
       themes.filter(function (n) { return (n.category || "기타") === category; }).forEach(function (n) {
         html("option", n.id, group, { value: n.id });
       });
     });
-    select.options[0].textContent = "모든 산업·테마 (" + themes.length + ")";
-    select.addEventListener("change", function () {
+    themeSelect.options[0].textContent = "모든 산업·테마 (" + themes.length + ")";
+    themeSelect.addEventListener("change", function () {
       focusId = ""; clearSelection(); shown = null; panel.innerHTML = intro;
       if (newsView) newsView.filterChanged(); else applyFilter(); arrangeScope(); fit();
     });
@@ -412,7 +412,7 @@ window.addEventListener("DOMContentLoaded", function () {
       });
     });
     document.getElementById("scope-reset").addEventListener("click", function () {
-      focusId = ""; select.value = ""; scopeUI.depth.value = "1"; scopeUI.uncertain.checked = false;
+      focusId = ""; themeSelect.value = ""; scopeUI.depth.value = "1"; scopeUI.uncertain.checked = false;
       scopeUI.themes.checked = scopeUI.industries.checked = true; hidden = {}; resetLegend();
       clearSelection(); shown = null; panel.innerHTML = intro;
       if (newsView) newsView.filterChanged(); else applyFilter(); arrangeScope(); fit();
