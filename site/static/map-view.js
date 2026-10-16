@@ -2,11 +2,12 @@
 (function () {
   "use strict";
   window.MapNewsView = { create: function (graph) {
-    var ids = ["mode", "metric", "scale", "active", "fit", "date", "days", "play", "motion", "refresh", "play-state", "data-status", "encoding"];
+    var ids = ["mode", "metric", "scale", "active", "fit", "date", "days", "play", "motion", "refresh", "play-state", "data-status", "encoding", "new-material", "new-status", "new-date"];
     var ui = {};
     ids.forEach(function (id) { ui[id] = document.getElementById("map-" + id); });
     var data = null, result = null, playing = false, timer = null, pulseTimer = null;
-    var loading = false, failed = false, epoch = 0;
+    var loading = false, failed = false, epoch = 0, observedTimer = null, checkedAt = null, rollback = false, recentChange = null, request = null;
+    var browserClock = new Intl.DateTimeFormat("ko-KR", { timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", second: "2-digit", hourCycle: "h23" });
     var counterpart = MapNews.relationCounts(graph.nodes.filter(function (n) { return n.type === "company"; }), graph.edges);
     var reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
     ui.motion.checked = reduced.matches;
@@ -40,7 +41,8 @@
     function setState(text) { ui["play-state"].textContent = text; }
     function clearPulse() {
       clearTimeout(pulseTimer); pulseTimer = null;
-      graph.nodes.forEach(function (n) { n.g.classList.remove("replaying"); });
+      clearTimeout(observedTimer); observedTimer = null;
+      graph.nodes.forEach(function (n) { n.g.classList.remove("replaying", "newly-observed"); });
     }
     function stop(text) {
       playing = false; epoch++; clearTimeout(timer); timer = null; clearPulse();
@@ -54,6 +56,39 @@
         if (n.visible && counts(n).items.some(function (d) { return d.date === ui.date.value && d.kind === ui.metric.value; })) n.g.classList.add("replaying");
       });
       pulseTimer = setTimeout(clearPulse, 1600);
+    }
+    function matchesCurrent(doc) {
+      return !!result && doc.kind === ui.metric.value && doc.date >= result.startDate && doc.date <= result.endDate
+        && graph.nodes.some(function (n) { return n.type === "company" && n.visible && inTheme(n) && doc.companies.indexOf(n.id) >= 0; });
+    }
+    function updateNotice() {
+      var docs = recentChange && recentChange.newlyObserved || [];
+      ui["new-material"].hidden = !docs.length;
+      if (!docs.length) {
+        ui["new-status"].textContent = "";
+        ui["new-date"].hidden = true; ui["new-date"].dataset.date = "";
+        return;
+      }
+      var inside = docs.filter(matchesCurrent).length;
+      ui["new-status"].textContent = "이번 확인에서 새로 수집된 출처: 기사 " + docs.filter(function (d) { return d.kind === "news"; }).length
+        + " · 공시 " + docs.filter(function (d) { return d.kind === "disclosure"; }).length
+        + " · 현재 날짜·지표·탐색 범위 안 " + inside + " / 밖 " + (docs.length - inside) + ". 선택 날짜는 유지합니다.";
+      var latest = docs.map(function (d) { return d.date; }).sort().pop();
+      ui["new-date"].hidden = latest === ui.date.value;
+      ui["new-date"].dataset.date = latest;
+    }
+    function pulseObserved() {
+      clearPulse();
+      var docs = recentChange && recentChange.newlyObserved || [];
+      if (!docs.length) return;
+      var visible = docs.filter(matchesCurrent), count = 0;
+      if (!document.hidden && !ui.motion.checked && !reduced.matches) {
+        graph.nodes.forEach(function (n) {
+          if (n.type === "company" && n.visible && visible.some(function (d) { return d.companies.indexOf(n.id) >= 0; })) { n.g.classList.add("newly-observed"); count++; }
+        });
+        if (count) observedTimer = setTimeout(clearPulse, 1600);
+      }
+      setState("새로 수집 확인 · " + (count ? count + "곳 잠깐 강조" : "현재 화면 강조 없음") + " · 날짜 유지");
     }
     function overview() {
       if (graph.getShown()) return;
@@ -98,6 +133,7 @@
         var row = element("li", null, list);
         var a = element("a", d.title, row); a.href = d.url; a.target = "_blank"; a.rel = "noopener noreferrer";
         element("div", d.date + " · " + d.source + (d.kind === "disclosure" ? " · 공시 접수일" : " · 기사 제공일"), row, "meta");
+        element("div", d.observedAt ? "첫 수집 확인 " + browserClock.format(new Date(d.observedAt)) + " KST" : "첫 수집 시각 기록 없음", row, "meta");
       });
       if (!c.items.length) element("p", "선택 기간의 공개 목록에서 찾은 제목이 없습니다. 수집 범위 밖의 자료는 알 수 없습니다.", box, "meta");
       var history = result.days.map(function (day) {
@@ -113,15 +149,20 @@
       var text;
       if (!data) text = failed ? "뉴스 자료를 불러오지 못했습니다. 관계 지도는 계속 볼 수 있습니다." : "뉴스 자료를 확인하고 있습니다.";
       else {
-        text = "수집 " + data.collectedAt.replace("T", " ").replace("+09:00", " KST") + " · " + dateText();
+        text = "수집 " + data.collectedAt.replace("T", " ").replace("+09:00", " KST");
+        if (data.generatedAt) text += " · 공개본 생성 " + data.generatedAt.replace("T", " ").replace("+09:00", " KST");
+        if (checkedAt) text += " · 브라우저 확인 " + browserClock.format(new Date(checkedAt)) + " KST";
+        text += " · " + dateText();
         text += " · 전체 공개 목록 기사 " + result.totals.news + " / 공시 " + result.totals.disclosure;
-        text += " · 정적 자료, 실시간 수집 연결 전";
+        text += " · 정적 게시본 · 버튼으로 새 게시본 확인";
         if (data.partial) text += " · 일부 조회 실패";
         if (Date.now() - Date.parse(data.collectedAt) > 48 * 3600000) text += " · 수집 후 48시간 경과";
         if (failed) text += " · 갱신 실패: 마지막으로 확인한 자료 유지";
+        if (rollback) text += " · 더 오래된 게시본을 받아 직전 자료 유지";
+        if (ui.date.value < data.minDate || ui.date.value > data.maxDate) text += " · 선택 날짜는 현재 공개 목록의 보유일 밖";
       }
       ui["data-status"].textContent = text;
-      ui["data-status"].classList.toggle("warning", failed || !!(data && data.partial));
+      ui["data-status"].classList.toggle("warning", failed || rollback || !!(data && data.partial));
     }
     function render() {
       if (data) result = MapNews.aggregate(data, { endDate: ui.date.value, days: Number(ui.days.value) });
@@ -144,6 +185,7 @@
       });
       ui["encoding"].textContent = "크기: " + (isNews() ? "공개 목록의 " + metricName() + " 수" : "등록 관계의 서로 다른 상대 수") + " · " + (ui.scale.value === "log" ? "로그 압축 척도" : "면적 비례 척도") + " · 숫자: " + metricName() + " 수 · 점선 링: 급증 비교 자료 부족 · 색 있는 선: 기존 관계";
       message(); graph.applyFilter(); graph.position();
+      updateNotice();
       if (graph.getShown()) details(graph.getShown()); else overview();
     }
     function nextDay(day) { var d = new Date(day + "T00:00:00+09:00"); d.setTime(d.getTime() + 86400000); return new Date(d.getTime() + 9 * 3600000).toISOString().slice(0,10); }
@@ -169,34 +211,20 @@
       var active = ui.active.checked; ui.active.checked = false; render(); graph.fit(); ui.active.checked = active;
       replayStep(epoch);
     }
-    async function readFeed() {
-      var controller = new AbortController(), timeout = setTimeout(function () { controller.abort(); }, 10000);
-      try {
-        var response = await fetch("./news-feed.json", { cache: "no-store", signal: controller.signal, credentials: "omit" });
-        if (!response.ok) throw new Error("feed response");
-        if (Number(response.headers.get("content-length")) > 1048576) throw new Error("feed size");
-        var reader = response.body.getReader(), chunks = [], size = 0;
-        while (true) {
-          var part = await reader.read(); if (part.done) break;
-          size += part.value.byteLength;
-          if (size > 1048576) { await reader.cancel(); throw new Error("feed size"); }
-          chunks.push(part.value);
-        }
-        var bytes = new Uint8Array(size), offset = 0;
-        chunks.forEach(function (chunk) { bytes.set(chunk, offset); offset += chunk.byteLength; });
-        return MapNews.prepare(JSON.parse(new TextDecoder("utf-8", { fatal: true }).decode(bytes)), graph.nodes);
-      } finally { clearTimeout(timeout); }
-    }
     async function refresh() {
       if (loading) return;
-      stop(); loading = true; ui.refresh.disabled = true; ui.play.disabled = true;
+      stop(); recentChange = null; updateNotice(); loading = true; ui.refresh.disabled = true; ui.play.disabled = true; request = new AbortController();
       try {
-        var incoming = await readFeed();
-        if (!incoming.maxDate) throw new Error("empty feed");
+        var incoming = MapNews.prepare(await NewsFeed.read({ signal: request.signal }), graph.nodes);
+        if (!incoming.maxDate || incoming.queriesOK < 1) throw new Error("unconfirmed feed");
         var first = !data;
-        data = incoming; failed = false;
-        ui.date.min = data.minDate; ui.date.max = data.maxDate;
-        if (first || ui.date.value < data.minDate || ui.date.value > data.maxDate) ui.date.value = data.maxDate;
+        var change = MapNews.diff(data, incoming); checkedAt = Date.now(); failed = false;
+        rollback = change.reason === "rollback";
+        if (rollback) { recentChange = change; updateNotice(); message(); setState("이전 게시본 · 직전 자료 유지"); return; }
+        data = incoming; recentChange = first ? null : change;
+        if (first) ui.date.value = data.maxDate;
+        ui.date.min = ui.date.value < data.minDate ? ui.date.value : data.minDate;
+        ui.date.max = ui.date.value > data.maxDate ? ui.date.value : data.maxDate;
         ui.date.disabled = ui.days.disabled = false; ui.mode.options[1].disabled = false;
         if (first && new URLSearchParams(window.location.search).get("mode") === "news") ui.mode.value = "news";
         if (first && ui.mode.value === "news" && graph.chooseNewsStart) graph.chooseNewsStart(MapNews.aggregate(data, { endDate: ui.date.value, days: Number(ui.days.value) }).byCompany);
@@ -206,20 +234,29 @@
           ui.active.checked = false;
         }
         render(); if (first && !selected) { if (graph.arrangeScope) graph.arrangeScope(); graph.fit(); }
+        if (!first) {
+          pulseObserved();
+          if (!change.newlyObserved.length) setState(change.reason === "same-collection" ? "같은 수집본 · 새로 수집 확인 없음" : "게시본 확인 · 새 수집 시각이 확인된 출처 없음");
+        }
       } catch (e) { failed = true; message(); }
-      finally { loading = false; ui.refresh.disabled = false; ui.play.disabled = !data; }
+      finally { request = null; loading = false; ui.refresh.disabled = false; ui.play.disabled = !data; }
     }
     ["mode", "metric", "scale", "active", "days"].forEach(function (key) { ui[key].addEventListener("change", function () { stop(); graph.clear(); render(); if (key === "mode" || key === "active") graph.fit(); }); });
     ui.date.addEventListener("change", function () {
-      if (!data || !/^\d{4}-\d{2}-\d{2}$/.test(ui.date.value) || ui.date.value < data.minDate || ui.date.value > data.maxDate) { ui.date.value = data && data.maxDate || ""; }
+      if (!data || !/^\d{4}-\d{2}-\d{2}$/.test(ui.date.value) || ui.date.value < ui.date.min || ui.date.value > ui.date.max) { ui.date.value = data && data.maxDate || ""; }
       stop(); graph.clear(); render();
     });
     ui.play.addEventListener("click", play); ui.refresh.addEventListener("click", refresh); ui.fit.addEventListener("click", graph.fit);
+    ui["new-date"].addEventListener("click", function () {
+      var day = ui["new-date"].dataset.date;
+      if (!data || !day) return;
+      stop("새 자료의 제공·접수 날짜 선택"); ui.date.value = day; graph.clear(); render();
+    });
     ui.motion.addEventListener("change", function () { stop("움직임 설정 변경"); render(); });
     function reduceChanged() { ui.motion.checked = reduced.matches; stop(); render(); }
     if (reduced.addEventListener) reduced.addEventListener("change", reduceChanged);
     document.addEventListener("visibilitychange", function () { if (document.hidden) stop("재생 정지 · 다른 화면으로 이동"); });
-    window.addEventListener("pagehide", function () { stop(); });
+    window.addEventListener("pagehide", function () { stop(); if (request) request.abort(); });
     render(); refresh();
     return {
       isVisible: visible, showDetails: details,

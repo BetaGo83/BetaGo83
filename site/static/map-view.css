@@ -13,6 +13,13 @@
 .node .replay-pulse { fill: none !important; stroke: var(--focus) !important; stroke-width: 2.5px !important; opacity: 0; pointer-events: none; }
 .node.replaying .replay-pulse { animation: map-replay 1.5s ease-out 1; }
 .node.replaying .node-body { stroke: var(--focus); stroke-width: 3px; }
+.node.newly-observed .replay-pulse { stroke: #279765 !important; animation: map-collected 1.6s ease-out 1; }
+.node.newly-observed .node-body { stroke: #279765 !important; stroke-width: 4px; }
+.new-material { border-left: 3px solid #279765; padding: 4px 10px; margin: 6px 0; }
+.new-material[hidden] { display: none; }
+@keyframes map-collected { from { opacity: .85; transform: scale(.85); } to { opacity: 0; transform: scale(1.55); } }
+@media (prefers-reduced-motion: reduce) { .node.newly-observed .replay-pulse { animation: none; } }
+svg.reduced-motion .node.newly-observed .replay-pulse { animation: none; }
 .node.hollow .node-body { fill: var(--bg) !important; stroke: var(--company-node); }
 svg.news-mode .node.company .node-body { fill: var(--supply); }
 svg.news-mode.disclosure-mode .node.company .node-body { fill: var(--invest); }

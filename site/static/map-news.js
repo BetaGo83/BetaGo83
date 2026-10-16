@@ -70,7 +70,7 @@
     return url.href;
   }
   function prepare(feed, nodes) {
-    requireValue(object(feed) && feed.schema === 1 && feed.retention_days === 14, "Invalid feed schema");
+    requireValue(object(feed) && [1, 2].indexOf(feed.schema) >= 0 && feed.retention_days === 14, "Invalid feed schema");
     var generated = timestamp(feed.generated_at), collected = timestamp(feed.collected_at), coverage = feed.coverage;
     requireValue(collected <= generated && object(coverage), "Invalid feed dates");
     var first = timestamp(coverage.from), last = timestamp(coverage.to);
@@ -115,8 +115,14 @@
       var receipt = null;
       item.sources.forEach(function (source) {
         requireValue(object(source) && text(source.name, 40), "Invalid source");
+        var sourceKeys = feed.schema === 2 ? ["name", "url", "published_at", "observed_at"] : ["name", "url", "published_at"];
+        requireValue(Object.keys(source).length === sourceKeys.length && sourceKeys.every(function (key) {
+          return Object.prototype.hasOwnProperty.call(source, key);
+        }), "Invalid source fields");
         var sourceTime = timestamp(source.published_at);
         requireValue(sourceTime >= first && sourceTime <= last, "Invalid source date");
+        var observedAt = feed.schema === 2 ? source.observed_at : null;
+        requireValue(observedAt === null || timestamp(observedAt) <= collected, "Invalid observation date");
         var url = sourceUrl(source.url, item.kind, source.name);
         if (item.kind === "disclosure") {
           requireValue(!receipt || receipt === url, "Multiple disclosure receipts in one item");
@@ -126,12 +132,14 @@
         var date = (item.kind === "disclosure" ? item.published_at : source.published_at).slice(0, 10);
         var existing = byURL[url];
         if (existing) {
-          requireValue(existing.kind === item.kind && existing.date === date, "Conflicting document metadata");
+          requireValue(existing.kind === item.kind && existing.date === date && existing.observedAt === observedAt,
+            "Conflicting document metadata");
           companyIDs.forEach(function (id) { if (existing.companies.indexOf(id) < 0) existing.companies.push(id); });
           return;
         }
         var doc = { key: url, url: url, title: item.title, kind: item.kind, date: date,
-          time: item.kind === "disclosure" ? null : source.published_at, companies: companyIDs.slice(), source: source.name };
+          time: item.kind === "disclosure" ? null : source.published_at, companies: companyIDs.slice(), source: source.name,
+          observedAt: observedAt };
         byURL[url] = doc;
         documents.push(doc);
       });
@@ -140,8 +148,47 @@
       return a.date < b.date ? 1 : a.date > b.date ? -1 : (a.time || "") < (b.time || "") ? 1 : (a.time || "") > (b.time || "") ? -1 : a.key.localeCompare(b.key);
     });
     return { documents: documents, companyIds: companyIds, minDate: documents.length ? documents[documents.length - 1].date : null,
-      maxDate: documents.length ? documents[0].date : null, collectedAt: feed.collected_at, partial: coverage.partial,
+      maxDate: documents.length ? documents[0].date : null, generatedAt: feed.generated_at, collectedAt: feed.collected_at, partial: coverage.partial,
       queriesOK: coverage.queries_ok, queriesTotal: coverage.queries_total };
+  }
+  function snapshot(value) {
+    requireValue(object(value) && Array.isArray(value.documents) && value.documents.length <= 1500, "Invalid prepared feed");
+    var collected = timestamp(value.collectedAt), generated = timestamp(value.generatedAt), byURL = Object.create(null);
+    requireValue(collected <= generated, "Invalid prepared dates");
+    value.documents.forEach(function (doc) {
+      requireValue(object(doc) && text(doc.key, 500) && doc.url === doc.key && !byURL[doc.key]
+        && Array.isArray(doc.companies) && doc.companies.length <= 5000, "Invalid prepared document");
+      requireValue(doc.observedAt === null || timestamp(doc.observedAt) <= collected, "Invalid observation date");
+      byURL[doc.key] = doc;
+    });
+    return { collected: collected, generated: generated, byURL: byURL };
+  }
+  function signature(doc) {
+    return JSON.stringify([doc.title, doc.kind, doc.date, doc.time, doc.source, doc.companies.slice().sort(), doc.observedAt]);
+  }
+  // Reasons are stable UI contracts: initial establishes a baseline; rollback
+  // rejects an older collection or generated version; same-collection permits
+  // display changes only; new-collection may contain newly observed sources.
+  // added/removed/updated describe published URL changes, never market events.
+  function diff(previous, incoming) {
+    var next = snapshot(incoming), result = { comparable: false, reason: "initial", added: [], removed: [], updated: [], newlyObserved: [] };
+    if (previous === null || previous === undefined) return result;
+    var prior = snapshot(previous);
+    if (next.collected < prior.collected || next.generated < prior.generated) { result.reason = "rollback"; return result; }
+    result.comparable = true;
+    result.reason = next.collected > prior.collected ? "new-collection" : "same-collection";
+    incoming.documents.forEach(function (doc) {
+      var old = prior.byURL[doc.key];
+      if (old) {
+        if (signature(old) !== signature(doc)) result.updated.push(doc);
+        return;
+      }
+      result.added.push(doc);
+      if (result.reason === "new-collection" && doc.observedAt !== null && timestamp(doc.observedAt) > prior.collected)
+        result.newlyObserved.push(doc);
+    });
+    previous.documents.forEach(function (doc) { if (!next.byURL[doc.key]) result.removed.push(doc); });
+    return result;
   }
   function aggregate(prepared, options) {
     requireValue(object(prepared) && Array.isArray(prepared.documents) && prepared.documents.length <= 1500
@@ -188,5 +235,5 @@
     requireValue(Number.isFinite(count) && count >= 0 && (scale === undefined || scale === "area" || scale === "log"), "Invalid radius input");
     return count === 0 ? 3 : Math.min(30, scale === "log" ? 8 * Math.sqrt(Math.log1p(count)) : 5 * Math.sqrt(count));
   }
-  return { prepare: prepare, aggregate: aggregate, relationCounts: relationCounts, radius: radius, shiftDay: shiftDay, dateRange: dateRange };
+  return { prepare: prepare, diff: diff, aggregate: aggregate, relationCounts: relationCounts, radius: radius, shiftDay: shiftDay, dateRange: dateRange };
 });
