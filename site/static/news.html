@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="기업과 산업·테마별로 공개한 뉴스·공시 제목과 출처를 확인하는 목록">
 <title>뉴스 흐름 · 기업 관계 위키</title>
-<script src="./map-news.js?v=20261016-order1" defer></script>
+<script src="./map-news.js?v=20261016-classification1" defer></script>
 <script src="./news-feed.js?v=20261016-observed1" defer></script>
 <script>
 try { var theme = localStorage.getItem("theme"); if (theme === "dark" || theme === "light") document.documentElement.setAttribute("data-theme", theme); } catch (e) {}
@@ -279,8 +279,14 @@ window.addEventListener("DOMContentLoaded", function () {
         var inside = newDocs.filter(function (doc) { return visibleURLs.has(doc.url); }).length;
         $("collection-change").textContent = "이번 확인에서 새로 수집된 출처: 기사 " + newDocs.filter(function (doc) { return doc.kind === "news"; }).length
           + " · 공시 " + newDocs.filter(function (doc) { return doc.kind === "disclosure"; }).length + " · 현재 필터 안 " + inside + " / 밖 " + (newDocs.length - inside) + ".";
-      } else $("collection-change").textContent = change.reason === "same-collection" ? "같은 수집본을 확인했습니다. 새로 수집된 출처 신호는 없습니다."
-        : "새로 수집된 시각을 확인한 출처는 없습니다. 목록 추가 " + change.added.length + " · 정보 변경 " + change.updated.length + " · 목록에서 빠짐 " + change.removed.length + ".";
+      } else {
+        var displayChanges = change.added.length + change.updated.length + change.removed.length;
+        $("collection-change").textContent = change.reason === "same-collection" && !displayChanges
+          ? "같은 수집본을 확인했습니다. 새로 수집된 출처 신호는 없습니다."
+          : (change.reason === "same-collection" ? "같은 수집본의 표시 정보가 바뀌었습니다. 새로 수집된 출처 신호는 없습니다."
+            : "새로 수집된 시각을 확인한 출처는 없습니다.")
+            + " 목록 추가 " + change.added.length + " · 정보 변경 " + change.updated.length + " · 목록에서 빠짐 " + change.removed.length + ".";
+      }
     } else { $("collection-change").textContent = ""; $("collection-change").hidden = true; }
     $("feed").replaceChildren(); $("empty").hidden = true;
     rows.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE).forEach(function (item) { card(item, $("feed")); });

@@ -119,7 +119,7 @@
       requireValue(published >= first && published <= last && (item.kind === "news" || item.kind === "disclosure")
         && ["new", "followup", "correction"].indexOf(item.status) >= 0
         && item.evidence === (item.kind === "news" ? "기사 제목" : "공시 제목"), "Invalid item metadata");
-      var companyIDs = [];
+      var companyIDs = [], themeLinks = [];
       ["companies", "themes"].forEach(function (field) {
         requireValue(Array.isArray(item[field]) && item[field].length <= 20, "Invalid entity list");
         var seen = Object.create(null);
@@ -129,6 +129,7 @@
           seen[checked.path] = true;
           if (field === "companies" && Object.prototype.hasOwnProperty.call(companies, checked.name)
             && companies[checked.name] === checked.path) companyIDs.push(checked.name);
+          if (field === "themes") themeLinks.push(checked);
         });
       });
       requireValue(Array.isArray(item.sources) && item.sources.length >= 1 && item.sources.length <= 5
@@ -158,11 +159,15 @@
           requireValue(existing.kind === item.kind && existing.date === date && existing.observedAt === observedAt,
             "Conflicting document metadata");
           companyIDs.forEach(function (id) { if (existing.companies.indexOf(id) < 0) existing.companies.push(id); });
+          themeLinks.forEach(function (theme) {
+            if (!existing.themes.some(function (value) { return value.name === theme.name && value.path === theme.path; }))
+              existing.themes.push(theme);
+          });
           return;
         }
         var doc = { key: url, url: url, title: item.title, kind: item.kind, date: date,
           time: item.kind === "disclosure" ? null : source.published_at, companies: companyIDs.slice(), source: source.name,
-          observedAt: observedAt };
+          observedAt: observedAt, themes: themeLinks.slice() };
         byURL[url] = doc;
         documents.push(doc);
       });
@@ -180,12 +185,20 @@
       requireValue(object(doc) && text(doc.key, 500) && doc.url === doc.key && !byURL[doc.key]
         && Array.isArray(doc.companies) && doc.companies.length <= 5000, "Invalid prepared document");
       requireValue(doc.observedAt === null || timestamp(doc.observedAt) <= collected, "Invalid observation date");
+      // Older prepared fixtures omit themes. New snapshots keep the validated
+      // name/path pair even without graph nodes, as used by the news list.
+      requireValue(doc.themes === undefined || (Array.isArray(doc.themes) && doc.themes.length <= 6000
+        && doc.themes.every(function (theme) {
+          return object(theme) && text(theme.path, 250)
+            && entity({ name: theme.name, url: "../" + theme.path }, "themes").path === theme.path;
+        })), "Invalid prepared themes");
       byURL[doc.key] = doc;
     });
     return { collected: collected, generated: generated, byURL: byURL };
   }
   function signature(doc) {
-    return JSON.stringify([doc.title, doc.kind, doc.date, doc.time, doc.source, doc.companies.slice().sort(), doc.observedAt]);
+    var themes = (doc.themes || []).map(function (theme) { return JSON.stringify([theme.name, theme.path]); }).sort();
+    return JSON.stringify([doc.title, doc.kind, doc.date, doc.time, doc.source, doc.companies.slice().sort(), themes, doc.observedAt]);
   }
   // Reasons are stable UI contracts: initial establishes a baseline; rollback
   // rejects an older collection or generated version; same-collection permits
