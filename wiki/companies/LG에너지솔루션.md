@@ -35,6 +35,7 @@ classification_as_of: "2026-10-08"
 - [[ESS]] · 배터리: ESS용 이차전지 제조. (자료 기준일: 2026-10-09) (역할 상태: 확인) ([한국거래소](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt))
 
 ## 최근 이슈
+- 2026-10-16 [기타] 한국거래소는 2월 10일 횡령·배임 혐의 발생을 10월 14일 지연 공시한 사유로 불성실공시법인 지정을 예고했다. 이의 신청 기한은 10월 27일이며 지정 여부와 구체적인 결과는 확정 후 다시 공시할 예정이다. 이번 건의 벌점이 10점 이상이면 상장적격성 실질심사 사유가 발생할 수 있다는 조건을 안내한 것으로, 현재 지정·벌점·심사 진행이 확정됐다는 뜻은 아니다. (근거 수준: 공시 원문) · [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016800820)
 - 2026-10-14 [기타] 엘앤에프는 LG에너지솔루션과의 LFP 공급계약 보도에 대해 고객사와 협의 중이며 계약 체결과 관련해 구체적으로 확정된 사항은 없다고 공시했다. 재공시 예정일은 11월 13일이다. (근거 수준: 공시 원문) · [[2차전지]] · [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800059)
 - 2026-10-14 [기타] LG에너지솔루션은 전 임원의 업무상 배임 혐의와 관련해 2월 10일 고소장을 제출했다고 공시했다. 혐의 금액 6억4,685만 원은 고소장 기재 금액이며 수사·재판으로 확정된 금액이 아니다. (근거 수준: 공시 원문) · [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800616)
 - 2026-10-11 [기타] LG에너지솔루션이 캐나다 리튬 정광 24만 톤을 확보했다는 보도. 기사 제목만 확인했으며 공급 상대·기간·구속력은 공식 확인이 필요하다. (근거 수준: 기사 제목) · [[2차전지]] · [더퍼블릭](https://news.google.com/rss/articles/CBMia0FVX3lxTE1UdG1YeUpubjNEd0drMVZ6Mm9nVFhpcVdKd2JYWEJDYS1FbDVJVzV5RWJtUFpWZHNQWGo1NkpfajR3ajFkc2hIWWlQbURHTnN1bUFWdFFkdnFLYXRzUHVCRlQySU82Q1VJbGpR0gFvQVVfeXFMUFBXbVJYQ2NIcjF2dVdCeHlwR0x4QklkR2FoUTRzblZwYUFjeFhYdmxPeDAwSExEQVdnWVFHWXBoQWNsNWJjamdFMndsTXppbzVYUzBCTUtvc2Q5OFA4UjhqdFE1bFBxTHBZMERyVk9V?oc=5)

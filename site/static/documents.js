@@ -98,18 +98,51 @@
       points: ids.map(function (id, i) { return { id: id, x: cell * (i % columns + .5), y: 38 + Math.floor(i / columns) * 92 }; }) };
   }
   async function readIndex(fetcher, signal) {
-    var response = await fetcher("./contentIndex.json", { cache: "no-store", credentials: "omit", signal: signal });
-    if (!response.ok || Number(response.headers.get("content-length")) > MAX_BYTES) throw new Error("Document index unavailable");
-    var reader = response.body.getReader(), chunks = [], size = 0;
-    while (true) {
-      var part = await reader.read(); if (part.done) break;
-      size += part.value.byteLength;
-      if (size > MAX_BYTES) { await reader.cancel(); throw new Error("Document index too large"); }
-      chunks.push(part.value);
+    var controller = new AbortController(), reader = null, complete = false, timer = null, abortListener = null;
+    function abort() { controller.abort(); }
+    function bounded(pending) {
+      return new Promise(function (resolve, reject) {
+        function cleanup() { controller.signal.removeEventListener("abort", fail); }
+        function fail() { cleanup(); reject(new Error("Document index unavailable")); }
+        Promise.resolve(pending).then(function (value) { cleanup(); resolve(value); }, function (error) { cleanup(); reject(error); });
+        if (controller.signal.aborted) { fail(); return; }
+        controller.signal.addEventListener("abort", fail, { once: true });
+      });
     }
-    var bytes = new Uint8Array(size), offset = 0;
-    chunks.forEach(function (chunk) { bytes.set(chunk, offset); offset += chunk.byteLength; });
-    return prepare(JSON.parse(new TextDecoder("utf-8", { fatal: true }).decode(bytes)));
+    try {
+      if (signal) {
+        if (signal.aborted) throw new Error("Document index unavailable");
+        abortListener = abort; signal.addEventListener("abort", abortListener, { once: true });
+      }
+      timer = setTimeout(abort, 10000);
+      var response = await bounded(fetcher("./contentIndex.json", { cache: "no-store", credentials: "omit", signal: controller.signal }));
+      if (!response.ok || !response.body || typeof response.body.getReader !== "function") throw new Error("Document index unavailable");
+      var advertised = response.headers.get("content-length");
+      if (advertised !== null && (!/^\d+$/.test(advertised) || Number(advertised) > MAX_BYTES)) throw new Error("Document index unavailable");
+      reader = response.body.getReader();
+      // One fixed buffer bounds memory independently of the number of chunks.
+      var bytes = new Uint8Array(MAX_BYTES), size = 0;
+      while (true) {
+        if (controller.signal.aborted) throw new Error("Document index unavailable");
+        var part = await bounded(reader.read()); if (part.done) break;
+        if (!(part.value instanceof Uint8Array)) throw new Error("Document index unavailable");
+        if (size + part.value.byteLength > MAX_BYTES) throw new Error("Document index too large");
+        bytes.set(part.value, size); size += part.value.byteLength;
+      }
+      if (controller.signal.aborted) throw new Error("Document index unavailable");
+      var model = prepare(JSON.parse(new TextDecoder("utf-8", { fatal: true }).decode(bytes.subarray(0, size))));
+      complete = true;
+      return model;
+    } finally {
+      clearTimeout(timer);
+      if (signal && abortListener) signal.removeEventListener("abort", abortListener);
+      if (!complete) {
+        controller.abort();
+        // Cleanup cannot extend the deadline when the stream itself is stalled.
+        if (reader) { try { Promise.resolve(reader.cancel()).catch(function () {}); } catch (_) {} }
+      }
+      if (reader) { try { reader.releaseLock(); } catch (_) {} }
+    }
   }
   async function start() {
     var select = document.getElementById("document-select"), search = document.getElementById("document-search"), depth = document.getElementById("document-depth");
@@ -188,8 +221,10 @@
       status.textContent = "저장한 파일에서는 문서 목록을 불러올 수 없습니다. 공개 사이트에서 열어 주세요.";
       var live = html("a", "공개 문서 연결 열기", panel); live.href = "https://betago83.github.io/BetaGo83/static/documents.html"; return;
     }
-    var controller = new AbortController(), timer = setTimeout(function () { controller.abort(); }, 10000);
+    var controller = new AbortController();
+    function abortIndex() { controller.abort(); }
     try {
+      window.addEventListener("pagehide", abortIndex, { once: true });
       model = await readIndex(fetch, controller.signal);
       if (!model.nodes.length) throw new Error("No public knowledge documents");
       var requestedValues = new URLSearchParams(window.location.search).getAll("node");
@@ -207,7 +242,7 @@
     } catch (_) {
       status.textContent = "문서 목록을 불러오지 못했습니다. 페이지를 새로 고치거나 위키에서 문서를 열어 주세요."; status.classList.add("error");
       counts.textContent = "자료 확인 실패 · 문서나 링크가 0개라는 뜻은 아닙니다.";
-    } finally { clearTimeout(timer); }
+    } finally { window.removeEventListener("pagehide", abortIndex); }
   }
   return { prepare: prepare, neighborhood: neighborhood, positions: positions, safeSlug: safeSlug, pageURL: pageURL, readIndex: readIndex, readViewState: readViewState, start: start };
 });
