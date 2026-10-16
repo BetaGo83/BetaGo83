@@ -69,6 +69,29 @@
     }
     return url.href;
   }
+  function compareText(a, b) { return a < b ? -1 : a > b ? 1 : 0; }
+  function timeOrder(value) { return value.slice(0, 19) + (value.slice(19, -6) || ".").padEnd(7, "0"); }
+  // Publication dates remain primary. A disclosure has no known receipt time:
+  // group it after timed news on that date, then use the recorded observation.
+  // Keeping kind ahead of that secondary key makes mixed-kind ties transitive.
+  function comparePublication(aDate, aKind, aTime, aObserved, bDate, bKind, bTime, bObserved) {
+    var date = compareText(bDate, aDate);
+    if (date) return date;
+    if (aKind !== bKind) return aKind === "news" ? -1 : 1;
+    if (aKind === "news") return compareText(timeOrder(bTime), timeOrder(aTime));
+    if (aObserved === null || bObserved === null) return aObserved === bObserved ? 0 : aObserved === null ? 1 : -1;
+    return compareText(timeOrder(bObserved), timeOrder(aObserved));
+  }
+  function compareDocuments(a, b) {
+    return comparePublication(a.date, a.kind, a.time, a.observedAt, b.date, b.kind, b.time, b.observedAt)
+      || compareText(a.key, b.key);
+  }
+  function compareItems(a, b) {
+    var aSource = a.sources[0], bSource = b.sources[0];
+    return comparePublication(a.published_at.slice(0, 10), a.kind, a.published_at, aSource.observed_at || null,
+      b.published_at.slice(0, 10), b.kind, b.published_at, bSource.observed_at || null)
+      || a.title.localeCompare(b.title, "ko") || compareText(aSource.url, bSource.url);
+  }
   function prepare(feed, nodes) {
     requireValue(object(feed) && [1, 2].indexOf(feed.schema) >= 0 && feed.retention_days === 14, "Invalid feed schema");
     var generated = timestamp(feed.generated_at), collected = timestamp(feed.collected_at), coverage = feed.coverage;
@@ -144,9 +167,7 @@
         documents.push(doc);
       });
     });
-    documents.sort(function (a, b) {
-      return a.date < b.date ? 1 : a.date > b.date ? -1 : (a.time || "") < (b.time || "") ? 1 : (a.time || "") > (b.time || "") ? -1 : a.key.localeCompare(b.key);
-    });
+    documents.sort(compareDocuments);
     return { documents: documents, companyIds: companyIds, minDate: documents.length ? documents[documents.length - 1].date : null,
       maxDate: documents.length ? documents[0].date : null, generatedAt: feed.generated_at, collectedAt: feed.collected_at, partial: coverage.partial,
       queriesOK: coverage.queries_ok, queriesTotal: coverage.queries_total };
@@ -235,5 +256,6 @@
     requireValue(Number.isFinite(count) && count >= 0 && (scale === undefined || scale === "area" || scale === "log"), "Invalid radius input");
     return count === 0 ? 3 : Math.min(30, scale === "log" ? 8 * Math.sqrt(Math.log1p(count)) : 5 * Math.sqrt(count));
   }
-  return { prepare: prepare, diff: diff, aggregate: aggregate, relationCounts: relationCounts, radius: radius, shiftDay: shiftDay, dateRange: dateRange };
+  return { prepare: prepare, diff: diff, aggregate: aggregate, compareDocuments: compareDocuments, compareItems: compareItems,
+    relationCounts: relationCounts, radius: radius, shiftDay: shiftDay, dateRange: dateRange };
 });

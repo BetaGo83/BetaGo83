@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="기업과 산업·테마별로 공개한 뉴스·공시 제목과 출처를 확인하는 목록">
 <title>뉴스 흐름 · 기업 관계 위키</title>
-<script src="./map-news.js?v=20261016-observed1" defer></script>
+<script src="./map-news.js?v=20261016-order1" defer></script>
 <script src="./news-feed.js?v=20261016-observed1" defer></script>
 <script>
 try { var theme = localStorage.getItem("theme"); if (theme === "dark" || theme === "light") document.documentElement.setAttribute("data-theme", theme); } catch (e) {}
@@ -125,7 +125,8 @@ footer p { margin:5px 0; }
     <div class="filter-footer"><p class="small">본문을 읽거나 요약하지 않았습니다. 사실 확인은 연결된 출처에서 해 주세요.</p><button class="plain" id="reset" type="button" disabled>필터 초기화</button></div>
   </form>
   <section id="results" aria-labelledby="result-title" tabindex="-1">
-    <div class="result-heading"><h2 id="result-title" role="status" aria-live="polite">공개 목록을 불러오는 중입니다</h2><span>최신순 · 한 페이지 40건</span></div>
+    <div class="result-heading"><h2 id="result-title" role="status" aria-live="polite">공개 목록을 불러오는 중입니다</h2><span>날짜순 · 한 페이지 40건</span></div>
+    <p class="small">기사는 제공일·시각순, 공시는 접수일순입니다. 같은 접수일의 공시는 첫 수집 확인순이며 접수 시각이 아닙니다.</p>
     <ol id="feed" class="feed"></ol>
     <div id="empty" class="empty" hidden><h3 id="empty-title"></h3><p id="empty-detail"></p></div>
     <div id="pager" class="pager" hidden><button id="prev" type="button">이전</button><span id="page-number"></span><button id="next" type="button">다음</button></div>
@@ -297,7 +298,7 @@ window.addEventListener("DOMContentLoaded", function () {
       || typeof c.partial !== "boolean" || !Array.isArray(data.items) || data.items.length > MAX_ITEMS) throw new Error("invalid feed");
     if (c.queries_ok === 0) throw new Error("no confirmed collection");
     skipped = 0;
-    var nextItems = data.items.map(normalize).filter(Boolean).sort(function (a, b) { return Date.parse(b.published_at) - Date.parse(a.published_at) || a.title.localeCompare(b.title, "ko"); });
+    var nextItems = data.items.map(normalize).filter(Boolean).sort(MapNews.compareItems);
     if (!nextItems.length) throw new Error("no valid public items");
     var first = !prepared;
     items = nextItems; prepared = incoming; change = first ? null : diff;

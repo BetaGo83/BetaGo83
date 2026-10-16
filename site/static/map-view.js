@@ -148,14 +148,20 @@
       var value = isNews() ? c[ui.metric.value] : counterpart[n.id] || 0;
       if (MapNews.radius(value, ui.scale.value) >= 30) element("p", "점 크기에 표시 상한이 적용되었습니다.", box, "meta");
       element("p", "제목 기준 연결 · 사건 수 미집계 · 급증 비교 자료 부족", box, "meta");
+      var shownItems = c.items.slice().sort(MapNews.compareDocuments).slice(0, 8);
+      element("p", "선택 기간 전체 " + c.items.length + "개 중 " + shownItems.length + "개 표시 · " + (c.items.length - shownItems.length) + "개 생략", box, "meta");
+      element("p", "기사는 제공일·시각순, 공시는 접수일순입니다. 같은 접수일의 공시는 첫 수집 확인순이며 접수 시각이 아닙니다.", box, "meta");
       var list = element("ul", null, box);
-      c.items.slice().sort(function (a,b) { return b.date.localeCompare(a.date) || String(b.time || "").localeCompare(String(a.time || "")); }).slice(0, 8).forEach(function (d) {
+      shownItems.forEach(function (d) {
         var row = element("li", null, list);
         var a = element("a", d.title, row); a.href = d.url; a.target = "_blank"; a.rel = "noopener noreferrer";
         element("div", d.date + " · " + d.source + (d.kind === "disclosure" ? " · 공시 접수일" : " · 기사 제공일"), row, "meta");
         element("div", d.observedAt ? "첫 수집 확인 " + browserClock.format(new Date(d.observedAt)) + " KST" : "첫 수집 시각 기록 없음", row, "meta");
       });
       if (!c.items.length) element("p", "선택 기간의 공개 목록에서 찾은 제목이 없습니다. 수집 범위 밖의 자료는 알 수 없습니다.", box, "meta");
+      var allItems = element("a", n.id + " 뉴스·공시 전체 목록", element("p", null, box));
+      allItems.href = "./news.html?company=" + encodeURIComponent(n.id);
+      allItems.target = "_top";
       var history = result.days.map(function (day) {
         var docs = c.items.filter(function (d) { return d.date === day.date; });
         return day.date.slice(5) + " 기사 " + docs.filter(function (d) { return d.kind === "news"; }).length + " / 공시 " + docs.filter(function (d) { return d.kind === "disclosure"; }).length;
