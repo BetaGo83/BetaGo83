@@ -316,7 +316,7 @@ window.addEventListener("DOMContentLoaded", function () {
     $("scope").textContent = "조회한 피드·공시 페이지 " + c.queries_total + "개 중 " + c.queries_ok + "개 확인 · 최근 " + (Number.isInteger(data.retention_days) && data.retention_days > 0 ? data.retention_days : 14) + "일 안의 공개 대상 · 최대 300건. 자동으로 갱신되는 실시간 화면이 아닙니다.";
     feedPartial = c.partial || c.queries_ok < c.queries_total;
     if (Date.now() - Date.parse(data.collected_at) > 48 * 60 * 60 * 1000) addNotice("오래된 수집 자료입니다. 마지막 수집 후 48시간이 지났으며, 그 뒤의 뉴스와 공시는 반영되지 않았을 수 있습니다.");
-    if (feedPartial) addNotice("일부 결과만 확인했습니다. 실패하거나 빠진 피드·공시 페이지가 있어 전체 뉴스량으로 해석할 수 없습니다.");
+    if (feedPartial) addNotice("일부 범위만 확인했습니다. 누락된 자료가 있을 수 있어 전체 뉴스량으로 해석할 수 없습니다.");
     if (text(c.note, 2000)) addNotice(c.note.trim());
     if (items.length < data.items.length || skipped) addNotice("형식 또는 출처를 확인하지 못한 항목·링크는 표시하지 않았습니다. 보이는 목록은 전체 결과보다 적을 수 있습니다.");
     populate("source", items.flatMap(function (i) { return i.sources.map(function (s) { return s.name; }); }));

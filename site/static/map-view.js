@@ -181,7 +181,7 @@
         text += " · " + dateText();
         text += " · 선택 기간의 공개 출처 기사 " + result.totals.news + " / 공시 " + result.totals.disclosure;
         text += " · 정적 게시본 · 버튼으로 새 게시본 확인";
-        if (data.partial) text += " · 수집 범위 일부 미확인(조회 한도 또는 실패)";
+        if (data.partial) text += " · 수집 범위 일부 미확인";
         if (data.note) text += " · " + data.note;
         if (Date.now() - Date.parse(data.collectedAt) > 48 * 3600000) text += " · 수집 후 48시간 경과";
         if (failed) text += " · 갱신 실패: 마지막으로 확인한 자료 유지";
