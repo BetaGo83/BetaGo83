@@ -7,6 +7,7 @@
     ids.forEach(function (id) { ui[id] = document.getElementById("map-" + id); });
     var data = null, result = null, playing = false, timer = null, pulseTimer = null;
     var loading = false, failed = false, epoch = 0, observedTimer = null, checkedAt = null, rollback = false, recentChange = null, request = null;
+    var modeChosen = false, startChosen = false;
     var browserClock = new Intl.DateTimeFormat("ko-KR", { timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", second: "2-digit", hourCycle: "h23" });
     var counterpart = MapNews.relationCounts(graph.nodes.filter(function (n) { return n.type === "company"; }), graph.edges);
     var reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -226,14 +227,20 @@
         ui.date.min = ui.date.value < data.minDate ? ui.date.value : data.minDate;
         ui.date.max = ui.date.value > data.maxDate ? ui.date.value : data.maxDate;
         ui.date.disabled = ui.days.disabled = false; ui.mode.options[1].disabled = false;
-        if (first && new URLSearchParams(window.location.search).get("mode") === "news") ui.mode.value = "news";
-        if (first && ui.mode.value === "news" && graph.chooseNewsStart) graph.chooseNewsStart(MapNews.aggregate(data, { endDate: ui.date.value, days: Number(ui.days.value) }).byCompany);
         var selected = graph.getShown();
+        if (first && !modeChosen && new URLSearchParams(window.location.search).get("mode") === "news") ui.mode.value = "news";
+        if (first && !selected && !startChosen && ui.mode.value === "news" && graph.chooseNewsStart) graph.chooseNewsStart(MapNews.aggregate(data, { endDate: ui.date.value, days: Number(ui.days.value) }).byCompany);
         if (first && selected) {
           if (selected.type !== "company" && !(graph.isKnowledge && graph.isKnowledge())) ui.mode.value = "relations";
           ui.active.checked = false;
         }
-        render(); if (first && !selected) { if (graph.arrangeScope) graph.arrangeScope(); graph.fit(); }
+        render();
+        if (first) {
+          // The first status text can change the toolbar height. Fit the current scope once,
+          // unless the user has already moved it; later refreshes preserve their viewport.
+          if (graph.initialFit) graph.initialFit(!selected);
+          else if (!selected) { if (graph.arrangeScope) graph.arrangeScope(); graph.fit(); }
+        }
         if (!first) {
           pulseObserved();
           if (!change.newlyObserved.length) setState(change.reason === "same-collection" ? "같은 수집본 · 새로 수집 확인 없음" : "게시본 확인 · 새 수집 시각이 확인된 출처 없음");
@@ -241,7 +248,10 @@
       } catch (e) { failed = true; message(); }
       finally { request = null; loading = false; ui.refresh.disabled = false; ui.play.disabled = !data; }
     }
-    ["mode", "metric", "scale", "active", "days"].forEach(function (key) { ui[key].addEventListener("change", function () { stop(); graph.clear(); render(); if (key === "mode" || key === "active") graph.fit(); }); });
+    ["mode", "metric", "scale", "active", "days"].forEach(function (key) { ui[key].addEventListener("change", function () {
+      if (key === "mode") modeChosen = true;
+      startChosen = true; stop(); graph.clear(); render(); if (key === "mode" || key === "active") graph.fit();
+    }); });
     ui.date.addEventListener("change", function () {
       if (!data || !/^\d{4}-\d{2}-\d{2}$/.test(ui.date.value) || ui.date.value < ui.date.min || ui.date.value > ui.date.max) { ui.date.value = data && data.maxDate || ""; }
       stop(); graph.clear(); render();
@@ -275,7 +285,7 @@
         });
       },
       reveal: function (n) { stop(); if (n.type !== "company" && !(graph.isKnowledge && graph.isKnowledge())) ui.mode.value = "relations"; ui.active.checked = false; render(); },
-      filterChanged: function () { stop(); render(); },
+      filterChanged: function () { startChosen = true; stop(); render(); },
       visibilityChanged: function () {
         graph.nodes.forEach(function (n) { n.g.setAttribute("tabindex", n.visible ? "0" : "-1"); });
         var empty = document.getElementById("map-empty");

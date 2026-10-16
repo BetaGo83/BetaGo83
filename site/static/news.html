@@ -257,7 +257,7 @@ window.addEventListener("DOMContentLoaded", function () {
     var sources = element("ul", null, article, "source-list"); sources.setAttribute("aria-label", "제목 출처");
     item.sources.forEach(function (s) {
       var row = element("li", null, sources), source = link(row, s.name + " ↗", s.url, true);
-      source.title = "출처 열기 · " + publishedLabel(s.published_at, item.kind) + (s.observed_at ? " · 처음 수집 확인 " + dateLabel(s.observed_at) : " · 처음 수집 시각 기록 없음");
+      source.title = "출처 열기 · " + publishedLabel(s.published_at, item.kind) + (s.observed_at ? " · 첫 수집 확인(보관 기록 기준) " + dateLabel(s.observed_at) : " · 처음 수집 시각 기록 없음");
       element("small", s.observed_at ? " · 첫 수집 확인 " + dateLabel(s.observed_at) : " · 첫 수집 시각 기록 없음", row);
     });
   }

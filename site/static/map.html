@@ -9,7 +9,7 @@
 <script src="./map-news.js?v=20261016-observed1" defer></script>
 <script src="./news-feed.js?v=20261016-observed1" defer></script>
 <script src="./map-scope.js" defer></script>
-<script src="./map-view.js?v=20261016-observed1" defer></script>
+<script src="./map-view.js?v=20261016-scopefit1" defer></script>
 <script>
   // 위키(Quartz)에서 고른 밝은/어두운 화면 설정을 따른다
   try { var t = localStorage.getItem("theme"); if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
@@ -178,6 +178,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
     <p>관계 크기는 종료·계획·제목만의 근거를 제외한 등록 관계의 상대 수입니다. 기간은 한국 날짜의 시작부터 마지막 날의 끝까지입니다. 기사는 매체 제공일, 공시는 접수일을 사용합니다.</p>
     <p>사건 수와 평소 대비 급증은 아직 계산하지 않습니다. 바깥 점선 테두리는 비교 이력이 부족하다는 뜻입니다. 재생 중 강조는 그 날짜의 보유 자료를 가리키며, 새로 들어온 속보라는 뜻이 아닙니다.</p>
     <p>게시 자료를 다시 확인했을 때 직전 목록 이후에 처음 수집한 출처가 확인되면 초록 테두리로 잠깐 강조합니다. 처음 열기·같은 자료 재조회·과거 날짜 재생은 이 신호를 만들지 않습니다. 선택한 날짜는 자동으로 바뀌지 않습니다.</p>
+    <p>첫 수집 시각은 남아 있는 기록을 기준으로 합니다. 보관 한도를 지나 기록이 없어진 주소는 다시 받은 때가 표시될 수 있습니다.</p>
     <p>면적 비례: 반지름 = 5 × √건수. 압축: 반지름 = 8 × √ln(1 + 건수). 최대 반지름은 30이며 상한 적용 시 상세에 표시합니다. 0건은 반지름 3의 빈 표식으로 남깁니다.</p>
   </details>
 </section>
@@ -226,6 +227,7 @@ window.addEventListener("DOMContentLoaded", function () {
   var intro = "";           // 설명 칸의 처음 내용 ('보는 법')
   var shown = null;         // 설명 칸이 보여 주는 점 (선택을 풀어도 설명은 남는다)
   var view = { x: 0, y: 0, k: 1 };
+  var viewInteracted = false;
   var nodes = [], edges = [], byId = {}, ready = false, lastWidth = 0;
   var newsView = null;
   var params = new URLSearchParams(window.location.search);
@@ -367,6 +369,7 @@ window.addEventListener("DOMContentLoaded", function () {
     newsView = MapNewsView.create({
       nodes: nodes, edges: edges, svg: svg, panel: panel,
       position: position, fit: fit, applyFilter: applyFilter,
+      initialFit: function (arrange) { if (!viewInteracted) { if (arrange) arrangeScope(); fit(); } },
       clear: function () { clearSelection(); shown = null; panel.innerHTML = intro; },
       find: find,
       getTheme: function () { return document.getElementById("theme").value; },
@@ -374,7 +377,7 @@ window.addEventListener("DOMContentLoaded", function () {
       isKnowledge: function () { return mapKind === "knowledge"; },
       inScope: function (n) { return !!scope && scope.nodeIds.indexOf(n.id) >= 0; },
       chooseNewsStart: function (stats) {
-        if (focusId || document.getElementById("theme").value || params.get("mode") !== "news") return;
+        if (viewInteracted || focusId || document.getElementById("theme").value || params.get("mode") !== "news") return;
         var ranked = nodes.filter(function (n) { return n.type === "company"; }).sort(function (a, b) {
           return ((stats[b.id] || {}).news || 0) - ((stats[a.id] || {}).news || 0) || a.id.localeCompare(b.id, "ko");
         });
@@ -429,7 +432,8 @@ window.addEventListener("DOMContentLoaded", function () {
       var box = html("input", null, label, { type: "checkbox" });
       box.checked = true;
       box.addEventListener("change", function () {
-        hidden[kind.key] = !box.checked; applyFilter();
+        hidden[kind.key] = !box.checked;
+        if (newsView) newsView.filterChanged(); else applyFilter();
         if (shown && !shown.visible) clearSelection(true);
         arrangeScope(); fit();
         if (shown && shown.visible) select(shown);
@@ -505,6 +509,7 @@ window.addEventListener("DOMContentLoaded", function () {
         if (!n.g.matches(":focus-visible")) return;
         var b = svg.getBoundingClientRect(), sx = n.x * view.k + view.x, sy = n.y * view.k + view.y;
         if (sx < 20 || sy < 20 || sx > b.width - 20 || sy > b.height - 20) {
+          viewInteracted = true;
           view.x = b.width / 2 - n.x * view.k; view.y = b.height / 2 - n.y * view.k; position();
         }
       });
@@ -625,9 +630,6 @@ window.addEventListener("DOMContentLoaded", function () {
     if (n.type === "theme") scopeUI.themes.checked = true;
     if (n.type === "industry") scopeUI.industries.checked = true;
     hidden = {}; resetLegend(); if (newsView) newsView.reveal(n); applyFilter(); arrangeScope(); fit();
-    var box = svg.getBoundingClientRect();
-    view.x = box.width / 2 - n.x * view.k; view.y = box.height / 2 - n.y * view.k;
-    position();
     select(n);
   }
   function resetLegend() { Array.prototype.forEach.call(document.querySelectorAll("#legend input"), function (b) { b.checked = true; }); }
@@ -750,6 +752,7 @@ window.addEventListener("DOMContentLoaded", function () {
       var dx = (e.clientX - start.x) / view.k, dy = (e.clientY - start.y) / view.k;
       if (Math.abs(e.clientX - start.x) + Math.abs(e.clientY - start.y) > slack) n.moved = true;
       if (!n.moved) return;
+      viewInteracted = true;
       n.x = start.nx + dx; n.y = start.ny + dy;
       position();
     }
@@ -796,6 +799,7 @@ window.addEventListener("DOMContentLoaded", function () {
         svg.classList.add("dragging");
       }
       if (pan.moved) {
+        viewInteracted = true;
         view.x = pan.vx + ev.clientX - pan.x; view.y = pan.vy + ev.clientY - pan.y;
         position();
       }
@@ -822,6 +826,7 @@ window.addEventListener("DOMContentLoaded", function () {
     zoomAt(ev.clientX, ev.clientY, Math.exp(-ev.deltaY * 0.0015));
   }, { passive: false });
   function zoomAt(cx, cy, factor) {
+    viewInteracted = true;
     var box = svg.getBoundingClientRect(), px = cx - box.left, py = cy - box.top;
     var k = Math.max(0.2, Math.min(5, view.k * factor));
     view.x = px - (px - view.x) * k / view.k; view.y = py - (py - view.y) * k / view.k; view.k = k;
