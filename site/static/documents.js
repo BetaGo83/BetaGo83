@@ -120,7 +120,10 @@
       var list = html("ul", null, panel); list.className = "reference-list";
       ids.slice().sort(function (a, b) { return model.bySlug[a].title.localeCompare(model.bySlug[b].title, "ko"); }).slice(0, 60).forEach(function (id) {
         var node = model.bySlug[id], row = html("li", null, list), button = html("button", node.title + " 중심으로 보기", row);
-        button.type = "button"; button.addEventListener("click", function () { choose(id); });
+        button.type = "button"; button.addEventListener("click", function (event) {
+          choose(id);
+          if (event.detail === 0) select.focus({ preventScroll: true });
+        });
         var link = html("a", "문서 열기", row); link.href = pageURL(id); link.target = "_top";
       });
       if (!ids.length) html("p", "표시 대상 문서 사이에서는 연결이 없습니다.", panel);

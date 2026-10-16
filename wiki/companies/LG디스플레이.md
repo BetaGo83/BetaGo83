@@ -6,7 +6,7 @@ market: "KOSPI"
 dart_corp_code: ""
 aliases: []
 themes: ["디스플레이"]
-updated: "2026-10-15"
+updated: "2026-10-16"
 krx_industry: "전자부품 제조업"
 classification_as_of: "2026-10-09"
 ---
@@ -26,7 +26,7 @@ classification_as_of: "2026-10-09"
 - [[디스플레이]] · 디스플레이 제품: KIND 주요제품에 고화질·초대형·폴더블 디스플레이 제품의 개발·제조가 기재되어 있다. (확인일: 2026-10-09) (역할 상태: 확인) ([한국거래소 KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt))
 
 ## 최근 이슈
-최근 사건은 아직 개별 검토하지 않았습니다. 아래 사업 확인일은 새 공시나 계약의 발생일이 아닙니다.
+- 2026-10-14 [기타] LG디스플레이는 이날 공시에서 전 임원의 업무상 배임 혐의에 관해 회사가 고소장을 제출했으며, 공시상 발생일·확인일은 2026-02-10이라고 밝혔다. 혐의 금액 68억5,900만 원은 고소장 기재 금액으로 사법절차를 통해 확정된 금액이 아니며, 향후 수사·재판 결과에 따라 달라질 수 있다. (근거 수준: 공시 원문) · [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800643)
 
 ## 분류와 확인 근거
 

@@ -542,8 +542,8 @@ window.addEventListener("DOMContentLoaded", function () {
     var box = svg.getBoundingClientRect();
     lastWidth = box.width;
     var vis = nodes.filter(function (n) { return n.visible !== false; });
-    if (!vis.length) vis = nodes;
-    if (!vis.length || !box.width || !box.height) return;
+    // Empty filters and collapsed panels keep the last useful camera.
+    if (!vis.length || box.width <= 0 || box.height <= 36) return;
     var minX = Math.min.apply(null, vis.map(function (n) { return n.x; })) - 40;
     var maxX = Math.max.apply(null, vis.map(function (n) { return n.x + n.w; })) + 20;
     var minY = Math.min.apply(null, vis.map(function (n) { return n.y; })) - 40;

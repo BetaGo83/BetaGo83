@@ -6,7 +6,7 @@ market: "KOSPI"
 dart_corp_code: ""
 aliases: []
 themes: ["조선·해운"]
-updated: "2026-10-15"
+updated: "2026-10-16"
 krx_industry: "해상 운송업"
 classification_as_of: "2026-10-09"
 ---
@@ -26,7 +26,7 @@ classification_as_of: "2026-10-09"
 - [[조선·해운]] · 해상 운송: 정기·부정기 및 전용선 등 해운 사업. (자료 기준일: 2026-10-09) (역할 상태: 확인) ([한국거래소](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt))
 
 ## 최근 이슈
-최근 사건은 아직 개별 검토하지 않았습니다. 아래 사업 확인일은 새 공시나 계약의 발생일이 아닙니다.
+- 2026-10-15 [투자] HMM은 이날 이사회에서 13,000TEU 컨테이너선 8척 신조 발주와 Resale 신조선 4척 매입을 결정했다고 공시했다. 원화 환산 투자금액은 약 2조1,678억 원이고 최종 인도는 2029년 12월 예정이며, 선박 세부사양과 인도 일정에 따라 투자금액·종료일이 변경될 수 있다. (근거 수준: 공시 원문) · [[조선·해운]] · [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015800543)
 
 ## 분류와 확인 근거
 
