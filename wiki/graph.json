@@ -1851,6 +1851,66 @@
    "issues": []
   },
   {
+   "id": "DL",
+   "type": "company",
+   "path": "companies/DL",
+   "summary": "석유화학 계열과 건설·에너지 사업을 거느린 지주회사",
+   "market": "KOSPI",
+   "ticker": "000210",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기초 화학물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 홈페이지는 그룹 사업 분야로 석유화학을 직접 안내하고, DL케미칼 공식 사이트를 연결한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dlholdings.co.kr/ko/index.do",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "석유화학",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사 공식 홈페이지는 그룹 사업 분야로 석유화학을 직접 안내하고, DL케미칼 공식 사이트를 연결한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dlholdings.co.kr/ko/index.do",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "DL이앤씨",
    "type": "company",
    "path": "companies/DL이앤씨",
@@ -24763,6 +24823,37 @@
      "weak": false,
      "sources": [
       "https://dhautonex.co.kr/business/new_energy",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "DL",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "석유화학",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 홈페이지는 그룹 사업 분야로 석유화학을 직접 안내하고, DL케미칼 공식 사이트를 연결한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dlholdings.co.kr/ko/index.do",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
