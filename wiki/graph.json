@@ -4117,6 +4117,40 @@
    "issues": []
   },
   {
+   "id": "ES큐브",
+   "type": "company",
+   "path": "companies/ES큐브",
+   "summary": "레저 및 기능성 텐트를 제조·판매하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "050120",
+   "dart_corp_code": "00175623",
+   "aliases": [
+    "ES CUBE CO., LTD.",
+    "이에스큐브"
+   ],
+   "krx_industry": "생활용품 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "사업 범위",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "레저 및 기능성 텐트의 도매·상품중개와 종속기업의 텐트 제조·판매 역할을 DART·KIND 공식 자료에서 확인했다. 특정 고객·수주·테마 관계는 확인하지 않았다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://englishdart.fss.or.kr/dsbc001/select.ax?selectKey=00175623",
+      "https://kind.krx.co.kr/external/2026/05/15/002240/20260515005000/11013.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [],
+   "issues": []
+  },
+  {
    "id": "F&F",
    "type": "company",
    "path": "companies/F&F",
