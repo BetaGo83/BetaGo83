@@ -13,7 +13,8 @@
     "전고체 원료",
     "제조 장비",
     "소재 공장 설비",
-    "전해액"
+    "전해액",
+    "배터리 자원순환"
    ]
   },
   {
@@ -721,6 +722,113 @@
      ]
     }
    ]
+  },
+  {
+   "id": "DS단석",
+   "type": "company",
+   "path": "companies/DS단석",
+   "summary": "바이오에너지와 배터리·금속 자원순환을 사업으로 하는 국내 상장사",
+   "market": "KOSPI",
+   "ticker": "017860",
+   "dart_corp_code": "",
+   "aliases": [
+    "DS DANSUK"
+   ],
+   "krx_industry": "기타 화학제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사가 배터리 리사이클과 금속소재 연구개발을 사업으로 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dsdansuk.com/products/rd/",
+      "https://dsdansuk.com/include/images/sub/DS%20DANSUK%20BATTERY%20RECYCLE_KOR.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "공식 자료가 사용 후 배터리 리사이클과 재생 소재 생산을 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dsdansuk.com/include/images/sub/DS%20DANSUK%20BATTERY%20RECYCLE_KOR.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "배터리 자원순환",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "공식 자료가 사용 후 배터리 리사이클과 재생 소재 생산을 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dsdansuk.com/include/images/sub/DS%20DANSUK%20BATTERY%20RECYCLE_KOR.pdf",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "환경·자원순환",
+     "tier": 1,
+     "stage": "배터리 자원순환",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "환경·자원순환",
+       "page": "환경·자원순환",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사가 배터리 리사이클과 금속소재 연구개발을 사업으로 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dsdansuk.com/products/rd/",
+        "https://dsdansuk.com/include/images/sub/DS%20DANSUK%20BATTERY%20RECYCLE_KOR.pdf",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
   },
   {
    "id": "F&F",
@@ -10640,6 +10748,68 @@
    "issues": []
   },
   {
+   "id": "일진하이솔루스",
+   "type": "company",
+   "path": "companies/일진하이솔루스",
+   "summary": "수소 저장·운송 솔루션과 수소전기차용 연료탱크를 제조하는 국내 상장사",
+   "market": "KOSPI",
+   "ticker": "271940",
+   "dart_corp_code": "",
+   "aliases": [
+    "ILJIN HYSOLUS"
+   ],
+   "krx_industry": "그외 기타 운송장비 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "수소·연료전지",
+     "page": "수소·연료전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사가 수소 저장·운송 솔루션과 수소전기차용 연료탱크 양산을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hysolus.co.kr/company/intro",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "수소·연료전지",
+     "tier": 1,
+     "stage": "수소 플랜트·실증",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "수소·연료전지",
+       "page": "수소·연료전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사가 수소 저장·운송 솔루션과 수소전기차용 연료탱크 양산을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hysolus.co.kr/company/intro",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "자비스",
    "type": "company",
    "path": "companies/자비스",
@@ -12320,6 +12490,113 @@
      "themes": []
     }
    ]
+  },
+  {
+   "id": "포스코DX",
+   "type": "company",
+   "path": "companies/포스코DX",
+   "summary": "산업 현장의 디지털 전환과 자동화 서비스를 제공하는 국내 상장사",
+   "market": "KOSPI",
+   "ticker": "022100",
+   "dart_corp_code": "",
+   "aliases": [
+    "POSCO DX"
+   ],
+   "krx_industry": "건축기술, 엔지니어링 및 관련 기술 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사가 AI·빅데이터를 접목한 IT서비스와 클라우드 서비스를 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.poscodx.com/kor",
+      "https://www.poscodx.com/kor/business/itService",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사가 산업용 로봇 자동화의 컨설팅·설계·구축·운영 서비스를 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.poscodx.com/kor/business/industrialRobot",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "AI·클라우드",
+     "tier": 1,
+     "stage": "AI·클라우드 구축·운영",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "AI·클라우드",
+       "page": "AI·클라우드",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사가 AI·빅데이터를 접목한 IT서비스와 클라우드 서비스를 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.poscodx.com/kor",
+        "https://www.poscodx.com/kor/business/itService",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "로봇·자동화",
+     "tier": 1,
+     "stage": "스마트공장 통합 제어",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "로봇·자동화",
+       "page": "로봇·자동화",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사가 산업용 로봇 자동화의 컨설팅·설계·구축·운영 서비스를 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.poscodx.com/kor/business/industrialRobot",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
   },
   {
    "id": "포스코퓨처엠",
@@ -18046,6 +18323,69 @@
    }
   },
   {
+   "source": "DS단석",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "배터리 자원순환",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "공식 자료가 사용 후 배터리 리사이클과 재생 소재 생산을 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dsdansuk.com/include/images/sub/DS%20DANSUK%20BATTERY%20RECYCLE_KOR.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "DS단석",
+   "target": "환경·자원순환",
+   "type": "테마",
+   "tier": 1,
+   "stage": "배터리 자원순환",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사가 배터리 리사이클과 금속소재 연구개발을 사업으로 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dsdansuk.com/products/rd/",
+      "https://dsdansuk.com/include/images/sub/DS%20DANSUK%20BATTERY%20RECYCLE_KOR.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "F&F",
    "target": "패션·의류",
    "type": "테마",
@@ -23728,6 +24068,37 @@
    }
   },
   {
+   "source": "일진하이솔루스",
+   "target": "수소·연료전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "수소 플랜트·실증",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "수소·연료전지",
+     "page": "수소·연료전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사가 수소 저장·운송 솔루션과 수소전기차용 연료탱크 양산을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hysolus.co.kr/company/intro",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "자비스",
    "target": "2차전지",
    "type": "테마",
@@ -24657,6 +25028,69 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "포스코DX",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 1,
+   "stage": "AI·클라우드 구축·운영",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사가 AI·빅데이터를 접목한 IT서비스와 클라우드 서비스를 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.poscodx.com/kor",
+      "https://www.poscodx.com/kor/business/itService",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "포스코DX",
+   "target": "로봇·자동화",
+   "type": "테마",
+   "tier": 1,
+   "stage": "스마트공장 통합 제어",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사가 산업용 로봇 자동화의 컨설팅·설계·구축·운영 서비스를 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.poscodx.com/kor/business/industrialRobot",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }

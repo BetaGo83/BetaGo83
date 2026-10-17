@@ -67,6 +67,8 @@ svg.dragging { cursor: grabbing; }
 .node:focus-visible circle { stroke: var(--text); stroke-width: 3px; stroke-dasharray: 3 2; }
 .node.dim, .edge.dim { opacity: 0.12; }
 .node.hit circle { stroke: var(--focus); stroke-width: 3px; }
+.node.dragging circle { stroke: var(--focus); stroke-width: 3px; }
+.node.drag-peer circle { stroke: var(--focus); stroke-opacity: .65; }
 /* 축소했을 때 누르기 쉽게 하는 영역은 보이지 않게 (위의 점 색·테두리 규칙보다 우선) */
 .node circle.node-hit { fill: transparent !important; stroke: none !important; }
 /* 많이 축소하면 기업 이름이 읽을 수 없을 만큼 작아지므로 숨기고, 고른 점과 이웃 이름만 보인다 */
@@ -160,7 +162,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
     <label>자료 기준일 <input id="map-date" type="date" disabled></label>
     <label>기간 <select id="map-days" disabled><option value="1">하루</option><option value="7">7일</option><option value="14">14일</option></select></label>
     <button id="map-play" type="button" disabled>날짜 재생</button>
-    <label><input id="map-motion" type="checkbox"> 움직임 줄이기</label>
+    <label><input id="map-motion" type="checkbox"> 움직임 줄이기 (뉴스·드래그)</label>
     <button id="map-refresh" type="button">게시 자료 다시 확인</button>
     <span id="map-play-state" role="status">정적 게시본</span>
   </div>
@@ -192,7 +194,7 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
     <h2>보는 법</h2>
     <p id="intro-kind">기업을 고르면 주변 기업과 등록된 관계를 확인할 수 있습니다. 기본 화면에는 확인된 관계를 표시하며, 확인 중·종료 관계는 위에서 추가할 수 있습니다.</p>
     <p>위의 산업·테마 목록에서 분야를 골라 보세요. 분야 묶음은 탐색용이며 기업별 거래소 업종과 다릅니다. 지수 편입·공시 확인·공식 발표 확인·후보를 구분하고, 기사 제목 근거에는 약한 근거 표시를 붙입니다.</p>
-    <p>점이나 선을 누르면 관계와 근거(공시·기사 링크)가 여기 나옵니다. 끌어서 옮기고, 휠이나 두 손가락으로 확대할 수 있습니다.</p>
+    <p>점이나 선을 누르면 관계와 근거(공시·기사 링크)가 여기 나옵니다. 점을 끌면 연결된 주변 점이 잠시 따라 움직이고 손을 놓으면 멈춥니다. 휠이나 두 손가락으로 확대할 수 있습니다.</p>
     <p>전체 맵은 등록된 기업과 주제의 연결을 한 화면에 펼칩니다. 여러 주제에 속한 회사는 하나의 점으로 이어지며, 연결이 없는 점도 남깁니다. 주제의 색은 탐색 분야를 구분합니다. 가까이 놓인 점끼리 거래한다는 뜻은 아니며 실제 연결은 선과 출처로 확인하세요.</p>
     <p class="meta" id="updated"></p>
   </aside>
@@ -1016,10 +1018,103 @@ window.addEventListener("DOMContentLoaded", function () {
   }
   document.addEventListener("keydown", escapeSelection);
 
+  // 드래그 중인 점과 2단계 이웃만 유한하게 완화한다. 상시 물리 루프는 두지 않는다.
+  var dragMotion = { active: false, released: false, anchor: null, members: [], links: [], deadline: 0, raf: 0 };
+  function dragMotionAllowed() {
+    var reduce = document.getElementById("map-motion");
+    return !(reduce && reduce.checked) && !(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+  }
+  function dragMotionMembers(anchor) {
+    var distance = Object.create(null), queue = [{ id: anchor.id, depth: 0 }], ids = [];
+    distance[anchor.id] = 0;
+    while (queue.length && ids.length < 96) {
+      var current = queue.shift(), node = byId[current.id];
+      if (!node || !node.visible) continue;
+      ids.push(node.id);
+      if (current.depth >= 2) continue;
+      edges.forEach(function (e) {
+        if (!e.shown) return;
+        var next = e.source === node.id ? e.target : e.target === node.id ? e.source : null;
+        if (!next || distance[next] !== undefined) return;
+        var candidate = byId[next];
+        if (!candidate || !candidate.visible) return;
+        distance[next] = current.depth + 1;
+        queue.push({ id: next, depth: current.depth + 1 });
+      });
+    }
+    var keep = Object.create(null); ids.forEach(function (id) { keep[id] = true; });
+    return {
+      members: ids.map(function (id) { return byId[id]; }),
+      links: edges.filter(function (e) { return e.shown && keep[e.source] && keep[e.target]; })
+    };
+  }
+  function clampDrag(value, limit) { return Math.max(-limit, Math.min(limit, value)); }
+  function startDragMotion(anchor) {
+    if (!dragMotionAllowed()) return;
+    var group = dragMotionMembers(anchor);
+    dragMotion.active = true; dragMotion.released = false; dragMotion.anchor = anchor;
+    dragMotion.members = group.members; dragMotion.links = group.links; dragMotion.deadline = performance.now() + 180;
+    dragMotion.members.forEach(function (n) {
+      n.dragVx = 0; n.dragVy = 0; n.g.classList.toggle("drag-peer", n !== anchor);
+    });
+    anchor.g.classList.add("dragging");
+    if (!dragMotion.raf) dragMotion.raf = requestAnimationFrame(stepDragMotion);
+  }
+  function noteDragMotion() {
+    if (!dragMotion.active || !dragMotion.anchor) return;
+    dragMotion.released = false; dragMotion.deadline = performance.now() + 180;
+    if (!dragMotion.raf) dragMotion.raf = requestAnimationFrame(stepDragMotion);
+  }
+  function finishDragMotion() {
+    if (!dragMotion.active) return;
+    dragMotion.released = true; dragMotion.deadline = performance.now() + 260;
+    if (!dragMotion.raf) dragMotion.raf = requestAnimationFrame(stepDragMotion);
+  }
+  function stopDragMotion() {
+    dragMotion.members.forEach(function (n) {
+      n.dragVx = n.dragVy = 0; n.g.classList.remove("drag-peer", "dragging");
+    });
+    dragMotion.active = false; dragMotion.released = false; dragMotion.anchor = null; dragMotion.members = []; dragMotion.links = [];
+    dragMotion.raf = 0;
+  }
+  function stepDragMotion(now) {
+    dragMotion.raf = 0;
+    if (!dragMotion.active || !dragMotion.anchor) return;
+    if (now > dragMotion.deadline) { if (dragMotion.released) stopDragMotion(); return; }
+    var members = dragMotion.members, anchor = dragMotion.anchor, alpha = dragMotion.released ? .045 : .085;
+    for (var i = 0; i < members.length; i++) {
+      var a = members[i]; if (a === anchor) continue;
+      for (var j = i + 1; j < members.length; j++) {
+        var b = members[j]; if (b === anchor) continue;
+        var dx = a.x - b.x, dy = a.y - b.y, d2 = Math.max(16, dx * dx + dy * dy), d = Math.sqrt(d2);
+        var clearance = a.type === "theme" && b.type === "theme" ? 120 : 44;
+        if (d < clearance) {
+          var repel = Math.min(4, (clearance - d) * .035);
+          a.dragVx += dx / d * repel * alpha; a.dragVy += dy / d * repel * alpha;
+          b.dragVx -= dx / d * repel * alpha; b.dragVy -= dy / d * repel * alpha;
+        }
+      }
+    }
+    dragMotion.links.forEach(function (e) {
+      var a = e.s, b = e.t, dx = b.x - a.x, dy = b.y - a.y, d = Math.sqrt(dx * dx + dy * dy) || 1;
+      var desired = a.type === "theme" || b.type === "theme" ? 120 : 112, force = (d - desired) * .012 * alpha;
+      if (a !== anchor) { a.dragVx += dx / d * force; a.dragVy += dy / d * force; }
+      if (b !== anchor) { b.dragVx -= dx / d * force; b.dragVy -= dy / d * force; }
+    });
+    members.forEach(function (n) {
+      if (n === anchor) return;
+      n.dragVx = clampDrag(n.dragVx * .78, 8); n.dragVy = clampDrag(n.dragVy * .78, 8);
+      n.x += n.dragVx; n.y += n.dragVy;
+    });
+    position();
+    dragMotion.raf = requestAnimationFrame(stepDragMotion);
+  }
+
   // 점 끌기 (마우스 왼쪽 버튼, 손가락, 펜)
   function dragNode(ev, n) {
     ev.stopPropagation();
     if (ev.pointerType === "mouse" && ev.button !== 0) return;
+    if (dragMotion.active && dragMotion.anchor !== n) stopDragMotion();
     hideTip();
     n.moved = false; n.dragging = true;
     var start = { x: ev.clientX, y: ev.clientY, nx: n.x, ny: n.y };
@@ -1031,6 +1126,7 @@ window.addEventListener("DOMContentLoaded", function () {
       if (!n.moved) return;
       viewInteracted = true;
       n.x = start.nx + dx; n.y = start.ny + dy;
+      if (!dragMotion.active) startDragMotion(n); else noteDragMotion();
       position();
     }
     function up() {
@@ -1038,6 +1134,7 @@ window.addEventListener("DOMContentLoaded", function () {
         n.g.removeEventListener(t, i === 0 ? move : up);
       });
       n.dragging = false;
+      finishDragMotion();
       setTimeout(function () { n.moved = false; }, 0);
     }
     n.g.addEventListener("pointermove", move);
