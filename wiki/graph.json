@@ -14,7 +14,9 @@
     "제조 장비",
     "소재 공장 설비",
     "전해액",
-    "배터리 자원순환"
+    "배터리 자원순환",
+    "이차전지 원료·소재 조달",
+    "제조 환경·드라이룸"
    ]
   },
   {
@@ -61,7 +63,8 @@
     "전력반도체 후공정",
     "반도체 공정 소재",
     "반도체 제조 장비",
-    "반도체 패키징"
+    "반도체 패키징",
+    "반도체 클린룸"
    ]
   },
   {
@@ -234,7 +237,8 @@
     "연료전지 발전사업 개발",
     "수소 플랜트·실증",
     "수소·연료전지 발전사업",
-    "수소충전 시스템"
+    "수소충전 시스템",
+    "청정수소 공급 인프라"
    ]
   },
   {
@@ -370,7 +374,8 @@
     "해상풍력 기자재·시공",
     "태양광·풍력 발전설비",
     "해상풍력 설계·조달·시공",
-    "태양광 발전소·인버터"
+    "태양광 발전소·인버터",
+    "태양광·풍력 발전 및 개발"
    ]
   },
   {
@@ -381,7 +386,8 @@
    "category": "에너지·환경",
    "stages": [
     "전력기기",
-    "전력기기·시스템"
+    "전력기기·시스템",
+    "송배전용 초고압 케이블"
    ]
   },
   {
@@ -4775,6 +4781,109 @@
    ]
   },
   {
+   "id": "대한전선",
+   "type": "company",
+   "path": "companies/대한전선",
+   "summary": "전력망용 초고압 케이블과 통신케이블을 공급하는 상장사",
+   "market": "KOSPI",
+   "ticker": "001440",
+   "dart_corp_code": "",
+   "aliases": [
+    "TAIHAN CABLE"
+   ],
+   "krx_industry": "절연선 및 케이블 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "전력 공급망 전반의 송배전 솔루션과 초고압 케이블을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.taihan.com/business/solutionDetail?idx=1",
+      "https://www.taihan.com/solutions/dcCableSystem"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "통신케이블과 광케이블이 주요제품이다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "전력망·전력기기",
+     "tier": 1,
+     "stage": "송배전용 초고압 케이블",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "전력망·전력기기",
+       "page": "전력망·전력기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "전력 공급망 전반의 송배전 솔루션과 초고압 케이블을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.taihan.com/business/solutionDetail?idx=1",
+        "https://www.taihan.com/solutions/dcCableSystem"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 1,
+     "stage": "통신케이블",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "통신·네트워크",
+       "page": "통신·네트워크",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "통신케이블과 광케이블이 주요제품이다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "대한항공",
    "type": "company",
    "path": "companies/대한항공",
@@ -8243,6 +8352,150 @@
        "weak": false,
        "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "신성이엔지",
+   "type": "company",
+   "path": "companies/신성이엔지",
+   "summary": "태양광 모듈과 반도체·디스플레이 클린룸, 이차전지 드라이룸을 제공하는 상장사",
+   "market": "KOSPI",
+   "ticker": "011930",
+   "dart_corp_code": "",
+   "aliases": [
+    "SHINSUNG E&G"
+   ],
+   "krx_industry": "반도체 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "태양광 모듈과 태양광 시스템·EPC·O&M을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://shinsung.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "반도체·디스플레이 제조공간용 클린룸과 FFU 사업을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://shinsung.co.kr/"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "이차전지 제조공정용 드라이룸을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://shinsung.co.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "제조 환경·드라이룸",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "이차전지 제조공정용 드라이룸을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://shinsung.co.kr/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "반도체 클린룸",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "반도체·디스플레이 제조공간용 클린룸과 FFU 사업을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://shinsung.co.kr/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "재생에너지",
+     "tier": 1,
+     "stage": "태양광 제조·개발",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "재생에너지",
+       "page": "재생에너지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "태양광 모듈과 태양광 시스템·EPC·O&M을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://shinsung.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
       }
@@ -12584,6 +12837,152 @@
        "weak": false,
        "sources": [
         "https://www.poscodx.com/kor/business/industrialRobot",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "포스코인터내셔널",
+   "type": "company",
+   "path": "companies/포스코인터내셔널",
+   "summary": "에너지·소재·식량 등을 다루는 글로벌 종합사업회사",
+   "market": "KOSPI",
+   "ticker": "047050",
+   "dart_corp_code": "",
+   "aliases": [
+    "POSCO INTERNATIONAL"
+   ],
+   "krx_industry": "상품 중개업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "태양광·풍력 발전업과 관련 사업을 회사소개에서 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.poscointl.com/about",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "수소·연료전지",
+     "page": "수소·연료전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "청정수소 생산부터 사용까지의 사업 확장을 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.poscointl.com/greenBusiness?business=ccs"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "이차전지 원료·소재 조달·판매망과 리사이클링 참여를 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.poscointl.com/mobility",
+      "https://www.poscointl.com/compliance"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "이차전지 원료·소재 조달",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "이차전지 원료·소재 조달·판매망과 리사이클링 참여를 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.poscointl.com/mobility",
+        "https://www.poscointl.com/compliance"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "수소·연료전지",
+     "tier": 1,
+     "stage": "청정수소 공급 인프라",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "수소·연료전지",
+       "page": "수소·연료전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "청정수소 생산부터 사용까지의 사업 확장을 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.poscointl.com/greenBusiness?business=ccs"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "재생에너지",
+     "tier": 1,
+     "stage": "태양광·풍력 발전 및 개발",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "재생에너지",
+       "page": "재생에너지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "태양광·풍력 발전업과 관련 사업을 회사소개에서 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.poscointl.com/about",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -20661,6 +21060,67 @@
    }
   },
   {
+   "source": "대한전선",
+   "target": "전력망·전력기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "송배전용 초고압 케이블",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "전력 공급망 전반의 송배전 솔루션과 초고압 케이블을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.taihan.com/business/solutionDetail?idx=1",
+      "https://www.taihan.com/solutions/dcCableSystem"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대한전선",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 1,
+   "stage": "통신케이블",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "통신케이블과 광케이블이 주요제품이다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "대한항공",
    "target": "항공·물류",
    "type": "테마",
@@ -22666,6 +23126,97 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "신성이엔지",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 환경·드라이룸",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "이차전지 제조공정용 드라이룸을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://shinsung.co.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "신성이엔지",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "반도체 클린룸",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "반도체·디스플레이 제조공간용 클린룸과 FFU 사업을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://shinsung.co.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "신성이엔지",
+   "target": "재생에너지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "태양광 제조·개발",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "태양광 모듈과 태양광 시스템·EPC·O&M을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://shinsung.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
@@ -25090,6 +25641,98 @@
      "weak": false,
      "sources": [
       "https://www.poscodx.com/kor/business/industrialRobot",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "포스코인터내셔널",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "이차전지 원료·소재 조달",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "이차전지 원료·소재 조달·판매망과 리사이클링 참여를 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.poscointl.com/mobility",
+      "https://www.poscointl.com/compliance"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "포스코인터내셔널",
+   "target": "수소·연료전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "청정수소 공급 인프라",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "수소·연료전지",
+     "page": "수소·연료전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "청정수소 생산부터 사용까지의 사업 확장을 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.poscointl.com/greenBusiness?business=ccs"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "포스코인터내셔널",
+   "target": "재생에너지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "태양광·풍력 발전 및 개발",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "태양광·풍력 발전업과 관련 사업을 회사소개에서 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.poscointl.com/about",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
