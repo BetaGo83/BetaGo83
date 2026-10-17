@@ -929,6 +929,109 @@
    "issues": []
   },
   {
+   "id": "BGF에코머티리얼즈",
+   "type": "company",
+   "path": "companies/BGF에코머티리얼즈",
+   "summary": "고기능성 엔지니어링 소재와 바이오·재활용·특수화학 소재를 개발하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "126600",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "합성고무 및 플라스틱 물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 자료는 고성능 엔지니어링 소재, 바이오플라스틱, 폐플라스틱 재활용 소재, 반도체·이차전지용 불소계 핵심 소재와 자동차·전자용 소재 사업을 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.bgfecomaterials.com/en/company/overview",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 자료는 고성능 엔지니어링 소재, 바이오플라스틱, 폐플라스틱 재활용 소재, 반도체·이차전지용 불소계 핵심 소재와 자동차·전자용 소재 사업을 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.bgfecomaterials.com/en/company/overview",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "기초·첨단화학소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사 공식 자료는 고성능 엔지니어링 소재, 바이오플라스틱, 폐플라스틱 재활용 소재, 반도체·이차전지용 불소계 핵심 소재와 자동차·전자용 소재 사업을 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.bgfecomaterials.com/en/company/overview",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "환경·자원순환",
+     "tier": 1,
+     "stage": "환경 소재·설비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "환경·자원순환",
+       "page": "환경·자원순환",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사 공식 자료는 고성능 엔지니어링 소재, 바이오플라스틱, 폐플라스틱 재활용 소재, 반도체·이차전지용 불소계 핵심 소재와 자동차·전자용 소재 사업을 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.bgfecomaterials.com/en/company/overview",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "CJ CGV",
    "type": "company",
    "path": "companies/CJ CGV",
@@ -23544,6 +23647,68 @@
      "sources": [
       "https://bgfretail.com/company/introduction/greeting/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "BGF에코머티리얼즈",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기초·첨단화학소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 자료는 고성능 엔지니어링 소재, 바이오플라스틱, 폐플라스틱 재활용 소재, 반도체·이차전지용 불소계 핵심 소재와 자동차·전자용 소재 사업을 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.bgfecomaterials.com/en/company/overview",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "BGF에코머티리얼즈",
+   "target": "환경·자원순환",
+   "type": "테마",
+   "tier": 1,
+   "stage": "환경 소재·설비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 자료는 고성능 엔지니어링 소재, 바이오플라스틱, 폐플라스틱 재활용 소재, 반도체·이차전지용 불소계 핵심 소재와 자동차·전자용 소재 사업을 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.bgfecomaterials.com/en/company/overview",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
