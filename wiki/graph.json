@@ -21152,6 +21152,66 @@
    "issues": []
   },
   {
+   "id": "효성화학",
+   "type": "company",
+   "path": "companies/효성화학",
+   "summary": "폴리프로필렌과 폴리케톤, 필름, 수처리 멤브레인 등 화학소재 사업을 운영하는 기업",
+   "market": "KOSPI",
+   "ticker": "298000",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기초 화학물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 소개와 사업자료는 원료에서 제품까지의 폴리프로필렌, 폴리케톤, 나일론·PET·TAC 필름, 수처리용 멤브레인 소재 사업을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyosungchemical.com/kr/company/about/intro",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "기초·첨단화학소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사 공식 소개와 사업자료는 원료에서 제품까지의 폴리프로필렌, 폴리케톤, 나일론·PET·TAC 필름, 수처리용 멤브레인 소재 사업을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hyosungchemical.com/kr/company/about/intro",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "(가칭) 글라셈",
    "type": "external",
    "path": null,
@@ -35004,6 +35064,37 @@
      "weak": false,
      "sources": [
       "https://www.hyosungtnc.com/kr",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "효성화학",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기초·첨단화학소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 소개와 사업자료는 원료에서 제품까지의 폴리프로필렌, 폴리케톤, 나일론·PET·TAC 필름, 수처리용 멤브레인 소재 사업을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyosungchemical.com/kr/company/about/intro",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
