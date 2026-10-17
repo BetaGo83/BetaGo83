@@ -1696,6 +1696,66 @@
    ]
   },
   {
+   "id": "HD현대마린솔루션",
+   "type": "company",
+   "path": "companies/HD현대마린솔루션",
+   "summary": "선박 생애주기 서비스와 친환경 개조·디지털 제어 솔루션을 제공하는 기업",
+   "market": "KOSPI",
+   "ticker": "443060",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "건축기술, 엔지니어링 및 관련 기술 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 사업자료에서 선박 애프터마켓, 친환경 Retrofit, 스마트십·디지털 제어 솔루션을 제공한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://hd-marinesolution.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "조선·해운",
+     "tier": 1,
+     "stage": "조선·해양 기자재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "조선·해운",
+       "page": "조선·해운",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 사업자료에서 선박 애프터마켓, 친환경 Retrofit, 스마트십·디지털 제어 솔루션을 제공한다고 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://hd-marinesolution.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "HD현대에너지솔루션",
    "type": "company",
    "path": "companies/HD현대에너지솔루션",
@@ -9756,6 +9816,66 @@
    "issues": []
   },
   {
+   "id": "시프트업",
+   "type": "company",
+   "path": "companies/시프트업",
+   "summary": "게임 제작과 자체 지식재산권 개발을 수행하는 게임 스튜디오",
+   "market": "KOSPI",
+   "ticker": "462870",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 소개에서 게임 제작과 홍보 영상·음악 제작을 아우르는 게임 디자인·개발 스튜디오라고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://shiftup.co.kr/about/about.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "게임",
+     "tier": 1,
+     "stage": "게임 개발",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "게임",
+       "page": "게임",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 소개에서 게임 제작과 홍보 영상·음악 제작을 아우르는 게임 디자인·개발 스튜디오라고 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://shiftup.co.kr/about/about.php",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "신성이엔지",
    "type": "company",
    "path": "companies/신성이엔지",
@@ -11318,6 +11438,66 @@
        "evidence_level": "거래소 자료",
        "weak": false,
        "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "엠앤씨솔루션",
+   "type": "company",
+   "path": "companies/엠앤씨솔루션",
+   "summary": "방위산업용 유압식·전기식 구동 부품과 시스템을 개발·생산하는 기업",
+   "market": "KOSPI",
+   "ticker": "484870",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "방산",
+     "page": "방산",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 지속가능경영보고서에서 포·포탑 구동장치, 안정화 장치, 유압시스템, 항공기용 유압펌프 등 방산용 구동·제어 제품을 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.mncsolution.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "방산",
+     "tier": 1,
+     "stage": "센서·부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "방산",
+       "page": "방산",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 지속가능경영보고서에서 포·포탑 구동장치, 안정화 장치, 유압시스템, 항공기용 유압펌프 등 방산용 구동·제어 제품을 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.mncsolution.com/",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -21066,6 +21246,37 @@
    }
   },
   {
+   "source": "HD현대마린솔루션",
+   "target": "조선·해운",
+   "type": "테마",
+   "tier": 1,
+   "stage": "조선·해양 기자재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 사업자료에서 선박 애프터마켓, 친환경 Retrofit, 스마트십·디지털 제어 솔루션을 제공한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://hd-marinesolution.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "HD현대에너지솔루션",
    "target": "재생에너지",
    "type": "테마",
@@ -25664,6 +25875,37 @@
    }
   },
   {
+   "source": "시프트업",
+   "target": "게임",
+   "type": "테마",
+   "tier": 1,
+   "stage": "게임 개발",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 소개에서 게임 제작과 홍보 영상·음악 제작을 아우르는 게임 디자인·개발 스튜디오라고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://shiftup.co.kr/about/about.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "신성이엔지",
    "target": "2차전지",
    "type": "테마",
@@ -26555,6 +26797,37 @@
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "엠앤씨솔루션",
+   "target": "방산",
+   "type": "테마",
+   "tier": 1,
+   "stage": "센서·부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "방산",
+     "page": "방산",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 지속가능경영보고서에서 포·포탑 구동장치, 안정화 장치, 유압시스템, 항공기용 유압펌프 등 방산용 구동·제어 제품을 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.mncsolution.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
