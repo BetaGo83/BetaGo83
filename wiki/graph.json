@@ -222,7 +222,8 @@
    "stages": [
     "기업 IT서비스",
     "차량 소프트웨어·IT서비스",
-    "시스템 구축·운영"
+    "시스템 구축·운영",
+    "문서·AI 소프트웨어"
    ]
   },
   {
@@ -1328,6 +1329,68 @@
      ]
     }
    ]
+  },
+  {
+   "id": "HD현대에너지솔루션",
+   "type": "company",
+   "path": "companies/HD현대에너지솔루션",
+   "summary": "태양광 발전 시스템과 신재생에너지 제품을 제공하는 국내 상장사",
+   "market": "KOSPI",
+   "ticker": "322000",
+   "dart_corp_code": "",
+   "aliases": [
+    "HD HYUNDAI ENERGY SOLUTIONS"
+   ],
+   "krx_industry": "반도체 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "신재생에너지 발전시스템, 태양광 인버터·전력변환장치·ESS의 제조·판매·설치·운영 사업목적을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hd-hyundaies.co.kr/data/01_junggwan.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "재생에너지",
+     "tier": 1,
+     "stage": "태양광 발전소·인버터",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "재생에너지",
+       "page": "재생에너지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "신재생에너지 발전시스템, 태양광 인버터·전력변환장치·ESS의 제조·판매·설치·운영 사업목적을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hd-hyundaies.co.kr/data/01_junggwan.pdf",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
   },
   {
    "id": "HD현대일렉트릭",
@@ -4999,6 +5062,68 @@
        "evidence_level": "거래소 자료",
        "weak": false,
        "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동국제강",
+   "type": "company",
+   "path": "companies/동국제강",
+   "summary": "제강·봉강·형강·후판을 생산하는 국내 상장 철강사",
+   "market": "KOSPI",
+   "ticker": "460860",
+   "dart_corp_code": "",
+   "aliases": [
+    "DONGKUK STEEL"
+   ],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 제품 페이지에서 제강·봉강·형강·후판을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dongkuksteel.com/ko/product/index",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "철강",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사 공식 제품 페이지에서 제강·봉강·형강·후판을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dongkuksteel.com/ko/product/index",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -14544,6 +14669,70 @@
    ]
   },
   {
+   "id": "한컴",
+   "type": "company",
+   "path": "companies/한컴",
+   "summary": "오피스·SDK·AI 오케스트레이션 소프트웨어를 개발·제공하는 국내 상장사",
+   "market": "KOSDAQ",
+   "ticker": "030520",
+   "dart_corp_code": "",
+   "aliases": [
+    "HANCOM"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사가 오피스·SDK·AI 오케스트레이션 제품과 서비스를 제공한다고 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hancom.com/ko",
+      "https://shop.hancom.com/about/company",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "소프트웨어·IT서비스",
+     "tier": 1,
+     "stage": "문서·AI 소프트웨어",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "소프트웨어·IT서비스",
+       "page": "소프트웨어·IT서비스",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사가 오피스·SDK·AI 오케스트레이션 제품과 서비스를 제공한다고 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hancom.com/ko",
+        "https://shop.hancom.com/about/company",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "한화솔루션",
    "type": "company",
    "path": "companies/한화솔루션",
@@ -19066,6 +19255,37 @@
    }
   },
   {
+   "source": "HD현대에너지솔루션",
+   "target": "재생에너지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "태양광 발전소·인버터",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "신재생에너지 발전시스템, 태양광 인버터·전력변환장치·ESS의 제조·판매·설치·운영 사업목적을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hd-hyundaies.co.kr/data/01_junggwan.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "HD현대일렉트릭",
    "target": "전력망·전력기기",
    "type": "테마",
@@ -21180,6 +21400,37 @@
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동국제강",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "철강",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 제품 페이지에서 제강·봉강·형강·후판을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dongkuksteel.com/ko/product/index",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
@@ -26710,6 +26961,38 @@
     "label": "확인 중",
     "muted": false,
     "line_style": "dashed"
+   }
+  },
+  {
+   "source": "한컴",
+   "target": "소프트웨어·IT서비스",
+   "type": "테마",
+   "tier": 1,
+   "stage": "문서·AI 소프트웨어",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사가 오피스·SDK·AI 오케스트레이션 제품과 서비스를 제공한다고 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hancom.com/ko",
+      "https://shop.hancom.com/about/company",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
    }
   },
   {

@@ -4,7 +4,7 @@ name: "소프트웨어·IT서비스"
 aliases: []
 category: "기술·디지털"
 keywords: ["IT서비스", "시스템 구축 운영", "차량 소프트웨어"]
-stages: ["기업 IT서비스", "차량 소프트웨어·IT서비스", "시스템 구축·운영"]
+stages: ["기업 IT서비스", "차량 소프트웨어·IT서비스", "시스템 구축·운영", "문서·AI 소프트웨어"]
 updated: "2026-10-15"
 ---
 
@@ -24,6 +24,7 @@ updated: "2026-10-15"
 - 기업 IT서비스: [[삼성에스디에스]] ([한국거래소 KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt))
 - 차량 소프트웨어·IT서비스: [[현대오토에버]] ([한국거래소 KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt))
 - 시스템 구축·운영: [[LG씨엔에스]] ([한국거래소 KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt))
+- 문서·AI 소프트웨어: [[한컴]] ([한컴 공식 홈페이지](https://www.hancom.com/ko), [한컴 회사개요](https://shop.hancom.com/about/company))
 
 ## 관련 기업
 
@@ -33,6 +34,7 @@ updated: "2026-10-15"
 |---|---|---|---|---|---|
 | [[LG씨엔에스]] | 소프트웨어·IT서비스 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[삼성에스디에스]] | 소프트웨어·IT서비스 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
+| [[한컴]] | 소프트웨어·IT서비스 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.hancom.com/ko), [출처](https://shop.hancom.com/about/company), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[현대오토에버]] | 소프트웨어·IT서비스 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 
 기사·공시 제목만 확인한 항목에는 약한 근거 표시가 붙습니다. 분류는 사업의 성공이나 현재 거래 가능 여부를 보증하지 않습니다.
