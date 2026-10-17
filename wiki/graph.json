@@ -787,6 +787,41 @@
    "issues": []
   },
   {
+   "id": "AK홀딩스",
+   "type": "company",
+   "path": "companies/AK홀딩스",
+   "summary": "자회사 지배와 경영지도를 주된 사업으로 하는 지주회사",
+   "market": "KOSPI",
+   "ticker": "006840",
+   "dart_corp_code": "",
+   "aliases": [
+    "AK Holdings",
+    "에이케이홀딩스"
+   ],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "지주회사 역할",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "AK홀딩스 사업보고서는 자회사 지배·경영지도·육성을 주된 지주사업으로 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/03/23/002160/20260323009016/11011.htm",
+      "https://englishdart.fss.or.kr/dsbc001/select.ax?selectKey=00125080",
+      "https://www.aekyunggroup.co.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [],
+   "issues": []
+  },
+  {
    "id": "APS",
    "type": "company",
    "path": "companies/APS",
