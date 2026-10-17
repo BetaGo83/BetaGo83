@@ -562,6 +562,66 @@
    ]
   },
   {
+   "id": "3S",
+   "type": "company",
+   "path": "companies/3S",
+   "summary": "반도체 웨이퍼 캐리어와 HVAC 환경시험장치를 제조하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "060310",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "null",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "한국거래소에 제출된 회사 IR 자료는 FOSB·FOUP·O/C·PLP-FOUP 등 웨이퍼 캐리어 사업과 반도체 후공정·패키징용 제품, HVAC 환경시험장치 사업을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/dst/irReference/18259/IR%20-%203S%20KOREA%20%2820260326%29.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "반도체 패키징",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "한국거래소에 제출된 회사 IR 자료는 FOSB·FOUP·O/C·PLP-FOUP 등 웨이퍼 캐리어 사업과 반도체 후공정·패키징용 제품, HVAC 환경시험장치 사업을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/dst/irReference/18259/IR%20-%203S%20KOREA%20%2820260326%29.pdf",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "AJ네트웍스",
    "type": "company",
    "path": "companies/AJ네트웍스",
@@ -23493,6 +23553,37 @@
      "status": "확인",
      "evidence_level": "공시 원문",
      "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "3S",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "반도체 패키징",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "한국거래소에 제출된 회사 IR 자료는 FOSB·FOUP·O/C·PLP-FOUP 등 웨이퍼 캐리어 사업과 반도체 후공정·패키징용 제품, HVAC 환경시험장치 사업을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/dst/irReference/18259/IR%20-%203S%20KOREA%20%2820260326%29.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
     }
    ],
    "presentation": {
