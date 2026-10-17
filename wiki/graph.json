@@ -6137,6 +6137,69 @@
    "issues": []
   },
   {
+   "id": "HRS",
+   "type": "company",
+   "path": "companies/HRS",
+   "summary": "실리콘 컴파운드제품을 제조하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "036640",
+   "dart_corp_code": "00230911",
+   "aliases": [
+    "(주)에이치알에스",
+    "HRS Co., Ltd."
+   ],
+   "krx_industry": "합성고무 및 플라스틱 물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "실리콘 컴파운드제품 제조와 합성고무 제조업을 공식 목록·DART 개황에서 확인했다. 특정 고객·공급 관계는 확인하지 않았다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00230911"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "고무·탄성체",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "실리콘 컴파운드제품 제조와 합성고무 제조업을 공식 목록·DART 개황에서 확인했다. 특정 고객·공급 관계는 확인하지 않았다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00230911"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "HT로보틱스",
    "type": "company",
    "path": "companies/HT로보틱스",
@@ -31872,6 +31935,37 @@
       "https://www.thehpsp.com/ko/",
       "https://thehpsp.com/sub/sub02.php?page=3",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HRS",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "고무·탄성체",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "실리콘 컴파운드제품 제조와 합성고무 제조업을 공식 목록·DART 개황에서 확인했다. 특정 고객·공급 관계는 확인하지 않았다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00230911"
      ],
      "malformed": ""
     }
