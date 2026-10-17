@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16",
+ "updated": "2026-10-17",
  "nodes": [
   {
    "id": "2차전지",
@@ -12,7 +12,8 @@
     "양극재",
     "전고체 원료",
     "제조 장비",
-    "소재 공장 설비"
+    "소재 공장 설비",
+    "전해액"
    ]
   },
   {
@@ -24,7 +25,8 @@
    "stages": [
     "기업용 AI 플랫폼",
     "AI 모델·서비스",
-    "AI·클라우드 구축·운영"
+    "AI·클라우드 구축·운영",
+    "클라우드 인프라 서비스"
    ]
   },
   {
@@ -36,7 +38,9 @@
    "stages": [
     "배터리",
     "배터리·솔루션",
-    "전력 시스템"
+    "전력 시스템",
+    "ESS 프로젝트 개발·운영",
+    "ESS 공급·유지보수"
    ]
   },
   {
@@ -52,7 +56,10 @@
     "검사 장비·부품",
     "공정 모니터링",
     "패키지기판",
-    "전력반도체 후공정"
+    "전력반도체 후공정",
+    "반도체 공정 소재",
+    "반도체 제조 장비",
+    "반도체 패키징"
    ]
   },
   {
@@ -64,7 +71,8 @@
    "stages": [
     "설계·시공",
     "건축·토목",
-    "건축·토목·플랜트"
+    "건축·토목·플랜트",
+    "주택·건축·토목"
    ]
   },
   {
@@ -100,7 +108,8 @@
    "stages": [
     "농기계·스마트온실 연구",
     "스마트팜 온실 설계·시공",
-    "작물 보호제"
+    "작물 보호제",
+    "농기계"
    ]
   },
   {
@@ -112,7 +121,8 @@
    "stages": [
     "설계·구축·운영",
     "코로케이션·네트워크",
-    "데이터센터 인프라"
+    "데이터센터 인프라",
+    "IDC 호스팅·운영"
    ]
   },
   {
@@ -131,11 +141,14 @@
    "id": "로봇·자동화",
    "type": "theme",
    "path": "themes/로봇·자동화",
-   "summary": "협동로봇·이동로봇과 구동 모듈·제어 소프트웨어",
+   "summary": "협동로봇·이동로봇, 자동화 부품과 제어 소프트웨어",
    "category": "기술·디지털",
    "stages": [
     "로봇 완제품",
-    "구동 모듈·소프트웨어"
+    "구동 모듈·소프트웨어",
+    "공장 물류 제어 소프트웨어",
+    "머신비전 카메라",
+    "스마트공장 통합 제어"
    ]
   },
   {
@@ -147,7 +160,8 @@
    "stages": [
     "바이오의약품 생산",
     "바이오의약품 제품",
-    "의약품"
+    "의약품",
+    "바이오의약품 원료"
    ]
   },
   {
@@ -161,7 +175,8 @@
     "추진기관",
     "유도무기",
     "함정",
-    "센서·부품"
+    "센서·부품",
+    "방산 전자장비"
    ]
   },
   {
@@ -185,7 +200,12 @@
    "stages": [
     "단말 보안",
     "접근제어·탐지 대응",
-    "네트워크 보안장비"
+    "네트워크 보안장비",
+    "보안 관제·컨설팅",
+    "정보보안 솔루션",
+    "클라우드 보안 관제",
+    "보안관리·관제",
+    "차량 보안 소프트웨어"
    ]
   },
   {
@@ -208,7 +228,11 @@
    "category": "에너지·환경",
    "stages": [
     "연료전지",
-    "연료전지·충전 인프라"
+    "연료전지·충전 인프라",
+    "연료전지 발전사업 개발",
+    "수소 플랜트·실증",
+    "수소·연료전지 발전사업",
+    "수소충전 시스템"
    ]
   },
   {
@@ -236,7 +260,8 @@
     "사업개발·투자",
     "사용후핵연료 처분",
     "해상 SMR(조선)",
-    "원전 설비·장비"
+    "원전 설비·장비",
+    "원전 시공·설계 용역"
    ]
   },
   {
@@ -248,7 +273,8 @@
    "stages": [
     "대형마트",
     "편의점·소매·전자상거래",
-    "쇼핑몰 운영 기반"
+    "쇼핑몰 운영 기반",
+    "면세 유통"
    ]
   },
   {
@@ -284,7 +310,9 @@
    "stages": [
     "검사용 제품",
     "의료영상 검출기",
-    "치과 영상·스캐너"
+    "치과 영상·스캐너",
+    "치과용 기기",
+    "체성분 분석기"
    ]
   },
   {
@@ -295,7 +323,10 @@
    "category": "산업재·운송",
    "stages": [
     "완성차",
-    "부품·모듈"
+    "부품·모듈",
+    "차량용 메모리·저장장치",
+    "차량용 MLCC",
+    "차량용 반도체"
    ]
   },
   {
@@ -307,7 +338,8 @@
    "stages": [
     "희소금속",
     "배터리 금속 소재",
-    "동 가공 소재"
+    "동 가공 소재",
+    "리튬 회수 소재"
    ]
   },
   {
@@ -330,7 +362,12 @@
    "stages": [
     "풍력 기자재",
     "풍력 부품",
-    "태양광 제조·개발"
+    "태양광 제조·개발",
+    "풍력·태양광 개발·시공",
+    "해상풍력 기자재·시공",
+    "태양광·풍력 발전설비",
+    "해상풍력 설계·조달·시공",
+    "태양광 발전소·인버터"
    ]
   },
   {
@@ -389,19 +426,23 @@
    "stages": [
     "음악 콘텐츠·매니지먼트",
     "음반·연예 매니지먼트",
-    "음악 콘텐츠"
+    "음악 콘텐츠",
+    "드라마 제작·판매"
    ]
   },
   {
    "id": "통신·네트워크",
    "type": "theme",
    "path": "themes/통신·네트워크",
-   "summary": "유무선 통신망을 통한 음성·데이터·네트워크 서비스",
+   "summary": "유무선 통신 서비스, 망 장비·케이블과 인터넷 연동",
    "category": "기술·디지털",
    "stages": [
     "유무선 통신·네트워크",
     "이동통신",
-    "이동통신·데이터 서비스"
+    "이동통신·데이터 서비스",
+    "통신케이블",
+    "이동통신망 장비",
+    "인터넷 트래픽 연동"
    ]
   },
   {
@@ -461,7 +502,8 @@
    "stages": [
     "화장품 제조·판매",
     "화장품·생활용품",
-    "화장품 생산"
+    "화장품 생산",
+    "화장품 제품"
    ]
   },
   {
@@ -485,7 +527,9 @@
    "stages": [
     "폐기물 처리",
     "환경 소재·설비",
-    "배터리 자원순환"
+    "배터리 자원순환",
+    "폐기물·수처리 시설",
+    "배터리 리튬 회수 공정"
    ]
   },
   {
@@ -636,7 +680,7 @@
      "theme": "음식료",
      "tier": 1,
      "stage": "식품 가공·제품",
-     "score": 0.89,
+     "score": 0.88,
      "classifications": [
       {
        "topic": "음식료",
@@ -759,9 +803,78 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
+    },
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "폐기물 소각과 하수·폐수 처리 시설의 사업개발·시공·운영을 환경사업으로 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://gsconst.co.kr/Business/Default.aspx?BusinessResultStep3=1&Lang=ko"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "풍력발전단지 시공과 태양광 프로젝트 개발·운영을 수행하는 사업을 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://gsconst.co.kr/Business/Default.aspx?BusinessResultStep3=1&Lang=ko"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "ESS",
+     "page": "ESS",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "ESS 분야의 개발부터 운영까지를 포함하는 에너지 프로젝트 사업을 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://gsconst.co.kr/Business/Default.aspx?BusinessResultStep3=1&Lang=ko"
+     ],
+     "malformed": ""
     }
    ],
    "themes": [
+    {
+     "theme": "ESS",
+     "tier": 1,
+     "stage": "ESS 프로젝트 개발·운영",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "ESS",
+       "page": "ESS",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "ESS 분야의 개발부터 운영까지를 포함하는 에너지 프로젝트 사업을 소개한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://gsconst.co.kr/Business/Default.aspx?BusinessResultStep3=1&Lang=ko"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
     {
      "theme": "건설·인프라",
      "tier": 1,
@@ -779,6 +892,60 @@
        "weak": false,
        "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "재생에너지",
+     "tier": 1,
+     "stage": "풍력·태양광 개발·시공",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "재생에너지",
+       "page": "재생에너지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "풍력발전단지 시공과 태양광 프로젝트 개발·운영을 수행하는 사업을 소개한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://gsconst.co.kr/Business/Default.aspx?BusinessResultStep3=1&Lang=ko"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "환경·자원순환",
+     "tier": 1,
+     "stage": "폐기물·수처리 시설",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "환경·자원순환",
+       "page": "환경·자원순환",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "폐기물 소각과 하수·폐수 처리 시설의 사업개발·시공·운영을 환경사업으로 소개한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://gsconst.co.kr/Business/Default.aspx?BusinessResultStep3=1&Lang=ko"
        ],
        "malformed": ""
       }
@@ -964,7 +1131,7 @@
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "해상 SMR(조선)",
-     "score": 1.78,
+     "score": 1.77,
      "classifications": [
       {
        "topic": "SMR 상용화",
@@ -991,7 +1158,7 @@
      "theme": "조선·해운",
      "tier": 2,
      "stage": "",
-     "score": 1.34,
+     "score": 1.33,
      "via": "HD현대중공업",
      "via_type": "출자"
     }
@@ -1180,7 +1347,7 @@
      "theme": "방산",
      "tier": 1,
      "stage": "함정",
-     "score": 0.9,
+     "score": 0.89,
      "classifications": [
       {
        "topic": "방산",
@@ -1207,7 +1374,7 @@
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "",
-     "score": 2.76,
+     "score": 2.74,
      "classifications": [
       {
        "topic": "SMR 상용화",
@@ -1234,7 +1401,7 @@
      "theme": "조선·해운",
      "tier": 1,
      "stage": "조선·해양 기자재",
-     "score": 4.47,
+     "score": 4.43,
      "classifications": [
       {
        "topic": "조선·해운",
@@ -1356,7 +1523,7 @@
      "theme": "조선·해운",
      "tier": 1,
      "stage": "해상 운송",
-     "score": 4.47,
+     "score": 4.43,
      "classifications": [
       {
        "topic": "조선·해운",
@@ -1395,6 +1562,64 @@
      ]
     }
    ]
+  },
+  {
+   "id": "ISC",
+   "type": "company",
+   "path": "companies/ISC",
+   "summary": "반도체 시험용 소켓을 다루는 기업",
+   "market": "KOSDAQ",
+   "ticker": "095340",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기계장비 및 관련 물품 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "반도체 시험에 사용하는 소켓을 주요제품으로 기재했다. 일반 반도체 시험 부품 범위이며 HBM 공급은 확인하지 않았다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "검사 장비·부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "반도체 시험에 사용하는 소켓을 주요제품으로 기재했다. 일반 반도체 시험 부품 범위이며 HBM 공급은 확인하지 않았다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
   },
   {
    "id": "JYP Ent.",
@@ -1455,6 +1680,64 @@
    "issues": []
   },
   {
+   "id": "KG이니시스",
+   "type": "company",
+   "path": "companies/KG이니시스",
+   "summary": "전자지불 서비스를 제공하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "035600",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "핀테크·전자결제",
+     "page": "핀테크·전자결제",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "전자지불 서비스를 제공한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "핀테크·전자결제",
+     "tier": 1,
+     "stage": "전자결제",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "핀테크·전자결제",
+       "page": "핀테크·전자결제",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "전자지불 서비스를 제공한다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "LB세미콘",
    "type": "company",
    "path": "companies/LB세미콘",
@@ -1488,7 +1771,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "전력반도체 후공정",
-     "score": 4.44,
+     "score": 4.41,
      "classifications": [
       {
        "topic": "반도체",
@@ -1705,14 +1988,178 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
+    },
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "클라우드 컨설팅·이전·구축·운영과 AI·데이터 플랫폼 구축 서비스를 제공한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lgcns.com/en/service/modern-it-infra-on-cloud/cloud"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "데이터센터",
+     "page": "데이터센터",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "데이터센터의 컨설팅·설계·구축·운영 서비스를 제공하고 국내외 데이터센터를 운영한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lgcns.com/en/service/modern-it-infra-on-cloud/data-center"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "사이버보안",
+     "page": "사이버보안",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "SecuXper를 통해 보안 컨설팅·시스템 구축과 보안 관제·탐지 대응 서비스를 제공한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lgcns.com/en/service/modern-it-infra-on-cloud/security"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "MCS로 AGV·천장 이송장치·컨베이어 등 공장 물류 설비의 경로 탐색과 통합 제어를 제공한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lgcns.com/en/service/smart-factory/production-logistics-management"
+     ],
+     "malformed": ""
     }
    ],
    "themes": [
     {
+     "theme": "AI·클라우드",
+     "tier": 1,
+     "stage": "AI·클라우드 구축·운영",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "AI·클라우드",
+       "page": "AI·클라우드",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "클라우드 컨설팅·이전·구축·운영과 AI·데이터 플랫폼 구축 서비스를 제공한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.lgcns.com/en/service/modern-it-infra-on-cloud/cloud"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "데이터센터",
+     "tier": 1,
+     "stage": "설계·구축·운영",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "데이터센터",
+       "page": "데이터센터",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "데이터센터의 컨설팅·설계·구축·운영 서비스를 제공하고 국내외 데이터센터를 운영한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.lgcns.com/en/service/modern-it-infra-on-cloud/data-center"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "로봇·자동화",
+     "tier": 1,
+     "stage": "공장 물류 제어 소프트웨어",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "로봇·자동화",
+       "page": "로봇·자동화",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "MCS로 AGV·천장 이송장치·컨베이어 등 공장 물류 설비의 경로 탐색과 통합 제어를 제공한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.lgcns.com/en/service/smart-factory/production-logistics-management"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "사이버보안",
+     "tier": 1,
+     "stage": "보안 관제·컨설팅",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "사이버보안",
+       "page": "사이버보안",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "SecuXper를 통해 보안 컨설팅·시스템 구축과 보안 관제·탐지 대응 서비스를 제공한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.lgcns.com/en/service/modern-it-infra-on-cloud/security"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
      "theme": "소프트웨어·IT서비스",
      "tier": 1,
      "stage": "시스템 구축·운영",
-     "score": 4.47,
+     "score": 4.43,
      "classifications": [
       {
        "topic": "소프트웨어·IT서비스",
@@ -1829,7 +2276,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "배터리",
-     "score": 7.34,
+     "score": 7.28,
      "classifications": [
       {
        "topic": "2차전지",
@@ -2034,9 +2481,50 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
+    },
+    {
+     "topic": "데이터센터",
+     "page": "데이터센터",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "IDC 호스팅을 통해 고객에게 서버·네트워크 장비를 임대하고 상주 전문가가 서버와 네트워크를 관리하는 서비스를 제공한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lguplus.com/biz/all/telecom/idc/hosting/B000000032"
+     ],
+     "malformed": ""
     }
    ],
    "themes": [
+    {
+     "theme": "데이터센터",
+     "tier": 1,
+     "stage": "IDC 호스팅·운영",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "데이터센터",
+       "page": "데이터센터",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "IDC 호스팅을 통해 고객에게 서버·네트워크 장비를 임대하고 상주 전문가가 서버와 네트워크를 관리하는 서비스를 제공한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.lguplus.com/biz/all/telecom/idc/hosting/B000000032"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
     {
      "theme": "통신·네트워크",
      "tier": 1,
@@ -2104,9 +2592,91 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
+    },
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "생명과학 제품 목록에서 당뇨병 치료제 제미글로와 성장호르몬제 유트로핀 등 의약품을 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lgchem.com/product/life-sciences?lang=ko_KR"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "리튬이온배터리용 양극재를 생산·공급하는 제품 사업을 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lgchem.com/product-detail/cathode-material?lang=ko_KR"
+     ],
+     "malformed": ""
     }
    ],
    "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "양극재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "리튬이온배터리용 양극재를 생산·공급하는 제품 사업을 소개한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.lgchem.com/product-detail/cathode-material?lang=ko_KR"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "생명과학 제품 목록에서 당뇨병 치료제 제미글로와 성장호르몬제 유트로핀 등 의약품을 소개한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.lgchem.com/product/life-sciences?lang=ko_KR"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
     {
      "theme": "화학·정유",
      "tier": 1,
@@ -2186,7 +2756,7 @@
      "theme": "방산",
      "tier": 1,
      "stage": "유도무기",
-     "score": 4.11,
+     "score": 4.08,
      "classifications": [
       {
        "topic": "방산",
@@ -2363,7 +2933,7 @@
      "theme": "데이터센터",
      "tier": 1,
      "stage": "데이터센터 인프라",
-     "score": 1.05,
+     "score": 1.04,
      "classifications": [
       {
        "topic": "데이터센터",
@@ -2698,7 +3268,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "메모리 제조",
-     "score": 9.31,
+     "score": 9.24,
      "classifications": [
       {
        "topic": "반도체",
@@ -2837,9 +3407,182 @@
      "theme": "HBM·반도체",
      "tier": 2,
      "stage": "",
-     "score": 1.2,
+     "score": 1.19,
      "via": "디아이",
      "via_type": "공급사"
+    },
+    {
+     "theme": "자동차·부품",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "삼성전자",
+     "via_type": "피출자"
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "삼성전자",
+     "via_type": "피출자"
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "TYM",
+   "type": "company",
+   "path": "companies/TYM",
+   "summary": "농기계를 주요제품에 포함한 기업",
+   "market": "KOSPI",
+   "ticker": "002900",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "농업·스마트팜",
+     "page": "농업·스마트팜",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "농기계를 주요제품으로 기재했다. 농기계 범위이며 스마트팜 운영·기술은 확인하지 않았다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "농업·스마트팜",
+     "tier": 1,
+     "stage": "농기계",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "농업·스마트팜",
+       "page": "농업·스마트팜",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "농기계를 주요제품으로 기재했다. 농기계 범위이며 스마트팜 운영·기술은 확인하지 않았다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "가온전선",
+   "type": "company",
+   "path": "companies/가온전선",
+   "summary": "전력선과 통신케이블을 제조·판매하는 기업",
+   "market": "KOSPI",
+   "ticker": "000500",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "절연선 및 케이블 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "전력선을 제조·판매한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "통신용 케이블을 제조·판매한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "전력망·전력기기",
+     "tier": 1,
+     "stage": "전력기기",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "전력망·전력기기",
+       "page": "전력망·전력기기",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "전력선을 제조·판매한다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 1,
+     "stage": "통신케이블",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "통신·네트워크",
+       "page": "통신·네트워크",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "통신용 케이블을 제조·판매한다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
     }
    ],
    "issues": []
@@ -2934,7 +3677,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "소재 공장 설비",
-     "score": 2.65,
+     "score": 2.63,
      "classifications": [
       {
        "topic": "2차전지",
@@ -3392,7 +4135,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "검사 장비·부품",
-     "score": 1.31,
+     "score": 1.3,
      "classifications": [
       {
        "topic": "반도체",
@@ -3428,6 +4171,22 @@
       "muted": false,
       "line_style": "solid"
      }
+    },
+    {
+     "theme": "자동차·부품",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "삼성전자",
+     "via_type": "고객사"
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "삼성전자",
+     "via_type": "고객사"
     }
    ],
    "issues": [
@@ -3564,6 +4323,64 @@
    "issues": []
   },
   {
+   "id": "뉴로메카",
+   "type": "company",
+   "path": "companies/뉴로메카",
+   "summary": "협동로봇과 자동화 플랫폼을 제공하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "348340",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "협동로봇과 자동화 플랫폼, 로봇 제어기를 제공한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "로봇·자동화",
+     "tier": 1,
+     "stage": "로봇 완제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "로봇·자동화",
+       "page": "로봇·자동화",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "협동로봇과 자동화 플랫폼, 로봇 제어기를 제공한다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "대동",
    "type": "company",
    "path": "companies/대동",
@@ -3648,6 +4465,34 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
+    },
+    {
+     "topic": "원전·SMR",
+     "page": "원전·SMR",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "원자력 발전소·연구용 원자로 시공과 가동 원전 설계 기술 용역을 사업으로 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://daewooenc.com/business/plant"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "수소·연료전지",
+     "page": "수소·연료전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "안산 단원 연료전지 발전사업을 자체 개발 사업으로 명시한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://daewooenc.com/business/plant"
+     ],
+     "malformed": ""
     }
    ],
    "themes": [
@@ -3655,7 +4500,7 @@
      "theme": "건설·인프라",
      "tier": 1,
      "stage": "건축·토목",
-     "score": 4.5,
+     "score": 4.47,
      "classifications": [
       {
        "topic": "건설·인프라",
@@ -3668,6 +4513,60 @@
        "weak": false,
        "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "수소·연료전지",
+     "tier": 1,
+     "stage": "연료전지 발전사업 개발",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "수소·연료전지",
+       "page": "수소·연료전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "안산 단원 연료전지 발전사업을 자체 개발 사업으로 명시한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://daewooenc.com/business/plant"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "원전·SMR",
+     "tier": 1,
+     "stage": "원전 시공·설계 용역",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "원전·SMR",
+       "page": "원전·SMR",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "원자력 발전소·연구용 원자로 시공과 가동 원전 설계 기술 용역을 사업으로 소개한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://daewooenc.com/business/plant"
        ],
        "malformed": ""
       }
@@ -3727,7 +4626,7 @@
      "theme": "항공·물류",
      "tier": 1,
      "stage": "항공 운송",
-     "score": 1.49,
+     "score": 1.48,
      "classifications": [
       {
        "topic": "항공·물류",
@@ -3766,6 +4665,163 @@
      ]
     }
    ]
+  },
+  {
+   "id": "덴티움",
+   "type": "company",
+   "path": "companies/덴티움",
+   "summary": "치과용 기기 제조 사업을 하는 기업",
+   "market": "KOSPI",
+   "ticker": "145720",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "의료용 기기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "치과용 기기를 제조한다는 사업 내용을 주요제품란에 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "치과용 기기",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "치과용 기기를 제조한다는 사업 내용을 주요제품란에 기재했다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동진쎄미켐",
+   "type": "company",
+   "path": "companies/동진쎄미켐",
+   "summary": "반도체·LCD 공정용 재료를 다루는 기업",
+   "market": "KOSDAQ",
+   "ticker": "005290",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기초 화학물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "반도체 공정용 감광제와 봉지제 등 재료를 취급한다. 일반 반도체 소재 범위이며 HBM 공급은 확인하지 않았다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "LCD용 감광제 등 디스플레이 재료를 취급한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "반도체 공정 소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "반도체 공정용 감광제와 봉지제 등 재료를 취급한다. 일반 반도체 소재 범위이며 HBM 공급은 확인하지 않았다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "디스플레이 소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "디스플레이",
+       "page": "디스플레이",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "LCD용 감광제 등 디스플레이 재료를 취급한다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
   },
   {
    "id": "두산로보틱스",
@@ -3910,14 +4966,97 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001246"
      ],
      "malformed": ""
+    },
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "풍력 발전의 사업개발부터 기자재, 설계·조달·시공과 운영·유지보수까지 제공하는 사업을 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.doosanenerbility.com/kr/business/wind_energy_vision"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "수소·연료전지",
+     "page": "수소·연료전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "수소 플랜트 건설과 수소 생산·저장·운송·활용 사업을 소개하며 그린수소 실증 과제 참여를 명시한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.doosanenerbility.com/kr/business/hydrogen_energy"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "공정 스크랩과 수명이 끝난 배터리를 처리하는 리튬 추출 공법을 개발했다고 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.doosanenerbility.com/kr/business/lithium_recovery"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "자원·희소금속",
+     "page": "자원·희소금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "리튬 회수 공정에서 탄산리튬과 수산화리튬 공급이 가능하다고 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.doosanenerbility.com/kr/business/lithium_recovery"
+     ],
+     "malformed": ""
     }
    ],
    "themes": [
     {
+     "theme": "수소·연료전지",
+     "tier": 1,
+     "stage": "수소 플랜트·실증",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "수소·연료전지",
+       "page": "수소·연료전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "수소 플랜트 건설과 수소 생산·저장·운송·활용 사업을 소개하며 그린수소 실증 과제 참여를 명시한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.doosanenerbility.com/kr/business/hydrogen_energy"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "원전·SMR 사업",
-     "score": 1.2,
+     "score": 1.19,
      "classifications": [
       {
        "topic": "원전·SMR",
@@ -3938,6 +5077,87 @@
       "label": "상태 혼재 · 확인 중",
       "muted": false,
       "line_style": "dashed"
+     }
+    },
+    {
+     "theme": "자원·희소금속",
+     "tier": 1,
+     "stage": "리튬 회수 소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자원·희소금속",
+       "page": "자원·희소금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "리튬 회수 공정에서 탄산리튬과 수산화리튬 공급이 가능하다고 소개한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.doosanenerbility.com/kr/business/lithium_recovery"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "재생에너지",
+     "tier": 1,
+     "stage": "해상풍력 기자재·시공",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "재생에너지",
+       "page": "재생에너지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "풍력 발전의 사업개발부터 기자재, 설계·조달·시공과 운영·유지보수까지 제공하는 사업을 소개한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.doosanenerbility.com/kr/business/wind_energy_vision"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "환경·자원순환",
+     "tier": 1,
+     "stage": "배터리 리튬 회수 공정",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "환경·자원순환",
+       "page": "환경·자원순환",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "공정 스크랩과 수명이 끝난 배터리를 처리하는 리튬 추출 공법을 개발했다고 소개한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.doosanenerbility.com/kr/business/lithium_recovery"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
      }
     }
    ],
@@ -4028,6 +5248,64 @@
    "issues": []
   },
   {
+   "id": "드림시큐리티",
+   "type": "company",
+   "path": "companies/드림시큐리티",
+   "summary": "정보보안 솔루션을 다루는 기업",
+   "market": "KOSDAQ",
+   "ticker": "203650",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "사이버보안",
+     "page": "사이버보안",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "정보보안 솔루션을 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "사이버보안",
+     "tier": 1,
+     "stage": "정보보안 솔루션",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "사이버보안",
+       "page": "사이버보안",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "정보보안 솔루션을 주요제품으로 기재했다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "디아이",
    "type": "company",
    "path": "companies/디아이",
@@ -4087,7 +5365,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "검사 장비·부품",
-     "score": 4.01,
+     "score": 3.98,
      "classifications": [
       {
        "topic": "AI 반도체",
@@ -4137,6 +5415,22 @@
       "muted": false,
       "line_style": "solid"
      }
+    },
+    {
+     "theme": "자동차·부품",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "삼성전자",
+     "via_type": "고객사"
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "삼성전자",
+     "via_type": "고객사"
     }
    ],
    "issues": [
@@ -4174,7 +5468,7 @@
      "theme": "HBM·반도체",
      "tier": 2,
      "stage": "",
-     "score": 2.79,
+     "score": 2.77,
      "via": "SK하이닉스",
      "via_type": "고객사"
     }
@@ -4240,6 +5534,105 @@
    "issues": []
   },
   {
+   "id": "로보스타",
+   "type": "company",
+   "path": "companies/로보스타",
+   "summary": "제조용 로봇과 디스플레이 제조 장비를 다루는 기업",
+   "market": "KOSDAQ",
+   "ticker": "090360",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "제조용 로봇을 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "평판디스플레이 제조용 장비를 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "디스플레이",
+       "page": "디스플레이",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "평판디스플레이 제조용 장비를 주요제품으로 기재했다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "로봇·자동화",
+     "tier": 1,
+     "stage": "로봇 완제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "로봇·자동화",
+       "page": "로봇·자동화",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "제조용 로봇을 주요제품으로 기재했다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "로보티즈",
    "type": "company",
    "path": "companies/로보티즈",
@@ -4284,6 +5677,64 @@
        "weak": false,
        "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "롯데웰푸드",
+   "type": "company",
+   "path": "companies/롯데웰푸드",
+   "summary": "과자와 빙과 등 식품을 다루는 기업",
+   "market": "KOSPI",
+   "ticker": "280360",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기타 식품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "껌·사탕·초콜릿·비스킷·빙과를 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "식품 가공·제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "껌·사탕·초콜릿·비스킷·빙과를 주요제품으로 기재했다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
       }
@@ -4409,6 +5860,20 @@
       "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBra2pkdEY0QkRRQkxWd3RVZFVsaFhLMDJrUzRFT0lGMFJvalNzZWFfZE5aYVhDbTh2UjhmbGxHQnJMQUpEc01JTWlJM0hRVm96R09OWDRPSzRLZ9IBWEFVX3lxTFAtYS1hNjZ5TzN3a09LeG5Cd1VFV2pBU083SktkYm11LWEwODNkTDBCM2Q1N2lDUUNpYzVkWWUyaU9fRzl2SGJldzZtUWxvdEJ1TXMyZ2RDSWs?oc=5"
      ],
      "malformed": ""
+    },
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "차량용 DRAM·NAND·UFS 등 메모리·저장장치를 인포테인먼트와 ADAS 등의 용도로 제공한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.micron.com/markets-industries/automotive"
+     ],
+     "malformed": ""
     }
    ],
    "themes": [
@@ -4416,7 +5881,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "메모리 제조",
-     "score": 3.63,
+     "score": 3.6,
      "classifications": [
       {
        "topic": "HBM 수요 확대",
@@ -4451,6 +5916,33 @@
       "label": "확인 중",
       "muted": false,
       "line_style": "dashed"
+     }
+    },
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "차량용 메모리·저장장치",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "차량용 DRAM·NAND·UFS 등 메모리·저장장치를 인포테인먼트와 ADAS 등의 용도로 제공한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.micron.com/markets-industries/automotive"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
      }
     }
    ],
@@ -4510,6 +6002,64 @@
      ]
     }
    ]
+  },
+  {
+   "id": "메디톡스",
+   "type": "company",
+   "path": "companies/메디톡스",
+   "summary": "보툴리눔독소 단백질치료제 원료를 다루는 기업",
+   "market": "KOSDAQ",
+   "ticker": "086900",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기초 의약물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "보툴리눔독소 단백질치료제 원료를 제조·연구·개발한다. 개별 제품의 허가·판매 상태는 별도 확인이 필요하다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "바이오의약품 원료",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "보툴리눔독소 단백질치료제 원료를 제조·연구·개발한다. 개별 제품의 허가·판매 상태는 별도 확인이 필요하다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
   },
   {
    "id": "미래에셋증권",
@@ -4720,7 +6270,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "하이브리드 본딩",
-     "score": 1.8,
+     "score": 1.78,
      "classifications": [
       {
        "topic": "반도체",
@@ -4786,9 +6336,50 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
+    },
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "산업 자동화의 품질 검사에 쓰이는 머신비전용 산업용 카메라를 개발한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://vieworks.com/kr/business/machine_vision"
+     ],
+     "malformed": ""
     }
    ],
    "themes": [
+    {
+     "theme": "로봇·자동화",
+     "tier": 1,
+     "stage": "머신비전 카메라",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "로봇·자동화",
+       "page": "로봇·자동화",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "산업 자동화의 품질 검사에 쓰이는 머신비전용 산업용 카메라를 개발한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://vieworks.com/kr/business/machine_vision"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
     {
      "theme": "의료기기",
      "tier": 1,
@@ -4806,6 +6397,64 @@
        "weak": false,
        "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "산일전기",
+   "type": "company",
+   "path": "companies/산일전기",
+   "summary": "여러 형식의 변압기를 다루는 기업",
+   "market": "KOSPI",
+   "ticker": "062040",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "유입형·몰드형·주상형·건식형 변압기를 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "전력망·전력기기",
+     "tier": 1,
+     "stage": "전력기기",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "전력망·전력기기",
+       "page": "전력망·전력기기",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "유입형·몰드형·주상형·건식형 변압기를 주요제품으로 기재했다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
       }
@@ -4882,7 +6531,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "",
-     "score": 5.53,
+     "score": 5.49,
      "classifications": [
       {
        "topic": "2차전지",
@@ -5022,7 +6671,7 @@
      "theme": "바이오·제약",
      "tier": 1,
      "stage": "바이오의약품 생산",
-     "score": 7.43,
+     "score": 7.37,
      "classifications": [
       {
        "topic": "바이오·제약",
@@ -5187,6 +6836,20 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
+    },
+    {
+     "topic": "사이버보안",
+     "page": "사이버보안",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "클라우드 보안 관제와 보안 컨설팅·보안 인프라 구축·관리 서비스를 제공한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.samsungsds.com/kr/service-security/security.html"
+     ],
+     "malformed": ""
     }
    ],
    "themes": [
@@ -5234,6 +6897,33 @@
        "weak": false,
        "sources": [
         "https://www.samsungsds.com/kr/data-center-service/data-center-service.html"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "사이버보안",
+     "tier": 1,
+     "stage": "클라우드 보안 관제",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "사이버보안",
+       "page": "사이버보안",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "클라우드 보안 관제와 보안 컨설팅·보안 인프라 구축·관리 서비스를 제공한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.samsungsds.com/kr/service-security/security.html"
        ],
        "malformed": ""
       }
@@ -5315,6 +7005,20 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage"
      ],
      "malformed": ""
+    },
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "ADAS용 반도체의 전원 공급과 고주파 잡음 억제를 위한 저 ESL MLCC 제품군을 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://weblib.samsungsem.com/product-news/view.do?idx=3886&language=en"
+     ],
+     "malformed": ""
     }
    ],
    "themes": [
@@ -5322,7 +7026,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "패키지기판",
-     "score": 12.0,
+     "score": 11.91,
      "classifications": [
       {
        "topic": "AI 반도체",
@@ -5358,6 +7062,41 @@
       "muted": false,
       "line_style": "dashed"
      }
+    },
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "차량용 MLCC",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "ADAS용 반도체의 전원 공급과 고주파 잡음 억제를 위한 저 ESL MLCC 제품군을 소개한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://weblib.samsungsem.com/product-news/view.do?idx=3886&language=en"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "삼성전자",
+     "via_type": "피출자"
     }
    ],
    "issues": [
@@ -5468,6 +7207,34 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002820"
      ],
      "malformed": ""
+    },
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "차량용 인포테인먼트와 통신을 위한 Exynos Auto V·T 프로세서를 제공한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://semiconductor.samsung.com/processor/automotive-processor/"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "LTE와 5G NR을 지원하는 이동통신망용 베이스밴드 장비를 제공한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.samsung.com/global/business/networks/products/radio-access/baseband/"
+     ],
+     "malformed": ""
     }
    ],
    "themes": [
@@ -5475,7 +7242,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "메모리 제조",
-     "score": 3.82,
+     "score": 3.79,
      "classifications": [
       {
        "topic": "반도체",
@@ -5516,6 +7283,60 @@
        "weak": false,
        "sources": [
         "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002820"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "차량용 반도체",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "차량용 인포테인먼트와 통신을 위한 Exynos Auto V·T 프로세서를 제공한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://semiconductor.samsung.com/processor/automotive-processor/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 1,
+     "stage": "이동통신망 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "통신·네트워크",
+       "page": "통신·네트워크",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "LTE와 5G NR을 지원하는 이동통신망용 베이스밴드 장비를 제공한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.samsung.com/global/business/networks/products/radio-access/baseband/"
        ],
        "malformed": ""
       }
@@ -5628,7 +7449,7 @@
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "해상 SMR(조선)",
-     "score": 1.78,
+     "score": 1.77,
      "classifications": [
       {
        "topic": "SMR 상용화",
@@ -5758,7 +7579,7 @@
      "theme": "디스플레이",
      "tier": 1,
      "stage": "제조 장비",
-     "score": 4.47,
+     "score": 4.43,
      "classifications": [
       {
        "topic": "디스플레이",
@@ -5911,6 +7732,64 @@
    "issues": []
   },
   {
+   "id": "세진중공업",
+   "type": "company",
+   "path": "companies/세진중공업",
+   "summary": "선박과 해양플랜트의 거주구 등 구성품을 만드는 기업",
+   "market": "KOSPI",
+   "ticker": "075580",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "선박 및 보트 건조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "선박 거주구와 LPG 탱크, 상갑판 및 해양플랜트 거주구를 제조한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "조선·해운",
+     "tier": 1,
+     "stage": "조선·해양 기자재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "조선·해운",
+       "page": "조선·해운",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "선박 거주구와 LPG 탱크, 상갑판 및 해양플랜트 거주구를 제조한다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "셀트리온",
    "type": "company",
    "path": "companies/셀트리온",
@@ -5942,7 +7821,7 @@
      "theme": "바이오·제약",
      "tier": 1,
      "stage": "바이오의약품 제품",
-     "score": 1.48,
+     "score": 1.47,
      "classifications": [
       {
        "topic": "바이오·제약",
@@ -5981,6 +7860,105 @@
      ]
     }
    ]
+  },
+  {
+   "id": "솔브레인",
+   "type": "company",
+   "path": "companies/솔브레인",
+   "summary": "반도체·디스플레이 공정용 화학재료를 만드는 기업",
+   "market": "KOSDAQ",
+   "ticker": "357780",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기타 화학제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "반도체 공정용 화학재료를 제조·판매한다. 일반 반도체 소재 범위이며 HBM 공급은 확인하지 않았다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "디스플레이 제조 공정에 사용하는 화학재료를 제조·판매한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "반도체 공정 소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "반도체 공정용 화학재료를 제조·판매한다. 일반 반도체 소재 범위이며 HBM 공급은 확인하지 않았다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "디스플레이 소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "디스플레이",
+       "page": "디스플레이",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "디스플레이 제조 공정에 사용하는 화학재료를 제조·판매한다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
   },
   {
    "id": "스맥",
@@ -6023,6 +8001,64 @@
        "status": "확인",
        "date": "2026-10-09",
        "text": "공작기계와 산업용 로봇을 제조한다. (확인일: 2026-10-09)",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "스튜디오드래곤",
+   "type": "company",
+   "path": "companies/스튜디오드래곤",
+   "summary": "드라마를 제작하고 판매하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "253450",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "영화, 비디오물, 방송프로그램 제작 및 배급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "드라마 제작·판매 사업을 주요제품란에 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "드라마 제작·판매",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "드라마 제작·판매 사업을 주요제품란에 기재했다.",
        "evidence_level": "거래소 자료",
        "weak": false,
        "sources": [
@@ -6304,7 +8340,7 @@
      "theme": "화장품·미용",
      "tier": 1,
      "stage": "화장품 제조·판매",
-     "score": 0.97,
+     "score": 0.96,
      "classifications": [
       {
        "topic": "화장품·미용",
@@ -6343,6 +8379,64 @@
      ]
     }
    ]
+  },
+  {
+   "id": "아세아텍",
+   "type": "company",
+   "path": "companies/아세아텍",
+   "summary": "관리기·방제기·이앙기 등 농기계를 다루는 기업",
+   "market": "KOSDAQ",
+   "ticker": "050860",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "농업·스마트팜",
+     "page": "농업·스마트팜",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "관리기와 방제용 SS기, 이앙기 등 농기계를 주요제품으로 기재했다. 농기계 범위이며 스마트팜 운영·기술은 확인하지 않았다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "농업·스마트팜",
+     "tier": 1,
+     "stage": "농기계",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "농업·스마트팜",
+       "page": "농업·스마트팜",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "관리기와 방제용 SS기, 이앙기 등 농기계를 주요제품으로 기재했다. 농기계 범위이며 스마트팜 운영·기술은 확인하지 않았다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
   },
   {
    "id": "아이쓰리시스템",
@@ -6392,7 +8486,7 @@
      "theme": "방산",
      "tier": 1,
      "stage": "센서·부품",
-     "score": 4.01,
+     "score": 3.98,
      "classifications": [
       {
        "topic": "방산",
@@ -6538,7 +8632,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "제조 장비",
-     "score": 3.98,
+     "score": 3.95,
      "classifications": [
       {
        "topic": "2차전지",
@@ -6613,7 +8707,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "하이브리드 본딩",
-     "score": 3.75,
+     "score": 3.72,
      "classifications": [
       {
        "topic": "반도체",
@@ -6744,7 +8838,7 @@
      "theme": "2차전지",
      "tier": 2,
      "stage": "",
-     "score": 2.22,
+     "score": 2.2,
      "via": "포스코퓨처엠",
      "via_type": "공급사"
     }
@@ -6843,7 +8937,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "양극재",
-     "score": 2.75,
+     "score": 2.73,
      "classifications": [
       {
        "topic": "2차전지",
@@ -7003,7 +9097,7 @@
      "theme": "2차전지",
      "tier": 2,
      "stage": "",
-     "score": 1.66,
+     "score": 1.65,
      "via": "삼성SDI",
      "via_type": "피출자"
     },
@@ -7014,6 +9108,64 @@
      "score": 0.0,
      "via": "삼성SDI",
      "via_type": "피출자"
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "엔켐",
+   "type": "company",
+   "path": "companies/엔켐",
+   "summary": "이차전지용 전해액을 다루는 기업",
+   "market": "KOSDAQ",
+   "ticker": "348370",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기초 화학물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "이차전지에 사용하는 전해액을 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "전해액",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "이차전지에 사용하는 전해액을 주요제품으로 기재했다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
     }
    ],
    "issues": []
@@ -7066,7 +9218,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "양극재",
-     "score": 6.61,
+     "score": 6.56,
      "classifications": [
       {
        "topic": "2차전지",
@@ -7458,7 +9610,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "검사 장비·부품",
-     "score": 1.32,
+     "score": 1.31,
      "classifications": [
       {
        "topic": "AI 반도체",
@@ -7494,6 +9646,22 @@
       "muted": false,
       "line_style": "solid"
      }
+    },
+    {
+     "theme": "자동차·부품",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "삼성전자",
+     "via_type": "고객사"
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "삼성전자",
+     "via_type": "고객사"
     }
    ],
    "issues": [
@@ -7512,6 +9680,122 @@
      ]
     }
    ]
+  },
+  {
+   "id": "원익IPS",
+   "type": "company",
+   "path": "companies/원익IPS",
+   "summary": "반도체 제조 장비를 다루는 기업",
+   "market": "KOSDAQ",
+   "ticker": "240810",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "반도체 생산에 쓰이는 장비를 주요제품으로 기재했다. 일반 반도체 장비 범위이며 HBM 공급은 확인하지 않았다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "반도체 제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "반도체 생산에 쓰이는 장비를 주요제품으로 기재했다. 일반 반도체 장비 범위이며 HBM 공급은 확인하지 않았다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "웹젠",
+   "type": "company",
+   "path": "companies/웹젠",
+   "summary": "온라인게임 뮤 등을 다루는 기업",
+   "market": "KOSDAQ",
+   "ticker": "069080",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "온라인게임 뮤를 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "게임",
+     "tier": 1,
+     "stage": "온라인·모바일 게임",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "게임",
+       "page": "게임",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "온라인게임 뮤를 주요제품으로 기재했다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
   },
   {
    "id": "위드텍",
@@ -7545,7 +9829,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "공정 모니터링",
-     "score": 8.48,
+     "score": 8.41,
      "classifications": [
       {
        "topic": "반도체",
@@ -7639,6 +9923,122 @@
        "status": "확인",
        "date": "2026-10-09",
        "text": "KIND 주요제품에 침입방지(IPS)와 안티 DDoS 네트워크 보안장비가 기재되어 있다. (확인일: 2026-10-09)",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "유니슨",
+   "type": "company",
+   "path": "companies/유니슨",
+   "summary": "풍력발전기와 풍력타워를 다루는 기업",
+   "market": "KOSDAQ",
+   "ticker": "018000",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "일반 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "풍력발전기와 풍력타워를 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "재생에너지",
+     "tier": 1,
+     "stage": "풍력 기자재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "재생에너지",
+       "page": "재생에너지",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "풍력발전기와 풍력타워를 주요제품으로 기재했다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "이글루",
+   "type": "company",
+   "path": "companies/이글루",
+   "summary": "통합보안관리와 보안관제 서비스를 제공하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "067920",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기타 정보 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "사이버보안",
+     "page": "사이버보안",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "통합보안관리 솔루션과 보안관제 서비스를 제공한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "사이버보안",
+     "tier": 1,
+     "stage": "보안관리·관제",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "사이버보안",
+       "page": "사이버보안",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "통합보안관리 솔루션과 보안관제 서비스를 제공한다.",
        "evidence_level": "거래소 자료",
        "weak": false,
        "sources": [
@@ -7857,6 +10257,64 @@
    ]
   },
   {
+   "id": "인바디",
+   "type": "company",
+   "path": "companies/인바디",
+   "summary": "체성분 분석기를 다루는 기업",
+   "market": "KOSDAQ",
+   "ticker": "041830",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "의료용 기기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "정밀 체성분 분석기를 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "체성분 분석기",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "정밀 체성분 분석기를 주요제품으로 기재했다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "인선이엔티",
    "type": "company",
    "path": "companies/인선이엔티",
@@ -7948,7 +10406,7 @@
      "theme": "방산",
      "tier": 1,
      "stage": "",
-     "score": 3.95,
+     "score": 3.92,
      "classifications": [
       {
        "topic": "방산",
@@ -8080,7 +10538,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "제조 장비",
-     "score": 3.95,
+     "score": 3.92,
      "classifications": [
       {
        "topic": "2차전지",
@@ -8160,7 +10618,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "제조 장비",
-     "score": 9.89,
+     "score": 9.82,
      "classifications": [
       {
        "topic": "2차전지",
@@ -8505,7 +10963,7 @@
      "theme": "유통·전자상거래",
      "tier": 1,
      "stage": "쇼핑몰 운영 기반",
-     "score": 0.72,
+     "score": 0.71,
      "classifications": [
       {
        "topic": "유통·전자상거래",
@@ -8546,6 +11004,64 @@
    ]
   },
   {
+   "id": "컴투스",
+   "type": "company",
+   "path": "companies/컴투스",
+   "summary": "모바일게임을 주요제품으로 하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "078340",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "모바일게임을 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "게임",
+     "tier": 1,
+     "stage": "온라인·모바일 게임",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "게임",
+       "page": "게임",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "모바일게임을 주요제품으로 기재했다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "케이아이엔엑스",
    "type": "company",
    "path": "companies/케이아이엔엑스",
@@ -8570,9 +11086,64 @@
       "https://m.kinx.net/infrastructure/dc/"
      ],
      "malformed": ""
+    },
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "IXcloud를 통해 가상 서버·GPU 인스턴스·스토리지·쿠버네티스 등 클라우드 인프라 서비스를 제공한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kinx.net/service/cloud/"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "IX 피어링으로 인터넷 사업자와 콘텐츠 사업자 사이의 네트워크 연동 및 트래픽 상호 교환 서비스를 제공한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kinx.net/service/ix/"
+     ],
+     "malformed": ""
     }
    ],
    "themes": [
+    {
+     "theme": "AI·클라우드",
+     "tier": 1,
+     "stage": "클라우드 인프라 서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "AI·클라우드",
+       "page": "AI·클라우드",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "IXcloud를 통해 가상 서버·GPU 인스턴스·스토리지·쿠버네티스 등 클라우드 인프라 서비스를 제공한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.kinx.net/service/cloud/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
     {
      "theme": "데이터센터",
      "tier": 1,
@@ -8590,6 +11161,33 @@
        "weak": false,
        "sources": [
         "https://m.kinx.net/infrastructure/dc/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 1,
+     "stage": "인터넷 트래픽 연동",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "통신·네트워크",
+       "page": "통신·네트워크",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "IX 피어링으로 인터넷 사업자와 콘텐츠 사업자 사이의 네트워크 연동 및 트래픽 상호 교환 서비스를 제공한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.kinx.net/service/ix/"
        ],
        "malformed": ""
       }
@@ -8637,7 +11235,7 @@
      "theme": "방산",
      "tier": 1,
      "stage": "센서·부품",
-     "score": 4.85,
+     "score": 4.81,
      "classifications": [
       {
        "topic": "방산",
@@ -8724,7 +11322,7 @@
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "원전 설비·장비",
-     "score": 1.33,
+     "score": 1.32,
      "classifications": [
       {
        "topic": "원전·SMR",
@@ -8881,6 +11479,122 @@
    "issues": []
   },
   {
+   "id": "코스메카코리아",
+   "type": "company",
+   "path": "companies/코스메카코리아",
+   "summary": "화장품을 OEM·ODM 방식으로 생산하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "241710",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기타 화학제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "화장품을 OEM·ODM 방식으로 생산한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화장품·미용",
+     "tier": 1,
+     "stage": "화장품 생산",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화장품·미용",
+       "page": "화장품·미용",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "화장품을 OEM·ODM 방식으로 생산한다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "코스모신소재",
+   "type": "company",
+   "path": "companies/코스모신소재",
+   "summary": "이차전지 양극재와 기능성 필름을 다루는 기업",
+   "market": "KOSPI",
+   "ticker": "005070",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기타 화학제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "이차전지용 양극활물질을 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "양극재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "이차전지용 양극활물질을 주요제품으로 기재했다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "크래프톤",
    "type": "company",
    "path": "companies/크래프톤",
@@ -8925,6 +11639,64 @@
        "weak": false,
        "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "클리오",
+   "type": "company",
+   "path": "companies/클리오",
+   "summary": "색조·기초 화장품을 다루는 기업",
+   "market": "KOSDAQ",
+   "ticker": "237880",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기타 화학제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "색조 및 기초 화장품을 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화장품·미용",
+     "tier": 1,
+     "stage": "화장품 제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화장품·미용",
+       "page": "화장품·미용",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "색조 및 기초 화장품을 주요제품으로 기재했다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
       }
@@ -9057,7 +11829,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "검사 장비·부품",
-     "score": 1.32,
+     "score": 1.31,
      "classifications": [
       {
        "topic": "반도체",
@@ -9093,6 +11865,22 @@
       "muted": false,
       "line_style": "solid"
      }
+    },
+    {
+     "theme": "자동차·부품",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "삼성전자",
+     "via_type": "고객사"
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "삼성전자",
+     "via_type": "고객사"
     }
    ],
    "issues": [
@@ -9298,7 +12086,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "양극재",
-     "score": 7.41,
+     "score": 7.35,
      "classifications": [
       {
        "topic": "2차전지",
@@ -9549,7 +12337,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "제조 장비",
-     "score": 4.88,
+     "score": 4.84,
      "classifications": [
       {
        "topic": "2차전지",
@@ -9651,7 +12439,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "",
-     "score": 8.44,
+     "score": 8.38,
      "classifications": [
       {
        "topic": "2차전지",
@@ -9735,6 +12523,64 @@
      ]
     }
    ]
+  },
+  {
+   "id": "하나마이크론",
+   "type": "company",
+   "path": "companies/하나마이크론",
+   "summary": "반도체 패키징 사업을 하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "067310",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "반도체 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "반도체 패키징 사업을 주요제품란에 기재했다. 일반 반도체 패키징 범위이며 HBM 공급은 확인하지 않았다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "반도체 패키징",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "반도체 패키징 사업을 주요제품란에 기재했다. 일반 반도체 패키징 범위이며 HBM 공급은 확인하지 않았다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
   },
   {
    "id": "하이브",
@@ -9850,14 +12696,69 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003151"
      ],
      "malformed": ""
+    },
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "공식 설비 현황에 한빛솔라파크·고리태양광과 고리풍력 등 태양광·풍력 발전설비를 안내한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.khnp.co.kr/main/contents.do?key=212"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "수소·연료전지",
+     "page": "수소·연료전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "수소 생산시설 구축과 연료전지 발전사업 운영을 신에너지 사업으로 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.khnp.co.kr/main/contents.do?key=2081"
+     ],
+     "malformed": ""
     }
    ],
    "themes": [
     {
+     "theme": "수소·연료전지",
+     "tier": 1,
+     "stage": "수소·연료전지 발전사업",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "수소·연료전지",
+       "page": "수소·연료전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "수소 생산시설 구축과 연료전지 발전사업 운영을 신에너지 사업으로 소개한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.khnp.co.kr/main/contents.do?key=2081"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "해외 원전사업",
-     "score": 8.98,
+     "score": 8.91,
      "classifications": [
       {
        "topic": "원전·SMR",
@@ -9907,6 +12808,49 @@
       "muted": false,
       "line_style": "dashed"
      }
+    },
+    {
+     "theme": "자원·희소금속",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "두산에너빌리티",
+     "via_type": "공급사"
+    },
+    {
+     "theme": "재생에너지",
+     "tier": 1,
+     "stage": "태양광·풍력 발전설비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "재생에너지",
+       "page": "재생에너지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "공식 설비 현황에 한빛솔라파크·고리태양광과 고리풍력 등 태양광·풍력 발전설비를 안내한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.khnp.co.kr/main/contents.do?key=212"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "환경·자원순환",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "두산에너빌리티",
+     "via_type": "공급사"
     }
    ],
    "issues": [
@@ -9978,6 +12922,64 @@
    ]
   },
   {
+   "id": "한국카본",
+   "type": "company",
+   "path": "companies/한국카본",
+   "summary": "LNG선박용 단열 패널 등을 다루는 기업",
+   "market": "KOSPI",
+   "ticker": "017960",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "구조용 금속제품, 탱크 및 증기발생기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "LNG선박에 사용하는 단열 패널을 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "조선·해운",
+     "tier": 1,
+     "stage": "조선·해양 기자재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "조선·해운",
+       "page": "조선·해운",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "LNG선박에 사용하는 단열 패널을 주요제품으로 기재했다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "한국항공우주",
    "type": "company",
    "path": "companies/한국항공우주",
@@ -9996,7 +12998,7 @@
      "theme": "방산",
      "tier": 2,
      "stage": "",
-     "score": 1.23,
+     "score": 1.22,
      "via": "LIG디펜스앤에어로스페이스",
      "via_type": "공급사"
     }
@@ -10051,7 +13053,7 @@
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "사업개발·투자",
-     "score": 2.69,
+     "score": 2.67,
      "classifications": [
       {
        "topic": "SMR 상용화",
@@ -10165,7 +13167,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "후공정 장비",
-     "score": 9.98,
+     "score": 9.91,
      "classifications": [
       {
        "topic": "반도체",
@@ -10215,6 +13217,14 @@
       "muted": false,
       "line_style": "solid"
      }
+    },
+    {
+     "theme": "자동차·부품",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "삼성전기",
+     "via_type": "고객사"
     }
    ],
    "issues": [
@@ -10434,10 +13444,18 @@
    ],
    "themes": [
     {
+     "theme": "수소·연료전지",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "한국수력원자력",
+     "via_type": "고객사"
+    },
+    {
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "설계",
-     "score": 6.23,
+     "score": 6.19,
      "classifications": [
       {
        "topic": "원전·SMR",
@@ -10473,6 +13491,14 @@
       "muted": false,
       "line_style": "solid"
      }
+    },
+    {
+     "theme": "재생에너지",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "한국수력원자력",
+     "via_type": "고객사"
     }
    ],
    "issues": [
@@ -10542,6 +13568,20 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
+    },
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "케미칼 부문의 석유화학 사업을 공식 회사소개에서 안내한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hanwhasolutions.com/ko/company/about/"
+     ],
+     "malformed": ""
     }
    ],
    "themes": [
@@ -10563,6 +13603,33 @@
        "sources": [
         "https://www.hanwhasolutions.com/ko/company/about/",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "석유화학",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "케미칼 부문의 석유화학 사업을 공식 회사소개에서 안내한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hanwhasolutions.com/ko/company/about/"
        ],
        "malformed": ""
       }
@@ -10598,6 +13665,64 @@
      "themes": []
     }
    ]
+  },
+  {
+   "id": "한화시스템",
+   "type": "company",
+   "path": "companies/한화시스템",
+   "summary": "감시·탐지·지휘 등에 쓰이는 군용 전자장비를 다루는 기업",
+   "market": "KOSPI",
+   "ticker": "272210",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "전자부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "방산",
+     "page": "방산",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "군용 전자제어·감시·탐지추적·전투지휘 장비를 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "방산",
+     "tier": 1,
+     "stage": "방산 전자장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "방산",
+       "page": "방산",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "군용 전자제어·감시·탐지추적·전투지휘 장비를 주요제품으로 기재했다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
   },
   {
    "id": "한화에어로스페이스",
@@ -10648,7 +13773,7 @@
      "theme": "방산",
      "tier": 1,
      "stage": "지상 무기체계",
-     "score": 3.63,
+     "score": 3.6,
      "classifications": [
       {
        "topic": "방산",
@@ -10820,7 +13945,7 @@
      "theme": "방산",
      "tier": 1,
      "stage": "",
-     "score": 1.78,
+     "score": 1.77,
      "classifications": [
       {
        "topic": "방산",
@@ -10847,7 +13972,7 @@
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "해상 SMR(조선)",
-     "score": 1.78,
+     "score": 1.77,
      "classifications": [
       {
        "topic": "SMR 상용화",
@@ -10874,7 +13999,7 @@
      "theme": "조선·해운",
      "tier": 1,
      "stage": "조선",
-     "score": 1.98,
+     "score": 1.97,
      "classifications": [
       {
        "topic": "조선·해운",
@@ -10973,6 +14098,64 @@
    ]
   },
   {
+   "id": "헥토파이낸셜",
+   "type": "company",
+   "path": "companies/헥토파이낸셜",
+   "summary": "가상계좌 중계와 간편현금결제 서비스를 제공하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "234340",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "금융 지원 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "핀테크·전자결제",
+     "page": "핀테크·전자결제",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "가상계좌 중계와 간편현금결제 서비스를 제공한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "핀테크·전자결제",
+     "tier": 1,
+     "stage": "전자결제",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "핀테크·전자결제",
+       "page": "핀테크·전자결제",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-09",
+       "text": "가상계좌 중계와 간편현금결제 서비스를 제공한다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "현대건설",
    "type": "company",
    "path": "companies/현대건설",
@@ -11041,6 +14224,20 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
+    },
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "공식 해상풍력 사업 소개에서 현대건설이 해상풍력의 설계·조달·시공과 사업 관리를 담당한다고 명시한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://newsroom.hdec.kr/kr/newsroom/news_view.aspx?NewsListType=inter_list&NewsSeq=1438&NewsType=JOURNAL"
+     ],
+     "malformed": ""
     }
    ],
    "themes": [
@@ -11048,7 +14245,7 @@
      "theme": "건설·인프라",
      "tier": 1,
      "stage": "설계·시공",
-     "score": 2.82,
+     "score": 2.8,
      "classifications": [
       {
        "topic": "건설·인프라",
@@ -11075,7 +14272,7 @@
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "사용후핵연료 처분",
-     "score": 3.72,
+     "score": 3.69,
      "classifications": [
       {
        "topic": "원전·SMR",
@@ -11124,6 +14321,33 @@
       "label": "상태 혼재 · 확인 중",
       "muted": false,
       "line_style": "dashed"
+     }
+    },
+    {
+     "theme": "재생에너지",
+     "tier": 1,
+     "stage": "해상풍력 설계·조달·시공",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "재생에너지",
+       "page": "재생에너지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "공식 해상풍력 사업 소개에서 현대건설이 해상풍력의 설계·조달·시공과 사업 관리를 담당한다고 명시한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://newsroom.hdec.kr/kr/newsroom/news_view.aspx?NewsListType=inter_list&NewsSeq=1438&NewsType=JOURNAL"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
      }
     }
    ],
@@ -11275,7 +14499,7 @@
      "theme": "방산",
      "tier": 1,
      "stage": "추진기관",
-     "score": 1.83,
+     "score": 1.82,
      "classifications": [
       {
        "topic": "방산",
@@ -11517,6 +14741,34 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
+    },
+    {
+     "topic": "사이버보안",
+     "page": "사이버보안",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "차량용 보안 솔루션과 보안 운영 소프트웨어를 제공하고 취약점 분석·모의해킹 컨설팅을 수행한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyundai-autoever.com/kor/business-area/core-technology/security/contents.do?cntnSeq=363"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "SDF 플랫폼으로 제조 실행·통합 제어와 로봇 통합 모니터링 등 스마트공장 솔루션을 제공한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyundai-autoever.com/kor/business-area/digital-transformation/sdf/contents.do?cntnSeq=455"
+     ],
+     "malformed": ""
     }
    ],
    "themes": [
@@ -11538,6 +14790,60 @@
        "sources": [
         "https://www.hyundai-autoever.com/kor/business-area/core-technology/ai/contents.do?cntnSeq=362",
         "https://www.hyundai-autoever.com/kor/business-area/core-technology/cloud/contents.do?cntnSeq=360"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "로봇·자동화",
+     "tier": 1,
+     "stage": "스마트공장 통합 제어",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "로봇·자동화",
+       "page": "로봇·자동화",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "SDF 플랫폼으로 제조 실행·통합 제어와 로봇 통합 모니터링 등 스마트공장 솔루션을 제공한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hyundai-autoever.com/kor/business-area/digital-transformation/sdf/contents.do?cntnSeq=455"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "사이버보안",
+     "tier": 1,
+     "stage": "차량 보안 소프트웨어",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "사이버보안",
+       "page": "사이버보안",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "차량용 보안 솔루션과 보안 운영 소프트웨어를 제공하고 취약점 분석·모의해킹 컨설팅을 수행한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hyundai-autoever.com/kor/business-area/core-technology/security/contents.do?cntnSeq=363"
        ],
        "malformed": ""
       }
@@ -11637,7 +14943,7 @@
      "theme": "자동차·부품",
      "tier": 1,
      "stage": "완성차",
-     "score": 0.97,
+     "score": 0.96,
      "classifications": [
       {
        "topic": "자동차·부품",
@@ -11818,9 +15124,50 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
+    },
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "신라면세점의 시내·공항·온라인 면세 판매를 공식 사업부 소개에서 안내한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hotelshilla.net/navigate.do?HPSiteCd=H&HPLangCd=KO&HPPageId=AVETTIY4AC4CZlq7"
+     ],
+     "malformed": ""
     }
    ],
    "themes": [
+    {
+     "theme": "유통·전자상거래",
+     "tier": 1,
+     "stage": "면세 유통",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "유통·전자상거래",
+       "page": "유통·전자상거래",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "신라면세점의 시내·공항·온라인 면세 판매를 공식 사업부 소개에서 안내한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hotelshilla.net/navigate.do?HPSiteCd=H&HPLangCd=KO&HPPageId=AVETTIY4AC4CZlq7"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
     {
      "theme": "호텔·레저",
      "tier": 1,
@@ -11877,9 +15224,173 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
+    },
+    {
+     "topic": "ESS",
+     "page": "ESS",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "ESS 전체 시스템 공급과 유지보수, 구축 컨설팅을 사업으로 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyosungheavyindustries.com/kr/business/power-system-solutions/P010203"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "수소·연료전지",
+     "page": "수소·연료전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "수소충전소와 충전 시스템 보급을 수행하며 수소 충전 인프라를 구축한다고 설명한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyosungheavyindustries.com/kr/business/eco-solutions/S010300"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "태양광 발전소의 컨설팅·설계·시공과 태양광 인버터를 제공하는 사업을 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyosungheavyindustries.com/kr/business/eco-solutions/S010400"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "주택·건축과 도로·교량 등 토목 공사, 산업시설 건설을 사업 영역으로 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyosungheavyindustries.com/kr/company/info/business-area"
+     ],
+     "malformed": ""
     }
    ],
    "themes": [
+    {
+     "theme": "ESS",
+     "tier": 1,
+     "stage": "ESS 공급·유지보수",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "ESS",
+       "page": "ESS",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "ESS 전체 시스템 공급과 유지보수, 구축 컨설팅을 사업으로 소개한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hyosungheavyindustries.com/kr/business/power-system-solutions/P010203"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "주택·건축·토목",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "주택·건축과 도로·교량 등 토목 공사, 산업시설 건설을 사업 영역으로 소개한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hyosungheavyindustries.com/kr/company/info/business-area"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "수소·연료전지",
+     "tier": 1,
+     "stage": "수소충전 시스템",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "수소·연료전지",
+       "page": "수소·연료전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "수소충전소와 충전 시스템 보급을 수행하며 수소 충전 인프라를 구축한다고 설명한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hyosungheavyindustries.com/kr/business/eco-solutions/S010300"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "재생에너지",
+     "tier": 1,
+     "stage": "태양광 발전소·인버터",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "재생에너지",
+       "page": "재생에너지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "태양광 발전소의 컨설팅·설계·시공과 태양광 인버터를 제공하는 사업을 소개한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hyosungheavyindustries.com/kr/business/eco-solutions/S010400"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
     {
      "theme": "전력망·전력기기",
      "tier": 1,
@@ -14081,7 +17592,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "식품 가공·제품",
-   "score": 0.89,
+   "score": 0.88,
    "evidence": [
     {
      "date": "2026-10-01",
@@ -14148,6 +17659,36 @@
   },
   {
    "source": "GS건설",
+   "target": "ESS",
+   "type": "테마",
+   "tier": 1,
+   "stage": "ESS 프로젝트 개발·운영",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "ESS",
+     "page": "ESS",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "ESS 분야의 개발부터 운영까지를 포함하는 에너지 프로젝트 사업을 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://gsconst.co.kr/Business/Default.aspx?BusinessResultStep3=1&Lang=ko"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "GS건설",
    "target": "건설·인프라",
    "type": "테마",
    "tier": 1,
@@ -14166,6 +17707,66 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "GS건설",
+   "target": "재생에너지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "풍력·태양광 개발·시공",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "풍력발전단지 시공과 태양광 프로젝트 개발·운영을 수행하는 사업을 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://gsconst.co.kr/Business/Default.aspx?BusinessResultStep3=1&Lang=ko"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "GS건설",
+   "target": "환경·자원순환",
+   "type": "테마",
+   "tier": 1,
+   "stage": "폐기물·수처리 시설",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "폐기물 소각과 하수·폐수 처리 시설의 사업개발·시공·운영을 환경사업으로 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://gsconst.co.kr/Business/Default.aspx?BusinessResultStep3=1&Lang=ko"
      ],
      "malformed": ""
     }
@@ -14257,7 +17858,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "해상 SMR(조선)",
-   "score": 1.78,
+   "score": 1.77,
    "evidence": [
     {
      "date": "2026-10-01",
@@ -14298,7 +17899,7 @@
    "type": "테마",
    "tier": 2,
    "stage": "",
-   "score": 1.34,
+   "score": 1.33,
    "evidence": [],
    "classifications": [],
    "presentation": {
@@ -14343,7 +17944,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "함정",
-   "score": 0.9,
+   "score": 0.89,
    "evidence": [
     {
      "date": "2026-10-02",
@@ -14384,7 +17985,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "",
-   "score": 2.76,
+   "score": 2.74,
    "evidence": [
     {
      "date": "2026-10-07",
@@ -14435,7 +18036,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "조선·해양 기자재",
-   "score": 4.47,
+   "score": 4.43,
    "evidence": [
     {
      "date": "2026-10-15",
@@ -14477,7 +18078,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "해상 운송",
-   "score": 4.47,
+   "score": 4.43,
    "evidence": [
     {
      "date": "2026-10-15",
@@ -14502,6 +18103,36 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "ISC",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "검사 장비·부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "반도체 시험에 사용하는 소켓을 주요제품으로 기재했다. 일반 반도체 시험 부품 범위이며 HBM 공급은 확인하지 않았다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
@@ -14543,12 +18174,42 @@
    }
   },
   {
+   "source": "KG이니시스",
+   "target": "핀테크·전자결제",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전자결제",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "핀테크·전자결제",
+     "page": "핀테크·전자결제",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "전자지불 서비스를 제공한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "LB세미콘",
    "target": "HBM·반도체",
    "type": "테마",
    "tier": 1,
    "stage": "전력반도체 후공정",
-   "score": 4.44,
+   "score": 4.41,
    "evidence": [
     {
      "date": "2026-10-01",
@@ -14655,11 +18316,131 @@
   },
   {
    "source": "LG씨엔에스",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 1,
+   "stage": "AI·클라우드 구축·운영",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "클라우드 컨설팅·이전·구축·운영과 AI·데이터 플랫폼 구축 서비스를 제공한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lgcns.com/en/service/modern-it-infra-on-cloud/cloud"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "LG씨엔에스",
+   "target": "데이터센터",
+   "type": "테마",
+   "tier": 1,
+   "stage": "설계·구축·운영",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "데이터센터",
+     "page": "데이터센터",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "데이터센터의 컨설팅·설계·구축·운영 서비스를 제공하고 국내외 데이터센터를 운영한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lgcns.com/en/service/modern-it-infra-on-cloud/data-center"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "LG씨엔에스",
+   "target": "로봇·자동화",
+   "type": "테마",
+   "tier": 1,
+   "stage": "공장 물류 제어 소프트웨어",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "MCS로 AGV·천장 이송장치·컨베이어 등 공장 물류 설비의 경로 탐색과 통합 제어를 제공한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lgcns.com/en/service/smart-factory/production-logistics-management"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "LG씨엔에스",
+   "target": "사이버보안",
+   "type": "테마",
+   "tier": 1,
+   "stage": "보안 관제·컨설팅",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "사이버보안",
+     "page": "사이버보안",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "SecuXper를 통해 보안 컨설팅·시스템 구축과 보안 관제·탐지 대응 서비스를 제공한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lgcns.com/en/service/modern-it-infra-on-cloud/security"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "LG씨엔에스",
    "target": "소프트웨어·IT서비스",
    "type": "테마",
    "tier": 1,
    "stage": "시스템 구축·운영",
-   "score": 4.47,
+   "score": 4.43,
    "evidence": [
     {
      "date": "2026-10-15",
@@ -14700,7 +18481,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "배터리",
-   "score": 7.34,
+   "score": 7.28,
    "evidence": [
     {
      "date": "2026-10-14",
@@ -14835,6 +18616,36 @@
   },
   {
    "source": "LG유플러스",
+   "target": "데이터센터",
+   "type": "테마",
+   "tier": 1,
+   "stage": "IDC 호스팅·운영",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "데이터센터",
+     "page": "데이터센터",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "IDC 호스팅을 통해 고객에게 서버·네트워크 장비를 임대하고 상주 전문가가 서버와 네트워크를 관리하는 서비스를 제공한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lguplus.com/biz/all/telecom/idc/hosting/B000000032"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "LG유플러스",
    "target": "통신·네트워크",
    "type": "테마",
    "tier": 1,
@@ -14853,6 +18664,66 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "LG화학",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "양극재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "리튬이온배터리용 양극재를 생산·공급하는 제품 사업을 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lgchem.com/product-detail/cathode-material?lang=ko_KR"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "LG화학",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "생명과학 제품 목록에서 당뇨병 치료제 제미글로와 성장호르몬제 유트로핀 등 의약품을 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lgchem.com/product/life-sciences?lang=ko_KR"
      ],
      "malformed": ""
     }
@@ -14899,7 +18770,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "유도무기",
-   "score": 4.11,
+   "score": 4.08,
    "evidence": [
     {
      "date": "2026-10-13",
@@ -15014,7 +18885,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "데이터센터 인프라",
-   "score": 1.05,
+   "score": 1.04,
    "evidence": [
     {
      "date": "2026-07-24",
@@ -15175,7 +19046,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "메모리 제조",
-   "score": 9.31,
+   "score": 9.24,
    "evidence": [
     {
      "date": "2026-10-16",
@@ -15284,13 +19155,133 @@
    "type": "테마",
    "tier": 2,
    "stage": "",
-   "score": 1.2,
+   "score": 1.19,
    "evidence": [],
    "classifications": [],
    "presentation": {
     "label": "확인 중",
     "muted": false,
     "line_style": "dashed"
+   }
+  },
+  {
+   "source": "Samsung (China) Semiconductor Co., Ltd.",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "Samsung (China) Semiconductor Co., Ltd.",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "TYM",
+   "target": "농업·스마트팜",
+   "type": "테마",
+   "tier": 1,
+   "stage": "농기계",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "농업·스마트팜",
+     "page": "농업·스마트팜",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "농기계를 주요제품으로 기재했다. 농기계 범위이며 스마트팜 운영·기술은 확인하지 않았다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "가온전선",
+   "target": "전력망·전력기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전력기기",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "전력선을 제조·판매한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "가온전선",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 1,
+   "stage": "통신케이블",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "통신용 케이블을 제조·판매한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
    }
   },
   {
@@ -15329,7 +19320,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "소재 공장 설비",
-   "score": 2.65,
+   "score": 2.63,
    "evidence": [
     {
      "date": "2026-09-30",
@@ -15563,7 +19554,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "검사 장비·부품",
-   "score": 1.31,
+   "score": 1.3,
    "evidence": [
     {
      "date": "2026-09-28",
@@ -15611,6 +19602,36 @@
     "label": "",
     "muted": false,
     "line_style": "solid"
+   }
+  },
+  {
+   "source": "네오셈",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "네오셈",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
    }
   },
   {
@@ -15674,6 +19695,36 @@
    }
   },
   {
+   "source": "뉴로메카",
+   "target": "로봇·자동화",
+   "type": "테마",
+   "tier": 1,
+   "stage": "로봇 완제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "협동로봇과 자동화 플랫폼, 로봇 제어기를 제공한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "대동",
    "target": "농업·스마트팜",
    "type": "테마",
@@ -15710,7 +19761,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "건축·토목",
-   "score": 4.5,
+   "score": 4.47,
    "evidence": [
     {
      "date": "2026-10-16",
@@ -15746,12 +19797,72 @@
    }
   },
   {
+   "source": "대우건설",
+   "target": "수소·연료전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "연료전지 발전사업 개발",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "수소·연료전지",
+     "page": "수소·연료전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "안산 단원 연료전지 발전사업을 자체 개발 사업으로 명시한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://daewooenc.com/business/plant"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대우건설",
+   "target": "원전·SMR",
+   "type": "테마",
+   "tier": 1,
+   "stage": "원전 시공·설계 용역",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "원전·SMR",
+     "page": "원전·SMR",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "원자력 발전소·연구용 원자로 시공과 가동 원전 설계 기술 용역을 사업으로 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://daewooenc.com/business/plant"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "대한항공",
    "target": "항공·물류",
    "type": "테마",
    "tier": 1,
    "stage": "항공 운송",
-   "score": 1.49,
+   "score": 1.48,
    "evidence": [
     {
      "date": "2026-10-15",
@@ -15776,6 +19887,96 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "덴티움",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "치과용 기기",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "치과용 기기를 제조한다는 사업 내용을 주요제품란에 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동진쎄미켐",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "반도체 공정 소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "반도체 공정용 감광제와 봉지제 등 재료를 취급한다. 일반 반도체 소재 범위이며 HBM 공급은 확인하지 않았다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동진쎄미켐",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "디스플레이 소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "LCD용 감광제 등 디스플레이 재료를 취급한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
@@ -15848,11 +20049,41 @@
   },
   {
    "source": "두산에너빌리티",
+   "target": "수소·연료전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "수소 플랜트·실증",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "수소·연료전지",
+     "page": "수소·연료전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "수소 플랜트 건설과 수소 생산·저장·운송·활용 사업을 소개하며 그린수소 실증 과제 참여를 명시한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.doosanenerbility.com/kr/business/hydrogen_energy"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "두산에너빌리티",
    "target": "원전·SMR",
    "type": "테마",
    "tier": 1,
    "stage": "원전·SMR 사업",
-   "score": 1.2,
+   "score": 1.19,
    "evidence": [
     {
      "date": "2026-09-17",
@@ -15888,6 +20119,96 @@
    }
   },
   {
+   "source": "두산에너빌리티",
+   "target": "자원·희소금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "리튬 회수 소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자원·희소금속",
+     "page": "자원·희소금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "리튬 회수 공정에서 탄산리튬과 수산화리튬 공급이 가능하다고 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.doosanenerbility.com/kr/business/lithium_recovery"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "두산에너빌리티",
+   "target": "재생에너지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "해상풍력 기자재·시공",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "풍력 발전의 사업개발부터 기자재, 설계·조달·시공과 운영·유지보수까지 제공하는 사업을 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.doosanenerbility.com/kr/business/wind_energy_vision"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "두산에너빌리티",
+   "target": "환경·자원순환",
+   "type": "테마",
+   "tier": 1,
+   "stage": "배터리 리튬 회수 공정",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "공정 스크랩과 수명이 끝난 배터리를 처리하는 리튬 추출 공법을 개발했다고 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.doosanenerbility.com/kr/business/lithium_recovery"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "두산퓨얼셀",
    "target": "수소·연료전지",
    "type": "테마",
@@ -15918,12 +20239,42 @@
    }
   },
   {
+   "source": "드림시큐리티",
+   "target": "사이버보안",
+   "type": "테마",
+   "tier": 1,
+   "stage": "정보보안 솔루션",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "사이버보안",
+     "page": "사이버보안",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "정보보안 솔루션을 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "디아이",
    "target": "HBM·반도체",
    "type": "테마",
    "tier": 1,
    "stage": "검사 장비·부품",
-   "score": 4.01,
+   "score": 3.98,
    "evidence": [
     {
      "date": "2026-10-01",
@@ -15987,12 +20338,42 @@
    }
   },
   {
+   "source": "디아이",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "디아이",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
    "source": "디지털프론티어",
    "target": "HBM·반도체",
    "type": "테마",
    "tier": 2,
    "stage": "",
-   "score": 2.79,
+   "score": 2.77,
    "evidence": [],
    "classifications": [],
    "presentation": {
@@ -16032,6 +20413,66 @@
    }
   },
   {
+   "source": "로보스타",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "평판디스플레이 제조용 장비를 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "로보스타",
+   "target": "로봇·자동화",
+   "type": "테마",
+   "tier": 1,
+   "stage": "로봇 완제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "제조용 로봇을 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "로보티즈",
    "target": "로봇·자동화",
    "type": "테마",
@@ -16051,6 +20492,36 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "롯데웰푸드",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "식품 가공·제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "껌·사탕·초콜릿·비스킷·빙과를 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
@@ -16097,7 +20568,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "메모리 제조",
-   "score": 3.63,
+   "score": 3.6,
    "evidence": [
     {
      "date": "2026-10-06",
@@ -16176,6 +20647,66 @@
     "label": "확인 중",
     "muted": false,
     "line_style": "dashed"
+   }
+  },
+  {
+   "source": "마이크론",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "차량용 메모리·저장장치",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "차량용 DRAM·NAND·UFS 등 메모리·저장장치를 인포테인먼트와 ADAS 등의 용도로 제공한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.micron.com/markets-industries/automotive"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "메디톡스",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "바이오의약품 원료",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "보툴리눔독소 단백질치료제 원료를 제조·연구·개발한다. 개별 제품의 허가·판매 상태는 별도 확인이 필요하다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
    }
   },
   {
@@ -16274,7 +20805,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "하이브리드 본딩",
-   "score": 1.8,
+   "score": 1.78,
    "evidence": [
     {
      "date": "2026-10-02",
@@ -16312,6 +20843,36 @@
   },
   {
    "source": "뷰웍스",
+   "target": "로봇·자동화",
+   "type": "테마",
+   "tier": 1,
+   "stage": "머신비전 카메라",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "산업 자동화의 품질 검사에 쓰이는 머신비전용 산업용 카메라를 개발한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://vieworks.com/kr/business/machine_vision"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "뷰웍스",
    "target": "의료기기",
    "type": "테마",
    "tier": 1,
@@ -16341,12 +20902,42 @@
    }
   },
   {
+   "source": "산일전기",
+   "target": "전력망·전력기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전력기기",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "유입형·몰드형·주상형·건식형 변압기를 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "삼성SDI",
    "target": "2차전지",
    "type": "테마",
    "tier": 1,
    "stage": "",
-   "score": 5.53,
+   "score": 5.49,
    "evidence": [
     {
      "date": "2026-10-07",
@@ -16452,7 +21043,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "바이오의약품 생산",
-   "score": 7.43,
+   "score": 7.37,
    "evidence": [
     {
      "date": "2026-10-16",
@@ -16590,6 +21181,36 @@
   },
   {
    "source": "삼성에스디에스",
+   "target": "사이버보안",
+   "type": "테마",
+   "tier": 1,
+   "stage": "클라우드 보안 관제",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "사이버보안",
+     "page": "사이버보안",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "클라우드 보안 관제와 보안 컨설팅·보안 인프라 구축·관리 서비스를 제공한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.samsungsds.com/kr/service-security/security.html"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "삼성에스디에스",
    "target": "소프트웨어·IT서비스",
    "type": "테마",
    "tier": 1,
@@ -16624,7 +21245,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "패키지기판",
-   "score": 12.0,
+   "score": 11.91,
    "evidence": [
     {
      "date": "2026-10-06",
@@ -16694,12 +21315,57 @@
    }
   },
   {
+   "source": "삼성전기",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "차량용 MLCC",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "ADAS용 반도체의 전원 공급과 고주파 잡음 억제를 위한 저 ESL MLCC 제품군을 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://weblib.samsungsem.com/product-news/view.do?idx=3886&language=en"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "삼성전기",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
    "source": "삼성전자",
    "target": "HBM·반도체",
    "type": "테마",
    "tier": 1,
    "stage": "메모리 제조",
-   "score": 3.82,
+   "score": 3.79,
    "evidence": [
     {
      "date": "2026-10-13",
@@ -16783,12 +21449,72 @@
    }
   },
   {
+   "source": "삼성전자",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "차량용 반도체",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "차량용 인포테인먼트와 통신을 위한 Exynos Auto V·T 프로세서를 제공한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://semiconductor.samsung.com/processor/automotive-processor/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "삼성전자",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 1,
+   "stage": "이동통신망 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "LTE와 5G NR을 지원하는 이동통신망용 베이스밴드 장비를 제공한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.samsung.com/global/business/networks/products/radio-access/baseband/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "삼성중공업",
    "target": "원전·SMR",
    "type": "테마",
    "tier": 1,
    "stage": "해상 SMR(조선)",
-   "score": 1.78,
+   "score": 1.77,
    "evidence": [
     {
      "date": "2026-10-01",
@@ -16859,7 +21585,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "제조 장비",
-   "score": 4.47,
+   "score": 4.43,
    "evidence": [
     {
      "date": "2026-10-15",
@@ -16956,12 +21682,42 @@
    }
   },
   {
+   "source": "세진중공업",
+   "target": "조선·해운",
+   "type": "테마",
+   "tier": 1,
+   "stage": "조선·해양 기자재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "선박 거주구와 LPG 탱크, 상갑판 및 해양플랜트 거주구를 제조한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "셀트리온",
    "target": "바이오·제약",
    "type": "테마",
    "tier": 1,
    "stage": "바이오의약품 제품",
-   "score": 1.48,
+   "score": 1.47,
    "evidence": [
     {
      "date": "2026-10-14",
@@ -16997,6 +21753,66 @@
    }
   },
   {
+   "source": "솔브레인",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "반도체 공정 소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "반도체 공정용 화학재료를 제조·판매한다. 일반 반도체 소재 범위이며 HBM 공급은 확인하지 않았다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "솔브레인",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "디스플레이 소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "디스플레이 제조 공정에 사용하는 화학재료를 제조·판매한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "스맥",
    "target": "기계·산업장비",
    "type": "테마",
@@ -17012,6 +21828,36 @@
      "status": "확인",
      "date": "2026-10-09",
      "text": "공작기계와 산업용 로봇을 제조한다. (확인일: 2026-10-09)",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "스튜디오드래곤",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "드라마 제작·판매",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "드라마 제작·판매 사업을 주요제품란에 기재했다.",
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
@@ -17152,7 +21998,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "화장품 제조·판매",
-   "score": 0.97,
+   "score": 0.96,
    "evidence": [
     {
      "date": "2026-10-12",
@@ -17188,12 +22034,42 @@
    }
   },
   {
+   "source": "아세아텍",
+   "target": "농업·스마트팜",
+   "type": "테마",
+   "tier": 1,
+   "stage": "농기계",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "농업·스마트팜",
+     "page": "농업·스마트팜",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "관리기와 방제용 SS기, 이앙기 등 농기계를 주요제품으로 기재했다. 농기계 범위이며 스마트팜 운영·기술은 확인하지 않았다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "아이쓰리시스템",
    "target": "방산",
    "type": "테마",
    "tier": 1,
    "stage": "센서·부품",
-   "score": 4.01,
+   "score": 3.98,
    "evidence": [
     {
      "date": "2026-10-01",
@@ -17278,7 +22154,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "제조 장비",
-   "score": 3.98,
+   "score": 3.95,
    "evidence": [
     {
      "date": "2026-09-30",
@@ -17319,7 +22195,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "하이브리드 본딩",
-   "score": 3.75,
+   "score": 3.72,
    "evidence": [
     {
      "date": "2026-10-13",
@@ -17401,7 +22277,7 @@
    "type": "테마",
    "tier": 2,
    "stage": "",
-   "score": 2.22,
+   "score": 2.2,
    "evidence": [],
    "classifications": [],
    "presentation": {
@@ -17446,7 +22322,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "양극재",
-   "score": 2.75,
+   "score": 2.73,
    "evidence": [
     {
      "date": "2026-10-07",
@@ -17542,7 +22418,7 @@
    "type": "테마",
    "tier": 2,
    "stage": "",
-   "score": 1.66,
+   "score": 1.65,
    "evidence": [],
    "classifications": [],
    "presentation": {
@@ -17567,12 +22443,42 @@
    }
   },
   {
+   "source": "엔켐",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전해액",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "이차전지에 사용하는 전해액을 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "엘앤에프",
    "target": "2차전지",
    "type": "테마",
    "tier": 1,
    "stage": "양극재",
-   "score": 6.61,
+   "score": 6.56,
    "evidence": [
     {
      "date": "2026-10-14",
@@ -17813,7 +22719,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "검사 장비·부품",
-   "score": 1.32,
+   "score": 1.31,
    "evidence": [
     {
      "date": "2026-09-29",
@@ -17864,12 +22770,102 @@
    }
   },
   {
+   "source": "와이씨",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "와이씨",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "원익IPS",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "반도체 제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "반도체 생산에 쓰이는 장비를 주요제품으로 기재했다. 일반 반도체 장비 범위이며 HBM 공급은 확인하지 않았다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "웹젠",
+   "target": "게임",
+   "type": "테마",
+   "tier": 1,
+   "stage": "온라인·모바일 게임",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "온라인게임 뮤를 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "위드텍",
    "target": "HBM·반도체",
    "type": "테마",
    "tier": 1,
    "stage": "공정 모니터링",
-   "score": 8.48,
+   "score": 8.41,
    "evidence": [
     {
      "date": "2026-10-16",
@@ -17930,6 +22926,66 @@
      "status": "확인",
      "date": "2026-10-09",
      "text": "KIND 주요제품에 침입방지(IPS)와 안티 DDoS 네트워크 보안장비가 기재되어 있다. (확인일: 2026-10-09)",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "유니슨",
+   "target": "재생에너지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "풍력 기자재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "풍력발전기와 풍력타워를 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "이글루",
+   "target": "사이버보안",
+   "type": "테마",
+   "tier": 1,
+   "stage": "보안관리·관제",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "사이버보안",
+     "page": "사이버보안",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "통합보안관리 솔루션과 보안관제 서비스를 제공한다.",
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
@@ -18046,6 +23102,36 @@
    }
   },
   {
+   "source": "인바디",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "체성분 분석기",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "정밀 체성분 분석기를 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "인선이엔티",
    "target": "환경·자원순환",
    "type": "테마",
@@ -18081,7 +23167,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "",
-   "score": 3.95,
+   "score": 3.92,
    "evidence": [
     {
      "date": "2026-09-29",
@@ -18152,7 +23238,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "제조 장비",
-   "score": 3.95,
+   "score": 3.92,
    "evidence": [
     {
      "date": "2026-09-29",
@@ -18208,7 +23294,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "제조 장비",
-   "score": 9.89,
+   "score": 9.82,
    "evidence": [
     {
      "date": "2026-10-14",
@@ -18391,7 +23477,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "쇼핑몰 운영 기반",
-   "score": 0.72,
+   "score": 0.71,
    "evidence": [
     {
      "date": "2026-09-03",
@@ -18416,6 +23502,66 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "컴투스",
+   "target": "게임",
+   "type": "테마",
+   "tier": 1,
+   "stage": "온라인·모바일 게임",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "모바일게임을 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "케이아이엔엑스",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 1,
+   "stage": "클라우드 인프라 서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "IXcloud를 통해 가상 서버·GPU 인스턴스·스토리지·쿠버네티스 등 클라우드 인프라 서비스를 제공한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kinx.net/service/cloud/"
      ],
      "malformed": ""
     }
@@ -18457,12 +23603,42 @@
    }
   },
   {
+   "source": "케이아이엔엑스",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 1,
+   "stage": "인터넷 트래픽 연동",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "IX 피어링으로 인터넷 사업자와 콘텐츠 사업자 사이의 네트워크 연동 및 트래픽 상호 교환 서비스를 제공한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kinx.net/service/ix/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "케이알엠",
    "target": "방산",
    "type": "테마",
    "tier": 1,
    "stage": "센서·부품",
-   "score": 4.85,
+   "score": 4.81,
    "evidence": [
     {
      "date": "2026-10-02",
@@ -18513,7 +23689,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "원전 설비·장비",
-   "score": 1.33,
+   "score": 1.32,
    "evidence": [
     {
      "date": "2026-09-30",
@@ -18609,6 +23785,66 @@
    }
   },
   {
+   "source": "코스메카코리아",
+   "target": "화장품·미용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "화장품 생산",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "화장품을 OEM·ODM 방식으로 생산한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "코스모신소재",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "양극재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "이차전지용 양극활물질을 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "크래프톤",
    "target": "게임",
    "type": "테마",
@@ -18628,6 +23864,36 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "클리오",
+   "target": "화장품·미용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "화장품 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "색조 및 기초 화장품을 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
@@ -18674,7 +23940,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "검사 장비·부품",
-   "score": 1.32,
+   "score": 1.31,
    "evidence": [
     {
      "date": "2026-09-29",
@@ -18721,6 +23987,36 @@
     "label": "",
     "muted": false,
     "line_style": "solid"
+   }
+  },
+  {
+   "source": "테크윙",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "테크윙",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
    }
   },
   {
@@ -18789,7 +24085,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "양극재",
-   "score": 7.41,
+   "score": 7.35,
    "evidence": [
     {
      "date": "2026-10-14",
@@ -18961,7 +24257,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "제조 장비",
-   "score": 4.88,
+   "score": 4.84,
    "evidence": [
     {
      "date": "2026-10-07",
@@ -19012,7 +24308,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "",
-   "score": 8.44,
+   "score": 8.38,
    "evidence": [
     {
      "date": "2026-10-14",
@@ -19093,6 +24389,36 @@
    }
   },
   {
+   "source": "하나마이크론",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "반도체 패키징",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "반도체 패키징 사업을 주요제품란에 기재했다. 일반 반도체 패키징 범위이며 HBM 공급은 확인하지 않았다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "하이브",
    "target": "콘텐츠·엔터테인먼트",
    "type": "테마",
@@ -19124,11 +24450,41 @@
   },
   {
    "source": "한국수력원자력",
+   "target": "수소·연료전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "수소·연료전지 발전사업",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "수소·연료전지",
+     "page": "수소·연료전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "수소 생산시설 구축과 연료전지 발전사업 운영을 신에너지 사업으로 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.khnp.co.kr/main/contents.do?key=2081"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "한국수력원자력",
    "target": "원전·SMR",
    "type": "테마",
    "tier": 1,
    "stage": "해외 원전사업",
-   "score": 8.98,
+   "score": 8.91,
    "evidence": [
     {
      "date": "2026-10-15",
@@ -19232,12 +24588,102 @@
    }
   },
   {
+   "source": "한국수력원자력",
+   "target": "자원·희소금속",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "한국수력원자력",
+   "target": "재생에너지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "태양광·풍력 발전설비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "공식 설비 현황에 한빛솔라파크·고리태양광과 고리풍력 등 태양광·풍력 발전설비를 안내한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.khnp.co.kr/main/contents.do?key=212"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "한국수력원자력",
+   "target": "환경·자원순환",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "한국카본",
+   "target": "조선·해운",
+   "type": "테마",
+   "tier": 1,
+   "stage": "조선·해양 기자재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "LNG선박에 사용하는 단열 패널을 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "한국항공우주",
    "target": "방산",
    "type": "테마",
    "tier": 2,
    "stage": "",
-   "score": 1.23,
+   "score": 1.22,
    "evidence": [],
    "classifications": [],
    "presentation": {
@@ -19252,7 +24698,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "사업개발·투자",
-   "score": 2.69,
+   "score": 2.67,
    "evidence": [
     {
      "date": "2026-10-02",
@@ -19307,7 +24753,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "후공정 장비",
-   "score": 9.98,
+   "score": 9.91,
    "evidence": [
     {
      "date": "2026-10-14",
@@ -19401,6 +24847,21 @@
    }
   },
   {
+   "source": "한미반도체",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
    "source": "한미약품",
    "target": "바이오·제약",
    "type": "테마",
@@ -19462,11 +24923,26 @@
   },
   {
    "source": "한전기술",
+   "target": "수소·연료전지",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "한전기술",
    "target": "원전·SMR",
    "type": "테마",
    "tier": 1,
    "stage": "설계",
-   "score": 6.23,
+   "score": 6.19,
    "evidence": [
     {
      "date": "2026-10-15",
@@ -19527,6 +25003,21 @@
    }
   },
   {
+   "source": "한전기술",
+   "target": "재생에너지",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
    "source": "한화솔루션",
    "target": "재생에너지",
    "type": "테마",
@@ -19558,12 +25049,72 @@
    }
   },
   {
+   "source": "한화솔루션",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "석유화학",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "케미칼 부문의 석유화학 사업을 공식 회사소개에서 안내한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hanwhasolutions.com/ko/company/about/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "한화시스템",
+   "target": "방산",
+   "type": "테마",
+   "tier": 1,
+   "stage": "방산 전자장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "방산",
+     "page": "방산",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "군용 전자제어·감시·탐지추적·전투지휘 장비를 주요제품으로 기재했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "한화에어로스페이스",
    "target": "방산",
    "type": "테마",
    "tier": 1,
    "stage": "지상 무기체계",
-   "score": 3.63,
+   "score": 3.6,
    "evidence": [
     {
      "date": "2026-10-06",
@@ -19668,7 +25219,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "",
-   "score": 1.78,
+   "score": 1.77,
    "evidence": [
     {
      "date": "2026-10-01",
@@ -19709,7 +25260,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "해상 SMR(조선)",
-   "score": 1.78,
+   "score": 1.77,
    "evidence": [
     {
      "date": "2026-10-01",
@@ -19750,7 +25301,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "조선",
-   "score": 1.98,
+   "score": 1.97,
    "evidence": [
     {
      "date": "2026-10-15",
@@ -19786,12 +25337,42 @@
    }
   },
   {
+   "source": "헥토파이낸셜",
+   "target": "핀테크·전자결제",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전자결제",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "핀테크·전자결제",
+     "page": "핀테크·전자결제",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-09",
+     "text": "가상계좌 중계와 간편현금결제 서비스를 제공한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "현대건설",
    "target": "건설·인프라",
    "type": "테마",
    "tier": 1,
    "stage": "설계·시공",
-   "score": 2.82,
+   "score": 2.8,
    "evidence": [
     {
      "date": "2026-10-08",
@@ -19832,7 +25413,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "사용후핵연료 처분",
-   "score": 3.72,
+   "score": 3.69,
    "evidence": [
     {
      "date": "2026-10-08",
@@ -19907,6 +25488,36 @@
    }
   },
   {
+   "source": "현대건설",
+   "target": "재생에너지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "해상풍력 설계·조달·시공",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "공식 해상풍력 사업 소개에서 현대건설이 해상풍력의 설계·조달·시공과 사업 관리를 담당한다고 명시한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://newsroom.hdec.kr/kr/newsroom/news_view.aspx?NewsListType=inter_list&NewsSeq=1438&NewsType=JOURNAL"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "현대글로비스",
    "target": "항공·물류",
    "type": "테마",
@@ -19942,7 +25553,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "추진기관",
-   "score": 1.83,
+   "score": 1.82,
    "evidence": [
     {
      "date": "2026-10-09",
@@ -20094,6 +25705,66 @@
   },
   {
    "source": "현대오토에버",
+   "target": "로봇·자동화",
+   "type": "테마",
+   "tier": 1,
+   "stage": "스마트공장 통합 제어",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "SDF 플랫폼으로 제조 실행·통합 제어와 로봇 통합 모니터링 등 스마트공장 솔루션을 제공한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyundai-autoever.com/kor/business-area/digital-transformation/sdf/contents.do?cntnSeq=455"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "현대오토에버",
+   "target": "사이버보안",
+   "type": "테마",
+   "tier": 1,
+   "stage": "차량 보안 소프트웨어",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "사이버보안",
+     "page": "사이버보안",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "차량용 보안 솔루션과 보안 운영 소프트웨어를 제공하고 취약점 분석·모의해킹 컨설팅을 수행한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyundai-autoever.com/kor/business-area/core-technology/security/contents.do?cntnSeq=363"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "현대오토에버",
    "target": "소프트웨어·IT서비스",
    "type": "테마",
    "tier": 1,
@@ -20158,7 +25829,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "완성차",
-   "score": 0.97,
+   "score": 0.96,
    "evidence": [
     {
      "date": "2026-10-12",
@@ -20255,6 +25926,36 @@
   },
   {
    "source": "호텔신라",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 1,
+   "stage": "면세 유통",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "신라면세점의 시내·공항·온라인 면세 판매를 공식 사업부 소개에서 안내한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hotelshilla.net/navigate.do?HPSiteCd=H&HPLangCd=KO&HPPageId=AVETTIY4AC4CZlq7"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "호텔신라",
    "target": "호텔·레저",
    "type": "테마",
    "tier": 1,
@@ -20273,6 +25974,126 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "효성중공업",
+   "target": "ESS",
+   "type": "테마",
+   "tier": 1,
+   "stage": "ESS 공급·유지보수",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "ESS",
+     "page": "ESS",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "ESS 전체 시스템 공급과 유지보수, 구축 컨설팅을 사업으로 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyosungheavyindustries.com/kr/business/power-system-solutions/P010203"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "효성중공업",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "주택·건축·토목",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "주택·건축과 도로·교량 등 토목 공사, 산업시설 건설을 사업 영역으로 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyosungheavyindustries.com/kr/company/info/business-area"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "효성중공업",
+   "target": "수소·연료전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "수소충전 시스템",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "수소·연료전지",
+     "page": "수소·연료전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "수소충전소와 충전 시스템 보급을 수행하며 수소 충전 인프라를 구축한다고 설명한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyosungheavyindustries.com/kr/business/eco-solutions/S010300"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "효성중공업",
+   "target": "재생에너지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "태양광 발전소·인버터",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "태양광 발전소의 컨설팅·설계·시공과 태양광 인버터를 제공하는 사업을 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyosungheavyindustries.com/kr/business/eco-solutions/S010400"
      ],
      "malformed": ""
     }

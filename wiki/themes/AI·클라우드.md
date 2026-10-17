@@ -4,8 +4,8 @@ name: "AI·클라우드"
 aliases: []
 category: "기술·디지털"
 keywords: ["생성형 AI 플랫폼", "기업 클라우드", "AI 서비스"]
-stages: ["기업용 AI 플랫폼", "AI 모델·서비스", "AI·클라우드 구축·운영"]
-updated: "2026-10-15"
+stages: ["기업용 AI 플랫폼", "AI 모델·서비스", "AI·클라우드 구축·운영", "클라우드 인프라 서비스"]
+updated: "2026-10-17"
 ---
 
 # AI·클라우드
@@ -23,7 +23,8 @@ updated: "2026-10-15"
 ## 밸류체인
 - 기업용 AI 플랫폼: [[삼성에스디에스]] ([삼성에스디에스](https://www.samsungsds.com/kr/ai-fabrix/fabrix.html))
 - AI 모델·서비스: [[NAVER]] ([NAVER](https://navercorp.com/company/about))
-- AI·클라우드 구축·운영: [[현대오토에버]] ([현대오토에버](https://www.hyundai-autoever.com/kor/business-area/core-technology/ai/contents.do?cntnSeq=362), [현대오토에버](https://www.hyundai-autoever.com/kor/business-area/core-technology/cloud/contents.do?cntnSeq=360))
+- AI·클라우드 구축·운영: [[현대오토에버]] ([현대오토에버](https://www.hyundai-autoever.com/kor/business-area/core-technology/ai/contents.do?cntnSeq=362), [현대오토에버](https://www.hyundai-autoever.com/kor/business-area/core-technology/cloud/contents.do?cntnSeq=360)), [[LG씨엔에스]] ([출처](https://www.lgcns.com/en/service/modern-it-infra-on-cloud/cloud))
+- 클라우드 인프라 서비스: [[케이아이엔엑스]] ([출처](https://www.kinx.net/service/cloud/))
 
 ## 관련 기업
 
@@ -31,8 +32,10 @@ updated: "2026-10-15"
 
 | 기업 | 주제 | 분류 | 상태 | 근거 날짜 | 근거 |
 |---|---|---|---|---|---|
+| [[LG씨엔에스]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.lgcns.com/en/service/modern-it-infra-on-cloud/cloud) |
 | [[NAVER]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-15 | 공식 발표 [출처](https://navercorp.com/company/about) |
 | [[삼성에스디에스]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-15 | 공식 발표 [출처](https://www.samsungsds.com/kr/ai-fabrix/fabrix.html) |
+| [[케이아이엔엑스]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.kinx.net/service/cloud/) |
 | [[현대오토에버]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-15 | 공식 발표 [출처](https://www.hyundai-autoever.com/kor/business-area/core-technology/ai/contents.do?cntnSeq=362), [출처](https://www.hyundai-autoever.com/kor/business-area/core-technology/cloud/contents.do?cntnSeq=360) |
 
 기사·공시 제목만 확인한 항목에는 약한 근거 표시가 붙습니다. 분류는 사업의 성공이나 현재 거래 가능 여부를 보증하지 않습니다.

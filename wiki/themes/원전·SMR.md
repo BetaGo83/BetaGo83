@@ -3,8 +3,8 @@ type: "theme"
 name: "원전·SMR"
 aliases: []
 keywords: ["원전 수주", "원자력발전", "SMR", "소형모듈원전"]
-stages: ["해외 원전사업", "설계", "원전·SMR 사업", "사업개발·투자", "사용후핵연료 처분", "해상 SMR(조선)", "원전 설비·장비"]
-updated: "2026-10-15"
+stages: ["해외 원전사업", "설계", "원전·SMR 사업", "사업개발·투자", "사용후핵연료 처분", "해상 SMR(조선)", "원전 설비·장비", "원전 시공·설계 용역"]
+updated: "2026-10-17"
 category: "에너지·환경"
 ---
 
@@ -26,6 +26,7 @@ category: "에너지·환경"
 - 사용후핵연료 처분: [[현대건설]] ([포쓰저널](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TRjRzV0VLRVNiQklhNUFQbUdOSHd3ZGxISGw1clZBMkNrWXdVRlpqeFZnRXZwc1JtWG5FTnlVWWV2WWViNEROcTBXRks3T19MR2tZd05Ya1BpTlZrVzNoNVpjcGw?oc=5))
 - 해상 SMR(조선): [[HD한국조선해양]] ([해사신문](https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWTlidElDR1ZaXzRialRhbE9TQjNmeVRVRERUQUxzLTBlLWxPS3NKVVJZamFPX0FyZG1iLUlnM2VxVG9Eb1E5UnBERG1qMFdCbjl6Yk1pdEdlUzVnUmkzRDFRNWE2TmRhT3Qw?oc=5)), [[삼성중공업]] ([해사신문](https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWTlidElDR1ZaXzRialRhbE9TQjNmeVRVRERUQUxzLTBlLWxPS3NKVVJZamFPX0FyZG1iLUlnM2VxVG9Eb1E5UnBERG1qMFdCbjl6Yk1pdEdlUzVnUmkzRDFRNWE2TmRhT3Qw?oc=5)), [[한화오션]] ([해사신문](https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWTlidElDR1ZaXzRialRhbE9TQjNmeVRVRERUQUxzLTBlLWxPS3NKVVJZamFPX0FyZG1iLUlnM2VxVG9Eb1E5UnBERG1qMFdCbjl6Yk1pdEdlUzVnUmkzRDFRNWE2TmRhT3Qw?oc=5))
 - 원전 설비·장비: [[케이엔알시스템]] ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930901316))
+- 원전 시공·설계 용역: [[대우건설]] ([출처](https://daewooenc.com/business/plant))
 
 ## 관련 기업
 <!-- scripts/build_graph.py가 만드는 표. 손으로 고치지 않는다 -->
@@ -34,6 +35,7 @@ category: "에너지·환경"
 |---|---|---|---|---|---|
 | [[HD한국조선해양]] | SMR 상용화 | 공시·거래소 확인 | 계획(확인 중) | 2026-03-20 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001032) |
 | [[HD현대중공업]] | SMR 상용화 | 공시·거래소 확인 | 확인 | 2026-03-20 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000859) |
+| [[대우건설]] | 원전·SMR | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://daewooenc.com/business/plant) |
 | [[두산에너빌리티]] | 원전·SMR | 공시·거래소 확인 | 확인 | 2026-03-20 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001246) |
 | [[삼성중공업]] | SMR 상용화 | 후보 | 후보(확인 중) | 2026-10-01 | 기사 제목 · 약한 근거 [출처](https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWTlidElDR1ZaXzRialRhbE9TQjNmeVRVRERUQUxzLTBlLWxPS3NKVVJZamFPX0FyZG1iLUlnM2VxVG9Eb1E5UnBERG1qMFdCbjl6Yk1pdEdlUzVnUmkzRDFRNWE2TmRhT3Qw?oc=5) |
 | [[케이엔알시스템]] | 원전·SMR | 공시·거래소 확인 | 확인 | 2026-09-30 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930901316) |

@@ -3,8 +3,8 @@ type: "theme"
 name: "HBM·반도체"
 aliases: []
 keywords: ["HBM", "고대역폭메모리", "TC본더", "하이브리드 본딩", "반도체 후공정"]
-stages: ["메모리 제조", "후공정 장비", "하이브리드 본딩", "검사 장비·부품", "공정 모니터링", "패키지기판", "전력반도체 후공정"]
-updated: "2026-10-15"
+stages: ["메모리 제조", "후공정 장비", "하이브리드 본딩", "검사 장비·부품", "공정 모니터링", "패키지기판", "전력반도체 후공정", "반도체 공정 소재", "반도체 제조 장비", "반도체 패키징"]
+updated: "2026-10-17"
 category: "기술·디지털"
 ---
 
@@ -22,22 +22,27 @@ category: "기술·디지털"
 - 메모리 제조: [[삼성전자]] ([비즈워치](https://news.google.com/rss/articles/CBMibEFVX3lxTE1kTUkwWlRDbkw4NU55MzQ1Q25PaW1YVUc2TExkWnZTMjBUYXFLa1A4NGtNZDNrR3d3enVYQkJack5XX29abWNVenF0cnk3VVVHeTNuOUh4SU4tVXUzd0ZrTU1OblVkRDBObXlQRw?oc=5)), [[SK하이닉스]] ([아이티데일리](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ZSERCVUdyNnN3VE9BTGJvTDRCb0JqaXQ2Z0JCLWhZN1dzQWdENXR2dTBNVjZoX09iTmhwNUtYaGhVZ3VpSG16TGZTeEhza04wV044QXdjLV93SF9DendWWFdvaUVxZEZE?oc=5)), [[마이크론]] ([아주경제](https://news.google.com/rss/articles/CBMiWkFVX3lxTFBra2pkdEY0QkRRQkxWd3RVZFVsaFhLMDJrUzRFT0lGMFJvalNzZWFfZE5aYVhDbTh2UjhmbGxHQnJMQUpEc01JTWlJM0hRVm96R09OWDRPSzRLZ9IBWEFVX3lxTFAtYS1hNjZ5TzN3a09LeG5Cd1VFV2pBU083SktkYm11LWEwODNkTDBCM2Q1N2lDUUNpYzVkWWUyaU9fRzl2SGJldzZtUWxvdEJ1TXMyZ2RDSWs?oc=5))
 - 후공정 장비: [[한미반도체]] ([대한경제](https://news.google.com/rss/articles/CBMic0FVX3lxTE1GcWZ1QlJVQ0NBVjRFM1ZYLVRlcmlzMURxS1dHM0JsQlpxOVZnYkpIRC1TOFg3cEhBSklMQ2pSVnptZVpGOW8wd0FJZ01BTzBmOXlvTkd6SFJsVW5oYlIxckhsckNDeEVQNzR3Y0M4SlBjWnc?oc=5))
 - 하이브리드 본딩: [[어플라이드 머티어리얼즈]] ([디일렉](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KdXh0SllfSlRabUJDUllHTnQ3NWNIWko4RFNpakJncXhacnRjTWdSNGJSNGFkanE4aXpURzNiXzBoVnlvdl9FNk1mMExJc0x2WGxyRG0yWDUwM044RWhOUVZFTjh1QQ?oc=5)), [[베시]] ([디일렉](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KdXh0SllfSlRabUJDUllHTnQ3NWNIWko4RFNpakJncXhacnRjTWdSNGJSNGFkanE4aXpURzNiXzBoVnlvdl9FNk1mMExJc0x2WGxyRG0yWDUwM044RWhOUVZFTjh1QQ?oc=5))
-- 검사 장비·부품: [[와이씨]] ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900723)), [[테크윙]] ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900917)), [[디아이]] ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001800054)), [[네오셈]] ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900837))
+- 검사 장비·부품: [[와이씨]] ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900723)), [[테크윙]] ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900917)), [[디아이]] ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001800054)), [[네오셈]] ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900837)), [[ISC]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt))
 - 공정 모니터링: [[위드텍]] ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930901244))
 - 패키지기판: [[삼성전기]] ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928800810))
 - 전력반도체 후공정: [[LB세미콘]] ([뉴스1](https://news.google.com/rss/articles/CBMiX0FVX3lxTE44WHhma09WNEhkMlF6NFhPV1JpRjdUSXpiN3BHclQwM0tDaVNJMmRBRElqN01CdEtnMHFpbG9JODgzOWd4M0V0alhJYU5HM3BOMnRUdlVLYk1vUGFNTHB30gFkQVVfeXFMTXhiRWVSbzA5c0t6OFFiWjJtblRGbHprdnNCYWpJZU9lRlZPdkw3NzFPRmVxcW5BZVJfVHdzNk5POUFRUTF1c3Jna19nTGl3c1pjazlMSjVLeXpmVmJzd2p3Ul9oRQ?oc=5))
+- 반도체 공정 소재: [[동진쎄미켐]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt)), [[솔브레인]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt))
+- 반도체 제조 장비: [[원익IPS]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt))
+- 반도체 패키징: [[하나마이크론]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt))
 
 ## 관련 기업
 <!-- scripts/build_graph.py가 만드는 표. 손으로 고치지 않는다 -->
 
 | 기업 | 주제 | 분류 | 상태 | 근거 날짜 | 근거 |
 |---|---|---|---|---|---|
+| [[ISC]] | HBM·반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[LB세미콘]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage) |
 | [[SK하이닉스]] | 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
 | [[SK하이닉스]] | AI 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
 | [[SK하이닉스]] | HBM 수요 확대 | 공시·거래소 확인 | 확인 | 2026-03-17 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000635) |
 | [[네오셈]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-09-28 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900837) |
 | [[네오셈]] | HBM 수요 확대 | 후보 | 후보(확인 중) | 2026-03-18 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000748) |
+| [[동진쎄미켐]] | HBM·반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[디아이]] | AI 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
 | [[디아이]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage) |
 | [[디아이]] | HBM 수요 확대 | 공시·거래소 확인 | 확인 | 2026-03-12 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001121) |
@@ -49,12 +54,15 @@ category: "기술·디지털"
 | [[삼성전자]] | 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
 | [[삼성전자]] | AI 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
 | [[삼성전자]] | HBM 수요 확대 | 공시·거래소 확인 | 확인 | 2026-03-10 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002820) |
+| [[솔브레인]] | HBM·반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[어플라이드 머티어리얼즈]] | 반도체 | 후보 | 후보(확인 중) | 2026-10-02 | 기사 제목 · 약한 근거 [출처](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KdXh0SllfSlRabUJDUllHTnQ3NWNIWko4RFNpakJncXhacnRjTWdSNGJSNGFkanE4aXpURzNiXzBoVnlvdl9FNk1mMExJc0x2WGxyRG0yWDUwM044RWhOUVZFTjh1QQ?oc=5) |
 | [[와이씨]] | AI 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
 | [[와이씨]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage) |
+| [[원익IPS]] | HBM·반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[위드텍]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage) |
 | [[테크윙]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-09-29 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900917) |
 | [[테크윙]] | HBM 수요 확대 | 공시·거래소 확인 | 확인 | 2026-08-13 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813900654) |
+| [[하나마이크론]] | HBM·반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[한미반도체]] | 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
 | [[한미반도체]] | AI 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
 | [[한미반도체]] | HBM 수요 확대 | 공시·거래소 확인 | 확인 | 2026-06-08 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260608800436) |

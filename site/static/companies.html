@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>상장사 목록 — BetaGo83</title>
 <meta name="description" content="한국거래소 상장법인 보관 목록에서 회사·종목코드·업종을 찾고, 작성된 기업 위키와 지도로 이동합니다.">
-<script src="./companies.js?v=20261017-2" defer></script>
+<script src="./companies.js?v=20261017-coverage1" defer></script>
 <style>
 :root { color-scheme:light; --bg:#faf8f8; --panel:#fff; --text:#2b2b2b; --muted:#5f5f5f; --line:#dedede; --link:#284b63; --soft:#edf3f1; }
 @media(prefers-color-scheme:dark) { :root:not([data-theme="light"]) { color-scheme:dark; --bg:#161618; --panel:#1f1f22; --text:#ebebec; --muted:#b4b4ba; --line:#464348; --link:#a3c2d7; --soft:#273a35; } }
@@ -28,7 +28,7 @@ h1 { margin:0; font-size:clamp(1.8rem,4vw,2.35rem); letter-spacing:-.04em; }
 .snapshot { padding:14px 16px; border:1px solid var(--line); border-radius:10px; background:var(--panel); }
 .snapshot p { margin:3px 0; }.snapshot #counts { font-weight:650; color:var(--text); }
 .sources { display:flex; gap:12px; flex-wrap:wrap; }
-.filters { margin:22px 0; }.filters fieldset { padding:0; margin:0; border:0; display:grid; grid-template-columns:2fr 1fr; gap:12px; }
+.filters { margin:22px 0; }.filters fieldset { padding:0; margin:0; border:0; display:grid; grid-template-columns:2fr 1fr 1fr; gap:12px; }
 .filters label { display:flex; flex-direction:column; gap:4px; font-size:.85rem; min-width:0; }.filters input,.filters select { width:100%; min-width:0; }
 .filters legend { font-weight:650; margin-bottom:8px; }
 .result-title { font-size:1.05rem; margin:0 0 8px; }
@@ -64,6 +64,7 @@ footer { border-top:1px solid var(--line); padding:18px 0; color:var(--muted); f
   <form id="filters" class="filters" role="search"><fieldset id="filter-fields" disabled><legend>목록에서 찾기</legend>
     <label>회사명·종목코드·업종<input id="search" type="search" maxlength="120" autocomplete="off" placeholder="예: 삼성전자, 005930, 반도체"></label>
     <label>시장<select id="market"><option value="">전체 시장</option><option value="KOSPI">코스피</option><option value="KOSDAQ">코스닥</option></select></label>
+    <label>연결 상태<select id="coverage"><option value="">전체 종목</option><option value="linked">위키 연결 기업</option><option value="unlinked">테마 연결 미구축</option></select></label>
   </fieldset></form>
   <section id="results" tabindex="-1" aria-labelledby="result-title"><h2 id="result-title" class="result-title" role="status" aria-live="polite">목록 확인 중</h2>
     <p id="error" class="notice" role="alert" hidden>목록을 불러오지 못했습니다. 잠시 뒤 페이지를 다시 열어 주세요. 이 표시는 회사가 0개라는 뜻이 아닙니다.</p>

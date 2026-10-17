@@ -47,10 +47,13 @@
     }).sort(function (a, b) { return order(a.name, b.name) || order(a.ticker, b.ticker); });
     return { as_of: value.as_of, companies: rows, linked: rows.filter(function (row) { return row.wiki_path !== null; }).length };
   }
-  function page(catalog, query, market, number) {
-    if (typeof query !== "string" || query.length > 120 || !["", "KOSPI", "KOSDAQ"].includes(market)) throw new Error("Invalid filter");
+  function page(catalog, query, market, number, coverage) {
+    coverage = coverage === undefined ? "" : coverage;
+    if (typeof query !== "string" || query.length > 120 || !["", "KOSPI", "KOSDAQ"].includes(market)
+        || !["", "linked", "unlinked"].includes(coverage)) throw new Error("Invalid filter");
     var term = normalized(query.trim());
-    var found = catalog.companies.filter(function (row) { return (!market || row.market === market) && (!term || row.search.includes(term)); });
+    var found = catalog.companies.filter(function (row) { return (!market || row.market === market) && (!term || row.search.includes(term))
+      && (!coverage || (coverage === "linked" ? row.wiki_path !== null : row.wiki_path === null)); });
     var pages = Math.ceil(found.length / PAGE_SIZE);
     number = Number.isSafeInteger(number) ? Math.max(0, Math.min(number, Math.max(0, pages - 1))) : 0;
     return { rows: found.slice(number * PAGE_SIZE, (number + 1) * PAGE_SIZE), total: found.length, page: number, pages: pages };
@@ -110,6 +113,10 @@
   async function mount(doc, env) {
     var $ = function (id) { return doc.getElementById(id); };
     var request = new AbortController(), catalog = null, currentPage = 0;
+    try {
+      var initialCoverage = new URLSearchParams(env.location.search).get("coverage");
+      if (["linked", "unlinked"].includes(initialCoverage)) $("coverage").value = initialCoverage;
+    } catch (_) {}
     function stop() { request.abort(); }
     env.addEventListener("pagehide", stop, { once: true });
     try { var theme = env.localStorage.getItem("theme"); if (theme === "dark" || theme === "light") doc.documentElement.setAttribute("data-theme", theme); } catch (_) {}
@@ -123,7 +130,7 @@
     }
     function render() {
       if (!catalog) return;
-      var result = page(catalog, $("search").value, $("market").value, currentPage); currentPage = result.page;
+      var result = page(catalog, $("search").value, $("market").value, currentPage, $("coverage").value); currentPage = result.page;
       $("result-title").textContent = "검색 결과 " + result.total.toLocaleString("ko-KR") + "개";
       $("company-rows").replaceChildren();
       result.rows.forEach(function (row) {
@@ -143,6 +150,7 @@
     $("filters").addEventListener("submit", function (event) { event.preventDefault(); });
     $("search").addEventListener("input", function () { currentPage = 0; render(); });
     $("market").addEventListener("change", function () { currentPage = 0; render(); });
+    $("coverage").addEventListener("change", function () { currentPage = 0; render(); });
     ["prev", "next"].forEach(function (id) { $(id).addEventListener("click", function () { currentPage += id === "next" ? 1 : -1; render(); $("results").focus({ preventScroll: true }); }); });
     try {
       catalog = await read({ signal: request.signal, fetch: env.fetch.bind(env) });

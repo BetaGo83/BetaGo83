@@ -4,8 +4,8 @@ name: "ESS"
 aliases: []
 category: "에너지·환경"
 keywords: ["ESS", "배터리", "전력저장"]
-stages: ["배터리", "배터리·솔루션", "전력 시스템"]
-updated: "2026-10-15"
+stages: ["배터리", "배터리·솔루션", "전력 시스템", "ESS 프로젝트 개발·운영", "ESS 공급·유지보수"]
+updated: "2026-10-17"
 ---
 
 # ESS
@@ -24,6 +24,8 @@ updated: "2026-10-15"
 - 배터리: [[LG에너지솔루션]] ([한국거래소](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt))
 - 배터리·솔루션: [[삼성SDI]] ([삼성SDI](https://www.samsungsdi.co.kr/business/ess.html), [한국거래소](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt))
 - 전력 시스템: [[엘에스일렉트릭]] ([엘에스일렉트릭](https://www.ls-electric.com/ko/), [한국거래소](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt))
+- ESS 프로젝트 개발·운영: [[GS건설]] ([출처](https://gsconst.co.kr/Business/Default.aspx?BusinessResultStep3=1&Lang=ko))
+- ESS 공급·유지보수: [[효성중공업]] ([출처](https://www.hyosungheavyindustries.com/kr/business/power-system-solutions/P010203))
 
 ## 관련 기업
 
@@ -31,9 +33,11 @@ updated: "2026-10-15"
 
 | 기업 | 주제 | 분류 | 상태 | 근거 날짜 | 근거 |
 |---|---|---|---|---|---|
+| [[GS건설]] | ESS | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://gsconst.co.kr/Business/Default.aspx?BusinessResultStep3=1&Lang=ko) |
 | [[LG에너지솔루션]] | ESS | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[삼성SDI]] | ESS | 공식 발표 확인 | 확인 | 2026-10-15 | 공식 발표 [출처](https://www.samsungsdi.co.kr/business/ess.html), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[엘에스일렉트릭]] | ESS | 공식 발표 확인 | 확인 | 2026-10-15 | 공식 발표 [출처](https://www.ls-electric.com/ko/), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
+| [[효성중공업]] | ESS | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.hyosungheavyindustries.com/kr/business/power-system-solutions/P010203) |
 
 ### 2차 관련 기업
 
