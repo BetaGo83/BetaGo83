@@ -3635,6 +3635,66 @@
    "issues": []
   },
   {
+   "id": "EG",
+   "type": "company",
+   "path": "companies/EG",
+   "summary": "산화철 소재와 친환경 에너지·환경사업을 운영하는 소재·환경 기업",
+   "market": "KOSDAQ",
+   "ticker": "037370",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기초 화학물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "EG 공식 에너지환경사업 페이지는 폐기물·폐열 소각, 재활용 열분해, 태양광·지열 등 친환경 에너지·환경 플랜트 사업을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.egcorp.co.kr/business/energy/energy01?site_lang=kor",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "환경·자원순환",
+     "tier": 1,
+     "stage": "폐기물·수처리 시설",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "환경·자원순환",
+       "page": "환경·자원순환",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "EG 공식 에너지환경사업 페이지는 폐기물·폐열 소각, 재활용 열분해, 태양광·지열 등 친환경 에너지·환경 플랜트 사업을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.egcorp.co.kr/business/energy/energy01?site_lang=kor",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "F&F",
    "type": "company",
    "path": "companies/F&F",
@@ -29002,6 +29062,37 @@
       "https://www.edgc.com/kor/",
       "https://www.edgc.com/kor/bbs/content.php?co_id=prd_type11",
       "https://www.edgc.com/kor/bbs/content.php?co_id=prd_type12",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "EG",
+   "target": "환경·자원순환",
+   "type": "테마",
+   "tier": 1,
+   "stage": "폐기물·수처리 시설",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "EG 공식 에너지환경사업 페이지는 폐기물·폐열 소각, 재활용 열분해, 태양광·지열 등 친환경 에너지·환경 플랜트 사업을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.egcorp.co.kr/business/energy/energy01?site_lang=kor",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
