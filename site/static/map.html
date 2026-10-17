@@ -1055,7 +1055,7 @@ window.addEventListener("DOMContentLoaded", function () {
     dragMotion.active = true; dragMotion.released = false; dragMotion.anchor = anchor;
     // Keep the local spring alive long enough for a visible, bounded rebound.
     // The neighbor set is capped in dragMotionMembers, so this remains finite.
-    dragMotion.members = group.members; dragMotion.links = group.links; dragMotion.deadline = performance.now() + 320;
+    dragMotion.members = group.members; dragMotion.links = group.links; dragMotion.deadline = performance.now() + 420;
     dragMotion.members.forEach(function (n) {
       n.dragVx = 0; n.dragVy = 0; n.g.classList.toggle("drag-peer", n !== anchor);
     });
@@ -1064,12 +1064,13 @@ window.addEventListener("DOMContentLoaded", function () {
   }
   function noteDragMotion() {
     if (!dragMotion.active || !dragMotion.anchor) return;
-    dragMotion.released = false; dragMotion.deadline = performance.now() + 320;
+    dragMotion.released = false; dragMotion.deadline = performance.now() + 420;
     if (!dragMotion.raf) dragMotion.raf = requestAnimationFrame(stepDragMotion);
   }
   function finishDragMotion() {
     if (!dragMotion.active) return;
-    dragMotion.released = true; dragMotion.deadline = performance.now() + 700;
+    // Keep the bounded local spring visible for a little longer after release.
+    dragMotion.released = true; dragMotion.deadline = performance.now() + 1050;
     if (!dragMotion.raf) dragMotion.raf = requestAnimationFrame(stepDragMotion);
   }
   function stopDragMotion() {
@@ -1083,7 +1084,7 @@ window.addEventListener("DOMContentLoaded", function () {
     dragMotion.raf = 0;
     if (!dragMotion.active || !dragMotion.anchor) return;
     if (now > dragMotion.deadline) { if (dragMotion.released) stopDragMotion(); return; }
-    var members = dragMotion.members, anchor = dragMotion.anchor, alpha = dragMotion.released ? .075 : .18;
+    var members = dragMotion.members, anchor = dragMotion.anchor, alpha = dragMotion.released ? .11 : .22;
     for (var i = 0; i < members.length; i++) {
       var a = members[i]; if (a === anchor) continue;
       for (var j = i + 1; j < members.length; j++) {
@@ -1091,7 +1092,7 @@ window.addEventListener("DOMContentLoaded", function () {
         var dx = a.x - b.x, dy = a.y - b.y, d2 = Math.max(16, dx * dx + dy * dy), d = Math.sqrt(d2);
         var clearance = a.type === "theme" && b.type === "theme" ? 120 : 44;
         if (d < clearance) {
-          var repel = Math.min(7, (clearance - d) * .05);
+          var repel = Math.min(9, (clearance - d) * .07);
           a.dragVx += dx / d * repel * alpha; a.dragVy += dy / d * repel * alpha;
           b.dragVx -= dx / d * repel * alpha; b.dragVy -= dy / d * repel * alpha;
         }
@@ -1099,13 +1100,13 @@ window.addEventListener("DOMContentLoaded", function () {
     }
     dragMotion.links.forEach(function (e) {
       var a = e.s, b = e.t, dx = b.x - a.x, dy = b.y - a.y, d = Math.sqrt(dx * dx + dy * dy) || 1;
-      var desired = a.type === "theme" || b.type === "theme" ? 120 : 112, force = (d - desired) * .024 * alpha;
+      var desired = a.type === "theme" || b.type === "theme" ? 120 : 112, force = (d - desired) * .032 * alpha;
       if (a !== anchor) { a.dragVx += dx / d * force; a.dragVy += dy / d * force; }
       if (b !== anchor) { b.dragVx -= dx / d * force; b.dragVy -= dy / d * force; }
     });
     members.forEach(function (n) {
       if (n === anchor) return;
-      n.dragVx = clampDrag(n.dragVx * .86, 14); n.dragVy = clampDrag(n.dragVy * .86, 14);
+      n.dragVx = clampDrag(n.dragVx * .9, 18); n.dragVy = clampDrag(n.dragVy * .9, 18);
       n.x += n.dragVx; n.y += n.dragVy;
     });
     position();
