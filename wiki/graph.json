@@ -4242,6 +4242,72 @@
    "issues": []
   },
   {
+   "id": "HDC랩스",
+   "type": "company",
+   "path": "companies/HDC랩스",
+   "summary": "AI·데이터 기반의 공간 운영·자동화와 스마트홈·프롭테크 솔루션을 제공하는 공간 운영 기업",
+   "market": "KOSPI",
+   "ticker": "039570",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "전기 및 통신 공사업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HDC랩스 공식 페이지는 AI·데이터 기반 공간 운영, 반복 업무 자동화, 프롭테크 데이터 분석 솔루션을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hdc-labs.com/ax/labsax/",
+      "https://www.hdc-labs.com/ax/space/",
+      "https://www.hdc-labs.com/ax/automation/",
+      "https://www.hdc-labs.com/area02/proptech/data/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "소프트웨어·IT서비스",
+     "tier": 1,
+     "stage": "기업 IT서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "소프트웨어·IT서비스",
+       "page": "소프트웨어·IT서비스",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "HDC랩스 공식 페이지는 AI·데이터 기반 공간 운영, 반복 업무 자동화, 프롭테크 데이터 분석 솔루션을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hdc-labs.com/ax/labsax/",
+        "https://www.hdc-labs.com/ax/space/",
+        "https://www.hdc-labs.com/ax/automation/",
+        "https://www.hdc-labs.com/area02/proptech/data/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "HD건설기계",
    "type": "company",
    "path": "companies/HD건설기계",
@@ -29528,6 +29594,40 @@
       "https://www.hb-solution.co.kr/",
       "https://www.hb-solution.co.kr/bbs/board.php?bo_table=s2_1&swr_1=10",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HDC랩스",
+   "target": "소프트웨어·IT서비스",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기업 IT서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HDC랩스 공식 페이지는 AI·데이터 기반 공간 운영, 반복 업무 자동화, 프롭테크 데이터 분석 솔루션을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hdc-labs.com/ax/labsax/",
+      "https://www.hdc-labs.com/ax/space/",
+      "https://www.hdc-labs.com/ax/automation/",
+      "https://www.hdc-labs.com/area02/proptech/data/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }

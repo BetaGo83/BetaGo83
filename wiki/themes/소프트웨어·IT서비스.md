@@ -5,7 +5,7 @@ aliases: []
 category: "기술·디지털"
 keywords: ["IT서비스", "시스템 구축 운영", "차량 소프트웨어"]
 stages: ["기업 IT서비스", "차량 소프트웨어·IT서비스", "시스템 구축·운영", "문서·AI 소프트웨어"]
-updated: "2026-10-15"
+updated: "2026-10-18"
 ---
 
 # 소프트웨어·IT서비스
@@ -21,7 +21,7 @@ updated: "2026-10-15"
 공식 자료에서 관련 사업을 확인한 대표 기업을 연결했습니다. 전체 상장사 목록이나 투자 추천 순위가 아니며, 이 안내에는 거래소 지수 편입 기준을 적용하지 않았습니다. 사업 소개의 확인일은 신규 사건의 발생일과 다릅니다.
 
 ## 밸류체인
-- 기업 IT서비스: [[삼성에스디에스]] ([한국거래소 KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt)), [[AJ네트웍스]] ([공식 사업자료](https://www.ajnetworks.co.kr/IT))
+- 기업 IT서비스: [[삼성에스디에스]] ([한국거래소 KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt)), [[AJ네트웍스]] ([공식 사업자료](https://www.ajnetworks.co.kr/IT)), [[HDC랩스]] ([HDC랩스 AX Solution](https://www.hdc-labs.com/ax/labsax/), [HDC랩스 지능형 공간운영](https://www.hdc-labs.com/ax/space/), [HDC랩스 통합 자동화](https://www.hdc-labs.com/ax/automation/))
 - 차량 소프트웨어·IT서비스: [[현대오토에버]] ([한국거래소 KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt))
 - 시스템 구축·운영: [[LG씨엔에스]] ([한국거래소 KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt)), [[롯데이노베이트]] ([공식 사업자료](https://www.lotteinnovate.com/ko/business/infra/cloud/intro))
 - 문서·AI 소프트웨어: [[한컴]] ([한컴 공식 홈페이지](https://www.hancom.com/ko), [한컴 회사개요](https://shop.hancom.com/about/company))
@@ -33,6 +33,7 @@ updated: "2026-10-15"
 | 기업 | 주제 | 분류 | 상태 | 근거 날짜 | 근거 |
 |---|---|---|---|---|---|
 | [[AJ네트웍스]] | 소프트웨어·IT서비스 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.ajnetworks.co.kr/Company/Business), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
+| [[HDC랩스]] | 소프트웨어·IT서비스 | 공식 발표 확인 | 확인 | 2026-10-18 | 공식 발표 [출처](https://www.hdc-labs.com/ax/labsax/), [출처](https://www.hdc-labs.com/ax/space/), [출처](https://www.hdc-labs.com/ax/automation/), [출처](https://www.hdc-labs.com/area02/proptech/data/), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[LG씨엔에스]] | 소프트웨어·IT서비스 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[롯데이노베이트]] | 소프트웨어·IT서비스 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.lotteinnovate.com/ko/business/infra/cloud/intro), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[삼성에스디에스]] | 소프트웨어·IT서비스 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
