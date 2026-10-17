@@ -2614,6 +2614,113 @@
    "issues": []
   },
   {
+   "id": "DXVX",
+   "type": "company",
+   "path": "companies/DXVX",
+   "summary": "유전체 진단·체외진단과 백신·신약 플랫폼을 개발하는 헬스케어 기업",
+   "market": "KOSDAQ",
+   "ticker": "180400",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기타 과학기술 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "Dx&Vx 공식 홈페이지는 유전체 분석·체외진단 통합 솔루션과 진단 사업을 설명하고, OVM-200 Survivin 표적 펩타이드 암 백신의 임상 1상 완료 및 임상 2상 준비를 직접 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dxvx.com/",
+      "https://www.dxvx.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "Dx&Vx 공식 홈페이지는 유전체 분석·체외진단 통합 솔루션과 진단 사업을 설명하고, OVM-200 Survivin 표적 펩타이드 암 백신의 임상 1상 완료 및 임상 2상 준비를 직접 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dxvx.com/",
+      "https://www.dxvx.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "항암백신",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "Dx&Vx 공식 홈페이지는 유전체 분석·체외진단 통합 솔루션과 진단 사업을 설명하고, OVM-200 Survivin 표적 펩타이드 암 백신의 임상 1상 완료 및 임상 2상 준비를 직접 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dxvx.com/",
+        "https://www.dxvx.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "검사용 제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "Dx&Vx 공식 홈페이지는 유전체 분석·체외진단 통합 솔루션과 진단 사업을 설명하고, OVM-200 Survivin 표적 펩타이드 암 백신의 임상 1상 완료 및 임상 2상 준비를 직접 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dxvx.com/",
+        "https://www.dxvx.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "E1",
    "type": "company",
    "path": "companies/E1",
@@ -26209,6 +26316,70 @@
       "https://dsdansuk.com/products/rd/",
       "https://dsdansuk.com/include/images/sub/DS%20DANSUK%20BATTERY%20RECYCLE_KOR.pdf",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "DXVX",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "항암백신",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "Dx&Vx 공식 홈페이지는 유전체 분석·체외진단 통합 솔루션과 진단 사업을 설명하고, OVM-200 Survivin 표적 펩타이드 암 백신의 임상 1상 완료 및 임상 2상 준비를 직접 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dxvx.com/",
+      "https://www.dxvx.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "DXVX",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "검사용 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "Dx&Vx 공식 홈페이지는 유전체 분석·체외진단 통합 솔루션과 진단 사업을 설명하고, OVM-200 Survivin 표적 펩타이드 암 백신의 임상 1상 완료 및 임상 2상 준비를 직접 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dxvx.com/",
+      "https://www.dxvx.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
