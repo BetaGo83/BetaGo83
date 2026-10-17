@@ -16,7 +16,8 @@
     "전해액",
     "배터리 자원순환",
     "이차전지 원료·소재 조달",
-    "제조 환경·드라이룸"
+    "제조 환경·드라이룸",
+    "배터리 소재·동박"
    ]
   },
   {
@@ -3523,6 +3524,66 @@
    ]
   },
   {
+   "id": "NC",
+   "type": "company",
+   "path": "companies/NC",
+   "summary": "온라인·모바일 게임을 개발·서비스하는 기업",
+   "market": "KOSPI",
+   "ticker": "036570",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "리니지 등 온라인·모바일 게임의 개발·서비스 사업을 회사가 공식 사이트에서 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nc.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "게임",
+     "tier": 1,
+     "stage": "온라인·모바일 게임",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "게임",
+       "page": "게임",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "리니지 등 온라인·모바일 게임의 개발·서비스 사업을 회사가 공식 사이트에서 소개한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nc.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "NHN KCP",
    "type": "company",
    "path": "companies/NHN KCP",
@@ -3639,6 +3700,66 @@
    "issues": []
   },
   {
+   "id": "POSCO홀딩스",
+   "type": "company",
+   "path": "companies/POSCO홀딩스",
+   "summary": "철강을 중심으로 소재 사업을 하는 지주회사",
+   "market": "KOSPI",
+   "ticker": "005490",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "포스코그룹의 철강 사업과 소재 사업을 공식 홈페이지에서 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://posco-inc.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "철강",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "포스코그룹의 철강 사업과 소재 사업을 공식 홈페이지에서 소개한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://posco-inc.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "S-Oil",
    "type": "company",
    "path": "companies/S-Oil",
@@ -3682,6 +3803,66 @@
        "evidence_level": "거래소 자료",
        "weak": false,
        "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SKC",
+   "type": "company",
+   "path": "companies/SKC",
+   "summary": "이차전지용 동박 등 배터리 소재 사업을 하는 기업",
+   "market": "KOSPI",
+   "ticker": "011790",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기타 화학제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "이차전지용 동박과 실리콘 음극재 등 배터리 소재 사업을 회사가 공식 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.skc.kr/m/eng/corporation/intro/corp.do?menuCd=001001001",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "배터리 소재·동박",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "이차전지용 동박과 실리콘 음극재 등 배터리 소재 사업을 회사가 공식 소개한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.skc.kr/m/eng/corporation/intro/corp.do?menuCd=001001001",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -20861,6 +21042,37 @@
    }
   },
   {
+   "source": "NC",
+   "target": "게임",
+   "type": "테마",
+   "tier": 1,
+   "stage": "온라인·모바일 게임",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "리니지 등 온라인·모바일 게임의 개발·서비스 사업을 회사가 공식 사이트에서 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nc.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "NHN KCP",
    "target": "핀테크·전자결제",
    "type": "테마",
@@ -20921,6 +21133,37 @@
    }
   },
   {
+   "source": "POSCO홀딩스",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "철강",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "포스코그룹의 철강 사업과 소재 사업을 공식 홈페이지에서 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://posco-inc.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "S-Oil",
    "target": "화학·정유",
    "type": "테마",
@@ -20939,6 +21182,37 @@
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SKC",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "배터리 소재·동박",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "이차전지용 동박과 실리콘 음극재 등 배터리 소재 사업을 회사가 공식 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.skc.kr/m/eng/corporation/intro/corp.do?menuCd=001001001",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
