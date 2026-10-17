@@ -3198,6 +3198,70 @@
    "issues": []
   },
   {
+   "id": "EDGC",
+   "type": "company",
+   "path": "companies/EDGC",
+   "summary": "유전체 분석과 비침습·신생아 검사 서비스를 제공하는 상장사",
+   "market": "KOSDAQ",
+   "ticker": "245620",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "자연과학 및 공학 연구개발업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "EDGC 공식 제품 페이지는 비침습 산전검사와 신생아 유전체 검사를 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.edgc.com/kor/",
+      "https://www.edgc.com/kor/bbs/content.php?co_id=prd_type11",
+      "https://www.edgc.com/kor/bbs/content.php?co_id=prd_type12",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "검사용 제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "EDGC 공식 제품 페이지는 비침습 산전검사와 신생아 유전체 검사를 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.edgc.com/kor/",
+        "https://www.edgc.com/kor/bbs/content.php?co_id=prd_type11",
+        "https://www.edgc.com/kor/bbs/content.php?co_id=prd_type12",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "F&F",
    "type": "company",
    "path": "companies/F&F",
@@ -27975,6 +28039,39 @@
      "sources": [
       "https://www.e1.co.kr/ko/business/hydrogen",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "EDGC",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "검사용 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "EDGC 공식 제품 페이지는 비침습 산전검사와 신생아 유전체 검사를 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.edgc.com/kor/",
+      "https://www.edgc.com/kor/bbs/content.php?co_id=prd_type11",
+      "https://www.edgc.com/kor/bbs/content.php?co_id=prd_type12",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
