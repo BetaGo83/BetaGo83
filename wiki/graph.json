@@ -3495,6 +3495,68 @@
    "issues": []
   },
   {
+   "id": "HB솔루션",
+   "type": "company",
+   "path": "companies/HB솔루션",
+   "summary": "디스플레이 제조용 도포·조립·검사 장비를 제공하는 상장사",
+   "market": "KOSDAQ",
+   "ticker": "297890",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HB SOLUTION 공식 홈페이지는 디스플레이 장비 분야의 사업과 제품으로 검사계측설비와 Module을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hb-solution.co.kr/",
+      "https://www.hb-solution.co.kr/bbs/board.php?bo_table=s2_1&swr_1=10",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "디스플레이",
+       "page": "디스플레이",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "HB SOLUTION 공식 홈페이지는 디스플레이 장비 분야의 사업과 제품으로 검사계측설비와 Module을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hb-solution.co.kr/",
+        "https://www.hb-solution.co.kr/bbs/board.php?bo_table=s2_1&swr_1=10",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "HD건설기계",
    "type": "company",
    "path": "companies/HD건설기계",
@@ -28030,6 +28092,38 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HB솔루션",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HB SOLUTION 공식 홈페이지는 디스플레이 장비 분야의 사업과 제품으로 검사계측설비와 Module을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hb-solution.co.kr/",
+      "https://www.hb-solution.co.kr/bbs/board.php?bo_table=s2_1&swr_1=10",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
