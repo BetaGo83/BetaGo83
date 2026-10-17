@@ -393,7 +393,8 @@
    "stages": [
     "전력기기",
     "전력기기·시스템",
-    "송배전용 초고압 케이블"
+    "송배전용 초고압 케이블",
+    "전력망 운영·정비"
    ]
   },
   {
@@ -13173,6 +13174,66 @@
    "issues": []
   },
   {
+   "id": "일진전기",
+   "type": "company",
+   "path": "companies/일진전기",
+   "summary": "송배전용 전력기기와 초고압 전선을 제조하는 전력 인프라 기업",
+   "market": "KOSPI",
+   "ticker": "103590",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "절연선 및 케이블 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 변압기·차단기 등 송배전용 전력기기와 초고압 전선을 제조한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.iljinelectric.co.kr/company?lang=ko",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "전력망·전력기기",
+     "tier": 1,
+     "stage": "전력기기·시스템",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "전력망·전력기기",
+       "page": "전력망·전력기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 자료에서 변압기·차단기 등 송배전용 전력기기와 초고압 전선을 제조한다고 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.iljinelectric.co.kr/company?lang=ko",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "일진하이솔루스",
    "type": "company",
    "path": "companies/일진하이솔루스",
@@ -16173,6 +16234,66 @@
    ]
   },
   {
+   "id": "한국전력공사",
+   "type": "company",
+   "path": "companies/한국전력공사",
+   "summary": "송전·배전망을 구축·운영하고 전력을 공급하는 전력 인프라 공기업",
+   "market": "KOSPI",
+   "ticker": "015760",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "전기업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "공사는 공식 사업자료에서 송변전·송전·배전망의 구축과 운영, 안정적 전력공급을 담당한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kepco.co.kr/home/business/transbus.do",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "전력망·전력기기",
+     "tier": 1,
+     "stage": "전력망 운영·정비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "전력망·전력기기",
+       "page": "전력망·전력기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "공사는 공식 사업자료에서 송변전·송전·배전망의 구축과 운영, 안정적 전력공급을 담당한다고 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.kepco.co.kr/home/business/transbus.do",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "한국카본",
    "type": "company",
    "path": "companies/한국카본",
@@ -16737,6 +16858,66 @@
        "weak": false,
        "sources": [
         "https://www.hanonsystems.com/Kr",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "한전KPS",
+   "type": "company",
+   "path": "companies/한전KPS",
+   "summary": "발전·송전 설비의 정비와 성능개선을 수행하는 전력설비 서비스 기업",
+   "market": "KOSPI",
+   "ticker": "051600",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "전기 및 통신 공사업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 발전·송전 등 전력설비의 정비와 성능 개선으로 안정적 전력공급을 지원한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kps.co.kr/web/company/greeting.do",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "전력망·전력기기",
+     "tier": 1,
+     "stage": "전력망 운영·정비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "전력망·전력기기",
+       "page": "전력망·전력기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 자료에서 발전·송전 등 전력설비의 정비와 성능 개선으로 안정적 전력공급을 지원한다고 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.kps.co.kr/web/company/greeting.do",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -28451,6 +28632,37 @@
    }
   },
   {
+   "source": "일진전기",
+   "target": "전력망·전력기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전력기기·시스템",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 변압기·차단기 등 송배전용 전력기기와 초고압 전선을 제조한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.iljinelectric.co.kr/company?lang=ko",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "일진하이솔루스",
    "target": "수소·연료전지",
    "type": "테마",
@@ -30207,6 +30419,37 @@
    }
   },
   {
+   "source": "한국전력공사",
+   "target": "전력망·전력기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전력망 운영·정비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "공사는 공식 사업자료에서 송변전·송전·배전망의 구축과 운영, 안정적 전력공급을 담당한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kepco.co.kr/home/business/transbus.do",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "한국카본",
    "target": "조선·해운",
    "type": "테마",
@@ -30530,6 +30773,37 @@
      "weak": false,
      "sources": [
       "https://www.hanonsystems.com/Kr",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "한전KPS",
+   "target": "전력망·전력기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전력망 운영·정비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 발전·송전 등 전력설비의 정비와 성능 개선으로 안정적 전력공급을 지원한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kps.co.kr/web/company/greeting.do",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
