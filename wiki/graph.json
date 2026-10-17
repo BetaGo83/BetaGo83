@@ -316,7 +316,8 @@
     "면류·스낵",
     "식자재 유통·단체급식",
     "육계·닭고기 가공",
-    "신선식품·건강식품"
+    "신선식품·건강식품",
+    "라면·조미식품·간편식"
    ]
   },
   {
@@ -12964,6 +12965,66 @@
        "evidence_level": "거래소 자료",
        "weak": false,
        "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "오뚜기",
+   "type": "company",
+   "path": "companies/오뚜기",
+   "summary": "라면·조미식품·간편식과 다양한 식품군을 생산하는 종합식품기업",
+   "market": "KOSPI",
+   "ticker": "007310",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기타 식품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 라면·카레·소스·통조림·면류 등 다양한 식품군과 B2B 업소용 제품을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.otoki.com/about/overview",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "라면·조미식품·간편식",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 자료에서 라면·카레·소스·통조림·면류 등 다양한 식품군과 B2B 업소용 제품을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.otoki.com/about/overview",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -29684,6 +29745,37 @@
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오뚜기",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "라면·조미식품·간편식",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 라면·카레·소스·통조림·면류 등 다양한 식품군과 B2B 업소용 제품을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.otoki.com/about/overview",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
