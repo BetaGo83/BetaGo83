@@ -64,7 +64,8 @@
     "반도체 공정 소재",
     "반도체 제조 장비",
     "반도체 패키징",
-    "반도체 클린룸"
+    "반도체 클린룸",
+    "시스템반도체 파운드리"
    ]
   },
   {
@@ -601,6 +602,66 @@
    "issues": []
   },
   {
+   "id": "CJ ENM",
+   "type": "company",
+   "path": "companies/CJ ENM",
+   "summary": "드라마·방송·영화·음악 콘텐츠를 제작·유통하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "035760",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "텔레비전 방송업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "TV 프로그램·드라마·영화·음악·디지털 콘텐츠 사업을 공식 홈페이지에서 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.cjenm.com/en/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "드라마 제작·판매",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "TV 프로그램·드라마·영화·음악·디지털 콘텐츠 사업을 공식 홈페이지에서 소개한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.cjenm.com/en/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "CJ대한통운",
    "type": "company",
    "path": "companies/CJ대한통운",
@@ -729,6 +790,126 @@
      ]
     }
    ]
+  },
+  {
+   "id": "DB하이텍",
+   "type": "company",
+   "path": "companies/DB하이텍",
+   "summary": "특화 시스템반도체 파운드리 사업을 하는 기업",
+   "market": "KOSPI",
+   "ticker": "000990",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "반도체 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "아날로그·전력·혼합신호 등 특화 시스템반도체 파운드리 사업을 영위한다고 회사가 안내한다. HBM 공급은 확인하지 않았다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dbhitek.com/kr/company/about",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "시스템반도체 파운드리",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "아날로그·전력·혼합신호 등 특화 시스템반도체 파운드리 사업을 영위한다고 회사가 안내한다. HBM 공급은 확인하지 않았다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dbhitek.com/kr/company/about",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "DL이앤씨",
+   "type": "company",
+   "path": "companies/DL이앤씨",
+   "summary": "건축·토목·플랜트 건설 사업을 하는 기업",
+   "market": "KOSPI",
+   "ticker": "375500",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "토목 건설업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "건축, 주택, 토목, 플랜트 사업을 공식 사업개요에서 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://m.dlenc.co.kr/biz/Intro.do",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "건축·토목·플랜트",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "건축, 주택, 토목, 플랜트 사업을 공식 사업개요에서 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://m.dlenc.co.kr/biz/Intro.do",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
   },
   {
    "id": "DS단석",
@@ -18840,6 +19021,37 @@
    }
   },
   {
+   "source": "CJ ENM",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "드라마 제작·판매",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "TV 프로그램·드라마·영화·음악·디지털 콘텐츠 사업을 공식 홈페이지에서 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.cjenm.com/en/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "CJ대한통운",
    "target": "항공·물류",
    "type": "테마",
@@ -18899,6 +19111,68 @@
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "DB하이텍",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "시스템반도체 파운드리",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "아날로그·전력·혼합신호 등 특화 시스템반도체 파운드리 사업을 영위한다고 회사가 안내한다. HBM 공급은 확인하지 않았다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dbhitek.com/kr/company/about",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "DL이앤씨",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건축·토목·플랜트",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "건축, 주택, 토목, 플랜트 사업을 공식 사업개요에서 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://m.dlenc.co.kr/biz/Intro.do",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
