@@ -4559,6 +4559,70 @@
    "issues": []
   },
   {
+   "id": "HDC",
+   "type": "company",
+   "path": "companies/HDC",
+   "summary": "도시개발·주거·인프라·에너지 사업을 포트폴리오로 운영하는 지주회사",
+   "market": "KOSPI",
+   "ticker": "012630",
+   "dart_corp_code": "00164636",
+   "aliases": [],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HDC홀딩스 공식 포트폴리오와 DART 자회사 주요경영사항에서 도시개발·건설·교통 인프라 사업 역할을 직접 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hdc-holdings.com/ko/business/introduction",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928800547",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930800885",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "건축·토목·플랜트",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "HDC홀딩스 공식 포트폴리오와 DART 자회사 주요경영사항에서 도시개발·건설·교통 인프라 사업 역할을 직접 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hdc-holdings.com/ko/business/introduction",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928800547",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930800885",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "HDC랩스",
    "type": "company",
    "path": "companies/HDC랩스",
@@ -30139,6 +30203,39 @@
       "https://opendart.fss.or.kr/xbrl/viewer/main.do?rcpNo=20260316001660",
       "https://kind.krx.co.kr/external/2026/03/04/000744/20260304001722/00591.htm",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HDC",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건축·토목·플랜트",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HDC홀딩스 공식 포트폴리오와 DART 자회사 주요경영사항에서 도시개발·건설·교통 인프라 사업 역할을 직접 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hdc-holdings.com/ko/business/introduction",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928800547",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930800885",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
