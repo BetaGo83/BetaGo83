@@ -392,7 +392,8 @@
     "태양광·풍력 발전설비",
     "해상풍력 설계·조달·시공",
     "태양광 발전소·인버터",
-    "태양광·풍력 발전 및 개발"
+    "태양광·풍력 발전 및 개발",
+    "태양광 발전·나노소재"
    ]
   },
   {
@@ -1775,6 +1776,66 @@
        "weak": false,
        "sources": [
         "https://www.dbhitek.com/kr/company/about",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "DH오토넥스",
+   "type": "company",
+   "path": "companies/DH오토넥스",
+   "summary": "정보통신 장비와 태양광 발전·나노소재 등 신사업을 영위하는 기업",
+   "market": "KOSPI",
+   "ticker": "000300",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "자동차 신품 부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 사업자료는 신에너지 사업으로 태양광 발전과 나노소재 관련 사업을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dhautonex.co.kr/business/new_energy",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "재생에너지",
+     "tier": 1,
+     "stage": "태양광 발전·나노소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "재생에너지",
+       "page": "재생에너지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사 공식 사업자료는 신에너지 사업으로 태양광 발전과 나노소재 관련 사업을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dhautonex.co.kr/business/new_energy",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -24671,6 +24732,37 @@
      "weak": false,
      "sources": [
       "https://www.dbhitek.com/kr/company/about",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "DH오토넥스",
+   "target": "재생에너지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "태양광 발전·나노소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 사업자료는 신에너지 사업으로 태양광 발전과 나노소재 관련 사업을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dhautonex.co.kr/business/new_energy",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
