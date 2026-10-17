@@ -355,6 +355,7 @@
     "부품·모듈",
     "차량용 전장·인포테인먼트",
     "차체 부품·핫스탬핑",
+    "구동·변속·현가 부품",
     "차량용 메모리·저장장치",
     "차량용 MLCC",
     "차량용 반도체",
@@ -14972,6 +14973,66 @@
        "weak": false,
        "sources": [
         "https://www.cksolution.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "씨티알모빌리티",
+   "type": "company",
+   "path": "companies/씨티알모빌리티",
+   "summary": "자동차와 전기차의 구동·변속·현가 부품을 생산하는 자동차 부품 기업",
+   "market": "KOSPI",
+   "ticker": "308170",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "자동차 신품 부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "씨티알모빌리티 공식 Business 페이지는 샤프트·클러치·컨트롤 암·액추에이터 등 자동차와 전기차의 동력전달·현가 부품을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.ctrmobility.co.kr/sub2.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "구동·변속·현가 부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "씨티알모빌리티 공식 Business 페이지는 샤프트·클러치·컨트롤 암·액추에이터 등 자동차와 전기차의 동력전달·현가 부품을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.ctrmobility.co.kr/sub2.php",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -35179,6 +35240,37 @@
      "weak": false,
      "sources": [
       "https://www.cksolution.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "씨티알모빌리티",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "구동·변속·현가 부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "씨티알모빌리티 공식 Business 페이지는 샤프트·클러치·컨트롤 암·액추에이터 등 자동차와 전기차의 동력전달·현가 부품을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.ctrmobility.co.kr/sub2.php",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
