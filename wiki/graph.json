@@ -354,6 +354,7 @@
     "완성차",
     "부품·모듈",
     "차량용 전장·인포테인먼트",
+    "차체 부품·핫스탬핑",
     "차량용 메모리·저장장치",
     "차량용 MLCC",
     "차량용 반도체",
@@ -11779,6 +11780,68 @@
        "weak": false,
        "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "명신산업",
+   "type": "company",
+   "path": "companies/명신산업",
+   "summary": "핫스탬핑 공정으로 자동차 차체 부품을 생산하는 자동차 부품 기업",
+   "market": "KOSPI",
+   "ticker": "009900",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "자동차 신품 부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "명신산업 공식 사이트는 핫스탬핑 공정에 따른 자동차 차체 부품 생산과 관련 기술 연구·개발을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.myoungshinindustry.com/product_overview",
+      "http://www.myoungshinindustry.com/technology_introduction",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "차체 부품·핫스탬핑",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "명신산업 공식 사이트는 핫스탬핑 공정에 따른 자동차 차체 부품 생산과 관련 기술 연구·개발을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.myoungshinindustry.com/product_overview",
+        "http://www.myoungshinindustry.com/technology_introduction",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
       }
@@ -33311,6 +33374,38 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "명신산업",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "차체 부품·핫스탬핑",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "명신산업 공식 사이트는 핫스탬핑 공정에 따른 자동차 차체 부품 생산과 관련 기술 연구·개발을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.myoungshinindustry.com/product_overview",
+      "http://www.myoungshinindustry.com/technology_introduction",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
