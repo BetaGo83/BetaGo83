@@ -103,13 +103,14 @@
    "id": "기계·산업장비",
    "type": "theme",
    "path": "themes/기계·산업장비",
-   "summary": "건설 현장과 제조 공정에 쓰이는 기계·장비를 다룬다.",
+   "summary": "건설 현장과 제조 공정, 승강·물류 현장에 쓰이는 기계·장비를 다룬다.",
    "category": "산업재·운송",
    "stages": [
     "건설기계",
     "소형·중장비",
     "공작기계·산업용 로봇",
     "공정·물류 자동화",
+    "승강·물류장비",
     "에너지·산업설비"
    ]
   },
@@ -25330,6 +25331,71 @@
    "issues": []
   },
   {
+   "id": "현대엘리베이터",
+   "type": "company",
+   "path": "companies/현대엘리베이터",
+   "summary": "엘리베이터·에스컬레이터와 물류취급 장비를 제조·설치·유지보수하는 코스피 상장사",
+   "market": "KOSPI",
+   "ticker": "017800",
+   "dart_corp_code": "00164724",
+   "aliases": [
+    "HYUNDAI ELEVATOR CO.,LTD",
+    "현대엘리베이터㈜"
+   ],
+   "krx_industry": "일반 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "현대엘리베이터 공식 제품 페이지와 DART 회사 개요에서 엘리베이터·물품 취급 장비 제조·공급 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyundaielevator.com/ko/solution/product/elevator",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00164724",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "승강·물류장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "현대엘리베이터 공식 제품 페이지와 DART 회사 개요에서 엘리베이터·물품 취급 장비 제조·공급 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hyundaielevator.com/ko/solution/product/elevator",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00164724",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "현대오토에버",
    "type": "company",
    "path": "companies/현대오토에버",
@@ -42354,6 +42420,38 @@
      "sources": [
       "https://hyundaieverdigm.com/business/business_main.asp?catecode=1629713310",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "현대엘리베이터",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "승강·물류장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "현대엘리베이터 공식 제품 페이지와 DART 회사 개요에서 엘리베이터·물품 취급 장비 제조·공급 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyundaielevator.com/ko/solution/product/elevator",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00164724",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
