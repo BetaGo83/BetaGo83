@@ -1217,6 +1217,68 @@
    "issues": []
   },
   {
+   "id": "BNK금융지주",
+   "type": "company",
+   "path": "companies/BNK금융지주",
+   "summary": "부산은행·경남은행을 포함한 지역 금융그룹을 운영하는 금융지주회사",
+   "market": "KOSPI",
+   "ticker": "138930",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "은행",
+     "page": "은행",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "BNK금융그룹 공식 홈페이지는 부산은행·경남은행과 BNK투자증권·BNK자산운용 등 금융 계열사를 안내한다. 한국거래소 KIND 공시의 사업보고서는 은행업·여신전문금융업·금융투자업 등 금융업 전반을 영위한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.bnkfg.com/main/main.jsp",
+      "https://kind.krx.co.kr/external/2026/02/19/000652/20260219002004/10603.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "은행",
+     "tier": 1,
+     "stage": "은행업",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "은행",
+       "page": "은행",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "BNK금융그룹 공식 홈페이지는 부산은행·경남은행과 BNK투자증권·BNK자산운용 등 금융 계열사를 안내한다. 한국거래소 KIND 공시의 사업보고서는 은행업·여신전문금융업·금융투자업 등 금융업 전반을 영위한다고 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.bnkfg.com/main/main.jsp",
+        "https://kind.krx.co.kr/external/2026/02/19/000652/20260219002004/10603.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "CG인바이츠",
    "type": "company",
    "path": "companies/CG인바이츠",
@@ -25530,6 +25592,38 @@
      "sources": [
       "https://www.bgfecomaterials.com/en/company/overview",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "BNK금융지주",
+   "target": "은행",
+   "type": "테마",
+   "tier": 1,
+   "stage": "은행업",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "은행",
+     "page": "은행",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "BNK금융그룹 공식 홈페이지는 부산은행·경남은행과 BNK투자증권·BNK자산운용 등 금융 계열사를 안내한다. 한국거래소 KIND 공시의 사업보고서는 은행업·여신전문금융업·금융투자업 등 금융업 전반을 영위한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.bnkfg.com/main/main.jsp",
+      "https://kind.krx.co.kr/external/2026/02/19/000652/20260219002004/10603.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
