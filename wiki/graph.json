@@ -353,6 +353,7 @@
    "stages": [
     "완성차",
     "부품·모듈",
+    "차량용 전장·인포테인먼트",
     "차량용 메모리·저장장치",
     "차량용 MLCC",
     "차량용 반도체",
@@ -2784,6 +2785,66 @@
        "weak": false,
        "sources": [
         "https://www.dhautolead.co.kr/p1200.php",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "DH오토웨어",
+   "type": "company",
+   "path": "companies/DH오토웨어",
+   "summary": "카 인포테인먼트용 영상·음향기기와 차량용 전장 시스템을 제조하는 자동차 부품 기업",
+   "market": "KOSDAQ",
+   "ticker": "025440",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "영상 및 음향기기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DH오토웨어 공식 제품소개는 AVN·디스플레이 오디오·모니터·디지털 앰프·모듈·어라운드뷰 시스템을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://dhautoware.co.kr/sub3/sub3_01.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "차량용 전장·인포테인먼트",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "DH오토웨어 공식 제품소개는 AVN·디스플레이 오디오·모니터·디지털 앰프·모듈·어라운드뷰 시스템을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://dhautoware.co.kr/sub3/sub3_01.php",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
@@ -28189,6 +28250,37 @@
      "weak": false,
      "sources": [
       "https://www.dhautolead.co.kr/p1200.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "DH오토웨어",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "차량용 전장·인포테인먼트",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DH오토웨어 공식 제품소개는 AVN·디스플레이 오디오·모니터·디지털 앰프·모듈·어라운드뷰 시스템을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://dhautoware.co.kr/sub3/sub3_01.php",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
