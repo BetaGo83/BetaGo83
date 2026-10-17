@@ -3571,6 +3571,70 @@
    "issues": []
   },
   {
+   "id": "E8",
+   "type": "company",
+   "path": "companies/E8",
+   "summary": "시뮬레이션과 디지털 트윈 기반의 물리 AI 운영 플랫폼 기업",
+   "market": "KOSDAQ",
+   "ticker": "418620",
+   "dart_corp_code": "",
+   "aliases": [
+    "이에이트"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "E8 공식 홈페이지와 회사 소개는 시뮬레이션·디지털 트윈 기반의 운영 플랫폼과 공간·설비·공정 데이터 연결을 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://e8ight.co.kr/",
+      "https://e8ight.co.kr/company/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "소프트웨어·IT서비스",
+     "tier": 1,
+     "stage": "시스템 구축·운영",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "소프트웨어·IT서비스",
+       "page": "소프트웨어·IT서비스",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "E8 공식 홈페이지와 회사 소개는 시뮬레이션·디지털 트윈 기반의 운영 플랫폼과 공간·설비·공정 데이터 연결을 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://e8ight.co.kr/",
+        "https://e8ight.co.kr/company/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "EDGC",
    "type": "company",
    "path": "companies/EDGC",
@@ -29414,6 +29478,38 @@
      "sources": [
       "https://www.e1.co.kr/ko/business/hydrogen",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "E8",
+   "target": "소프트웨어·IT서비스",
+   "type": "테마",
+   "tier": 1,
+   "stage": "시스템 구축·운영",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "E8 공식 홈페이지와 회사 소개는 시뮬레이션·디지털 트윈 기반의 운영 플랫폼과 공간·설비·공정 데이터 연결을 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://e8ight.co.kr/",
+      "https://e8ight.co.kr/company/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
