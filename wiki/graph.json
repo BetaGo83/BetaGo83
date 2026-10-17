@@ -3576,6 +3576,70 @@
    "issues": []
   },
   {
+   "id": "DYP",
+   "type": "company",
+   "path": "companies/DYP",
+   "summary": "엔진 피스톤과 연료전지·배터리·열관리·섀시 부품을 개발·제조하는 자동차 부품 기업",
+   "market": "KOSPI",
+   "ticker": "092780",
+   "dart_corp_code": "",
+   "aliases": [
+    "동양피스톤"
+   ],
+   "krx_industry": "자동차용 엔진 및 자동차 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DYP 공식 파워트레인 페이지는 피스톤 계열 엔진 부품과 승용·상용·산업용 장비 엔진 적용을 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dypiston.co.kr/page/?pid=piston",
+      "https://www.dypiston.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "부품·모듈",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "DYP 공식 파워트레인 페이지는 피스톤 계열 엔진 부품과 승용·상용·산업용 장비 엔진 적용을 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dypiston.co.kr/page/?pid=piston",
+        "https://www.dypiston.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "E1",
    "type": "company",
    "path": "companies/E1",
@@ -29544,6 +29608,38 @@
       "https://www.dxvx.com/",
       "https://www.dxvx.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "DYP",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "부품·모듈",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DYP 공식 파워트레인 페이지는 피스톤 계열 엔진 부품과 승용·상용·산업용 장비 엔진 적용을 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dypiston.co.kr/page/?pid=piston",
+      "https://www.dypiston.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
