@@ -22,7 +22,7 @@ updated: "2026-10-17"
 
 ## 밸류체인
 - 기업용 AI 플랫폼: [[삼성에스디에스]] ([삼성에스디에스](https://www.samsungsds.com/kr/ai-fabrix/fabrix.html))
-- AI 모델·서비스: [[NAVER]] ([NAVER](https://navercorp.com/company/about))
+- AI 모델·서비스: [[NAVER]] ([NAVER](https://navercorp.com/company/about)), [[카카오]] ([공식 사업자료](https://www.kakaocorp.com/page/ai))
 - AI·클라우드 구축·운영: [[현대오토에버]] ([현대오토에버](https://www.hyundai-autoever.com/kor/business-area/core-technology/ai/contents.do?cntnSeq=362), [현대오토에버](https://www.hyundai-autoever.com/kor/business-area/core-technology/cloud/contents.do?cntnSeq=360)), [[LG씨엔에스]] ([출처](https://www.lgcns.com/en/service/modern-it-infra-on-cloud/cloud)), [[포스코DX]] ([포스코DX IT서비스](https://www.poscodx.com/kor/business/itService))
 - 클라우드 인프라 서비스: [[케이아이엔엑스]] ([출처](https://www.kinx.net/service/cloud/))
 
@@ -35,6 +35,7 @@ updated: "2026-10-17"
 | [[LG씨엔에스]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.lgcns.com/en/service/modern-it-infra-on-cloud/cloud) |
 | [[NAVER]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-15 | 공식 발표 [출처](https://navercorp.com/company/about) |
 | [[삼성에스디에스]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-15 | 공식 발표 [출처](https://www.samsungsds.com/kr/ai-fabrix/fabrix.html) |
+| [[카카오]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.kakaocorp.com/page/ai), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[케이아이엔엑스]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.kinx.net/service/cloud/) |
 | [[포스코DX]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.poscodx.com/kor), [출처](https://www.poscodx.com/kor/business/itService), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[현대오토에버]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-15 | 공식 발표 [출처](https://www.hyundai-autoever.com/kor/business-area/core-technology/ai/contents.do?cntnSeq=362), [출처](https://www.hyundai-autoever.com/kor/business-area/core-technology/cloud/contents.do?cntnSeq=360) |

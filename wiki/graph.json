@@ -336,7 +336,8 @@
     "부품·모듈",
     "차량용 메모리·저장장치",
     "차량용 MLCC",
-    "차량용 반도체"
+    "차량용 반도체",
+    "차량용 센서·부품"
    ]
   },
   {
@@ -467,7 +468,8 @@
    "stages": [
     "패션 브랜드 제품",
     "스포츠의류",
-    "여성의류·패션 잡화"
+    "여성의류·패션 잡화",
+    "합성섬유"
    ]
   },
   {
@@ -3108,6 +3110,66 @@
      "themes": []
     }
    ]
+  },
+  {
+   "id": "LG이노텍",
+   "type": "company",
+   "path": "companies/LG이노텍",
+   "summary": "차량용 카메라·통신 모듈과 전장 부품을 개발하는 기업",
+   "market": "KOSPI",
+   "ticker": "011070",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "전자부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 제품 소개에서 차량용 카메라, 자율주행 솔루션, 전기차 충전 설비 등 자동차용 부품·솔루션을 사업으로 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lginnotek.com/product/intro.do",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "차량용 센서·부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 제품 소개에서 차량용 카메라, 자율주행 솔루션, 전기차 충전 설비 등 자동차용 부품·솔루션을 사업으로 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.lginnotek.com/product/intro.do",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
   },
   {
    "id": "LG전자",
@@ -12522,6 +12584,66 @@
    "issues": []
   },
   {
+   "id": "카카오",
+   "type": "company",
+   "path": "companies/카카오",
+   "summary": "메신저·콘텐츠와 AI 기반 디지털 서비스를 운영하는 기업",
+   "market": "KOSPI",
+   "ticker": "035720",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "자료처리, 호스팅, 포털 및 기타 인터넷 정보매개 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 AI·서비스 페이지에서 AI 기술과 카카오 i 커넥트 등 AI 기반 비즈니스 플랫폼을 제공한다고 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kakaocorp.com/page/ai",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "AI·클라우드",
+     "tier": 1,
+     "stage": "AI 모델·서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "AI·클라우드",
+       "page": "AI·클라우드",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 AI·서비스 페이지에서 AI 기술과 카카오 i 커넥트 등 AI 기반 비즈니스 플랫폼을 제공한다고 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.kakaocorp.com/page/ai",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "카카오게임즈",
    "type": "company",
    "path": "companies/카카오게임즈",
@@ -17766,6 +17888,66 @@
    "issues": []
   },
   {
+   "id": "효성티앤씨",
+   "type": "company",
+   "path": "companies/효성티앤씨",
+   "summary": "스판덱스·나일론·폴리에스터 등 합성섬유를 생산하는 기업",
+   "market": "KOSPI",
+   "ticker": "298020",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "화학섬유 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 섬유 사업 페이지에서 스판덱스와 나일론·폴리에스터 등 의류·산업용 합성섬유 제품을 개발·생산한다고 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyosungtnc.com/kr",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "패션·의류",
+     "tier": 1,
+     "stage": "합성섬유",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "패션·의류",
+       "page": "패션·의류",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 섬유 사업 페이지에서 스판덱스와 나일론·폴리에스터 등 의류·산업용 합성섬유 제품을 개발·생산한다고 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hyosungtnc.com/kr",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "(가칭) 글라셈",
    "type": "external",
    "path": null,
@@ -21309,6 +21491,37 @@
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "LG이노텍",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "차량용 센서·부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 제품 소개에서 차량용 카메라, 자율주행 솔루션, 전기차 충전 설비 등 자동차용 부품·솔루션을 사업으로 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lginnotek.com/product/intro.do",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
@@ -26690,6 +26903,37 @@
    }
   },
   {
+   "source": "카카오",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 1,
+   "stage": "AI 모델·서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 AI·서비스 페이지에서 AI 기술과 카카오 i 커넥트 등 AI 기반 비즈니스 플랫폼을 제공한다고 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kakaocorp.com/page/ai",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "카카오게임즈",
    "target": "게임",
    "type": "테마",
@@ -29789,6 +30033,37 @@
      "weak": false,
      "sources": [
       "https://www.hyosungheavyindustries.com/kr/company/info/business-area",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "효성티앤씨",
+   "target": "패션·의류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "합성섬유",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 섬유 사업 페이지에서 스판덱스와 나일론·폴리에스터 등 의류·산업용 합성섬유 제품을 개발·생산한다고 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyosungtnc.com/kr",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
