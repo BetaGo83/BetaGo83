@@ -19574,6 +19574,66 @@
    "issues": []
   },
   {
+   "id": "한화손해보험",
+   "type": "company",
+   "path": "companies/한화손해보험",
+   "summary": "손해보험을 직접 영위하는 보험사",
+   "market": "KOSPI",
+   "ticker": "000370",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "보험업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "보험",
+     "page": "보험",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 홈페이지는 한화손해보험의 손해보험 상품과 보험 서비스를 직접 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hwgeneralins.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "보험",
+     "tier": 1,
+     "stage": "손해보험",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "보험",
+       "page": "보험",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사 공식 홈페이지는 한화손해보험의 손해보험 상품과 보험 서비스를 직접 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hwgeneralins.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "한화솔루션",
    "type": "company",
    "path": "companies/한화솔루션",
@@ -34892,6 +34952,37 @@
      "weak": false,
      "sources": [
       "https://www.hanwhalife.com/company/overview.jsp",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "한화손해보험",
+   "target": "보험",
+   "type": "테마",
+   "tier": 1,
+   "stage": "손해보험",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "보험",
+     "page": "보험",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 홈페이지는 한화손해보험의 손해보험 상품과 보험 서비스를 직접 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hwgeneralins.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
