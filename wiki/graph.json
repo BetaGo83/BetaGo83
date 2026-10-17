@@ -2800,6 +2800,70 @@
    "issues": []
   },
   {
+   "id": "DMS",
+   "type": "company",
+   "path": "companies/DMS",
+   "summary": "OLED/LCD 디스플레이 패널 공정 장비를 설계·제조하는 상장사",
+   "market": "KOSDAQ",
+   "ticker": "068790",
+   "dart_corp_code": "",
+   "aliases": [
+    "디엠에스"
+   ],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DMS 공식 사업 페이지는 OLED/LCD 디스플레이 패널의 세정·현상·식각·박리 공정 장비를 자체 설계·제조한다고 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dms21.co.kr/kr/sub/business/display/display.asp",
+      "https://dms21.co.kr/kr/sub/business/display/oled_lcd.asp",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "디스플레이",
+       "page": "디스플레이",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "DMS 공식 사업 페이지는 OLED/LCD 디스플레이 패널의 세정·현상·식각·박리 공정 장비를 자체 설계·제조한다고 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dms21.co.kr/kr/sub/business/display/display.asp",
+        "https://dms21.co.kr/kr/sub/business/display/oled_lcd.asp",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "DN오토모티브",
    "type": "company",
    "path": "companies/DN오토모티브",
@@ -27690,6 +27754,38 @@
      "sources": [
       "https://m.dlenc.co.kr/biz/Intro.do",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "DMS",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DMS 공식 사업 페이지는 OLED/LCD 디스플레이 패널의 세정·현상·식각·박리 공정 장비를 자체 설계·제조한다고 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dms21.co.kr/kr/sub/business/display/display.asp",
+      "https://dms21.co.kr/kr/sub/business/display/oled_lcd.asp",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
