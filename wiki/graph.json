@@ -109,6 +109,7 @@
     "건설기계",
     "소형·중장비",
     "공작기계·산업용 로봇",
+    "공정·물류 자동화",
     "에너지·산업설비"
    ]
   },
@@ -8178,6 +8179,155 @@
        "weak": false,
        "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SFA",
+   "type": "company",
+   "path": "companies/SFA",
+   "summary": "디스플레이·이차전지·반도체 제조장비와 물류자동화 시스템을 공급하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "056190",
+   "dart_corp_code": "00358271",
+   "aliases": [
+    "에스에프에이",
+    "SFA Engineering Corporation"
+   ],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "SFA 공식 자료에서 물류자동화 시스템·공정장비·스마트팩토리 장비의 설계·제작·공급 역량을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sfa.co.kr/company03",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "SFA 공식 사업부 소개와 NEO AI 사업 자료에서 이차전지 제조 핵심장비와 검사 장비를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sfa.co.kr/company03",
+      "https://www.sfa.co.kr/business01"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "SFA 공식 사업부 소개에서 OLED·차세대 Micro LED 디스플레이 제조장비 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sfa.co.kr/company03",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "SFA 공식 사업부 소개와 NEO AI 사업 자료에서 이차전지 제조 핵심장비와 검사 장비를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.sfa.co.kr/company03",
+        "https://www.sfa.co.kr/business01"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "공정·물류 자동화",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "SFA 공식 자료에서 물류자동화 시스템·공정장비·스마트팩토리 장비의 설계·제작·공급 역량을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.sfa.co.kr/company03",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "디스플레이",
+       "page": "디스플레이",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "SFA 공식 사업부 소개에서 OLED·차세대 Micro LED 디스플레이 제조장비 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.sfa.co.kr/company03",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
       }
@@ -32470,6 +32620,99 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SFA",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "SFA 공식 사업부 소개와 NEO AI 사업 자료에서 이차전지 제조 핵심장비와 검사 장비를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sfa.co.kr/company03",
+      "https://www.sfa.co.kr/business01"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SFA",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "공정·물류 자동화",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "SFA 공식 자료에서 물류자동화 시스템·공정장비·스마트팩토리 장비의 설계·제작·공급 역량을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sfa.co.kr/company03",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SFA",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "SFA 공식 사업부 소개에서 OLED·차세대 Micro LED 디스플레이 제조장비 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sfa.co.kr/company03",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
