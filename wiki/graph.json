@@ -3048,6 +3048,70 @@
    "issues": []
   },
   {
+   "id": "DSR제강",
+   "type": "company",
+   "path": "companies/DSR제강",
+   "summary": "와이어로프와 경강선·철선 제품을 제조하는 철강 기업",
+   "market": "KOSPI",
+   "ticker": "069730",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DSR 공식 회사소개는 DSR제강의 제강 공장·상장 이력을, 공식 제품 페이지는 와이어로프 제품군을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dsrcorp.com/kor/sub1_1.php",
+      "http://www.dsrcorp.com/kor/sub2_1.php",
+      "http://www.dsrcorp.com/bbs/board.php?bo_table=prdtype&wr_id=77&sca=ROPE_WIRE",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "철강",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "DSR 공식 회사소개는 DSR제강의 제강 공장·상장 이력을, 공식 제품 페이지는 와이어로프 제품군을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.dsrcorp.com/kor/sub1_1.php",
+        "http://www.dsrcorp.com/kor/sub2_1.php",
+        "http://www.dsrcorp.com/bbs/board.php?bo_table=prdtype&wr_id=77&sca=ROPE_WIRE",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "DS단석",
    "type": "company",
    "path": "companies/DS단석",
@@ -28132,6 +28196,39 @@
       "https://www.dsr.com/kor/",
       "https://www.dsr.com/kor/sub2_1.php",
       "https://www.dsr.com/kor/sub1_1.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "DSR제강",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "철강",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DSR 공식 회사소개는 DSR제강의 제강 공장·상장 이력을, 공식 제품 페이지는 와이어로프 제품군을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dsrcorp.com/kor/sub1_1.php",
+      "http://www.dsrcorp.com/kor/sub2_1.php",
+      "http://www.dsrcorp.com/bbs/board.php?bo_table=prdtype&wr_id=77&sca=ROPE_WIRE",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
