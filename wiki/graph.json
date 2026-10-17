@@ -25105,6 +25105,82 @@
    "issues": []
   },
   {
+   "id": "현대무벡스",
+   "type": "company",
+   "path": "companies/현대무벡스",
+   "summary": "공장·창고·터미널의 물류 프로세스 자동화 토탈솔루션을 제공하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "319400",
+   "dart_corp_code": "01358463",
+   "aliases": [
+    "HYUNDAI MOVEX Co., Ltd."
+   ],
+   "krx_industry": "일반 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "공식 사업보고서와 현대그룹 자료에서 공장·창고·터미널 물류 자동화 설비·시스템의 설계·시공·운영 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/05/15/002170/20260515004825/11013.htm",
+      "https://www.hyundaigroup.com/media/list.asp?idx=14335&mode=view&page=2&pageSize=9&searchStr=&serboardsort=",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01358463"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "공정·물류 자동화",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "공식 사업보고서와 현대그룹 자료에서 공장·창고·터미널 물류 자동화 설비·시스템의 설계·시공·운영 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2026/05/15/002170/20260515004825/11013.htm",
+        "https://www.hyundaigroup.com/media/list.asp?idx=14335&mode=view&page=2&pageSize=9&searchStr=&serboardsort=",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01358463"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-09-30",
+     "kind": "계약",
+     "text": "현대무벡스는 금호타이어 함평 신공장에 물류자동화 모듈·로봇을 공급하는 계약을 공시했다. 계약 사실과 사업 역할을 구분하며 공시 원문에서 확인되는 공급 범위만 기록한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930900139"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "현대바이오",
    "type": "company",
    "path": "companies/현대바이오",
@@ -42296,6 +42372,38 @@
      "weak": false,
      "sources": [
       "https://www.mobis.com/kr/aboutus/aboutus.do"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "현대무벡스",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "공정·물류 자동화",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "공식 사업보고서와 현대그룹 자료에서 공장·창고·터미널 물류 자동화 설비·시스템의 설계·시공·운영 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/05/15/002170/20260515004825/11013.htm",
+      "https://www.hyundaigroup.com/media/list.asp?idx=14335&mode=view&page=2&pageSize=9&searchStr=&serboardsort=",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01358463"
      ],
      "malformed": ""
     }
