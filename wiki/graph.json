@@ -4882,6 +4882,55 @@
    "issues": []
   },
   {
+   "id": "HDC현대EP",
+   "type": "company",
+   "path": "companies/HDC현대EP",
+   "summary": "PP·PE·EP·PS 컴파운드와 산업용 기능성 소재를 제조·공급하는 코스피 상장사",
+   "market": "KOSPI",
+   "ticker": "089470",
+   "dart_corp_code": "00357935",
+   "aliases": [
+    "HDC Hyundai Engineering Plastics Co., Ltd.",
+    "에이치디씨현대이피(주)"
+   ],
+   "krx_industry": "기타 화학제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유 · 기초·첨단화학소재",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "PP·PE·EP·PS 컴파운드와 산업용 소재를 공식 사업 페이지·KIND·DART에서 확인했다. 특정 고객·공급 관계는 확인하지 않았다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hdc-hyundaiep.com/main",
+      "https://www.hdc-holdings.com/ko/business/energy/hdc-hyundaiep",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00357935"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "기초·첨단화학소재",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "HD건설기계",
    "type": "company",
    "path": "companies/HD건설기계",
@@ -31295,6 +31344,21 @@
      "malformed": ""
     }
    ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HDC현대EP",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기초·첨단화학소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
    "presentation": {
     "label": "",
     "muted": false,
