@@ -432,13 +432,14 @@
    "id": "콘텐츠·엔터테인먼트",
    "type": "theme",
    "path": "themes/콘텐츠·엔터테인먼트",
-   "summary": "음악 콘텐츠 기획·제작·유통과 아티스트 관련 사업",
+   "summary": "음악·영상 콘텐츠의 기획·제작·유통과 영화관·미디어 사업",
    "category": "소비·문화",
    "stages": [
     "음악 콘텐츠·매니지먼트",
     "음반·연예 매니지먼트",
     "음악 콘텐츠",
-    "드라마 제작·판매"
+    "드라마 제작·판매",
+    "영화관·미디어"
    ]
   },
   {
@@ -588,6 +589,126 @@
        "weak": false,
        "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "BGF리테일",
+   "type": "company",
+   "path": "companies/BGF리테일",
+   "summary": "CU 편의점 중심의 소매 유통 사업을 하는 기업",
+   "market": "KOSPI",
+   "ticker": "282330",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "종합 소매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "CU 편의점 체인을 운영하는 소매 유통 사업을 회사가 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://bgfretail.com/company/introduction/greeting/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "유통·전자상거래",
+     "tier": 1,
+     "stage": "편의점·소매·전자상거래",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "유통·전자상거래",
+       "page": "유통·전자상거래",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "CU 편의점 체인을 운영하는 소매 유통 사업을 회사가 소개한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://bgfretail.com/company/introduction/greeting/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "CJ CGV",
+   "type": "company",
+   "path": "companies/CJ CGV",
+   "summary": "영화관 운영과 영상·미디어 사업을 하는 기업",
+   "market": "KOSPI",
+   "ticker": "079160",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "영화, 비디오물, 방송프로그램 제작 및 배급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "영화 상영을 중심으로 cultureplex와 미디어·플랫폼 사업을 운영한다고 회사가 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://corp.cgv.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "영화관·미디어",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "영화 상영을 중심으로 cultureplex와 미디어·플랫폼 사업을 운영한다고 회사가 소개한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://corp.cgv.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
       }
@@ -790,6 +911,66 @@
      ]
     }
    ]
+  },
+  {
+   "id": "DB손해보험",
+   "type": "company",
+   "path": "companies/DB손해보험",
+   "summary": "자동차·화재·해상 등 손해보험 사업을 하는 기업",
+   "market": "KOSPI",
+   "ticker": "005830",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "보험업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "보험",
+     "page": "보험",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "자동차·화재·해상 등 손해보험 상품과 손해보험업을 회사가 공식 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.idbins.com/FWMAIV5137.do",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "보험",
+     "tier": 1,
+     "stage": "손해보험",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "보험",
+       "page": "보험",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "자동차·화재·해상 등 손해보험 상품과 손해보험업을 회사가 공식 소개한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.idbins.com/FWMAIV5137.do",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
   },
   {
    "id": "DB하이텍",
@@ -19021,6 +19202,68 @@
    }
   },
   {
+   "source": "BGF리테일",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 1,
+   "stage": "편의점·소매·전자상거래",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "CU 편의점 체인을 운영하는 소매 유통 사업을 회사가 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://bgfretail.com/company/introduction/greeting/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "CJ CGV",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "영화관·미디어",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "영화 상영을 중심으로 cultureplex와 미디어·플랫폼 사업을 운영한다고 회사가 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://corp.cgv.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "CJ ENM",
    "target": "콘텐츠·엔터테인먼트",
    "type": "테마",
@@ -19111,6 +19354,37 @@
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "DB손해보험",
+   "target": "보험",
+   "type": "테마",
+   "tier": 1,
+   "stage": "손해보험",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "보험",
+     "page": "보험",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "자동차·화재·해상 등 손해보험 상품과 손해보험업을 회사가 공식 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.idbins.com/FWMAIV5137.do",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
