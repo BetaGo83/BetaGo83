@@ -40,7 +40,8 @@
     "배터리·솔루션",
     "전력 시스템",
     "ESS 프로젝트 개발·운영",
-    "ESS 공급·유지보수"
+    "ESS 공급·유지보수",
+    "ESS용 양극재"
    ]
   },
   {
@@ -244,7 +245,8 @@
    "stages": [
     "위성 시스템·지상국",
     "위성통신 안테나",
-    "위성통신 단말기"
+    "위성통신 단말기",
+    "위성 개발"
    ]
   },
   {
@@ -2792,6 +2794,14 @@
       "muted": false,
       "line_style": "solid"
      }
+    },
+    {
+     "theme": "우주·위성",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "한국항공우주",
+     "via_type": "고객사"
     }
    ],
    "issues": [
@@ -11561,6 +11571,20 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
+    },
+    {
+     "topic": "ESS",
+     "page": "ESS",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 양극재 소개에서 ESS 적용 분야를 제시한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.cosmoamt.com/?page_id=25496&lang=en"
+     ],
+     "malformed": ""
     }
    ],
    "themes": [
@@ -11581,6 +11605,33 @@
        "weak": false,
        "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "ESS",
+     "tier": 1,
+     "stage": "ESS용 양극재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "ESS",
+       "page": "ESS",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사 양극재 소개에서 ESS 적용 분야를 제시한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.cosmoamt.com/?page_id=25496&lang=en"
        ],
        "malformed": ""
       }
@@ -12992,7 +13043,22 @@
    ],
    "krx_industry": "",
    "classification_as_of": "",
-   "classifications": [],
+   "classifications": [
+    {
+     "topic": "우주·위성",
+     "page": "우주·위성",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "차세대중형위성·군정찰위성·정지궤도복합위성·초소형위성 개발을 자사 우주 사업으로 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.koreaaero.com/KO/Company/AboutKAI.aspx"
+     ],
+     "malformed": ""
+    }
+   ],
    "themes": [
     {
      "theme": "방산",
@@ -13001,6 +13067,33 @@
      "score": 1.22,
      "via": "LIG디펜스앤에어로스페이스",
      "via_type": "공급사"
+    },
+    {
+     "theme": "우주·위성",
+     "tier": 1,
+     "stage": "위성 개발",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "우주·위성",
+       "page": "우주·위성",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "차세대중형위성·군정찰위성·정지궤도복합위성·초소형위성 개발을 자사 우주 사업으로 소개한다. (확인일: 2026-10-17)",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.koreaaero.com/KO/Company/AboutKAI.aspx"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
     }
    ],
    "issues": []
@@ -13809,6 +13902,14 @@
       "muted": false,
       "line_style": "dashed"
      }
+    },
+    {
+     "theme": "우주·위성",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "한국항공우주",
+     "via_type": "고객사"
     },
     {
      "theme": "원전·SMR",
@@ -15712,6 +15813,29 @@
     "label": "확인 중",
     "muted": false,
     "line_style": "dashed"
+   }
+  },
+  {
+   "source": "두산에너빌리티",
+   "target": "두산퓨얼셀",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-10-14",
+     "text": "두산에너빌리티는 2026-10-14 공시에서 두산퓨얼셀을 종속회사로 기재했다. 해당 공시의 종속회사 재무 수치 기준은 2025년 말이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800638",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800640"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
    }
   },
   {
@@ -18847,6 +18971,21 @@
     "label": "",
     "muted": false,
     "line_style": "solid"
+   }
+  },
+  {
+   "source": "LIG디펜스앤에어로스페이스",
+   "target": "우주·위성",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
    }
   },
   {
@@ -23845,6 +23984,36 @@
    }
   },
   {
+   "source": "코스모신소재",
+   "target": "ESS",
+   "type": "테마",
+   "tier": 1,
+   "stage": "ESS용 양극재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "ESS",
+     "page": "ESS",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 양극재 소개에서 ESS 적용 분야를 제시한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.cosmoamt.com/?page_id=25496&lang=en"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "크래프톤",
    "target": "게임",
    "type": "테마",
@@ -24693,6 +24862,36 @@
    }
   },
   {
+   "source": "한국항공우주",
+   "target": "우주·위성",
+   "type": "테마",
+   "tier": 1,
+   "stage": "위성 개발",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "우주·위성",
+     "page": "우주·위성",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "차세대중형위성·군정찰위성·정지궤도복합위성·초소형위성 개발을 자사 우주 사업으로 소개한다. (확인일: 2026-10-17)",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.koreaaero.com/KO/Company/AboutKAI.aspx"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "한미글로벌",
    "target": "원전·SMR",
    "type": "테마",
@@ -25179,6 +25378,21 @@
    ],
    "presentation": {
     "label": "상태 혼재 · 확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "한화에어로스페이스",
+   "target": "우주·위성",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
     "muted": false,
     "line_style": "dashed"
    }

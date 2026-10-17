@@ -5,13 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>기업 관계 지도</title>
 <meta name="description" content="뉴스와 공시로 정리한 기업 관계를 관계 종류별 색으로 보여 주는 지도">
-<link rel="stylesheet" href="./map-view.css?v=20261017-network1">
 <script src="./map-news.js?v=20261017-archive1" defer></script>
 <script src="./news-archive.js?v=20261017-archive1" defer></script>
 <script src="./news-feed.js?v=20261017-watch1" defer></script>
 <script src="./map-scope.js?v=20261017-network1" defer></script>
-<script src="./map-overview.js?v=20261017-network1" defer></script>
-<script src="./map-view.js?v=20261017-archive1" defer></script>
+<script src="./map-overview.js?v=20261017-selection2" defer></script>
+<script src="./map-view.js?v=20261017-selection2" defer></script>
 <script>
   // 위키(Quartz)에서 고른 밝은/어두운 화면 설정을 따른다
   try { var t = localStorage.getItem("theme"); if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
@@ -106,10 +105,11 @@ html.embedded main { display: block; }
 html.embedded #stage { height: 70vh; min-height: 320px; }
 html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--line); overflow: visible; }
 </style>
+<link rel="stylesheet" href="./map-view.css?v=20261017-selection2">
 </head>
 <body>
 <header>
-  <h1 id="map-title">기업 관계 지도</h1>
+  <div class="map-brand"><span class="map-eyebrow">BETA GO · KNOWLEDGE MAP</span><h1 id="map-title">기업 관계 지도</h1></div>
   <nav class="view-tabs" aria-label="지도 종류">
     <a id="overview-link" href="./map.html?view=knowledge&amp;scope=all">전체 맵</a>
     <a id="relations-link" href="./map.html" aria-current="page">기업 관계</a>
@@ -127,6 +127,8 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
 </header>
 <section id="map-scope-tools" aria-label="지도 표시 범위">
   <p id="view-description"></p><p><span id="map-coverage"></span> <a class="catalog-link" href="./companies.html">전체 종목 목록 →</a> <a class="catalog-link" href="./companies.html?coverage=unlinked">미구축 종목 보기 →</a></p>
+  <div id="map-category-key" aria-label="주제 색의 탐색 분야" hidden></div>
+  <details class="map-reading-note"><summary>선과 뉴스 표시가 뜻하는 것</summary><p>선은 검토해 위키에 등록한 관계와 분류입니다. 뉴스 수집은 점 크기와 새 관측 표시에 반영되며, 제목만으로 관계선을 만들지 않습니다.</p></details>
   <details id="scope-options"><summary>표시 범위·점과 선 설정</summary>
   <div class="legend" id="legend" role="group" aria-label="지도에 보일 관계 종류"></div>
   <div class="map-toolbar">
@@ -181,9 +183,9 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
 </details>
 <main>
   <div id="stage">
-    <svg id="svg" role="group" aria-label="기업 관계 그래프 (Tab으로 점을 고르고 Enter로 자세히 보기)"><g id="viewport"></g></svg>
+    <svg id="svg" role="group" aria-label="기업 관계 그래프 (Tab으로 점과 선을 고르고 Enter로 자세히 보기)"><g id="viewport"></g></svg>
     <div id="tip"></div><button id="map-clear" type="button">선택 해제</button>
-    <div id="zoomhint">확대하면 이름이 보입니다 · 점을 누르면 상세와 주변 탐색</div>
+    <div id="zoomhint">확대하면 이름이 보입니다 · 점은 대상 탐색, 선은 관계와 근거</div>
     <div id="map-empty" hidden>선택한 날짜·종류에서 지도에 연결할 기업 자료가 없습니다.</div>
   </div>
   <aside id="panel">
@@ -224,6 +226,7 @@ window.addEventListener("DOMContentLoaded", function () {
   var hidden = {};          // 숨긴 관계 종류
   var intro = "";           // 설명 칸의 처음 내용 ('보는 법')
   var shown = null;         // 설명 칸이 보여 주는 점 (선택을 풀어도 설명은 남는다)
+  var selectedEdge = null;  // 선택한 선 자체를 보존한다. 같은 출발점의 다른 관계와 섞지 않는다.
   var view = { x: 0, y: 0, k: 1 };
   var viewInteracted = false;
   var nodes = [], edges = [], byId = {}, ready = false, lastWidth = 0;
@@ -250,7 +253,16 @@ window.addEventListener("DOMContentLoaded", function () {
   document.getElementById("intro-kind").textContent = document.getElementById("view-description").textContent;
   document.getElementById("search").placeholder = mapKind === "knowledge" ? "기업·주제·업종 찾기" : "기업 이름 찾기";
   document.getElementById("search").setAttribute("aria-label", document.getElementById("search").placeholder);
-  svg.setAttribute("aria-label", (mapKind === "knowledge" ? "지식 탐색" : "기업 관계") + " 지도. Tab으로 선택하고 Enter로 자세히 보기");
+  svg.setAttribute("aria-label", (mapKind === "knowledge" ? "지식 탐색" : "기업 관계") + " 지도. Tab으로 점과 선을 선택하고 Enter로 자세히 보기, Escape로 선택 해제");
+
+  var categoryColors = { "기술·디지털": "#8ea5ff", "산업재·운송": "#69b8aa", "소비·문화": "#e7b876", "에너지·환경": "#94b85c", "금융": "#c299d9", "헬스케어": "#e594a5" };
+  var categoryKey = document.getElementById("map-category-key");
+  categoryKey.hidden = mapKind !== "knowledge";
+  Object.keys(categoryColors).forEach(function (name) {
+    var item = html("span", null, categoryKey);
+    html("i", null, item, { "aria-hidden": "true", style: "background:" + categoryColors[name] });
+    html("span", name, item);
+  });
 
   function kindOf(type) { return KINDS.filter(function (k) { return k.key === type; })[0] || KINDS[KINDS.length - 1]; }
   function el(tag, attrs, parent) {
@@ -322,7 +334,11 @@ window.addEventListener("DOMContentLoaded", function () {
     document.getElementById("documents-link").href = "./documents.html" + (query.size ? "?" + query.toString() : "");
   }
   function pageUrl(node) { return node.path ? "../" + slug(node.path).split("/").map(encodeURIComponent).join("/") : null; }
-  function safeUrl(u) { return /^https?:\/\//.test(u || "") ? u : null; }
+  function safeUrl(u) {
+    if (typeof u !== "string" || !/^https?:\/\//.test(u) || /[\s\x00-\x1f\x7f]/.test(u)) return null;
+    try { var url = new URL(u); return (url.protocol === "https:" || url.protocol === "http:") && !url.username && !url.password ? u : null; }
+    catch (e) { return null; }
+  }
   function sourcesOf(v) { return list(v.sources || v.source).map(safeUrl).filter(Boolean); }
   function addSources(parent, v) {
     if (v.weak) html("span", "약한 근거", parent, { class: "tag weak" });
@@ -454,6 +470,7 @@ window.addEventListener("DOMContentLoaded", function () {
       find: find,
       getTheme: function () { return document.getElementById("theme").value; },
       getShown: function () { return shown; },
+      showSelectedRelation: showSelectedRelation,
       isKnowledge: function () { return mapKind === "knowledge"; },
       isOverview: function () { return mapKind === "knowledge" && scopeUI.mode.value === "all"; },
       inScope: function (n) { return !!scope && scope.nodeIds.indexOf(n.id) >= 0; },
@@ -573,25 +590,40 @@ window.addEventListener("DOMContentLoaded", function () {
       var m = el("marker", { id: "arrow-" + kind.key, viewBox: "0 0 10 10", refX: 10, refY: 5, markerWidth: 7, markerHeight: 7, orient: "auto-start-reverse" }, defs);
       el("path", { d: "M0,0 L10,5 L0,10 z", style: "fill: var(" + kind.color + ")" }, m);
     });
-    var edgeLayer = el("g", { "aria-hidden": "true" }, viewport), nodeLayer = el("g", {}, viewport);
+    var edgeLayer = el("g", {}, viewport), nodeLayer = el("g", {}, viewport);
     edges.forEach(function (e) {
       var kind = kindOf(e.type);
       var p = e.presentation || {};
-      e.line = el("line", { class: "edge" + (e.tier === 2 ? " tier2" : "") + (p.muted ? " ended" : "") + (p.line_style === "dashed" ? " pending" : ""), style: "stroke: var(" + kind.color + ")" }, edgeLayer);
+      e.line = el("line", { class: "edge" + (e.tier === 2 ? " tier2" : "") + (p.muted ? " ended" : "") + (p.line_style === "dashed" ? " pending" : ""), style: "stroke: var(" + kind.color + ")", "aria-hidden": "true" }, edgeLayer);
       if (kind.directed) e.line.setAttribute("marker-end", "url(#arrow-" + kind.key + ")");
-      e.hit = el("line", { class: "edge-hit" }, edgeLayer);
+      e.hit = el("line", { class: "edge-hit", role: "button", tabindex: 0, "aria-pressed": "false",
+        "aria-label": relationTitle(e) + " · " + e.type + " · 관계와 근거 열기" }, edgeLayer);
       e.hit.addEventListener("pointermove", function (ev) { if (ev.pointerType === "mouse") showTip(ev, edgeText(e)); });
       e.hit.addEventListener("pointerleave", hideTip);
-      e.hit.addEventListener("click", function () { select(e.s); });
+      e.hit.addEventListener("click", function (ev) { selectEdge(e); ev.stopPropagation(); });
+      e.hit.addEventListener("keydown", function (ev) {
+        if (ev.key === "Enter" || ev.key === " ") {
+          ev.preventDefault(); selectEdge(e);
+          var heading = document.getElementById("relation-detail-heading");
+          if (heading) heading.focus({ preventScroll: true });
+        }
+      });
+      e.hit.addEventListener("focus", function () {
+        if (!e.hit.matches(":focus-visible")) return;
+        var b = svg.getBoundingClientRect(), x = (e.s.x + e.t.x) / 2, y = (e.s.y + e.t.y) / 2;
+        var sx = x * view.k + view.x, sy = y * view.k + view.y;
+        if (sx < 20 || sy < 20 || sx > b.width - 20 || sy > b.height - 20) {
+          viewInteracted = true; view.x = b.width / 2 - x * view.k; view.y = b.height / 2 - y * view.k; position();
+        }
+      });
     });
     nodes.forEach(function (n) {
-      n.g = el("g", { class: "node " + n.type, tabindex: 0, role: "button", "aria-label": n.id + (n.summary ? ", " + n.summary : "") }, nodeLayer);
+      n.g = el("g", { class: "node " + n.type, tabindex: 0, role: "button", "aria-pressed": "false", "aria-label": n.id + (n.summary ? ", " + n.summary : "") }, nodeLayer);
       n.hitC = el("circle", { class: "node-hit", r: n.r + 3 }, n.g);  // 축소해도 누르기 쉽게 하는 투명 영역
       n.circle = el("circle", { r: n.r }, n.g);
       if (n.type === "external") el("path", { d: "M0,-12 L12,10 L-12,10 Z", class: "concept-shape external-shape" }, n.g);
       if (n.type === "theme") {
-        var colors = { "기술·디지털": "#8ea5ff", "산업재·운송": "#69b8aa", "소비·문화": "#e7b876", "에너지·환경": "#94b85c", "금융": "#c299d9", "헬스케어": "#e594a5" };
-        el("circle", { r: 12, class: "concept-shape theme-shape", style: "fill:" + (colors[n.category] || "#8ea5ff") }, n.g);
+        el("circle", { r: 12, class: "concept-shape theme-shape", style: "fill:" + (categoryColors[n.category] || "#8ea5ff") }, n.g);
       }
       if (n.type === "industry") el("rect", { x: -11, y: -11, width: 22, height: 22, rx: 2, class: "concept-shape industry-shape" }, n.g);
       n.ring = el("circle", { class: "attention-ring", r: n.r + 4, "aria-hidden": "true" }, n.g);
@@ -637,23 +669,25 @@ window.addEventListener("DOMContentLoaded", function () {
     // 기업 이름(11px)이 화면에서 7px보다 작으면 숨기고, 테마 이름은 11px 아래로 작아지지 않게 키운다
     svg.classList.toggle("far", 11 * view.k < 7);
     svg.style.setProperty("--theme-label", Math.max(13, 11 / view.k) + "px");
-    var all = scopeUI.mode.value === "all", occupied = [];
+    var all = scopeUI.mode.value === "all", occupied = [], hasSelection = !!selected || !!selectedEdge;
+    function endpoint(n) { return selectedEdge && (selectedEdge.s === n || selectedEdge.t === n); }
     nodes.slice().sort(function (a, b) {
-      return (a === selected ? -1 : b === selected ? 1 : 0) || (a.type === "theme" ? 0 : 1) - (b.type === "theme" ? 0 : 1) || a.id.localeCompare(b.id);
+      return (a === selected ? -1 : b === selected ? 1 : 0) || (endpoint(a) ? 0 : 1) - (endpoint(b) ? 0 : 1)
+        || (a.type === "theme" ? 0 : 1) - (b.type === "theme" ? 0 : 1) || a.id.localeCompare(b.id);
     }).forEach(function (n) {
       n.g.classList.remove("label-hidden");
       if (!all) { n.label.setAttribute("text-anchor", "start"); n.label.setAttribute("y", 4); if (n.type !== "company") n.label.setAttribute("x", n.r + 7); return; }
       n.label.setAttribute("text-anchor", "middle"); n.label.setAttribute("x", 0);
       n.label.setAttribute("y", (n.drawR || n.r) + 15 / view.k);
       if (!n.visible) return;
-      if (selected && n.g.classList.contains("dim")) { n.g.classList.add("label-hidden"); return; }
-      var selectedPeer = selected && !n.g.classList.contains("dim");
+      if (hasSelection && n.g.classList.contains("dim")) { n.g.classList.add("label-hidden"); return; }
+      var selectedPeer = hasSelection && !n.g.classList.contains("dim");
       if (n.type !== "theme" && view.k < .9 && !selectedPeer) { n.g.classList.add("label-hidden"); return; }
       var width = Math.max(24, (n.w - n.r - 8) * Math.max(view.k, 1));
       var x = n.x * view.k + view.x, y = n.y * view.k + view.y + (n.drawR || n.r) * view.k + 15;
       var rect = { left: x - width / 2 - 4, right: x + width / 2 + 4, top: y - 12, bottom: y + 5 };
       var overlap = occupied.some(function (b) { return rect.left < b.right && rect.right > b.left && rect.top < b.bottom && rect.bottom > b.top; });
-      if (overlap && n !== selected) n.g.classList.add("label-hidden"); else occupied.push(rect);
+      if (overlap && n !== selected && !endpoint(n)) n.g.classList.add("label-hidden"); else occupied.push(rect);
     });
   }
 
@@ -697,7 +731,10 @@ window.addEventListener("DOMContentLoaded", function () {
     edges.forEach(function (e, i) {
       e.shown = keptEdges.has(i) && e.s.visible && e.t.visible;
       e.line.style.display = e.hit.style.display = e.shown ? "" : "none";
+      e.hit.setAttribute("tabindex", e.shown ? "0" : "-1");
+      e.hit.setAttribute("aria-hidden", e.shown ? "false" : "true");
     });
+    if (selectedEdge && !selectedEdge.shown) clearSelection(true);
     var visible = nodes.filter(function (n) { return n.visible; });
     var visibleEdges = edges.filter(function (e) { return e.shown; }).length;
     var root = document.getElementById("theme").value || focusId || scope.focusId || "선택 없음";
@@ -755,17 +792,116 @@ window.addEventListener("DOMContentLoaded", function () {
   }
   function resetLegend() { Array.prototype.forEach.call(document.querySelectorAll("#legend input"), function (b) { b.checked = true; }); }
 
+  function relationTitle(e) { return nodeName(e.s) + (kindOf(e.type).directed ? " → " : " — ") + nodeName(e.t); }
+
+  function renderRelationDetail(e) {
+    panel.innerHTML = "";
+    var detail = html("section", null, panel, { id: "relation-detail", "aria-labelledby": "relation-detail-heading" });
+    html("p", e.type === "테마" ? "주제 연결" : e.type === "업종" ? "거래소 업종 분류" : "기업 관계", detail, { class: "detail-eyebrow" });
+    html("h2", relationTitle(e), detail, { id: "relation-detail-heading", tabindex: "-1" });
+    var badges = html("div", null, detail, { class: "relation-badges" });
+    html("span", e.type, badges, { class: "tag relation-type" });
+    if (e.presentation && e.presentation.label) html("span", e.presentation.label, badges, { class: "tag relation-status" });
+    var records = list(e.evidence).concat(list(e.classifications));
+    var statuses = Array.from(new Set(records.map(function (v) { return v.status; }).filter(Boolean)));
+    html("p", (kindOf(e.type).directed ? "방향: " + nodeName(e.s) + " → " + nodeName(e.t) : "방향을 정하지 않은 연결")
+      + (e.stage ? " · 역할: " + e.stage : ""), detail, { class: "relation-direction meta" });
+    html("p", "근거에 기재된 상태: " + (statuses.length ? statuses.join(" · ") : "별도 상태 표시 없음"), detail, { class: "relation-record-status meta" });
+    if (e.type === "테마" || e.type === "업종") html("p", "이 선은 분류를 나타냅니다. 기업 간 공급·투자 관계를 뜻하지 않습니다.", detail, { class: "relation-context" });
+
+    var samePair = edges.filter(function (other) {
+      return other.shown && ((other.s === e.s && other.t === e.t) || (other.s === e.t && other.t === e.s));
+    });
+    if (samePair.length > 1) {
+      var choices = html("div", null, detail, { class: "relation-choices", role: "group", "aria-label": "같은 두 대상의 연결" });
+      html("small", "같은 두 대상의 연결", choices);
+      samePair.forEach(function (other) {
+        var choice = html("button", relationTitle(other) + " · " + other.type, choices,
+          { type: "button", "aria-pressed": other === e ? "true" : "false" });
+        choice.addEventListener("click", function () { selectEdge(other); });
+      });
+    }
+
+    var endpoints = html("div", null, detail, { class: "relation-endpoints" });
+    [e.s, e.t].forEach(function (n, i) {
+      var card = html("section", null, endpoints, { class: "endpoint-card" });
+      html("small", kindOf(e.type).directed ? (i === 0 ? "출발 대상" : "도착 대상") : "연결 대상 " + (i + 1), card);
+      var choose = html("button", nodeName(n), card, { type: "button", class: "endpoint-select" });
+      choose.addEventListener("click", function () { select(n); });
+      var links = html("div", null, card, { class: "endpoint-actions" });
+      var explore = html("button", "주변 펼치기", links, { type: "button" });
+      explore.addEventListener("click", function () { find(n.id); });
+      var url = pageUrl(n);
+      if (url) html("a", "위키 열기 ↗", links, { href: url, target: "_top" });
+    });
+
+    function addRecords(values, title) {
+      if (!values.length) return;
+      html("h3", title + " " + values.length + "건", detail);
+      var entries = html("ol", null, detail, { class: "relation-evidence" });
+      values.slice().sort(function (a, b) { return String(b.date || "").localeCompare(String(a.date || "")); }).forEach(function (v) {
+        var item = html("li", null, entries);
+        var labels = [v.date || "날짜 미기재", v.kind, v.classification, v.status].filter(Boolean);
+        html("p", labels.join(" · "), item, { class: "evidence-meta" });
+        if (v.topic) html("p", v.topic, item, { class: "evidence-topic" });
+        html("p", v.text || "별도 설명이 기재되지 않았습니다.", item, { class: "evidence-text" });
+        var sources = html("div", null, item, { class: "evidence-sources" });
+        addSources(sources, v);
+        if (!sourcesOf(v).length) html("span", " · 외부 출처 링크 미기재", sources, { class: "meta" });
+      });
+    }
+    addRecords(list(e.classifications), "분류와 확인 근거");
+    addRecords(list(e.evidence), e.type === "테마" ? "주제 연결에 포함된 기록" : "등록 근거");
+    if (!records.length) html("p", "이 선에 별도 근거 기록이 없습니다. 양쪽 대상의 위키에서 기재 내용을 확인해 주세요.", detail, { class: "relation-context" });
+    html("p", "기재된 날짜와 상태를 함께 확인하세요. 출처가 여럿이면 각각의 내용을 확인할 수 있습니다.", detail, { class: "meta relation-footnote" });
+  }
+
+  function selectEdge(e) {
+    if (!e || !e.shown) return;
+    selected = shown = null; selectedEdge = e; viewInteracted = true;
+    hideTip();
+    document.body.classList.add("has-selection"); svg.classList.add("selecting");
+    nodes.forEach(function (n) {
+      var endpoint = n === e.s || n === e.t;
+      n.g.classList.toggle("dim", !endpoint); n.g.classList.remove("hit"); n.g.classList.toggle("edge-endpoint", endpoint);
+      n.g.setAttribute("aria-pressed", "false");
+    });
+    edges.forEach(function (edge) {
+      edge.line.classList.toggle("dim", edge !== e); edge.line.classList.toggle("selected-edge", edge === e);
+      edge.hit.setAttribute("aria-pressed", edge === e ? "true" : "false");
+    });
+    position(); updateNavigation(); renderRelationDetail(e);
+    document.getElementById("status").textContent = relationTitle(e) + " · " + e.type + " 선택됨. 관계와 근거가 상세 패널에 열렸습니다.";
+    if (stacked()) {
+      var want = panel.getBoundingClientRect().top + window.pageYOffset - window.innerHeight + 220;
+      if (window.pageYOffset < want) window.scrollTo({ top: want, behavior: "smooth" });
+    }
+  }
+
+  function showSelectedRelation() {
+    if (!selectedEdge) return false;
+    if (!selectedEdge.shown) { clearSelection(true); return false; }
+    // News counts can refresh without replacing focused links or the reader's scroll position.
+    return true;
+  }
+
   // 점을 고르면 관계와 근거를 옆 패널에 보여 준다
   var selected = null;
   function select(n) {
-    selected = shown = n;
+    selectedEdge = null; selected = shown = n;
     document.body.classList.add("has-selection");
     updateNavigation();
     svg.classList.add("selecting");
     var near = {}; near[n.id] = true;
     edges.forEach(function (e) { if (!e.shown) return; if (e.source === n.id) near[e.target] = true; if (e.target === n.id) near[e.source] = true; });
-    nodes.forEach(function (m) { m.g.classList.toggle("dim", !near[m.id]); m.g.classList.toggle("hit", m === n); });
-    edges.forEach(function (e) { e.line.classList.toggle("dim", !(e.source === n.id || e.target === n.id)); });
+    nodes.forEach(function (m) {
+      m.g.classList.toggle("dim", !near[m.id]); m.g.classList.toggle("hit", m === n); m.g.classList.remove("edge-endpoint");
+      m.g.setAttribute("aria-pressed", m === n ? "true" : "false");
+    });
+    edges.forEach(function (e) {
+      e.line.classList.toggle("dim", !(e.source === n.id || e.target === n.id)); e.line.classList.remove("selected-edge");
+      e.hit.setAttribute("aria-pressed", "false");
+    });
 
     position();
     panel.innerHTML = "";
@@ -843,6 +979,8 @@ window.addEventListener("DOMContentLoaded", function () {
         html("span", e.type, li, { class: "tag" });
         if (e.presentation && e.presentation.label) html("span", e.presentation.label, li, { class: "tag" });
         li.appendChild(document.createTextNode((dir ? dir + " " : "") + other));
+        var relationButton = html("button", "관계와 근거 열기", li, { type: "button", class: "relation-open" });
+        relationButton.addEventListener("click", function () { selectEdge(e); });
         var ev = html("ul", null, li);
         e.evidence.forEach(function (v) { addSources(html("li", v.date + " " + (v.text || "") + (v.status ? " · " + v.status : ""), ev), v); });
       });
@@ -856,15 +994,27 @@ window.addEventListener("DOMContentLoaded", function () {
 
   // ifHidden: 설명 칸이 보여 주던 점이 필터로 숨었으면 설명 칸도 처음 내용으로 되돌린다
   function clearSelection(ifHidden) {
+    if (ifHidden && selectedEdge && selectedEdge.shown) return;
+    if (selectedEdge) panel.innerHTML = intro;
     if (ifHidden && shown && !shown.visible) { panel.innerHTML = intro; shown = null; }
-    selected = null;
+    selected = selectedEdge = null;
     document.body.classList.remove("has-selection");
     svg.classList.remove("selecting");
-    nodes.forEach(function (m) { m.g.classList.remove("dim", "hit"); });
-    edges.forEach(function (e) { e.line.classList.remove("dim"); });
+    nodes.forEach(function (m) { m.g.classList.remove("dim", "hit", "edge-endpoint"); m.g.setAttribute("aria-pressed", "false"); });
+    edges.forEach(function (e) { e.line.classList.remove("dim", "selected-edge"); e.hit.setAttribute("aria-pressed", "false"); });
     position();
     updateNavigation();
   }
+
+  function escapeSelection(ev) {
+    if (ev.key !== "Escape" || (!selectedEdge && !selected)) return;
+    if (ev.target && /^(INPUT|SELECT|TEXTAREA)$/.test(ev.target.tagName)) return;
+    var back = selectedEdge ? selectedEdge.hit : selected.g;
+    ev.preventDefault(); clearSelection(); hideTip();
+    document.getElementById("status").textContent = "선택을 해제했습니다.";
+    if (back && back.focus) back.focus({ preventScroll: true });
+  }
+  document.addEventListener("keydown", escapeSelection);
 
   // 점 끌기 (마우스 왼쪽 버튼, 손가락, 펜)
   function dragNode(ev, n) {

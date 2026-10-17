@@ -250,6 +250,7 @@
       ui["encoding"].textContent = "크기: " + (isNews() ? "공개 목록의 " + metricName() + " 수" : "등록 관계의 서로 다른 상대 수") + " · " + (ui.scale.value === "log" ? "로그 압축 척도" : "면적 비례 척도") + " · 숫자: " + metricName() + " 수 · 점선 링: 급증 비교 자료 부족 · 색 있는 선: 기존 관계";
       message(); graph.applyFilter(); graph.position();
       updateNotice();
+      if (graph.showSelectedRelation && graph.showSelectedRelation()) return;
       if (graph.getShown()) details(graph.getShown()); else overview();
     }
     function nextDay(day) { var d = new Date(day + "T00:00:00+09:00"); d.setTime(d.getTime() + 86400000); return new Date(d.getTime() + 9 * 3600000).toISOString().slice(0,10); }
@@ -366,20 +367,23 @@
       } catch (e) { if (!request.signal.aborted) { failed = true; message(); } }
       finally { request = null; loading = false; ui.refresh.disabled = false; ui.play.disabled = !data; }
     }
+    function clearUnlessRelation() {
+      if (!(graph.showSelectedRelation && graph.showSelectedRelation())) graph.clear();
+    }
     ["mode", "metric", "scale", "active", "days"].forEach(function (key) { ui[key].addEventListener("change", function () {
       if (key === "mode") modeChosen = true;
-      startChosen = true; queryChanged(); stop(); graph.clear(); render(); if (key === "mode" || key === "active") graph.fit();
+      startChosen = true; queryChanged(); stop(); clearUnlessRelation(); render(); if (key === "mode" || key === "active") graph.fit();
     }); });
     ui.date.addEventListener("change", function () {
       dateChosen = startChosen = true;
       if (!validDate(ui.date.value) || data && (ui.date.value < ui.date.min || ui.date.value > ui.date.max)) { ui.date.value = data && data.maxDate || ""; }
-      queryChanged(); stop(); graph.clear(); render();
+      queryChanged(); stop(); clearUnlessRelation(); render();
     });
     ui.play.addEventListener("click", play); ui.refresh.addEventListener("click", function () { watcher.check(); }); ui.fit.addEventListener("click", graph.fit);
     ui["new-date"].addEventListener("click", function () {
       var day = ui["new-date"].dataset.date;
       if (!data || !day) return;
-      queryChanged(); stop("새 자료의 제공·접수 날짜 선택"); ui.date.value = day; graph.clear(); render();
+      queryChanged(); stop("새 자료의 제공·접수 날짜 선택"); ui.date.value = day; clearUnlessRelation(); render();
     });
     ui.motion.addEventListener("change", function () { stop("움직임 설정 변경"); render(); });
     function reduceChanged() { ui.motion.checked = reduced.matches; stop(); render(); }

@@ -43,14 +43,18 @@
           for (var b = a + 1; b < members.length; b++) {
             var t = members[b], dx = s.x - t.x, dy = s.y - t.y;
             var d2 = Math.max(1, dx * dx + dy * dy), d = Math.sqrt(d2);
-            var force = Math.min(7, 1900 / d2 + Math.max(0, 46 - d) * .06) * alpha;
+            // Give theme labels room while shared companies remain single nodes.
+            var themePair = s.type === "theme" && t.type === "theme";
+            var clearance = themePair ? 150 : 46;
+            var charge = themePair ? 11000 : 1900;
+            var force = Math.min(themePair ? 12 : 7, charge / d2 + Math.max(0, clearance - d) * .06) * alpha;
             s.vx += dx / d * force; s.vy += dy / d * force;
             t.vx -= dx / d * force; t.vy -= dy / d * force;
           }
         }
         componentLinks.forEach(function (pair) {
           var s = pair[0], t = pair[1], dx = t.x - s.x, dy = t.y - s.y, d = Math.sqrt(dx * dx + dy * dy) || 1;
-          var desired = s.type === "theme" || t.type === "theme" ? 94 : 112;
+          var desired = s.type === "theme" || t.type === "theme" ? 120 : 112;
           var force = (d - desired) * .028 * alpha;
           s.vx += dx / d * force; s.vy += dy / d * force;
           t.vx -= dx / d * force; t.vy -= dy / d * force;
