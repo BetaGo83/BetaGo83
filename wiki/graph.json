@@ -3110,6 +3110,66 @@
    ]
   },
   {
+   "id": "LG전자",
+   "type": "company",
+   "path": "companies/LG전자",
+   "summary": "가전·전자제품과 로봇 솔루션을 제공하는 기업",
+   "market": "KOSPI",
+   "ticker": "066570",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "통신 및 방송 장비 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 사업 페이지에서 호텔·유통·보안·의료 분야에 쓰이는 로봇 솔루션과 CLOi 로봇을 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lg.com/global/our-business/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "로봇·자동화",
+     "tier": 1,
+     "stage": "로봇 완제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "로봇·자동화",
+       "page": "로봇·자동화",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 사업 페이지에서 호텔·유통·보안·의료 분야에 쓰이는 로봇 솔루션과 CLOi 로봇을 소개한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.lg.com/global/our-business/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "LG화학",
    "type": "company",
    "path": "companies/LG화학",
@@ -3925,6 +3985,66 @@
        "weak": false,
        "sources": [
         "https://www.skoceanplant.com/?lang=kr",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SK이노베이션",
+   "type": "company",
+   "path": "companies/SK이노베이션",
+   "summary": "정유·석유화학과 에너지 사업을 운영하는 기업",
+   "market": "KOSPI",
+   "ticker": "096770",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "석유 정제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 홈페이지에서 원유 정제와 석유제품 생산·판매를 SK Energy 사업으로 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.skinnovation.com/?lng=en",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "정유·윤활",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 홈페이지에서 원유 정제와 석유제품 생산·판매를 SK Energy 사업으로 소개한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.skinnovation.com/?lng=en",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -12027,6 +12147,66 @@
        "evidence_level": "거래소 자료",
        "weak": false,
        "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "카카오게임즈",
+   "type": "company",
+   "path": "companies/카카오게임즈",
+   "summary": "모바일·PC 게임을 퍼블리싱하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "293490",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 홈페이지에서 모바일·PC 게임 라인업과 게임 퍼블리싱 사업을 운영한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kakaogamescorp.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "게임",
+     "tier": 1,
+     "stage": "온라인·모바일 게임",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "게임",
+       "page": "게임",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 홈페이지에서 모바일·PC 게임 라인업과 게임 퍼블리싱 사업을 운영한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.kakaogamescorp.com/",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
@@ -20781,6 +20961,37 @@
    }
   },
   {
+   "source": "LG전자",
+   "target": "로봇·자동화",
+   "type": "테마",
+   "tier": 1,
+   "stage": "로봇 완제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 사업 페이지에서 호텔·유통·보안·의료 분야에 쓰이는 로봇 솔루션과 CLOi 로봇을 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lg.com/global/our-business/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "LG화학",
    "target": "2차전지",
    "type": "테마",
@@ -21244,6 +21455,37 @@
      "weak": false,
      "sources": [
       "https://www.skoceanplant.com/?lang=kr",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SK이노베이션",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "정유·윤활",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 홈페이지에서 원유 정제와 석유제품 생산·판매를 SK Energy 사업으로 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.skinnovation.com/?lng=en",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
@@ -25890,6 +26132,37 @@
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "카카오게임즈",
+   "target": "게임",
+   "type": "테마",
+   "tier": 1,
+   "stage": "온라인·모바일 게임",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 홈페이지에서 모바일·PC 게임 라인업과 게임 퍼블리싱 사업을 운영한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kakaogamescorp.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
