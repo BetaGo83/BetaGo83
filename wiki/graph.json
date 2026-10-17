@@ -195,12 +195,13 @@
    "id": "보험",
    "type": "theme",
    "path": "themes/보험",
-   "summary": "생명보험과 손해보험을 직접 영위하는 보험사를 다룬다.",
+   "summary": "생명보험·손해보험과 보증보험·신용보험을 직접 영위하는 보험사를 다룬다.",
    "category": "금융",
    "stages": [
     "생명보험",
     "손해보험·재보험",
-    "손해보험"
+    "손해보험",
+    "보증보험·신용보험"
    ]
   },
   {
@@ -12572,6 +12573,64 @@
        "weak": false,
        "sources": [
         "https://www.samyangbiopharm.com/kr/company/rnd",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "서울보증보험",
+   "type": "company",
+   "path": "companies/서울보증보험",
+   "summary": "보증보험과 신용보험 등을 영위하는 보험 기업",
+   "market": "KOSPI",
+   "ticker": "031210",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "보험업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "보험",
+     "page": "보험",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "한국거래소 KIND 상장법인 목록은 서울보증보험의 업종을 보험업, 주요제품을 보증보험·신용보험 등으로 기재한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "보험",
+     "tier": 1,
+     "stage": "보증보험·신용보험",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "보험",
+       "page": "보험",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "한국거래소 KIND 상장법인 목록은 서울보증보험의 업종을 보험업, 주요제품을 보증보험·신용보험 등으로 기재한다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -32551,6 +32610,36 @@
      "weak": false,
      "sources": [
       "https://www.samyangbiopharm.com/kr/company/rnd",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "서울보증보험",
+   "target": "보험",
+   "type": "테마",
+   "tier": 1,
+   "stage": "보증보험·신용보험",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "보험",
+     "page": "보험",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "한국거래소 KIND 상장법인 목록은 서울보증보험의 업종을 보험업, 주요제품을 보증보험·신용보험 등으로 기재한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
