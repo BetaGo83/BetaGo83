@@ -1912,6 +1912,66 @@
    "issues": []
   },
   {
+   "id": "E1",
+   "type": "company",
+   "path": "companies/E1",
+   "summary": "LPG 사업 기반의 수소 수입·저장·유통 및 수소 생산 사업을 추진하는 에너지 기업",
+   "market": "KOSPI",
+   "ticker": "017940",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기타 전문 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "수소·연료전지",
+     "page": "수소·연료전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 수소 사업자료는 액화수소·암모니아의 수입·저장·유통과 수소 생산 분야로 사업을 확장할 계획이며 수소 충전 사업도 개발하고 있다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.e1.co.kr/ko/business/hydrogen",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "수소·연료전지",
+     "tier": 1,
+     "stage": "청정수소 공급 인프라",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "수소·연료전지",
+       "page": "수소·연료전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사 공식 수소 사업자료는 액화수소·암모니아의 수입·저장·유통과 수소 생산 분야로 사업을 확장할 계획이며 수소 충전 사업도 개발하고 있다고 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.e1.co.kr/ko/business/hydrogen",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "F&F",
    "type": "company",
    "path": "companies/F&F",
@@ -24303,6 +24363,37 @@
      "sources": [
       "https://dsdansuk.com/products/rd/",
       "https://dsdansuk.com/include/images/sub/DS%20DANSUK%20BATTERY%20RECYCLE_KOR.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "E1",
+   "target": "수소·연료전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "청정수소 공급 인프라",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "수소·연료전지",
+     "page": "수소·연료전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 수소 사업자료는 액화수소·암모니아의 수입·저장·유통과 수소 생산 분야로 사업을 확장할 계획이며 수소 충전 사업도 개발하고 있다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.e1.co.kr/ko/business/hydrogen",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
