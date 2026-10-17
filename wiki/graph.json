@@ -7307,6 +7307,74 @@
    "issues": []
   },
   {
+   "id": "NICE평가정보",
+   "type": "company",
+   "path": "companies/NICE평가정보",
+   "summary": "개인·기업 신용정보와 본인확인·기술평가 서비스를 제공하는 금융 인프라 기업",
+   "market": "KOSPI",
+   "ticker": "030190",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기타 정보 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "핀테크·전자결제",
+     "page": "핀테크·전자결제",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "NICE평가정보 공식 서비스 페이지는 개인·기업 신용정보, 신용평가·분석, 본인확인과 기술평가 등 금융 인프라 솔루션을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.niceinfo.co.kr/business/credit.nice",
+      "https://www.niceinfo.co.kr/business/NICECREDIT.nice",
+      "https://www.niceinfo.co.kr/business/NICEBizLINE.nice",
+      "https://www.niceinfo.co.kr/business/NICEiD_2.nice",
+      "https://www.niceinfo.co.kr/business/TCB.nice",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "핀테크·전자결제",
+     "tier": 1,
+     "stage": "금융 플랫폼·솔루션",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "핀테크·전자결제",
+       "page": "핀테크·전자결제",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "NICE평가정보 공식 서비스 페이지는 개인·기업 신용정보, 신용평가·분석, 본인확인과 기술평가 등 금융 인프라 솔루션을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.niceinfo.co.kr/business/credit.nice",
+        "https://www.niceinfo.co.kr/business/NICECREDIT.nice",
+        "https://www.niceinfo.co.kr/business/NICEBizLINE.nice",
+        "https://www.niceinfo.co.kr/business/NICEiD_2.nice",
+        "https://www.niceinfo.co.kr/business/TCB.nice",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "OCI",
    "type": "company",
    "path": "companies/OCI",
@@ -31315,6 +31383,41 @@
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "NICE평가정보",
+   "target": "핀테크·전자결제",
+   "type": "테마",
+   "tier": 1,
+   "stage": "금융 플랫폼·솔루션",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "핀테크·전자결제",
+     "page": "핀테크·전자결제",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "NICE평가정보 공식 서비스 페이지는 개인·기업 신용정보, 신용평가·분석, 본인확인과 기술평가 등 금융 인프라 솔루션을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.niceinfo.co.kr/business/credit.nice",
+      "https://www.niceinfo.co.kr/business/NICECREDIT.nice",
+      "https://www.niceinfo.co.kr/business/NICEBizLINE.nice",
+      "https://www.niceinfo.co.kr/business/NICEiD_2.nice",
+      "https://www.niceinfo.co.kr/business/TCB.nice",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
