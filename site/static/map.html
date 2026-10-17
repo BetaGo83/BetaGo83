@@ -10,7 +10,7 @@
 <script src="./news-feed.js?v=20261016-observed1" defer></script>
 <script src="./map-scope.js?v=20261017-network1" defer></script>
 <script src="./map-overview.js?v=20261017-network1" defer></script>
-<script src="./map-view.js?v=20261017-network1" defer></script>
+<script src="./map-view.js?v=20261017-week1" defer></script>
 <script>
   // 위키(Quartz)에서 고른 밝은/어두운 화면 설정을 따른다
   try { var t = localStorage.getItem("theme"); if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
@@ -453,6 +453,7 @@ window.addEventListener("DOMContentLoaded", function () {
       getTheme: function () { return document.getElementById("theme").value; },
       getShown: function () { return shown; },
       isKnowledge: function () { return mapKind === "knowledge"; },
+      isOverview: function () { return mapKind === "knowledge" && scopeUI.mode.value === "all"; },
       inScope: function (n) { return !!scope && scope.nodeIds.indexOf(n.id) >= 0; },
       chooseNewsStart: function (stats) {
         if (scopeUI.mode.value === "all" || viewInteracted || focusId || document.getElementById("theme").value || MapNewsView.readViewState(params).mode !== "news") return;

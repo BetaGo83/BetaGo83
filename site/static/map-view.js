@@ -26,7 +26,9 @@
     var loading = false, failed = false, epoch = 0, observedTimer = null, checkedAt = null, rollback = false, recentChange = null, request = null;
     var modeChosen = false, startChosen = false, dateChosen = false;
     var initialState = readViewState(window.location.search);
-    ["metric", "scale", "days"].forEach(function (key) { if (initialState[key]) ui[key].value = initialState[key]; });
+    ["metric", "scale"].forEach(function (key) { if (initialState[key]) ui[key].value = initialState[key]; });
+    // Resolve once after node/theme navigation has established the actual graph scope.
+    ui.days.value = initialState.days || (graph.isOverview && graph.isOverview() ? "7" : "1");
     var browserClock = new Intl.DateTimeFormat("ko-KR", { timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", second: "2-digit", hourCycle: "h23" });
     var counterpart = MapNews.relationCounts(graph.nodes.filter(function (n) { return n.type === "company"; }), graph.edges);
     var reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
