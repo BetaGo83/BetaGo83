@@ -5001,6 +5001,68 @@
    ]
   },
   {
+   "id": "HEM파마",
+   "type": "company",
+   "path": "companies/HEM파마",
+   "summary": "마이크로바이옴 분석과 파마바이오틱스(LBP) 연구를 수행하는 헬스케어 기업",
+   "market": "KOSDAQ",
+   "ticker": "376270",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "자연과학 및 공학 연구개발업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HEM파마 공식 연구개발 페이지는 파마바이오틱스(LBP)와 LBP 파이프라인을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hempharma.bio/m431.php",
+      "https://www.hempharma.bio/m221.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "바이오의약품 제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "HEM파마 공식 연구개발 페이지는 파마바이오틱스(LBP)와 LBP 파이프라인을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hempharma.bio/m431.php",
+        "https://www.hempharma.bio/m221.php",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "HJ중공업",
    "type": "company",
    "path": "companies/HJ중공업",
@@ -29822,6 +29884,38 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HEM파마",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "바이오의약품 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HEM파마 공식 연구개발 페이지는 파마바이오틱스(LBP)와 LBP 파이프라인을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hempharma.bio/m431.php",
+      "https://www.hempharma.bio/m221.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
