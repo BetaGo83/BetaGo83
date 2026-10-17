@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17",
+ "updated": "2026-10-18",
  "nodes": [
   {
    "id": "2차전지",
@@ -172,7 +172,8 @@
     "바이오의약품 생산",
     "바이오의약품 제품",
     "의약품",
-    "바이오의약품 원료"
+    "바이오의약품 원료",
+    "항암백신"
    ]
   },
   {
@@ -333,7 +334,8 @@
     "의료영상 검출기",
     "치과 영상·스캐너",
     "치과용 기기",
-    "체성분 분석기"
+    "체성분 분석기",
+    "디지털치료기기"
    ]
   },
   {
@@ -1077,6 +1079,109 @@
        "weak": false,
        "sources": [
         "https://www.bgfecomaterials.com/en/company/overview",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "CG인바이츠",
+   "type": "company",
+   "path": "companies/CG인바이츠",
+   "summary": "디지털 유전체·맞춤형 항암백신·디지털치료기기와 의약품 파이프라인을 개발하는 헬스케어 기업",
+   "market": "KOSDAQ",
+   "ticker": "083790",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "자연과학 및 공학 연구개발업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 자료는 유전체 분석, 개인맞춤형 항암백신, 디지털치료기기와 의약품 파이프라인 사업을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.cginvites.com/Vaccine",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 자료는 유전체 분석, 개인맞춤형 항암백신, 디지털치료기기와 의약품 파이프라인 사업을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.cginvites.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "항암백신",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사 공식 자료는 유전체 분석, 개인맞춤형 항암백신, 디지털치료기기와 의약품 파이프라인 사업을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.cginvites.com/Vaccine",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "디지털치료기기",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사 공식 자료는 유전체 분석, 개인맞춤형 항암백신, 디지털치료기기와 의약품 파이프라인 사업을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.cginvites.com/",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
@@ -2374,7 +2479,7 @@
      "theme": "방산",
      "tier": 2,
      "stage": "",
-     "score": 0.27,
+     "score": 0.26,
      "via": "HD현대중공업",
      "via_type": "출자"
     },
@@ -2382,7 +2487,7 @@
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "해상 SMR(조선)",
-     "score": 1.77,
+     "score": 1.75,
      "classifications": [
       {
        "topic": "SMR 상용화",
@@ -2409,7 +2514,7 @@
      "theme": "조선·해운",
      "tier": 2,
      "stage": "",
-     "score": 1.33,
+     "score": 1.32,
      "via": "HD현대중공업",
      "via_type": "출자"
     }
@@ -2780,7 +2885,7 @@
      "theme": "방산",
      "tier": 1,
      "stage": "함정",
-     "score": 0.89,
+     "score": 0.88,
      "classifications": [
       {
        "topic": "방산",
@@ -2807,7 +2912,7 @@
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "",
-     "score": 2.74,
+     "score": 2.72,
      "classifications": [
       {
        "topic": "SMR 상용화",
@@ -2834,7 +2939,7 @@
      "theme": "조선·해운",
      "tier": 1,
      "stage": "조선·해양 기자재",
-     "score": 4.43,
+     "score": 4.4,
      "classifications": [
       {
        "topic": "조선·해운",
@@ -3162,7 +3267,7 @@
      "theme": "조선·해운",
      "tier": 1,
      "stage": "해상 운송",
-     "score": 4.43,
+     "score": 4.4,
      "classifications": [
       {
        "topic": "조선·해운",
@@ -3410,7 +3515,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "전력반도체 후공정",
-     "score": 4.41,
+     "score": 4.37,
      "classifications": [
       {
        "topic": "반도체",
@@ -3798,7 +3903,7 @@
      "theme": "소프트웨어·IT서비스",
      "tier": 1,
      "stage": "시스템 구축·운영",
-     "score": 4.43,
+     "score": 4.4,
      "classifications": [
       {
        "topic": "소프트웨어·IT서비스",
@@ -3915,7 +4020,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "배터리",
-     "score": 7.28,
+     "score": 7.23,
      "classifications": [
       {
        "topic": "2차전지",
@@ -4515,7 +4620,7 @@
      "theme": "방산",
      "tier": 1,
      "stage": "유도무기",
-     "score": 4.08,
+     "score": 4.05,
      "classifications": [
       {
        "topic": "방산",
@@ -4760,7 +4865,7 @@
      "theme": "데이터센터",
      "tier": 1,
      "stage": "데이터센터 인프라",
-     "score": 1.04,
+     "score": 1.03,
      "classifications": [
       {
        "topic": "데이터센터",
@@ -5783,7 +5888,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "메모리 제조",
-     "score": 9.24,
+     "score": 9.17,
      "classifications": [
       {
        "topic": "반도체",
@@ -6415,7 +6520,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "소재 공장 설비",
-     "score": 2.63,
+     "score": 2.61,
      "classifications": [
       {
        "topic": "2차전지",
@@ -6933,7 +7038,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "검사 장비·부품",
-     "score": 1.3,
+     "score": 1.29,
      "classifications": [
       {
        "topic": "반도체",
@@ -7521,7 +7626,7 @@
      "theme": "건설·인프라",
      "tier": 1,
      "stage": "건축·토목",
-     "score": 4.47,
+     "score": 4.43,
      "classifications": [
       {
        "topic": "건설·인프라",
@@ -7870,7 +7975,7 @@
      "theme": "항공·물류",
      "tier": 1,
      "stage": "항공 운송",
-     "score": 1.48,
+     "score": 1.47,
      "classifications": [
       {
        "topic": "항공·물류",
@@ -8422,7 +8527,7 @@
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "원전·SMR 사업",
-     "score": 1.19,
+     "score": 1.18,
      "classifications": [
       {
        "topic": "원전·SMR",
@@ -8731,7 +8836,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "검사 장비·부품",
-     "score": 3.98,
+     "score": 3.95,
      "classifications": [
       {
        "topic": "AI 반도체",
@@ -8834,7 +8939,7 @@
      "theme": "HBM·반도체",
      "tier": 2,
      "stage": "",
-     "score": 2.77,
+     "score": 2.75,
      "via": "SK하이닉스",
      "via_type": "고객사"
     }
@@ -9427,7 +9532,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "메모리 제조",
-     "score": 3.6,
+     "score": 3.57,
      "classifications": [
       {
        "topic": "HBM 수요 확대",
@@ -9816,7 +9921,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "하이브리드 본딩",
-     "score": 1.78,
+     "score": 1.77,
      "classifications": [
       {
        "topic": "반도체",
@@ -10077,7 +10182,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "",
-     "score": 5.49,
+     "score": 5.44,
      "classifications": [
       {
        "topic": "2차전지",
@@ -10277,7 +10382,7 @@
      "theme": "바이오·제약",
      "tier": 1,
      "stage": "바이오의약품 생산",
-     "score": 7.37,
+     "score": 7.32,
      "classifications": [
       {
        "topic": "바이오·제약",
@@ -10632,7 +10737,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "패키지기판",
-     "score": 11.91,
+     "score": 11.82,
      "classifications": [
       {
        "topic": "AI 반도체",
@@ -10848,7 +10953,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "메모리 제조",
-     "score": 3.79,
+     "score": 3.76,
      "classifications": [
       {
        "topic": "반도체",
@@ -11055,7 +11160,7 @@
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "해상 SMR(조선)",
-     "score": 1.77,
+     "score": 1.75,
      "classifications": [
       {
        "topic": "SMR 상용화",
@@ -11245,7 +11350,7 @@
      "theme": "디스플레이",
      "tier": 1,
      "stage": "제조 장비",
-     "score": 4.43,
+     "score": 4.4,
      "classifications": [
       {
        "topic": "디스플레이",
@@ -11487,7 +11592,7 @@
      "theme": "바이오·제약",
      "tier": 1,
      "stage": "바이오의약품 제품",
-     "score": 1.47,
+     "score": 1.45,
      "classifications": [
       {
        "topic": "바이오·제약",
@@ -12330,7 +12435,7 @@
      "theme": "화장품·미용",
      "tier": 1,
      "stage": "화장품 제조·판매",
-     "score": 0.96,
+     "score": 0.95,
      "classifications": [
       {
        "topic": "화장품·미용",
@@ -12536,7 +12641,7 @@
      "theme": "방산",
      "tier": 1,
      "stage": "센서·부품",
-     "score": 3.98,
+     "score": 3.95,
      "classifications": [
       {
        "topic": "방산",
@@ -12682,7 +12787,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "제조 장비",
-     "score": 3.95,
+     "score": 3.92,
      "classifications": [
       {
        "topic": "2차전지",
@@ -12757,7 +12862,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "하이브리드 본딩",
-     "score": 3.72,
+     "score": 3.69,
      "classifications": [
       {
        "topic": "반도체",
@@ -12948,7 +13053,7 @@
      "theme": "2차전지",
      "tier": 2,
      "stage": "",
-     "score": 2.2,
+     "score": 2.19,
      "via": "포스코퓨처엠",
      "via_type": "공급사"
     }
@@ -13230,7 +13335,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "양극재",
-     "score": 2.73,
+     "score": 2.71,
      "classifications": [
       {
        "topic": "2차전지",
@@ -13390,7 +13495,7 @@
      "theme": "2차전지",
      "tier": 2,
      "stage": "",
-     "score": 1.65,
+     "score": 1.63,
      "via": "삼성SDI",
      "via_type": "피출자"
     },
@@ -13511,7 +13616,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "양극재",
-     "score": 6.56,
+     "score": 6.51,
      "classifications": [
       {
        "topic": "2차전지",
@@ -14023,7 +14128,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "검사 장비·부품",
-     "score": 1.31,
+     "score": 1.3,
      "classifications": [
       {
        "topic": "AI 반도체",
@@ -14242,7 +14347,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "공정 모니터링",
-     "score": 8.41,
+     "score": 8.35,
      "classifications": [
       {
        "topic": "반도체",
@@ -14689,7 +14794,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "전고체 원료",
-     "score": 0.88,
+     "score": 0.87,
      "classifications": [
       {
        "topic": "2차전지",
@@ -14879,7 +14984,7 @@
      "theme": "방산",
      "tier": 1,
      "stage": "",
-     "score": 3.92,
+     "score": 3.89,
      "classifications": [
       {
        "topic": "방산",
@@ -15133,7 +15238,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "제조 장비",
-     "score": 3.92,
+     "score": 3.89,
      "classifications": [
       {
        "topic": "2차전지",
@@ -15213,7 +15318,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "제조 장비",
-     "score": 9.82,
+     "score": 9.74,
      "classifications": [
       {
        "topic": "2차전지",
@@ -16057,7 +16162,7 @@
      "theme": "방산",
      "tier": 1,
      "stage": "센서·부품",
-     "score": 4.81,
+     "score": 4.77,
      "classifications": [
       {
        "topic": "방산",
@@ -16144,7 +16249,7 @@
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "원전 설비·장비",
-     "score": 1.32,
+     "score": 1.31,
      "classifications": [
       {
        "topic": "원전·SMR",
@@ -16692,7 +16797,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "검사 장비·부품",
-     "score": 1.31,
+     "score": 1.3,
      "classifications": [
       {
        "topic": "반도체",
@@ -17202,7 +17307,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "양극재",
-     "score": 7.35,
+     "score": 7.29,
      "classifications": [
       {
        "topic": "2차전지",
@@ -17556,7 +17661,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "제조 장비",
-     "score": 4.84,
+     "score": 4.81,
      "classifications": [
       {
        "topic": "2차전지",
@@ -17658,7 +17763,7 @@
      "theme": "2차전지",
      "tier": 1,
      "stage": "",
-     "score": 8.38,
+     "score": 8.31,
      "classifications": [
       {
        "topic": "2차전지",
@@ -18097,7 +18202,7 @@
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "해외 원전사업",
-     "score": 8.91,
+     "score": 8.85,
      "classifications": [
       {
        "topic": "원전·SMR",
@@ -18412,7 +18517,7 @@
      "theme": "방산",
      "tier": 2,
      "stage": "",
-     "score": 1.22,
+     "score": 1.21,
      "via": "LIG디펜스앤에어로스페이스",
      "via_type": "공급사"
     },
@@ -18494,7 +18599,7 @@
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "사업개발·투자",
-     "score": 2.67,
+     "score": 2.65,
      "classifications": [
       {
        "topic": "SMR 상용화",
@@ -18608,7 +18713,7 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "후공정 장비",
-     "score": 9.91,
+     "score": 9.83,
      "classifications": [
       {
        "topic": "반도체",
@@ -19016,7 +19121,7 @@
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "설계",
-     "score": 6.19,
+     "score": 6.14,
      "classifications": [
       {
        "topic": "원전·SMR",
@@ -19578,7 +19683,7 @@
      "theme": "방산",
      "tier": 1,
      "stage": "지상 무기체계",
-     "score": 3.6,
+     "score": 3.57,
      "classifications": [
       {
        "topic": "방산",
@@ -19635,7 +19740,7 @@
      "theme": "조선·해운",
      "tier": 2,
      "stage": "",
-     "score": 0.59,
+     "score": 0.58,
      "via": "한화오션",
      "via_type": "출자"
     }
@@ -19818,7 +19923,7 @@
      "theme": "방산",
      "tier": 1,
      "stage": "",
-     "score": 1.77,
+     "score": 1.75,
      "classifications": [
       {
        "topic": "방산",
@@ -19845,7 +19950,7 @@
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "해상 SMR(조선)",
-     "score": 1.77,
+     "score": 1.75,
      "classifications": [
       {
        "topic": "SMR 상용화",
@@ -19872,7 +19977,7 @@
      "theme": "조선·해운",
      "tier": 1,
      "stage": "조선",
-     "score": 1.97,
+     "score": 1.95,
      "classifications": [
       {
        "topic": "조선·해운",
@@ -20180,7 +20285,7 @@
      "theme": "건설·인프라",
      "tier": 1,
      "stage": "설계·시공",
-     "score": 2.8,
+     "score": 2.78,
      "classifications": [
       {
        "topic": "건설·인프라",
@@ -20207,7 +20312,7 @@
      "theme": "원전·SMR",
      "tier": 1,
      "stage": "사용후핵연료 처분",
-     "score": 3.69,
+     "score": 3.66,
      "classifications": [
       {
        "topic": "원전·SMR",
@@ -20537,7 +20642,7 @@
      "theme": "방산",
      "tier": 1,
      "stage": "추진기관",
-     "score": 1.82,
+     "score": 1.8,
      "classifications": [
       {
        "topic": "방산",
@@ -21161,7 +21266,7 @@
      "theme": "자동차·부품",
      "tier": 1,
      "stage": "완성차",
-     "score": 0.96,
+     "score": 0.95,
      "classifications": [
       {
        "topic": "자동차·부품",
@@ -24197,6 +24302,68 @@
    }
   },
   {
+   "source": "CG인바이츠",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "항암백신",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 자료는 유전체 분석, 개인맞춤형 항암백신, 디지털치료기기와 의약품 파이프라인 사업을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.cginvites.com/Vaccine",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "CG인바이츠",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "디지털치료기기",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 자료는 유전체 분석, 개인맞춤형 항암백신, 디지털치료기기와 의약품 파이프라인 사업을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.cginvites.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "CJ CGV",
    "target": "콘텐츠·엔터테인먼트",
    "type": "테마",
@@ -24887,7 +25054,7 @@
    "type": "테마",
    "tier": 2,
    "stage": "",
-   "score": 0.27,
+   "score": 0.26,
    "evidence": [],
    "classifications": [],
    "presentation": {
@@ -24902,7 +25069,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "해상 SMR(조선)",
-   "score": 1.77,
+   "score": 1.75,
    "evidence": [
     {
      "date": "2026-10-01",
@@ -24943,7 +25110,7 @@
    "type": "테마",
    "tier": 2,
    "stage": "",
-   "score": 1.33,
+   "score": 1.32,
    "evidence": [],
    "classifications": [],
    "presentation": {
@@ -25081,7 +25248,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "함정",
-   "score": 0.89,
+   "score": 0.88,
    "evidence": [
     {
      "date": "2026-10-02",
@@ -25122,7 +25289,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "",
-   "score": 2.74,
+   "score": 2.72,
    "evidence": [
     {
      "date": "2026-10-07",
@@ -25173,7 +25340,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "조선·해양 기자재",
-   "score": 4.43,
+   "score": 4.4,
    "evidence": [
     {
      "date": "2026-10-15",
@@ -25339,7 +25506,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "해상 운송",
-   "score": 4.43,
+   "score": 4.4,
    "evidence": [
     {
      "date": "2026-10-15",
@@ -25470,7 +25637,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "전력반도체 후공정",
-   "score": 4.41,
+   "score": 4.37,
    "evidence": [
     {
      "date": "2026-10-01",
@@ -25701,7 +25868,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "시스템 구축·운영",
-   "score": 4.43,
+   "score": 4.4,
    "evidence": [
     {
      "date": "2026-10-15",
@@ -25742,7 +25909,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "배터리",
-   "score": 7.28,
+   "score": 7.23,
    "evidence": [
     {
      "date": "2026-10-14",
@@ -26093,7 +26260,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "유도무기",
-   "score": 4.08,
+   "score": 4.05,
    "evidence": [
     {
      "date": "2026-10-13",
@@ -26254,7 +26421,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "데이터센터 인프라",
-   "score": 1.04,
+   "score": 1.03,
    "evidence": [
     {
      "date": "2026-07-24",
@@ -26787,7 +26954,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "메모리 제조",
-   "score": 9.24,
+   "score": 9.17,
    "evidence": [
     {
      "date": "2026-10-16",
@@ -27185,7 +27352,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "소재 공장 설비",
-   "score": 2.63,
+   "score": 2.61,
    "evidence": [
     {
      "date": "2026-09-30",
@@ -27450,7 +27617,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "검사 장비·부품",
-   "score": 1.3,
+   "score": 1.29,
    "evidence": [
     {
      "date": "2026-09-28",
@@ -27781,7 +27948,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "건축·토목",
-   "score": 4.47,
+   "score": 4.43,
    "evidence": [
     {
      "date": "2026-10-16",
@@ -28005,7 +28172,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "항공 운송",
-   "score": 1.48,
+   "score": 1.47,
    "evidence": [
     {
      "date": "2026-10-15",
@@ -28288,7 +28455,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "원전·SMR 사업",
-   "score": 1.19,
+   "score": 1.18,
    "evidence": [
     {
      "date": "2026-09-17",
@@ -28479,7 +28646,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "검사 장비·부품",
-   "score": 3.98,
+   "score": 3.95,
    "evidence": [
     {
      "date": "2026-10-01",
@@ -28578,7 +28745,7 @@
    "type": "테마",
    "tier": 2,
    "stage": "",
-   "score": 2.77,
+   "score": 2.75,
    "evidence": [],
    "classifications": [],
    "presentation": {
@@ -28866,7 +29033,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "메모리 제조",
-   "score": 3.6,
+   "score": 3.57,
    "evidence": [
     {
      "date": "2026-10-06",
@@ -29103,7 +29270,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "하이브리드 본딩",
-   "score": 1.78,
+   "score": 1.77,
    "evidence": [
     {
      "date": "2026-10-02",
@@ -29235,7 +29402,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "",
-   "score": 5.49,
+   "score": 5.44,
    "evidence": [
     {
      "date": "2026-10-07",
@@ -29372,7 +29539,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "바이오의약품 생산",
-   "score": 7.37,
+   "score": 7.32,
    "evidence": [
     {
      "date": "2026-10-16",
@@ -29574,7 +29741,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "패키지기판",
-   "score": 11.91,
+   "score": 11.82,
    "evidence": [
     {
      "date": "2026-10-06",
@@ -29694,7 +29861,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "메모리 제조",
-   "score": 3.79,
+   "score": 3.76,
    "evidence": [
     {
      "date": "2026-10-13",
@@ -29843,7 +30010,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "해상 SMR(조선)",
-   "score": 1.77,
+   "score": 1.75,
    "evidence": [
     {
      "date": "2026-10-01",
@@ -29945,7 +30112,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "제조 장비",
-   "score": 4.43,
+   "score": 4.4,
    "evidence": [
     {
      "date": "2026-10-15",
@@ -30077,7 +30244,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "바이오의약품 제품",
-   "score": 1.47,
+   "score": 1.45,
    "evidence": [
     {
      "date": "2026-10-14",
@@ -30542,7 +30709,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "화장품 제조·판매",
-   "score": 0.96,
+   "score": 0.95,
    "evidence": [
     {
      "date": "2026-10-12",
@@ -30644,7 +30811,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "센서·부품",
-   "score": 3.98,
+   "score": 3.95,
    "evidence": [
     {
      "date": "2026-10-01",
@@ -30729,7 +30896,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "제조 장비",
-   "score": 3.95,
+   "score": 3.92,
    "evidence": [
     {
      "date": "2026-09-30",
@@ -30770,7 +30937,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "하이브리드 본딩",
-   "score": 3.72,
+   "score": 3.69,
    "evidence": [
     {
      "date": "2026-10-13",
@@ -30883,7 +31050,7 @@
    "type": "테마",
    "tier": 2,
    "stage": "",
-   "score": 2.2,
+   "score": 2.19,
    "evidence": [],
    "classifications": [],
    "presentation": {
@@ -31021,7 +31188,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "양극재",
-   "score": 2.73,
+   "score": 2.71,
    "evidence": [
     {
      "date": "2026-10-07",
@@ -31117,7 +31284,7 @@
    "type": "테마",
    "tier": 2,
    "stage": "",
-   "score": 1.65,
+   "score": 1.63,
    "evidence": [],
    "classifications": [],
    "presentation": {
@@ -31177,7 +31344,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "양극재",
-   "score": 6.56,
+   "score": 6.51,
    "evidence": [
     {
      "date": "2026-10-14",
@@ -31480,7 +31647,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "검사 장비·부품",
-   "score": 1.31,
+   "score": 1.3,
    "evidence": [
     {
      "date": "2026-09-29",
@@ -31626,7 +31793,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "공정 모니터링",
-   "score": 8.41,
+   "score": 8.35,
    "evidence": [
     {
      "date": "2026-10-16",
@@ -31858,7 +32025,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "전고체 원료",
-   "score": 0.88,
+   "score": 0.87,
    "evidence": [
     {
      "date": "2026-09-30",
@@ -31959,7 +32126,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "",
-   "score": 3.92,
+   "score": 3.89,
    "evidence": [
     {
      "date": "2026-09-29",
@@ -32092,7 +32259,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "제조 장비",
-   "score": 3.92,
+   "score": 3.89,
    "evidence": [
     {
      "date": "2026-09-29",
@@ -32148,7 +32315,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "제조 장비",
-   "score": 9.82,
+   "score": 9.74,
    "evidence": [
     {
      "date": "2026-10-14",
@@ -32617,7 +32784,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "센서·부품",
-   "score": 4.81,
+   "score": 4.77,
    "evidence": [
     {
      "date": "2026-10-02",
@@ -32668,7 +32835,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "원전 설비·장비",
-   "score": 1.32,
+   "score": 1.31,
    "evidence": [
     {
      "date": "2026-09-30",
@@ -32949,7 +33116,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "검사 장비·부품",
-   "score": 1.31,
+   "score": 1.3,
    "evidence": [
     {
      "date": "2026-09-29",
@@ -33249,7 +33416,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "양극재",
-   "score": 7.35,
+   "score": 7.29,
    "evidence": [
     {
      "date": "2026-10-14",
@@ -33483,7 +33650,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "제조 장비",
-   "score": 4.84,
+   "score": 4.81,
    "evidence": [
     {
      "date": "2026-10-07",
@@ -33534,7 +33701,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "",
-   "score": 8.38,
+   "score": 8.31,
    "evidence": [
     {
      "date": "2026-10-14",
@@ -33772,7 +33939,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "해외 원전사업",
-   "score": 8.91,
+   "score": 8.85,
    "evidence": [
     {
      "date": "2026-10-15",
@@ -34002,7 +34169,7 @@
    "type": "테마",
    "tier": 2,
    "stage": "",
-   "score": 1.22,
+   "score": 1.21,
    "evidence": [],
    "classifications": [],
    "presentation": {
@@ -34047,7 +34214,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "사업개발·투자",
-   "score": 2.67,
+   "score": 2.65,
    "evidence": [
     {
      "date": "2026-10-02",
@@ -34102,7 +34269,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "후공정 장비",
-   "score": 9.91,
+   "score": 9.83,
    "evidence": [
     {
      "date": "2026-10-14",
@@ -34353,7 +34520,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "설계",
-   "score": 6.19,
+   "score": 6.14,
    "evidence": [
     {
      "date": "2026-10-15",
@@ -34650,7 +34817,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "지상 무기체계",
-   "score": 3.6,
+   "score": 3.57,
    "evidence": [
     {
      "date": "2026-10-06",
@@ -34755,7 +34922,7 @@
    "type": "테마",
    "tier": 2,
    "stage": "",
-   "score": 0.59,
+   "score": 0.58,
    "evidence": [],
    "classifications": [],
    "presentation": {
@@ -34801,7 +34968,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "",
-   "score": 1.77,
+   "score": 1.75,
    "evidence": [
     {
      "date": "2026-10-01",
@@ -34842,7 +35009,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "해상 SMR(조선)",
-   "score": 1.77,
+   "score": 1.75,
    "evidence": [
     {
      "date": "2026-10-01",
@@ -34883,7 +35050,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "조선",
-   "score": 1.97,
+   "score": 1.95,
    "evidence": [
     {
      "date": "2026-10-15",
@@ -34985,7 +35152,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "설계·시공",
-   "score": 2.8,
+   "score": 2.78,
    "evidence": [
     {
      "date": "2026-10-08",
@@ -35026,7 +35193,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "사용후핵연료 처분",
-   "score": 3.69,
+   "score": 3.66,
    "evidence": [
     {
      "date": "2026-10-08",
@@ -35228,7 +35395,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "추진기관",
-   "score": 1.82,
+   "score": 1.8,
    "evidence": [
     {
      "date": "2026-10-09",
@@ -35597,7 +35764,7 @@
    "type": "테마",
    "tier": 1,
    "stage": "완성차",
-   "score": 0.96,
+   "score": 0.95,
    "evidence": [
     {
      "date": "2026-10-12",
