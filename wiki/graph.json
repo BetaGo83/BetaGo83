@@ -20691,6 +20691,109 @@
    "issues": []
   },
   {
+   "id": "한화머시너리앤서비스홀딩스",
+   "type": "company",
+   "path": "companies/한화머시너리앤서비스홀딩스",
+   "summary": "한화모멘텀과 한화로보틱스 등 테크 계열사의 기계·설비 및 자동화 사업을 관리하는 지주회사",
+   "market": "KOSPI",
+   "ticker": "0220W0",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "한화머시너리앤서비스홀딩스 공식 사업소개는 한화모멘텀을 글로벌 기계·설비 산업을 선도하는 기업으로, 한화로보틱스를 자체 하드웨어·소프트웨어 기반 자동화 솔루션을 제공하는 기업으로 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://hanwhamachinerynserviceholdings.co.kr/page/hanwhamomentum.html",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "한화머시너리앤서비스홀딩스 공식 사업소개는 한화모멘텀을 글로벌 기계·설비 산업을 선도하는 기업으로, 한화로보틱스를 자체 하드웨어·소프트웨어 기반 자동화 솔루션을 제공하는 기업으로 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://hanwhamachinerynserviceholdings.co.kr/page/hanwharobotics.html",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "공작기계·산업용 로봇",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "한화머시너리앤서비스홀딩스 공식 사업소개는 한화모멘텀을 글로벌 기계·설비 산업을 선도하는 기업으로, 한화로보틱스를 자체 하드웨어·소프트웨어 기반 자동화 솔루션을 제공하는 기업으로 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://hanwhamachinerynserviceholdings.co.kr/page/hanwhamomentum.html",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "로봇·자동화",
+     "tier": 1,
+     "stage": "구동 모듈·소프트웨어",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "로봇·자동화",
+       "page": "로봇·자동화",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "한화머시너리앤서비스홀딩스 공식 사업소개는 한화모멘텀을 글로벌 기계·설비 산업을 선도하는 기업으로, 한화로보틱스를 자체 하드웨어·소프트웨어 기반 자동화 솔루션을 제공하는 기업으로 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://hanwhamachinerynserviceholdings.co.kr/page/hanwharobotics.html",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "한화비전",
    "type": "company",
    "path": "companies/한화비전",
@@ -36846,6 +36949,68 @@
       "https://www.hancom.com/ko",
       "https://shop.hancom.com/about/company",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "한화머시너리앤서비스홀딩스",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "공작기계·산업용 로봇",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "한화머시너리앤서비스홀딩스 공식 사업소개는 한화모멘텀을 글로벌 기계·설비 산업을 선도하는 기업으로, 한화로보틱스를 자체 하드웨어·소프트웨어 기반 자동화 솔루션을 제공하는 기업으로 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://hanwhamachinerynserviceholdings.co.kr/page/hanwhamomentum.html",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "한화머시너리앤서비스홀딩스",
+   "target": "로봇·자동화",
+   "type": "테마",
+   "tier": 1,
+   "stage": "구동 모듈·소프트웨어",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "한화머시너리앤서비스홀딩스 공식 사업소개는 한화모멘텀을 글로벌 기계·설비 산업을 선도하는 기업으로, 한화로보틱스를 자체 하드웨어·소프트웨어 기반 자동화 솔루션을 제공하는 기업으로 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://hanwhamachinerynserviceholdings.co.kr/page/hanwharobotics.html",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
