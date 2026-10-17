@@ -288,7 +288,8 @@
     "대형마트",
     "편의점·소매·전자상거래",
     "쇼핑몰 운영 기반",
-    "면세 유통"
+    "면세 유통",
+    "식자재 유통·푸드서비스"
    ]
   },
   {
@@ -312,7 +313,8 @@
    "stages": [
     "식품 가공·제품",
     "과자류",
-    "면류·스낵"
+    "면류·스낵",
+    "식자재 유통·단체급식"
    ]
   },
   {
@@ -1229,6 +1231,109 @@
      ]
     }
    ]
+  },
+  {
+   "id": "CJ프레시웨이",
+   "type": "company",
+   "path": "companies/CJ프레시웨이",
+   "summary": "식자재 유통·단체급식과 물류·푸드서비스 솔루션을 제공하는 식품 유통 기업",
+   "market": "KOSDAQ",
+   "ticker": "051500",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "음·식료품 및 담배 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 글로벌 식자재 유통, 단체급식, 푸드서비스 솔루션과 물류배송 인프라를 사업으로 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.cjfreshway.com/solution/company.jsp",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 글로벌 식자재 유통, 단체급식, 푸드서비스 솔루션과 물류배송 인프라를 사업으로 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.cjfreshway.com/solution/company.jsp",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "유통·전자상거래",
+     "tier": 1,
+     "stage": "식자재 유통·푸드서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "유통·전자상거래",
+       "page": "유통·전자상거래",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 자료에서 글로벌 식자재 유통, 단체급식, 푸드서비스 솔루션과 물류배송 인프라를 사업으로 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.cjfreshway.com/solution/company.jsp",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "식자재 유통·단체급식",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 자료에서 글로벌 식자재 유통, 단체급식, 푸드서비스 솔루션과 물류배송 인프라를 사업으로 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.cjfreshway.com/solution/company.jsp",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
   },
   {
    "id": "DB손해보험",
@@ -22765,6 +22870,68 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "CJ프레시웨이",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 1,
+   "stage": "식자재 유통·푸드서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 글로벌 식자재 유통, 단체급식, 푸드서비스 솔루션과 물류배송 인프라를 사업으로 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.cjfreshway.com/solution/company.jsp",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "CJ프레시웨이",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "식자재 유통·단체급식",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 글로벌 식자재 유통, 단체급식, 푸드서비스 솔루션과 물류배송 인프라를 사업으로 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.cjfreshway.com/solution/company.jsp",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
