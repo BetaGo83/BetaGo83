@@ -441,12 +441,13 @@
    "id": "철강·비철금속",
    "type": "theme",
    "path": "themes/철강·비철금속",
-   "summary": "철강재, 아연·연과 동 가공 소재",
+   "summary": "철강재·강관, 아연·연과 동 가공 소재",
    "category": "산업재·운송",
    "stages": [
     "철강",
     "비철금속 제련",
-    "비철금속 가공"
+    "비철금속 가공",
+    "강관"
    ]
   },
   {
@@ -8261,6 +8262,64 @@
      ]
     }
    ]
+  },
+  {
+   "id": "넥스틸",
+   "type": "company",
+   "path": "companies/넥스틸",
+   "summary": "OCTG·라인·일반 강관을 제조하는 철강 기업",
+   "market": "KOSPI",
+   "ticker": "092790",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "한국거래소 KIND 상장법인 목록은 넥스틸의 업종을 1차 철강 제조업, 주요제품을 OCTG Pipe·Line Pipe·Standard Pipe·일반관으로 기재한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "강관",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "한국거래소 KIND 상장법인 목록은 넥스틸의 업종을 1차 철강 제조업, 주요제품을 OCTG Pipe·Line Pipe·Standard Pipe·일반관으로 기재한다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
   },
   {
    "id": "넷마블",
@@ -30267,6 +30326,36 @@
     "label": "확인 중",
     "muted": false,
     "line_style": "dashed"
+   }
+  },
+  {
+   "source": "넥스틸",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "강관",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "한국거래소 KIND 상장법인 목록은 넥스틸의 업종을 1차 철강 제조업, 주요제품을 OCTG Pipe·Line Pipe·Standard Pipe·일반관으로 기재한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
    }
   },
   {
