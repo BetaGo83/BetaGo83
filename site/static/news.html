@@ -6,7 +6,7 @@
 <meta name="description" content="기업과 산업·테마별로 공개한 뉴스·공시 제목과 출처를 확인하는 목록">
 <title>뉴스 흐름 · 기업 관계 위키</title>
 <script src="./analytics.js?v=20261017-1" defer></script>
-<script src="./map-news.js?v=20261017-bok1" defer></script>
+<script src="./map-news.js?v=20261017-bok2" defer></script>
 <script src="./news-feed.js?v=20261017-watch1" defer></script>
 <script>
 try { var theme = localStorage.getItem("theme"); if (theme === "dark" || theme === "light") document.documentElement.setAttribute("data-theme", theme); } catch (e) {}
@@ -109,7 +109,7 @@ footer p { margin:5px 0; }
   <section class="snapshot" aria-label="자료 확인 범위">
     <dl><div><dt>마지막 수집</dt><dd id="collected">확인 중</dd></div><div><dt>수집 대상 기간</dt><dd id="coverage">확인 중</dd></div><div><dt>공개 목록 생성</dt><dd id="generated">확인 중</dd></div></dl>
     <p class="small" id="scope">화면이 보일 때 5분마다 새 게시본을 확인합니다. 실시간 속보 화면이 아닙니다.</p>
-    <p class="small">수집은 30분 간격입니다. 화면의 게시본 확인 주기와 수집 주기는 다릅니다.</p>
+    <p class="small">2026-10-17 시험 수집은 30분 간격(19:47 KST까지)입니다. 화면의 게시본 확인 주기와 수집 주기는 다릅니다.</p>
     <p class="small">RSS에 제공된 최근 제목과 최근 3일 접수 공시를 대상으로 합니다. 모든 매체·기사를 포함하지 않습니다.</p>
     <p class="small">출처가 한국은행인 항목은 기관 발표 자료입니다. 언론의 독립 보도와 구분해 확인하세요.</p>
     <div class="refresh-row"><span class="small" id="checked">브라우저 확인 전</span><button id="refresh" type="button">게시 자료 다시 확인</button></div>
@@ -167,7 +167,7 @@ window.addEventListener("DOMContentLoaded", function () {
       var u = new URL(raw);
       if (u.protocol !== "https:" || u.username || u.password || u.port || u.hash) return null;
       if (u.hostname === "dart.fss.or.kr" && u.pathname === "/dsaf001/main.do" && /^\?rcpNo=\d{14}$/.test(u.search)) return u.href;
-      var bok = /^https:\/\/www\.bok\.or\.kr\/portal\/bbs\/(P0000559|B0000501|B0000502)\/view\.do\?nttId=([0-9]{1,20})&menuNo=([0-9]{6})$/.exec(raw);
+      var bok = /^https:\/\/www\.bok\.or\.kr\/portal\/bbs\/(P0000559|B0000501|B0000502)\/view\.do\?nttId=([1-9][0-9]{0,19})&menuNo=([0-9]{6})$/.exec(raw);
       if (bok && BOK_MENUS[bok[1]] === bok[3]) return u.href;
       var pathOK = /(?:^|\.)hankyung\.com$/.test(u.hostname) ? /^\/article\/\d{13}$/.test(u.pathname)
         : /(?:^|\.)fnnews\.com$/.test(u.hostname) ? /^\/news\/\d{18}$/.test(u.pathname)

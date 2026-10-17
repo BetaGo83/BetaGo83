@@ -65,7 +65,7 @@
       requireValue(name === "DART" && url.hostname === "dart.fss.or.kr" && url.pathname === "/dsaf001/main.do"
         && /^\?rcpNo=[0-9]{14}$/.test(url.search), "Invalid disclosure URL");
     } else if (name === "한국은행") {
-      var bok = /^https:\/\/www\.bok\.or\.kr\/portal\/bbs\/(P0000559|B0000501|B0000502)\/view\.do\?nttId=([0-9]{1,20})&menuNo=([0-9]{6})$/.exec(value);
+      var bok = /^https:\/\/www\.bok\.or\.kr\/portal\/bbs\/(P0000559|B0000501|B0000502)\/view\.do\?nttId=([1-9][0-9]{0,19})&menuNo=([0-9]{6})$/.exec(value);
       requireValue(bok && BOK_MENUS[bok[1]] === bok[3], "Invalid institution URL");
     } else {
       var policy = Object.prototype.hasOwnProperty.call(SOURCES, name) && SOURCES[name];
