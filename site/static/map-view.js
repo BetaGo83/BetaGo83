@@ -48,7 +48,7 @@
     }
     function counts(n) { return result && result.byCompany[n.id] || { news: 0, disclosure: 0, items: [] }; }
     function isNews() { return ui.mode.value === "news" && !!result; }
-    function metricName() { return ui.metric.value === "news" ? "기사" : "공시"; }
+    function metricName() { return ui.metric.value === "news" ? "뉴스" : "공시"; }
     function inTheme(n) {
       if (graph.inScope) return graph.inScope(n);
       var theme = graph.getTheme();
@@ -92,7 +92,7 @@
         return;
       }
       var inside = docs.filter(matchesCurrent).length;
-      ui["new-status"].textContent = "이번 확인에서 새로 수집된 출처: 기사 " + docs.filter(function (d) { return d.kind === "news"; }).length
+      ui["new-status"].textContent = "이번 확인에서 새로 수집된 출처: 뉴스 " + docs.filter(function (d) { return d.kind === "news"; }).length
         + " · 공시 " + docs.filter(function (d) { return d.kind === "disclosure"; }).length
         + " · 현재 날짜·지표·탐색 범위 안 " + inside + " / 밖 " + (docs.length - inside) + ". 선택 날짜는 유지합니다.";
       var latest = docs.map(function (d) { return d.date; }).sort().pop();
@@ -123,8 +123,8 @@
       element("p", dateText(), box, "meta");
       var scopeIds = new Set(graph.nodes.filter(function (n) { return n.type === "company" && inTheme(n); }).map(function (n) { return n.id; }));
       var scoped = graph.inScope || graph.getTheme() ? result.documents.filter(function (d) { return d.companies.some(function (id) { return scopeIds.has(id); }); }) : result.documents;
-      element("p", "기사 " + scoped.filter(function (d) { return d.kind === "news"; }).length + " · 공시 " + scoped.filter(function (d) { return d.kind === "disclosure"; }).length, box, "counts");
-      element("p", graph.inScope ? "현재 탐색 범위에 포함된 기업의 전체 소식입니다. 주제별 기사 판정은 아닙니다." : graph.getTheme() ? "선택한 테마 소속 기업의 전체 소식입니다. 해당 테마만을 다룬 기사 수는 아닙니다." : "아래 수는 공개된 제목 목록 안에서만 비교합니다.", box, "meta");
+      element("p", "뉴스 " + scoped.filter(function (d) { return d.kind === "news"; }).length + " · 공시 " + scoped.filter(function (d) { return d.kind === "disclosure"; }).length, box, "counts");
+      element("p", graph.inScope ? "현재 탐색 범위에 포함된 기업의 전체 소식입니다. 주제별 뉴스 판정은 아닙니다." : graph.getTheme() ? "선택한 테마 소속 기업의 전체 소식입니다. 해당 테마만을 다룬 뉴스 수는 아닙니다." : "아래 수는 공개된 제목 목록 안에서만 비교합니다.", box, "meta");
       var ranked = graph.nodes.filter(function (n) { return n.type === "company" && inTheme(n) && counts(n)[ui.metric.value] > 0; })
         .sort(function (a, b) { return counts(b)[ui.metric.value] - counts(a)[ui.metric.value] || a.id.localeCompare(b.id, "ko"); }).slice(0, 10);
       var list = element("ol", null, box, "news-ranking");
@@ -145,19 +145,19 @@
       element("p", "조건에 맞는 등록 관계 상대 " + (counterpart[n.id] || 0) + "곳", box, "meta");
       if (!result || n.type === "external") { element("p", "이 점의 뉴스 집계 자료는 확인할 수 없습니다.", box, "meta"); return; }
       var c = counts(n);
-      element("p", "기사 " + c.news + " · 공시 " + c.disclosure, box, "counts");
+      element("p", "뉴스 " + c.news + " · 공시 " + c.disclosure, box, "counts");
       element("p", dateText(), box, "meta");
       var value = isNews() ? c[ui.metric.value] : counterpart[n.id] || 0;
       if (MapNews.radius(value, ui.scale.value) >= 30) element("p", "점 크기에 표시 상한이 적용되었습니다.", box, "meta");
       element("p", "제목 기준 연결 · 사건 수 미집계 · 급증 비교 자료 부족", box, "meta");
       var shownItems = c.items.slice().sort(MapNews.compareDocuments).slice(0, 8);
       element("p", "선택 기간 전체 " + c.items.length + "개 중 " + shownItems.length + "개 표시 · " + (c.items.length - shownItems.length) + "개 생략", box, "meta");
-      element("p", "기사는 제공일·시각순, 공시는 접수일순입니다. 같은 접수일의 공시는 첫 수집 확인순이며 접수 시각이 아닙니다.", box, "meta");
+      element("p", "뉴스는 제공일·시각순, 공시는 접수일순입니다. 같은 접수일의 공시는 첫 수집 확인순이며 접수 시각이 아닙니다.", box, "meta");
       var list = element("ul", null, box);
       shownItems.forEach(function (d) {
         var row = element("li", null, list);
         var a = element("a", d.title, row); a.href = d.url; a.target = "_blank"; a.rel = "noopener noreferrer";
-        element("div", d.date + " · " + d.source + (d.kind === "disclosure" ? " · 공시 접수일" : " · 기사 제공일"), row, "meta");
+        element("div", d.date + " · " + d.source + (d.kind === "disclosure" ? " · 공시 접수일" : d.source === "한국은행" ? " · 기관 자료 제목 · 기관 제공일" : " · 기사 제공일"), row, "meta");
         element("div", d.observedAt ? "첫 수집 확인 " + browserClock.format(new Date(d.observedAt)) + " KST" : "첫 수집 시각 기록 없음", row, "meta");
       });
       if (!c.items.length) element("p", "선택 기간의 공개 목록에서 찾은 제목이 없습니다. 수집 범위 밖의 자료는 알 수 없습니다.", box, "meta");
@@ -166,7 +166,7 @@
       allItems.target = "_top";
       var history = result.days.map(function (day) {
         var docs = c.items.filter(function (d) { return d.date === day.date; });
-        return day.date.slice(5) + " 기사 " + docs.filter(function (d) { return d.kind === "news"; }).length + " / 공시 " + docs.filter(function (d) { return d.kind === "disclosure"; }).length;
+        return day.date.slice(5) + " 뉴스 " + docs.filter(function (d) { return d.kind === "news"; }).length + " / 공시 " + docs.filter(function (d) { return d.kind === "disclosure"; }).length;
       });
       var disclosure = element("details", null, box);
       element("summary", "날짜별 보유 제목 수", disclosure);
@@ -181,8 +181,8 @@
         if (data.generatedAt) text += " · 공개본 생성 " + data.generatedAt.replace("T", " ").replace("+09:00", " KST");
         if (checkedAt) text += " · 브라우저 확인 " + browserClock.format(new Date(checkedAt)) + " KST";
         text += " · " + dateText();
-        text += " · 선택 기간의 공개 출처 기사 " + result.totals.news + " / 공시 " + result.totals.disclosure;
-        text += " · 정적 게시본 · 버튼으로 새 게시본 확인";
+        text += " · 선택 기간의 공개 출처 뉴스 " + result.totals.news + " / 공시 " + result.totals.disclosure;
+        text += " · 화면 표시 중 5분마다 새 게시본 확인 · 날짜 재생 중 확인 대기";
         if (data.partial) text += " · 수집 범위 일부 미확인";
         if (data.note) text += " · " + data.note;
         if (Date.now() - Date.parse(data.collectedAt) > 48 * 3600000) text += " · 수집 후 48시간 경과";
@@ -210,7 +210,7 @@
         n.badge.textContent = result && n.type === "company" ? c[ui.metric.value] : "";
         n.g.classList.toggle("hollow", value === 0);
         n.g.classList.toggle("zero-badge", !result || c[ui.metric.value] === 0);
-        n.g.setAttribute("aria-label", n.id + " · 등록 상대 " + (counterpart[n.id] || 0) + (result && n.type === "company" ? " · 공개 목록 기사 " + c.news + " · 공시 " + c.disclosure : " · 뉴스 집계 미확인"));
+        n.g.setAttribute("aria-label", n.id + " · 등록 상대 " + (counterpart[n.id] || 0) + (result && n.type === "company" ? " · 공개 목록 뉴스 " + c.news + " · 공시 " + c.disclosure : " · 뉴스 집계 미확인"));
       });
       ui["encoding"].textContent = "크기: " + (isNews() ? "공개 목록의 " + metricName() + " 수" : "등록 관계의 서로 다른 상대 수") + " · " + (ui.scale.value === "log" ? "로그 압축 척도" : "면적 비례 척도") + " · 숫자: " + metricName() + " 수 · 점선 링: 급증 비교 자료 부족 · 색 있는 선: 기존 관계";
       message(); graph.applyFilter(); graph.position();
@@ -273,7 +273,7 @@
           pulseObserved();
           if (!change.newlyObserved.length) setState(change.reason === "same-collection" ? "같은 수집본 · 새로 수집 확인 없음" : "게시본 확인 · 새 수집 시각이 확인된 출처 없음");
         }
-      } catch (e) { failed = true; message(); }
+      } catch (e) { if (!request.signal.aborted) { failed = true; message(); } }
       finally { request = null; loading = false; ui.refresh.disabled = false; ui.play.disabled = !data; }
     }
     ["mode", "metric", "scale", "active", "days"].forEach(function (key) { ui[key].addEventListener("change", function () {
@@ -285,7 +285,7 @@
       if (!validDate(ui.date.value) || data && (ui.date.value < ui.date.min || ui.date.value > ui.date.max)) { ui.date.value = data && data.maxDate || ""; }
       stop(); graph.clear(); render();
     });
-    ui.play.addEventListener("click", play); ui.refresh.addEventListener("click", refresh); ui.fit.addEventListener("click", graph.fit);
+    ui.play.addEventListener("click", play); ui.refresh.addEventListener("click", function () { watcher.check(); }); ui.fit.addEventListener("click", graph.fit);
     ui["new-date"].addEventListener("click", function () {
       var day = ui["new-date"].dataset.date;
       if (!data || !day) return;
@@ -295,8 +295,9 @@
     function reduceChanged() { ui.motion.checked = reduced.matches; stop(); render(); }
     if (reduced.addEventListener) reduced.addEventListener("change", reduceChanged);
     document.addEventListener("visibilitychange", function () { if (document.hidden) stop("재생 정지 · 다른 화면으로 이동"); });
-    window.addEventListener("pagehide", function () { stop(); if (request) request.abort(); });
-    render(); refresh();
+    window.addEventListener("pagehide", function () { stop(); });
+    var watcher = NewsFeed.watch({ refresh: refresh, abort: function () { if (request) request.abort(); }, shouldSkip: function () { return playing || loading; } });
+    render(); watcher.check();
     return {
       isVisible: visible, showDetails: details,
       navigationState: function () {

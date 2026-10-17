@@ -5,6 +5,7 @@
 })(typeof window !== "undefined" ? window : globalThis, function () {
   "use strict";
   var DAY = 86400000;
+  var BOK_MENUS = { P0000559: "200690", B0000501: "201264", B0000502: "201265" };
   var SOURCES = {
     "한국경제": { hosts: ["hankyung.com", "www.hankyung.com"], path: /^\/article\/[0-9]{8,30}$/ },
     "파이낸셜뉴스": { hosts: ["fnnews.com", "www.fnnews.com"], path: /^\/news\/[0-9]{8,30}$/ },
@@ -63,6 +64,9 @@
     if (kind === "disclosure") {
       requireValue(name === "DART" && url.hostname === "dart.fss.or.kr" && url.pathname === "/dsaf001/main.do"
         && /^\?rcpNo=[0-9]{14}$/.test(url.search), "Invalid disclosure URL");
+    } else if (name === "한국은행") {
+      var bok = /^https:\/\/www\.bok\.or\.kr\/portal\/bbs\/(P0000559|B0000501|B0000502)\/view\.do\?nttId=([0-9]{1,20})&menuNo=([0-9]{6})$/.exec(value);
+      requireValue(bok && BOK_MENUS[bok[1]] === bok[3], "Invalid institution URL");
     } else {
       var policy = Object.prototype.hasOwnProperty.call(SOURCES, name) && SOURCES[name];
       requireValue(policy && policy.hosts.indexOf(url.hostname) >= 0 && policy.path.test(url.pathname) && !url.search, "Invalid news URL");

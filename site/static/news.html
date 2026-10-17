@@ -6,8 +6,8 @@
 <meta name="description" content="기업과 산업·테마별로 공개한 뉴스·공시 제목과 출처를 확인하는 목록">
 <title>뉴스 흐름 · 기업 관계 위키</title>
 <script src="./analytics.js?v=20261017-1" defer></script>
-<script src="./map-news.js?v=20261016-coverage1" defer></script>
-<script src="./news-feed.js?v=20261016-observed1" defer></script>
+<script src="./map-news.js?v=20261017-bok1" defer></script>
+<script src="./news-feed.js?v=20261017-watch1" defer></script>
 <script>
 try { var theme = localStorage.getItem("theme"); if (theme === "dark" || theme === "light") document.documentElement.setAttribute("data-theme", theme); } catch (e) {}
 </script>
@@ -108,8 +108,10 @@ footer p { margin:5px 0; }
   <p class="intro">뉴스와 공시의 제목·출처를 최신순으로 살펴보세요. 제목에 나온 기업이나 검색 주제로 묶은 목록이며, 기업 사이의 거래나 사업 관계를 확정한 자료는 아닙니다.</p>
   <section class="snapshot" aria-label="자료 확인 범위">
     <dl><div><dt>마지막 수집</dt><dd id="collected">확인 중</dd></div><div><dt>수집 대상 기간</dt><dd id="coverage">확인 중</dd></div><div><dt>공개 목록 생성</dt><dd id="generated">확인 중</dd></div></dl>
-    <p class="small" id="scope">게시된 목록을 한 번 불러옵니다. 자동으로 갱신되는 실시간 화면이 아닙니다.</p>
+    <p class="small" id="scope">화면이 보일 때 5분마다 새 게시본을 확인합니다. 실시간 속보 화면이 아닙니다.</p>
+    <p class="small">수집은 30분 간격입니다. 화면의 게시본 확인 주기와 수집 주기는 다릅니다.</p>
     <p class="small">RSS에 제공된 최근 제목과 최근 3일 접수 공시를 대상으로 합니다. 모든 매체·기사를 포함하지 않습니다.</p>
+    <p class="small">출처가 한국은행인 항목은 기관 발표 자료입니다. 언론의 독립 보도와 구분해 확인하세요.</p>
     <div class="refresh-row"><span class="small" id="checked">브라우저 확인 전</span><button id="refresh" type="button">게시 자료 다시 확인</button></div>
     <p class="small" id="collection-change" role="status" hidden></p>
   </section>
@@ -141,6 +143,7 @@ window.addEventListener("DOMContentLoaded", function () {
   var PAGE_SIZE = 40, MAX_ITEMS = 300;
   var PUBLIC_ROOT = "https://betago83.github.io/BetaGo83/";
   var NEWS_HOSTS = ["www.hankyung.com", "hankyung.com", "www.fnnews.com", "fnnews.com", "www.etoday.co.kr", "etoday.co.kr"];
+  var BOK_MENUS = { P0000559:"200690", B0000501:"201264", B0000502:"201265" };
   var controls = ["search", "kind", "source", "company", "theme", "state"];
   var items = [], page = 0, feedPartial = false, skipped = 0, prepared = null, change = null, loading = false, request = null;
   var observedURLs = new Set();
@@ -157,13 +160,15 @@ window.addEventListener("DOMContentLoaded", function () {
   function text(value, max) { return typeof value === "string" && value.trim() && value.length <= max ? value.trim() : null; }
   function timestamp(value) { return typeof value === "string" && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}/.test(value) && Number.isFinite(Date.parse(value)) ? value : null; }
   function dateLabel(value) { return timestamp(value) ? clock.format(new Date(value)) + " KST" : "날짜 확인 실패"; }
-  function publishedLabel(value, kind) { return kind === "disclosure" ? calendar.format(new Date(value)) + " 공시 접수일" : dateLabel(value) + " · 기사 제공 시각"; }
+  function publishedLabel(value, kind, source) { return kind === "disclosure" ? calendar.format(new Date(value)) + " 공시 접수일" : dateLabel(value) + (source === "한국은행" ? " · 기관 제공 시각" : " · 기사 제공 시각"); }
   function sourceUrl(raw) {
     if (!text(raw, 4096) || /[\s\\\u0000-\u001f]/.test(raw)) return null;
     try {
       var u = new URL(raw);
       if (u.protocol !== "https:" || u.username || u.password || u.port || u.hash) return null;
       if (u.hostname === "dart.fss.or.kr" && u.pathname === "/dsaf001/main.do" && /^\?rcpNo=\d{14}$/.test(u.search)) return u.href;
+      var bok = /^https:\/\/www\.bok\.or\.kr\/portal\/bbs\/(P0000559|B0000501|B0000502)\/view\.do\?nttId=([0-9]{1,20})&menuNo=([0-9]{6})$/.exec(raw);
+      if (bok && BOK_MENUS[bok[1]] === bok[3]) return u.href;
       var pathOK = /(?:^|\.)hankyung\.com$/.test(u.hostname) ? /^\/article\/\d{13}$/.test(u.pathname)
         : /(?:^|\.)fnnews\.com$/.test(u.hostname) ? /^\/news\/\d{18}$/.test(u.pathname)
         : /(?:^|\.)etoday\.co\.kr$/.test(u.hostname) && /^\/news\/view\/\d{7}$/.test(u.pathname);
@@ -242,12 +247,13 @@ window.addEventListener("DOMContentLoaded", function () {
   function card(item, parent) {
     var row = element("li", null, parent), article = element("article", null, row);
     var meta = element("div", null, article, "item-meta");
-    element("span", item.kind === "news" ? "뉴스" : "공시", meta, "badge kind");
-    element("span", item.evidence + "만 확인", meta, "badge weak");
+    var institution = item.kind === "news" && item.sources.every(function (s) { return s.name === "한국은행"; });
+    element("span", institution ? "기관 자료" : item.kind === "news" ? "뉴스" : "공시", meta, "badge kind");
+    element("span", (institution ? "기관 자료 제목" : item.evidence) + "만 확인", meta, "badge weak");
     if (item.status !== "new") element("span", item.status === "followup" ? "후속 후보" : "정정 표시", meta, "badge followup");
     if (item.sources.some(function (source) { return observedURLs.has(source.url); })) element("span", "이번 확인에서 새로 수집", meta, "badge observed");
-    var time = element("time", publishedLabel(item.published_at, item.kind), meta); time.dateTime = item.published_at;
-    time.title = item.kind === "news" ? "기사 제공일" : "공시 접수일";
+    var time = element("time", publishedLabel(item.published_at, item.kind, item.sources[0].name), meta); time.dateTime = item.published_at;
+    time.title = institution ? "기관 제공일" : item.kind === "news" ? "기사 제공일" : "공시 접수일";
     link(element("h3", null, article), item.title, item.sources[0].url, true, "headline");
     if (item.grouping === "similar") element("p", "비슷한 제목 묶음 · 같은 사건인지 미확인", article, "group-note");
     else if (item.group_size > 1) element("p", "동일 제목의 발견 기록 " + item.group_size + "건을 모았습니다.", article, "group-note");
@@ -259,7 +265,7 @@ window.addEventListener("DOMContentLoaded", function () {
     var sources = element("ul", null, article, "source-list"); sources.setAttribute("aria-label", "제목 출처");
     item.sources.forEach(function (s) {
       var row = element("li", null, sources), source = link(row, s.name + " ↗", s.url, true);
-      source.title = "출처 열기 · " + publishedLabel(s.published_at, item.kind) + (s.observed_at ? " · 첫 수집 확인(보관 기록 기준) " + dateLabel(s.observed_at) : " · 처음 수집 시각 기록 없음");
+      source.title = "출처 열기 · " + publishedLabel(s.published_at, item.kind, s.name) + (s.observed_at ? " · 첫 수집 확인(보관 기록 기준) " + dateLabel(s.observed_at) : " · 처음 수집 시각 기록 없음");
       element("small", s.observed_at ? " · 첫 수집 확인 " + dateLabel(s.observed_at) : " · 첫 수집 시각 기록 없음", row);
     });
   }
@@ -314,7 +320,7 @@ window.addEventListener("DOMContentLoaded", function () {
     $("collection-change").hidden = !change;
     $("collected").textContent = dateLabel(data.collected_at); $("generated").textContent = dateLabel(data.generated_at);
     $("coverage").textContent = dateLabel(c.from) + " ~ " + dateLabel(c.to);
-    $("scope").textContent = "조회한 피드·공시 페이지 " + c.queries_total + "개 중 " + c.queries_ok + "개 확인 · 최근 " + (Number.isInteger(data.retention_days) && data.retention_days > 0 ? data.retention_days : 14) + "일 안의 공개 대상 · 최대 300건. 자동으로 갱신되는 실시간 화면이 아닙니다.";
+    $("scope").textContent = "조회한 피드·공시 페이지 " + c.queries_total + "개 중 " + c.queries_ok + "개 확인 · 최근 " + (Number.isInteger(data.retention_days) && data.retention_days > 0 ? data.retention_days : 14) + "일 안의 공개 대상 · 최대 300건. 화면이 보일 때 5분마다 새 게시본을 확인합니다. 실시간 속보 화면이 아닙니다.";
     feedPartial = c.partial || c.queries_ok < c.queries_total;
     if (Date.now() - Date.parse(data.collected_at) > 48 * 60 * 60 * 1000) addNotice("오래된 수집 자료입니다. 마지막 수집 후 48시간이 지났으며, 그 뒤의 뉴스와 공시는 반영되지 않았을 수 있습니다.");
     if (feedPartial) addNotice("일부 범위만 확인했습니다. 누락된 자료가 있을 수 있어 전체 뉴스량으로 해석할 수 없습니다.");
@@ -344,6 +350,7 @@ window.addEventListener("DOMContentLoaded", function () {
       }
       start(raw, incoming, diff);
     } catch (_) {
+      if (request.signal.aborted) return;
       $("notice").replaceChildren();
       if (prepared) addNotice("게시 자료를 다시 확인하지 못했습니다. 직전 정상 목록과 현재 필터를 유지합니다.");
       else {
@@ -352,8 +359,7 @@ window.addEventListener("DOMContentLoaded", function () {
       }
     } finally { request = null; loading = false; $("refresh").disabled = false; }
   }
-  $("refresh").addEventListener("click", refresh);
-  window.addEventListener("pagehide", function () { if (request) request.abort(); });
+  $("refresh").addEventListener("click", function () { watcher.check(); });
   if (window.location.protocol === "file:") {
     $("home").href = PUBLIC_ROOT; $("map").href = PUBLIC_ROOT + "static/map.html"; $("guide").href = PUBLIC_ROOT + "%EB%89%B4%EC%8A%A4-%ED%9D%90%EB%A6%84";
     $("collected").textContent = $("coverage").textContent = $("generated").textContent = "웹사이트에서 확인";
@@ -362,7 +368,8 @@ window.addEventListener("DOMContentLoaded", function () {
     $("refresh").disabled = true;
     return;
   }
-  refresh();
+  var watcher = NewsFeed.watch({ refresh:refresh, abort:function () { if (request) request.abort(); }, shouldSkip:function () { return loading; } });
+  watcher.check();
 });
 </script>
 </body>

@@ -6,11 +6,11 @@
 <title>기업 관계 지도</title>
 <meta name="description" content="뉴스와 공시로 정리한 기업 관계를 관계 종류별 색으로 보여 주는 지도">
 <link rel="stylesheet" href="./map-view.css?v=20261017-network1">
-<script src="./map-news.js?v=20261016-coverage1" defer></script>
-<script src="./news-feed.js?v=20261016-observed1" defer></script>
+<script src="./map-news.js?v=20261017-bok1" defer></script>
+<script src="./news-feed.js?v=20261017-watch1" defer></script>
 <script src="./map-scope.js?v=20261017-network1" defer></script>
 <script src="./map-overview.js?v=20261017-network1" defer></script>
-<script src="./map-view.js?v=20261017-week1" defer></script>
+<script src="./map-view.js?v=20261017-bok1" defer></script>
 <script>
   // 위키(Quartz)에서 고른 밝은/어두운 화면 설정을 따른다
   try { var t = localStorage.getItem("theme"); if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
@@ -142,10 +142,10 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
 <details id="map-options"><summary>점 크기·날짜·뉴스 설정</summary>
 <section id="map-tools" aria-label="점 크기와 뉴스 기간">
   <div class="map-toolbar">
-    <label>기업 점 크기 <select id="map-mode"><option value="relations">관계 상대 수</option><option value="news">기사·공시 수</option></select></label>
-    <label>기사·공시 지표
+    <label>기업 점 크기 <select id="map-mode"><option value="relations">관계 상대 수</option><option value="news">뉴스·공시 수</option></select></label>
+    <label>뉴스·공시 지표
       <select id="map-metric">
-        <option value="news">공개 기사 건수</option>
+        <option value="news">공개 뉴스 건수</option>
         <option value="disclosure">공개 공시 건수</option>
       </select>
     </label>
@@ -162,14 +162,15 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
     <span id="map-play-state" role="status">정적 게시본</span>
   </div>
   <p id="map-data-status" role="status">뉴스 자료를 확인하고 있습니다.</p>
+  <p>화면이 보일 때 5분마다 새 게시본을 확인합니다. 수집은 30분 간격이며, 날짜 재생 중에는 자동 확인을 쉽니다.</p>
   <div id="map-new-material" class="new-material" hidden>
     <p id="map-new-status" role="status"></p>
     <button id="map-new-date" type="button" hidden>새 자료 중 가장 최근 날짜로 보기</button>
   </div>
   <p id="map-encoding"></p>
   <details><summary>표시 기준과 수집 범위</summary>
-    <p>기사와 공시는 따로 셉니다. 이 수는 공개된 제목 목록 안의 고유 출처 수이며 시장 전체 보도량이 아닙니다. 기업·테마 분류는 제목 기준입니다. 테마를 고르면 그 테마에 속한 기업의 전체 소식을 보여 줍니다.</p>
-    <p>관계 크기는 종료·계획·제목만의 근거를 제외한 등록 관계의 상대 수입니다. 기간은 한국 날짜의 시작부터 마지막 날의 끝까지입니다. 기사는 매체 제공일, 공시는 접수일을 사용합니다.</p>
+    <p>뉴스(기사·기관 자료 포함)와 공시는 따로 셉니다. 이 수는 공개된 제목 목록 안의 고유 출처 수이며 시장 전체 보도량이 아닙니다. 기업·테마 분류는 제목 기준입니다. 테마를 고르면 그 테마에 속한 기업의 전체 소식을 보여 줍니다.</p>
+    <p>관계 크기는 종료·계획·제목만의 근거를 제외한 등록 관계의 상대 수입니다. 기간은 한국 날짜의 시작부터 마지막 날의 끝까지입니다. 뉴스는 출처 제공일, 공시는 접수일을 사용합니다.</p>
     <p>사건 수와 평소 대비 급증은 아직 계산하지 않습니다. 바깥 점선 테두리는 비교 이력이 부족하다는 뜻입니다. 재생 중 강조는 그 날짜의 보유 자료를 가리키며, 새로 들어온 속보라는 뜻이 아닙니다.</p>
     <p>게시 자료를 다시 확인했을 때 직전 목록 이후에 처음 수집한 출처가 확인되면 초록 테두리로 잠깐 강조합니다. 처음 열기·같은 자료 재조회·과거 날짜 재생은 이 신호를 만들지 않습니다. 선택한 날짜는 자동으로 바뀌지 않습니다.</p>
     <p>첫 수집 시각은 남아 있는 기록을 기준으로 합니다. 보관 한도를 지나 기록이 없어진 주소는 다시 받은 때가 표시될 수 있습니다.</p>

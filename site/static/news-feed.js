@@ -1,4 +1,4 @@
-/* One bounded request for the public headline snapshot. No polling or storage. */
+/* Bounded public snapshot requests and one visible-page check every five minutes. No storage. */
 (function (root, factory) {
   "use strict";
   if (typeof module === "object" && module.exports) module.exports = factory();
@@ -58,5 +58,41 @@
       if (reader) { try { reader.releaseLock(); } catch (_) {} }
     }
   }
-  return { read: read };
+  function watch(options) {
+    var timer = null, running = false, stopped = false, away = false;
+    function clear() { clearTimeout(timer); timer = null; }
+    function visible() { return !stopped && !away && !document.hidden; }
+    function schedule() {
+      clear();
+      if (visible() && !running) timer = setTimeout(function () { timer = null; check(true); }, 300000);
+    }
+    function check(automatic) {
+      if (!visible() || running) return Promise.resolve(false);
+      if (automatic && options.shouldSkip && options.shouldSkip()) { schedule(); return Promise.resolve(false); }
+      clear(); running = true;
+      var pending;
+      try { pending = options.refresh(); } catch (_) { pending = Promise.reject(_); }
+      function finish() { running = false; schedule(); }
+      // The caller renders its own success/error state. This scheduler never retries immediately.
+      return Promise.resolve(pending).then(function () { finish(); return true; }, function () { finish(); return false; });
+    }
+    function suspend() { clear(); if (running && options.abort) options.abort(); }
+    function visibility() { if (document.hidden) suspend(); else schedule(); }
+    function pagehide() { away = true; suspend(); }
+    function pageshow() { away = false; schedule(); }
+    document.addEventListener("visibilitychange", visibility);
+    window.addEventListener("pagehide", pagehide);
+    window.addEventListener("pageshow", pageshow);
+    schedule();
+    return {
+      check: function () { return check(false); },
+      stop: function () {
+        stopped = true; suspend();
+        document.removeEventListener("visibilitychange", visibility);
+        window.removeEventListener("pagehide", pagehide);
+        window.removeEventListener("pageshow", pageshow);
+      }
+    };
+  }
+  return { read: read, watch: watch };
 });
