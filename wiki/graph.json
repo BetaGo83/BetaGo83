@@ -394,7 +394,8 @@
     "전력기기",
     "전력기기·시스템",
     "송배전용 초고압 케이블",
-    "전력망 운영·정비"
+    "전력망 운영·정비",
+    "발전설비 운영·정비"
    ]
   },
   {
@@ -10925,6 +10926,66 @@
    "issues": []
   },
   {
+   "id": "아시아나항공",
+   "type": "company",
+   "path": "companies/아시아나항공",
+   "summary": "여객·화물 노선을 운영하는 글로벌 항공 운송 기업",
+   "market": "KOSPI",
+   "ticker": "020560",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "항공 여객 운송업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "항공·물류",
+     "page": "항공·물류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 국내·국제 여객 노선과 항공운수 사업을 운영하는 글로벌 항공사라고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://flyasiana.com/C/MN/KO/contents/overview",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "항공·물류",
+     "tier": 1,
+     "stage": "항공 운송",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "항공·물류",
+       "page": "항공·물류",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 자료에서 국내·국제 여객 노선과 항공운수 사업을 운영하는 글로벌 항공사라고 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://flyasiana.com/C/MN/KO/contents/overview",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "아이쓰리시스템",
    "type": "company",
    "path": "companies/아이쓰리시스템",
@@ -11292,6 +11353,66 @@
        "weak": false,
        "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "에스원",
+   "type": "company",
+   "path": "companies/에스원",
+   "summary": "물리보안·영상보안과 정보보안 서비스를 제공하는 종합 안심솔루션 기업",
+   "market": "KOSPI",
+   "ticker": "012750",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "경비, 경호 및 탐정업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "사이버보안",
+     "page": "사이버보안",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 물리보안·영상보안·출입관리와 정보보안 서비스를 운영한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.s1.co.kr/company/introduction/introduction",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "사이버보안",
+     "tier": 1,
+     "stage": "보안관리·관제",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "사이버보안",
+       "page": "사이버보안",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 자료에서 물리보안·영상보안·출입관리와 정보보안 서비스를 운영한다고 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.s1.co.kr/company/introduction/introduction",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
       }
@@ -17195,6 +17316,66 @@
      ]
     }
    ]
+  },
+  {
+   "id": "한전산업",
+   "type": "company",
+   "path": "companies/한전산업",
+   "summary": "발전설비 운전·정비와 전력사업 지원을 수행하는 전력서비스 기업",
+   "market": "KOSPI",
+   "ticker": "130660",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "건축기술, 엔지니어링 및 관련 기술 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "공식 공시에서 발전소 발전설비의 운전·정비(O&M)를 주로 수행하고 신재생에너지 분야로 사업을 확장한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/05/13/000974/20260513002140/11013.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "전력망·전력기기",
+     "tier": 1,
+     "stage": "발전설비 운영·정비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "전력망·전력기기",
+       "page": "전력망·전력기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "공식 공시에서 발전소 발전설비의 운전·정비(O&M)를 주로 수행하고 신재생에너지 분야로 사업을 확장한다고 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2026/05/13/000974/20260513002140/11013.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
   },
   {
    "id": "한컴",
@@ -27490,6 +27671,37 @@
    }
   },
   {
+   "source": "아시아나항공",
+   "target": "항공·물류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "항공 운송",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "항공·물류",
+     "page": "항공·물류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 국내·국제 여객 노선과 항공운수 사업을 운영하는 글로벌 항공사라고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://flyasiana.com/C/MN/KO/contents/overview",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "아이쓰리시스템",
    "target": "방산",
    "type": "테마",
@@ -27687,6 +27899,37 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "에스원",
+   "target": "사이버보안",
+   "type": "테마",
+   "tier": 1,
+   "stage": "보안관리·관제",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "사이버보안",
+     "page": "사이버보안",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 물리보안·영상보안·출입관리와 정보보안 서비스를 운영한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.s1.co.kr/company/introduction/introduction",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
@@ -31091,6 +31334,37 @@
     "label": "확인 중",
     "muted": false,
     "line_style": "dashed"
+   }
+  },
+  {
+   "source": "한전산업",
+   "target": "전력망·전력기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "발전설비 운영·정비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "공식 공시에서 발전소 발전설비의 운전·정비(O&M)를 주로 수행하고 신재생에너지 분야로 사업을 확장한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/05/13/000974/20260513002140/11013.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
    }
   },
   {
