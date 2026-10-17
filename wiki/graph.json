@@ -5087,6 +5087,68 @@
    "issues": []
   },
   {
+   "id": "HK이노엔",
+   "type": "company",
+   "path": "companies/HK이노엔",
+   "summary": "전문의약품과 바이오헬스 제품을 개발·생산하는 제약 기업",
+   "market": "KOSDAQ",
+   "ticker": "195940",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HK이노엔 공식 홈페이지와 전문의약품 제품 검색은 제약 사업과 전문의약품 제품군을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.inno-n.com/",
+      "http://www.inno-n.com/business/medicine/list?page_no=1&sort=desc&sch_cd=&sch_sub_cd=&sch_text=",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "HK이노엔 공식 홈페이지와 전문의약품 제품 검색은 제약 사업과 전문의약품 제품군을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.inno-n.com/",
+        "http://www.inno-n.com/business/medicine/list?page_no=1&sort=desc&sch_cd=&sch_sub_cd=&sch_text=",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "HL만도",
    "type": "company",
    "path": "companies/HL만도",
@@ -29702,6 +29764,38 @@
      "sources": [
       "https://www.hjsc.co.kr/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HK이노엔",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HK이노엔 공식 홈페이지와 전문의약품 제품 검색은 제약 사업과 전문의약품 제품군을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.inno-n.com/",
+      "http://www.inno-n.com/business/medicine/list?page_no=1&sort=desc&sch_cd=&sch_sub_cd=&sch_text=",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
