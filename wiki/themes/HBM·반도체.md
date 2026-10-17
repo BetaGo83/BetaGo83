@@ -26,7 +26,7 @@ category: "기술·디지털"
 - 공정 모니터링: [[위드텍]] ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930901244))
 - 패키지기판: [[삼성전기]] ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928800810)), [[대덕전자]] ([공식 사업자료](https://www.daeduck.com/ko/main.do))
 - 전력반도체 후공정: [[LB세미콘]] ([뉴스1](https://news.google.com/rss/articles/CBMiX0FVX3lxTE44WHhma09WNEhkMlF6NFhPV1JpRjdUSXpiN3BHclQwM0tDaVNJMmRBRElqN01CdEtnMHFpbG9JODgzOWd4M0V0alhJYU5HM3BOMnRUdlVLYk1vUGFNTHB30gFkQVVfeXFMTXhiRWVSbzA5c0t6OFFiWjJtblRGbHprdnNCYWpJZU9lRlZPdkw3NzFPRmVxcW5BZVJfVHdzNk5POUFRUTF1c3Jna19nTGl3c1pjazlMSjVLeXpmVmJzd2p3Ul9oRQ?oc=5))
-- 반도체 공정 소재: [[동진쎄미켐]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt)), [[솔브레인]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt))
+- 반도체 공정 소재: [[동진쎄미켐]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt)), [[솔브레인]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt)), [[OCI]] ([공식 사업자료](https://www.oci.co.kr/products/semiconductor/polysilicon))
 - 반도체 제조 장비: [[원익IPS]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt))
 - 반도체 클린룸: [[신성이엔지]] ([신성이엔지](https://shinsung.co.kr/))
 - 반도체 패키징: [[하나마이크론]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt))
@@ -42,6 +42,7 @@ category: "기술·디지털"
 | [[DB하이텍]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.dbhitek.com/kr/company/about), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[ISC]] | HBM·반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[LB세미콘]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage) |
+| [[OCI]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.oci.co.kr/), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[SK하이닉스]] | 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
 | [[SK하이닉스]] | AI 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
 | [[SK하이닉스]] | HBM 수요 확대 | 공시·거래소 확인 | 확인 | 2026-03-17 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000635) |
