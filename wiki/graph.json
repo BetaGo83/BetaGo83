@@ -1562,6 +1562,66 @@
    "issues": []
   },
   {
+   "id": "CJ 바이오사이언스",
+   "type": "company",
+   "path": "companies/CJ 바이오사이언스",
+   "summary": "AI 기반 마이크로바이옴 분석 플랫폼과 신약·생명정보 분석 서비스를 개발하는 바이오 기업",
+   "market": "KOSDAQ",
+   "ticker": "311690",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "자연과학 및 공학 연구개발업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "2026년 사업보고서는 AI 기반 마이크로바이옴 분석 플랫폼(Ez-Mx®)을 핵심 기술로 마이크로바이옴 신약 개발, 미생물 유전체 생명정보 분석 플랫폼·솔루션, 마이크로바이옴 기반 헬스앤웰니스 사업을 병행한다고 설명한다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/03/16/002777/20260316007803/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "2026년 사업보고서는 AI 기반 마이크로바이옴 분석 플랫폼(Ez-Mx®)을 핵심 기술로 마이크로바이옴 신약 개발, 미생물 유전체 생명정보 분석 플랫폼·솔루션, 마이크로바이옴 기반 헬스앤웰니스 사업을 병행한다고 설명한다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2026/03/16/002777/20260316007803/11011.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "CJ",
    "type": "company",
    "path": "companies/CJ",
@@ -25962,6 +26022,37 @@
      "weak": false,
      "sources": [
       "https://www.cjenm.com/en/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "CJ 바이오사이언스",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "2026년 사업보고서는 AI 기반 마이크로바이옴 분석 플랫폼(Ez-Mx®)을 핵심 기술로 마이크로바이옴 신약 개발, 미생물 유전체 생명정보 분석 플랫폼·솔루션, 마이크로바이옴 기반 헬스앤웰니스 사업을 병행한다고 설명한다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/03/16/002777/20260316007803/11011.htm",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
