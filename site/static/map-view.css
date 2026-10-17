@@ -23,6 +23,15 @@ svg.reduced-motion .node.newly-observed .replay-pulse { animation: none; }
 .node.hollow .node-body { fill: var(--bg) !important; stroke: var(--company-node); }
 svg.news-mode .node.company .node-body { fill: var(--supply); }
 svg.news-mode.disclosure-mode .node.company .node-body { fill: var(--invest); }
+svg.news-highlight-active .node.company.news-highlight-hit .node-body {
+  stroke: var(--focus); stroke-width: 3.5px; filter: drop-shadow(0 0 5px var(--focus));
+}
+svg.news-highlight-active .node.company.news-highlight-hit .attention-ring {
+  stroke: var(--focus) !important; stroke-width: 2.5px !important; stroke-dasharray: none; opacity: .95;
+}
+svg.news-highlight-active .node.company.news-highlight-hit text:not(.news-badge) { font-weight: 800; }
+svg.news-highlight-active .node.company.news-highlight-dim { opacity: .27; }
+svg.news-highlight-active .node.company.news-highlight-dim .news-badge { opacity: .35; }
 .node .news-badge { font-size: 10px; font-weight: 700; fill: var(--text); stroke: var(--bg); stroke-width: 2px; pointer-events: none; }
 svg.far .node:not(.theme):not(.hit) .news-badge { display: block; }
 svg.news-mode.far .node:not(.theme):not(.hit):not(.dim) text { display: block; }

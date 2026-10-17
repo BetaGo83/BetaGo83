@@ -154,10 +154,19 @@ html.embedded aside { width: auto; border-left: 0; border-top: 1px solid var(--l
         <option value="disclosure">공개 공시 건수</option>
       </select>
     </label>
+    <label>자료 수 강조 <select id="map-highlight">
+      <option value="0">강조 안 함</option>
+      <option value="1">1건 이상</option>
+      <option value="2">2건 이상</option>
+      <option value="3">3건 이상</option>
+      <option value="5">5건 이상</option>
+      <option value="10">10건 이상</option>
+    </select></label>
     <label>척도 <select id="map-scale"><option value="log">압축</option><option value="area">면적 비례</option></select></label>
     <label><input id="map-active" type="checkbox" checked> 뉴스 보기에서 자료 있는 기업만</label>
     <button id="map-fit" type="button">화면 맞춤</button>
   </div>
+  <p id="map-highlight-status" role="status" aria-live="polite"></p>
   <div class="map-toolbar">
     <label>자료 기준일 <input id="map-date" type="date" disabled></label>
     <label>기간 <select id="map-days" disabled><option value="1">하루</option><option value="7">7일</option><option value="14">14일</option></select></label>

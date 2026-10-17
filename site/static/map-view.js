@@ -19,7 +19,7 @@
     return state;
   }
   window.MapNewsView = { readViewState: readViewState, create: function (graph) {
-    var ids = ["mode", "metric", "scale", "active", "fit", "date", "days", "play", "motion", "refresh", "play-state", "data-status", "encoding", "new-material", "new-status", "new-date"];
+    var ids = ["mode", "metric", "scale", "highlight", "highlight-status", "active", "fit", "date", "days", "play", "motion", "refresh", "play-state", "data-status", "encoding", "new-material", "new-status", "new-date"];
     var ui = {};
     ids.forEach(function (id) { ui[id] = document.getElementById("map-" + id); });
     var data = null, result = null, playing = false, timer = null, pulseTimer = null;
@@ -56,6 +56,11 @@
     function counts(n) { return result && result.byCompany[n.id] || { news: 0, disclosure: 0, items: [] }; }
     function isNews() { return ui.mode.value === "news" && !!result; }
     function metricName() { return ui.metric.value === "news" ? "뉴스" : "공시"; }
+    function highlightMinimum() {
+      if (!ui.highlight) return 0;
+      var value = Number(ui.highlight.value);
+      return [0, 1, 2, 3, 5, 10].indexOf(value) >= 0 ? value : 0;
+    }
     function inTheme(n) {
       if (graph.inScope) return graph.inScope(n);
       var theme = graph.getTheme();
@@ -230,12 +235,18 @@
       if (archive && snapshot && aggregateKey !== selectionKey(snapshot)) {
         if (!loading) loadArchive(false);
       } else if (data && !archive) result = MapNews.aggregate(data, { endDate: ui.date.value, days: Number(ui.days.value) });
+      var minimum = isNews() ? highlightMinimum() : 0;
       graph.svg.classList.toggle("news-mode", isNews());
       graph.svg.classList.toggle("disclosure-mode", ui.metric.value === "disclosure");
+      graph.svg.classList.toggle("news-highlight-active", minimum > 0);
       graph.svg.classList.toggle("reduced-motion", ui.motion.checked || reduced.matches);
       graph.nodes.forEach(function (n) {
-        if (n.type !== "company") return;
+        if (n.type !== "company") {
+          n.g.classList.remove("news-highlight-hit", "news-highlight-dim");
+          return;
+        }
         var c = counts(n), value = isNews() ? c[ui.metric.value] : counterpart[n.id] || 0;
+        var emphasized = minimum > 0 && c[ui.metric.value] >= minimum;
         n.r = MapNews.radius(value, ui.scale.value);
         n.w = n.labelWidth + n.r + 8;
         n.circle.setAttribute("r", n.r);
@@ -245,10 +256,21 @@
         n.badge.textContent = result && n.type === "company" ? c[ui.metric.value] : "";
         n.g.classList.toggle("hollow", value === 0);
         n.g.classList.toggle("zero-badge", !result || c[ui.metric.value] === 0);
+        n.g.classList.toggle("news-highlight-hit", emphasized);
+        n.g.classList.toggle("news-highlight-dim", minimum > 0 && !emphasized);
         n.g.setAttribute("aria-label", n.id + " · 등록 상대 " + (counterpart[n.id] || 0) + (result && n.type === "company" ? " · 공개 목록 뉴스 " + c.news + " · 공시 " + c.disclosure : " · 뉴스 집계 미확인"));
       });
       ui["encoding"].textContent = "크기: " + (isNews() ? "공개 목록의 " + metricName() + " 수" : "등록 관계의 서로 다른 상대 수") + " · " + (ui.scale.value === "log" ? "로그 압축 척도" : "면적 비례 척도") + " · 숫자: " + metricName() + " 수 · 점선 링: 급증 비교 자료 부족 · 색 있는 선: 기존 관계";
       message(); graph.applyFilter(); graph.position();
+      if (ui.highlight && ui["highlight-status"]) {
+        ui.highlight.disabled = !result;
+        if (!result) ui["highlight-status"].textContent = "뉴스 자료를 확인하면 자료 수를 기준으로 기업을 강조할 수 있습니다.";
+        else if (!minimum) ui["highlight-status"].textContent = "자료 수 강조 안 함 · 아래 선택으로 기준을 정할 수 있습니다.";
+        else {
+          var highlighted = graph.nodes.filter(function (n) { return n.type === "company" && n.visible && n.g.classList.contains("news-highlight-hit"); }).length;
+          ui["highlight-status"].textContent = metricName() + " " + minimum + "건 이상 강조 · 현재 범위 " + highlighted + "개 기업";
+        }
+      }
       updateNotice();
       if (graph.showSelectedRelation && graph.showSelectedRelation()) return;
       if (graph.getShown()) details(graph.getShown()); else overview();
@@ -370,9 +392,9 @@
     function clearUnlessRelation() {
       if (!(graph.showSelectedRelation && graph.showSelectedRelation())) graph.clear();
     }
-    ["mode", "metric", "scale", "active", "days"].forEach(function (key) { ui[key].addEventListener("change", function () {
+    ["mode", "metric", "scale", "highlight", "active", "days"].forEach(function (key) { if (!ui[key]) return; ui[key].addEventListener("change", function () {
       if (key === "mode") modeChosen = true;
-      startChosen = true; queryChanged(); stop(); clearUnlessRelation(); render(); if (key === "mode" || key === "active") graph.fit();
+      startChosen = true; queryChanged(); stop(); if (key !== "highlight") clearUnlessRelation(); render(); if (key === "mode" || key === "active") graph.fit();
     }); });
     ui.date.addEventListener("change", function () {
       dateChosen = startChosen = true;
