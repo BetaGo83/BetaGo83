@@ -2439,6 +2439,64 @@
    "issues": []
   },
   {
+   "id": "CSA 코스믹",
+   "type": "company",
+   "path": "companies/CSA 코스믹",
+   "summary": "화장품 제조 및 판매를 주요제품으로 기재한 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "083660",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기타 화학제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "KIND 상장법인 목록은 CSA 코스믹의 주요제품을 화장품 제조 및 판매로 기재한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화장품·미용",
+     "tier": 1,
+     "stage": "화장품 제조·판매",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화장품·미용",
+       "page": "화장품·미용",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "KIND 상장법인 목록은 CSA 코스믹의 주요제품을 화장품 제조 및 판매로 기재한다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "DB손해보험",
    "type": "company",
    "path": "companies/DB손해보험",
@@ -27942,6 +28000,36 @@
      "status": "확인",
      "date": "2026-10-18",
      "text": "한국거래소 KIND 상장법인 목록은 CS의 주요제품을 이동통신중계기와 위성방송(DMB)중계기(Gap-Filler)로 기재한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "CSA 코스믹",
+   "target": "화장품·미용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "화장품 제조·판매",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "KIND 상장법인 목록은 CSA 코스믹의 주요제품을 화장품 제조 및 판매로 기재한다.",
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
