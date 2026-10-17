@@ -13,6 +13,7 @@
     "파이낸셜뉴스": { hosts: ["fnnews.com", "www.fnnews.com"], path: /^\/news\/[0-9]{8,30}$/ },
     "이투데이": { hosts: ["etoday.co.kr", "www.etoday.co.kr"], path: /^\/news\/view\/[0-9]{1,20}$/ }
   };
+  function sourceNames() { return Object.keys(SOURCES).concat(["한국은행", "산업통상부", "DART"]); }
   function requireValue(ok, reason) { if (!ok) throw new Error(reason); }
   function object(value) { return value !== null && typeof value === "object" && !Array.isArray(value); }
   function exactKeys(value, keys) {
@@ -323,6 +324,6 @@
     requireValue(Number.isFinite(count) && count >= 0 && (scale === undefined || scale === "area" || scale === "log"), "Invalid radius input");
     return count === 0 ? 3 : Math.min(30, scale === "log" ? 8 * Math.sqrt(Math.log1p(count)) : 5 * Math.sqrt(count));
   }
-  return { prepare: prepare, archiveItem: archiveItem, diff: diff, aggregate: aggregate, compareDocuments: compareDocuments, compareItems: compareItems,
+  return { prepare: prepare, archiveItem: archiveItem, sourceNames: sourceNames, diff: diff, aggregate: aggregate, compareDocuments: compareDocuments, compareItems: compareItems,
     relationCounts: relationCounts, radius: radius, shiftDay: shiftDay, dateRange: dateRange };
 });

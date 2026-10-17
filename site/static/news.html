@@ -122,10 +122,11 @@ footer p { margin:5px 0; }
       <label class="search">제목·기업·주제·출처 검색<input id="search" type="search" placeholder="검색어를 입력하세요" maxlength="120" autocomplete="off"></label>
       <label>자료 종류<select id="kind"><option value="">뉴스와 공시</option><option value="news">뉴스</option><option value="disclosure">공시</option></select></label>
       <label>출처<select id="source"><option value="">모든 출처</option></select></label>
-      <label>기업<select id="company"><option value="">모든 기업</option></select></label>
-      <label>산업·테마<select id="theme"><option value="">모든 산업·테마</option></select></label>
+      <label>기업<select id="company" aria-describedby="filter-names-note"><option value="">모든 기업</option></select></label>
+      <label>산업·테마<select id="theme" aria-describedby="filter-names-note"><option value="">모든 산업·테마</option></select></label>
       <label>제목 상태<select id="state"><option value="">모든 상태</option><option value="new">새 항목</option><option value="followup">후속 후보</option><option value="correction">정정 표시</option></select></label>
     </fieldset>
+    <p class="small" id="filter-names-note">기업·산업·테마 선택지는 화면에 표시한 기록에서 모읍니다. 목록에 없는 이름은 위 검색창에서 최근 30일 전체 기록을 찾을 수 있습니다.</p>
     <div class="filter-footer"><p class="small">본문을 읽거나 요약하지 않았습니다. 사실 확인은 연결된 출처에서 해 주세요.</p><button class="plain" id="reset" type="button" disabled>필터 초기화</button></div>
   </form>
   <p class="small" id="archive-progress" role="status" hidden></p>
@@ -370,6 +371,7 @@ window.addEventListener("DOMContentLoaded", function () {
     function knownNames(rows) {
       ["source", "company", "theme"].forEach(function (id) {
         var names = Array.from($(id).options).map(function (o) { return o.value; }).filter(Boolean);
+        if (id === "source" && typeof MapNews.sourceNames === "function") names = names.concat(MapNews.sourceNames());
         rows.forEach(function (item) { (id === "source" ? item.sources : id === "company" ? item.companies : item.themes).forEach(function (v) { if (names.length < 500 && names.indexOf(v.name) < 0) names.push(v.name); }); });
         populate(id, names);
       });
@@ -428,7 +430,7 @@ window.addEventListener("DOMContentLoaded", function () {
         }
         if (mine !== epoch || controller.signal.aborted) return;
         showRows();
-        $("archive-progress").textContent = "이번에 " + answer.inspected + "개 확인 · " + (exhausted ? "선택 조건으로 보관 기록 끝까지 확인했습니다." : "이후 기록은 아직 확인하지 않았습니다.") + " 선택 목록은 읽은 기록의 이름이며, 검색어는 전체 기록을 찾습니다.";
+        $("archive-progress").textContent = "이번에 " + answer.inspected + "개 확인 · " + (exhausted ? "선택 조건으로 보관 기록 끝까지 확인했습니다." : "이후 기록은 아직 확인하지 않았습니다.") + " 기업·산업·테마 선택지는 표시한 기록의 이름이며, 검색어는 전체 기록을 찾습니다.";
       } catch (error) {
         if (mine !== epoch || controller.signal.aborted) return;
         observedURLs.clear(); $("collection-change").hidden = true; $("collection-change").textContent = "";
