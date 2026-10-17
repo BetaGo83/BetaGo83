@@ -17077,6 +17077,66 @@
    "issues": []
   },
   {
+   "id": "케이뱅크",
+   "type": "company",
+   "path": "companies/케이뱅크",
+   "summary": "국내 1호 인터넷전문은행으로 비대면 금융 상품과 서비스를 제공하는 디지털 금융 기업",
+   "market": "KOSPI",
+   "ticker": "279570",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "은행 및 저축기관",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "은행",
+     "page": "은행",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "케이뱅크 공식 비전·회사소개는 국내 1호 인터넷전문은행이며 비대면 기반의 다양한 금융 상품과 서비스를 제공한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kbanknow.com/web/about/kbank/info?tab=shareholder",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "은행",
+     "tier": 1,
+     "stage": "은행·금융서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "은행",
+       "page": "은행",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "케이뱅크 공식 비전·회사소개는 국내 1호 인터넷전문은행이며 비대면 기반의 다양한 금융 상품과 서비스를 제공한다고 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.kbanknow.com/web/about/kbank/info?tab=shareholder",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "케이씨텍",
    "type": "company",
    "path": "companies/케이씨텍",
@@ -34660,6 +34720,37 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "케이뱅크",
+   "target": "은행",
+   "type": "테마",
+   "tier": 1,
+   "stage": "은행·금융서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "은행",
+     "page": "은행",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "케이뱅크 공식 비전·회사소개는 국내 1호 인터넷전문은행이며 비대면 기반의 다양한 금융 상품과 서비스를 제공한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kbanknow.com/web/about/kbank/info?tab=shareholder",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
