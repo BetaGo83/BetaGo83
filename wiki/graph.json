@@ -2924,6 +2924,70 @@
    "issues": []
   },
   {
+   "id": "DSR",
+   "type": "company",
+   "path": "companies/DSR",
+   "summary": "스테인리스 와이어와 산업용 로프를 제조하는 상장사",
+   "market": "KOSPI",
+   "ticker": "155660",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "1차 비철금속 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DSR 공식 사업·제품 페이지는 스테인리스 와이어와 와이어·섬유 로프 제품을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dsr.com/kor/",
+      "https://www.dsr.com/kor/sub2_1.php",
+      "https://www.dsr.com/kor/sub1_1.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "철강",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "DSR 공식 사업·제품 페이지는 스테인리스 와이어와 와이어·섬유 로프 제품을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dsr.com/kor/",
+        "https://www.dsr.com/kor/sub2_1.php",
+        "https://www.dsr.com/kor/sub1_1.php",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "DS단석",
    "type": "company",
    "path": "companies/DS단석",
@@ -27880,6 +27944,39 @@
      "weak": false,
      "sources": [
       "https://bts.dnautomotive.com/company/overview.asp",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "DSR",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "철강",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DSR 공식 사업·제품 페이지는 스테인리스 와이어와 와이어·섬유 로프 제품을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dsr.com/kor/",
+      "https://www.dsr.com/kor/sub2_1.php",
+      "https://www.dsr.com/kor/sub1_1.php",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
