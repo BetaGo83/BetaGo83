@@ -771,6 +771,109 @@
    "issues": []
   },
   {
+   "id": "APS",
+   "type": "company",
+   "path": "companies/APS",
+   "summary": "반도체·디스플레이 관련 부품과 설비를 포함한 지주·신소재 사업 포트폴리오",
+   "market": "KOSDAQ",
+   "ticker": "054620",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "한국거래소 KIND 기업정보는 APS의 사업을 지주·신소재 부문과 연결 종속회사의 소프트웨어, 피부미용의료기기, 반도체 부품, 반도체 설비 부문으로 구분하며 반도체·디스플레이 관련 부품·설비 사업을 명시한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpdetail/totalinfo.do?isurCd=05462&kisComCd=125001&method=searchTotalInfo&repIsuCd=KR7054620000",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "한국거래소 KIND 기업정보는 APS의 사업을 지주·신소재 부문과 연결 종속회사의 소프트웨어, 피부미용의료기기, 반도체 부품, 반도체 설비 부문으로 구분하며 반도체·디스플레이 관련 부품·설비 사업을 명시한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpdetail/totalinfo.do?isurCd=05462&kisComCd=125001&method=searchTotalInfo&repIsuCd=KR7054620000",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "반도체 제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "한국거래소 KIND 기업정보는 APS의 사업을 지주·신소재 부문과 연결 종속회사의 소프트웨어, 피부미용의료기기, 반도체 부품, 반도체 설비 부문으로 구분하며 반도체·디스플레이 관련 부품·설비 사업을 명시한다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpdetail/totalinfo.do?isurCd=05462&kisComCd=125001&method=searchTotalInfo&repIsuCd=KR7054620000",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "디스플레이",
+       "page": "디스플레이",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "한국거래소 KIND 기업정보는 APS의 사업을 지주·신소재 부문과 연결 종속회사의 소프트웨어, 피부미용의료기기, 반도체 부품, 반도체 설비 부문으로 구분하며 반도체·디스플레이 관련 부품·설비 사업을 명시한다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpdetail/totalinfo.do?isurCd=05462&kisComCd=125001&method=searchTotalInfo&repIsuCd=KR7054620000",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "APS이노베이션",
    "type": "company",
    "path": "companies/APS이노베이션",
@@ -25627,6 +25730,68 @@
      "sources": [
       "https://www.ajnetworks.co.kr/Company/Business",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "APS",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "반도체 제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "한국거래소 KIND 기업정보는 APS의 사업을 지주·신소재 부문과 연결 종속회사의 소프트웨어, 피부미용의료기기, 반도체 부품, 반도체 설비 부문으로 구분하며 반도체·디스플레이 관련 부품·설비 사업을 명시한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpdetail/totalinfo.do?isurCd=05462&kisComCd=125001&method=searchTotalInfo&repIsuCd=KR7054620000",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "APS",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "한국거래소 KIND 기업정보는 APS의 사업을 지주·신소재 부문과 연결 종속회사의 소프트웨어, 피부미용의료기기, 반도체 부품, 반도체 설비 부문으로 구분하며 반도체·디스플레이 관련 부품·설비 사업을 명시한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpdetail/totalinfo.do?isurCd=05462&kisComCd=125001&method=searchTotalInfo&repIsuCd=KR7054620000",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
