@@ -356,6 +356,7 @@
     "차량용 전장·인포테인먼트",
     "차체 부품·핫스탬핑",
     "구동·변속·현가 부품",
+    "자동차 내장·흡차음 소재",
     "차량용 메모리·저장장치",
     "차량용 MLCC",
     "차량용 반도체",
@@ -3678,6 +3679,66 @@
        "weak": false,
        "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "GH신소재",
+   "type": "company",
+   "path": "companies/GH신소재",
+   "summary": "자동차 내장·흡차음 부품에 적용되는 부직포와 섬유 소재를 생산하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "130500",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기타 섬유제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "GH신소재 공식 제품정보는 자동차용 부직포의 시트·플로어 카펫·대시 패드·언더커버·휠가드 적용을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.ghglobal.co.kr/Product/Product.html#section2",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "자동차 내장·흡차음 소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "GH신소재 공식 제품정보는 자동차용 부직포의 시트·플로어 카펫·대시 패드·언더커버·휠가드 적용을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.ghglobal.co.kr/Product/Product.html#section2",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
       }
@@ -28850,6 +28911,37 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "GH신소재",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "자동차 내장·흡차음 소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "GH신소재 공식 제품정보는 자동차용 부직포의 시트·플로어 카펫·대시 패드·언더커버·휠가드 적용을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.ghglobal.co.kr/Product/Product.html#section2",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
