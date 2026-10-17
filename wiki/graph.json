@@ -25133,6 +25133,66 @@
    "issues": []
   },
   {
+   "id": "휴림로봇",
+   "type": "company",
+   "path": "companies/휴림로봇",
+   "summary": "제조업용 로봇과 로봇 응용·서비스 시스템을 제공하는 로봇·자동화 기업",
+   "market": "KOSDAQ",
+   "ticker": "090710",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "휴림로봇 공식 홈페이지는 제조업용 로봇, 로봇응용시스템, 서비스용 로봇 제품군과 제조·자동화 시스템을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyulimrobot.com/kor/main/main.html",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "로봇·자동화",
+     "tier": 1,
+     "stage": "로봇 완제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "로봇·자동화",
+       "page": "로봇·자동화",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "휴림로봇 공식 홈페이지는 제조업용 로봇, 로봇응용시스템, 서비스용 로봇 제품군과 제조·자동화 시스템을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hyulimrobot.com/kor/main/main.html",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "(가칭) 글라셈",
    "type": "external",
    "path": null,
@@ -41163,6 +41223,37 @@
      "sources": [
       "https://www.hyosungchemical.com/kr/company/about/intro",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "휴림로봇",
+   "target": "로봇·자동화",
+   "type": "테마",
+   "tier": 1,
+   "stage": "로봇 완제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "휴림로봇 공식 홈페이지는 제조업용 로봇, 로봇응용시스템, 서비스용 로봇 제품군과 제조·자동화 시스템을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyulimrobot.com/kor/main/main.html",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
