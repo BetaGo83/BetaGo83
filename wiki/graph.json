@@ -158,6 +158,7 @@
    "stages": [
     "로봇 완제품",
     "구동 모듈·소프트웨어",
+    "로봇 모듈화 플랫폼",
     "공장 물류 제어 소프트웨어",
     "머신비전 카메라",
     "스마트공장 통합 제어"
@@ -11554,6 +11555,66 @@
        "evidence_level": "거래소 자료",
        "weak": false,
        "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "브릴스",
+   "type": "company",
+   "path": "companies/브릴스",
+   "summary": "산업용·협동·모바일 로봇과 맞춤형 자동화 로봇 솔루션을 제공하는 로봇·자동화 기업",
+   "market": "KOSDAQ",
+   "ticker": "468670",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "브릴스 공식 홈페이지는 자동차·반도체·스마트 팩토리 등 산업에 로봇과 맞춤형 자동화 로봇 솔루션을 제공한다고 안내하며, 산업용 로봇·협동로봇 제품군을 별도 사업 페이지로 제시한다. 한국거래소 KIND 상장법인은 브릴스의 업종을 특수 목적용 기계 제조업, 주요제품을 로봇 모듈화 플랫폼 솔루션으로 기재한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.brils.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "로봇·자동화",
+     "tier": 1,
+     "stage": "로봇 모듈화 플랫폼",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "로봇·자동화",
+       "page": "로봇·자동화",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "브릴스 공식 홈페이지는 자동차·반도체·스마트 팩토리 등 산업에 로봇과 맞춤형 자동화 로봇 솔루션을 제공한다고 안내하며, 산업용 로봇·협동로봇 제품군을 별도 사업 페이지로 제시한다. 한국거래소 KIND 상장법인은 브릴스의 업종을 특수 목적용 기계 제조업, 주요제품을 로봇 모듈화 플랫폼 솔루션으로 기재한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.brils.co.kr/",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
@@ -32461,6 +32522,37 @@
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "브릴스",
+   "target": "로봇·자동화",
+   "type": "테마",
+   "tier": 1,
+   "stage": "로봇 모듈화 플랫폼",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "브릴스 공식 홈페이지는 자동차·반도체·스마트 팩토리 등 산업에 로봇과 맞춤형 자동화 로봇 솔루션을 제공한다고 안내하며, 산업용 로봇·협동로봇 제품군을 별도 사업 페이지로 제시한다. 한국거래소 KIND 상장법인은 브릴스의 업종을 특수 목적용 기계 제조업, 주요제품을 로봇 모듈화 플랫폼 솔루션으로 기재한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.brils.co.kr/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
