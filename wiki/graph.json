@@ -4465,6 +4465,66 @@
    "issues": []
   },
   {
+   "id": "TCC스틸",
+   "type": "company",
+   "path": "companies/TCC스틸",
+   "summary": "주석도금강판과 배터리·모빌리티용 표면처리 강판을 생산하는 기업",
+   "market": "KOSPI",
+   "ticker": "002710",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 제품 페이지에서 니켈·동 도금강판, 주석도금강판, 전해크롬산처리강판 등 철강 소재와 용도를 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.tccsteel.com/kr/products",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "철강",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 제품 페이지에서 니켈·동 도금강판, 주석도금강판, 전해크롬산처리강판 등 철강 소재와 용도를 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.tccsteel.com/kr/products",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "TYM",
    "type": "company",
    "path": "companies/TYM",
@@ -17153,6 +17213,66 @@
    "issues": []
   },
   {
+   "id": "현대비앤지스틸",
+   "type": "company",
+   "path": "companies/현대비앤지스틸",
+   "summary": "스테인리스 냉연강판과 특수강을 생산하는 철강 기업",
+   "market": "KOSPI",
+   "ticker": "004560",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 제품 자료에서 스테인리스 냉연강판과 자동차·가전용 스테인리스 제품을 생산·공급한다고 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyundai-bngsteel.com/m/en/pds/brochure_Catalogue_Korean.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "철강",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 제품 자료에서 스테인리스 냉연강판과 자동차·가전용 스테인리스 제품을 생산·공급한다고 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hyundai-bngsteel.com/m/en/pds/brochure_Catalogue_Korean.pdf",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "현대오토에버",
    "type": "company",
    "path": "companies/현대오토에버",
@@ -22283,6 +22403,37 @@
     "label": "확인 중",
     "muted": false,
     "line_style": "dashed"
+   }
+  },
+  {
+   "source": "TCC스틸",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "철강",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 제품 페이지에서 니켈·동 도금강판, 주석도금강판, 전해크롬산처리강판 등 철강 소재와 용도를 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.tccsteel.com/kr/products",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
    }
   },
   {
@@ -29571,6 +29722,37 @@
      "weak": false,
      "sources": [
       "https://www.mobis.com/kr/aboutus/aboutus.do"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "현대비앤지스틸",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "철강",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 제품 자료에서 스테인리스 냉연강판과 자동차·가전용 스테인리스 제품을 생산·공급한다고 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyundai-bngsteel.com/m/en/pds/brochure_Catalogue_Korean.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
