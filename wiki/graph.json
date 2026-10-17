@@ -1099,6 +1099,66 @@
    "issues": []
   },
   {
+   "id": "CJ씨푸드",
+   "type": "company",
+   "path": "companies/CJ씨푸드",
+   "summary": "어묵·맛살 등 수산 가공식품을 제조·유통하는 식품 기업",
+   "market": "KOSPI",
+   "ticker": "011150",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기타 식품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 어묵·맛살 등 수산 가공식품을 생산하고 HACCP 기반 제조와 유통망 공급을 운영한다고 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.cjseafood.net/company/introduce.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "식품 가공·제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 자료에서 어묵·맛살 등 수산 가공식품을 생산하고 HACCP 기반 제조와 유통망 공급을 운영한다고 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.cjseafood.net/company/introduce.php",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "CJ제일제당",
    "type": "company",
    "path": "companies/CJ제일제당",
@@ -22632,6 +22692,37 @@
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "CJ씨푸드",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "식품 가공·제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 어묵·맛살 등 수산 가공식품을 생산하고 HACCP 기반 제조와 유통망 공급을 운영한다고 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.cjseafood.net/company/introduce.php",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
