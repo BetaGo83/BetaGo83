@@ -330,7 +330,7 @@
    "id": "의료기기",
    "type": "theme",
    "path": "themes/의료기기",
-   "summary": "의료영상 장비와 검사용 제품을 다룬다.",
+   "summary": "의료영상 장비와 병원·동물용 검사용 제품을 다룬다.",
    "category": "헬스케어",
    "stages": [
     "검사용 제품",
@@ -338,7 +338,8 @@
     "치과 영상·스캐너",
     "치과용 기기",
     "체성분 분석기",
-    "디지털치료기기"
+    "디지털치료기기",
+    "동물용 진단키트"
    ]
   },
   {
@@ -11140,6 +11141,64 @@
        "status": "확인",
        "date": "2026-10-09",
        "text": "유가증권 매매·위탁매매·인수 사업을 영위한다. (확인일: 2026-10-09)",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "바이오노트",
+   "type": "company",
+   "path": "companies/바이오노트",
+   "summary": "동물용 신속진단 키트와 Rapid 진단제품을 제조하는 의료기기 기업",
+   "market": "KOSPI",
+   "ticker": "377740",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "의료용품 및 기타 의약 관련제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "한국거래소 KIND 상장법인 목록은 바이오노트의 업종을 의료용품 및 기타 의약 관련제품 제조업, 주요제품을 Rapid 반제품·완제품과 동물용신속진단 키트로 기재한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "동물용 진단키트",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "한국거래소 KIND 상장법인 목록은 바이오노트의 업종을 의료용품 및 기타 의약 관련제품 제조업, 주요제품을 Rapid 반제품·완제품과 동물용신속진단 키트로 기재한다.",
        "evidence_level": "거래소 자료",
        "weak": false,
        "sources": [
@@ -32000,6 +32059,36 @@
      "status": "확인",
      "date": "2026-10-09",
      "text": "유가증권 매매·위탁매매·인수 사업을 영위한다. (확인일: 2026-10-09)",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "바이오노트",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "동물용 진단키트",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "한국거래소 KIND 상장법인 목록은 바이오노트의 업종을 의료용품 및 기타 의약 관련제품 제조업, 주요제품을 Rapid 반제품·완제품과 동물용신속진단 키트로 기재한다.",
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
