@@ -557,7 +557,8 @@
     "석유화학",
     "정유·윤활",
     "기초 석유화학",
-    "기초·첨단화학소재"
+    "기초·첨단화학소재",
+    "고무·탄성체"
    ]
   },
   {
@@ -2969,6 +2970,68 @@
        "weak": false,
        "sources": [
         "https://bts.dnautomotive.com/company/overview.asp",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "DRB동일",
+   "type": "company",
+   "path": "companies/DRB동일",
+   "summary": "고무벨트 국산화와 산업용 고무제품 개발을 이어 온 고무제품 기업",
+   "market": "KOSPI",
+   "ticker": "004840",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "고무제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DRB동일 공식 기업개요와 대표이사 인사말은 고무벨트 국산화와 고무산업 제품 개발을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.drbworld.com/holding/index.php?pCode=MN0000012",
+      "https://www.drbworld.com/holding/index.php?pCode=MN0000011",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "고무·탄성체",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "DRB동일 공식 기업개요와 대표이사 인사말은 고무벨트 국산화와 고무산업 제품 개발을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.drbworld.com/holding/index.php?pCode=MN0000012",
+        "https://www.drbworld.com/holding/index.php?pCode=MN0000011",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -28163,6 +28226,38 @@
      "weak": false,
      "sources": [
       "https://bts.dnautomotive.com/company/overview.asp",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "DRB동일",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "고무·탄성체",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DRB동일 공식 기업개요와 대표이사 인사말은 고무벨트 국산화와 고무산업 제품 개발을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.drbworld.com/holding/index.php?pCode=MN0000012",
+      "https://www.drbworld.com/holding/index.php?pCode=MN0000011",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
