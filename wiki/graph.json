@@ -11149,6 +11149,66 @@
    "issues": []
   },
   {
+   "id": "삼성에피스홀딩스",
+   "type": "company",
+   "path": "companies/삼성에피스홀딩스",
+   "summary": "삼성바이오에피스와 에피스넥스랩을 자회사로 보유한 바이오의약품 지주회사",
+   "market": "KOSPI",
+   "ticker": "0126Z0",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "삼성에피스홀딩스 공식 홈페이지는 바이오의약품 시장 선도와 바이오 기술 혁신을 명시하고 삼성바이오에피스·에피스넥스랩을 자회사로 직접 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.samsungepisholdings.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "바이오의약품 제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "삼성에피스홀딩스 공식 홈페이지는 바이오의약품 시장 선도와 바이오 기술 혁신을 명시하고 삼성바이오에피스·에피스넥스랩을 자회사로 직접 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.samsungepisholdings.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "삼성전기",
    "type": "company",
    "path": "companies/삼성전기",
@@ -30785,6 +30845,37 @@
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "삼성에피스홀딩스",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "바이오의약품 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "삼성에피스홀딩스 공식 홈페이지는 바이오의약품 시장 선도와 바이오 기술 혁신을 명시하고 삼성바이오에피스·에피스넥스랩을 자회사로 직접 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.samsungepisholdings.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
