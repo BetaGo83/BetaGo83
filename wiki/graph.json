@@ -6071,6 +6071,71 @@
    ]
   },
   {
+   "id": "HPSP",
+   "type": "company",
+   "path": "companies/HPSP",
+   "summary": "반도체 초미세 공정용 고압 수소 어닐링 장비를 제조·공급하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "403870",
+   "dart_corp_code": "01288827",
+   "aliases": [
+    "에이치피에스피",
+    "HPSP Co., Ltd."
+   ],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HPSP 공식 자료에서 반도체 초미세 공정용 고압 수소 어닐링·산화 장비를 제조·공급하는 사업을 확인했다. HBM 특정 공급이나 고객별 계약은 확인하지 않았다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.thehpsp.com/ko/",
+      "https://thehpsp.com/sub/sub02.php?page=3",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "반도체 제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "HPSP 공식 자료에서 반도체 초미세 공정용 고압 수소 어닐링·산화 장비를 제조·공급하는 사업을 확인했다. HBM 특정 공급이나 고객별 계약은 확인하지 않았다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.thehpsp.com/ko/",
+        "https://thehpsp.com/sub/sub02.php?page=3",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "ISC",
    "type": "company",
    "path": "companies/ISC",
@@ -31567,6 +31632,38 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HPSP",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "반도체 제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HPSP 공식 자료에서 반도체 초미세 공정용 고압 수소 어닐링·산화 장비를 제조·공급하는 사업을 확인했다. HBM 특정 공급이나 고객별 계약은 확인하지 않았다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.thehpsp.com/ko/",
+      "https://thehpsp.com/sub/sub02.php?page=3",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
