@@ -24,7 +24,7 @@ updated: "2026-10-17"
 - 배터리: [[LG에너지솔루션]] ([한국거래소](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt))
 - 배터리·솔루션: [[삼성SDI]] ([삼성SDI](https://www.samsungsdi.co.kr/business/ess.html), [한국거래소](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt))
 - 전력 시스템: [[엘에스일렉트릭]] ([엘에스일렉트릭](https://www.ls-electric.com/ko/), [한국거래소](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt))
-- ESS 프로젝트 개발·운영: [[GS건설]] ([출처](https://gsconst.co.kr/Business/Default.aspx?BusinessResultStep3=1&Lang=ko))
+- ESS 프로젝트 개발·운영: [[GS건설]] ([출처](https://gsconst.co.kr/Business/Default.aspx?BusinessResultStep3=1&Lang=ko)), [[SK이터닉스]] ([공식 사업자료](https://www.sketernix.com/business/ess.do))
 - ESS 공급·유지보수: [[효성중공업]] ([출처](https://www.hyosungheavyindustries.com/kr/business/power-system-solutions/P010203))
 - ESS용 양극재: [[코스모신소재]] ([코스모신소재](https://www.cosmoamt.com/?page_id=25496&lang=en))
 
@@ -36,6 +36,7 @@ updated: "2026-10-17"
 |---|---|---|---|---|---|
 | [[GS건설]] | ESS | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://gsconst.co.kr/Business/Default.aspx?BusinessResultStep3=1&Lang=ko) |
 | [[LG에너지솔루션]] | ESS | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
+| [[SK이터닉스]] | ESS | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.sketernix.com/business/ess.do), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[삼성SDI]] | ESS | 공식 발표 확인 | 확인 | 2026-10-15 | 공식 발표 [출처](https://www.samsungsdi.co.kr/business/ess.html), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[엘에스일렉트릭]] | ESS | 공식 발표 확인 | 확인 | 2026-10-15 | 공식 발표 [출처](https://www.ls-electric.com/ko/), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[코스모신소재]] | ESS | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.cosmoamt.com/?page_id=25496&lang=en) |
