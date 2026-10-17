@@ -17,7 +17,8 @@
     "배터리 자원순환",
     "이차전지 원료·소재 조달",
     "제조 환경·드라이룸",
-    "배터리 소재·동박"
+    "배터리 소재·동박",
+    "분리막"
    ]
   },
   {
@@ -3653,6 +3654,66 @@
    ]
   },
   {
+   "id": "LX세미콘",
+   "type": "company",
+   "path": "companies/LX세미콘",
+   "summary": "OLED·LCD 화면을 구동하는 디스플레이 드라이버 IC를 설계하는 반도체 기업",
+   "market": "KOSPI",
+   "ticker": "108320",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "반도체 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 제품자료에서 OLED·LCD용 Display Driver IC와 Touch IC를 설계·공급한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lxsemicon.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "디스플레이 제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "디스플레이",
+       "page": "디스플레이",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 제품자료에서 OLED·LCD용 Display Driver IC와 Touch IC를 설계·공급한다고 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.lxsemicon.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "NAVER",
    "type": "company",
    "path": "companies/NAVER",
@@ -4225,6 +4286,66 @@
        "weak": false,
        "sources": [
         "https://www.skbioscience.com/kr/bioscience/about_04",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SK아이이테크놀로지",
+   "type": "company",
+   "path": "companies/SK아이이테크놀로지",
+   "summary": "리튬이온 배터리용 습식 분리막을 제조하는 배터리 소재 기업",
+   "market": "KOSPI",
+   "ticker": "361610",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "일차전지 및 이차전지 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 사업자료에서 리튬이온 배터리용 습식 분리막(LiBS)을 제조·판매한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://skiet.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "분리막",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 사업자료에서 리튬이온 배터리용 습식 분리막(LiBS)을 제조·판매한다고 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://skiet.com/",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -16450,6 +16571,66 @@
    "issues": []
   },
   {
+   "id": "한온시스템",
+   "type": "company",
+   "path": "companies/한온시스템",
+   "summary": "전기차·하이브리드차용 열관리 시스템과 모듈을 개발·공급하는 자동차 부품 기업",
+   "market": "KOSPI",
+   "ticker": "018880",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "일반 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 전기차·하이브리드차·수소차용 열관리 시스템, 모듈과 히트펌프를 제공한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hanonsystems.com/Kr",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "부품·모듈",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 자료에서 전기차·하이브리드차·수소차용 열관리 시스템, 모듈과 히트펌프를 제공한다고 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hanonsystems.com/Kr",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "한전기술",
    "type": "company",
    "path": "companies/한전기술",
@@ -22717,6 +22898,37 @@
    }
   },
   {
+   "source": "LX세미콘",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "디스플레이 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 제품자료에서 OLED·LCD용 Display Driver IC와 Touch IC를 설계·공급한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lxsemicon.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "NAVER",
    "target": "AI·클라우드",
    "type": "테마",
@@ -23021,6 +23233,37 @@
      "weak": false,
      "sources": [
       "https://www.skbioscience.com/kr/bioscience/about_04",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SK아이이테크놀로지",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "분리막",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 사업자료에서 리튬이온 배터리용 습식 분리막(LiBS)을 제조·판매한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://skiet.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
@@ -30013,6 +30256,37 @@
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "한온시스템",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "부품·모듈",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 전기차·하이브리드차·수소차용 열관리 시스템, 모듈과 히트펌프를 제공한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hanonsystems.com/Kr",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
