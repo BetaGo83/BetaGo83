@@ -360,13 +360,15 @@ window.addEventListener("DOMContentLoaded", function () {
     }
     function cancel() { epoch++; if (work) work.abort(); work = null; busy = false; $("refresh").disabled = false; $("search-cancel").disabled = true; }
     function showRows() {
+      var sameQuery = committedQuery === JSON.stringify(query());
       $("feed").replaceChildren(); items.forEach(function (item) { card(item, $("feed")); });
       $("empty").hidden = !!items.length;
       if (!items.length) empty(exhausted ? "조건에 맞는 공개 항목이 없습니다" : "아직 일치하는 항목을 찾지 못했습니다", exhausted ? "이 보관 기록 밖에 자료가 없다는 뜻은 아닙니다." : "오래된 기록을 계속 확인할 수 있습니다.");
-      $("result-title").textContent = "전체 보관 " + snapshot.total_items.toLocaleString("ko-KR") + "건 · 현재 " + items.length + "건 표시" + (committedQuery !== JSON.stringify(query()) ? " · 이전 조건 결과" : "");
-      $("pager").hidden = false; $("prev").disabled = history.length === 0; $("next").disabled = exhausted || items.length < 40;
+      $("result-title").textContent = "전체 보관 " + snapshot.total_items.toLocaleString("ko-KR") + "건 · 현재 " + items.length + "건 표시" + (!sameQuery ? " · 이전 조건 결과" : "");
+      $("pager").hidden = false; $("prev").disabled = !sameQuery || history.length === 0; $("next").disabled = !sameQuery || exhausted || items.length < 40;
       $("page-number").textContent = exhausted ? "보관 기록 끝까지 확인" : "이후 기록 더 있음";
-      $("search-continue").hidden = exhausted || items.length >= 40;
+      $("search-continue").hidden = sameQuery && (exhausted || items.length >= 40);
+      $("search-continue").textContent = sameQuery ? "계속 찾기" : "현재 조건으로 검색";
     }
     function knownNames(rows) {
       ["source", "company", "theme"].forEach(function (id) {
@@ -377,7 +379,10 @@ window.addEventListener("DOMContentLoaded", function () {
       });
     }
     async function run(options) {
-      options = options || {}; cancel(); var mine = epoch, controller = work = new AbortController(), q = query(); busy = true;
+      options = options || {}; clearTimeout(debounce); debounce = null; cancel(); var mine = epoch, controller = work = new AbortController(), q = query(); busy = true;
+      var changedQuery = committedQuery !== JSON.stringify(q);
+      if (changedQuery) { options.extend = false; options.cursor = null; }
+      var resetHistoryOnCommit = changedQuery || !options.extend && !options.cursor;
       $("refresh").disabled = true; $("search-cancel").disabled = false; $("archive-actions").hidden = $("archive-progress").hidden = false;
       $("archive-progress").textContent = "공개 보관 기록을 순서대로 확인 중입니다. 중지할 수 있습니다.";
       observedURLs.clear(); $("collection-change").hidden = true; $("collection-change").textContent = "";
@@ -410,6 +415,7 @@ window.addEventListener("DOMContentLoaded", function () {
         }
         if (mine !== epoch || controller.signal.aborted) return;
         snapshot = next; cursor = answer.cursor; exhausted = answer.exhausted;
+        if (resetHistoryOnCommit) history = []; else if (options.history) history = options.history;
         if (!options.extend) pageStart = options.cursor || null;
         skipped = 0; items = nextItems; observedURLs = nextObserved; committedQuery = JSON.stringify(q);
         knownNames(answer.rows); $("filter-fields").disabled = false; $("reset").disabled = false;
@@ -439,17 +445,17 @@ window.addEventListener("DOMContentLoaded", function () {
         $("archive-progress").textContent = "확인 실패 · 검색 완료가 아닙니다.";
       } finally { if (mine === epoch) { work = null; busy = false; $("refresh").disabled = false; $("search-cancel").disabled = true; } }
     }
-    function resetSearch() { history = []; cursor = pageStart = null; clearTimeout(debounce); cancel(); debounce = setTimeout(function () { debounce = null; run(); }, 180); }
+    function resetSearch() { clearTimeout(debounce); cancel(); if (snapshot) showRows(); debounce = setTimeout(function () { debounce = null; run(); }, 180); }
     controls.forEach(function (id) { $(id).addEventListener(id === "search" ? "input" : "change", resetSearch); });
-    $("filters").addEventListener("submit", function (e) { e.preventDefault(); clearTimeout(debounce); history = []; run(); });
+    $("filters").addEventListener("submit", function (e) { e.preventDefault(); clearTimeout(debounce); run(); });
     $("reset").addEventListener("click", function () { controls.forEach(function (id) { $(id).value = ""; }); resetSearch(); });
-    $("next").addEventListener("click", function () { if (busy || exhausted) return; history.push(pageStart); if (history.length > 8) history.shift(); run({ cursor: cursor }); });
-    $("prev").addEventListener("click", function () { if (!busy && history.length) run({ cursor: history.pop() }); });
-    $("search-continue").addEventListener("click", function () { if (!busy && !exhausted && items.length < 40) run({ extend: true }); });
+    $("next").addEventListener("click", function () { if (busy || exhausted) return; run({ cursor: cursor, history: history.concat([pageStart]).slice(-8) }); });
+    $("prev").addEventListener("click", function () { if (!busy && history.length) run({ cursor: history[history.length - 1], history: history.slice(0, -1) }); });
+    $("search-continue").addEventListener("click", function () { if (!busy && (committedQuery !== JSON.stringify(query()) || !exhausted && items.length < 40)) run({ extend: true }); });
     $("search-cancel").addEventListener("click", function () { cancel(); $("archive-progress").textContent = "검색을 중지했습니다. 마지막 확인 결과를 유지하며, 검색 완료가 아닙니다."; });
     function suspend() { clearTimeout(debounce); debounce = null; cancel(); }
     document.addEventListener("visibilitychange", function () { if (document.hidden) suspend(); }); window.addEventListener("pagehide", suspend);
-    var archiveWatch = NewsFeed.watch({ refresh: function () { history = []; return run({ refresh: true }); }, abort: suspend, shouldSkip: function () { return busy; } });
+    var archiveWatch = NewsFeed.watch({ refresh: function () { return run({ refresh: true }); }, abort: suspend, shouldSkip: function () { return busy; } });
     $("refresh").addEventListener("click", function () { archiveWatch.check(); });
     filtersFromUrl();
     if (window.location.protocol === "file:") { failed("공개 웹사이트에서 열어 주세요", "저장한 파일에서는 검증된 기록을 읽을 수 없습니다."); archiveWatch.stop(); return; }
