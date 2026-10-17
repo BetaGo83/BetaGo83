@@ -3192,6 +3192,70 @@
    "issues": []
   },
   {
+   "id": "GST",
+   "type": "company",
+   "path": "companies/GST",
+   "summary": "반도체 제조 공정용 가스 정화·온도 제어 장비와 액체냉각 솔루션을 제공하는 상장사",
+   "market": "KOSDAQ",
+   "ticker": "083450",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "GST 공식 홈페이지는 스크러버(고효율 가스 정화), 칠러(온도 제어), 액체냉각을 제품군으로 안내하고, 반도체 제조와 데이터센터에 냉각 솔루션을 제공한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gst-in.com/",
+      "https://www.gst-in.com/m21.php?cate=1",
+      "https://www.gst-in.com/m21.php?cate=2",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "반도체 제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "GST 공식 홈페이지는 스크러버(고효율 가스 정화), 칠러(온도 제어), 액체냉각을 제품군으로 안내하고, 반도체 제조와 데이터센터에 냉각 솔루션을 제공한다고 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.gst-in.com/",
+        "https://www.gst-in.com/m21.php?cate=1",
+        "https://www.gst-in.com/m21.php?cate=2",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "GS건설",
    "type": "company",
    "path": "companies/GS건설",
@@ -27783,6 +27847,39 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "GST",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "반도체 제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "GST 공식 홈페이지는 스크러버(고효율 가스 정화), 칠러(온도 제어), 액체냉각을 제품군으로 안내하고, 반도체 제조와 데이터센터에 냉각 솔루션을 제공한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gst-in.com/",
+      "https://www.gst-in.com/m21.php?cate=1",
+      "https://www.gst-in.com/m21.php?cate=2",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }

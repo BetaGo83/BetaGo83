@@ -4,7 +4,7 @@ name: "HBM·반도체"
 aliases: []
 keywords: ["HBM", "고대역폭메모리", "TC본더", "하이브리드 본딩", "반도체 후공정"]
 stages: ["메모리 제조", "후공정 장비", "하이브리드 본딩", "검사 장비·부품", "공정 모니터링", "패키지기판", "전력반도체 후공정", "반도체 공정 소재", "반도체 제조 장비", "반도체 패키징", "반도체 클린룸", "시스템반도체 파운드리"]
-updated: "2026-10-17"
+updated: "2026-10-18"
 category: "기술·디지털"
 ---
 
@@ -31,6 +31,7 @@ category: "기술·디지털"
 - 반도체 클린룸: [[신성이엔지]] ([신성이엔지](https://shinsung.co.kr/))
 - 반도체 패키징: [[하나마이크론]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt)), [[3S]] ([공식 사업자료](https://kind.krx.co.kr/external/dst/irReference/18259/IR%20-%203S%20KOREA%20%2820260326%29.pdf))
 - 반도체 제조 장비: [[케이씨텍]] ([케이씨텍](https://www.kctech.com/page/product1.php))
+- 반도체 제조 장비: [[GST]] ([GST 공식 홈페이지](https://www.gst-in.com/), [GST Products](https://www.gst-in.com/m21.php?cate=1))
 - 패키지기판: [[해성디에스]] ([HAESUNG DS](https://haesungds.co.kr/eng/?p=products%7Cpkg_substrate%7Coverview))
 - 시스템반도체 파운드리: [[DB하이텍]] ([DB하이텍 회사소개](https://www.dbhitek.com/kr/company/about))
 
@@ -42,6 +43,7 @@ category: "기술·디지털"
 | [[3S]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://kind.krx.co.kr/external/dst/irReference/18259/IR%20-%203S%20KOREA%20%2820260326%29.pdf), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[APS]] | HBM·반도체 | 공시·거래소 확인 | 확인 | 2026-10-18 | 거래소 자료 [출처](https://kind.krx.co.kr/corpdetail/totalinfo.do?isurCd=05462&kisComCd=125001&method=searchTotalInfo&repIsuCd=KR7054620000), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[DB하이텍]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.dbhitek.com/kr/company/about), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
+| [[GST]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-18 | 공식 발표 [출처](https://www.gst-in.com/), [출처](https://www.gst-in.com/m21.php?cate=1), [출처](https://www.gst-in.com/m21.php?cate=2), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[ISC]] | HBM·반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[LB세미콘]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage) |
 | [[OCI]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.oci.co.kr/), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
