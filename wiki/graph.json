@@ -6200,6 +6200,41 @@
    "issues": []
   },
   {
+   "id": "HS애드",
+   "type": "company",
+   "path": "companies/HS애드",
+   "summary": "소비자와 브랜드를 연결하는 마케팅 크리에이티브 회사인 코스피 상장사",
+   "market": "KOSPI",
+   "ticker": "035000",
+   "dart_corp_code": "00140168",
+   "aliases": [
+    "HS Ad Inc.",
+    "(주)에이치에스애드"
+   ],
+   "krx_industry": "광고업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "사업 범위",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "광고업·광고 제품과 마케팅 크리에이티브 사업을 KIND·DART·회사 공식 홈페이지에서 확인했다. 테마·고객·수주 관계는 확인하지 않았다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00140168",
+      "https://www.hsad.co.kr/kor/main"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [],
+   "issues": []
+  },
+  {
    "id": "HT로보틱스",
    "type": "company",
    "path": "companies/HT로보틱스",
