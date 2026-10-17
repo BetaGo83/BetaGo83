@@ -6467,6 +6467,66 @@
    ]
   },
   {
+   "id": "대한해운",
+   "type": "company",
+   "path": "companies/대한해운",
+   "summary": "건화물·탱커·자동차선을 운용하는 에너지·자원 전문 해상 운송선사",
+   "market": "KOSPI",
+   "ticker": "005880",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "해상 운송업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 전용선·부정기선·탱커선·자동차선 사업을 운영하는 에너지·자원 전문 수송선사라고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.korealines.co.kr/default/company/company.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "조선·해운",
+     "tier": 1,
+     "stage": "해상 운송",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "조선·해운",
+       "page": "조선·해운",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 자료에서 전용선·부정기선·탱커선·자동차선 사업을 운영하는 에너지·자원 전문 수송선사라고 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.korealines.co.kr/default/company/company.php",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "덴티움",
    "type": "company",
    "path": "companies/덴티움",
@@ -15953,6 +16013,66 @@
    "issues": []
   },
   {
+   "id": "한국가스공사",
+   "type": "company",
+   "path": "companies/한국가스공사",
+   "summary": "천연가스 공급망을 운영하고 수소에너지 제조·공급을 추진하는 에너지 공기업",
+   "market": "KOSPI",
+   "ticker": "036460",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "연료용 가스 제조 및 배관공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "수소·연료전지",
+     "page": "수소·연료전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "공사는 공식 자료에서 천연가스 공급망 건설·운영과 수소에너지 제조·공급·개발·수출입을 주요 사업으로 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kogas.or.kr/site/koGas/1010100000000",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "수소·연료전지",
+     "tier": 1,
+     "stage": "청정수소 공급 인프라",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "수소·연료전지",
+       "page": "수소·연료전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "공사는 공식 자료에서 천연가스 공급망 건설·운영과 수소에너지 제조·공급·개발·수출입을 주요 사업으로 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.kogas.or.kr/site/koGas/1010100000000",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "한국수력원자력",
    "type": "company",
    "path": "companies/한국수력원자력",
@@ -24834,6 +24954,37 @@
    }
   },
   {
+   "source": "대한해운",
+   "target": "조선·해운",
+   "type": "테마",
+   "tier": 1,
+   "stage": "해상 운송",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 전용선·부정기선·탱커선·자동차선 사업을 운영하는 에너지·자원 전문 수송선사라고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.korealines.co.kr/default/company/company.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "덴티움",
    "target": "의료기기",
    "type": "테마",
@@ -30208,6 +30359,37 @@
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "한국가스공사",
+   "target": "수소·연료전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "청정수소 공급 인프라",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "수소·연료전지",
+     "page": "수소·연료전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "공사는 공식 자료에서 천연가스 공급망 건설·운영과 수소에너지 제조·공급·개발·수출입을 주요 사업으로 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kogas.or.kr/site/koGas/1010100000000",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
