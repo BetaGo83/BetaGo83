@@ -29,6 +29,8 @@ category: "기술·디지털"
 - 반도체 공정 소재: [[동진쎄미켐]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt)), [[솔브레인]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt))
 - 반도체 제조 장비: [[원익IPS]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt))
 - 반도체 패키징: [[하나마이크론]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt))
+- 반도체 제조 장비: [[케이씨텍]] ([케이씨텍](https://www.kctech.com/page/product1.php))
+- 패키지기판: [[해성디에스]] ([HAESUNG DS](https://haesungds.co.kr/eng/?p=products%7Cpkg_substrate%7Coverview))
 
 ## 관련 기업
 <!-- scripts/build_graph.py가 만드는 표. 손으로 고치지 않는다 -->
@@ -60,12 +62,14 @@ category: "기술·디지털"
 | [[와이씨]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage) |
 | [[원익IPS]] | HBM·반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[위드텍]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage) |
+| [[케이씨텍]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.kctech.com/page/overview.php), [출처](https://www.kctech.com/page/product1.php), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[테크윙]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-09-29 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900917) |
 | [[테크윙]] | HBM 수요 확대 | 공시·거래소 확인 | 확인 | 2026-08-13 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813900654) |
 | [[하나마이크론]] | HBM·반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[한미반도체]] | 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
 | [[한미반도체]] | AI 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
 | [[한미반도체]] | HBM 수요 확대 | 공시·거래소 확인 | 확인 | 2026-06-08 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260608800436) |
+| [[해성디에스]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://haesungds.co.kr/eng/?p=products%7Cpkg_substrate%7Coverview), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 
 ### 2차 관련 기업
 

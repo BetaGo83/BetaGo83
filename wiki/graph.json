@@ -3158,6 +3158,68 @@
    "issues": []
   },
   {
+   "id": "SK오션플랜트",
+   "type": "company",
+   "path": "companies/SK오션플랜트",
+   "summary": "해상풍력 하부구조물을 제작하는 국내 상장사",
+   "market": "KOSPI",
+   "ticker": "100090",
+   "dart_corp_code": "",
+   "aliases": [
+    "SK Oceanplant"
+   ],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사가 해상풍력 하부구조물 제작 역량을 소개하고 KIND 주요제품에도 해상풍력 하부구조물이 기재되어 있다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.skoceanplant.com/?lang=kr",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "재생에너지",
+     "tier": 1,
+     "stage": "해상풍력 기자재·시공",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "재생에너지",
+       "page": "재생에너지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사가 해상풍력 하부구조물 제작 역량을 소개하고 KIND 주요제품에도 해상풍력 하부구조물이 기재되어 있다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.skoceanplant.com/?lang=kr",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "SK텔레콤",
    "type": "company",
    "path": "companies/SK텔레콤",
@@ -8914,6 +8976,69 @@
    "issues": []
   },
   {
+   "id": "에코프로머티",
+   "type": "company",
+   "path": "companies/에코프로머티",
+   "summary": "리튬 이차전지용 전구체를 생산하는 국내 상장사",
+   "market": "KOSPI",
+   "ticker": "450080",
+   "dart_corp_code": "",
+   "aliases": [
+    "에코프로머티리얼즈",
+    "EcoPro Materials"
+   ],
+   "krx_industry": "일차전지 및 이차전지 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사가 리튬 이차전지용 전구체를 핵심 사업으로 소개하고 KIND 주요제품에도 하이니켈 전구체가 기재되어 있다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://ecopromaterials.com/sub020101",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "양극재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사가 리튬 이차전지용 전구체를 핵심 사업으로 소개하고 KIND 주요제품에도 하이니켈 전구체가 기재되어 있다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://ecopromaterials.com/sub020101",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "에코프로비엠",
    "type": "company",
    "path": "companies/에코프로비엠",
@@ -11058,6 +11183,113 @@
        "weak": false,
        "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "케이씨텍",
+   "type": "company",
+   "path": "companies/케이씨텍",
+   "summary": "반도체·디스플레이 장비와 소재를 제조·판매하는 국내 상장사",
+   "market": "KOSPI",
+   "ticker": "281820",
+   "dart_corp_code": "",
+   "aliases": [
+    "KCTech"
+   ],
+   "krx_industry": "정밀기기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "CMP·웨이퍼 세정 장비와 공정 소재를 공식 제품군으로 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kctech.com/page/overview.php",
+      "https://www.kctech.com/page/product1.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사가 디스플레이 장비를 사업분야로 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kctech.com/page/overview.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "반도체 제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "CMP·웨이퍼 세정 장비와 공정 소재를 공식 제품군으로 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.kctech.com/page/overview.php",
+        "https://www.kctech.com/page/product1.php",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "디스플레이",
+       "page": "디스플레이",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사가 디스플레이 장비를 사업분야로 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.kctech.com/page/overview.php",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
       }
@@ -14197,6 +14429,68 @@
      ]
     }
    ]
+  },
+  {
+   "id": "해성디에스",
+   "type": "company",
+   "path": "companies/해성디에스",
+   "summary": "반도체 패키지 기판과 리드프레임을 제조하는 국내 상장사",
+   "market": "KOSPI",
+   "ticker": "195870",
+   "dart_corp_code": "",
+   "aliases": [
+    "HAESUNG DS"
+   ],
+   "krx_industry": "전자부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사가 메모리 반도체 패키지용 PCB Substrate와 Lead Frame을 제품으로 안내하고 KIND 주요제품에도 반도체 패키지용 Substrate가 기재되어 있다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://haesungds.co.kr/eng/?p=products%7Cpkg_substrate%7Coverview",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "패키지기판",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사가 메모리 반도체 패키지용 PCB Substrate와 Lead Frame을 제품으로 안내하고 KIND 주요제품에도 반도체 패키지용 Substrate가 기재되어 있다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://haesungds.co.kr/eng/?p=products%7Cpkg_substrate%7Coverview",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
   },
   {
    "id": "헥토파이낸셜",
@@ -19150,6 +19444,37 @@
    }
   },
   {
+   "source": "SK오션플랜트",
+   "target": "재생에너지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "해상풍력 기자재·시공",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사가 해상풍력 하부구조물 제작 역량을 소개하고 KIND 주요제품에도 해상풍력 하부구조물이 기재되어 있다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.skoceanplant.com/?lang=kr",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "SK텔레콤",
    "target": "통신·네트워크",
    "type": "테마",
@@ -22456,6 +22781,37 @@
    }
   },
   {
+   "source": "에코프로머티",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "양극재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사가 리튬 이차전지용 전구체를 핵심 사업으로 소개하고 KIND 주요제품에도 하이니켈 전구체가 기재되어 있다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://ecopromaterials.com/sub020101",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "에코프로비엠",
    "target": "2차전지",
    "type": "테마",
@@ -23671,6 +24027,69 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "케이씨텍",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "반도체 제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "CMP·웨이퍼 세정 장비와 공정 소재를 공식 제품군으로 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kctech.com/page/overview.php",
+      "https://www.kctech.com/page/product1.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "케이씨텍",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사가 디스플레이 장비를 사업분야로 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kctech.com/page/overview.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
@@ -25539,6 +25958,37 @@
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "해성디에스",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "패키지기판",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사가 메모리 반도체 패키지용 PCB Substrate와 Lead Frame을 제품으로 안내하고 KIND 주요제품에도 반도체 패키지용 Substrate가 기재되어 있다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://haesungds.co.kr/eng/?p=products%7Cpkg_substrate%7Coverview",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
