@@ -3695,6 +3695,68 @@
    "issues": []
   },
   {
+   "id": "ESR켄달스퀘어리츠",
+   "type": "company",
+   "path": "companies/ESR켄달스퀘어리츠",
+   "summary": "국내 물류센터에 투자·운용하는 상장 리츠",
+   "market": "KOSPI",
+   "ticker": "365550",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "부동산 임대 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "항공·물류",
+     "page": "항공·물류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "ESR켄달스퀘어리츠 공식 사이트와 자산관리회사 소개는 물류센터를 기초자산으로 하는 물류전문 상장리츠 운용을 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.esrks-reit.com/",
+      "https://www.esrks-reit.com/company/asset-management",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "항공·물류",
+     "tier": 1,
+     "stage": "물류",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "항공·물류",
+       "page": "항공·물류",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "ESR켄달스퀘어리츠 공식 사이트와 자산관리회사 소개는 물류센터를 기초자산으로 하는 물류전문 상장리츠 운용을 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.esrks-reit.com/",
+        "https://www.esrks-reit.com/company/asset-management",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "F&F",
    "type": "company",
    "path": "companies/F&F",
@@ -29416,6 +29478,38 @@
      "sources": [
       "http://www.egcorp.co.kr/business/energy/energy01?site_lang=kor",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "ESR켄달스퀘어리츠",
+   "target": "항공·물류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "물류",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "항공·물류",
+     "page": "항공·물류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "ESR켄달스퀘어리츠 공식 사이트와 자산관리회사 소개는 물류센터를 기초자산으로 하는 물류전문 상장리츠 운용을 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.esrks-reit.com/",
+      "https://www.esrks-reit.com/company/asset-management",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
