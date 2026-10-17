@@ -1920,6 +1920,109 @@
    "issues": []
   },
   {
+   "id": "CNT85",
+   "type": "company",
+   "path": "companies/CNT85",
+   "summary": "플랜트·필터프레스·건축 사업을 운영하는 산업설비 기업",
+   "market": "KOSDAQ",
+   "ticker": "056730",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "건물 건설업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "씨앤티85 공식 홈페이지는 사업분야로 플랜트·필터프레스·건축을 안내하고 플랜트 아래 에너지·환경·2차전지·항공·방산 실적 분야를 직접 표시한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.cnt85.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "씨앤티85 공식 홈페이지는 사업분야로 플랜트·필터프레스·건축을 안내하고 플랜트 아래 에너지·환경·2차전지·항공·방산 실적 분야를 직접 표시한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.cnt85.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "건축·토목·플랜트",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "씨앤티85 공식 홈페이지는 사업분야로 플랜트·필터프레스·건축을 안내하고 플랜트 아래 에너지·환경·2차전지·항공·방산 실적 분야를 직접 표시한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.cnt85.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "환경·자원순환",
+     "tier": 1,
+     "stage": "환경 소재·설비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "환경·자원순환",
+       "page": "환경·자원순환",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "씨앤티85 공식 홈페이지는 사업분야로 플랜트·필터프레스·건축을 안내하고 플랜트 아래 에너지·환경·2차전지·항공·방산 실적 분야를 직접 표시한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.cnt85.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "DB손해보험",
    "type": "company",
    "path": "companies/DB손해보험",
@@ -25194,6 +25297,68 @@
      "weak": false,
      "sources": [
       "https://www.cmgpharma.co.kr/about/about.html",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "CNT85",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건축·토목·플랜트",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "씨앤티85 공식 홈페이지는 사업분야로 플랜트·필터프레스·건축을 안내하고 플랜트 아래 에너지·환경·2차전지·항공·방산 실적 분야를 직접 표시한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.cnt85.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "CNT85",
+   "target": "환경·자원순환",
+   "type": "테마",
+   "tier": 1,
+   "stage": "환경 소재·설비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "씨앤티85 공식 홈페이지는 사업분야로 플랜트·필터프레스·건축을 안내하고 플랜트 아래 에너지·환경·2차전지·항공·방산 실적 분야를 직접 표시한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.cnt85.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
