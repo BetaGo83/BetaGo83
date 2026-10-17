@@ -5861,6 +5861,109 @@
    "issues": []
   },
   {
+   "id": "STX그린로지스",
+   "type": "company",
+   "path": "companies/STX그린로지스",
+   "summary": "선박을 활용한 해상화물운송과 선박 투자·운용 프로젝트를 제공하는 해운·물류 기업",
+   "market": "KOSPI",
+   "ticker": "465770",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "해상 운송업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 사업자료는 보유·용선 선박을 활용한 용대선과 화물운송, 신조·중고선박 투자·운용 및 선박관리 사업을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.stxgreenlogis.co.kr/business/information1",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "항공·물류",
+     "page": "항공·물류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 사업자료는 보유·용선 선박을 활용한 용대선과 화물운송, 신조·중고선박 투자·운용 및 선박관리 사업을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.stxgreenlogis.co.kr/business/information1",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "조선·해운",
+     "tier": 1,
+     "stage": "해상 운송",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "조선·해운",
+       "page": "조선·해운",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사 공식 사업자료는 보유·용선 선박을 활용한 용대선과 화물운송, 신조·중고선박 투자·운용 및 선박관리 사업을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.stxgreenlogis.co.kr/business/information1",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "항공·물류",
+     "tier": 1,
+     "stage": "물류",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "항공·물류",
+       "page": "항공·물류",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사 공식 사업자료는 보유·용선 선박을 활용한 용대선과 화물운송, 신조·중고선박 투자·운용 및 선박관리 사업을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.stxgreenlogis.co.kr/business/information1",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "Samsung (China) Semiconductor Co., Ltd.",
    "type": "company",
    "path": "companies/Samsung (China) Semiconductor Co., Ltd.",
@@ -26582,6 +26685,68 @@
      "weak": false,
      "sources": [
       "https://www.sntmotiv.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "STX그린로지스",
+   "target": "조선·해운",
+   "type": "테마",
+   "tier": 1,
+   "stage": "해상 운송",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 사업자료는 보유·용선 선박을 활용한 용대선과 화물운송, 신조·중고선박 투자·운용 및 선박관리 사업을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.stxgreenlogis.co.kr/business/information1",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "STX그린로지스",
+   "target": "항공·물류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "물류",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "항공·물류",
+     "page": "항공·물류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 사업자료는 보유·용선 선박을 활용한 용대선과 화물운송, 신조·중고선박 투자·운용 및 선박관리 사업을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.stxgreenlogis.co.kr/business/information1",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
