@@ -108,7 +108,8 @@
    "stages": [
     "건설기계",
     "소형·중장비",
-    "공작기계·산업용 로봇"
+    "공작기계·산업용 로봇",
+    "에너지·산업설비"
    ]
   },
   {
@@ -2849,6 +2850,70 @@
        "sources": [
         "http://dhautoware.co.kr/sub3/sub3_01.php",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "DKME",
+   "type": "company",
+   "path": "companies/DKME",
+   "summary": "석유화학·에너지 플랜트용 장치와 산업기계를 제조하는 기업",
+   "market": "KOSPI",
+   "ticker": "015590",
+   "dart_corp_code": "00108746",
+   "aliases": [
+    "디케이엠이"
+   ],
+   "krx_industry": "일반 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DKME 공식 홈페이지와 사업안내는 석유화학·에너지 플랜트 장치, 에너지장치·에너지생산 분야와 산업기계 제조 역량을 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dkme.com/eng/main/",
+      "https://www.dkme.com/business/sub01.html",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "에너지·산업설비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "DKME 공식 홈페이지와 사업안내는 석유화학·에너지 플랜트 장치, 에너지장치·에너지생산 분야와 산업기계 제조 역량을 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dkme.com/eng/main/",
+        "https://www.dkme.com/business/sub01.html",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
       }
@@ -29097,6 +29162,38 @@
      "sources": [
       "http://dhautoware.co.kr/sub3/sub3_01.php",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "DKME",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "에너지·산업설비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DKME 공식 홈페이지와 사업안내는 석유화학·에너지 플랜트 장치, 에너지장치·에너지생산 분야와 산업기계 제조 역량을 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dkme.com/eng/main/",
+      "https://www.dkme.com/business/sub01.html",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
