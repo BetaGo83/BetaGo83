@@ -1445,6 +1445,66 @@
    "issues": []
   },
   {
+   "id": "CMG제약",
+   "type": "company",
+   "path": "companies/CMG제약",
+   "summary": "전문의약품과 개량신약·신약 후보를 연구개발하고 생산하는 제약기업",
+   "market": "KOSDAQ",
+   "ticker": "058820",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 자료는 전문의약품 개발·생산, 제제·신약 연구개발, 구강용해필름 등 개량신약과 신규 약물 후보 연구를 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.cmgpharma.co.kr/about/about.html",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사 공식 자료는 전문의약품 개발·생산, 제제·신약 연구개발, 구강용해필름 등 개량신약과 신규 약물 후보 연구를 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.cmgpharma.co.kr/about/about.html",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "DB손해보험",
    "type": "company",
    "path": "companies/DB손해보험",
@@ -23934,6 +23994,37 @@
      "weak": false,
      "sources": [
       "https://www.cjfreshway.com/solution/company.jsp",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "CMG제약",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사 공식 자료는 전문의약품 개발·생산, 제제·신약 연구개발, 구강용해필름 등 개량신약과 신규 약물 후보 연구를 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.cmgpharma.co.kr/about/about.html",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
