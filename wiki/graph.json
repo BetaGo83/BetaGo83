@@ -3043,6 +3043,109 @@
    ]
   },
   {
+   "id": "HD현대",
+   "type": "company",
+   "path": "companies/HD현대",
+   "summary": "조선·해양과 기계·로봇 사업을 중심으로 하는 지주회사",
+   "market": "KOSPI",
+   "ticker": "267250",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "HD현대 공식 사이트는 조선·해양, 에너지, 기계·로봇 사업 부문을 설명하고 HD한국조선해양·HD현대중공업 및 HD건설기계 등 계열사를 사업 부문별로 직접 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hd.com/kr/main",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "HD현대 공식 사이트는 조선·해양, 에너지, 기계·로봇 사업 부문을 설명하고 HD한국조선해양·HD현대중공업 및 HD건설기계 등 계열사를 사업 부문별로 직접 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hd.com/kr/main",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "건설기계",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "HD현대 공식 사이트는 조선·해양, 에너지, 기계·로봇 사업 부문을 설명하고 HD한국조선해양·HD현대중공업 및 HD건설기계 등 계열사를 사업 부문별로 직접 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hd.com/kr/main",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "조선·해운",
+     "tier": 1,
+     "stage": "조선",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "조선·해운",
+       "page": "조선·해운",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "HD현대 공식 사이트는 조선·해양, 에너지, 기계·로봇 사업 부문을 설명하고 HD한국조선해양·HD현대중공업 및 HD건설기계 등 계열사를 사업 부문별로 직접 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hd.com/kr/main",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "HD현대마린솔루션",
    "type": "company",
    "path": "companies/HD현대마린솔루션",
@@ -26238,6 +26341,68 @@
     "label": "확인 중",
     "muted": false,
     "line_style": "dashed"
+   }
+  },
+  {
+   "source": "HD현대",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건설기계",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "HD현대 공식 사이트는 조선·해양, 에너지, 기계·로봇 사업 부문을 설명하고 HD한국조선해양·HD현대중공업 및 HD건설기계 등 계열사를 사업 부문별로 직접 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hd.com/kr/main",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HD현대",
+   "target": "조선·해운",
+   "type": "테마",
+   "tier": 1,
+   "stage": "조선",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "HD현대 공식 사이트는 조선·해양, 에너지, 기계·로봇 사업 부문을 설명하고 HD한국조선해양·HD현대중공업 및 HD건설기계 등 계열사를 사업 부문별로 직접 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hd.com/kr/main",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
    }
   },
   {
