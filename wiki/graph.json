@@ -2370,6 +2370,64 @@
    "issues": []
   },
   {
+   "id": "CS",
+   "type": "company",
+   "path": "companies/CS",
+   "summary": "이동통신 중계기와 위성방송 중계기 제품을 만드는 통신 장비 기업",
+   "market": "KOSDAQ",
+   "ticker": "065770",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "통신 및 방송 장비 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "한국거래소 KIND 상장법인 목록은 CS의 주요제품을 이동통신중계기와 위성방송(DMB)중계기(Gap-Filler)로 기재한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "통신·네트워크",
+     "tier": 1,
+     "stage": "이동통신망 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "통신·네트워크",
+       "page": "통신·네트워크",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "한국거래소 KIND 상장법인 목록은 CS의 주요제품을 이동통신중계기와 위성방송(DMB)중계기(Gap-Filler)로 기재한다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "DB손해보험",
    "type": "company",
    "path": "companies/DB손해보험",
@@ -26638,6 +26696,36 @@
      "weak": false,
      "sources": [
       "https://www.cnt85.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "CS",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 1,
+   "stage": "이동통신망 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "한국거래소 KIND 상장법인 목록은 CS의 주요제품을 이동통신중계기와 위성방송(DMB)중계기(Gap-Filler)로 기재한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
