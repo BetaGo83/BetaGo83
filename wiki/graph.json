@@ -992,6 +992,68 @@
    "issues": []
   },
   {
+   "id": "BGF",
+   "type": "company",
+   "path": "companies/BGF",
+   "summary": "편의점 CU와 생활 플랫폼 사업을 중심으로 하는 기업집단",
+   "market": "KOSPI",
+   "ticker": "027410",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "BGF 공식 기업비전은 고객에게 최상의 상품과 서비스를 제공하는 기업 비전을 제시하고, 공식 CU 브랜드 페이지는 CU를 상품·서비스를 제공하는 일상의 플랫폼이자 서비스 네트워크로 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.bgf.co.kr/company/vision/",
+      "https://www.bgf.co.kr/company/brand/cu/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "유통·전자상거래",
+     "tier": 1,
+     "stage": "편의점·소매·전자상거래",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "유통·전자상거래",
+       "page": "유통·전자상거래",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "BGF 공식 기업비전은 고객에게 최상의 상품과 서비스를 제공하는 기업 비전을 제시하고, 공식 CU 브랜드 페이지는 CU를 상품·서비스를 제공하는 일상의 플랫폼이자 서비스 네트워크로 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.bgf.co.kr/company/vision/",
+        "https://www.bgf.co.kr/company/brand/cu/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "BGF리테일",
    "type": "company",
    "path": "companies/BGF리테일",
@@ -25174,6 +25236,38 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "BGF",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 1,
+   "stage": "편의점·소매·전자상거래",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "BGF 공식 기업비전은 고객에게 최상의 상품과 서비스를 제공하는 기업 비전을 제시하고, 공식 CU 브랜드 페이지는 CU를 상품·서비스를 제공하는 일상의 플랫폼이자 서비스 네트워크로 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.bgf.co.kr/company/vision/",
+      "https://www.bgf.co.kr/company/brand/cu/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
