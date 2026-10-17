@@ -2162,6 +2162,152 @@
    ]
   },
   {
+   "id": "HJ중공업",
+   "type": "company",
+   "path": "companies/HJ중공업",
+   "summary": "조선·건설·해양방산 사업을 함께 운영하는 종합 중공업 기업",
+   "market": "KOSPI",
+   "ticker": "097230",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "토목 건설업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 건설, 조선, 방산을 사업부문으로 운영하며 친환경 선박 건조와 건축·토목 사업, 함정 건조 역량을 각각 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hjsc.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 건설, 조선, 방산을 사업부문으로 운영하며 친환경 선박 건조와 건축·토목 사업, 함정 건조 역량을 각각 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hjsc.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "방산",
+     "page": "방산",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 건설, 조선, 방산을 사업부문으로 운영하며 친환경 선박 건조와 건축·토목 사업, 함정 건조 역량을 각각 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hjsc.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "건축·토목·플랜트",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 자료에서 건설, 조선, 방산을 사업부문으로 운영하며 친환경 선박 건조와 건축·토목 사업, 함정 건조 역량을 각각 소개한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hjsc.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "방산",
+     "tier": 1,
+     "stage": "함정",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "방산",
+       "page": "방산",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 자료에서 건설, 조선, 방산을 사업부문으로 운영하며 친환경 선박 건조와 건축·토목 사업, 함정 건조 역량을 각각 소개한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hjsc.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "조선·해운",
+     "tier": 1,
+     "stage": "조선",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "조선·해운",
+       "page": "조선·해운",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 자료에서 건설, 조선, 방산을 사업부문으로 운영하며 친환경 선박 건조와 건축·토목 사업, 함정 건조 역량을 각각 소개한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hjsc.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "HL만도",
    "type": "company",
    "path": "companies/HL만도",
@@ -22817,6 +22963,99 @@
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HJ중공업",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건축·토목·플랜트",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 건설, 조선, 방산을 사업부문으로 운영하며 친환경 선박 건조와 건축·토목 사업, 함정 건조 역량을 각각 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hjsc.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HJ중공업",
+   "target": "방산",
+   "type": "테마",
+   "tier": 1,
+   "stage": "함정",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "방산",
+     "page": "방산",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 건설, 조선, 방산을 사업부문으로 운영하며 친환경 선박 건조와 건축·토목 사업, 함정 건조 역량을 각각 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hjsc.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HJ중공업",
+   "target": "조선·해운",
+   "type": "테마",
+   "tier": 1,
+   "stage": "조선",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 건설, 조선, 방산을 사업부문으로 운영하며 친환경 선박 건조와 건축·토목 사업, 함정 건조 역량을 각각 소개한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hjsc.co.kr/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
