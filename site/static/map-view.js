@@ -152,12 +152,18 @@
       element("p", "제목 기준 연결 · 사건 수 미집계 · 급증 비교 자료 부족", box, "meta");
       var shownItems = c.items.slice().sort(MapNews.compareDocuments).slice(0, 8);
       element("p", "선택 기간 전체 " + c.items.length + "개 중 " + shownItems.length + "개 표시 · " + (c.items.length - shownItems.length) + "개 생략", box, "meta");
-      element("p", "뉴스는 제공일·시각순, 공시는 접수일순입니다. 같은 접수일의 공시는 첫 수집 확인순이며 접수 시각이 아닙니다.", box, "meta");
+      element("p", "날짜순이며 같은 날은 시각 있는 뉴스, 날짜만 있는 기관 자료, 공시 순입니다. 날짜만 있는 기관 자료는 첫 수집 확인순이며 제공 시각이 아닙니다. 같은 접수일의 공시는 첫 수집 확인순이며 접수 시각이 아닙니다.", box, "meta");
       var list = element("ul", null, box);
       shownItems.forEach(function (d) {
         var row = element("li", null, list);
         var a = element("a", d.title, row); a.href = d.url; a.target = "_blank"; a.rel = "noopener noreferrer";
-        element("div", d.date + " · " + d.source + (d.kind === "disclosure" ? " · 공시 접수일" : d.source === "한국은행" ? " · 기관 자료 제목 · 기관 제공일" : " · 기사 제공일"), row, "meta");
+        if (d.datePrecision === "day") {
+          var dateLine = element("div", null, row, "meta"), provided = element("time", d.date, dateLine); provided.dateTime = d.date;
+          element("span", " · " + d.source + " · 기관 자료 제목 · 기관 제공일 · 시각 미제공", dateLine);
+          var attribution = element("div", "작성자 " + d.author + " · ", row, "meta");
+          var policy = element("a", "공공누리 제1유형(출처표시)", attribution);
+          policy.href = d.policyUrl; policy.target = "_blank"; policy.rel = "noopener noreferrer";
+        } else element("div", d.date + " · " + d.source + (d.kind === "disclosure" ? " · 공시 접수일" : d.source === "한국은행" ? " · 기관 자료 제목 · 기관 제공일" : " · 기사 제공일"), row, "meta");
         element("div", d.observedAt ? "첫 수집 확인 " + browserClock.format(new Date(d.observedAt)) + " KST" : "첫 수집 시각 기록 없음", row, "meta");
       });
       if (!c.items.length) element("p", "선택 기간의 공개 목록에서 찾은 제목이 없습니다. 수집 범위 밖의 자료는 알 수 없습니다.", box, "meta");

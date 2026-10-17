@@ -6,7 +6,7 @@
 <meta name="description" content="기업과 산업·테마별로 공개한 뉴스·공시 제목과 출처를 확인하는 목록">
 <title>뉴스 흐름 · 기업 관계 위키</title>
 <script src="./analytics.js?v=20261017-1" defer></script>
-<script src="./map-news.js?v=20261017-bok2" defer></script>
+<script src="./map-news.js?v=20261017-motir1" defer></script>
 <script src="./news-feed.js?v=20261017-watch1" defer></script>
 <script>
 try { var theme = localStorage.getItem("theme"); if (theme === "dark" || theme === "light") document.documentElement.setAttribute("data-theme", theme); } catch (e) {}
@@ -129,7 +129,7 @@ footer p { margin:5px 0; }
   </form>
   <section id="results" aria-labelledby="result-title" tabindex="-1">
     <div class="result-heading"><h2 id="result-title" role="status" aria-live="polite">공개 목록을 불러오는 중입니다</h2><span>날짜순 · 한 페이지 40건</span></div>
-    <p class="small">기사는 제공일·시각순, 공시는 접수일순입니다. 같은 접수일의 공시는 첫 수집 확인순이며 접수 시각이 아닙니다.</p>
+    <p class="small">날짜순이며 같은 날은 시각 있는 뉴스, 날짜만 있는 기관 자료, 공시 순입니다. 날짜만 있는 기관 자료는 첫 수집 확인순이며 제공 시각이 아닙니다. 같은 접수일의 공시는 첫 수집 확인순이며 접수 시각이 아닙니다.</p>
     <ol id="feed" class="feed"></ol>
     <div id="empty" class="empty" hidden><h3 id="empty-title"></h3><p id="empty-detail"></p></div>
     <div id="pager" class="pager" hidden><button id="prev" type="button">이전</button><span id="page-number"></span><button id="next" type="button">다음</button></div>
@@ -160,7 +160,10 @@ window.addEventListener("DOMContentLoaded", function () {
   function text(value, max) { return typeof value === "string" && value.trim() && value.length <= max ? value.trim() : null; }
   function timestamp(value) { return typeof value === "string" && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}/.test(value) && Number.isFinite(Date.parse(value)) ? value : null; }
   function dateLabel(value) { return timestamp(value) ? clock.format(new Date(value)) + " KST" : "날짜 확인 실패"; }
-  function publishedLabel(value, kind, source) { return kind === "disclosure" ? calendar.format(new Date(value)) + " 공시 접수일" : dateLabel(value) + (source === "한국은행" ? " · 기관 제공 시각" : " · 기사 제공 시각"); }
+  function publishedLabel(value, kind, source, providedOn) {
+    if (providedOn) return providedOn + " · 기관 제공일 · 시각 미제공";
+    return kind === "disclosure" ? calendar.format(new Date(value)) + " 공시 접수일" : dateLabel(value) + (source === "한국은행" ? " · 기관 제공 시각" : " · 기사 제공 시각");
+  }
   function sourceUrl(raw) {
     if (!text(raw, 4096) || /[\s\\\u0000-\u001f]/.test(raw)) return null;
     try {
@@ -169,6 +172,7 @@ window.addEventListener("DOMContentLoaded", function () {
       if (u.hostname === "dart.fss.or.kr" && u.pathname === "/dsaf001/main.do" && /^\?rcpNo=\d{14}$/.test(u.search)) return u.href;
       var bok = /^https:\/\/www\.bok\.or\.kr\/portal\/bbs\/(P0000559|B0000501|B0000502)\/view\.do\?nttId=([1-9][0-9]{0,19})&menuNo=([0-9]{6})$/.exec(raw);
       if (bok && BOK_MENUS[bok[1]] === bok[3]) return u.href;
+      if (/^https:\/\/www\.motir\.go\.kr\/kor\/article\/ATCL3f49a5a8c\/[1-9][0-9]{0,19}\/view$/.test(raw)) return u.href;
       var pathOK = /(?:^|\.)hankyung\.com$/.test(u.hostname) ? /^\/article\/\d{13}$/.test(u.pathname)
         : /(?:^|\.)fnnews\.com$/.test(u.hostname) ? /^\/news\/\d{18}$/.test(u.pathname)
         : /(?:^|\.)etoday\.co\.kr$/.test(u.hostname) && /^\/news\/view\/\d{7}$/.test(u.pathname);
@@ -203,15 +207,22 @@ window.addEventListener("DOMContentLoaded", function () {
     return valid;
   }
   function normalize(v) {
-    if (!v || !text(v.title, 700) || !timestamp(v.published_at) || !["news", "disclosure"].includes(v.kind) || !["new", "followup", "correction"].includes(v.status)) return null;
-    if (v.evidence !== (v.kind === "news" ? "기사 제목" : "공시 제목") || !Array.isArray(v.sources) || !v.sources.length || v.sources.length > 40) return null;
+    // MapNews.prepare validates the complete feed before this display projection.
+    var dayOnly = v && v.date_precision === "day";
+    if (!v || !text(v.title, 700) || !(dayOnly ? v.published_at === null : timestamp(v.published_at)) || !["news", "disclosure"].includes(v.kind) || !["new", "followup", "correction"].includes(v.status)) return null;
+    if (v.evidence !== (dayOnly ? "기관 자료 제목" : v.kind === "news" ? "기사 제목" : "공시 제목") || !Array.isArray(v.sources) || !v.sources.length || v.sources.length > 40) return null;
     var sources = v.sources.map(function (s) {
-      if (!s || !text(s.name, 160) || !timestamp(s.published_at)) return null;
-      var url = sourceUrl(s.url); return url ? { name:s.name.trim(), url:url, published_at:s.published_at, observed_at:typeof s.observed_at === "string" ? s.observed_at : null } : null;
+      if (!s || !text(s.name, 160) || !(dayOnly ? s.published_at === null : timestamp(s.published_at))) return null;
+      var url = sourceUrl(s.url);
+      if (!url) return null;
+      var value = { name:s.name.trim(), url:url, published_at:s.published_at, observed_at:typeof s.observed_at === "string" ? s.observed_at : null };
+      if (dayOnly) Object.assign(value, {date_precision:s.date_precision, provided_on:s.provided_on, author:s.author, license:s.license, policy_url:s.policy_url});
+      return value;
     }).filter(Boolean);
     if (!sources.length) return null;
     if (sources.length !== v.sources.length) skipped++;
-    return { title:v.title.trim(), published_at:v.published_at, kind:v.kind, status:v.status, evidence:v.evidence,
+    return { id:v.id, title:v.title.trim(), published_at:v.published_at, date_precision:v.date_precision, provided_on:v.provided_on,
+      kind:v.kind, status:v.status, evidence:v.evidence,
       sources:sources, companies:entities(v.companies, "companies"), themes:entities(v.themes, "themes"),
       grouping:["single", "exact", "similar"].includes(v.grouping) ? v.grouping : "single",
       group_size:Number.isInteger(v.group_size) && v.group_size > 0 ? v.group_size : sources.length };
@@ -247,12 +258,12 @@ window.addEventListener("DOMContentLoaded", function () {
   function card(item, parent) {
     var row = element("li", null, parent), article = element("article", null, row);
     var meta = element("div", null, article, "item-meta");
-    var institution = item.kind === "news" && item.sources.every(function (s) { return s.name === "한국은행"; });
+    var institution = item.kind === "news" && item.sources.every(function (s) { return s.name === "한국은행" || s.name === "산업통상부"; });
     element("span", institution ? "기관 자료" : item.kind === "news" ? "뉴스" : "공시", meta, "badge kind");
     element("span", (institution ? "기관 자료 제목" : item.evidence) + "만 확인", meta, "badge weak");
     if (item.status !== "new") element("span", item.status === "followup" ? "후속 후보" : "정정 표시", meta, "badge followup");
     if (item.sources.some(function (source) { return observedURLs.has(source.url); })) element("span", "이번 확인에서 새로 수집", meta, "badge observed");
-    var time = element("time", publishedLabel(item.published_at, item.kind, item.sources[0].name), meta); time.dateTime = item.published_at;
+    var time = element("time", publishedLabel(item.published_at, item.kind, item.sources[0].name, item.provided_on), meta); time.dateTime = item.provided_on || item.published_at;
     time.title = institution ? "기관 제공일" : item.kind === "news" ? "기사 제공일" : "공시 접수일";
     link(element("h3", null, article), item.title, item.sources[0].url, true, "headline");
     if (item.grouping === "similar") element("p", "비슷한 제목 묶음 · 같은 사건인지 미확인", article, "group-note");
@@ -265,7 +276,11 @@ window.addEventListener("DOMContentLoaded", function () {
     var sources = element("ul", null, article, "source-list"); sources.setAttribute("aria-label", "제목 출처");
     item.sources.forEach(function (s) {
       var row = element("li", null, sources), source = link(row, s.name + " ↗", s.url, true);
-      source.title = "출처 열기 · " + publishedLabel(s.published_at, item.kind, s.name) + (s.observed_at ? " · 첫 수집 확인(보관 기록 기준) " + dateLabel(s.observed_at) : " · 처음 수집 시각 기록 없음");
+      source.title = "출처 열기 · " + publishedLabel(s.published_at, item.kind, s.name, s.provided_on) + (s.observed_at ? " · 첫 수집 확인(보관 기록 기준) " + dateLabel(s.observed_at) : " · 처음 수집 시각 기록 없음");
+      if (s.date_precision === "day") {
+        element("small", " · 작성자 " + s.author + " · ", row);
+        link(row, "공공누리 제1유형(출처표시)", s.policy_url, true);
+      }
       element("small", s.observed_at ? " · 첫 수집 확인 " + dateLabel(s.observed_at) : " · 첫 수집 시각 기록 없음", row);
     });
   }
@@ -284,7 +299,7 @@ window.addEventListener("DOMContentLoaded", function () {
       var newDocs = change.newlyObserved, visibleURLs = new Set(rows.flatMap(function (item) { return item.sources.map(function (source) { return source.url; }); }));
       if (newDocs.length) {
         var inside = newDocs.filter(function (doc) { return visibleURLs.has(doc.url); }).length;
-        $("collection-change").textContent = "이번 확인에서 새로 수집된 출처: 기사 " + newDocs.filter(function (doc) { return doc.kind === "news"; }).length
+        $("collection-change").textContent = "이번 확인에서 새로 수집된 출처: 뉴스 " + newDocs.filter(function (doc) { return doc.kind === "news"; }).length
           + " · 공시 " + newDocs.filter(function (doc) { return doc.kind === "disclosure"; }).length + " · 현재 필터 안 " + inside + " / 밖 " + (newDocs.length - inside) + ".";
       } else {
         var displayChanges = change.added.length + change.updated.length + change.removed.length;
@@ -306,7 +321,7 @@ window.addEventListener("DOMContentLoaded", function () {
   }
   function start(data, incoming, diff) {
     var c = data && data.coverage;
-    if (!data || ![1, 2].includes(data.schema) || !timestamp(data.generated_at) || !timestamp(data.collected_at) || !c || !timestamp(c.from) || !timestamp(c.to)
+    if (!data || ![1, 2, 3].includes(data.schema) || !timestamp(data.generated_at) || !timestamp(data.collected_at) || !c || !timestamp(c.from) || !timestamp(c.to)
       || !Number.isInteger(c.queries_total) || !Number.isInteger(c.queries_ok) || c.queries_total < 1 || c.queries_ok < 0 || c.queries_ok > c.queries_total
       || typeof c.partial !== "boolean" || !Array.isArray(data.items) || data.items.length > MAX_ITEMS) throw new Error("invalid feed");
     if (c.queries_ok === 0) throw new Error("no confirmed collection");

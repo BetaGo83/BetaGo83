@@ -5,6 +5,8 @@
 })(typeof window !== "undefined" ? window : globalThis, function () {
   "use strict";
   var DAY = 86400000;
+  var MOTIR_POLICY = "https://www.motir.go.kr/kor/contents/81";
+  var ITEM_KEYS = ["id", "title", "published_at", "kind", "status", "evidence", "companies", "themes", "sources", "group_size", "grouping"];
   var BOK_MENUS = { P0000559: "200690", B0000501: "201264", B0000502: "201265" };
   var SOURCES = {
     "한국경제": { hosts: ["hankyung.com", "www.hankyung.com"], path: /^\/article\/[0-9]{8,30}$/ },
@@ -13,6 +15,17 @@
   };
   function requireValue(ok, reason) { if (!ok) throw new Error(reason); }
   function object(value) { return value !== null && typeof value === "object" && !Array.isArray(value); }
+  function exactKeys(value, keys) {
+    return object(value) && Object.keys(value).length === keys.length && keys.every(function (key) {
+      return Object.prototype.hasOwnProperty.call(value, key);
+    });
+  }
+  function author(value) {
+    return typeof value === "string" && value === value.trim() && Array.from(value).length <= 80
+      && /\p{L}/u.test(value) && /^[\p{L} ().·-]+$/u.test(value)
+      && !/password|secret|token|apikey|암호|비밀번호|계좌|localhost|bearer|private key/i.test(value)
+      && !/[A-Za-z0-9-]+\.[A-Za-z]{2,}/.test(value) && !/(?:sk-|xoxb-)[A-Za-z-]{10,}/i.test(value);
+  }
   function text(value, maximum) {
     return typeof value === "string" && value.length > 0 && value.length <= maximum && value === value.trim()
       && !/[\x00-\x1f\x7f<>\\]/.test(value);
@@ -67,6 +80,8 @@
     } else if (name === "한국은행") {
       var bok = /^https:\/\/www\.bok\.or\.kr\/portal\/bbs\/(P0000559|B0000501|B0000502)\/view\.do\?nttId=([1-9][0-9]{0,19})&menuNo=([0-9]{6})$/.exec(value);
       requireValue(bok && BOK_MENUS[bok[1]] === bok[3], "Invalid institution URL");
+    } else if (name === "산업통상부") {
+      requireValue(/^https:\/\/www\.motir\.go\.kr\/kor\/article\/ATCL3f49a5a8c\/[1-9][0-9]{0,19}\/view$/.test(value), "Invalid MOTIR URL");
     } else {
       var policy = Object.prototype.hasOwnProperty.call(SOURCES, name) && SOURCES[name];
       requireValue(policy && policy.hosts.indexOf(url.hostname) >= 0 && policy.path.test(url.pathname) && !url.search, "Invalid news URL");
@@ -75,33 +90,37 @@
   }
   function compareText(a, b) { return a < b ? -1 : a > b ? 1 : 0; }
   function timeOrder(value) { return value.slice(0, 19) + (value.slice(19, -6) || ".").padEnd(7, "0"); }
-  // Publication dates remain primary. A disclosure has no known receipt time:
-  // group it after timed news on that date, then use the recorded observation.
-  // Keeping kind ahead of that secondary key makes mixed-kind ties transitive.
+  // Same day: timed news, day-only institution material, then disclosures.
+  // Fixed ranks keep mixed-kind and midnight ties transitive without inventing time.
   function comparePublication(aDate, aKind, aTime, aObserved, bDate, bKind, bTime, bObserved) {
     var date = compareText(bDate, aDate);
     if (date) return date;
-    if (aKind !== bKind) return aKind === "news" ? -1 : 1;
-    if (aKind === "news") return compareText(timeOrder(bTime), timeOrder(aTime));
+    var aRank = aKind === "disclosure" ? 2 : aTime === null ? 1 : 0;
+    var bRank = bKind === "disclosure" ? 2 : bTime === null ? 1 : 0;
+    if (aRank !== bRank) return aRank - bRank;
+    if (aRank === 0) return compareText(timeOrder(bTime), timeOrder(aTime));
     if (aObserved === null || bObserved === null) return aObserved === bObserved ? 0 : aObserved === null ? 1 : -1;
     return compareText(timeOrder(bObserved), timeOrder(aObserved));
   }
   function compareDocuments(a, b) {
     return comparePublication(a.date, a.kind, a.time, a.observedAt, b.date, b.kind, b.time, b.observedAt)
+      || (a.datePrecision === "day" && b.datePrecision === "day" ? compareText(b.itemId, a.itemId) : 0)
       || compareText(a.key, b.key);
   }
   function compareItems(a, b) {
     var aSource = a.sources[0], bSource = b.sources[0];
-    return comparePublication(a.published_at.slice(0, 10), a.kind, a.published_at, aSource.observed_at || null,
-      b.published_at.slice(0, 10), b.kind, b.published_at, bSource.observed_at || null)
+    return comparePublication(a.provided_on || a.published_at.slice(0, 10), a.kind, a.published_at, aSource.observed_at || null,
+      b.provided_on || b.published_at.slice(0, 10), b.kind, b.published_at, bSource.observed_at || null)
+      || (a.date_precision === "day" && b.date_precision === "day" ? compareText(b.id, a.id) : 0)
       || a.title.localeCompare(b.title, "ko") || compareText(aSource.url, bSource.url);
   }
   function prepare(feed, nodes) {
-    requireValue(object(feed) && [1, 2].indexOf(feed.schema) >= 0 && feed.retention_days === 14, "Invalid feed schema");
+    requireValue(object(feed) && [1, 2, 3].indexOf(feed.schema) >= 0 && feed.retention_days === 14, "Invalid feed schema");
     var generated = timestamp(feed.generated_at), collected = timestamp(feed.collected_at), coverage = feed.coverage;
     requireValue(collected <= generated && object(coverage), "Invalid feed dates");
     var first = timestamp(coverage.from), last = timestamp(coverage.to);
     requireValue(first <= last && last <= collected + 300000 && last - first <= 14 * DAY + 300000, "Invalid feed coverage");
+    requireValue(feed.schema !== 3 || coverage.to === feed.collected_at, "Invalid schema 3 coverage end");
     requireValue(Number.isInteger(coverage.queries_total) && coverage.queries_total >= 0 && coverage.queries_total <= 1000
       && Number.isInteger(coverage.queries_ok) && coverage.queries_ok >= 0 && coverage.queries_ok <= coverage.queries_total
       && typeof coverage.partial === "boolean" && (coverage.queries_ok === coverage.queries_total || coverage.partial), "Invalid coverage status");
@@ -120,10 +139,21 @@
       requireValue(object(item) && typeof item.id === "string" && /^[0-9a-f]{12,64}$/.test(item.id)
         && !ids[item.id] && text(item.title, 300), "Invalid feed item");
       ids[item.id] = true;
-      var published = timestamp(item.published_at);
-      requireValue(published >= first && published <= last && (item.kind === "news" || item.kind === "disclosure")
+      var dayOnly = item.published_at === null || item.date_precision !== undefined || item.provided_on !== undefined;
+      requireValue(!dayOnly || feed.schema === 3, "Day-only metadata requires schema 3");
+      if (feed.schema === 3) requireValue(exactKeys(item, dayOnly ? ITEM_KEYS.concat(["date_precision", "provided_on"]) : ITEM_KEYS), "Invalid item fields");
+      if (dayOnly) {
+        dayValue(item.provided_on);
+        requireValue(item.published_at === null && item.date_precision === "day" && item.kind === "news"
+          && item.provided_on >= shiftDay(feed.generated_at.slice(0, 10), -13)
+          && item.provided_on <= feed.collected_at.slice(0, 10), "Invalid provided date");
+      } else {
+        var published = timestamp(item.published_at);
+        requireValue(published >= first && published <= last, "Invalid item date");
+      }
+      requireValue((item.kind === "news" || item.kind === "disclosure")
         && ["new", "followup", "correction"].indexOf(item.status) >= 0
-        && item.evidence === (item.kind === "news" ? "기사 제목" : "공시 제목"), "Invalid item metadata");
+        && item.evidence === (dayOnly ? "기관 자료 제목" : item.kind === "news" ? "기사 제목" : "공시 제목"), "Invalid item metadata");
       var companyIDs = [], themeLinks = [];
       ["companies", "themes"].forEach(function (field) {
         requireValue(Array.isArray(item[field]) && item[field].length <= 20, "Invalid entity list");
@@ -141,16 +171,23 @@
         && Number.isInteger(item.group_size) && item.group_size >= item.sources.length && item.group_size <= 10000
         && ["single", "exact", "similar"].indexOf(item.grouping) >= 0
         && (item.grouping === "single") === (item.group_size === 1), "Invalid source list");
+      requireValue(!dayOnly || (item.sources.length === 1 && item.group_size === 1 && item.grouping === "single"), "Day-only material must stay single");
       var receipt = null;
       item.sources.forEach(function (source) {
         requireValue(object(source) && text(source.name, 40), "Invalid source");
-        var sourceKeys = feed.schema === 2 ? ["name", "url", "published_at", "observed_at"] : ["name", "url", "published_at"];
-        requireValue(Object.keys(source).length === sourceKeys.length && sourceKeys.every(function (key) {
-          return Object.prototype.hasOwnProperty.call(source, key);
-        }), "Invalid source fields");
-        var sourceTime = timestamp(source.published_at);
-        requireValue(sourceTime >= first && sourceTime <= last, "Invalid source date");
-        var observedAt = feed.schema === 2 ? source.observed_at : null;
+        var sourceKeys = feed.schema >= 2 ? ["name", "url", "published_at", "observed_at"] : ["name", "url", "published_at"];
+        if (dayOnly) sourceKeys = sourceKeys.concat(["date_precision", "provided_on", "author", "license", "policy_url"]);
+        requireValue(exactKeys(source, sourceKeys), "Invalid source fields");
+        if (dayOnly) {
+          requireValue(source.name === "산업통상부" && source.published_at === null && source.date_precision === "day"
+            && source.provided_on === item.provided_on && author(source.author)
+            && source.license === "KOGL-1" && source.policy_url === MOTIR_POLICY, "Invalid MOTIR attribution");
+        } else {
+          requireValue(source.name !== "산업통상부", "MOTIR requires day-only metadata");
+          var sourceTime = timestamp(source.published_at);
+          requireValue(sourceTime >= first && sourceTime <= last, "Invalid source date");
+        }
+        var observedAt = feed.schema >= 2 ? source.observed_at : null;
         requireValue(observedAt === null || timestamp(observedAt) <= collected, "Invalid observation date");
         var url = sourceUrl(source.url, item.kind, source.name);
         if (item.kind === "disclosure") {
@@ -158,11 +195,12 @@
           requireValue(source.published_at.slice(0, 10) === item.published_at.slice(0, 10), "Disclosure date mismatch");
           receipt = url;
         }
-        var date = (item.kind === "disclosure" ? item.published_at : source.published_at).slice(0, 10);
+        var date = dayOnly ? item.provided_on : (item.kind === "disclosure" ? item.published_at : source.published_at).slice(0, 10);
         var existing = byURL[url];
         if (existing) {
           requireValue(existing.kind === item.kind && existing.date === date && existing.observedAt === observedAt,
             "Conflicting document metadata");
+          requireValue(!dayOnly, "Duplicate day-only material URL");
           companyIDs.forEach(function (id) { if (existing.companies.indexOf(id) < 0) existing.companies.push(id); });
           themeLinks.forEach(function (theme) {
             if (!existing.themes.some(function (value) { return value.name === theme.name && value.path === theme.path; }))
@@ -171,8 +209,10 @@
           return;
         }
         var doc = { key: url, url: url, title: item.title, kind: item.kind, date: date,
-          time: item.kind === "disclosure" ? null : source.published_at, companies: companyIDs.slice(), source: source.name,
+          time: dayOnly || item.kind === "disclosure" ? null : source.published_at, companies: companyIDs.slice(), source: source.name,
           observedAt: observedAt, themes: themeLinks.slice() };
+        if (dayOnly) Object.assign(doc, { itemId: item.id, datePrecision: source.date_precision, providedOn: source.provided_on,
+          author: source.author, license: source.license, policyUrl: source.policy_url });
         byURL[url] = doc;
         documents.push(doc);
       });
@@ -203,7 +243,8 @@
   }
   function signature(doc) {
     var themes = (doc.themes || []).map(function (theme) { return JSON.stringify([theme.name, theme.path]); }).sort();
-    return JSON.stringify([doc.title, doc.kind, doc.date, doc.time, doc.source, doc.companies.slice().sort(), themes, doc.observedAt]);
+    return JSON.stringify([doc.title, doc.kind, doc.date, doc.time, doc.source, doc.companies.slice().sort(), themes, doc.observedAt,
+      doc.datePrecision || null, doc.providedOn || null, doc.author || null, doc.license || null, doc.policyUrl || null]);
   }
   // Reasons are stable UI contracts: initial establishes a baseline; rollback
   // rejects an older collection or generated version; same-collection permits
