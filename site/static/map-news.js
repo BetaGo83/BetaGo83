@@ -114,18 +114,18 @@
       || (a.date_precision === "day" && b.date_precision === "day" ? compareText(b.id, a.id) : 0)
       || a.title.localeCompare(b.title, "ko") || compareText(aSource.url, bSource.url);
   }
-  function prepare(feed, nodes) {
-    requireValue(object(feed) && [1, 2, 3].indexOf(feed.schema) >= 0 && feed.retention_days === 14, "Invalid feed schema");
+  function prepareFeed(feed, nodes, archive) {
+    requireValue(object(feed) && [1, 2, 3].indexOf(feed.schema) >= 0 && feed.retention_days === (archive ? 30 : 14), "Invalid feed schema");
     var generated = timestamp(feed.generated_at), collected = timestamp(feed.collected_at), coverage = feed.coverage;
     requireValue(collected <= generated && object(coverage), "Invalid feed dates");
     var first = timestamp(coverage.from), last = timestamp(coverage.to);
-    requireValue(first <= last && last <= collected + 300000 && last - first <= 14 * DAY + 300000, "Invalid feed coverage");
+    requireValue(first <= last && last <= collected + 300000 && (last - first <= (archive ? 30 : 14) * DAY + 300000), "Invalid feed coverage");
     requireValue(feed.schema !== 3 || coverage.to === feed.collected_at, "Invalid schema 3 coverage end");
     requireValue(Number.isInteger(coverage.queries_total) && coverage.queries_total >= 0 && coverage.queries_total <= 1000
       && Number.isInteger(coverage.queries_ok) && coverage.queries_ok >= 0 && coverage.queries_ok <= coverage.queries_total
       && typeof coverage.partial === "boolean" && (coverage.queries_ok === coverage.queries_total || coverage.partial), "Invalid coverage status");
     requireValue(coverage.note === "" || text(coverage.note, 300), "Invalid coverage note");
-    requireValue(Array.isArray(feed.items) && feed.items.length <= 300 && Array.isArray(nodes) && nodes.length <= 5000, "Feed exceeds display limits");
+    requireValue(Array.isArray(feed.items) && feed.items.length <= (archive ? 64 : 300) && Array.isArray(nodes) && nodes.length <= 5000, "Feed exceeds display limits");
     var companies = Object.create(null), companyIds = [];
     nodes.forEach(function (node) {
       if (!node || node.type !== "company") return;
@@ -145,7 +145,7 @@
       if (dayOnly) {
         dayValue(item.provided_on);
         requireValue(item.published_at === null && item.date_precision === "day" && item.kind === "news"
-          && item.provided_on >= shiftDay(feed.generated_at.slice(0, 10), -13)
+          && item.provided_on >= shiftDay(feed.generated_at.slice(0, 10), archive ? -29 : -13)
           && item.provided_on <= feed.collected_at.slice(0, 10), "Invalid provided date");
       } else {
         var published = timestamp(item.published_at);
@@ -221,6 +221,14 @@
     return { documents: documents, companyIds: companyIds, minDate: documents.length ? documents[documents.length - 1].date : null,
       maxDate: documents.length ? documents[0].date : null, generatedAt: feed.generated_at, collectedAt: feed.collected_at, partial: coverage.partial,
       queriesOK: coverage.queries_ok, queriesTotal: coverage.queries_total, note: coverage.note };
+  }
+  function prepare(feed, nodes) { return prepareFeed(feed, nodes, false); }
+  function archiveItem(item, manifest, nodes) {
+    requireValue(object(item) && /^[0-9a-f]{24}$/.test(item.id) && item.grouping === "single"
+      && item.group_size === 1 && Array.isArray(item.sources) && item.sources.length === 1, "Invalid canonical archive item");
+    requireValue(item.published_at === item.sources[0].published_at, "Archive publication mismatch");
+    return prepareFeed({ schema: 3, generated_at: manifest.generated_at, collected_at: manifest.collected_at,
+      coverage: manifest.coverage, retention_days: 30, items: [item] }, nodes || [], true).documents[0];
   }
   function snapshot(value) {
     requireValue(object(value) && Array.isArray(value.documents) && value.documents.length <= 1500, "Invalid prepared feed");
@@ -315,6 +323,6 @@
     requireValue(Number.isFinite(count) && count >= 0 && (scale === undefined || scale === "area" || scale === "log"), "Invalid radius input");
     return count === 0 ? 3 : Math.min(30, scale === "log" ? 8 * Math.sqrt(Math.log1p(count)) : 5 * Math.sqrt(count));
   }
-  return { prepare: prepare, diff: diff, aggregate: aggregate, compareDocuments: compareDocuments, compareItems: compareItems,
+  return { prepare: prepare, archiveItem: archiveItem, diff: diff, aggregate: aggregate, compareDocuments: compareDocuments, compareItems: compareItems,
     relationCounts: relationCounts, radius: radius, shiftDay: shiftDay, dateRange: dateRange };
 });

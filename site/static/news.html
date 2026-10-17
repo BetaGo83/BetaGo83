@@ -1,12 +1,13 @@
 <!doctype html>
-<html lang="ko">
+<html lang="ko" data-news-archive="required">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="기업과 산업·테마별로 공개한 뉴스·공시 제목과 출처를 확인하는 목록">
 <title>뉴스 흐름 · 기업 관계 위키</title>
 <script src="./analytics.js?v=20261017-1" defer></script>
-<script src="./map-news.js?v=20261017-motir1" defer></script>
+<script src="./map-news.js?v=20261017-archive1" defer></script>
+<script src="./news-archive.js?v=20261017-archive1" defer></script>
 <script src="./news-feed.js?v=20261017-watch1" defer></script>
 <script>
 try { var theme = localStorage.getItem("theme"); if (theme === "dark" || theme === "light") document.documentElement.setAttribute("data-theme", theme); } catch (e) {}
@@ -110,7 +111,7 @@ footer p { margin:5px 0; }
     <dl><div><dt>마지막 수집</dt><dd id="collected">확인 중</dd></div><div><dt>수집 대상 기간</dt><dd id="coverage">확인 중</dd></div><div><dt>공개 목록 생성</dt><dd id="generated">확인 중</dd></div></dl>
     <p class="small" id="scope">화면이 보일 때 5분마다 새 게시본을 확인합니다. 실시간 속보 화면이 아닙니다.</p>
     <p class="small">2026-10-17 시험 수집은 30분 간격(19:47 KST까지)입니다. 화면의 게시본 확인 주기와 수집 주기는 다릅니다.</p>
-    <p class="small">RSS에 제공된 최근 제목과 최근 3일 접수 공시를 대상으로 합니다. 모든 매체·기사를 포함하지 않습니다.</p>
+    <p class="small">공개 조건을 통과한 최근 30일의 제목 기록을 건수 상한 없이 찾습니다. 수집 이전이나 미확인 기간까지 모든 자료를 확보했다는 뜻은 아닙니다.</p>
     <p class="small">한국은행·산업통상부에서 제공한 항목은 기관 발표 자료입니다. 언론의 독립 보도와 구분해 확인하세요.</p>
     <div class="refresh-row"><span class="small" id="checked">브라우저 확인 전</span><button id="refresh" type="button">게시 자료 다시 확인</button></div>
     <p class="small" id="collection-change" role="status" hidden></p>
@@ -127,6 +128,8 @@ footer p { margin:5px 0; }
     </fieldset>
     <div class="filter-footer"><p class="small">본문을 읽거나 요약하지 않았습니다. 사실 확인은 연결된 출처에서 해 주세요.</p><button class="plain" id="reset" type="button" disabled>필터 초기화</button></div>
   </form>
+  <p class="small" id="archive-progress" role="status" hidden></p>
+  <div id="archive-actions" hidden><button class="plain" id="search-cancel" type="button">검색 중지</button> <button class="plain" id="search-continue" type="button" hidden>계속 찾기</button></div>
   <section id="results" aria-labelledby="result-title" tabindex="-1">
     <div class="result-heading"><h2 id="result-title" role="status" aria-live="polite">공개 목록을 불러오는 중입니다</h2><span>날짜순 · 한 페이지 40건</span></div>
     <p class="small">날짜순이며 같은 날은 시각 있는 뉴스, 날짜만 있는 기관 자료, 공시 순입니다. 날짜만 있는 기관 자료는 첫 수집 확인순이며 제공 시각이 아닙니다. 같은 접수일의 공시는 첫 수집 확인순이며 접수 시각이 아닙니다.</p>
@@ -347,6 +350,113 @@ window.addEventListener("DOMContentLoaded", function () {
     if (first) filtersFromUrl(); $("filter-fields").disabled = false; $("reset").disabled = false; render(false);
   }
   function failed(title, detail) { $("result-title").textContent = "공개 목록 확인 실패"; empty(title, detail); $("pager").hidden = true; }
+  function startArchive() {
+    var client = window.NewsArchive.create(), snapshot = null, epoch = 0, work = null, busy = false;
+    var cursor = null, pageStart = null, history = [], exhausted = false, queryRaw = "", debounce = null, checked = null, committedQuery = null;
+    function query() {
+      queryRaw = $("search").value;
+      return { text: queryRaw, kind: $("kind").value, source: $("source").value, company: $("company").value, theme: $("theme").value, state: $("state").value };
+    }
+    function cancel() { epoch++; if (work) work.abort(); work = null; busy = false; $("refresh").disabled = false; $("search-cancel").disabled = true; }
+    function showRows() {
+      $("feed").replaceChildren(); items.forEach(function (item) { card(item, $("feed")); });
+      $("empty").hidden = !!items.length;
+      if (!items.length) empty(exhausted ? "조건에 맞는 공개 항목이 없습니다" : "아직 일치하는 항목을 찾지 못했습니다", exhausted ? "이 보관 기록 밖에 자료가 없다는 뜻은 아닙니다." : "오래된 기록을 계속 확인할 수 있습니다.");
+      $("result-title").textContent = "전체 보관 " + snapshot.total_items.toLocaleString("ko-KR") + "건 · 현재 " + items.length + "건 표시" + (committedQuery !== JSON.stringify(query()) ? " · 이전 조건 결과" : "");
+      $("pager").hidden = false; $("prev").disabled = history.length === 0; $("next").disabled = exhausted || items.length < 40;
+      $("page-number").textContent = exhausted ? "보관 기록 끝까지 확인" : "이후 기록 더 있음";
+      $("search-continue").hidden = exhausted || items.length >= 40;
+    }
+    function knownNames(rows) {
+      ["source", "company", "theme"].forEach(function (id) {
+        var names = Array.from($(id).options).map(function (o) { return o.value; }).filter(Boolean);
+        rows.forEach(function (item) { (id === "source" ? item.sources : id === "company" ? item.companies : item.themes).forEach(function (v) { if (names.length < 500 && names.indexOf(v.name) < 0) names.push(v.name); }); });
+        populate(id, names);
+      });
+    }
+    async function run(options) {
+      options = options || {}; cancel(); var mine = epoch, controller = work = new AbortController(), q = query(); busy = true;
+      $("refresh").disabled = true; $("search-cancel").disabled = false; $("archive-actions").hidden = $("archive-progress").hidden = false;
+      $("archive-progress").textContent = "공개 보관 기록을 순서대로 확인 중입니다. 중지할 수 있습니다.";
+      observedURLs.clear(); $("collection-change").hidden = true; $("collection-change").textContent = "";
+      if (snapshot) showRows();
+      var previous = snapshot;
+      try {
+        var next = options.refresh || !snapshot ? await client.open(controller.signal) : snapshot;
+        var reason = client.relation(snapshot, next);
+        if (reason === "rollback") { addNotice("더 오래된 게시본을 받아 직전 정상 목록과 검색 조건을 유지합니다."); $("archive-progress").textContent = "이전 게시본 · 직전 정상 목록 유지"; return; }
+        if (!next.coverage.queries_ok) throw new Error("Unconfirmed archive");
+        var base = options.extend ? items.slice() : [], before = options.extend ? cursor : options.cursor || null;
+        var answer = await client.scanPage(next, q, { cursor: before, limit: 40 - base.length, signal: controller.signal,
+          progress: function (n) { if (mine === epoch) $("archive-progress").textContent = "이번 검색에서 " + n + "개 확인 중 · 중지 가능"; } });
+        var summary = null, unproven = false;
+        if (options.refresh && previous) {
+          try { summary = await client.changes(previous, next, { signal: controller.signal, matches: function (v) { return window.NewsArchive.matches(v.item, q); } }); }
+          catch (error) { if (controller.signal.aborted) throw error; unproven = true; }
+        }
+        if (mine !== epoch || controller.signal.aborted) return;
+        var nextItems = base.concat(answer.rows.map(normalize)), nextObserved = new Set();
+        if (nextItems.some(function (v) { return !v; })) throw new Error("Invalid archive display record");
+        if (summary && summary.total) {
+          try {
+            for (var i = 0; i < nextItems.length; i++) {
+              var row = nextItems[i], source = row.sources[0];
+              if (source.observed_at && source.observed_at > previous.collected_at && source.observed_at <= next.collected_at
+                && await client.lookup(previous, "ids", row.id, controller.signal) === null) nextObserved.add(source.url);
+            }
+          } catch (error) { if (controller.signal.aborted) throw error; unproven = true; summary = null; nextObserved.clear(); }
+        }
+        if (mine !== epoch || controller.signal.aborted) return;
+        snapshot = next; cursor = answer.cursor; exhausted = answer.exhausted;
+        if (!options.extend) pageStart = options.cursor || null;
+        skipped = 0; items = nextItems; observedURLs = nextObserved; committedQuery = JSON.stringify(q);
+        knownNames(answer.rows); $("filter-fields").disabled = false; $("reset").disabled = false;
+        $("notice").replaceChildren(); $("notice").hidden = true;
+        $("collected").textContent = dateLabel(next.collected_at); $("generated").textContent = dateLabel(next.generated_at);
+        $("coverage").textContent = dateLabel(next.coverage.from) + " ~ " + dateLabel(next.coverage.to);
+        $("scope").textContent = "최근 30일의 공개 기록이며 총 건수 상한은 없습니다. 40건씩 읽으며 화면이 보일 때 5분마다 새 게시본을 확인합니다.";
+        checked = new Date(); $("checked").textContent = "브라우저 확인 " + clock.format(checked) + " KST";
+        if (Date.now() - Date.parse(next.collected_at) > 48 * 3600000) addNotice("마지막 수집 후 48시간이 지났습니다. 새 자료가 반영되지 않았을 수 있습니다.");
+        if (next.coverage.partial) addNotice("일부 수집 범위가 미확인입니다. 보관 기록이 시장 전체 자료는 아닙니다.");
+        if (next.coverage.note) addNotice(next.coverage.note);
+        if (unproven) addNotice("목록은 확인했지만 직전 기록과 신규 여부를 대조하지 못했습니다. 새 수집 표시는 생략합니다.");
+        if (summary) {
+          $("collection-change").hidden = false;
+          $("collection-change").textContent = summary.total ? "이번 확인에서 새로 수집된 출처: 뉴스 " + summary.news + " · 공시 " + summary.disclosure + " · 현재 필터 안 " + summary.inside + " / 밖 " + (summary.total - summary.inside) + "."
+            : reason === "same-collection" ? "같은 수집본을 확인했습니다. 새로 수집된 출처 신호는 없습니다." : "새로 수집된 시각이 확인된 출처는 없습니다.";
+
+        }
+        if (mine !== epoch || controller.signal.aborted) return;
+        showRows();
+        $("archive-progress").textContent = "이번에 " + answer.inspected + "개 확인 · " + (exhausted ? "선택 조건으로 보관 기록 끝까지 확인했습니다." : "이후 기록은 아직 확인하지 않았습니다.") + " 선택 목록은 읽은 기록의 이름이며, 검색어는 전체 기록을 찾습니다.";
+      } catch (error) {
+        if (mine !== epoch || controller.signal.aborted) return;
+        observedURLs.clear(); $("collection-change").hidden = true; $("collection-change").textContent = "";
+        if (snapshot) { addNotice("선택 조건을 확인하지 못했습니다. 검색 입력과 직전 정상 목록을 유지하며, 이전 조건 결과는 표시에서 구분합니다."); showRows(); }
+        else failed("공개 기록을 불러오지 못했습니다", "목록을 0건으로 판단할 수 없습니다. 게시 자료 다시 확인으로 재시도해 주세요.");
+        $("archive-progress").textContent = "확인 실패 · 검색 완료가 아닙니다.";
+      } finally { if (mine === epoch) { work = null; busy = false; $("refresh").disabled = false; $("search-cancel").disabled = true; } }
+    }
+    function resetSearch() { history = []; cursor = pageStart = null; clearTimeout(debounce); cancel(); debounce = setTimeout(function () { debounce = null; run(); }, 180); }
+    controls.forEach(function (id) { $(id).addEventListener(id === "search" ? "input" : "change", resetSearch); });
+    $("filters").addEventListener("submit", function (e) { e.preventDefault(); clearTimeout(debounce); history = []; run(); });
+    $("reset").addEventListener("click", function () { controls.forEach(function (id) { $(id).value = ""; }); resetSearch(); });
+    $("next").addEventListener("click", function () { if (busy || exhausted) return; history.push(pageStart); if (history.length > 8) history.shift(); run({ cursor: cursor }); });
+    $("prev").addEventListener("click", function () { if (!busy && history.length) run({ cursor: history.pop() }); });
+    $("search-continue").addEventListener("click", function () { if (!busy && !exhausted && items.length < 40) run({ extend: true }); });
+    $("search-cancel").addEventListener("click", function () { cancel(); $("archive-progress").textContent = "검색을 중지했습니다. 마지막 확인 결과를 유지하며, 검색 완료가 아닙니다."; });
+    function suspend() { clearTimeout(debounce); debounce = null; cancel(); }
+    document.addEventListener("visibilitychange", function () { if (document.hidden) suspend(); }); window.addEventListener("pagehide", suspend);
+    var archiveWatch = NewsFeed.watch({ refresh: function () { history = []; return run({ refresh: true }); }, abort: suspend, shouldSkip: function () { return busy; } });
+    $("refresh").addEventListener("click", function () { archiveWatch.check(); });
+    filtersFromUrl();
+    if (window.location.protocol === "file:") { failed("공개 웹사이트에서 열어 주세요", "저장한 파일에서는 검증된 기록을 읽을 수 없습니다."); archiveWatch.stop(); return; }
+    archiveWatch.check();
+  }
+  if (window.NewsArchive) { startArchive(); return; }
+  if (document.documentElement && document.documentElement.dataset.newsArchive === "required") {
+    failed("공개 기록 모듈을 불러오지 못했습니다", "화면을 새로 열어 주세요. 일부 미리보기만 전체 기록으로 표시하지 않습니다."); return;
+  }
   controls.forEach(function (id) { $(id).addEventListener(id === "search" ? "input" : "change", function () { page = 0; render(false); }); });
   $("filters").addEventListener("submit", function (e) { e.preventDefault(); page = 0; render(true); });
   $("reset").addEventListener("click", function () { controls.forEach(function (id) { $(id).value = ""; }); page = 0; render(false); });

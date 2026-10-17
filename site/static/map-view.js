@@ -1,4 +1,4 @@
-/* Public map controls. Counts are derived only from the published title feed. */
+/* Public map controls. Counts are derived only from verified public title records. */
 (function () {
   "use strict";
   function validDate(value) {
@@ -25,6 +25,13 @@
     var data = null, result = null, playing = false, timer = null, pulseTimer = null;
     var loading = false, failed = false, epoch = 0, observedTimer = null, checkedAt = null, rollback = false, recentChange = null, request = null;
     var modeChosen = false, startChosen = false, dateChosen = false;
+    var archive = window.NewsArchive ? window.NewsArchive.create() : null, snapshot = null, aggregateKey = "", pendingQuery = false, replayEnd = null, unproven = false;
+    function scopeIDs() { return new Set(graph.nodes.filter(function (n) { return n.type === "company" && inTheme(n); }).map(function (n) { return n.id; })); }
+    function selectionKey(value, day) { return value.indexes.ordered.hash + "|" + (day || ui.date.value) + "|" + ui.days.value + "|" + Array.from(scopeIDs()).sort().join("\n"); }
+    function queryChanged() {
+      recentChange = null; updateNotice();
+      if (archive && loading) { pendingQuery = true; request.abort(); }
+    }
     var initialState = readViewState(window.location.search);
     ["metric", "scale"].forEach(function (key) { if (initialState[key]) ui[key].value = initialState[key]; });
     // Resolve once after node/theme navigation has established the actual graph scope.
@@ -75,7 +82,7 @@
       clearPulse();
       if (!playing || document.hidden || ui.motion.checked || reduced.matches) return;
       graph.nodes.forEach(function (n) {
-        if (n.visible && counts(n).items.some(function (d) { return d.date === ui.date.value && d.kind === ui.metric.value; })) n.g.classList.add("replaying");
+        if (n.visible && (archive ? counts(n).byDay && counts(n).byDay[ui.date.value] && counts(n).byDay[ui.date.value][ui.metric.value] > 0 : counts(n).items.some(function (d) { return d.date === ui.date.value && d.kind === ui.metric.value; }))) n.g.classList.add("replaying");
       });
       pulseTimer = setTimeout(clearPulse, 1600);
     }
@@ -84,6 +91,13 @@
         && graph.nodes.some(function (n) { return n.type === "company" && n.visible && inTheme(n) && doc.companies.indexOf(n.id) >= 0; });
     }
     function updateNotice() {
+      if (archive) {
+        var change = recentChange;
+        ui["new-material"].hidden = !change || !change.total;
+        ui["new-status"].textContent = change && change.total ? "이번 확인에서 새로 수집된 출처: 뉴스 " + change.news + " · 공시 " + change.disclosure + " · 현재 날짜·지표·탐색 범위 안 " + change.inside + " / 밖 " + (change.total - change.inside) + ". 선택 날짜는 유지합니다." : "";
+        ui["new-date"].hidden = !change || !change.maxDate || change.maxDate === ui.date.value;
+        ui["new-date"].dataset.date = change && change.maxDate || ""; return;
+      }
       var docs = recentChange && recentChange.newlyObserved || [];
       ui["new-material"].hidden = !docs.length;
       if (!docs.length) {
@@ -101,6 +115,15 @@
     }
     function pulseObserved() {
       clearPulse();
+      if (archive) {
+        var observed = recentChange, highlighted = 0;
+        if (!observed || !observed.total) return;
+        if (!document.hidden && !ui.motion.checked && !reduced.matches) graph.nodes.forEach(function (n) {
+          if (n.type === "company" && n.visible && observed.companies.indexOf(n.id) >= 0) { n.g.classList.add("newly-observed"); highlighted++; }
+        });
+        if (highlighted) observedTimer = setTimeout(clearPulse, 1600);
+        setState("새로 수집 확인 · " + (highlighted ? highlighted + "곳 잠깐 강조" : "현재 화면 강조 없음") + " · 날짜 유지"); return;
+      }
       var docs = recentChange && recentChange.newlyObserved || [];
       if (!docs.length) return;
       var visible = docs.filter(matchesCurrent), count = 0;
@@ -122,8 +145,8 @@
       if (!result) { element("p", "뉴스 자료를 아직 확인하지 못했습니다.", box, "meta"); return; }
       element("p", dateText(), box, "meta");
       var scopeIds = new Set(graph.nodes.filter(function (n) { return n.type === "company" && inTheme(n); }).map(function (n) { return n.id; }));
-      var scoped = graph.inScope || graph.getTheme() ? result.documents.filter(function (d) { return d.companies.some(function (id) { return scopeIds.has(id); }); }) : result.documents;
-      element("p", "뉴스 " + scoped.filter(function (d) { return d.kind === "news"; }).length + " · 공시 " + scoped.filter(function (d) { return d.kind === "disclosure"; }).length, box, "counts");
+      var scoped = archive ? [] : graph.inScope || graph.getTheme() ? result.documents.filter(function (d) { return d.companies.some(function (id) { return scopeIds.has(id); }); }) : result.documents;
+      element("p", "뉴스 " + (archive ? result.scopeTotals.news : scoped.filter(function (d) { return d.kind === "news"; }).length) + " · 공시 " + (archive ? result.scopeTotals.disclosure : scoped.filter(function (d) { return d.kind === "disclosure"; }).length), box, "counts");
       element("p", graph.inScope ? "현재 탐색 범위에 포함된 기업의 전체 소식입니다. 주제별 뉴스 판정은 아닙니다." : graph.getTheme() ? "선택한 테마 소속 기업의 전체 소식입니다. 해당 테마만을 다룬 뉴스 수는 아닙니다." : "아래 수는 공개된 제목 목록 안에서만 비교합니다.", box, "meta");
       var ranked = graph.nodes.filter(function (n) { return n.type === "company" && inTheme(n) && counts(n)[ui.metric.value] > 0; })
         .sort(function (a, b) { return counts(b)[ui.metric.value] - counts(a)[ui.metric.value] || a.id.localeCompare(b.id, "ko"); }).slice(0, 10);
@@ -151,7 +174,7 @@
       if (MapNews.radius(value, ui.scale.value) >= 30) element("p", "점 크기에 표시 상한이 적용되었습니다.", box, "meta");
       element("p", "제목 기준 연결 · 사건 수 미집계 · 급증 비교 자료 부족", box, "meta");
       var shownItems = c.items.slice().sort(MapNews.compareDocuments).slice(0, 8);
-      element("p", "선택 기간 전체 " + c.items.length + "개 중 " + shownItems.length + "개 표시 · " + (c.items.length - shownItems.length) + "개 생략", box, "meta");
+      element("p", "선택 기간 전체 " + (c.news + c.disclosure) + "개 중 " + shownItems.length + "개 표시 · " + (c.news + c.disclosure - shownItems.length) + "개 생략", box, "meta");
       element("p", "날짜순이며 같은 날은 시각 있는 뉴스, 날짜만 있는 기관 자료, 공시 순입니다. 날짜만 있는 기관 자료는 첫 수집 확인순이며 제공 시각이 아닙니다. 같은 접수일의 공시는 첫 수집 확인순이며 접수 시각이 아닙니다.", box, "meta");
       var list = element("ul", null, box);
       shownItems.forEach(function (d) {
@@ -171,6 +194,7 @@
       allItems.href = "./news.html?company=" + encodeURIComponent(n.id);
       allItems.target = "_top";
       var history = result.days.map(function (day) {
+        if (archive) { var daily = c.byDay && c.byDay[day.date] || { news: 0, disclosure: 0 }; return day.date.slice(5) + " 뉴스 " + daily.news + " / 공시 " + daily.disclosure; }
         var docs = c.items.filter(function (d) { return d.date === day.date; });
         return day.date.slice(5) + " 뉴스 " + docs.filter(function (d) { return d.kind === "news"; }).length + " / 공시 " + docs.filter(function (d) { return d.kind === "disclosure"; }).length;
       });
@@ -192,6 +216,9 @@
         if (data.partial) text += " · 수집 범위 일부 미확인";
         if (data.note) text += " · " + data.note;
         if (Date.now() - Date.parse(data.collectedAt) > 48 * 3600000) text += " · 수집 후 48시간 경과";
+        if (archive) text += " · 최근 30일 기록·총 건수 상한 없음";
+        if (archive && loading) text += " · 선택 조건 집계 중: 직전 정상 집계 표시";
+        if (unproven) text += " · 직전 목록과 신규 여부 대조 실패: 새 수집 강조 생략";
         if (failed) text += " · 갱신 실패: 마지막으로 확인한 자료 유지";
         if (rollback) text += " · 더 오래된 게시본을 받아 직전 자료 유지";
         if (ui.date.value < data.minDate || ui.date.value > data.maxDate) text += " · 선택 날짜는 현재 공개 목록의 보유일 밖";
@@ -200,7 +227,9 @@
       ui["data-status"].classList.toggle("warning", failed || rollback || !!(data && (data.partial || data.note)));
     }
     function render() {
-      if (data) result = MapNews.aggregate(data, { endDate: ui.date.value, days: Number(ui.days.value) });
+      if (archive && snapshot && aggregateKey !== selectionKey(snapshot)) {
+        if (!loading) loadArchive(false);
+      } else if (data && !archive) result = MapNews.aggregate(data, { endDate: ui.date.value, days: Number(ui.days.value) });
       graph.svg.classList.toggle("news-mode", isNews());
       graph.svg.classList.toggle("disclosure-mode", ui.metric.value === "disclosure");
       graph.svg.classList.toggle("reduced-motion", ui.motion.checked || reduced.matches);
@@ -224,10 +253,11 @@
       if (graph.getShown()) details(graph.getShown()); else overview();
     }
     function nextDay(day) { var d = new Date(day + "T00:00:00+09:00"); d.setTime(d.getTime() + 86400000); return new Date(d.getTime() + 9 * 3600000).toISOString().slice(0,10); }
-    function replayStep(myEpoch) {
+    async function replayStep(myEpoch) {
+      if (archive) { await loadArchive(false); }
       if (!playing || myEpoch !== epoch || document.hidden) return;
       render(); setState("과거 날짜 재생 · " + ui.date.value + " · 새 속보 아님"); pulseDate();
-      if (ui.date.value >= data.maxDate) {
+      if (ui.date.value >= (archive ? replayEnd : data.maxDate)) {
         timer = setTimeout(function () { stop("재생 끝 · " + ui.date.value); }, 1800); return;
       }
       timer = setTimeout(function () { ui.date.value = nextDay(ui.date.value); replayStep(myEpoch); }, 2200);
@@ -235,6 +265,12 @@
     function play() {
       if (playing) { stop("재생 정지 · " + ui.date.value); return; }
       if (!data || !data.minDate || document.hidden) return;
+      if (archive) {
+        if (!result || !result.scopeTotals[ui.metric.value]) { stop("이 조건에 재생할 기업 자료가 없습니다"); return; }
+        stop(); playing = true; replayEnd = result.endDate;
+        ui.mode.value = "news"; ui.date.value = result.startDate; ui.play.textContent = "재생 멈춤"; graph.clear();
+        replayStep(epoch); return;
+      }
       var targets = data.documents.filter(function (d) {
         return d.kind === ui.metric.value && d.companies.some(function (id) { return graph.nodes.some(function (n) { return n.id === id && inTheme(n); }); });
       });
@@ -246,8 +282,56 @@
       var active = ui.active.checked; ui.active.checked = false; render(); graph.fit(); ui.active.checked = active;
       replayStep(epoch);
     }
+    async function loadArchive(refreshing) {
+      if (loading || document.hidden) return;
+      loading = true; pendingQuery = false; ui.refresh.disabled = true; ui.play.disabled = true;
+      var controller = new AbortController(); request = controller;
+      try {
+        var next = refreshing || !snapshot ? await archive.open(controller.signal) : snapshot;
+        var reason = archive.relation(snapshot, next);
+        if (reason === "rollback") { rollback = true; recentChange = null; updateNotice(); message(); setState("이전 게시본 · 직전 자료 유지"); return; }
+        if (!next.coverage.queries_ok) throw new Error("Unconfirmed archive");
+        var first = !snapshot, minDate = next.indexes.ordered.count ? next.indexes.ordered.first.slice(0, 10) : next.collected_at.slice(0, 10);
+        var maxDate = next.indexes.ordered.count ? next.indexes.ordered.last.slice(0, 10) : next.collected_at.slice(0, 10);
+        var day = first ? dateChosen && validDate(ui.date.value) ? ui.date.value : !dateChosen && initialState.date || maxDate : ui.date.value;
+        var selectedKey = selectionKey(next, day), scope = scopeIDs(), selectedMetric = ui.metric.value;
+        var answer = await archive.aggregate(next, { endDate: day, days: Number(ui.days.value), nodes: graph.nodes, scope: scope, signal: controller.signal,
+          progress: function (n) { ui["data-status"].textContent = "선택 기간 " + n + "개 확인 중 · 직전 정상 집계 유지"; } });
+        var change = null, cannotProve = false;
+        if (refreshing && snapshot) {
+          try { change = await archive.changes(snapshot, next, { nodes: graph.nodes, signal: controller.signal, matches: function (v) {
+            return v.doc.kind === selectedMetric && v.doc.date >= answer.startDate && v.doc.date <= answer.endDate && v.doc.companies.some(function (id) { return scope.has(id); });
+          } }); } catch (error) { if (controller.signal.aborted) throw error; cannotProve = true; }
+        }
+        if (controller.signal.aborted) return;
+        snapshot = next; result = answer; aggregateKey = selectedKey;
+        data = { minDate: minDate, maxDate: maxDate, collectedAt: next.collected_at, generatedAt: next.generated_at, queriesOK: next.coverage.queries_ok, partial: next.coverage.partial, note: next.coverage.note };
+        recentChange = change; checkedAt = Date.now(); failed = rollback = false; unproven = cannotProve;
+        if (first) ui.date.value = day;
+        ui.date.min = ui.date.value < minDate ? ui.date.value : minDate; ui.date.max = ui.date.value > maxDate ? ui.date.value : maxDate;
+        ui.date.disabled = ui.days.disabled = false; ui.mode.options[1].disabled = false;
+        var selected = graph.getShown();
+        if (first && !modeChosen && initialState.mode === "news") ui.mode.value = "news";
+        if (first && !selected && !startChosen && ui.mode.value === "news" && graph.chooseNewsStart) graph.chooseNewsStart(result.byCompany);
+        if (first && selected) { if (selected.type !== "company" && !(graph.isKnowledge && graph.isKnowledge())) ui.mode.value = "relations"; ui.active.checked = false; }
+        render();
+        if (first && graph.initialFit) graph.initialFit(!selected);
+        else if (first && !selected) { if (graph.arrangeScope) graph.arrangeScope(); graph.fit(); }
+        if (!first && refreshing) {
+          pulseObserved();
+          if (!change || !change.total) setState(cannotProve ? "신규 대조 미확인 · 강조 없음" : reason === "same-collection" ? "같은 수집본 · 새로 수집 확인 없음" : "게시본 확인 · 새 수집 시각이 확인된 출처 없음");
+        }
+      } catch (error) { if (!controller.signal.aborted) { failed = true; recentChange = null; updateNotice(); message(); setState("확인 실패 · 직전 정상 집계 유지"); } }
+      finally {
+        request = null; loading = false; ui.refresh.disabled = false; ui.play.disabled = !data;
+        if (pendingQuery && !document.hidden) { pendingQuery = false; loadArchive(false); }
+        else { message(); if (snapshot && aggregateKey !== selectionKey(snapshot) && !failed && !document.hidden) loadArchive(false); }
+      }
+    }
     async function refresh() {
       if (loading) return;
+      if (!archive && document.documentElement && document.documentElement.dataset.newsArchive === "required") { failed = true; message(); return; }
+      if (archive) { stop(); recentChange = null; updateNotice(); return loadArchive(true); }
       stop(); recentChange = null; updateNotice(); loading = true; ui.refresh.disabled = true; ui.play.disabled = true; request = new AbortController();
       try {
         var incoming = MapNews.prepare(await NewsFeed.read({ signal: request.signal }), graph.nodes);
@@ -284,25 +368,25 @@
     }
     ["mode", "metric", "scale", "active", "days"].forEach(function (key) { ui[key].addEventListener("change", function () {
       if (key === "mode") modeChosen = true;
-      startChosen = true; stop(); graph.clear(); render(); if (key === "mode" || key === "active") graph.fit();
+      startChosen = true; queryChanged(); stop(); graph.clear(); render(); if (key === "mode" || key === "active") graph.fit();
     }); });
     ui.date.addEventListener("change", function () {
       dateChosen = startChosen = true;
       if (!validDate(ui.date.value) || data && (ui.date.value < ui.date.min || ui.date.value > ui.date.max)) { ui.date.value = data && data.maxDate || ""; }
-      stop(); graph.clear(); render();
+      queryChanged(); stop(); graph.clear(); render();
     });
     ui.play.addEventListener("click", play); ui.refresh.addEventListener("click", function () { watcher.check(); }); ui.fit.addEventListener("click", graph.fit);
     ui["new-date"].addEventListener("click", function () {
       var day = ui["new-date"].dataset.date;
       if (!data || !day) return;
-      stop("새 자료의 제공·접수 날짜 선택"); ui.date.value = day; graph.clear(); render();
+      queryChanged(); stop("새 자료의 제공·접수 날짜 선택"); ui.date.value = day; graph.clear(); render();
     });
     ui.motion.addEventListener("change", function () { stop("움직임 설정 변경"); render(); });
     function reduceChanged() { ui.motion.checked = reduced.matches; stop(); render(); }
     if (reduced.addEventListener) reduced.addEventListener("change", reduceChanged);
     document.addEventListener("visibilitychange", function () { if (document.hidden) stop("재생 정지 · 다른 화면으로 이동"); });
     window.addEventListener("pagehide", function () { stop(); });
-    var watcher = NewsFeed.watch({ refresh: refresh, abort: function () { if (request) request.abort(); }, shouldSkip: function () { return playing || loading; } });
+    var watcher = NewsFeed.watch({ refresh: refresh, abort: function () { pendingQuery = false; if (request) request.abort(); }, shouldSkip: function () { return playing || loading; } });
     render(); watcher.check();
     return {
       isVisible: visible, showDetails: details,
@@ -328,7 +412,7 @@
         });
       },
       reveal: function (n) { stop(); if (n.type !== "company" && !(graph.isKnowledge && graph.isKnowledge())) ui.mode.value = "relations"; ui.active.checked = false; render(); },
-      filterChanged: function () { startChosen = true; stop(); render(); },
+      filterChanged: function () { startChosen = true; queryChanged(); stop(); render(); },
       visibilityChanged: function () {
         graph.nodes.forEach(function (n) { n.g.setAttribute("tabindex", n.visible ? "0" : "-1"); });
         var empty = document.getElementById("map-empty");
