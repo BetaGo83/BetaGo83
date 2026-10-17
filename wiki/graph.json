@@ -347,7 +347,7 @@
    "id": "자동차·부품",
    "type": "theme",
    "path": "themes/자동차·부품",
-   "summary": "완성차 생산과 자동차 부품·모듈 사업",
+   "summary": "완성차 생산과 자동차 부품·모듈·전장 카메라 사업",
    "category": "산업재·운송",
    "stages": [
     "완성차",
@@ -355,7 +355,8 @@
     "차량용 메모리·저장장치",
     "차량용 MLCC",
     "차량용 반도체",
-    "차량용 센서·부품"
+    "차량용 센서·부품",
+    "전장 카메라모듈"
    ]
   },
   {
@@ -15655,6 +15656,64 @@
        "status": "확인",
        "date": "2026-10-09",
        "text": "고압·저압기기, 변압기 및 배전반 제조. (자료 기준일: 2026-10-09)",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "엠씨넥스",
+   "type": "company",
+   "path": "companies/엠씨넥스",
+   "summary": "모바일·전장 카메라모듈과 블랙박스·IP 카메라를 제조하는 자동차·부품 관련 기업",
+   "market": "KOSPI",
+   "ticker": "097520",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "영상 및 음향기기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "한국거래소 KIND 상장법인 목록은 엠씨넥스의 업종을 영상 및 음향기기 제조업, 주요제품을 모바일 카메라모듈·전장 카메라모듈·블랙박스·IP 카메라로 기재한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "전장 카메라모듈",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "한국거래소 KIND 상장법인 목록은 엠씨넥스의 업종을 영상 및 음향기기 제조업, 주요제품을 모바일 카메라모듈·전장 카메라모듈·블랙박스·IP 카메라로 기재한다.",
        "evidence_level": "거래소 자료",
        "weak": false,
        "sources": [
@@ -34736,6 +34795,36 @@
      "status": "확인",
      "date": "2026-10-09",
      "text": "고압·저압기기, 변압기 및 배전반 제조. (자료 기준일: 2026-10-09)",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "엠씨넥스",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전장 카메라모듈",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "한국거래소 KIND 상장법인 목록은 엠씨넥스의 업종을 영상 및 음향기기 제조업, 주요제품을 모바일 카메라모듈·전장 카메라모듈·블랙박스·IP 카메라로 기재한다.",
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
