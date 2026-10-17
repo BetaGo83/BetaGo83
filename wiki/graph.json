@@ -314,7 +314,8 @@
     "식품 가공·제품",
     "과자류",
     "면류·스낵",
-    "식자재 유통·단체급식"
+    "식자재 유통·단체급식",
+    "육계·닭고기 가공"
    ]
   },
   {
@@ -16758,6 +16759,66 @@
    "issues": []
   },
   {
+   "id": "하림",
+   "type": "company",
+   "path": "companies/하림",
+   "summary": "육계 사육과 신선육·육가공 제품을 생산하는 식품 기업",
+   "market": "KOSDAQ",
+   "ticker": "136480",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "도축, 육류 가공 및 저장 처리업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 사업자료에서 육계 사육, 신선육 생산, 육가공 제품 개발과 식자재·FS 사업을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.harim.com/main/?menu=78",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "육계·닭고기 가공",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 사업자료에서 육계 사육, 신선육 생산, 육가공 제품 개발과 식자재·FS 사업을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.harim.com/main/?menu=78",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "하이브",
    "type": "company",
    "path": "companies/하이브",
@@ -31657,6 +31718,37 @@
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "하림",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "육계·닭고기 가공",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 사업자료에서 육계 사육, 신선육 생산, 육가공 제품 개발과 식자재·FS 사업을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.harim.com/main/?menu=78",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
