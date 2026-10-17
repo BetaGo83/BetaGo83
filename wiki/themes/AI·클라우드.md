@@ -4,7 +4,7 @@ name: "AI·클라우드"
 aliases: []
 category: "기술·디지털"
 keywords: ["생성형 AI 플랫폼", "기업 클라우드", "AI 서비스"]
-stages: ["기업용 AI 플랫폼", "AI 모델·서비스", "AI·클라우드 구축·운영", "클라우드 인프라 서비스"]
+stages: ["기업용 AI 플랫폼", "AI 모델·서비스", "AI·클라우드 구축·운영", "클라우드 인프라 서비스", "AI·영상보안"]
 updated: "2026-10-17"
 ---
 
@@ -26,6 +26,7 @@ updated: "2026-10-17"
 - AI·클라우드 구축·운영: [[현대오토에버]] ([현대오토에버](https://www.hyundai-autoever.com/kor/business-area/core-technology/ai/contents.do?cntnSeq=362), [현대오토에버](https://www.hyundai-autoever.com/kor/business-area/core-technology/cloud/contents.do?cntnSeq=360)), [[LG씨엔에스]] ([출처](https://www.lgcns.com/en/service/modern-it-infra-on-cloud/cloud)), [[포스코DX]] ([포스코DX IT서비스](https://www.poscodx.com/kor/business/itService))
 - 클라우드 인프라 서비스: [[케이아이엔엑스]] ([출처](https://www.kinx.net/service/cloud/))
 
+- AI·영상보안: [[한화비전]] ([공식 사업자료](https://www.hanwha.co.kr/business/manufacture/hanwhavision.do))
 ## 관련 기업
 
 <!-- scripts/build_graph.py가 만드는 표. 손으로 고치지 않는다 -->
@@ -38,6 +39,7 @@ updated: "2026-10-17"
 | [[카카오]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.kakaocorp.com/page/ai), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[케이아이엔엑스]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.kinx.net/service/cloud/) |
 | [[포스코DX]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.poscodx.com/kor), [출처](https://www.poscodx.com/kor/business/itService), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
+| [[한화비전]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.hanwha.co.kr/business/manufacture/hanwhavision.do), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[현대오토에버]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-15 | 공식 발표 [출처](https://www.hyundai-autoever.com/kor/business-area/core-technology/ai/contents.do?cntnSeq=362), [출처](https://www.hyundai-autoever.com/kor/business-area/core-technology/cloud/contents.do?cntnSeq=360) |
 
 기사·공시 제목만 확인한 항목에는 약한 근거 표시가 붙습니다. 분류는 사업의 성공이나 현재 거래 가능 여부를 보증하지 않습니다.

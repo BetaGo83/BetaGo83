@@ -31,7 +31,8 @@
     "기업용 AI 플랫폼",
     "AI 모델·서비스",
     "AI·클라우드 구축·운영",
-    "클라우드 인프라 서비스"
+    "클라우드 인프라 서비스",
+    "AI·영상보안"
    ]
   },
   {
@@ -7611,6 +7612,66 @@
    "issues": []
   },
   {
+   "id": "롯데에너지머티리얼즈",
+   "type": "company",
+   "path": "companies/롯데에너지머티리얼즈",
+   "summary": "전기차 배터리와 전자회로용 동박을 제조하는 배터리 소재 기업",
+   "market": "KOSPI",
+   "ticker": "020150",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "전자부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 사업자료에서 2차전지용 전지박과 인쇄회로기판용 동박을 제조·공급한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lotteenergymaterials.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "배터리 소재·동박",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 사업자료에서 2차전지용 전지박과 인쇄회로기판용 동박을 제조·공급한다고 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.lotteenergymaterials.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "롯데웰푸드",
    "type": "company",
    "path": "companies/롯데웰푸드",
@@ -12546,6 +12607,66 @@
    "issues": []
   },
   {
+   "id": "유한양행",
+   "type": "company",
+   "path": "companies/유한양행",
+   "summary": "의약품 제조와 신약 연구개발을 수행하는 제약 기업",
+   "market": "KOSPI",
+   "ticker": "000100",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 의약품 사업과 글로벌 혁신신약 연구개발을 주요 활동으로 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.yuhan.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 자료에서 의약품 사업과 글로벌 혁신신약 연구개발을 주요 활동으로 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.yuhan.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "이글루",
    "type": "company",
    "path": "companies/이글루",
@@ -16825,6 +16946,66 @@
         "https://www.hancom.com/ko",
         "https://shop.hancom.com/about/company",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "한화비전",
+   "type": "company",
+   "path": "companies/한화비전",
+   "summary": "AI 영상 분석과 클라우드 기반 영상보안 솔루션을 제공하는 비전 솔루션 기업",
+   "market": "KOSPI",
+   "ticker": "489790",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "통신 및 방송 장비 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 AI·클라우드 기술을 통합한 영상보안 솔루션과 지능형 영상 분석을 제공한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hanwha.co.kr/business/manufacture/hanwhavision.do",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "AI·클라우드",
+     "tier": 1,
+     "stage": "AI·영상보안",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "AI·클라우드",
+       "page": "AI·클라우드",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 자료에서 AI·클라우드 기술을 통합한 영상보안 솔루션과 지능형 영상 분석을 제공한다고 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hanwha.co.kr/business/manufacture/hanwhavision.do",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
       }
@@ -25139,6 +25320,37 @@
    }
   },
   {
+   "source": "롯데에너지머티리얼즈",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "배터리 소재·동박",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 사업자료에서 2차전지용 전지박과 인쇄회로기판용 동박을 제조·공급한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lotteenergymaterials.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "롯데웰푸드",
    "target": "음식료",
    "type": "테마",
@@ -27946,6 +28158,37 @@
    }
   },
   {
+   "source": "유한양행",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 의약품 사업과 글로벌 혁신신약 연구개발을 주요 활동으로 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.yuhan.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "이글루",
    "target": "사이버보안",
    "type": "테마",
@@ -30416,6 +30659,37 @@
       "https://www.hancom.com/ko",
       "https://shop.hancom.com/about/company",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "한화비전",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 1,
+   "stage": "AI·영상보안",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 AI·클라우드 기술을 통합한 영상보안 솔루션과 지능형 영상 분석을 제공한다고 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hanwha.co.kr/business/manufacture/hanwhavision.do",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
