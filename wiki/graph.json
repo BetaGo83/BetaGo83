@@ -4570,6 +4570,41 @@
    "issues": []
   },
   {
+   "id": "GS글로벌",
+   "type": "company",
+   "path": "companies/GS글로벌",
+   "summary": "철강·자원·석유화학·기계 물자를 수출입·중개하는 코스피 종합상사",
+   "market": "KOSPI",
+   "ticker": "001250",
+   "dart_corp_code": "00138190",
+   "aliases": [
+    "GS Global Corp.",
+    "(주)지에스글로벌"
+   ],
+   "krx_industry": "상품 종합 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "사업 범위",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "철강·자원·석유화학·기계 물자의 수출입·중개 사업을 KIND·DART·회사 공식 개요에서 확인했다. 특정 공급·고객·수주 관계는 확인하지 않았다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00138190",
+      "https://www.gsgcorp.com/Kr/Business/Outline.aspx"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [],
+   "issues": []
+  },
+  {
    "id": "GS리테일",
    "type": "company",
    "path": "companies/GS리테일",
