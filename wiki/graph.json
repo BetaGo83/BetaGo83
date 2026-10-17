@@ -20177,6 +20177,66 @@
    "issues": []
   },
   {
+   "id": "현대바이오",
+   "type": "company",
+   "path": "companies/현대바이오",
+   "summary": "약물전달체와 신약 후보를 연구·개발하는 바이오 기업",
+   "market": "KOSDAQ",
+   "ticker": "048410",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "기타 화학제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 약물전달체 기술과 감염병·항암 등 신약 후보 연구개발 사업을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyundaibioscience.com/introduce",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 자료에서 약물전달체 기술과 감염병·항암 등 신약 후보 연구개발 사업을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.hyundaibioscience.com/introduce",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "현대비앤지스틸",
    "type": "company",
    "path": "companies/현대비앤지스틸",
@@ -34358,6 +34418,37 @@
      "weak": false,
      "sources": [
       "https://www.mobis.com/kr/aboutus/aboutus.do"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "현대바이오",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 자료에서 약물전달체 기술과 감염병·항암 등 신약 후보 연구개발 사업을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.hyundaibioscience.com/introduce",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
