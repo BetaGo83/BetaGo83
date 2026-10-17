@@ -4242,6 +4242,68 @@
    "issues": []
   },
   {
+   "id": "HB테크놀러지",
+   "type": "company",
+   "path": "companies/HB테크놀러지",
+   "summary": "디스플레이·2차전지 검사장비와 디스플레이 광학 부품소재를 생산하는 장비·부품 기업",
+   "market": "KOSDAQ",
+   "ticker": "078150",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HB테크놀러지 사업보고서는 디스플레이 검사장비와 디스플레이용 도광판·확산판의 사업 범위를 설명한다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://opendart.fss.or.kr/xbrl/viewer/main.do?rcpNo=20260316001660",
+      "https://kind.krx.co.kr/external/2026/03/04/000744/20260304001722/00591.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "디스플레이",
+       "page": "디스플레이",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "HB테크놀러지 사업보고서는 디스플레이 검사장비와 디스플레이용 도광판·확산판의 사업 범위를 설명한다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://opendart.fss.or.kr/xbrl/viewer/main.do?rcpNo=20260316001660",
+        "https://kind.krx.co.kr/external/2026/03/04/000744/20260304001722/00591.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "HDC랩스",
    "type": "company",
    "path": "companies/HDC랩스",
@@ -29661,6 +29723,38 @@
      "sources": [
       "https://www.hb-solution.co.kr/",
       "https://www.hb-solution.co.kr/bbs/board.php?bo_table=s2_1&swr_1=10",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HB테크놀러지",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HB테크놀러지 사업보고서는 디스플레이 검사장비와 디스플레이용 도광판·확산판의 사업 범위를 설명한다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://opendart.fss.or.kr/xbrl/viewer/main.do?rcpNo=20260316001660",
+      "https://kind.krx.co.kr/external/2026/03/04/000744/20260304001722/00591.htm",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
