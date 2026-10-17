@@ -25074,6 +25074,112 @@
    "issues": []
   },
   {
+   "id": "현대에버다임",
+   "type": "company",
+   "path": "companies/현대에버다임",
+   "summary": "건설기계와 광산기계를 제조·공급하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "041440",
+   "dart_corp_code": "00228536",
+   "aliases": [
+    "HYUNDAI EVERDIGM Corp.",
+    "EVERDIGM"
+   ],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "공식 사업영역에 건설기계·광산기계가 명시되어 건설장비 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://hyundaieverdigm.com/business/business_main.asp?catecode=1629713310",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00228536"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "공식 사업영역의 건설기계·광산기계 사업을 산업용 장비 역할로 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://hyundaieverdigm.com/business/business_main.asp?catecode=1629713310",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "건설장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "공식 사업영역에 건설기계·광산기계가 명시되어 건설장비 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://hyundaieverdigm.com/business/business_main.asp?catecode=1629713310",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00228536"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "건설기계",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "공식 사업영역의 건설기계·광산기계 사업을 산업용 장비 역할로 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://hyundaieverdigm.com/business/business_main.asp?catecode=1629713310",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "현대오토에버",
    "type": "company",
    "path": "companies/현대오토에버",
@@ -41943,6 +42049,68 @@
      "sources": [
       "https://www.hyundai-bngsteel.com/m/en/pds/brochure_Catalogue_Korean.pdf",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "현대에버다임",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건설장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "공식 사업영역에 건설기계·광산기계가 명시되어 건설장비 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://hyundaieverdigm.com/business/business_main.asp?catecode=1629713310",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00228536"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "현대에버다임",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건설기계",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "공식 사업영역의 건설기계·광산기계 사업을 산업용 장비 역할로 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://hyundaieverdigm.com/business/business_main.asp?catecode=1629713310",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
