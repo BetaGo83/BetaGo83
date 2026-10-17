@@ -2502,6 +2502,66 @@
    "issues": []
   },
   {
+   "id": "DB",
+   "type": "company",
+   "path": "companies/DB",
+   "summary": "기업 IT시스템 구축·통합과 운영 서비스를 제공하는 DB Inc.",
+   "market": "KOSPI",
+   "ticker": "012030",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "컴퓨터 프로그래밍, 시스템 통합 및 관리업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DB Inc. 공식 SI 안내는 시스템 통합·응용 소프트웨어 개발을 포함한 통합 IT서비스를 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dbinc.co.kr/main/content/view/dx_si.do",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "소프트웨어·IT서비스",
+     "tier": 1,
+     "stage": "시스템 구축·운영",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "소프트웨어·IT서비스",
+       "page": "소프트웨어·IT서비스",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "DB Inc. 공식 SI 안내는 시스템 통합·응용 소프트웨어 개발을 포함한 통합 IT서비스를 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dbinc.co.kr/main/content/view/dx_si.do",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "DB손해보험",
    "type": "company",
    "path": "companies/DB손해보험",
@@ -29163,6 +29223,37 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "DB",
+   "target": "소프트웨어·IT서비스",
+   "type": "테마",
+   "tier": 1,
+   "stage": "시스템 구축·운영",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DB Inc. 공식 SI 안내는 시스템 통합·응용 소프트웨어 개발을 포함한 통합 IT서비스를 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dbinc.co.kr/main/content/view/dx_si.do",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
