@@ -10212,6 +10212,40 @@
    "issues": []
   },
   {
+   "id": "나라엠앤디",
+   "type": "company",
+   "path": "companies/나라엠앤디",
+   "summary": "프레스 금형·플라스틱 사출 금형과 부품 생산을 하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "051490",
+   "dart_corp_code": "",
+   "aliases": [
+    "NARA MOLD & DIE",
+    "나라엠앤디(주)"
+   ],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "사업 범위",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "금형·부품 생산은 확인했지만 현재 공개 테마 단계와 직접 대응하는 역할은 추가 확인이 필요하다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.naramnd.com/kor/company/overview.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [],
+   "issues": []
+  },
+  {
    "id": "네오셈",
    "type": "company",
    "path": "companies/네오셈",
