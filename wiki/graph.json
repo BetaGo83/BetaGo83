@@ -5271,6 +5271,70 @@
    "issues": []
   },
   {
+   "id": "HLB",
+   "type": "company",
+   "path": "companies/HLB",
+   "summary": "표적항암제와 면역치료제 등 제약·바이오 사업을 개발하는 헬스케어 기업",
+   "market": "KOSDAQ",
+   "ticker": "028300",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "의료용품 및 기타 의약 관련제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB 공식 사업·제품 페이지는 제약·바이오 사업과 표적항암제 리보세라닙·리라푸그라티닙을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://hlbbio.co.kr/business/medi_bio",
+      "https://hlbbio.co.kr/business/rivoce_unite/rivoceranib",
+      "https://hlbbio.co.kr/business/rivoce_unite/lirafugratinib",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "HLB 공식 사업·제품 페이지는 제약·바이오 사업과 표적항암제 리보세라닙·리라푸그라티닙을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://hlbbio.co.kr/business/medi_bio",
+        "https://hlbbio.co.kr/business/rivoce_unite/rivoceranib",
+        "https://hlbbio.co.kr/business/rivoce_unite/lirafugratinib",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "HL만도",
    "type": "company",
    "path": "companies/HL만도",
@@ -30040,6 +30104,39 @@
      "sources": [
       "http://www.inno-n.com/",
       "http://www.inno-n.com/business/medicine/list?page_no=1&sort=desc&sch_cd=&sch_sub_cd=&sch_text=",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HLB",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB 공식 사업·제품 페이지는 제약·바이오 사업과 표적항암제 리보세라닙·리라푸그라티닙을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://hlbbio.co.kr/business/medi_bio",
+      "https://hlbbio.co.kr/business/rivoce_unite/rivoceranib",
+      "https://hlbbio.co.kr/business/rivoce_unite/lirafugratinib",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
