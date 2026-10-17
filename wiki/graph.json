@@ -554,6 +554,152 @@
    ]
   },
   {
+   "id": "AJ네트웍스",
+   "type": "company",
+   "path": "companies/AJ네트웍스",
+   "summary": "물류·산업장비·IT기기를 통합 렌탈·자산운영하는 B2B 플랫폼 기업",
+   "market": "KOSPI",
+   "ticker": "095570",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "산업용 기계 및 장비 임대업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "항공·물류",
+     "page": "항공·물류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 사업자료에서 파렛트·물류장비, 건설·산업장비, IT기기·솔루션의 구매·유통·렌탈·자산운영 서비스를 각각 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.ajnetworks.co.kr/Company/Business",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 사업자료에서 파렛트·물류장비, 건설·산업장비, IT기기·솔루션의 구매·유통·렌탈·자산운영 서비스를 각각 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.ajnetworks.co.kr/Company/Business",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 사업자료에서 파렛트·물류장비, 건설·산업장비, IT기기·솔루션의 구매·유통·렌탈·자산운영 서비스를 각각 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.ajnetworks.co.kr/Company/Business",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "소형·중장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 사업자료에서 파렛트·물류장비, 건설·산업장비, IT기기·솔루션의 구매·유통·렌탈·자산운영 서비스를 각각 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.ajnetworks.co.kr/Company/Business",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "소프트웨어·IT서비스",
+     "tier": 1,
+     "stage": "기업 IT서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "소프트웨어·IT서비스",
+       "page": "소프트웨어·IT서비스",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 사업자료에서 파렛트·물류장비, 건설·산업장비, IT기기·솔루션의 구매·유통·렌탈·자산운영 서비스를 각각 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.ajnetworks.co.kr/Company/Business",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "항공·물류",
+     "tier": 1,
+     "stage": "물류",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "항공·물류",
+       "page": "항공·물류",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-17",
+       "text": "회사는 공식 사업자료에서 파렛트·물류장비, 건설·산업장비, IT기기·솔루션의 구매·유통·렌탈·자산운영 서비스를 각각 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.ajnetworks.co.kr/Company/Business",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "AP위성",
    "type": "company",
    "path": "companies/AP위성",
@@ -22078,6 +22224,99 @@
      "status": "확인",
      "evidence_level": "공시 원문",
      "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "AJ네트웍스",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "소형·중장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 사업자료에서 파렛트·물류장비, 건설·산업장비, IT기기·솔루션의 구매·유통·렌탈·자산운영 서비스를 각각 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.ajnetworks.co.kr/Company/Business",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "AJ네트웍스",
+   "target": "소프트웨어·IT서비스",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기업 IT서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 사업자료에서 파렛트·물류장비, 건설·산업장비, IT기기·솔루션의 구매·유통·렌탈·자산운영 서비스를 각각 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.ajnetworks.co.kr/Company/Business",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "AJ네트웍스",
+   "target": "항공·물류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "물류",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "항공·물류",
+     "page": "항공·물류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-17",
+     "text": "회사는 공식 사업자료에서 파렛트·물류장비, 건설·산업장비, IT기기·솔루션의 구매·유통·렌탈·자산운영 서비스를 각각 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.ajnetworks.co.kr/Company/Business",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
     }
    ],
    "presentation": {
