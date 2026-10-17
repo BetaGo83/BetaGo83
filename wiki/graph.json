@@ -485,13 +485,14 @@
    "id": "패션·의류",
    "type": "theme",
    "path": "themes/패션·의류",
-   "summary": "패션 브랜드 의류와 스포츠의류·패션 잡화 사업을 다룬다.",
+   "summary": "패션 브랜드 의류와 스포츠의류·패션 잡화·가방 사업을 다룬다.",
    "category": "소비·문화",
    "stages": [
     "패션 브랜드 제품",
     "스포츠의류",
     "여성의류·패션 잡화",
-    "합성섬유"
+    "합성섬유",
+    "스포츠용품·가방"
    ]
   },
   {
@@ -9511,6 +9512,64 @@
        "weak": false,
        "sources": [
         "https://www.dongkuksteel.com/ko/product/index",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동인기연",
+   "type": "company",
+   "path": "companies/동인기연",
+   "summary": "등산용가방·골프백 등 스포츠용품과 가죽·가방 제품을 제조·판매하는 기업",
+   "market": "KOSPI",
+   "ticker": "111380",
+   "dart_corp_code": "",
+   "aliases": [],
+   "krx_industry": "가죽, 가방 및 유사제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "한국거래소 KIND 상장법인 목록은 동인기연의 업종을 가죽·가방 및 유사제품 제조업, 주요제품을 스포츠용품(등산용가방·골프백) 등으로 기재한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "패션·의류",
+     "tier": 1,
+     "stage": "스포츠용품·가방",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "패션·의류",
+       "page": "패션·의류",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "한국거래소 KIND 상장법인 목록은 동인기연의 업종을 가죽·가방 및 유사제품 제조업, 주요제품을 스포츠용품(등산용가방·골프백) 등으로 기재한다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -31127,6 +31186,36 @@
      "weak": false,
      "sources": [
       "https://www.dongkuksteel.com/ko/product/index",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동인기연",
+   "target": "패션·의류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "스포츠용품·가방",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "한국거래소 KIND 상장법인 목록은 동인기연의 업종을 가죽·가방 및 유사제품 제조업, 주요제품을 스포츠용품(등산용가방·골프백) 등으로 기재한다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
