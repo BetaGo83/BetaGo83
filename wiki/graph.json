@@ -11385,6 +11385,72 @@
    "issues": []
   },
   {
+   "id": "KZ정밀",
+   "type": "company",
+   "path": "companies/KZ정밀",
+   "summary": "API·산업용 펌프와 밸브, 펌프·밸브용 소재를 생산하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "036560",
+   "dart_corp_code": "00141389",
+   "aliases": [],
+   "krx_industry": "일반 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "API·산업용 펌프와 밸브, 펌프·밸브용 소재 제품의 설계·생산을 회사 공식 자료와 KIND에서 확인했다. 특정 고객·공급계약은 확인하지 않았다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kzpc.co.kr/ko/sub/company/intro/intro.asp",
+      "https://www.kzpc.co.kr/ko/sub/business/pump.asp",
+      "https://www.kzpc.co.kr/ko/sub/product/product.asp?s_cate=11",
+      "https://www.kzpc.co.kr/ko/sub/product/product.asp?mode=list&page=2&s_cate=12&s_hide=&s_keyword=",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "에너지·산업설비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "API·산업용 펌프와 밸브, 펌프·밸브용 소재 제품의 설계·생산을 회사 공식 자료와 KIND에서 확인했다. 특정 고객·공급계약은 확인하지 않았다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.kzpc.co.kr/ko/sub/company/intro/intro.asp",
+        "https://www.kzpc.co.kr/ko/sub/business/pump.asp",
+        "https://www.kzpc.co.kr/ko/sub/product/product.asp?s_cate=11",
+        "https://www.kzpc.co.kr/ko/sub/product/product.asp?mode=list&page=2&s_cate=12&s_hide=&s_keyword=",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "LB세미콘",
    "type": "company",
    "path": "companies/LB세미콘",
@@ -32077,6 +32143,39 @@
    }
   },
   {
+   "source": "KZ정밀",
+   "target": "고려아연",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-10-18",
+     "text": "KZ정밀 공식 회사소개와 계열사 안내는 KZ정밀을 고려아연의 계열회사로, 고려아연을 KZ정밀의 모기업으로 설명한다.",
+     "sources": [
+      "https://www.kzpc.co.kr/ko/sub/company/intro/intro.asp",
+      "https://www.kzpc.co.kr/ko/sub/company/intro/partner.asp"
+     ],
+     "status": "확인",
+     "evidence_level": "공식 발표",
+     "weak": false
+    },
+    {
+     "date": "2026-10-18",
+     "text": "KZ정밀 공식 계열사 안내는 고려아연을 KZ정밀의 모기업으로 표시한다.",
+     "sources": [
+      "https://www.kzpc.co.kr/ko/sub/company/intro/partner.asp"
+     ],
+     "status": "확인",
+     "evidence_level": "공식 발표",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "두산에너빌리티",
    "target": "두산퓨얼셀",
    "type": "계열",
@@ -39369,6 +39468,40 @@
       "https://kind.krx.co.kr/corpdetail/totalinfo.do?isurCd=05290&kisComCd=724262&method=searchTotalInfo&repIsuCd=KR7052900008",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814000894&dcmNo=11528463&eleId=9&offset=81639&length=96411&dtd=dart4.xsd&displayImage=show",
       "http://www.kxhitech.com/page.php?p_id=product1"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KZ정밀",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "에너지·산업설비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "API·산업용 펌프와 밸브, 펌프·밸브용 소재 제품의 설계·생산을 회사 공식 자료와 KIND에서 확인했다. 특정 고객·공급계약은 확인하지 않았다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kzpc.co.kr/ko/sub/company/intro/intro.asp",
+      "https://www.kzpc.co.kr/ko/sub/business/pump.asp",
+      "https://www.kzpc.co.kr/ko/sub/product/product.asp?s_cate=11",
+      "https://www.kzpc.co.kr/ko/sub/product/product.asp?mode=list&page=2&s_cate=12&s_hide=&s_keyword=",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
