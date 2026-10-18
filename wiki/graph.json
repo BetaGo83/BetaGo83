@@ -16863,6 +16863,136 @@
    "issues": []
   },
   {
+   "id": "SGC에너지",
+   "type": "company",
+   "path": "companies/SGC에너지",
+   "summary": "바이오매스 기반 열병합발전과 전기·증기·신재생에너지공급인증서(REC)를 운영하는 에너지 기업",
+   "market": "KOSPI",
+   "ticker": "005090",
+   "dart_corp_code": "00125150",
+   "aliases": [
+    "SGC Energy",
+    "삼광글라스"
+   ],
+   "krx_industry": "전기업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SGC 공식 자료의 재생에너지·분산형 전원·바이오매스 발전 설명과 KIND의 전기·증기·REC 제품 표기를 함께 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sgc.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00125150"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "재생에너지",
+     "tier": 1,
+     "stage": "바이오매스·풍력",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "재생에너지",
+       "page": "재생에너지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SGC 공식 자료의 재생에너지·분산형 전원·바이오매스 발전 설명과 KIND의 전기·증기·REC 제품 표기를 함께 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.sgc.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00125150"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SG글로벌",
+   "type": "company",
+   "path": "companies/SG글로벌",
+   "summary": "자동차 시트와 시트 커버(Seat Trim Cover)를 제조·판매하는 자동차 부품 기업",
+   "market": "KOSPI",
+   "ticker": "001380",
+   "dart_corp_code": "00152039",
+   "aliases": [
+    "SG Global",
+    "SG글로벌 자동차시트"
+   ],
+   "krx_industry": "자동차 신품 부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "KIND 공시와 거래소 자료에서 자동차 시트 및 시트 커버 제조·판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/03/18/000136/20260318000560/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00152039"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "부품·모듈",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "KIND 공시와 거래소 자료에서 자동차 시트 및 시트 커버 제조·판매를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2026/03/18/000136/20260318000560/11011.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00152039"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "SG세계물산",
    "type": "company",
    "path": "companies/SG세계물산",
@@ -20653,6 +20783,177 @@
         "https://www.ywtc.com/",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
         "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00296263"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "iMBC",
+   "type": "company",
+   "path": "companies/iMBC",
+   "summary": "MBC 영상·라디오·영화·외화와 디지털 콘텐츠를 웹·모바일로 제공하는 미디어 플랫폼 기업",
+   "market": "KOSDAQ",
+   "ticker": "052220",
+   "dart_corp_code": "00370006",
+   "aliases": [
+    "아이엠비씨",
+    "MBC 디지털콘텐츠"
+   ],
+   "krx_industry": "영상·오디오물 제공 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 회사소개와 KIND 자료에서 MBC 콘텐츠의 디지털 유통, 웹·모바일·앱 서비스, 디지털콘텐츠·웹에이전시 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://corp.imbc.com/m/aboutus/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00370006"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "영화관·미디어",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "공식 회사소개와 KIND 자료에서 MBC 콘텐츠의 디지털 유통, 웹·모바일·앱 서비스, 디지털콘텐츠·웹에이전시 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://corp.imbc.com/m/aboutus/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00370006"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "가비아",
+   "type": "company",
+   "path": "companies/가비아",
+   "summary": "도메인·호스팅과 클라우드·IDC·보안 서비스를 제공하는 기업 IT서비스 사업자",
+   "market": "KOSDAQ",
+   "ticker": "079940",
+   "dart_corp_code": "00506294",
+   "aliases": [
+    "Gabia",
+    "가비아 IDC"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 홈페이지에서 도메인·클라우드·호스팅·보안·그룹웨어 등 기업용 서비스를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gabia.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00506294"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "데이터센터",
+     "page": "데이터센터",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 IDC 상품 안내에서 서버 호스팅·코로케이션·관리형 서비스를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://idc.gabia.com/product"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "데이터센터",
+     "tier": 1,
+     "stage": "IDC 호스팅·운영",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "데이터센터",
+       "page": "데이터센터",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "공식 IDC 상품 안내에서 서버 호스팅·코로케이션·관리형 서비스를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://idc.gabia.com/product"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "소프트웨어·IT서비스",
+     "tier": 1,
+     "stage": "기업 IT서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "소프트웨어·IT서비스",
+       "page": "소프트웨어·IT서비스",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "공식 홈페이지에서 도메인·클라우드·호스팅·보안·그룹웨어 등 기업용 서비스를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.gabia.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00506294"
        ],
        "malformed": ""
       }
@@ -48642,6 +48943,70 @@
    }
   },
   {
+   "source": "SGC에너지",
+   "target": "재생에너지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "바이오매스·풍력",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SGC 공식 자료의 재생에너지·분산형 전원·바이오매스 발전 설명과 KIND의 전기·증기·REC 제품 표기를 함께 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sgc.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00125150"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SG글로벌",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "부품·모듈",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "KIND 공시와 거래소 자료에서 자동차 시트 및 시트 커버 제조·판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/03/18/000136/20260318000560/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00152039"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "SG세계물산",
    "target": "패션·의류",
    "type": "테마",
@@ -50699,6 +51064,100 @@
       "https://www.ywtc.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
       "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00296263"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "iMBC",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "영화관·미디어",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 회사소개와 KIND 자료에서 MBC 콘텐츠의 디지털 유통, 웹·모바일·앱 서비스, 디지털콘텐츠·웹에이전시 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://corp.imbc.com/m/aboutus/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00370006"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "가비아",
+   "target": "데이터센터",
+   "type": "테마",
+   "tier": 1,
+   "stage": "IDC 호스팅·운영",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "데이터센터",
+     "page": "데이터센터",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 IDC 상품 안내에서 서버 호스팅·코로케이션·관리형 서비스를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://idc.gabia.com/product"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "가비아",
+   "target": "소프트웨어·IT서비스",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기업 IT서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 홈페이지에서 도메인·클라우드·호스팅·보안·그룹웨어 등 기업용 서비스를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gabia.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00506294"
      ],
      "malformed": ""
     }
