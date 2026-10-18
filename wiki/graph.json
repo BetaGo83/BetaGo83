@@ -312,7 +312,8 @@
     "쇼핑몰 운영 기반",
     "면세 유통",
     "식자재 유통·푸드서비스",
-    "편의점·슈퍼마켓·홈쇼핑"
+    "편의점·슈퍼마켓·홈쇼핑",
+    "중고차 플랫폼·렌터카"
    ]
   },
   {
@@ -9928,6 +9929,78 @@
         "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000964&dcmNo=11139149&eleId=10&offset=94972&length=3617&dtd=dart4.xsd",
         "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000964&dcmNo=11139149&eleId=11&offset=98593&length=4852&dtd=dart4.xsd",
         "https://www.kg-mobility.com/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "KG모빌리티플랫폼",
+   "type": "company",
+   "path": "companies/KG모빌리티플랫폼",
+   "summary": "직영 중고차 온라인·오프라인 매매 플랫폼과 렌터카 사업을 운영하는 기업",
+   "market": "KOSPI",
+   "ticker": "381970",
+   "dart_corp_code": "01323032",
+   "aliases": [
+    "KG Mobility Platform",
+    "K Car",
+    "케이카"
+   ],
+   "krx_industry": "자동차 판매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "직영 중고차 온라인·오프라인 매매 플랫폼과 렌터카 사업을 사업보고서 및 K Car 공식 사이트에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=01323032",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000506",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000506&dcmNo=11136235&eleId=10&offset=71368&length=3257&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000506&dcmNo=11136235&eleId=11&offset=74629&length=23000&dtd=dart4.xsd",
+      "https://www.kcar.com/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "유통·전자상거래",
+     "tier": 1,
+     "stage": "중고차 플랫폼·렌터카",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "유통·전자상거래",
+       "page": "유통·전자상거래",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "직영 중고차 온라인·오프라인 매매 플랫폼과 렌터카 사업을 사업보고서 및 K Car 공식 사이트에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=01323032",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000506",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000506&dcmNo=11136235&eleId=10&offset=71368&length=3257&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000506&dcmNo=11136235&eleId=11&offset=74629&length=23000&dtd=dart4.xsd",
+        "https://www.kcar.com/"
        ],
        "malformed": ""
       }
@@ -37236,6 +37309,41 @@
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000964&dcmNo=11139149&eleId=10&offset=94972&length=3617&dtd=dart4.xsd",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000964&dcmNo=11139149&eleId=11&offset=98593&length=4852&dtd=dart4.xsd",
       "https://www.kg-mobility.com/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KG모빌리티플랫폼",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 1,
+   "stage": "중고차 플랫폼·렌터카",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "직영 중고차 온라인·오프라인 매매 플랫폼과 렌터카 사업을 사업보고서 및 K Car 공식 사이트에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=01323032",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000506",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000506&dcmNo=11136235&eleId=10&offset=71368&length=3257&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000506&dcmNo=11136235&eleId=11&offset=74629&length=23000&dtd=dart4.xsd",
+      "https://www.kcar.com/"
      ],
      "malformed": ""
     }
