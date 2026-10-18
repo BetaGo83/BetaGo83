@@ -20,7 +20,8 @@
     "배터리 소재·동박",
     "분리막",
     "사업지주·전지소재 전략",
-    "자동차용 배터리"
+    "자동차용 배터리",
+    "음극재"
    ]
   },
   {
@@ -8096,6 +8097,169 @@
         "https://www.hwasung.com/index.php/p/business/civil/?depart=1&hcode=002.002",
         "https://www.hwasung.com/index.php/p/business/archi/?depart=2&hcode=002.003",
         "https://www.hwasung.com/index.php/p/business/housing/?depart=3&hcode=002.004"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "HS효성",
+   "type": "company",
+   "path": "companies/HS효성",
+   "summary": "첨단 산업소재·AI/데이터 인프라·SCM 물류·수입차 딜러 사업을 지배하는 사업지주회사",
+   "market": "KOSPI",
+   "ticker": "487570",
+   "dart_corp_code": "01854763",
+   "aliases": [
+    "HS Hyosung",
+    "HS Hyosung Corporation",
+    "에이치에스효성(주)",
+    "㈜에이치에스효성"
+   ],
+   "krx_industry": "그 외 기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DART 사업보고서와 회사 공식 에너지솔루션 페이지에서 실리콘-탄소 복합재 음극재의 생산·사업화를 직접 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000964",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000964&dcmNo=11115337&eleId=10&offset=91837&length=1635&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000964&dcmNo=11115337&eleId=11&offset=93476&length=22789&dtd=dart4.xsd",
+      "https://www.hshyosung.com/kr/business/energy-communication"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "회사 공식 AI/데이터 솔루션 페이지에서 AI·데이터 인프라, 클라우드, AI 플랫폼 솔루션을 제공한다고 직접 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://www.hshyosung.com/kr/business/information-communication"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "항공·물류",
+     "page": "항공·물류",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DART 사업보고서와 회사 공식 SCM 솔루션 페이지에서 운송주선·포워딩과 종합 물류 서비스를 직접 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000964",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000964&dcmNo=11115337&eleId=10&offset=91837&length=1635&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000964&dcmNo=11115337&eleId=13&offset=206990&length=34780&dtd=dart4.xsd",
+      "https://www.hshyosung.com/kr/business/logistics"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "음극재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "DART 사업보고서와 회사 공식 에너지솔루션 페이지에서 실리콘-탄소 복합재 음극재의 생산·사업화를 직접 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000964",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000964&dcmNo=11115337&eleId=10&offset=91837&length=1635&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000964&dcmNo=11115337&eleId=11&offset=93476&length=22789&dtd=dart4.xsd",
+        "https://www.hshyosung.com/kr/business/energy-communication"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "AI·클라우드",
+     "tier": 1,
+     "stage": "AI·클라우드 구축·운영",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "AI·클라우드",
+       "page": "AI·클라우드",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "회사 공식 AI/데이터 솔루션 페이지에서 AI·데이터 인프라, 클라우드, AI 플랫폼 솔루션을 제공한다고 직접 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://www.hshyosung.com/kr/business/information-communication"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "항공·물류",
+     "tier": 1,
+     "stage": "물류",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "항공·물류",
+       "page": "항공·물류",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "DART 사업보고서와 회사 공식 SCM 솔루션 페이지에서 운송주선·포워딩과 종합 물류 서비스를 직접 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000964",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000964&dcmNo=11115337&eleId=10&offset=91837&length=1635&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000964&dcmNo=11115337&eleId=13&offset=206990&length=34780&dtd=dart4.xsd",
+        "https://www.hshyosung.com/kr/business/logistics"
        ],
        "malformed": ""
       }
@@ -34674,6 +34838,105 @@
       "https://www.hwasung.com/index.php/p/business/civil/?depart=1&hcode=002.002",
       "https://www.hwasung.com/index.php/p/business/archi/?depart=2&hcode=002.003",
       "https://www.hwasung.com/index.php/p/business/housing/?depart=3&hcode=002.004"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HS효성",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "음극재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DART 사업보고서와 회사 공식 에너지솔루션 페이지에서 실리콘-탄소 복합재 음극재의 생산·사업화를 직접 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000964",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000964&dcmNo=11115337&eleId=10&offset=91837&length=1635&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000964&dcmNo=11115337&eleId=11&offset=93476&length=22789&dtd=dart4.xsd",
+      "https://www.hshyosung.com/kr/business/energy-communication"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HS효성",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 1,
+   "stage": "AI·클라우드 구축·운영",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "회사 공식 AI/데이터 솔루션 페이지에서 AI·데이터 인프라, 클라우드, AI 플랫폼 솔루션을 제공한다고 직접 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://www.hshyosung.com/kr/business/information-communication"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HS효성",
+   "target": "항공·물류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "물류",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "항공·물류",
+     "page": "항공·물류",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DART 사업보고서와 회사 공식 SCM 솔루션 페이지에서 운송주선·포워딩과 종합 물류 서비스를 직접 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000964",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000964&dcmNo=11115337&eleId=10&offset=91837&length=1635&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000964&dcmNo=11115337&eleId=13&offset=206990&length=34780&dtd=dart4.xsd",
+      "https://www.hshyosung.com/kr/business/logistics"
      ],
      "malformed": ""
     }
