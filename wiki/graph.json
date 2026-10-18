@@ -10555,6 +10555,71 @@
    "issues": []
   },
   {
+   "id": "KPX케미칼",
+   "type": "company",
+   "path": "companies/KPX케미칼",
+   "summary": "폴리프로필렌글리콜(PPG)·폴리우레탄 수지와 유기화학 제품을 제조·판매하는 코스피 상장사",
+   "market": "KOSPI",
+   "ticker": "025000",
+   "dart_corp_code": "00191472",
+   "aliases": [
+    "KPX Chemical",
+    "케이피엑스케미칼"
+   ],
+   "krx_industry": "기초 화학물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "PPG·PU 수지와 유기화학제품의 제조·합성·판매를 DART 반기보고서와 회사 공식 홈페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814003139&dcmNo=11536004&eleId=9&offset=100320&length=39953&dtd=dart4.xsd&displayImage=show",
+      "https://www.kpxchemical.com/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "기초·첨단화학소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "PPG·PU 수지와 유기화학제품의 제조·합성·판매를 DART 반기보고서와 회사 공식 홈페이지에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814003139&dcmNo=11536004&eleId=9&offset=100320&length=39953&dtd=dart4.xsd&displayImage=show",
+        "https://www.kpxchemical.com/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "LB세미콘",
    "type": "company",
    "path": "companies/LB세미콘",
@@ -38091,6 +38156,38 @@
       "https://www.knn.co.kr/about/history",
       "https://www.knn.co.kr/tv",
       "https://www.knn.co.kr/radio"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KPX케미칼",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기초·첨단화학소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "PPG·PU 수지와 유기화학제품의 제조·합성·판매를 DART 반기보고서와 회사 공식 홈페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814003139&dcmNo=11536004&eleId=9&offset=100320&length=39953&dtd=dart4.xsd&displayImage=show",
+      "https://www.kpxchemical.com/"
      ],
      "malformed": ""
     }
