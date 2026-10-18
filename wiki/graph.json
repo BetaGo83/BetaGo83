@@ -7228,6 +7228,119 @@
    "issues": []
   },
   {
+   "id": "HLB제넥스",
+   "type": "company",
+   "path": "companies/HLB제넥스",
+   "summary": "산업용 특수 효소와 바이오헬스케어 소재를 개발·생산하는 코스닥 기업",
+   "market": "KOSDAQ",
+   "ticker": "187420",
+   "dart_corp_code": "00983916",
+   "aliases": [
+    "HLB Genex",
+    "에이치엘비제넥스",
+    "HLB제넥스(주)"
+   ],
+   "krx_industry": "기초 의약물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB제넥스의 Catalase가 반도체 웨이퍼 식각·세척 공정에서 과산화수소를 분해하는 산업용 효소임을 사업보고서와 공식 제품 페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001238",
+      "https://kr.hlbgenex.com/gwbbs/gw_page10.php?ti=products&me_co=3010"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB제넥스의 Vitamin K2·파이토스핑고신 등 바이오헬스케어 소재와 효소·마이크로바이옴 제품 개발·생산 역할을 사업보고서와 공식 자료에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001238",
+      "https://kr.hlbgenex.com/gwbbs/gw_page1.php?ti=about&me_co=1010",
+      "https://kr.hlbgenex.com/gwbbs/gw_page10.php?ti=products&me_co=3010"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "반도체 공정 소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "HLB제넥스의 Catalase가 반도체 웨이퍼 식각·세척 공정에서 과산화수소를 분해하는 산업용 효소임을 사업보고서와 공식 제품 페이지에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001238",
+        "https://kr.hlbgenex.com/gwbbs/gw_page10.php?ti=products&me_co=3010"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "바이오의약품 원료",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "HLB제넥스의 Vitamin K2·파이토스핑고신 등 바이오헬스케어 소재와 효소·마이크로바이옴 제품 개발·생산 역할을 사업보고서와 공식 자료에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001238",
+        "https://kr.hlbgenex.com/gwbbs/gw_page1.php?ti=about&me_co=1010",
+        "https://kr.hlbgenex.com/gwbbs/gw_page10.php?ti=products&me_co=3010"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "HL만도",
    "type": "company",
    "path": "companies/HL만도",
@@ -33647,6 +33760,71 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629000350",
       "https://www.hlbinnovation.com/hlb/business/bio"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HLB제넥스",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "반도체 공정 소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB제넥스의 Catalase가 반도체 웨이퍼 식각·세척 공정에서 과산화수소를 분해하는 산업용 효소임을 사업보고서와 공식 제품 페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001238",
+      "https://kr.hlbgenex.com/gwbbs/gw_page10.php?ti=products&me_co=3010"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HLB제넥스",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "바이오의약품 원료",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB제넥스의 Vitamin K2·파이토스핑고신 등 바이오헬스케어 소재와 효소·마이크로바이옴 제품 개발·생산 역할을 사업보고서와 공식 자료에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001238",
+      "https://kr.hlbgenex.com/gwbbs/gw_page1.php?ti=about&me_co=1010",
+      "https://kr.hlbgenex.com/gwbbs/gw_page10.php?ti=products&me_co=3010"
      ],
      "malformed": ""
     }
