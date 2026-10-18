@@ -19092,6 +19092,112 @@
    "issues": []
   },
   {
+   "id": "STX",
+   "type": "company",
+   "path": "companies/STX",
+   "summary": "원자재·석유제품·기계장비를 거래하고 해운·물류와 신성장 소재 사업을 전개하는 종합 무역상사",
+   "market": "KOSPI",
+   "ticker": "011810",
+   "dart_corp_code": "00138297",
+   "aliases": [
+    "STX Corporation",
+    "주식회사 STX"
+   ],
+   "krx_industry": "상품 종합 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "석유·석유화학제품과 석유제품 트레이딩 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.stx.co.kr/business/information1_1",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00138297"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "항공·물류",
+     "page": "항공·물류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "선박관리와 용대선·포워딩·벙커링 등 해운물류 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://stx.co.kr/business/information2_1",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00138297"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "항공·물류",
+     "tier": 1,
+     "stage": "물류",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "항공·물류",
+       "page": "항공·물류",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "선박관리와 용대선·포워딩·벙커링 등 해운물류 사업을 공식 자료에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://stx.co.kr/business/information2_1",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00138297"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "정유·석유화학·윤활",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "석유·석유화학제품과 석유제품 트레이딩 사업을 공식 자료에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.stx.co.kr/business/information1_1",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00138297"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "STX그린로지스",
    "type": "company",
    "path": "companies/STX그린로지스",
@@ -19181,6 +19287,450 @@
        "sources": [
         "https://www.stxgreenlogis.co.kr/business/information1",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "STX엔진",
+   "type": "company",
+   "path": "companies/STX엔진",
+   "summary": "선박·육상발전용 엔진과 방위산업용 엔진·전자통신 장비를 제조하는 코스피 기업",
+   "market": "KOSPI",
+   "ticker": "077970",
+   "dart_corp_code": "00480455",
+   "aliases": [
+    "STX Engine",
+    "STX Engine Co., Ltd."
+   ],
+   "krx_industry": "일반 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "방산",
+     "page": "방산",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "방위산업용 엔진과 방산 서비스 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://m.stxengine.co.kr/mkor/Default.aspx",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00480455"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "선박용·육상발전용 엔진 제조·서비스 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://m.stxengine.co.kr/mkor/Default.aspx",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00480455"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "에너지·산업설비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "선박용·육상발전용 엔진 제조·서비스 사업을 공식 자료에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://m.stxengine.co.kr/mkor/Default.aspx",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00480455"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "방산",
+     "tier": 1,
+     "stage": "추진기관",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "방산",
+       "page": "방산",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "방위산업용 엔진과 방산 서비스 사업을 공식 자료에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://m.stxengine.co.kr/mkor/Default.aspx",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00480455"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SUN&L",
+   "type": "company",
+   "path": "companies/SUN&L",
+   "summary": "목재·인테리어와 생활용 플라스틱 용기를 함께 생산·유통하는 코스피 기업",
+   "market": "KOSPI",
+   "ticker": "002820",
+   "dart_corp_code": "00132211",
+   "aliases": [
+    "선앤엘",
+    "SUN&L CO., LTD."
+   ],
+   "krx_industry": "플라스틱제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "목재 가공과 도어·가구·내장 인테리어의 생산·판매·시공 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2025/11/14/002152/20251114004875/11013.htm",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00132211"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "주택·건축·토목",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "목재 가공과 도어·가구·내장 인테리어의 생산·판매·시공 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2025/11/14/002152/20251114004875/11013.htm",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00132211"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SV인베스트먼트",
+   "type": "company",
+   "path": "companies/SV인베스트먼트",
+   "summary": "중소·벤처기업에 투자하고 성장 지원을 수행하는 코스닥 벤처캐피탈 기업",
+   "market": "KOSDAQ",
+   "ticker": "289080",
+   "dart_corp_code": "00599151",
+   "aliases": [
+    "SV Investment",
+    "에스브이인베스트먼트"
+   ],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "증권·자산운용",
+     "page": "증권·자산운용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "중소·벤처기업 투자와 성장 지원 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.svinvest.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00599151"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "증권·자산운용",
+     "tier": 1,
+     "stage": "벤처캐피탈·창업투자",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "증권·자산운용",
+       "page": "증권·자산운용",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "중소·벤처기업 투자와 성장 지원 사업을 공식 자료에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.svinvest.com/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00599151"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SYTS",
+   "type": "company",
+   "path": "companies/SYTS",
+   "summary": "자동차 내장과 패션·스포츠 제품에 쓰이는 가죽 소재를 제조하는 코스피 기업",
+   "market": "KOSPI",
+   "ticker": "002170",
+   "dart_corp_code": "00127042",
+   "aliases": [
+    "SYTS Corp.",
+    "에스와이티에스"
+   ],
+   "krx_industry": "가죽, 가방 및 유사제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "패션·스포츠 제품용 가죽 소재 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.syts.com/en",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00127042"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "카시트와 스티어링휠용 자동차 내장 가죽 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.syts.com/en",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00127042"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "자동차 내장·흡차음 소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "카시트와 스티어링휠용 자동차 내장 가죽 사업을 공식 자료에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.syts.com/en",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00127042"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "패션·의류",
+     "tier": 1,
+     "stage": "스포츠용품·가방",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "패션·의류",
+       "page": "패션·의류",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "패션·스포츠 제품용 가죽 소재 사업을 공식 자료에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.syts.com/en",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00127042"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SY동아",
+   "type": "company",
+   "path": "companies/SY동아",
+   "summary": "자동차와 가전용 고무·플라스틱 부품을 제조하는 코스닥 기업",
+   "market": "KOSDAQ",
+   "ticker": "041930",
+   "dart_corp_code": "00199988",
+   "aliases": [
+    "SY DONG-A",
+    "SY DONG-A Co., Ltd."
+   ],
+   "krx_industry": "고무제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차·가전용 고무·플라스틱 부품 제조 사업을 공시에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2025/05/14/000359/20260514000769/11013.htm",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00199988"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차용 고무부품 제조 사업을 거래소 자료와 공시에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://kind.krx.co.kr/external/2025/05/14/000359/20260514000769/11013.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "부품·모듈",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "자동차용 고무부품 제조 사업을 거래소 자료와 공시에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://kind.krx.co.kr/external/2025/05/14/000359/20260514000769/11013.htm"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "고무·탄성체",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "자동차·가전용 고무·플라스틱 부품 제조 사업을 공시에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2025/05/14/000359/20260514000769/11013.htm",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00199988"
        ],
        "malformed": ""
       }
@@ -48537,6 +49087,68 @@
    }
   },
   {
+   "source": "STX",
+   "target": "항공·물류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "물류",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "항공·물류",
+     "page": "항공·물류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "선박관리와 용대선·포워딩·벙커링 등 해운물류 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://stx.co.kr/business/information2_1",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00138297"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "STX",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "정유·석유화학·윤활",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "석유·석유화학제품과 석유제품 트레이딩 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.stx.co.kr/business/information1_1",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00138297"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "STX그린로지스",
    "target": "조선·해운",
    "type": "테마",
@@ -48588,6 +49200,254 @@
      "sources": [
       "https://www.stxgreenlogis.co.kr/business/information1",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "STX엔진",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "에너지·산업설비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "선박용·육상발전용 엔진 제조·서비스 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://m.stxengine.co.kr/mkor/Default.aspx",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00480455"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "STX엔진",
+   "target": "방산",
+   "type": "테마",
+   "tier": 1,
+   "stage": "추진기관",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "방산",
+     "page": "방산",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "방위산업용 엔진과 방산 서비스 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://m.stxengine.co.kr/mkor/Default.aspx",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00480455"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SUN&L",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "주택·건축·토목",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "목재 가공과 도어·가구·내장 인테리어의 생산·판매·시공 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2025/11/14/002152/20251114004875/11013.htm",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00132211"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SV인베스트먼트",
+   "target": "증권·자산운용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "벤처캐피탈·창업투자",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "증권·자산운용",
+     "page": "증권·자산운용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "중소·벤처기업 투자와 성장 지원 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.svinvest.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00599151"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SYTS",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "자동차 내장·흡차음 소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "카시트와 스티어링휠용 자동차 내장 가죽 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.syts.com/en",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00127042"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SYTS",
+   "target": "패션·의류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "스포츠용품·가방",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "패션·스포츠 제품용 가죽 소재 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.syts.com/en",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00127042"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SY동아",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "부품·모듈",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차용 고무부품 제조 사업을 거래소 자료와 공시에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://kind.krx.co.kr/external/2025/05/14/000359/20260514000769/11013.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SY동아",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "고무·탄성체",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차·가전용 고무·플라스틱 부품 제조 사업을 공시에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2025/05/14/000359/20260514000769/11013.htm",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00199988"
      ],
      "malformed": ""
     }
