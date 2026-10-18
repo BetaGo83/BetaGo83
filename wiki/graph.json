@@ -37835,7 +37835,7 @@
    "summary": "항공 여객 운송업에 속한 국내 상장사",
    "market": "KOSPI",
    "ticker": "003490",
-   "dart_corp_code": "",
+   "dart_corp_code": "00113526",
    "aliases": [],
    "krx_industry": "항공 여객 운송업",
    "classification_as_of": "2026-10-09",
@@ -37845,12 +37845,13 @@
      "page": "항공·물류",
      "classification": "공시·거래소 확인",
      "status": "확인",
-     "date": "2026-10-09",
-     "text": "항공 여객 및 화물 운송. (자료 기준일: 2026-10-09)",
+     "date": "2026-10-19",
+     "text": "항공 여객 및 화물 운송.",
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
-      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001125"
      ],
      "malformed": ""
     }
@@ -37867,12 +37868,13 @@
        "page": "항공·물류",
        "classification": "공시·거래소 확인",
        "status": "확인",
-       "date": "2026-10-09",
-       "text": "항공 여객 및 화물 운송. (자료 기준일: 2026-10-09)",
+       "date": "2026-10-19",
+       "text": "항공 여객 및 화물 운송.",
        "evidence_level": "거래소 자료",
        "weak": false,
        "sources": [
-        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001125"
        ],
        "malformed": ""
       }
@@ -37907,7 +37909,7 @@
    "summary": "건화물·탱커·자동차선을 운용하는 에너지·자원 전문 해상 운송선사",
    "market": "KOSPI",
    "ticker": "005880",
-   "dart_corp_code": "",
+   "dart_corp_code": "00113535",
    "aliases": [],
    "krx_industry": "해상 운송업",
    "classification_as_of": "2026-10-09",
@@ -37917,13 +37919,14 @@
      "page": "조선·해운",
      "classification": "공식 발표 확인",
      "status": "확인",
-     "date": "2026-10-17",
+     "date": "2026-10-19",
      "text": "회사는 공식 자료에서 전용선·부정기선·탱커선·자동차선 사업을 운영하는 에너지·자원 전문 수송선사라고 설명한다.",
      "evidence_level": "공식 발표",
      "weak": false,
      "sources": [
       "https://www.korealines.co.kr/default/company/company.php",
-      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001138"
      ],
      "malformed": ""
     }
@@ -37940,12 +37943,211 @@
        "page": "조선·해운",
        "classification": "공식 발표 확인",
        "status": "확인",
-       "date": "2026-10-17",
+       "date": "2026-10-19",
        "text": "회사는 공식 자료에서 전용선·부정기선·탱커선·자동차선 사업을 운영하는 에너지·자원 전문 수송선사라고 설명한다.",
        "evidence_level": "공식 발표",
        "weak": false,
        "sources": [
         "https://www.korealines.co.kr/default/company/company.php",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001138"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대한화섬",
+   "type": "company",
+   "path": "companies/대한화섬",
+   "summary": "화학섬유 원사를 생산하는 섬유 소재 기업",
+   "market": "KOSPI",
+   "ticker": "003830",
+   "dart_corp_code": "00113544",
+   "aliases": [
+    "Daehan Synthetic Fiber"
+   ],
+   "krx_industry": "화학섬유 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "화학섬유 원사 제조 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.daehansf.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001465",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113544",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "패션·의류",
+     "tier": 1,
+     "stage": "합성섬유",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "패션·의류",
+       "page": "패션·의류",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "화학섬유 원사 제조 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.daehansf.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001465",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113544",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대현",
+   "type": "company",
+   "path": "companies/대현",
+   "summary": "여성의류와 패션 잡화를 제조·유통하는 패션 기업",
+   "market": "KOSPI",
+   "ticker": "016090",
+   "dart_corp_code": "00113614",
+   "aliases": [
+    "Daehyun"
+   ],
+   "krx_industry": "봉제의복 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "여성의류와 패션 잡화 제조·유통 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.daehyun.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001075",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113614",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "패션·의류",
+     "tier": 1,
+     "stage": "여성의류·패션 잡화",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "패션·의류",
+       "page": "패션·의류",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "여성의류와 패션 잡화 제조·유통 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.daehyun.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001075",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113614",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대호에이엘",
+   "type": "company",
+   "path": "companies/대호에이엘",
+   "summary": "알루미늄 코일·판재·환절판을 생산하는 비철금속 소재 기업",
+   "market": "KOSPI",
+   "ticker": "069460",
+   "dart_corp_code": "00428729",
+   "aliases": [
+    "Daeho AL"
+   ],
+   "krx_industry": "1차 비철금속 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "알루미늄 코일·판재·환절판 제조 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://daeho-al.com/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324000005",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00428729",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "비철금속 가공",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "알루미늄 코일·판재·환절판 제조 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://daeho-al.com/",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324000005",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00428729",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -74935,12 +75137,13 @@
      "page": "항공·물류",
      "classification": "공시·거래소 확인",
      "status": "확인",
-     "date": "2026-10-09",
-     "text": "항공 여객 및 화물 운송. (자료 기준일: 2026-10-09)",
+     "date": "2026-10-19",
+     "text": "항공 여객 및 화물 운송.",
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
-      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001125"
      ],
      "malformed": ""
     }
@@ -74965,12 +75168,112 @@
      "page": "조선·해운",
      "classification": "공식 발표 확인",
      "status": "확인",
-     "date": "2026-10-17",
+     "date": "2026-10-19",
      "text": "회사는 공식 자료에서 전용선·부정기선·탱커선·자동차선 사업을 운영하는 에너지·자원 전문 수송선사라고 설명한다.",
      "evidence_level": "공식 발표",
      "weak": false,
      "sources": [
       "https://www.korealines.co.kr/default/company/company.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001138"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대한화섬",
+   "target": "패션·의류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "합성섬유",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "화학섬유 원사 제조 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.daehansf.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001465",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113544",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대현",
+   "target": "패션·의류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "여성의류·패션 잡화",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "여성의류와 패션 잡화 제조·유통 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.daehyun.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001075",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113614",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대호에이엘",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "비철금속 가공",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "알루미늄 코일·판재·환절판 제조 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://daeho-al.com/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324000005",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00428729",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
