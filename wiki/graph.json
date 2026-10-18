@@ -138,7 +138,8 @@
     "농기계·스마트온실 연구",
     "스마트팜 온실 설계·시공",
     "작물 보호제",
-    "농기계"
+    "농기계",
+    "종자·농자재"
    ]
   },
   {
@@ -14449,6 +14450,301 @@
    "issues": []
   },
   {
+   "id": "NHN",
+   "type": "company",
+   "path": "companies/NHN",
+   "summary": "온라인·모바일 게임과 클라우드·기술 서비스를 운영하는 코스피 상장 IT 기업",
+   "market": "KOSPI",
+   "ticker": "181710",
+   "dart_corp_code": "",
+   "aliases": [
+    "엔에이치엔",
+    "NHN Corporation"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "온라인·모바일 게임을 핵심 사업으로 운영한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nhn.com/company?tab=about",
+      "https://inside.nhn.com/news"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "NHN Cloud의 클라우드 인프라와 AI·기술 서비스를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nhn.com/services?tab=technology",
+      "https://inside.nhn.com/news"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "AI·클라우드",
+     "tier": 1,
+     "stage": "AI·클라우드 구축·운영",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "AI·클라우드",
+       "page": "AI·클라우드",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "NHN Cloud의 클라우드 인프라와 AI·기술 서비스를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nhn.com/services?tab=technology",
+        "https://inside.nhn.com/news"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "게임",
+     "tier": 1,
+     "stage": "온라인·모바일 게임",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "게임",
+       "page": "게임",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "온라인·모바일 게임을 핵심 사업으로 운영한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nhn.com/company?tab=about",
+        "https://inside.nhn.com/news"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "NHN벅스",
+   "type": "company",
+   "path": "companies/NHN벅스",
+   "summary": "음악 스트리밍·큐레이션과 디지털 음원 유통·투자를 운영하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "104200",
+   "dart_corp_code": "",
+   "aliases": [
+    "NHN Bugs",
+    "벅스"
+   ],
+   "krx_industry": "기타 정보 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "음악 스트리밍·큐레이션과 디지털 음원 유통·투자 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.bugscorp.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "음악 콘텐츠",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "음악 스트리밍·큐레이션과 디지털 음원 유통·투자 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.bugscorp.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "NH농우바이오",
+   "type": "company",
+   "path": "companies/NH농우바이오",
+   "summary": "채소 종자와 농자재를 연구·생산·판매하는 코스닥 상장 농업생명기업",
+   "market": "KOSDAQ",
+   "ticker": "054050",
+   "dart_corp_code": "00176835",
+   "aliases": [
+    "농우바이오",
+    "NH NongWoo Bio"
+   ],
+   "krx_industry": "작물 재배업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "농업·스마트팜",
+     "page": "농업·스마트팜",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "채소 종자 육종·생산·판매와 농자재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nhnongwoobio.co.kr/",
+      "https://nongwoobio.recruiter.co.kr/appsite/company/callSubPage?code1=3000&code2=3100&code3=3110"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "농업·스마트팜",
+     "tier": 1,
+     "stage": "종자·농자재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "농업·스마트팜",
+       "page": "농업·스마트팜",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "채소 종자 육종·생산·판매와 농자재 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nhnongwoobio.co.kr/",
+        "https://nongwoobio.recruiter.co.kr/appsite/company/callSubPage?code1=3000&code2=3100&code3=3110"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "NH올원리츠",
+   "type": "company",
+   "path": "companies/NH올원리츠",
+   "summary": "상업용 부동산 자산에 투자·운용하는 코스피 상장 리츠",
+   "market": "KOSPI",
+   "ticker": "400760",
+   "dart_corp_code": "",
+   "aliases": [
+    "NH All-One REIT",
+    "엔에이치올원위탁관리부동산투자회사"
+   ],
+   "krx_industry": "부동산 임대 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "부동산·리츠",
+     "page": "부동산·리츠",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "상업용 부동산 투자 플랫폼과 리츠 운용 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nhallonereit.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "부동산·리츠",
+     "tier": 1,
+     "stage": "오피스 리츠",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "부동산·리츠",
+       "page": "부동산·리츠",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "상업용 부동산 투자 플랫폼과 리츠 운용 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nhallonereit.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "NH투자증권",
    "type": "company",
    "path": "companies/NH투자증권",
@@ -14492,6 +14788,69 @@
        "evidence_level": "거래소 자료",
        "weak": false,
        "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "NH프라임리츠",
+   "type": "company",
+   "path": "companies/NH프라임리츠",
+   "summary": "오피스 등 상업용 부동산에 투자·운용하는 코스피 상장 리츠",
+   "market": "KOSPI",
+   "ticker": "338100",
+   "dart_corp_code": "01391033",
+   "aliases": [
+    "NH Prime REIT",
+    "엔에이치프라임위탁관리부동산투자회사"
+   ],
+   "krx_industry": "부동산 임대 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "부동산·리츠",
+     "page": "부동산·리츠",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "부동산 임대·공급업 분류와 리츠 운용 역할을 확인했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01391033",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "부동산·리츠",
+     "tier": 1,
+     "stage": "오피스 리츠",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "부동산·리츠",
+       "page": "부동산·리츠",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "부동산 임대·공급업 분류와 리츠 운용 역할을 확인했다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01391033",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -42608,6 +42967,68 @@
    }
   },
   {
+   "source": "NHN",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 1,
+   "stage": "AI·클라우드 구축·운영",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "NHN Cloud의 클라우드 인프라와 AI·기술 서비스를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nhn.com/services?tab=technology",
+      "https://inside.nhn.com/news"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "NHN",
+   "target": "게임",
+   "type": "테마",
+   "tier": 1,
+   "stage": "온라인·모바일 게임",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "온라인·모바일 게임을 핵심 사업으로 운영한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nhn.com/company?tab=about",
+      "https://inside.nhn.com/news"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "NHN KCP",
    "target": "핀테크·전자결제",
    "type": "테마",
@@ -42638,6 +43059,99 @@
    }
   },
   {
+   "source": "NHN벅스",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "음악 콘텐츠",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "음악 스트리밍·큐레이션과 디지털 음원 유통·투자 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.bugscorp.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "NH농우바이오",
+   "target": "농업·스마트팜",
+   "type": "테마",
+   "tier": 1,
+   "stage": "종자·농자재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "농업·스마트팜",
+     "page": "농업·스마트팜",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "채소 종자 육종·생산·판매와 농자재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nhnongwoobio.co.kr/",
+      "https://nongwoobio.recruiter.co.kr/appsite/company/callSubPage?code1=3000&code2=3100&code3=3110"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "NH올원리츠",
+   "target": "부동산·리츠",
+   "type": "테마",
+   "tier": 1,
+   "stage": "오피스 리츠",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "부동산·리츠",
+     "page": "부동산·리츠",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "상업용 부동산 투자 플랫폼과 리츠 운용 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nhallonereit.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "NH투자증권",
    "target": "증권·자산운용",
    "type": "테마",
@@ -42656,6 +43170,37 @@
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "NH프라임리츠",
+   "target": "부동산·리츠",
+   "type": "테마",
+   "tier": 1,
+   "stage": "오피스 리츠",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "부동산·리츠",
+     "page": "부동산·리츠",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "부동산 임대·공급업 분류와 리츠 운용 역할을 확인했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01391033",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
