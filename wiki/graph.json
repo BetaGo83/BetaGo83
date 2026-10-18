@@ -180,7 +180,8 @@
     "바이오의약품 제품",
     "의약품",
     "바이오의약품 원료",
-    "항암백신"
+    "항암백신",
+    "비임상 CRO·연구개발"
    ]
   },
   {
@@ -6922,6 +6923,73 @@
         "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318006359",
         "https://kind.krx.co.kr/external/2026/03/18/001371/20260318006359/11011.htm",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "HLB바이오스텝",
+   "type": "company",
+   "path": "companies/HLB바이오스텝",
+   "summary": "비임상 CRO와 동물의약품 사업을 운영하는 코스닥 연구개발 기업",
+   "market": "KOSDAQ",
+   "ticker": "278650",
+   "dart_corp_code": "01189438",
+   "aliases": [
+    "HLB bioStep",
+    "에이치엘비바이오스텝",
+    "HLB바이오스텝(주)",
+    "KNOTUS"
+   ],
+   "krx_industry": "자연과학 및 공학 연구개발업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB바이오스텝의 코스닥 상장·업종과 비임상 CRO, 실험실 구축·기자재 납품, 동물의약품 사업 역할을 DART 사업보고서·KIND·회사 공식 홈페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001696",
+      "http://hlbbiostep.com/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "비임상 CRO·연구개발",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "HLB바이오스텝의 코스닥 상장·업종과 비임상 CRO, 실험실 구축·기자재 납품, 동물의약품 사업 역할을 DART 사업보고서·KIND·회사 공식 홈페이지에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001696",
+        "http://hlbbiostep.com/"
        ],
        "malformed": ""
       }
@@ -33194,6 +33262,38 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318006359",
       "https://kind.krx.co.kr/external/2026/03/18/001371/20260318006359/11011.htm",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HLB바이오스텝",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "비임상 CRO·연구개발",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB바이오스텝의 코스닥 상장·업종과 비임상 CRO, 실험실 구축·기자재 납품, 동물의약품 사업 역할을 DART 사업보고서·KIND·회사 공식 홈페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001696",
+      "http://hlbbiostep.com/"
      ],
      "malformed": ""
     }
