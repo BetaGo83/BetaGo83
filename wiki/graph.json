@@ -8572,6 +8572,71 @@
    "issues": []
   },
   {
+   "id": "JB금융지주",
+   "type": "company",
+   "path": "companies/JB금융지주",
+   "summary": "은행·캐피탈·자산운용·증권 계열사를 보유한 종합금융그룹 금융지주회사",
+   "market": "KOSPI",
+   "ticker": "175330",
+   "dart_corp_code": "",
+   "aliases": [
+    "JB금융그룹",
+    "JB Financial Group"
+   ],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "은행",
+     "page": "은행",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "JB금융그룹 공식 그룹소개는 종합금융그룹으로서 은행·캐피탈·자산운용 등 금융 계열사와 금융서비스를 안내하며, 사업보고서는 금융지주회사와 은행업 자회사를 명시한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.jbfg.com/ko/about/group.do",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001225&dcmNo=11141040&eleId=10&offset=222504&length=2129&dtd=dart4.xsd",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "은행",
+     "tier": 1,
+     "stage": "은행·금융서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "은행",
+       "page": "은행",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "JB금융그룹 공식 그룹소개는 종합금융그룹으로서 은행·캐피탈·자산운용 등 금융 계열사와 금융서비스를 안내하며, 사업보고서는 금융지주회사와 은행업 자회사를 명시한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.jbfg.com/ko/about/group.do",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001225&dcmNo=11141040&eleId=10&offset=222504&length=2129&dtd=dart4.xsd",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "JYP Ent.",
    "type": "company",
    "path": "companies/JYP Ent.",
@@ -35243,6 +35308,38 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "JB금융지주",
+   "target": "은행",
+   "type": "테마",
+   "tier": 1,
+   "stage": "은행·금융서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "은행",
+     "page": "은행",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "JB금융그룹 공식 그룹소개는 종합금융그룹으로서 은행·캐피탈·자산운용 등 금융 계열사와 금융서비스를 안내하며, 사업보고서는 금융지주회사와 은행업 자회사를 명시한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.jbfg.com/ko/about/group.do",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001225&dcmNo=11141040&eleId=10&offset=222504&length=2129&dtd=dart4.xsd",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
