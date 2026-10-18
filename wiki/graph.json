@@ -313,7 +313,8 @@
     "위성 시스템·지상국",
     "위성통신 안테나",
     "위성통신 단말기",
-    "위성 개발"
+    "위성 개발",
+    "우주용 광학 부품"
    ]
   },
   {
@@ -24442,6 +24443,366 @@
         "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000475",
         "https://www.gridwiz.com/data/bbsData/17593020681.pdf",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "그리티",
+   "type": "company",
+   "path": "companies/그리티",
+   "summary": "언더웨어와 애슬레저 브랜드를 기획·판매하는 패션 기업",
+   "market": "KOSDAQ",
+   "ticker": "204020",
+   "dart_corp_code": "",
+   "aliases": [
+    "GRITEE"
+   ],
+   "krx_industry": "봉제의복 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "언더웨어·애슬레저 브랜드 제품을 기획·판매하는 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://gritee.com/",
+      "https://www.paxnet.co.kr/WWW/data/researchCenter/attach/20210318151041043.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "패션·의류",
+     "tier": 1,
+     "stage": "패션 브랜드 제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "패션·의류",
+       "page": "패션·의류",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "언더웨어·애슬레저 브랜드 제품을 기획·판매하는 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://gritee.com/",
+        "https://www.paxnet.co.kr/WWW/data/researchCenter/attach/20210318151041043.pdf",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "그린광학",
+   "type": "company",
+   "path": "companies/그린광학",
+   "summary": "방산·우주·반도체·디스플레이용 초정밀 광학 부품과 시스템을 개발·생산하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "0015G0",
+   "dart_corp_code": "",
+   "aliases": [
+    "GREEN OPTICS"
+   ],
+   "krx_industry": "사진장비 및 광학기기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "방산",
+     "page": "방산",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "방산용 광학 코팅과 정밀 광학 부품·시스템 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.greenopt.com/kr/sub/technology/coating.php",
+      "https://www.greenopt.com/kr/sub/community/promotion.php?bid=3&idx=120&mode=view&page=1",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "우주·위성",
+     "page": "우주·위성",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "위성 광학 탑재체용 경량·고강도 광학 부품과 우주용 광학계 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.greenopt.com/kr/sub/business/space.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "방산",
+     "tier": 1,
+     "stage": "센서·부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "방산",
+       "page": "방산",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "방산용 광학 코팅과 정밀 광학 부품·시스템 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.greenopt.com/kr/sub/technology/coating.php",
+        "https://www.greenopt.com/kr/sub/community/promotion.php?bid=3&idx=120&mode=view&page=1",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "우주·위성",
+     "tier": 1,
+     "stage": "우주용 광학 부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "우주·위성",
+       "page": "우주·위성",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "위성 광학 탑재체용 경량·고강도 광학 부품과 우주용 광학계 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.greenopt.com/kr/sub/business/space.php",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "그린리소스",
+   "type": "company",
+   "path": "companies/그린리소스",
+   "summary": "반도체·디스플레이 공정 부품용 코팅 소재와 초고밀도 코팅을 제공하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "402490",
+   "dart_corp_code": "",
+   "aliases": [
+    "GREEN RESOURCE"
+   ],
+   "krx_industry": "반도체 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "반도체·디스플레이 공정 장비 부품용 용사·초고밀도 코팅 소재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/dst/irReference/17904/%EA%B7%B8%EB%A6%B0%EB%A6%AC%EC%86%8C%EC%8A%A4_IR%20251216%20%28최종%29.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "반도체 공정 소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "반도체·디스플레이 공정 장비 부품용 용사·초고밀도 코팅 소재 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/dst/irReference/17904/%EA%B7%B8%EB%A6%B0%EB%A6%AC%EC%86%8C%EC%8A%A4_IR%20251216%20%28최종%29.pdf",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "그린생명과학",
+   "type": "company",
+   "path": "companies/그린생명과학",
+   "summary": "원료의약품·의약품 중간체와 전자재료·작물보호제 등 정밀화학 소재를 생산하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "114450",
+   "dart_corp_code": "",
+   "aliases": [
+    "GREEN LIFESCIENCE",
+    "KPX생명과학"
+   ],
+   "krx_industry": "기초 의약물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "원료의약품·의약품 중간체와 전자재료·작물보호제 등 정밀화학 소재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/03/19/001786/20260319007367/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "기초·첨단화학소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "원료의약품·의약품 중간체와 전자재료·작물보호제 등 정밀화학 소재 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2026/03/19/001786/20260319007367/11011.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "그린케미칼",
+   "type": "company",
+   "path": "companies/그린케미칼",
+   "summary": "EO 계열 기능성 화학제품과 아크릴레이트 모노머를 생산하는 정밀화학 기업",
+   "market": "KOSPI",
+   "ticker": "083420",
+   "dart_corp_code": "",
+   "aliases": [
+    "GREEN CHEMICAL"
+   ],
+   "krx_industry": "기타 화학제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "EO 계열 기능성 화학제품과 아크릴레이트 모노머 등 정밀화학 제품 생산을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00454946",
+      "https://www.k5.co.kr/stock/083420",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "기초·첨단화학소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "EO 계열 기능성 화학제품과 아크릴레이트 모노머 등 정밀화학 제품 생산을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00454946",
+        "https://www.k5.co.kr/stock/083420",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
       }
@@ -55918,6 +56279,195 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000475",
       "https://www.gridwiz.com/data/bbsData/17593020681.pdf",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "그리티",
+   "target": "패션·의류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "패션 브랜드 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "언더웨어·애슬레저 브랜드 제품을 기획·판매하는 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://gritee.com/",
+      "https://www.paxnet.co.kr/WWW/data/researchCenter/attach/20210318151041043.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "그린광학",
+   "target": "방산",
+   "type": "테마",
+   "tier": 1,
+   "stage": "센서·부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "방산",
+     "page": "방산",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "방산용 광학 코팅과 정밀 광학 부품·시스템 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.greenopt.com/kr/sub/technology/coating.php",
+      "https://www.greenopt.com/kr/sub/community/promotion.php?bid=3&idx=120&mode=view&page=1",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "그린광학",
+   "target": "우주·위성",
+   "type": "테마",
+   "tier": 1,
+   "stage": "우주용 광학 부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "우주·위성",
+     "page": "우주·위성",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "위성 광학 탑재체용 경량·고강도 광학 부품과 우주용 광학계 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.greenopt.com/kr/sub/business/space.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "그린리소스",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "반도체 공정 소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "반도체·디스플레이 공정 장비 부품용 용사·초고밀도 코팅 소재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/dst/irReference/17904/%EA%B7%B8%EB%A6%B0%EB%A6%AC%EC%86%8C%EC%8A%A4_IR%20251216%20%28최종%29.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "그린생명과학",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기초·첨단화학소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "원료의약품·의약품 중간체와 전자재료·작물보호제 등 정밀화학 소재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/03/19/001786/20260319007367/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "그린케미칼",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기초·첨단화학소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "EO 계열 기능성 화학제품과 아크릴레이트 모노머 등 정밀화학 제품 생산을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00454946",
+      "https://www.k5.co.kr/stock/083420",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
