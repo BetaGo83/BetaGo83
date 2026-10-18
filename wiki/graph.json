@@ -10947,6 +10947,71 @@
    "issues": []
   },
   {
+   "id": "KTis",
+   "type": "company",
+   "path": "companies/KTis",
+   "summary": "KT 고객센터·컨택센터·114 번호안내와 통신상품 유통, AICC를 운영하는 고객서비스 전문 기업",
+   "market": "KOSPI",
+   "ticker": "058860",
+   "dart_corp_code": "00372873",
+   "aliases": [
+    "케이티아이에스",
+    "kt is"
+   ],
+   "krx_industry": "기타 정보 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "KT 고객센터·컨택센터·114번호안내, 통신상품 유통과 AICC 사업을 DART 반기보고서와 회사 공식 사업 페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20261001000352&dcmNo=11599088&eleId=11&offset=145478&length=43909&dtd=dart4.xsd&displayImage=show",
+      "https://www.ktis.co.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "통신·네트워크",
+     "tier": 1,
+     "stage": "유무선 통신·네트워크",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "통신·네트워크",
+       "page": "통신·네트워크",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "KT 고객센터·컨택센터·114번호안내, 통신상품 유통과 AICC 사업을 DART 반기보고서와 회사 공식 사업 페이지에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20261001000352&dcmNo=11599088&eleId=11&offset=145478&length=43909&dtd=dart4.xsd&displayImage=show",
+        "https://www.ktis.co.kr/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "LB세미콘",
    "type": "company",
    "path": "companies/LB세미콘",
@@ -38707,6 +38772,38 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814002397&dcmNo=11533152&eleId=9&offset=130099&length=59897&dtd=dart4.xsd&displayImage=show",
       "https://www.ktcs.co.kr/main.do"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KTis",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 1,
+   "stage": "유무선 통신·네트워크",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "KT 고객센터·컨택센터·114번호안내, 통신상품 유통과 AICC 사업을 DART 반기보고서와 회사 공식 사업 페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20261001000352&dcmNo=11599088&eleId=11&offset=145478&length=43909&dtd=dart4.xsd&displayImage=show",
+      "https://www.ktis.co.kr/"
      ],
      "malformed": ""
     }
