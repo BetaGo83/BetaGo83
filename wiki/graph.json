@@ -600,7 +600,8 @@
     "여성의류·패션 잡화",
     "합성섬유",
     "스포츠용품·가방",
-    "의류 ODM·OEM"
+    "의류 ODM·OEM",
+    "면사·면직물"
    ]
   },
   {
@@ -37107,6 +37108,336 @@
         "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000642",
         "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00608316",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대한광통신",
+   "type": "company",
+   "path": "companies/대한광통신",
+   "summary": "광섬유와 광케이블을 생산하는 통신·전력 네트워크 소재 기업",
+   "market": "KOSDAQ",
+   "ticker": "010170",
+   "dart_corp_code": "00113261",
+   "aliases": [
+    "Taihan Fiberoptics"
+   ],
+   "krx_industry": "절연선 및 케이블 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "광섬유·광케이블 제조 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.taihanfiber.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000854",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113261",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "통신·네트워크",
+     "tier": 1,
+     "stage": "통신케이블",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "통신·네트워크",
+       "page": "통신·네트워크",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "광섬유·광케이블 제조 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.taihanfiber.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000854",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113261",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대한뉴팜",
+   "type": "company",
+   "path": "companies/대한뉴팜",
+   "summary": "인체·동물·바이오 의약품과 건강기능식품을 개발·제조하는 제약 기업",
+   "market": "KOSDAQ",
+   "ticker": "054670",
+   "dart_corp_code": "00207375",
+   "aliases": [
+    "Daehan New Pharm"
+   ],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "인체·동물·바이오 의약품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dhnp.co.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001685",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00207375",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "인체·동물·바이오 의약품 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dhnp.co.kr/",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001685",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00207375",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대한방직",
+   "type": "company",
+   "path": "companies/대한방직",
+   "summary": "면사·화섬사와 면직물을 제조·판매하는 섬유 기업",
+   "market": "KOSPI",
+   "ticker": "001070",
+   "dart_corp_code": "00112970",
+   "aliases": [
+    "Daehan Textile"
+   ],
+   "krx_industry": "직물직조 및 직물제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "면사·화섬사와 면직물 제조·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.thtc.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001239",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00112970",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "패션·의류",
+     "tier": 1,
+     "stage": "면사·면직물",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "패션·의류",
+       "page": "패션·의류",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "면사·화섬사와 면직물 제조·판매 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.thtc.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001239",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00112970",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대한약품",
+   "type": "company",
+   "path": "companies/대한약품",
+   "summary": "기초수액과 영양수액 등 의약품을 제조하는 제약 기업",
+   "market": "KOSDAQ",
+   "ticker": "023910",
+   "dart_corp_code": "00113128",
+   "aliases": [
+    "Daihan Pharmaceutical"
+   ],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "기초수액·영양수액 등 의약품 제조·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daihan.com/main/main.php",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001361",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113128",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "기초수액·영양수액 등 의약품 제조·판매 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.daihan.com/main/main.php",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001361",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113128",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대한유화",
+   "type": "company",
+   "path": "companies/대한유화",
+   "summary": "나프타 분해를 바탕으로 폴리프로필렌·고밀도폴리에틸렌 등 석유화학 제품을 생산하는 기업",
+   "market": "KOSPI",
+   "ticker": "006650",
+   "dart_corp_code": "00260383",
+   "aliases": [
+    "Korea Petrochemical Ind. Co."
+   ],
+   "krx_industry": "기초 화학물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "나프타 분해와 폴리머·올레핀 등 석유화학 제품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.kpic.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260305001191",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00260383",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "기초 석유화학",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "나프타 분해와 폴리머·올레핀 등 석유화학 제품 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.kpic.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260305001191",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00260383",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
       }
@@ -73994,6 +74325,171 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000642",
       "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00608316",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대한광통신",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 1,
+   "stage": "통신케이블",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "광섬유·광케이블 제조 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.taihanfiber.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000854",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113261",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대한뉴팜",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "인체·동물·바이오 의약품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dhnp.co.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001685",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00207375",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대한방직",
+   "target": "패션·의류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "면사·면직물",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "면사·화섬사와 면직물 제조·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.thtc.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001239",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00112970",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대한약품",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "기초수액·영양수액 등 의약품 제조·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daihan.com/main/main.php",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001361",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113128",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대한유화",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기초 석유화학",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "나프타 분해와 폴리머·올레핀 등 석유화학 제품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.kpic.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260305001191",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00260383",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
