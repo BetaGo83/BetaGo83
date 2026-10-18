@@ -9733,6 +9733,75 @@
    "issues": []
   },
   {
+   "id": "KD",
+   "type": "company",
+   "path": "companies/KD",
+   "summary": "주택·건설과 부동산개발·분양을 수행하는 건설 기업",
+   "market": "KOSDAQ",
+   "ticker": "044180",
+   "dart_corp_code": "00111218",
+   "aliases": [
+    "KD Corporation",
+    "KD(주)"
+   ],
+   "krx_industry": "건물 건설업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "KD의 주택·건설·부동산개발·분양 사업을 사업보고서와 회사 공식 사업소개에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260601000703",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260601000703&dcmNo=11411831&eleId=12&offset=188790&length=14084&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260601000703&dcmNo=11411831&eleId=13&offset=202878&length=4958&dtd=dart4.xsd",
+      "https://kdcon.co.kr/sub02/sub01.php"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "주택·건축·토목",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "KD의 주택·건설·부동산개발·분양 사업을 사업보고서와 회사 공식 사업소개에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260601000703",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260601000703&dcmNo=11411831&eleId=12&offset=188790&length=14084&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260601000703&dcmNo=11411831&eleId=13&offset=202878&length=4958&dtd=dart4.xsd",
+        "https://kdcon.co.kr/sub02/sub01.php"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "KG이니시스",
    "type": "company",
    "path": "companies/KG이니시스",
@@ -36925,6 +36994,40 @@
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260423000742&dcmNo=11344113&eleId=12&offset=610946&length=1030&dtd=dart4.xsd",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260423000742&dcmNo=11344113&eleId=13&offset=611980&length=5271&dtd=dart4.xsd",
       "http://www.kc-cottrell.com/kc/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KD",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "주택·건축·토목",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "KD의 주택·건설·부동산개발·분양 사업을 사업보고서와 회사 공식 사업소개에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260601000703",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260601000703&dcmNo=11411831&eleId=12&offset=188790&length=14084&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260601000703&dcmNo=11411831&eleId=13&offset=202878&length=4958&dtd=dart4.xsd",
+      "https://kdcon.co.kr/sub02/sub01.php"
      ],
      "malformed": ""
     }
