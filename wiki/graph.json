@@ -32816,6 +32816,325 @@
    "issues": []
   },
   {
+   "id": "니어스랩",
+   "type": "company",
+   "path": "companies/니어스랩",
+   "summary": "자율비행 드론과 Aerial Intelligence 피지컬 AI 솔루션을 개발하는 소프트웨어 기업",
+   "market": "KOSDAQ",
+   "ticker": "417030",
+   "dart_corp_code": "01588897",
+   "aliases": [
+    "Nearthlab"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자율비행 드론과 Aerial Intelligence 소프트웨어 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nearthlab.com/kr",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01588897",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "AI·클라우드",
+     "tier": 1,
+     "stage": "AI 모델·서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "AI·클라우드",
+       "page": "AI·클라우드",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "자율비행 드론과 Aerial Intelligence 소프트웨어 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nearthlab.com/kr",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01588897",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "다날",
+   "type": "company",
+   "path": "companies/다날",
+   "summary": "휴대폰결제와 통합 전자결제 플랫폼을 운영하는 핀테크 기업",
+   "market": "KOSDAQ",
+   "ticker": "064260",
+   "dart_corp_code": "00389970",
+   "aliases": [
+    "DANAL",
+    "Danalpay"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "핀테크·전자결제",
+     "page": "핀테크·전자결제",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "휴대폰결제·신용카드·간편결제 등 전자결제 서비스를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.danal.co.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00389970",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "핀테크·전자결제",
+     "tier": 1,
+     "stage": "휴대폰결제",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "핀테크·전자결제",
+       "page": "핀테크·전자결제",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "휴대폰결제·신용카드·간편결제 등 전자결제 서비스를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.danal.co.kr/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00389970",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "다보링크",
+   "type": "company",
+   "path": "companies/다보링크",
+   "summary": "Wi-Fi AP와 유무선 네트워크 장비를 개발·공급하는 통신장비 기업",
+   "market": "KOSDAQ",
+   "ticker": "340360",
+   "dart_corp_code": "01416642",
+   "aliases": [
+    "DAVOLINK"
+   ],
+   "krx_industry": "통신 및 방송 장비 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "Wi-Fi AP와 유무선 네트워크 장비 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.davolink.co.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01416642",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "통신·네트워크",
+     "tier": 1,
+     "stage": "이동통신망 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "통신·네트워크",
+       "page": "통신·네트워크",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "Wi-Fi AP와 유무선 네트워크 장비 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.davolink.co.kr/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01416642",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "다산네트웍스",
+   "type": "company",
+   "path": "companies/다산네트웍스",
+   "summary": "초고속 인터넷·이더넷 스위치·FTTx 네트워크 솔루션을 공급하는 통신장비 기업",
+   "market": "KOSDAQ",
+   "ticker": "039560",
+   "dart_corp_code": "00268251",
+   "aliases": [
+    "DASAN Networks"
+   ],
+   "krx_industry": "통신 및 방송 장비 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "초고속 인터넷·이더넷 스위치·FTTx 네트워크 장비와 솔루션 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dasannetworks.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00268251",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "통신·네트워크",
+     "tier": 1,
+     "stage": "이동통신망 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "통신·네트워크",
+       "page": "통신·네트워크",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "초고속 인터넷·이더넷 스위치·FTTx 네트워크 장비와 솔루션 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dasannetworks.com/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00268251",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "다산디엠씨",
+   "type": "company",
+   "path": "companies/다산디엠씨",
+   "summary": "커넥티드카 소프트웨어와 전자제어장치·자동차 부품을 함께 공급하는 모빌리티 기업",
+   "market": "KOSDAQ",
+   "ticker": "208860",
+   "dart_corp_code": "01084364",
+   "aliases": [
+    "DASAN DMC",
+    "EnGIS Technologies",
+    "엔지스테크널러지"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스 · 자동차·부품",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "커넥티드카 소프트웨어와 자동차 부품 제조·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.engistech.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01084364",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://kind.krx.co.kr/external/2026/03/12/001881/20260312004349/00660.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "소프트웨어·IT서비스",
+     "tier": 1,
+     "stage": "차량 소프트웨어·IT서비스",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "부품·모듈",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "달바글로벌",
    "type": "company",
    "path": "companies/달바글로벌",
@@ -68015,6 +68334,164 @@
      "malformed": ""
     }
    ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "니어스랩",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 1,
+   "stage": "AI 모델·서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자율비행 드론과 Aerial Intelligence 소프트웨어 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nearthlab.com/kr",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01588897",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "다날",
+   "target": "핀테크·전자결제",
+   "type": "테마",
+   "tier": 1,
+   "stage": "휴대폰결제",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "핀테크·전자결제",
+     "page": "핀테크·전자결제",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "휴대폰결제·신용카드·간편결제 등 전자결제 서비스를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.danal.co.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00389970",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "다보링크",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 1,
+   "stage": "이동통신망 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "Wi-Fi AP와 유무선 네트워크 장비 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.davolink.co.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01416642",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "다산네트웍스",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 1,
+   "stage": "이동통신망 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "초고속 인터넷·이더넷 스위치·FTTx 네트워크 장비와 솔루션 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dasannetworks.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00268251",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "다산디엠씨",
+   "target": "소프트웨어·IT서비스",
+   "type": "테마",
+   "tier": 1,
+   "stage": "차량 소프트웨어·IT서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "다산디엠씨",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "부품·모듈",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
    "presentation": {
     "label": "",
     "muted": false,
