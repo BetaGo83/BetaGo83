@@ -20218,6 +20218,72 @@
    "issues": []
   },
   {
+   "id": "TS트릴리온",
+   "type": "company",
+   "path": "companies/TS트릴리온",
+   "summary": "탈모·두피·모발 케어를 중심으로 생활용품과 뷰티 제품을 전개하는 코스닥 기업",
+   "market": "KOSDAQ",
+   "ticker": "317240",
+   "dart_corp_code": "01353024",
+   "aliases": [
+    "TS Trillion",
+    "TS",
+    "티에스트릴리온"
+   ],
+   "krx_industry": "기타 화학제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 사이트에서 탈모·두피·모발 케어와 덴탈·뷰티·염색약·생활용품 제품군을 확인했다. 거래소 목록의 주요제품 표기와 현재 제품 사이트의 설명이 다르다는 점을 함께 기록한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://tstrillion.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01353024"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화장품·미용",
+     "tier": 1,
+     "stage": "화장품·생활용품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화장품·미용",
+       "page": "화장품·미용",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "공식 사이트에서 탈모·두피·모발 케어와 덴탈·뷰티·염색약·생활용품 제품군을 확인했다. 거래소 목록의 주요제품 표기와 현재 제품 사이트의 설명이 다르다는 점을 함께 기록한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://tstrillion.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01353024"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "TYM",
    "type": "company",
    "path": "companies/TYM",
@@ -20262,6 +20328,331 @@
        "weak": false,
        "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "WISCOM",
+   "type": "company",
+   "path": "companies/WISCOM",
+   "summary": "전선·자동차·기기용 PVC 컴파운드를 생산하고 ABS 등 화학제품을 임가공하는 코스피 기업",
+   "market": "KOSPI",
+   "ticker": "024070",
+   "dart_corp_code": "00142865",
+   "aliases": [
+    "위스컴",
+    "Wiscom"
+   ],
+   "krx_industry": "플라스틱제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "PVC Compound 생산·판매와 ABS·EP 위탁 임가공 사업을 사업보고서와 거래소 목록에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2025/03/20/000759/20250320003367/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00142865"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "기초·첨단화학소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "PVC Compound 생산·판매와 ABS·EP 위탁 임가공 사업을 사업보고서와 거래소 목록에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2025/03/20/000759/20250320003367/11011.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00142865"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "YBM넷",
+   "type": "company",
+   "path": "companies/YBM넷",
+   "summary": "외국어 온라인 강의와 기업·대학·초중등 교육 서비스를 운영하는 코스닥 에듀테크 기업",
+   "market": "KOSDAQ",
+   "ticker": "057030",
+   "dart_corp_code": "00307222",
+   "aliases": [
+    "YBM Net",
+    "YBMNET",
+    "와이비엠넷"
+   ],
+   "krx_industry": "교육지원 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "교육·출판",
+     "page": "교육·출판",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "에듀테크 서비스와 온라인·기업·대학·초중등 교육 플랫폼을 공식 사이트에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://company.ybmnet.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00307222"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "교육·출판",
+     "tier": 1,
+     "stage": "교육 콘텐츠·플랫폼",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "교육·출판",
+       "page": "교육·출판",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "에듀테크 서비스와 온라인·기업·대학·초중등 교육 플랫폼을 공식 사이트에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://company.ybmnet.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00307222"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "YG PLUS",
+   "type": "company",
+   "path": "companies/YG PLUS",
+   "summary": "아티스트 IP를 바탕으로 음악 투자·유통, 음악 플랫폼, MD와 음반 제조를 전개하는 코스피 콘텐츠 기업",
+   "market": "KOSPI",
+   "ticker": "037270",
+   "dart_corp_code": "00249247",
+   "aliases": [
+    "YG플러스"
+   ],
+   "krx_industry": "자료처리, 호스팅, 포털 및 기타 인터넷 정보매개 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "아티스트 IP를 기반으로 음악 투자·유통, 플랫폼, MD와 음반 제조 사업을 공식 사이트에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.ygplus.com/business/music",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00249247"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "음악 콘텐츠",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "아티스트 IP를 기반으로 음악 투자·유통, 플랫폼, MD와 음반 제조 사업을 공식 사이트에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.ygplus.com/business/music",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00249247"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "YTN",
+   "type": "company",
+   "path": "companies/YTN",
+   "summary": "24시간 뉴스채널과 TV·라디오·디지털 뉴스 콘텐츠를 운영하는 코스닥 미디어 기업",
+   "market": "KOSDAQ",
+   "ticker": "040300",
+   "dart_corp_code": "00200275",
+   "aliases": [
+    "와이티엔"
+   ],
+   "krx_industry": "영화, 비디오물, 방송프로그램 제작 및 배급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "24시간 뉴스채널과 TV·라디오·디지털 뉴스, 광고·동영상 뉴스·프로그램 공급 사업을 공식 사이트에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.ytn.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00200275"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "영화관·미디어",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "24시간 뉴스채널과 TV·라디오·디지털 뉴스, 광고·동영상 뉴스·프로그램 공급 사업을 공식 사이트에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.ytn.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00200275"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "YW",
+   "type": "company",
+   "path": "companies/YW",
+   "summary": "공작기계·산업장비·첨단로봇과 의료·사무기기를 기업에 렌탈·판매하는 코스닥 기업",
+   "market": "KOSDAQ",
+   "ticker": "051390",
+   "dart_corp_code": "00296263",
+   "aliases": [
+    "와이더블유",
+    "YW Rental",
+    "와이더블유렌탈"
+   ],
+   "krx_industry": "상품 종합 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공작기계·산업장비·첨단로봇과 자동화 공정용 장비의 렌탈·공급 사업을 공식 사이트에서 확인했다. 제조업체가 아닌 렌탈·유통 사업자라는 범위를 명시했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.ywtc.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00296263"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "공정·물류 자동화",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "공작기계·산업장비·첨단로봇과 자동화 공정용 장비의 렌탈·공급 사업을 공식 사이트에서 확인했다. 제조업체가 아닌 렌탈·유통 사업자라는 범위를 명시했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.ywtc.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00296263"
        ],
        "malformed": ""
       }
@@ -50097,6 +50488,38 @@
    }
   },
   {
+   "source": "TS트릴리온",
+   "target": "화장품·미용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "화장품·생활용품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 사이트에서 탈모·두피·모발 케어와 덴탈·뷰티·염색약·생활용품 제품군을 확인했다. 거래소 목록의 주요제품 표기와 현재 제품 사이트의 설명이 다르다는 점을 함께 기록한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://tstrillion.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01353024"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "TYM",
    "target": "농업·스마트팜",
    "type": "테마",
@@ -50116,6 +50539,166 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "WISCOM",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기초·첨단화학소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "PVC Compound 생산·판매와 ABS·EP 위탁 임가공 사업을 사업보고서와 거래소 목록에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2025/03/20/000759/20250320003367/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00142865"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "YBM넷",
+   "target": "교육·출판",
+   "type": "테마",
+   "tier": 1,
+   "stage": "교육 콘텐츠·플랫폼",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "교육·출판",
+     "page": "교육·출판",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "에듀테크 서비스와 온라인·기업·대학·초중등 교육 플랫폼을 공식 사이트에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://company.ybmnet.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00307222"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "YG PLUS",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "음악 콘텐츠",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "아티스트 IP를 기반으로 음악 투자·유통, 플랫폼, MD와 음반 제조 사업을 공식 사이트에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.ygplus.com/business/music",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00249247"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "YTN",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "영화관·미디어",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "24시간 뉴스채널과 TV·라디오·디지털 뉴스, 광고·동영상 뉴스·프로그램 공급 사업을 공식 사이트에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.ytn.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00200275"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "YW",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "공정·물류 자동화",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공작기계·산업장비·첨단로봇과 자동화 공정용 장비의 렌탈·공급 사업을 공식 사이트에서 확인했다. 제조업체가 아닌 렌탈·유통 사업자라는 범위를 명시했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.ywtc.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00296263"
      ],
      "malformed": ""
     }
