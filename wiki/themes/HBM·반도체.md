@@ -32,7 +32,7 @@ category: "기술·디지털"
 - 반도체 클린룸: [[신성이엔지]] ([신성이엔지](https://shinsung.co.kr/))
 - 반도체 패키징: [[하나마이크론]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt)), [[3S]] ([공식 사업자료](https://kind.krx.co.kr/external/dst/irReference/18259/IR%20-%203S%20KOREA%20%2820260326%29.pdf)), [[SFA반도체]] ([SFA반도체 공식 홈페이지](https://www.sfasemicon.com/), [SFA반도체 사업보고서](https://kind.krx.co.kr/external/2025/03/21/000378/20250321001672/11011.htm)), [[네패스]] ([네패스 공식 홈페이지](https://www.nepes.co.kr/kr/), [DART 기업개황](https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00227333))
 - 반도체 제조 장비: [[케이씨텍]] ([케이씨텍](https://www.kctech.com/page/product1.php))
-- 반도체 제조 장비: [[GST]] ([GST 공식 홈페이지](https://www.gst-in.com/), [GST Products](https://www.gst-in.com/m21.php?cate=1))
+- 반도체 제조 장비: [[GST]] ([GST 공식 홈페이지](https://www.gst-in.com/), [GST Products](https://www.gst-in.com/m21.php?cate=1)), [[뉴온]] ([뉴온 기업자료](https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?NewMenuID=11&gicode=A123840), [한국거래소 KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt))
 - 패키지기판: [[해성디에스]] ([HAESUNG DS](https://haesungds.co.kr/eng/?p=products%7Cpkg_substrate%7Coverview))
 - 시스템반도체 파운드리: [[DB하이텍]] ([DB하이텍 회사소개](https://www.dbhitek.com/kr/company/about))
 - 시스템반도체 설계·IP: [[가온칩스]] ([가온칩스 공식 What We do](https://www.gaonchips.com/kr/), [한국거래소 KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt)), [[글로벌테크놀로지]] ([한국거래소 KIND 기업공시](https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20251111000317&method=searchListInvstgCorpDetail), [글로벌테크놀로지 공식 홈페이지](https://www.glbltech.com/))

@@ -97,7 +97,8 @@
     "부동산 개발·운영",
     "시멘트·레미콘",
     "유리·창호",
-    "도시경관·안전시설"
+    "도시경관·안전시설",
+    "상하수도·플라스틱 관"
    ]
   },
   {
@@ -32124,6 +32125,70 @@
    "issues": []
   },
   {
+   "id": "누보",
+   "type": "company",
+   "path": "companies/누보",
+   "summary": "농업용 비료·농약과 식물영양제를 개발·공급하는 농자재 기업",
+   "market": "KOSDAQ",
+   "ticker": "332290",
+   "dart_corp_code": "01394669",
+   "aliases": [
+    "Nousbo"
+   ],
+   "krx_industry": "비료, 농약 및 살균, 살충제 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "농업·스마트팜",
+     "page": "농업·스마트팜",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "비료·농약·식물영양제 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nousbo.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01394669",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "농업·스마트팜",
+     "tier": 1,
+     "stage": "종자·농자재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "농업·스마트팜",
+       "page": "농업·스마트팜",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "비료·농약·식물영양제 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nousbo.com/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01394669",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "뉴로메카",
    "type": "company",
    "path": "companies/뉴로메카",
@@ -32172,6 +32237,259 @@
        "malformed": ""
       }
      ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "뉴로핏",
+   "type": "company",
+   "path": "companies/뉴로핏",
+   "summary": "뇌영상 분석 AI와 뇌질환 치료 설계 의료기기를 개발하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "380550",
+   "dart_corp_code": "01782004",
+   "aliases": [
+    "NEUROPHET"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "뇌영상 분석 AI와 치료 설계 의료기기 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.neurophet.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01782004",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "의료영상 검출기",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "뇌영상 분석 AI와 치료 설계 의료기기 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.neurophet.com/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01782004",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "뉴보텍",
+   "type": "company",
+   "path": "companies/뉴보텍",
+   "summary": "상·하수도용 플라스틱 관과 환경 인프라 설비를 제조·시공하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "060260",
+   "dart_corp_code": "00351375",
+   "aliases": [
+    "NewVotech"
+   ],
+   "krx_industry": "플라스틱제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "상·하수도용 플라스틱 관과 설비 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.newvotech.co.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00351375",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "상하수도·플라스틱 관",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "상·하수도용 플라스틱 관과 설비 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.newvotech.co.kr/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00351375",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "뉴엔AI",
+   "type": "company",
+   "path": "companies/뉴엔AI",
+   "summary": "온라인 빅데이터를 수집·분석하는 AI 플랫폼 기업",
+   "market": "KOSDAQ",
+   "ticker": "463020",
+   "dart_corp_code": "01639508",
+   "aliases": [
+    "NEWEN AI",
+    "RSN"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "AI 빅데이터 분석 플랫폼과 소셜 데이터 인사이트 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.newen.ai/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01639508",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "AI·클라우드",
+     "tier": 1,
+     "stage": "AI 모델·서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "AI·클라우드",
+       "page": "AI·클라우드",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "AI 빅데이터 분석 플랫폼과 소셜 데이터 인사이트 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.newen.ai/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01639508",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "뉴온",
+   "type": "company",
+   "path": "companies/뉴온",
+   "summary": "건강기능식품·생활용품과 진공증착 장비를 함께 개발·판매하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "123840",
+   "dart_corp_code": "00809429",
+   "aliases": [
+    "NUON",
+    "한일진공"
+   ],
+   "krx_industry": "기타 식품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "음식료 · HBM·반도체",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "건강기능식품·생활용품과 진공증착 장비 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://nuon.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00809429",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "반도체 제조 장비",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "신선식품·건강식품",
+     "score": 0,
+     "classifications": [],
      "presentation": {
       "label": "",
       "muted": false,
@@ -67043,6 +67361,38 @@
    }
   },
   {
+   "source": "누보",
+   "target": "농업·스마트팜",
+   "type": "테마",
+   "tier": 1,
+   "stage": "종자·농자재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "농업·스마트팜",
+     "page": "농업·스마트팜",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "비료·농약·식물영양제 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nousbo.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01394669",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "뉴로메카",
    "target": "로봇·자동화",
    "type": "테마",
@@ -67066,6 +67416,132 @@
      "malformed": ""
     }
    ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "뉴로핏",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의료영상 검출기",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "뇌영상 분석 AI와 치료 설계 의료기기 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.neurophet.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01782004",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "뉴보텍",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "상하수도·플라스틱 관",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "상·하수도용 플라스틱 관과 설비 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.newvotech.co.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00351375",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "뉴엔AI",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 1,
+   "stage": "AI 모델·서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "AI 빅데이터 분석 플랫폼과 소셜 데이터 인사이트 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.newen.ai/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01639508",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "뉴온",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "반도체 제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "뉴온",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "신선식품·건강식품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
    "presentation": {
     "label": "",
     "muted": false,
