@@ -32500,6 +32500,322 @@
    "issues": []
   },
   {
+   "id": "뉴인텍",
+   "type": "company",
+   "path": "companies/뉴인텍",
+   "summary": "전기자동차·하이브리드 자동차용 콘덴서와 전장 부품을 제조하는 자동차 부품 기업",
+   "market": "KOSDAQ",
+   "ticker": "012340",
+   "dart_corp_code": "00105040",
+   "aliases": [
+    "NUIN TEK"
+   ],
+   "krx_industry": "자동차 신품 부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차 부품 사업과 전기차·하이브리드용 콘덴서 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.nuin.co.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00105040",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=00105040&naviCrpNm=%EB%89%B4%EC%9D%B8%ED%85%8D"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "부품·모듈",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "자동차 부품 사업과 전기차·하이브리드용 콘덴서 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.nuin.co.kr/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00105040",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=00105040&naviCrpNm=%EB%89%B4%EC%9D%B8%ED%85%8D"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "뉴키즈온",
+   "type": "company",
+   "path": "companies/뉴키즈온",
+   "summary": "유아동 패션 브랜드와 영유아 스킨케어 제품을 운영하는 이커머스 기업",
+   "market": "KOSDAQ",
+   "ticker": "462310",
+   "dart_corp_code": "01467503",
+   "aliases": [
+    "New Kids On",
+    "NEWKIKI"
+   ],
+   "krx_industry": "봉제의복 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "패션·의류 · 화장품·미용",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "유아동 패션 브랜드와 영유아 스킨케어 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.newkiki.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01467503",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "패션·의류",
+     "tier": 1,
+     "stage": "패션 브랜드 제품",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "화장품·미용",
+     "tier": 1,
+     "stage": "화장품·생활용품",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "뉴트리",
+   "type": "company",
+   "path": "companies/뉴트리",
+   "summary": "콜라겐·유산균 등 이너뷰티와 건강기능식품을 개발·판매하는 식품 기업",
+   "market": "KOSDAQ",
+   "ticker": "270870",
+   "dart_corp_code": "01214248",
+   "aliases": [
+    "Newtree",
+    "에버콜라겐"
+   ],
+   "krx_industry": "기타 식품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "이너뷰티·건강기능식품 제품군과 제조·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.newtree.co.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01214248",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "신선식품·건강식품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "이너뷰티·건강기능식품 제품군과 제조·판매 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.newtree.co.kr/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01214248",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "뉴파워프라즈마",
+   "type": "company",
+   "path": "companies/뉴파워프라즈마",
+   "summary": "반도체·디스플레이 공정용 플라즈마 전원·세정 장비를 제조하는 장비 기업",
+   "market": "KOSDAQ",
+   "ticker": "144960",
+   "dart_corp_code": "00521390",
+   "aliases": [
+    "New Power Plasma",
+    "NPP"
+   ],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체 · 디스플레이",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "반도체와 LCD·OLED 공정용 플라즈마 장비 및 핵심 부품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.newpower.co.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00521390",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "반도체 제조 장비",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "뉴프렉스",
+   "type": "company",
+   "path": "companies/뉴프렉스",
+   "summary": "FPCB를 기반으로 모바일·자동차·VR용 전자 부품을 생산하는 전자부품 기업",
+   "market": "KOSDAQ",
+   "ticker": "085670",
+   "dart_corp_code": "00493510",
+   "aliases": [
+    "NEWFLEX",
+    "NEWFLEX TECHNOLOGY"
+   ],
+   "krx_industry": "전자부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "FPCB 기반 모바일·자동차·VR 전자 부품 제조 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.newflex.co.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00493510",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "부품·모듈",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "FPCB 기반 모바일·자동차·VR 전자 부품 제조 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.newflex.co.kr/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00493510",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "달바글로벌",
    "type": "company",
    "path": "companies/달바글로벌",
@@ -67542,6 +67858,163 @@
    "score": 0,
    "evidence": [],
    "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "뉴인텍",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "부품·모듈",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차 부품 사업과 전기차·하이브리드용 콘덴서 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.nuin.co.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00105040",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=00105040&naviCrpNm=%EB%89%B4%EC%9D%B8%ED%85%8D"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "뉴키즈온",
+   "target": "패션·의류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "패션 브랜드 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "뉴키즈온",
+   "target": "화장품·미용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "화장품·생활용품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "뉴트리",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "신선식품·건강식품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "이너뷰티·건강기능식품 제품군과 제조·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.newtree.co.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01214248",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "뉴파워프라즈마",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "반도체 제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "뉴파워프라즈마",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "뉴프렉스",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "부품·모듈",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "FPCB 기반 모바일·자동차·VR 전자 부품 제조 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.newflex.co.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00493510",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
    "presentation": {
     "label": "",
     "muted": false,
