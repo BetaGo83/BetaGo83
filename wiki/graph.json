@@ -437,6 +437,7 @@
     "차체 부품·핫스탬핑",
     "구동·변속·현가 부품",
     "자동차 내장·흡차음 소재",
+    "자동차 시트·내장",
     "차량용 메모리·저장장치",
     "차량용 MLCC",
     "차량용 반도체",
@@ -501,6 +502,7 @@
    "stages": [
     "전력기기",
     "전력기기·시스템",
+    "전력·제어 케이블",
     "송배전용 초고압 케이블",
     "전력망 운영·정비",
     "발전설비 운영·정비",
@@ -36168,6 +36170,271 @@
         "https://www.daewonspring.com",
         "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001323",
         "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00111847",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대원미디어",
+   "type": "company",
+   "path": "companies/대원미디어",
+   "summary": "애니메이션·캐릭터 IP를 기획·제작·유통하는 콘텐츠 기업",
+   "market": "KOSDAQ",
+   "ticker": "048910",
+   "dart_corp_code": "00351807",
+   "aliases": [
+    "Daewon Media"
+   ],
+   "krx_industry": "기타 전문 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "애니메이션·만화 콘텐츠와 캐릭터 IP 라이선싱·전시·유통 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://daewonmedia.com/preview/daewon-media/company",
+      "https://daewonmedia.com/daewon-media/employment",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000827",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00351807",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "애니메이션·캐릭터 IP",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "애니메이션·만화 콘텐츠와 캐릭터 IP 라이선싱·전시·유통 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://daewonmedia.com/preview/daewon-media/company",
+        "https://daewonmedia.com/daewon-media/employment",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000827",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00351807",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대원산업",
+   "type": "company",
+   "path": "companies/대원산업",
+   "summary": "자동차 시트와 모빌리티 공간 솔루션을 개발·제조하는 자동차 부품 기업",
+   "market": "KOSDAQ",
+   "ticker": "005710",
+   "dart_corp_code": "00111874",
+   "aliases": [
+    "Daewon Sanup",
+    "Daewon Seat"
+   ],
+   "krx_industry": "자동차 신품 부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차 시트의 설계·개발·제조 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dwsu.co.kr/ko/about/overview/",
+      "https://www.dwsu.co.kr/ko/product/seat/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001127",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00111874",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "자동차 시트·내장",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "자동차 시트의 설계·개발·제조 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dwsu.co.kr/ko/about/overview/",
+        "https://www.dwsu.co.kr/ko/product/seat/",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001127",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00111874",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대원전선",
+   "type": "company",
+   "path": "companies/대원전선",
+   "summary": "전력·제어 케이블과 통신케이블을 제조하는 전선 기업",
+   "market": "KOSPI",
+   "ticker": "006340",
+   "dart_corp_code": "00260392",
+   "aliases": [
+    "Daewon Cable"
+   ],
+   "krx_industry": "절연선 및 케이블 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "전력망·전력기기 · 통신·네트워크",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "전력·제어 케이블과 통신케이블 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daewoncable.co.kr/product/product-sub2.php",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331003244",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00260392",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "전력망·전력기기",
+     "tier": 1,
+     "stage": "전력·제어 케이블",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 1,
+     "stage": "통신케이블",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대원제약",
+   "type": "company",
+   "path": "companies/대원제약",
+   "summary": "전문의약품과 일반의약품을 연구·개발·생산·판매하는 제약 기업",
+   "market": "KOSPI",
+   "ticker": "003220",
+   "dart_corp_code": "00111999",
+   "aliases": [
+    "Daewon Pharmaceutical"
+   ],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "의약품 제조·판매와 신약·개량신약 연구개발 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daewonpharm.com/company/sub02_01.jsp?lang=1&mb=01&mm=12&ms=121",
+      "https://www.daewonpharm.com/products/sub02_01_def.jsp",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001398",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00111999",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "의약품 제조·판매와 신약·개량신약 연구개발 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.daewonpharm.com/company/sub02_01.jsp?lang=1&mb=01&mm=12&ms=121",
+        "https://www.daewonpharm.com/products/sub02_01_def.jsp",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001398",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00111999",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -72589,6 +72856,138 @@
       "https://www.daewonspring.com",
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001323",
       "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00111847",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대원미디어",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "애니메이션·캐릭터 IP",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "애니메이션·만화 콘텐츠와 캐릭터 IP 라이선싱·전시·유통 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://daewonmedia.com/preview/daewon-media/company",
+      "https://daewonmedia.com/daewon-media/employment",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000827",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00351807",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대원산업",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "자동차 시트·내장",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차 시트의 설계·개발·제조 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dwsu.co.kr/ko/about/overview/",
+      "https://www.dwsu.co.kr/ko/product/seat/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001127",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00111874",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대원전선",
+   "target": "전력망·전력기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전력·제어 케이블",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대원전선",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 1,
+   "stage": "통신케이블",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대원제약",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "의약품 제조·판매와 신약·개량신약 연구개발 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daewonpharm.com/company/sub02_01.jsp?lang=1&mb=01&mm=12&ms=121",
+      "https://www.daewonpharm.com/products/sub02_01_def.jsp",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001398",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00111999",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
