@@ -30758,27 +30758,228 @@
    "issues": []
   },
   {
-   "id": "넷마블",
+   "id": "넥슨게임즈",
    "type": "company",
-   "path": "companies/넷마블",
-   "summary": "소프트웨어 개발 및 공급업에 속한 국내 상장사",
-   "market": "KOSPI",
-   "ticker": "251270",
-   "dart_corp_code": "",
-   "aliases": [],
+   "path": "companies/넥슨게임즈",
+   "summary": "PC·모바일·콘솔 게임을 개발하는 넥슨 계열 게임 개발사",
+   "market": "KOSDAQ",
+   "ticker": "225570",
+   "dart_corp_code": "01096341",
+   "aliases": [
+    "NEXON GAMES",
+    "Nexon Games Co., Ltd."
+   ],
    "krx_industry": "소프트웨어 개발 및 공급업",
    "classification_as_of": "2026-10-09",
    "classifications": [
     {
      "topic": "게임",
      "page": "게임",
-     "classification": "공시·거래소 확인",
+     "classification": "공식 발표 확인",
      "status": "확인",
-     "date": "2026-10-09",
-     "text": "KIND 주요제품에 온라인·모바일 게임 소프트웨어 개발 및 공급이 기재되어 있다. (확인일: 2026-10-09)",
-     "evidence_level": "거래소 자료",
+     "date": "2026-10-19",
+     "text": "PC·모바일·콘솔 게임 개발 사업을 확인했다.",
+     "evidence_level": "공식 발표",
      "weak": false,
      "sources": [
+      "https://www.nexongames.co.kr/nexongames/nexongames.php",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01096341",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "게임",
+     "tier": 1,
+     "stage": "게임 개발",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "게임",
+       "page": "게임",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "PC·모바일·콘솔 게임 개발 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nexongames.co.kr/nexongames/nexongames.php",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01096341",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "넥써쓰",
+   "type": "company",
+   "path": "companies/넥써쓰",
+   "summary": "모바일·PC 게임을 개발·서비스하는 게임 개발사",
+   "market": "KOSDAQ",
+   "ticker": "205500",
+   "dart_corp_code": "01042429",
+   "aliases": [
+    "NEXUS",
+    "Action Square"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "모바일 액션 게임 개발·서비스 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.action2quare.com/eng/game/game05.php",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01042429",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "게임",
+     "tier": 1,
+     "stage": "게임 개발",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "게임",
+       "page": "게임",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "모바일 액션 게임 개발·서비스 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.action2quare.com/eng/game/game05.php",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01042429",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "넵튠",
+   "type": "company",
+   "path": "companies/넵튠",
+   "summary": "캐주얼·미드코어 모바일 게임을 개발·퍼블리싱하는 게임 기업",
+   "market": "KOSDAQ",
+   "ticker": "217270",
+   "dart_corp_code": "01067808",
+   "aliases": [
+    "NEPTUNE",
+    "Neptune Corp."
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "캐주얼·미드코어 모바일 게임 개발·퍼블리싱 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://neptunecompany.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01067808",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "게임",
+     "tier": 1,
+     "stage": "온라인·모바일 게임",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "게임",
+       "page": "게임",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "캐주얼·미드코어 모바일 게임 개발·퍼블리싱 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://neptunecompany.kr/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01067808",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "넷마블",
+   "type": "company",
+   "path": "companies/넷마블",
+   "summary": "온라인·모바일 게임을 개발·서비스하는 글로벌 게임 기업",
+   "market": "KOSPI",
+   "ticker": "251270",
+   "dart_corp_code": "00904672",
+   "aliases": [
+    "NETMARBLE",
+    "Netmarble Corporation"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "온라인·모바일 게임 개발·서비스 사업과 게임 라인업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://company.netmarble.com/company/vision",
+      "https://company.netmarble.com/studio/list/games",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00904672",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
@@ -30794,14 +30995,82 @@
       {
        "topic": "게임",
        "page": "게임",
-       "classification": "공시·거래소 확인",
+       "classification": "공식 발표 확인",
        "status": "확인",
-       "date": "2026-10-09",
-       "text": "KIND 주요제품에 온라인·모바일 게임 소프트웨어 개발 및 공급이 기재되어 있다. (확인일: 2026-10-09)",
-       "evidence_level": "거래소 자료",
+       "date": "2026-10-19",
+       "text": "온라인·모바일 게임 개발·서비스 사업과 게임 라인업을 확인했다.",
+       "evidence_level": "공식 발표",
        "weak": false,
        "sources": [
+        "https://company.netmarble.com/company/vision",
+        "https://company.netmarble.com/studio/list/games",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00904672",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "노랑풍선",
+   "type": "company",
+   "path": "companies/노랑풍선",
+   "summary": "국내외 여행상품과 여행 서비스를 제공하는 종합 여행사",
+   "market": "KOSDAQ",
+   "ticker": "104620",
+   "dart_corp_code": "00632845",
+   "aliases": [
+    "YBTour",
+    "Yellow Balloon Tour"
+   ],
+   "krx_industry": "여행사 및 기타 여행보조 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "호텔·레저",
+     "page": "호텔·레저",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "국내외 여행상품·여행 서비스 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.ybtour.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00632845",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "호텔·레저",
+     "tier": 1,
+     "stage": "여행 콘텐츠·MICE",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "호텔·레저",
+       "page": "호텔·레저",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "국내외 여행상품·여행 서비스 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.ybtour.com/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00632845",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
       }
@@ -65121,6 +65390,102 @@
    }
   },
   {
+   "source": "넥슨게임즈",
+   "target": "게임",
+   "type": "테마",
+   "tier": 1,
+   "stage": "게임 개발",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "PC·모바일·콘솔 게임 개발 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nexongames.co.kr/nexongames/nexongames.php",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01096341",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "넥써쓰",
+   "target": "게임",
+   "type": "테마",
+   "tier": 1,
+   "stage": "게임 개발",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "모바일 액션 게임 개발·서비스 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.action2quare.com/eng/game/game05.php",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01042429",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "넵튠",
+   "target": "게임",
+   "type": "테마",
+   "tier": 1,
+   "stage": "온라인·모바일 게임",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "캐주얼·미드코어 모바일 게임 개발·퍼블리싱 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://neptunecompany.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01067808",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "넷마블",
    "target": "게임",
    "type": "테마",
@@ -65132,14 +65497,49 @@
     {
      "topic": "게임",
      "page": "게임",
-     "classification": "공시·거래소 확인",
+     "classification": "공식 발표 확인",
      "status": "확인",
-     "date": "2026-10-09",
-     "text": "KIND 주요제품에 온라인·모바일 게임 소프트웨어 개발 및 공급이 기재되어 있다. (확인일: 2026-10-09)",
-     "evidence_level": "거래소 자료",
+     "date": "2026-10-19",
+     "text": "온라인·모바일 게임 개발·서비스 사업과 게임 라인업을 확인했다.",
+     "evidence_level": "공식 발표",
      "weak": false,
      "sources": [
+      "https://company.netmarble.com/company/vision",
+      "https://company.netmarble.com/studio/list/games",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00904672",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "노랑풍선",
+   "target": "호텔·레저",
+   "type": "테마",
+   "tier": 1,
+   "stage": "여행 콘텐츠·MICE",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "호텔·레저",
+     "page": "호텔·레저",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "국내외 여행상품·여행 서비스 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.ybtour.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00632845",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
