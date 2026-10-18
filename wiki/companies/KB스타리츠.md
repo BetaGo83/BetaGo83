@@ -3,7 +3,7 @@ type: "company"
 name: "KB스타리츠"
 ticker: "432320"
 market: "KOSPI"
-dash_corp_code: "01622720"
+dart_corp_code: "01622720"
 aliases: ["KB STAR REIT", "KB스타리츠투자회사"]
 themes: ["부동산·리츠"]
 updated: "2026-10-18"

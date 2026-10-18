@@ -3,7 +3,7 @@ type: "company"
 name: "JB금융지주"
 ticker: "175330"
 market: "KOSPI"
-dash_corp_code: "00980122"
+dart_corp_code: "00980122"
 aliases: ["JB금융그룹", "JB Financial Group"]
 themes: ["은행"]
 updated: "2026-10-18"

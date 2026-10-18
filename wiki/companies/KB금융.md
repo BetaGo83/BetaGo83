@@ -3,7 +3,7 @@ type: "company"
 name: "KB금융"
 ticker: "105560"
 market: "KOSPI"
-dash_corp_code: "00688996"
+dart_corp_code: "00688996"
 aliases: ["KB금융지주", "KB금융그룹", "KB Financial Group"]
 themes: ["은행"]
 updated: "2026-10-18"

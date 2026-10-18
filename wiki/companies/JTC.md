@@ -3,7 +3,7 @@ type: "company"
 name: "JTC"
 ticker: "950170"
 market: "KOSDAQ"
-dash_corp_code: "01041828"
+dart_corp_code: "01041828"
 aliases: ["제이티씨", "JTC Inc."]
 themes: ["유통·전자상거래"]
 updated: "2026-10-18"
