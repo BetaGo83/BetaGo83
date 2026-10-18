@@ -7551,6 +7551,80 @@
    "issues": []
   },
   {
+   "id": "HLB펩",
+   "type": "company",
+   "path": "companies/HLB펩",
+   "summary": "펩타이드 의약소재·원료의약품과 신약 후보물질을 개발·생산하는 코스닥 바이오 기업",
+   "market": "KOSDAQ",
+   "ticker": "196300",
+   "dart_corp_code": "00808086",
+   "aliases": [
+    "HLB PEP",
+    "HLB Pep Co., Ltd.",
+    "에이치엘비펩(주)"
+   ],
+   "krx_industry": "기초 의약물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB펩의 펩타이드 의약소재·원료의약품 제조와 GMP API/CDMO 역할을 사업보고서 및 회사 공식 GMP·제품 자료에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000795",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000795&dcmNo=11149301&eleId=11&offset=87191&length=6526&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000795&dcmNo=11149301&eleId=15&offset=139814&length=47397&dtd=dart4.xsd",
+      "https://hlbpep.co.kr/kor/peptides/gmp.php",
+      "https://hlbpep.co.kr/kor/peptides/custom.php",
+      "https://hlbpep.co.kr/kor/peptides/catalog.php"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "바이오의약품 원료",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "HLB펩의 펩타이드 의약소재·원료의약품 제조와 GMP API/CDMO 역할을 사업보고서 및 회사 공식 GMP·제품 자료에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000795",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000795&dcmNo=11149301&eleId=11&offset=87191&length=6526&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000795&dcmNo=11149301&eleId=15&offset=139814&length=47397&dtd=dart4.xsd",
+        "https://hlbpep.co.kr/kor/peptides/gmp.php",
+        "https://hlbpep.co.kr/kor/peptides/custom.php",
+        "https://hlbpep.co.kr/kor/peptides/catalog.php"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "HL만도",
    "type": "company",
    "path": "companies/HL만도",
@@ -34137,6 +34211,42 @@
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000770&dcmNo=11133377&eleId=11&offset=86184&length=29223&dtd=dart4.xsd",
       "https://www.hlbpanagene.com/_ENG/html/dh/tech4",
       "https://www.hlbpanagene.com/_ENG/html/dh/prod_intro"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HLB펩",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "바이오의약품 원료",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB펩의 펩타이드 의약소재·원료의약품 제조와 GMP API/CDMO 역할을 사업보고서 및 회사 공식 GMP·제품 자료에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000795",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000795&dcmNo=11149301&eleId=11&offset=87191&length=6526&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000795&dcmNo=11149301&eleId=15&offset=139814&length=47397&dtd=dart4.xsd",
+      "https://hlbpep.co.kr/kor/peptides/gmp.php",
+      "https://hlbpep.co.kr/kor/peptides/custom.php",
+      "https://hlbpep.co.kr/kor/peptides/catalog.php"
      ],
      "malformed": ""
     }
