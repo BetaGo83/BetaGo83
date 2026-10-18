@@ -338,6 +338,7 @@
    "category": "소비·문화",
    "stages": [
     "대형마트",
+    "백화점·복합쇼핑몰",
     "편의점·소매·전자상거래",
     "쇼핑몰 운영 기반",
     "면세 유통",
@@ -23388,6 +23389,133 @@
         "https://kwcomp.fnguide.com/CompanyInfo/Snapshot?cmp_cd=017900",
         "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000424",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "광주신세계",
+   "type": "company",
+   "path": "companies/광주신세계",
+   "summary": "광주·호남권 백화점과 복합 유통 공간을 운영하는 지역 소매 기업",
+   "market": "KOSPI",
+   "ticker": "037710",
+   "dart_corp_code": "",
+   "aliases": [
+    "GWANGJU SHINSEGAE"
+   ],
+   "krx_industry": "종합 소매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "백화점과 복합 유통 공간 운영을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gjshinsegae.co.kr/down/20251114_g_e.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "유통·전자상거래",
+     "tier": 1,
+     "stage": "백화점·복합쇼핑몰",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "유통·전자상거래",
+       "page": "유통·전자상거래",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "백화점과 복합 유통 공간 운영을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.gjshinsegae.co.kr/down/20251114_g_e.pdf",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "광진실업",
+   "type": "company",
+   "path": "companies/광진실업",
+   "summary": "자동차·기계·조선용 봉강과 특수 형상 강재를 생산하는 철강 기업",
+   "market": "KOSDAQ",
+   "ticker": "026910",
+   "dart_corp_code": "",
+   "aliases": [
+    "KWANGJIN INDUSTRY",
+    "KJSTEEL"
+   ],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "봉강·이형강 등 철강재 제조를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://gwangjinlndustry.koweb.co.kr/",
+      "https://kind.krx.co.kr/external/2026/03/13/001295/20260313003351/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "철강",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "봉강·이형강 등 철강재 제조를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://gwangjinlndustry.koweb.co.kr/",
+        "https://kind.krx.co.kr/external/2026/03/13/001295/20260313003351/11011.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
       }
@@ -54323,6 +54451,69 @@
       "https://kwcomp.fnguide.com/CompanyInfo/Snapshot?cmp_cd=017900",
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000424",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "광주신세계",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 1,
+   "stage": "백화점·복합쇼핑몰",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "백화점과 복합 유통 공간 운영을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gjshinsegae.co.kr/down/20251114_g_e.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "광진실업",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "철강",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "봉강·이형강 등 철강재 제조를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://gwangjinlndustry.koweb.co.kr/",
+      "https://kind.krx.co.kr/external/2026/03/13/001295/20260313003351/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
