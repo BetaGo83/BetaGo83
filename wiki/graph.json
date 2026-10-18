@@ -4151,6 +4151,40 @@
    "issues": []
   },
   {
+   "id": "F&F 홀딩스",
+   "type": "company",
+   "path": "companies/F&F 홀딩스",
+   "summary": "자회사·피투자회사 지분관리와 브랜드 권리 사업을 영위하는 유가증권시장 지주회사",
+   "market": "KOSPI",
+   "ticker": "007700",
+   "dart_corp_code": "00126487",
+   "aliases": [
+    "F&F Holdings Co., Ltd.",
+    "에프앤에프홀딩스"
+   ],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "사업 범위",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "자회사·피투자회사 지분관리 및 투자, 브랜드 권리 사업을 DART·KIND 공식 자료에서 확인했다. 특정 자회사·피투자회사 관계는 별도 근거가 없어 공개하지 않았다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00126487",
+      "https://kind.krx.co.kr/external/2026/03/18/002059/20260318009580/11011.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [],
+   "issues": []
+  },
+  {
    "id": "F&F",
    "type": "company",
    "path": "companies/F&F",
