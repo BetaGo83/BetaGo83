@@ -9323,6 +9323,74 @@
    "issues": []
   },
   {
+   "id": "KB발해인프라",
+   "type": "company",
+   "path": "companies/KB발해인프라",
+   "summary": "국내 도로·터널·철도·교량과 데이터센터·LNG 터미널 등 인프라 자산에 투자하는 상장 인프라 펀드",
+   "market": "KOSPI",
+   "ticker": "415640",
+   "dart_corp_code": "",
+   "aliases": [
+    "KB발해인프라투융자회사",
+    "KB Balhae Infrastructure Fund",
+    "KBIF"
+   ],
+   "krx_industry": "신탁업 및 집합투자업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "KBIF 공식 자료는 한국의 고속도로·터널·철도·교량과 데이터센터·LNG 터미널 등 인프라 자산 투자 및 포트폴리오를 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kbif.co.kr/en/company/intro/content.do",
+      "https://kbif.co.kr/ko/invest/portfolio/map-list.do",
+      "https://kbif.co.kr/ko/invest/portfolio/asset-list.do",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "건설·플랜트·인프라",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "KBIF 공식 자료는 한국의 고속도로·터널·철도·교량과 데이터센터·LNG 터미널 등 인프라 자산 투자 및 포트폴리오를 설명한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://kbif.co.kr/en/company/intro/content.do",
+        "https://kbif.co.kr/ko/invest/portfolio/map-list.do",
+        "https://kbif.co.kr/ko/invest/portfolio/asset-list.do",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "KG이니시스",
    "type": "company",
    "path": "companies/KG이니시스",
@@ -36315,6 +36383,39 @@
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260619000667&dcmNo=11440765&eleId=12&offset=376230&length=3114&dtd=dart4.xsd",
       "https://www.kbfg.com/kor/about/group/info.htm",
       "https://www.kbfg.com/kor/about/network/domestic.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KB발해인프라",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건설·플랜트·인프라",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "KBIF 공식 자료는 한국의 고속도로·터널·철도·교량과 데이터센터·LNG 터미널 등 인프라 자산 투자 및 포트폴리오를 설명한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kbif.co.kr/en/company/intro/content.do",
+      "https://kbif.co.kr/ko/invest/portfolio/map-list.do",
+      "https://kbif.co.kr/ko/invest/portfolio/asset-list.do",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
