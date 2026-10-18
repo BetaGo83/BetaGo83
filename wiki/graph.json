@@ -35318,6 +35318,136 @@
    "issues": []
   },
   {
+   "id": "대성하이텍",
+   "type": "company",
+   "path": "companies/대성하이텍",
+   "summary": "스위스턴 CNC 자동선반·머시닝센터와 정밀부품을 제조하는 스마트 머시닝 기업",
+   "market": "KOSDAQ",
+   "ticker": "129920",
+   "dart_corp_code": "00577335",
+   "aliases": [
+    "Daesung Hi-Tech",
+    "DSHT"
+   ],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "스위스턴 CNC 자동선반·컴팩트 머시닝센터 제조와 정밀부품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.topdsht.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00577335",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "공작기계·산업용 로봇",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "스위스턴 CNC 자동선반·컴팩트 머시닝센터 제조와 정밀부품 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.topdsht.com/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00577335",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대신밸류리츠",
+   "type": "company",
+   "path": "companies/대신밸류리츠",
+   "summary": "도심권 프라임 오피스 자산을 편입·운용하는 상장 리츠",
+   "market": "KOSPI",
+   "ticker": "0030R0",
+   "dart_corp_code": "01885222",
+   "aliases": [
+    "Daishin Value REIT",
+    "Daishin Value REIT Co., Ltd."
+   ],
+   "krx_industry": "부동산 임대 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "부동산·리츠",
+     "page": "부동산·리츠",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "도심권 프라임 오피스 자산의 편입·임대·운용 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.daishinvaluereit.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01885222",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "부동산·리츠",
+     "tier": 1,
+     "stage": "오피스 리츠",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "부동산·리츠",
+       "page": "부동산·리츠",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "도심권 프라임 오피스 자산의 편입·임대·운용 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.daishinvaluereit.com/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01885222",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "대우건설",
    "type": "company",
    "path": "companies/대우건설",
@@ -71485,6 +71615,70 @@
       "http://www.daesungpe.com",
       "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00109037",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대성하이텍",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "공작기계·산업용 로봇",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "스위스턴 CNC 자동선반·컴팩트 머시닝센터 제조와 정밀부품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.topdsht.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00577335",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대신밸류리츠",
+   "target": "부동산·리츠",
+   "type": "테마",
+   "tier": 1,
+   "stage": "오피스 리츠",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "부동산·리츠",
+     "page": "부동산·리츠",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "도심권 프라임 오피스 자산의 편입·임대·운용 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.daishinvaluereit.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01885222",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
