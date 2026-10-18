@@ -22711,16 +22711,140 @@
    "issues": []
   },
   {
+   "id": "고바이오랩",
+   "type": "company",
+   "path": "companies/고바이오랩",
+   "summary": "마이크로바이옴 기반 치료제와 건강기능식품을 연구개발하는 바이오 기업",
+   "market": "KOSDAQ",
+   "ticker": "348150",
+   "dart_corp_code": "",
+   "aliases": [
+    "KOBIOLABS"
+   ],
+   "krx_industry": "자연과학 및 공학 연구개발업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "마이크로바이옴 치료제 후보 발굴·기전 연구·임상 등 신약개발 전 과정을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kobiolabs.com/index.php/main/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "비임상 CRO·연구개발",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "마이크로바이옴 치료제 후보 발굴·기전 연구·임상 등 신약개발 전 과정을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.kobiolabs.com/index.php/main/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "고스트스튜디오",
+   "type": "company",
+   "path": "companies/고스트스튜디오",
+   "summary": "모바일·PC 게임을 개발·서비스하고 콘텐츠 IP를 확장하는 게임 기업",
+   "market": "KOSDAQ",
+   "ticker": "950190",
+   "dart_corp_code": "",
+   "aliases": [
+    "Ghost Studio"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "모바일 게임 소프트웨어의 제작·개발·서비스를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2025/08/14/003512/20250814011072/11012.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "게임",
+     "tier": 1,
+     "stage": "온라인·모바일 게임",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "게임",
+       "page": "게임",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "모바일 게임 소프트웨어의 제작·개발·서비스를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2025/08/14/003512/20250814011072/11012.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "고영",
    "type": "company",
    "path": "companies/고영",
-   "summary": "3D 측정·검사와 스마트 팩토리 솔루션, 의료용 로봇을 제공하는 코스닥 상장사",
+   "summary": "3차원 검사장비와 머신비전·AI 공정최적화 솔루션을 제공하는 제조 장비 기업",
    "market": "KOSDAQ",
    "ticker": "098460",
    "dart_corp_code": "",
    "aliases": [
-    "고영테크놀러지",
-    "Koh Young Technology"
+    "Koh Young",
+    "고영테크놀러지"
    ],
    "krx_industry": "특수 목적용 기계 제조업",
    "classification_as_of": "2026-10-09",
@@ -22730,13 +22854,12 @@
      "page": "HBM·반도체",
      "classification": "공식 발표 확인",
      "status": "확인",
-     "date": "2026-10-18",
-     "text": "고영 공식 자료에서 반도체 검사 장비와 제조 검사 솔루션을 확인했다. HBM 특정 고객·공급계약은 확인하지 않았다.",
+     "date": "2026-10-19",
+     "text": "3D 반도체 검사장비와 패키징 검사 기술을 확인했다.",
      "evidence_level": "공식 발표",
      "weak": false,
      "sources": [
-      "https://kohyoung.com/kr/who-we-are/",
-      "https://kohyoung.com/kr/offerings/",
+      "https://kohyoung.com/kr/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
@@ -22746,13 +22869,12 @@
      "page": "로봇·자동화",
      "classification": "공식 발표 확인",
      "status": "확인",
-     "date": "2026-10-18",
-     "text": "고영 공식 자료에서 의료용 로봇 사업을 확인했다. 고객·납품 관계나 판매 규모는 확인하지 않았다.",
+     "date": "2026-10-19",
+     "text": "3D 비전·AI 기반 자동화 검사와 공정최적화 솔루션을 확인했다.",
      "evidence_level": "공식 발표",
      "weak": false,
      "sources": [
-      "https://kohyoung.com/kr/who-we-are/",
-      "https://kohyoung.com/kr/offerings/",
+      "https://kohyoung.com/kr/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
@@ -22770,13 +22892,12 @@
        "page": "HBM·반도체",
        "classification": "공식 발표 확인",
        "status": "확인",
-       "date": "2026-10-18",
-       "text": "고영 공식 자료에서 반도체 검사 장비와 제조 검사 솔루션을 확인했다. HBM 특정 고객·공급계약은 확인하지 않았다.",
+       "date": "2026-10-19",
+       "text": "3D 반도체 검사장비와 패키징 검사 기술을 확인했다.",
        "evidence_level": "공식 발표",
        "weak": false,
        "sources": [
-        "https://kohyoung.com/kr/who-we-are/",
-        "https://kohyoung.com/kr/offerings/",
+        "https://kohyoung.com/kr/",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
@@ -22791,7 +22912,7 @@
     {
      "theme": "로봇·자동화",
      "tier": 1,
-     "stage": "로봇 완제품",
+     "stage": "머신비전 카메라",
      "score": 0,
      "classifications": [
       {
@@ -22799,13 +22920,137 @@
        "page": "로봇·자동화",
        "classification": "공식 발표 확인",
        "status": "확인",
-       "date": "2026-10-18",
-       "text": "고영 공식 자료에서 의료용 로봇 사업을 확인했다. 고객·납품 관계나 판매 규모는 확인하지 않았다.",
+       "date": "2026-10-19",
+       "text": "3D 비전·AI 기반 자동화 검사와 공정최적화 솔루션을 확인했다.",
        "evidence_level": "공식 발표",
        "weak": false,
        "sources": [
-        "https://kohyoung.com/kr/who-we-are/",
-        "https://kohyoung.com/kr/offerings/",
+        "https://kohyoung.com/kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "골드앤에스",
+   "type": "company",
+   "path": "companies/골드앤에스",
+   "summary": "영어교육 브랜드와 온·오프라인 교육 콘텐츠를 운영하는 교육 기업",
+   "market": "KOSDAQ",
+   "ticker": "035290",
+   "dart_corp_code": "",
+   "aliases": [
+    "Gold&S",
+    "시원스쿨"
+   ],
+   "krx_industry": "서적, 잡지 및 기타 인쇄물 출판업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "교육·출판",
+     "page": "교육·출판",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "온라인 어학 강의와 기업 교육·출강 콘텐츠를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://lab.siwonschool.ac/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "교육·출판",
+     "tier": 1,
+     "stage": "교육 콘텐츠·플랫폼",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "교육·출판",
+       "page": "교육·출판",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "온라인 어학 강의와 기업 교육·출강 콘텐츠를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://lab.siwonschool.ac/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "골프존",
+   "type": "company",
+   "path": "companies/골프존",
+   "summary": "스크린골프·골프연습 시뮬레이터와 골프 플랫폼을 운영하는 레저 기업",
+   "market": "KOSDAQ",
+   "ticker": "215000",
+   "dart_corp_code": "",
+   "aliases": [
+    "GOLFZON"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "호텔·레저",
+     "page": "호텔·레저",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "스크린골프·골프연습 시뮬레이터와 통합 골프 서비스를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://company.golfzon.com/GFZ/Info/Company_Intro.aspx",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "호텔·레저",
+     "tier": 1,
+     "stage": "스포츠·레저 서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "호텔·레저",
+       "page": "호텔·레저",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "스크린골프·골프연습 시뮬레이터와 통합 골프 서비스를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://company.golfzon.com/GFZ/Info/Company_Intro.aspx",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
@@ -53380,6 +53625,68 @@
    }
   },
   {
+   "source": "고바이오랩",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "비임상 CRO·연구개발",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "마이크로바이옴 치료제 후보 발굴·기전 연구·임상 등 신약개발 전 과정을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kobiolabs.com/index.php/main/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "고스트스튜디오",
+   "target": "게임",
+   "type": "테마",
+   "tier": 1,
+   "stage": "온라인·모바일 게임",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "모바일 게임 소프트웨어의 제작·개발·서비스를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2025/08/14/003512/20250814011072/11012.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "고영",
    "target": "HBM·반도체",
    "type": "테마",
@@ -53393,13 +53700,12 @@
      "page": "HBM·반도체",
      "classification": "공식 발표 확인",
      "status": "확인",
-     "date": "2026-10-18",
-     "text": "고영 공식 자료에서 반도체 검사 장비와 제조 검사 솔루션을 확인했다. HBM 특정 고객·공급계약은 확인하지 않았다.",
+     "date": "2026-10-19",
+     "text": "3D 반도체 검사장비와 패키징 검사 기술을 확인했다.",
      "evidence_level": "공식 발표",
      "weak": false,
      "sources": [
-      "https://kohyoung.com/kr/who-we-are/",
-      "https://kohyoung.com/kr/offerings/",
+      "https://kohyoung.com/kr/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
@@ -53416,7 +53722,7 @@
    "target": "로봇·자동화",
    "type": "테마",
    "tier": 1,
-   "stage": "로봇 완제품",
+   "stage": "머신비전 카메라",
    "score": 0,
    "evidence": [],
    "classifications": [
@@ -53425,13 +53731,74 @@
      "page": "로봇·자동화",
      "classification": "공식 발표 확인",
      "status": "확인",
-     "date": "2026-10-18",
-     "text": "고영 공식 자료에서 의료용 로봇 사업을 확인했다. 고객·납품 관계나 판매 규모는 확인하지 않았다.",
+     "date": "2026-10-19",
+     "text": "3D 비전·AI 기반 자동화 검사와 공정최적화 솔루션을 확인했다.",
      "evidence_level": "공식 발표",
      "weak": false,
      "sources": [
-      "https://kohyoung.com/kr/who-we-are/",
-      "https://kohyoung.com/kr/offerings/",
+      "https://kohyoung.com/kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "골드앤에스",
+   "target": "교육·출판",
+   "type": "테마",
+   "tier": 1,
+   "stage": "교육 콘텐츠·플랫폼",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "교육·출판",
+     "page": "교육·출판",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "온라인 어학 강의와 기업 교육·출강 콘텐츠를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://lab.siwonschool.ac/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "골프존",
+   "target": "호텔·레저",
+   "type": "테마",
+   "tier": 1,
+   "stage": "스포츠·레저 서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "호텔·레저",
+     "page": "호텔·레저",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "스크린골프·골프연습 시뮬레이터와 통합 골프 서비스를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://company.golfzon.com/GFZ/Info/Company_Intro.aspx",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
