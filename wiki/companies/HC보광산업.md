@@ -9,7 +9,7 @@ themes: []
 updated: "2026-10-18"
 krx_industry: "기타 비금속 광물제품 제조업"
 classification_as_of: "2026-10-09"
-official_domains: ["www.bokwangindustry.co.kr"]
+official_domains: ["www.bokwangindustry.co.kr", "dart.fss.or.kr", "kind.krx.co.kr"]
 ---
 
 # HC보광산업
@@ -24,7 +24,9 @@ official_domains: ["www.bokwangindustry.co.kr"]
 
 ## 관계
 
-- 공식 자료에서 확인된 기업 간 거래·공급·투자 관계는 아직 없습니다. 제품 분야가 겹친다는 이유로 다른 건설·소재 기업과 공급선을 만들지 않습니다.
+| 관계 | 상대 | 내용 | 기준일 | 출처 | 상태 | 근거 수준 |
+|---|---|---|---|---|---|---|
+| 계열 | [[HC홈센타]] | HC홈센타의 2025 사업보고서는 HC보광산업을 종속회사(레미콘 제조·토사석 채취)로 기재한다. | 2026-03-23 | [DART 사업보고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001089) | 확인 | 공시 원문 |
 
 ## 테마
 

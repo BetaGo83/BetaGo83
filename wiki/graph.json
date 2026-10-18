@@ -5376,6 +5376,43 @@
    "issues": []
   },
   {
+   "id": "HC홈센타",
+   "type": "company",
+   "path": "companies/HC홈센타",
+   "summary": "건축자재 도소매와 레저스포츠 시설을 운영하는 코스닥 지주회사",
+   "market": "KOSDAQ",
+   "ticker": "060560",
+   "dart_corp_code": "00288495",
+   "aliases": [
+    "HC HomeCenter",
+    "홈센타홀딩스",
+    "홈센타홀딩스(주)"
+   ],
+   "krx_industry": "기타 전문 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "사업 범위",
+     "page": "",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HC홈센타의 상장·업종과 건축자재 도소매·레저스포츠 시설 운영, 종속회사의 건설자재·유류·물류 사업을 DART·KIND 공식 자료에서 확인했다. 특정 공급·고객·수주 관계와 공개 테마 단계는 확인하지 않았다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=00288495",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001089",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001089&dcmNo=11165481&eleId=9&offset=103199&length=124133&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [],
+   "issues": []
+  },
+  {
    "id": "HDC",
    "type": "company",
    "path": "companies/HDC",
@@ -27815,6 +27852,28 @@
     "label": "확인 중",
     "muted": false,
     "line_style": "dashed"
+   }
+  },
+  {
+   "source": "HC보광산업",
+   "target": "HC홈센타",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-03-23",
+     "text": "HC홈센타의 2025 사업보고서는 HC보광산업을 종속회사(레미콘 제조·토사석 채취)로 기재한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001089"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
    }
   },
   {
