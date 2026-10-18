@@ -34998,6 +34998,326 @@
    "issues": []
   },
   {
+   "id": "대상홀딩스",
+   "type": "company",
+   "path": "companies/대상홀딩스",
+   "summary": "식품·소재·유통 사업을 보유한 대상그룹의 지주회사",
+   "market": "KOSPI",
+   "ticker": "084690",
+   "dart_corp_code": "00539274",
+   "aliases": [
+    "Daesang Holdings",
+    "Daesang Group"
+   ],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "대상그룹의 식품·소재·유통 포트폴리오를 관리하는 지주회사 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daesangholdings.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00539274",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "식품지주·전략",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "대상그룹의 식품·소재·유통 포트폴리오를 관리하는 지주회사 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.daesangholdings.com/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00539274",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대성미생물",
+   "type": "company",
+   "path": "companies/대성미생물",
+   "summary": "동물용 의약품을 연구·제조·공급하는 바이오·제약 기업",
+   "market": "KOSDAQ",
+   "ticker": "036480",
+   "dart_corp_code": "00177320",
+   "aliases": [
+    "Daesung Microbiological Labs",
+    "Daesung Microbiology"
+   ],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "동물용 의약품 연구개발·제조·품질관리 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dsmbio.com",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00177320",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "동물용 의약품 연구개발·제조·품질관리 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.dsmbio.com",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00177320",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대성산업",
+   "type": "company",
+   "path": "companies/대성산업",
+   "summary": "석유가스 유통과 산업자동화·로봇 솔루션을 함께 운영하는 대성그룹 모기업",
+   "market": "KOSPI",
+   "ticker": "128820",
+   "dart_corp_code": "00828789",
+   "aliases": [
+    "Daesung Industrial",
+    "Daesung A&A"
+   ],
+   "krx_industry": "연료 소매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유 · 기계·산업장비",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "석유가스 유통과 유압·로봇·물류자동화 설비 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.daesung.co.kr",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00828789",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "공정·물류 자동화",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "LPG·가스",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대성에너지",
+   "type": "company",
+   "path": "companies/대성에너지",
+   "summary": "대구·경북권 도시가스 공급과 집단에너지 사업을 운영하는 에너지 기업",
+   "market": "KOSPI",
+   "ticker": "117580",
+   "dart_corp_code": "00787376",
+   "aliases": [
+    "Daesung Energy",
+    "Daegu City Gas"
+   ],
+   "krx_industry": "연료용 가스 제조 및 배관공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "도시가스 공급과 집단·신재생 에너지서비스 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.daesungenergy.com",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00787376",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "도시가스·에너지서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "도시가스 공급과 집단·신재생 에너지서비스 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.daesungenergy.com",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00787376",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대성창투",
+   "type": "company",
+   "path": "companies/대성창투",
+   "summary": "벤처펀드를 운용하고 초기·성장기업에 투자하는 창업투자회사",
+   "market": "KOSDAQ",
+   "ticker": "027830",
+   "dart_corp_code": "00109037",
+   "aliases": [
+    "Daesung Venture Capital",
+    "Daesung Changtu"
+   ],
+   "krx_industry": "신탁업 및 집합투자업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "증권·자산운용",
+     "page": "증권·자산운용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "벤처펀드 운용과 창업·성장기업 투자 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.daesungpe.com",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00109037",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "증권·자산운용",
+     "tier": 1,
+     "stage": "벤처캐피탈·창업투자",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "증권·자산운용",
+       "page": "증권·자산운용",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "벤처펀드 운용과 창업·성장기업 투자 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.daesungpe.com",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00109037",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "대우건설",
    "type": "company",
    "path": "companies/대우건설",
@@ -71007,6 +71327,164 @@
      "sources": [
       "https://www.daesang.com/kr/company/introduce.jsp",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대상홀딩스",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "식품지주·전략",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "대상그룹의 식품·소재·유통 포트폴리오를 관리하는 지주회사 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daesangholdings.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00539274",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대성미생물",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "동물용 의약품 연구개발·제조·품질관리 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dsmbio.com",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00177320",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대성산업",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "공정·물류 자동화",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대성산업",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "LPG·가스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대성에너지",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "도시가스·에너지서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "도시가스 공급과 집단·신재생 에너지서비스 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.daesungenergy.com",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00787376",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대성창투",
+   "target": "증권·자산운용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "벤처캐피탈·창업투자",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "증권·자산운용",
+     "page": "증권·자산운용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "벤처펀드 운용과 창업·성장기업 투자 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.daesungpe.com",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00109037",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
