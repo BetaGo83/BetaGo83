@@ -214,6 +214,16 @@
    ]
   },
   {
+   "id": "부동산·리츠",
+   "type": "theme",
+   "path": "themes/부동산·리츠",
+   "summary": "부동산과 부동산 관련 증권에 투자·운용하고 임대수익과 자산운용 수익을 배당하는 상장 리츠",
+   "category": "금융",
+   "stages": [
+    "오피스 리츠"
+   ]
+  },
+  {
    "id": "사이버보안",
    "type": "theme",
    "path": "themes/사이버보안",
@@ -9376,6 +9386,71 @@
         "https://kbif.co.kr/en/company/intro/content.do",
         "https://kbif.co.kr/ko/invest/portfolio/map-list.do",
         "https://kbif.co.kr/ko/invest/portfolio/asset-list.do",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "KB스타리츠",
+   "type": "company",
+   "path": "companies/KB스타리츠",
+   "summary": "국내외 프라임 오피스를 기초자산으로 하는 영속형 상장 리츠",
+   "market": "KOSPI",
+   "ticker": "432320",
+   "dart_corp_code": "",
+   "aliases": [
+    "KB STAR REIT",
+    "KB스타리츠투자회사"
+   ],
+   "krx_industry": "부동산 임대 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "부동산·리츠",
+     "page": "부동산·리츠",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "KB스타리츠는 부동산 간접투자기구로서 국내외 프라임 오피스 5개 자산의 임대수익을 주주에게 배당하는 상장 리츠다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260512000411&dcmNo=11373335&eleId=12&offset=58394&length=2081&dtd=dart4.xsd",
+      "https://www.kbstarreit.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "부동산·리츠",
+     "tier": 1,
+     "stage": "오피스 리츠",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "부동산·리츠",
+       "page": "부동산·리츠",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "KB스타리츠는 부동산 간접투자기구로서 국내외 프라임 오피스 5개 자산의 임대수익을 주주에게 배당하는 상장 리츠다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260512000411&dcmNo=11373335&eleId=12&offset=58394&length=2081&dtd=dart4.xsd",
+        "https://www.kbstarreit.com/",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -36416,6 +36491,38 @@
       "https://kbif.co.kr/en/company/intro/content.do",
       "https://kbif.co.kr/ko/invest/portfolio/map-list.do",
       "https://kbif.co.kr/ko/invest/portfolio/asset-list.do",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KB스타리츠",
+   "target": "부동산·리츠",
+   "type": "테마",
+   "tier": 1,
+   "stage": "오피스 리츠",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "부동산·리츠",
+     "page": "부동산·리츠",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "KB스타리츠는 부동산 간접투자기구로서 국내외 프라임 오피스 5개 자산의 임대수익을 주주에게 배당하는 상장 리츠다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260512000411&dcmNo=11373335&eleId=12&offset=58394&length=2081&dtd=dart4.xsd",
+      "https://www.kbstarreit.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
