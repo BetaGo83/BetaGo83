@@ -213,7 +213,8 @@
     "유도무기",
     "함정",
     "센서·부품",
-    "방산 전자장비"
+    "방산 전자장비",
+    "방산 차량·변속기"
    ]
   },
   {
@@ -517,7 +518,8 @@
     "영화관·미디어",
     "애니메이션·캐릭터 IP",
     "광고·콘텐츠 제작·연예 매니지먼트",
-    "앨범 인쇄·콘텐츠 제작"
+    "앨범 인쇄·콘텐츠 제작",
+    "라이브 스트리밍·미디어"
    ]
   },
   {
@@ -616,7 +618,8 @@
     "정유·석유화학·윤활",
     "건설화학·비료·수처리",
     "무기화학·가성소다",
-    "사업지주·화학소재 전략"
+    "사업지주·화학소재 전략",
+    "도료·코팅"
    ]
   },
   {
@@ -18681,6 +18684,157 @@
    "issues": []
   },
   {
+   "id": "SNT다이내믹스",
+   "type": "company",
+   "path": "companies/SNT다이내믹스",
+   "summary": "방산용 변속기와 차량 파워트레인, 공작기계를 생산하는 코스피 정밀기계 기업",
+   "market": "KOSPI",
+   "ticker": "003570",
+   "dart_corp_code": "00134477",
+   "aliases": [
+    "SNT Dynamics",
+    "S&T중공업"
+   ],
+   "krx_industry": "자동차 신품 부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "방산",
+     "page": "방산",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SNT다이내믹스의 방산 제품과 자동변속기 사업을 공식 자료와 DART에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://m.sntmotiv.com/kor/main/main.html",
+      "https://englishdart.fss.or.kr/dsbh001/main.do?rcpNo=20260512000195",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SNT다이내믹스의 차량용 파워트레인·차축·변속기 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://m.sntmotiv.com/kor/main/main.html",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00134477"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SNT다이내믹스의 초정밀 공작기계 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://m.sntmotiv.com/kor/main/main.html",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "공작기계·산업용 로봇",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SNT다이내믹스의 초정밀 공작기계 사업을 공식 자료에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://m.sntmotiv.com/kor/main/main.html",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "방산",
+     "tier": 1,
+     "stage": "방산 차량·변속기",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "방산",
+       "page": "방산",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SNT다이내믹스의 방산 제품과 자동변속기 사업을 공식 자료와 DART에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://m.sntmotiv.com/kor/main/main.html",
+        "https://englishdart.fss.or.kr/dsbh001/main.do?rcpNo=20260512000195",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "구동·변속·현가 부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SNT다이내믹스의 차량용 파워트레인·차축·변속기 사업을 공식 자료에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://m.sntmotiv.com/kor/main/main.html",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00134477"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "SNT모티브",
    "type": "company",
    "path": "companies/SNT모티브",
@@ -18727,6 +18881,203 @@
        "sources": [
         "https://www.sntmotiv.com/",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SNT에너지",
+   "type": "company",
+   "path": "companies/SNT에너지",
+   "summary": "석유화학·가스 플랜트와 발전소용 열교환기·배열회수보일러를 생산하는 코스피 기업",
+   "market": "KOSPI",
+   "ticker": "100840",
+   "dart_corp_code": "00648721",
+   "aliases": [
+    "SNT Energy",
+    "S&TC"
+   ],
+   "krx_industry": "일반 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SNT에너지의 플랜트 열교환기·배열회수보일러·복수기·환경설비 사업을 공시와 공식 홈페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "http://www.hisnt.com",
+      "https://kind.krx.co.kr/external/2026/05/12/000231/20260512000482/11013.htm",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00648721"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "에너지·산업설비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SNT에너지의 플랜트 열교환기·배열회수보일러·복수기·환경설비 사업을 공시와 공식 홈페이지에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "http://www.hisnt.com",
+        "https://kind.krx.co.kr/external/2026/05/12/000231/20260512000482/11013.htm",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00648721"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SOOP",
+   "type": "company",
+   "path": "companies/SOOP",
+   "summary": "스트리머 개인방송과 스포츠·e스포츠·오리지널 콘텐츠를 제공하는 라이브 미디어 플랫폼 기업",
+   "market": "KOSDAQ",
+   "ticker": "067160",
+   "dart_corp_code": "00399694",
+   "aliases": [
+    "숲",
+    "아프리카TV",
+    "SOOP Co."
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SOOP의 라이브 스트리밍과 스포츠·e스포츠·오리지널 콘텐츠 플랫폼을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://corp.sooplive.co.kr/?index=",
+      "https://kind.krx.co.kr/external/dst/irReference/18658/2605_IR_Book_SOOP_Kor.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "라이브 스트리밍·미디어",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SOOP의 라이브 스트리밍과 스포츠·e스포츠·오리지널 콘텐츠 플랫폼을 공식 자료에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://corp.sooplive.co.kr/?index=",
+        "https://kind.krx.co.kr/external/dst/irReference/18658/2605_IR_Book_SOOP_Kor.pdf",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SP삼화",
+   "type": "company",
+   "path": "companies/SP삼화",
+   "summary": "건축·공업용 도료와 화학제품을 제조·판매·시공하는 코스피 기업",
+   "market": "KOSPI",
+   "ticker": "000390",
+   "dart_corp_code": "00129387",
+   "aliases": [
+    "에스피삼화",
+    "삼화페인트공업",
+    "SP SAMHWA"
+   ],
+   "krx_industry": "기타 화학제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SP삼화의 건축용·공업용 도료 제조·판매·시공 사업을 공시에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://www.spsamhwa.com/",
+      "https://kind.krx.co.kr/external/2026/05/15/000956/20260515002058/11013.htm",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00129387"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "도료·코팅",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SP삼화의 건축용·공업용 도료 제조·판매·시공 사업을 공시에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://www.spsamhwa.com/",
+        "https://kind.krx.co.kr/external/2026/05/15/000956/20260515002058/11013.htm",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00129387"
        ],
        "malformed": ""
       }
@@ -47965,6 +48316,100 @@
    }
   },
   {
+   "source": "SNT다이내믹스",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "공작기계·산업용 로봇",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SNT다이내믹스의 초정밀 공작기계 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://m.sntmotiv.com/kor/main/main.html",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SNT다이내믹스",
+   "target": "방산",
+   "type": "테마",
+   "tier": 1,
+   "stage": "방산 차량·변속기",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "방산",
+     "page": "방산",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SNT다이내믹스의 방산 제품과 자동변속기 사업을 공식 자료와 DART에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://m.sntmotiv.com/kor/main/main.html",
+      "https://englishdart.fss.or.kr/dsbh001/main.do?rcpNo=20260512000195",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SNT다이내믹스",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "구동·변속·현가 부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SNT다이내믹스의 차량용 파워트레인·차축·변속기 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://m.sntmotiv.com/kor/main/main.html",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00134477"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "SNT모티브",
    "target": "자동차·부품",
    "type": "테마",
@@ -47985,6 +48430,102 @@
      "sources": [
       "https://www.sntmotiv.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SNT에너지",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "에너지·산업설비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SNT에너지의 플랜트 열교환기·배열회수보일러·복수기·환경설비 사업을 공시와 공식 홈페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "http://www.hisnt.com",
+      "https://kind.krx.co.kr/external/2026/05/12/000231/20260512000482/11013.htm",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00648721"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SOOP",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "라이브 스트리밍·미디어",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SOOP의 라이브 스트리밍과 스포츠·e스포츠·오리지널 콘텐츠 플랫폼을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://corp.sooplive.co.kr/?index=",
+      "https://kind.krx.co.kr/external/dst/irReference/18658/2605_IR_Book_SOOP_Kor.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SP삼화",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "도료·코팅",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SP삼화의 건축용·공업용 도료 제조·판매·시공 사업을 공시에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://www.spsamhwa.com/",
+      "https://kind.krx.co.kr/external/2026/05/15/000956/20260515002058/11013.htm",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00129387"
      ],
      "malformed": ""
     }
