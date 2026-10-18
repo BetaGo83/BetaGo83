@@ -8444,6 +8444,76 @@
    "issues": []
   },
   {
+   "id": "IPARK현대산업개발",
+   "type": "company",
+   "path": "companies/IPARK현대산업개발",
+   "summary": "주택·건축·토목 시공과 도시개발을 수행하는 종합 디벨로퍼",
+   "market": "KOSPI",
+   "ticker": "294870",
+   "dart_corp_code": "01310269",
+   "aliases": [
+    "에이치디씨현대산업개발",
+    "HDC현대산업개발",
+    "아이파크현대산업개발"
+   ],
+   "krx_industry": "건물 건설업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "IPARK현대산업개발의 주택·건축·토목·도시개발 사업을 사업보고서와 회사 공식 사업자료에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001249",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001249&dcmNo=11141208&eleId=10&offset=121761&length=2199&dtd=dart4.xsd",
+      "https://www.ipark-dvp.com/ko/business/overview",
+      "https://www.ipark-dvp.com/ko/business/urban-development"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "주택·건축·토목",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "IPARK현대산업개발의 주택·건축·토목·도시개발 사업을 사업보고서와 회사 공식 사업자료에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001249",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001249&dcmNo=11141208&eleId=10&offset=121761&length=2199&dtd=dart4.xsd",
+        "https://www.ipark-dvp.com/ko/business/overview",
+        "https://www.ipark-dvp.com/ko/business/urban-development"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "ISC",
    "type": "company",
    "path": "companies/ISC",
@@ -35109,6 +35179,40 @@
      "sources": [
       "https://www.htrobotics.kr/?lang=ko",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "IPARK현대산업개발",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "주택·건축·토목",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "IPARK현대산업개발의 주택·건축·토목·도시개발 사업을 사업보고서와 회사 공식 사업자료에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001249",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001249&dcmNo=11141208&eleId=10&offset=121761&length=2199&dtd=dart4.xsd",
+      "https://www.ipark-dvp.com/ko/business/overview",
+      "https://www.ipark-dvp.com/ko/business/urban-development"
      ],
      "malformed": ""
     }
