@@ -35,7 +35,7 @@ category: "기술·디지털"
 - 반도체 제조 장비: [[GST]] ([GST 공식 홈페이지](https://www.gst-in.com/), [GST Products](https://www.gst-in.com/m21.php?cate=1))
 - 패키지기판: [[해성디에스]] ([HAESUNG DS](https://haesungds.co.kr/eng/?p=products%7Cpkg_substrate%7Coverview))
 - 시스템반도체 파운드리: [[DB하이텍]] ([DB하이텍 회사소개](https://www.dbhitek.com/kr/company/about))
-- 시스템반도체 설계·IP: [[가온칩스]] ([가온칩스 공식 What We do](https://www.gaonchips.com/kr/), [한국거래소 KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt))
+- 시스템반도체 설계·IP: [[가온칩스]] ([가온칩스 공식 What We do](https://www.gaonchips.com/kr/), [한국거래소 KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt)), [[글로벌테크놀로지]] ([한국거래소 KIND 기업공시](https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20251111000317&method=searchListInvstgCorpDetail), [글로벌테크놀로지 공식 홈페이지](https://www.glbltech.com/))
 
 ## 관련 기업
 <!-- scripts/build_graph.py가 만드는 표. 손으로 고치지 않는다 -->
@@ -62,6 +62,7 @@ category: "기술·디지털"
 | [[고영]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](https://kohyoung.com/kr/), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[광전자]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](https://kwcomp.fnguide.com/CompanyInfo/Snapshot?cmp_cd=017900), [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000424), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[그린리소스]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](https://kind.krx.co.kr/external/dst/irReference/17904/%EA%B7%B8%EB%A6%B0%EB%A6%AC%EC%86%8C%EC%8A%A4_IR%20251216%20%28최종%29.pdf), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
+| [[글로벌테크놀로지]] | HBM·반도체 | 공시·거래소 확인 | 확인 | 2026-10-19 | 거래소 자료 [출처](https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20251111000317&method=searchListInvstgCorpDetail), [출처](https://www.glbltech.com/), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[네오셈]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-09-28 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900837) |
 | [[네오셈]] | HBM 수요 확대 | 후보 | 후보(확인 중) | 2026-03-18 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000748) |
 | [[대덕전자]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.daeduck.com/ko/main.do), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |

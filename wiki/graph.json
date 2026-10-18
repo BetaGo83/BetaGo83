@@ -144,7 +144,8 @@
     "공정·물류 자동화",
     "승강·물류장비",
     "에너지·산업설비",
-    "전동공구·모터"
+    "전동공구·모터",
+    "정밀 부품·패스너"
    ]
   },
   {
@@ -24862,6 +24863,416 @@
        "weak": false,
        "sources": [
         "https://greenplus.co.kr/sub2/2_1.php",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "극동유화",
+   "type": "company",
+   "path": "companies/극동유화",
+   "summary": "산업·특수 윤활유와 LPG를 공급하는 석유화학 기업",
+   "market": "KOSPI",
+   "ticker": "014530",
+   "dart_corp_code": "",
+   "aliases": [
+    "KUKDONG OIL & CHEMICALS"
+   ],
+   "krx_industry": "석유 정제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "산업·기계용 윤활유와 특수유, LPG 공급·판매 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00105156",
+      "https://www.k5.co.kr/stock/014530",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "정유·윤활",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "산업·기계용 윤활유와 특수유, LPG 공급·판매 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00105156",
+        "https://www.k5.co.kr/stock/014530",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "글로벌에스엠",
+   "type": "company",
+   "path": "companies/글로벌에스엠",
+   "summary": "전자제품·기계용 초소형 정밀 체결 부품을 생산하는 지주회사",
+   "market": "KOSDAQ",
+   "ticker": "900070",
+   "dart_corp_code": "",
+   "aliases": [
+    "Global SM Tech Limited",
+    "GLOBAL SM"
+   ],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자회사들의 전자제품·기계용 초소형 정밀 체결 부품 생산을 확인했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://www.k5.co.kr/stock/900070",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00783246",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "정밀 부품·패스너",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "자회사들의 전자제품·기계용 초소형 정밀 체결 부품 생산을 확인했다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://www.k5.co.kr/stock/900070",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00783246",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "글로벌테크놀로지",
+   "type": "company",
+   "path": "companies/글로벌테크놀로지",
+   "summary": "LED 드라이버 IC와 투명 LED 디스플레이용 반도체를 개발하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "486510",
+   "dart_corp_code": "",
+   "aliases": [
+    "Global Technologies"
+   ],
+   "krx_industry": "반도체 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "LED Driver IC와 자동차용 시스템 반도체 제품을 확인했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20251111000317&method=searchListInvstgCorpDetail",
+      "https://www.glbltech.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "투명 LED Display와 Micro LED IC·Module 제품을 확인했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20251111000317&method=searchListInvstgCorpDetail",
+      "https://www.glbltech.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "시스템반도체 설계·IP",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "LED Driver IC와 자동차용 시스템 반도체 제품을 확인했다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20251111000317&method=searchListInvstgCorpDetail",
+        "https://www.glbltech.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "디스플레이 제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "디스플레이",
+       "page": "디스플레이",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "투명 LED Display와 Micro LED IC·Module 제품을 확인했다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20251111000317&method=searchListInvstgCorpDetail",
+        "https://www.glbltech.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "글로벌텍스프리",
+   "type": "company",
+   "path": "companies/글로벌텍스프리",
+   "summary": "외국인 관광객의 세금환급과 전자환급 시스템을 운영하는 금융 지원 서비스 기업",
+   "market": "KOSDAQ",
+   "ticker": "204620",
+   "dart_corp_code": "",
+   "aliases": [
+    "Global Tax Free",
+    "GTF"
+   ],
+   "krx_industry": "금융 지원 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "핀테크·전자결제",
+     "page": "핀테크·전자결제",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "외국인 관광객 대상 전자환급시스템과 세금환급 대행 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://trust.gtfetrs.com/kr/cor/COR01001A.page?mnuDiv=cor&tabNo=1",
+      "https://kind.krx.co.kr/external/2025/05/15/000174/20250515000363/11013.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "핀테크·전자결제",
+     "tier": 1,
+     "stage": "전자결제",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "핀테크·전자결제",
+       "page": "핀테크·전자결제",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "외국인 관광객 대상 전자환급시스템과 세금환급 대행 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://trust.gtfetrs.com/kr/cor/COR01001A.page?mnuDiv=cor&tabNo=1",
+        "https://kind.krx.co.kr/external/2025/05/15/000174/20250515000363/11013.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "글로본",
+   "type": "company",
+   "path": "companies/글로본",
+   "summary": "화장품·디바이스와 Beauty AI, AI Edge 인프라를 연결하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "019660",
+   "dart_corp_code": "",
+   "aliases": [
+    "GLOBON"
+   ],
+   "krx_industry": "상품 종합 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "맞춤형 화장품과 K-뷰티 브랜드 제품의 제조·판매·수출을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.globon.io/business",
+      "https://www.globon.io/philosophy",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "피부 분석·추천을 제공하는 Beauty AI Platform과 AI Edge Data Center를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.globon.io/business",
+      "https://www.globon.io/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "AI·클라우드",
+     "tier": 1,
+     "stage": "AI·클라우드 구축·운영",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "AI·클라우드",
+       "page": "AI·클라우드",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "피부 분석·추천을 제공하는 Beauty AI Platform과 AI Edge Data Center를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.globon.io/business",
+        "https://www.globon.io/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "화장품·미용",
+     "tier": 1,
+     "stage": "화장품 제조·판매",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화장품·미용",
+       "page": "화장품·미용",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "맞춤형 화장품과 K-뷰티 브랜드 제품의 제조·판매·수출을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.globon.io/business",
+        "https://www.globon.io/philosophy",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
@@ -56498,6 +56909,229 @@
      "weak": false,
      "sources": [
       "https://greenplus.co.kr/sub2/2_1.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "극동유화",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "정유·윤활",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "산업·기계용 윤활유와 특수유, LPG 공급·판매 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00105156",
+      "https://www.k5.co.kr/stock/014530",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "글로벌에스엠",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "정밀 부품·패스너",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자회사들의 전자제품·기계용 초소형 정밀 체결 부품 생산을 확인했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://www.k5.co.kr/stock/900070",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00783246",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "글로벌테크놀로지",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "시스템반도체 설계·IP",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "LED Driver IC와 자동차용 시스템 반도체 제품을 확인했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20251111000317&method=searchListInvstgCorpDetail",
+      "https://www.glbltech.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "글로벌테크놀로지",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "디스플레이 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "투명 LED Display와 Micro LED IC·Module 제품을 확인했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20251111000317&method=searchListInvstgCorpDetail",
+      "https://www.glbltech.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "글로벌텍스프리",
+   "target": "핀테크·전자결제",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전자결제",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "핀테크·전자결제",
+     "page": "핀테크·전자결제",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "외국인 관광객 대상 전자환급시스템과 세금환급 대행 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://trust.gtfetrs.com/kr/cor/COR01001A.page?mnuDiv=cor&tabNo=1",
+      "https://kind.krx.co.kr/external/2025/05/15/000174/20250515000363/11013.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "글로본",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 1,
+   "stage": "AI·클라우드 구축·운영",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "피부 분석·추천을 제공하는 Beauty AI Platform과 AI Edge Data Center를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.globon.io/business",
+      "https://www.globon.io/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "글로본",
+   "target": "화장품·미용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "화장품 제조·판매",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "맞춤형 화장품과 K-뷰티 브랜드 제품의 제조·판매·수출을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.globon.io/business",
+      "https://www.globon.io/philosophy",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
