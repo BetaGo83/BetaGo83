@@ -39619,27 +39619,296 @@
    "issues": []
   },
   {
-   "id": "덴티움",
+   "id": "데이원컴퍼니",
    "type": "company",
-   "path": "companies/덴티움",
-   "summary": "치과용 기기 제조 사업을 하는 기업",
-   "market": "KOSPI",
-   "ticker": "145720",
-   "dart_corp_code": "",
-   "aliases": [],
+   "path": "companies/데이원컴퍼니",
+   "summary": "성인 실무교육 브랜드와 온라인 교육 콘텐츠·플랫폼을 운영하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "373160",
+   "dart_corp_code": "01455492",
+   "aliases": [
+    "Day1 Company",
+    "FastCampus",
+    "Coloso"
+   ],
+   "krx_industry": "기타 교육기관",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "교육·출판",
+     "page": "교육·출판",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "성인 실무교육 브랜드와 온라인 교육 콘텐츠·플랫폼 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://day1company.co.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000318",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "교육·출판",
+     "tier": 1,
+     "stage": "교육 콘텐츠·플랫폼",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "교육·출판",
+       "page": "교육·출판",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "성인 실무교육 브랜드와 온라인 교육 콘텐츠·플랫폼 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://day1company.co.kr/",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000318",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "데이타솔루션",
+   "type": "company",
+   "path": "companies/데이타솔루션",
+   "summary": "AI·데이터·클라우드 기반의 데이터 플랫폼과 기업용 디지털 혁신 솔루션을 제공하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "263800",
+   "dart_corp_code": "00877819",
+   "aliases": [
+    "Data Solution"
+   ],
+   "krx_industry": "기계장비 및 관련 물품 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "클라우드 인프라·데이터 플랫폼·AI 솔루션을 연결하는 기업용 DX·AX 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.datasolution.kr/info/vision",
+      "https://www.datasolution.kr/info/business",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001182",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "AI·클라우드",
+     "tier": 1,
+     "stage": "AI·클라우드 구축·운영",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "AI·클라우드",
+       "page": "AI·클라우드",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "클라우드 인프라·데이터 플랫폼·AI 솔루션을 연결하는 기업용 DX·AX 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.datasolution.kr/info/vision",
+        "https://www.datasolution.kr/info/business",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001182",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "덱스터",
+   "type": "company",
+   "path": "companies/덱스터",
+   "summary": "영화·드라마·광고의 VFX와 버추얼 프로덕션을 포함한 올인원 콘텐츠 제작 기업",
+   "market": "KOSDAQ",
+   "ticker": "206560",
+   "dart_corp_code": "01021949",
+   "aliases": [
+    "Dexter Studios",
+    "덱스터스튜디오"
+   ],
+   "krx_industry": "영화, 비디오물, 방송프로그램 제작 및 배급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "영화·드라마·광고의 VFX와 버추얼 프로덕션을 포함한 콘텐츠 제작 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dexterstudios.com/ko/",
+      "https://dexterstudios.com/ko/what-we-do/virtual-production/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000939",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "영상 VFX 제작",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "영화·드라마·광고의 VFX와 버추얼 프로덕션을 포함한 콘텐츠 제작 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dexterstudios.com/ko/",
+        "https://dexterstudios.com/ko/what-we-do/virtual-production/",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000939",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "덴티스",
+   "type": "company",
+   "path": "companies/덴티스",
+   "summary": "임플란트·치과의료장비·3D 프린터 등 치과·메디컬 솔루션을 제공하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "261200",
+   "dart_corp_code": "01187494",
+   "aliases": [
+    "DENTIS"
+   ],
    "krx_industry": "의료용 기기 제조업",
    "classification_as_of": "2026-10-09",
    "classifications": [
     {
      "topic": "의료기기",
      "page": "의료기기",
-     "classification": "공시·거래소 확인",
+     "classification": "공식 발표 확인",
      "status": "확인",
-     "date": "2026-10-09",
-     "text": "치과용 기기를 제조한다는 사업 내용을 주요제품란에 기재했다.",
-     "evidence_level": "거래소 자료",
+     "date": "2026-10-19",
+     "text": "임플란트·치과의료장비·3D 프린터 등 치과용 의료기기 사업을 확인했다.",
+     "evidence_level": "공식 발표",
      "weak": false,
      "sources": [
+      "https://dentis.co.kr/main/",
+      "https://kind.krx.co.kr/external/2026/05/13/000248/20260513000438/11013.htm",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001690",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "치과용 기기",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "임플란트·치과의료장비·3D 프린터 등 치과용 의료기기 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dentis.co.kr/main/",
+        "https://kind.krx.co.kr/external/2026/05/13/000248/20260513000438/11013.htm",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001690",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "덴티움",
+   "type": "company",
+   "path": "companies/덴티움",
+   "summary": "치과용 기기 제조 사업을 하는 기업",
+   "market": "KOSPI",
+   "ticker": "145720",
+   "dart_corp_code": "00526599",
+   "aliases": [
+    "Dentium"
+   ],
+   "krx_industry": "의료용 기기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "치과용 임플란트와 골이식재·차폐막 등 치과용 의료기기 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dentium.co.kr/m/dsn/dentium01_03.php",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001196",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
@@ -39655,13 +39924,15 @@
       {
        "topic": "의료기기",
        "page": "의료기기",
-       "classification": "공시·거래소 확인",
+       "classification": "공식 발표 확인",
        "status": "확인",
-       "date": "2026-10-09",
-       "text": "치과용 기기를 제조한다는 사업 내용을 주요제품란에 기재했다.",
-       "evidence_level": "거래소 자료",
+       "date": "2026-10-19",
+       "text": "치과용 임플란트와 골이식재·차폐막 등 치과용 의료기기 사업을 확인했다.",
+       "evidence_level": "공식 발표",
        "weak": false,
        "sources": [
+        "https://www.dentium.co.kr/m/dsn/dentium01_03.php",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001196",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -77447,6 +77718,137 @@
    }
   },
   {
+   "source": "데이원컴퍼니",
+   "target": "교육·출판",
+   "type": "테마",
+   "tier": 1,
+   "stage": "교육 콘텐츠·플랫폼",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "교육·출판",
+     "page": "교육·출판",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "성인 실무교육 브랜드와 온라인 교육 콘텐츠·플랫폼 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://day1company.co.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000318",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "데이타솔루션",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 1,
+   "stage": "AI·클라우드 구축·운영",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "클라우드 인프라·데이터 플랫폼·AI 솔루션을 연결하는 기업용 DX·AX 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.datasolution.kr/info/vision",
+      "https://www.datasolution.kr/info/business",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001182",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "덱스터",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "영상 VFX 제작",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "영화·드라마·광고의 VFX와 버추얼 프로덕션을 포함한 콘텐츠 제작 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dexterstudios.com/ko/",
+      "https://dexterstudios.com/ko/what-we-do/virtual-production/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000939",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "덴티스",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "치과용 기기",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "임플란트·치과의료장비·3D 프린터 등 치과용 의료기기 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dentis.co.kr/main/",
+      "https://kind.krx.co.kr/external/2026/05/13/000248/20260513000438/11013.htm",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001690",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "덴티움",
    "target": "의료기기",
    "type": "테마",
@@ -77458,13 +77860,15 @@
     {
      "topic": "의료기기",
      "page": "의료기기",
-     "classification": "공시·거래소 확인",
+     "classification": "공식 발표 확인",
      "status": "확인",
-     "date": "2026-10-09",
-     "text": "치과용 기기를 제조한다는 사업 내용을 주요제품란에 기재했다.",
-     "evidence_level": "거래소 자료",
+     "date": "2026-10-19",
+     "text": "치과용 임플란트와 골이식재·차폐막 등 치과용 의료기기 사업을 확인했다.",
+     "evidence_level": "공식 발표",
      "weak": false,
      "sources": [
+      "https://www.dentium.co.kr/m/dsn/dentium01_03.php",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001196",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
