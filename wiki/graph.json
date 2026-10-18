@@ -38163,13 +38163,310 @@
    "issues": []
   },
   {
+   "id": "대호특수강",
+   "type": "company",
+   "path": "companies/대호특수강",
+   "summary": "냉간압조용선재 등 특수선재를 생산하는 철강 기업",
+   "market": "KOSDAQ",
+   "ticker": "021040",
+   "dart_corp_code": "00166175",
+   "aliases": [
+    "Daeho Specialty Steel"
+   ],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "냉간압조용선재 등 특수선재 제품을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dhstl.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000646",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "특수선재·와이어",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "냉간압조용선재 등 특수선재 제품을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.dhstl.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000646",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대화제약",
+   "type": "company",
+   "path": "companies/대화제약",
+   "summary": "전문의약품과 일반의약품을 개발·제조하는 제약 기업",
+   "market": "KOSDAQ",
+   "ticker": "067080",
+   "dart_corp_code": "00210740",
+   "aliases": [
+    "Daehwa Pharmaceutical"
+   ],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "전문의약품·일반의약품과 의약품 제조 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dhpharm.co.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000941",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "전문의약품·일반의약품과 의약품 제조 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dhpharm.co.kr/",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000941",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "더네이쳐홀딩스",
+   "type": "company",
+   "path": "companies/더네이쳐홀딩스",
+   "summary": "의류·여행용 가방과 라이프스타일 제품을 기획·유통하는 패션 기업",
+   "market": "KOSDAQ",
+   "ticker": "298540",
+   "dart_corp_code": "01214743",
+   "aliases": [
+    "The Nature Holdings"
+   ],
+   "krx_industry": "의복 액세서리 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "의류·여행용 가방·잡화와 라이프스타일 브랜드 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.thenatureholdings.co.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000817",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "패션·의류",
+     "tier": 1,
+     "stage": "패션 브랜드 제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "패션·의류",
+       "page": "패션·의류",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "의류·여행용 가방·잡화와 라이프스타일 브랜드 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.thenatureholdings.co.kr/",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000817",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "더라미",
+   "type": "company",
+   "path": "companies/더라미",
+   "summary": "화장품 사업과 철스크랩 재활용 사업을 함께 운영하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "032860",
+   "dart_corp_code": "00205687",
+   "aliases": [
+    "The Lamy"
+   ],
+   "krx_industry": "해체, 선별 및 원료 재생업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "화장품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.thelamy.com/page/page1",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001093"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "철스크랩 해체·선별 및 원료 재생 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.thelamy.com/page/page1",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001093"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화장품·미용",
+     "tier": 1,
+     "stage": "화장품 제조·판매",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화장품·미용",
+       "page": "화장품·미용",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "화장품 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.thelamy.com/page/page1",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001093"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "환경·자원순환",
+     "tier": 1,
+     "stage": "자원 재활용",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "환경·자원순환",
+       "page": "환경·자원순환",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "철스크랩 해체·선별 및 원료 재생 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.thelamy.com/page/page1",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001093"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "더본코리아",
    "type": "company",
    "path": "companies/더본코리아",
    "summary": "외식 브랜드 프랜차이즈 사업을 운영하는 식음료 기업",
    "market": "KOSPI",
    "ticker": "475560",
-   "dart_corp_code": "",
+   "dart_corp_code": "00968607",
    "aliases": [],
    "krx_industry": "상품 종합 도매업",
    "classification_as_of": "2026-10-09",
@@ -38177,13 +38474,15 @@
     {
      "topic": "음식료",
      "page": "음식료",
-     "classification": "공시·거래소 확인",
+     "classification": "공식 발표 확인",
      "status": "확인",
-     "date": "2026-10-18",
-     "text": "한국거래소 KIND 상장법인 목록은 더본코리아의 업종을 상품 종합 도매업, 주요제품을 프랜차이즈로 기재한다.",
-     "evidence_level": "거래소 자료",
+     "date": "2026-10-19",
+     "text": "외식 브랜드와 프랜차이즈 사업을 확인했다.",
+     "evidence_level": "공식 발표",
      "weak": false,
      "sources": [
+      "https://www.theborn.co.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000930",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
@@ -38199,13 +38498,15 @@
       {
        "topic": "음식료",
        "page": "음식료",
-       "classification": "공시·거래소 확인",
+       "classification": "공식 발표 확인",
        "status": "확인",
-       "date": "2026-10-18",
-       "text": "한국거래소 KIND 상장법인 목록은 더본코리아의 업종을 상품 종합 도매업, 주요제품을 프랜차이즈로 기재한다.",
-       "evidence_level": "거래소 자료",
+       "date": "2026-10-19",
+       "text": "외식 브랜드와 프랜차이즈 사업을 확인했다.",
+       "evidence_level": "공식 발표",
        "weak": false,
        "sources": [
+        "https://www.theborn.co.kr/",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000930",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -75286,6 +75587,164 @@
    }
   },
   {
+   "source": "대호특수강",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "특수선재·와이어",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "냉간압조용선재 등 특수선재 제품을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dhstl.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000646",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대화제약",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "전문의약품·일반의약품과 의약품 제조 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dhpharm.co.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000941",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "더네이쳐홀딩스",
+   "target": "패션·의류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "패션 브랜드 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "의류·여행용 가방·잡화와 라이프스타일 브랜드 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.thenatureholdings.co.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000817",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "더라미",
+   "target": "화장품·미용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "화장품 제조·판매",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "화장품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.thelamy.com/page/page1",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001093"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "더라미",
+   "target": "환경·자원순환",
+   "type": "테마",
+   "tier": 1,
+   "stage": "자원 재활용",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "철스크랩 해체·선별 및 원료 재생 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.thelamy.com/page/page1",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001093"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "더본코리아",
    "target": "음식료",
    "type": "테마",
@@ -75297,13 +75756,15 @@
     {
      "topic": "음식료",
      "page": "음식료",
-     "classification": "공시·거래소 확인",
+     "classification": "공식 발표 확인",
      "status": "확인",
-     "date": "2026-10-18",
-     "text": "한국거래소 KIND 상장법인 목록은 더본코리아의 업종을 상품 종합 도매업, 주요제품을 프랜차이즈로 기재한다.",
-     "evidence_level": "거래소 자료",
+     "date": "2026-10-19",
+     "text": "외식 브랜드와 프랜차이즈 사업을 확인했다.",
+     "evidence_level": "공식 발표",
      "weak": false,
      "sources": [
+      "https://www.theborn.co.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000930",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
