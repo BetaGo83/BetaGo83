@@ -8274,6 +8274,77 @@
    "issues": []
   },
   {
+   "id": "HS효성첨단소재",
+   "type": "company",
+   "path": "companies/HS효성첨단소재",
+   "summary": "타이어보강재·산업용 원사·자동차 카페트 등 첨단 산업소재를 생산하는 기업",
+   "market": "KOSPI",
+   "ticker": "298050",
+   "dart_corp_code": "01316254",
+   "aliases": [
+    "HS Hyosung Advanced Materials",
+    "HS Hyosung Advanced Materials Corporation",
+    "에이치에스효성첨단소재(주)",
+    "효성첨단소재(주)"
+   ],
+   "krx_industry": "화학섬유 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HS효성첨단소재의 자동차용 카페트·카매트·시트벨트·에어백 소재 역할을 사업보고서와 회사 공식 첨단소재 자료에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001146",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312001146&dcmNo=11116154&eleId=10&offset=111369&length=3831&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312001146&dcmNo=11116154&eleId=11&offset=115204&length=11025&dtd=dart4.xsd",
+      "https://www.hshyosung.com/kr/business/advanced-materials"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "자동차 내장·흡차음 소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "HS효성첨단소재의 자동차용 카페트·카매트·시트벨트·에어백 소재 역할을 사업보고서와 회사 공식 첨단소재 자료에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001146",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312001146&dcmNo=11116154&eleId=10&offset=111369&length=3831&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312001146&dcmNo=11116154&eleId=11&offset=115204&length=11025&dtd=dart4.xsd",
+        "https://www.hshyosung.com/kr/business/advanced-materials"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "HT로보틱스",
    "type": "company",
    "path": "companies/HT로보틱스",
@@ -34937,6 +35008,40 @@
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000964&dcmNo=11115337&eleId=10&offset=91837&length=1635&dtd=dart4.xsd",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312000964&dcmNo=11115337&eleId=13&offset=206990&length=34780&dtd=dart4.xsd",
       "https://www.hshyosung.com/kr/business/logistics"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HS효성첨단소재",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "자동차 내장·흡차음 소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HS효성첨단소재의 자동차용 카페트·카매트·시트벨트·에어백 소재 역할을 사업보고서와 회사 공식 첨단소재 자료에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001146",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312001146&dcmNo=11116154&eleId=10&offset=111369&length=3831&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260312001146&dcmNo=11116154&eleId=11&offset=115204&length=11025&dtd=dart4.xsd",
+      "https://www.hshyosung.com/kr/business/advanced-materials"
      ],
      "malformed": ""
     }
