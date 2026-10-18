@@ -14866,6 +14866,69 @@
    "issues": []
   },
   {
+   "id": "NICE인프라",
+   "type": "company",
+   "path": "companies/NICE인프라",
+   "summary": "ATM·CD-VAN과 주차·키오스크·전기차 충전 등 무인 인프라를 운영하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "063570",
+   "dart_corp_code": "00104517",
+   "aliases": [
+    "한국전자금융",
+    "NICE Infra"
+   ],
+   "krx_industry": "기타 사업지원 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "핀테크·전자결제",
+     "page": "핀테크·전자결제",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "ATM·CD-VAN과 디지털금융 등 무인 금융 인프라 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.niceinfra.co.kr/pages/company/overview.jsp",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "핀테크·전자결제",
+     "tier": 1,
+     "stage": "금융 플랫폼·솔루션",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "핀테크·전자결제",
+       "page": "핀테크·전자결제",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "ATM·CD-VAN과 디지털금융 등 무인 금융 인프라 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.niceinfra.co.kr/pages/company/overview.jsp",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "NICE평가정보",
    "type": "company",
    "path": "companies/NICE평가정보",
@@ -14919,6 +14982,69 @@
         "https://www.niceinfo.co.kr/business/NICEBizLINE.nice",
         "https://www.niceinfo.co.kr/business/NICEiD_2.nice",
         "https://www.niceinfo.co.kr/business/TCB.nice",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "NI스틸",
+   "type": "company",
+   "path": "companies/NI스틸",
+   "summary": "강건재 합성보·합성기둥과 강재리스 제품을 제조·판매하는 코스피 상장 철강사",
+   "market": "KOSPI",
+   "ticker": "008260",
+   "dart_corp_code": "00116301",
+   "aliases": [
+    "NI STEEL",
+    "엔아이스틸"
+   ],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "철강 성형제품 제조·판매와 강재리스 역할을 확인했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001308",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "철강",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "철강 성형제품 제조·판매와 강재리스 역할을 확인했다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001308",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -43213,6 +43339,37 @@
    }
   },
   {
+   "source": "NICE인프라",
+   "target": "핀테크·전자결제",
+   "type": "테마",
+   "tier": 1,
+   "stage": "금융 플랫폼·솔루션",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "핀테크·전자결제",
+     "page": "핀테크·전자결제",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "ATM·CD-VAN과 디지털금융 등 무인 금융 인프라 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.niceinfra.co.kr/pages/company/overview.jsp",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "NICE평가정보",
    "target": "핀테크·전자결제",
    "type": "테마",
@@ -43236,6 +43393,37 @@
       "https://www.niceinfo.co.kr/business/NICEBizLINE.nice",
       "https://www.niceinfo.co.kr/business/NICEiD_2.nice",
       "https://www.niceinfo.co.kr/business/TCB.nice",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "NI스틸",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "철강",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "철강 성형제품 제조·판매와 강재리스 역할을 확인했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001308",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
