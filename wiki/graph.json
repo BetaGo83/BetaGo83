@@ -10417,6 +10417,73 @@
    "issues": []
   },
   {
+   "id": "KISCO홀딩스",
+   "type": "company",
+   "path": "companies/KISCO홀딩스",
+   "summary": "지주사업과 철강 계열 제조사업을 함께 관리하는 철강 그룹 지주회사",
+   "market": "KOSPI",
+   "ticker": "001940",
+   "dart_corp_code": "00159740",
+   "aliases": [
+    "KISCO Holdings",
+    "키스코홀딩스"
+   ],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "지주사업과 한국철강·환영철강공업의 철근 제조를 DART와 KIND 공식 자료에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003247",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814003247&dcmNo=11536394&eleId=9&offset=98447&length=151951&dtd=dart4.xsd&displayImage=show",
+      "https://www.kiscoholdings.co.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "철강",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "지주사업과 한국철강·환영철강공업의 철근 제조를 DART와 KIND 공식 자료에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003247",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814003247&dcmNo=11536394&eleId=9&offset=98447&length=151951&dtd=dart4.xsd&displayImage=show",
+        "https://www.kiscoholdings.co.kr/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "LB세미콘",
    "type": "company",
    "path": "companies/LB세미콘",
@@ -37885,6 +37952,39 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930000792",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260930000792&dcmNo=11598080&eleId=11&offset=196914&length=40352&dtd=dart4.xsd&displayImage=show",
       "https://www.khvatec.com/ko/main"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KISCO홀딩스",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "철강",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "지주사업과 한국철강·환영철강공업의 철근 제조를 DART와 KIND 공식 자료에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003247",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814003247&dcmNo=11536394&eleId=9&offset=98447&length=151951&dtd=dart4.xsd&displayImage=show",
+      "https://www.kiscoholdings.co.kr/"
      ],
      "malformed": ""
     }
