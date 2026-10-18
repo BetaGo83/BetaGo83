@@ -586,7 +586,8 @@
     "스포츠의류",
     "여성의류·패션 잡화",
     "합성섬유",
-    "스포츠용품·가방"
+    "스포츠용품·가방",
+    "의류 ODM·OEM"
    ]
   },
   {
@@ -31396,6 +31397,331 @@
        "sources": [
         "https://www.mynovatech.com/",
         "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01259232",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "노브랜드",
+   "type": "company",
+   "path": "companies/노브랜드",
+   "summary": "글로벌 패션 브랜드를 위한 의류 ODM·OEM 제조 기업",
+   "market": "KOSDAQ",
+   "ticker": "145170",
+   "dart_corp_code": "00305941",
+   "aliases": [
+    "NOBLAND",
+    "Nobland International"
+   ],
+   "krx_industry": "편조의복 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "글로벌 패션 브랜드 대상 의류 ODM·OEM 제조·수출 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nobland.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00305941",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "패션·의류",
+     "tier": 1,
+     "stage": "의류 ODM·OEM",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "패션·의류",
+       "page": "패션·의류",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "글로벌 패션 브랜드 대상 의류 ODM·OEM 제조·수출 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nobland.com/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00305941",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "노을",
+   "type": "company",
+   "path": "companies/노을",
+   "summary": "AI와 디지털 현미경을 결합한 분산형 체외진단 플랫폼 기업",
+   "market": "KOSDAQ",
+   "ticker": "376930",
+   "dart_corp_code": "01494118",
+   "aliases": [
+    "NOUL",
+    "Noul Co., Ltd."
+   ],
+   "krx_industry": "의료용 기기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "miLab™ 체외진단 카트리지와 AI 분석 플랫폼 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://noul.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01494118",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "체외진단 키트",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "miLab™ 체외진단 카트리지와 AI 분석 플랫폼 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://noul.com/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01494118",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "노타",
+   "type": "company",
+   "path": "companies/노타",
+   "summary": "엣지 환경에 맞게 AI 모델을 경량화·최적화하는 AI 소프트웨어 기업",
+   "market": "KOSDAQ",
+   "ticker": "486990",
+   "dart_corp_code": "01810477",
+   "aliases": [
+    "Nota",
+    "Nota Inc."
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "AI 모델 경량화·최적화와 엣지 AI 소프트웨어 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nota.ai/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01810477",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "AI·클라우드",
+     "tier": 1,
+     "stage": "AI 모델·서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "AI·클라우드",
+       "page": "AI·클라우드",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "AI 모델 경량화·최적화와 엣지 AI 소프트웨어 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nota.ai/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01810477",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "녹십자",
+   "type": "company",
+   "path": "companies/녹십자",
+   "summary": "혈액제제·백신·희귀질환 치료제를 개발·생산하는 바이오제약 기업",
+   "market": "KOSPI",
+   "ticker": "006280",
+   "dart_corp_code": "00164501",
+   "aliases": [
+    "GC녹십자",
+    "GC Biopharma"
+   ],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "혈액제제·백신·재조합단백질 의약품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://gcbiopharma.com/kor/field.do",
+      "https://kind.krx.co.kr/external/2024/03/20/001942/20240320008958/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "혈액제제·백신·재조합단백질 의약품 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://gcbiopharma.com/kor/field.do",
+        "https://kind.krx.co.kr/external/2024/03/20/001942/20240320008958/11011.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "녹십자엠에스",
+   "type": "company",
+   "path": "companies/녹십자엠에스",
+   "summary": "진단키트와 혈액백·의료용품을 제조하는 체외진단 기업",
+   "market": "KOSDAQ",
+   "ticker": "142280",
+   "dart_corp_code": "00513948",
+   "aliases": [
+    "GCMS",
+    "GC Medical Science"
+   ],
+   "krx_industry": "의료용품 및 기타 의약 관련제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "체외진단 제품과 혈액 관련 의료용품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.greencrossms.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00513948",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "체외진단 키트",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "체외진단 제품과 혈액 관련 의료용품 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.greencrossms.com/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00513948",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
@@ -66025,6 +66351,166 @@
      "sources": [
       "https://www.mynovatech.com/",
       "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01259232",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "노브랜드",
+   "target": "패션·의류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의류 ODM·OEM",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "글로벌 패션 브랜드 대상 의류 ODM·OEM 제조·수출 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nobland.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00305941",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "노을",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "체외진단 키트",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "miLab™ 체외진단 카트리지와 AI 분석 플랫폼 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://noul.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01494118",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "노타",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 1,
+   "stage": "AI 모델·서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "AI 모델 경량화·최적화와 엣지 AI 소프트웨어 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nota.ai/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01810477",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "녹십자",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "혈액제제·백신·재조합단백질 의약품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://gcbiopharma.com/kor/field.do",
+      "https://kind.krx.co.kr/external/2024/03/20/001942/20240320008958/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "녹십자엠에스",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "체외진단 키트",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "체외진단 제품과 혈액 관련 의료용품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.greencrossms.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00513948",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
