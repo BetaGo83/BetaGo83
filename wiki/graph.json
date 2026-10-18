@@ -10015,6 +10015,78 @@
    "issues": []
   },
   {
+   "id": "KG스틸",
+   "type": "company",
+   "path": "companies/KG스틸",
+   "summary": "냉연·아연도금·칼라·석도 강판과 건축용 철강 제품을 생산·판매하는 철강 기업",
+   "market": "KOSPI",
+   "ticker": "016380",
+   "dart_corp_code": "00115676",
+   "aliases": [
+    "KG Steel",
+    "KG Dongbu Steel",
+    "KG동부제철"
+   ],
+   "krx_industry": "냉간 압연 및 압출 제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "냉연·아연도금·칼라·석도 강판과 PEB의 생산·판매를 사업보고서와 KG스틸 공식 사이트에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=00115676",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001588",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001588&dcmNo=11129586&eleId=10&offset=132949&length=9114&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001588&dcmNo=11129586&eleId=11&offset=142067&length=11855&dtd=dart4.xsd",
+      "https://www.kg-steel.co.kr/html/index.html"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "냉연·컬러강판",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "냉연·아연도금·칼라·석도 강판과 PEB의 생산·판매를 사업보고서와 KG스틸 공식 사이트에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=00115676",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001588",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001588&dcmNo=11129586&eleId=10&offset=132949&length=9114&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001588&dcmNo=11129586&eleId=11&offset=142067&length=11855&dtd=dart4.xsd",
+        "https://www.kg-steel.co.kr/html/index.html"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "KG이니시스",
    "type": "company",
    "path": "companies/KG이니시스",
@@ -37344,6 +37416,41 @@
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000506&dcmNo=11136235&eleId=10&offset=71368&length=3257&dtd=dart4.xsd",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000506&dcmNo=11136235&eleId=11&offset=74629&length=23000&dtd=dart4.xsd",
       "https://www.kcar.com/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KG스틸",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "냉연·컬러강판",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "냉연·아연도금·칼라·석도 강판과 PEB의 생산·판매를 사업보고서와 KG스틸 공식 사이트에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=00115676",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001588",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001588&dcmNo=11129586&eleId=10&offset=132949&length=9114&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001588&dcmNo=11129586&eleId=11&offset=142067&length=11855&dtd=dart4.xsd",
+      "https://www.kg-steel.co.kr/html/index.html"
      ],
      "malformed": ""
     }
