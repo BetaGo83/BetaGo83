@@ -276,6 +276,17 @@
    ]
   },
   {
+   "id": "생활·소비재",
+   "type": "theme",
+   "path": "themes/생활·소비재",
+   "summary": "일상생활에 쓰이는 제지·위생용품과 가구·유아용품 제조·판매 사업",
+   "category": "소비·문화",
+   "stages": [
+    "제지·위생용품",
+    "가구·유아용품"
+   ]
+  },
+  {
    "id": "소프트웨어·IT서비스",
    "type": "theme",
    "path": "themes/소프트웨어·IT서비스",
@@ -26468,7 +26479,10 @@
    "market": "KOSPI",
    "ticker": "000270",
    "dart_corp_code": "",
-   "aliases": [],
+   "aliases": [
+    "KIA",
+    "KIA CORPORATION"
+   ],
    "krx_industry": "자동차용 엔진 및 자동차 제조업",
    "classification_as_of": "2026-10-09",
    "classifications": [
@@ -26526,7 +26540,10 @@
    "market": "KOSPI",
    "ticker": "024110",
    "dart_corp_code": "",
-   "aliases": [],
+   "aliases": [
+    "IBK",
+    "Industrial Bank of Korea"
+   ],
    "krx_industry": "은행 및 저축기관",
    "classification_as_of": "2026-10-09",
    "classifications": [
@@ -26563,6 +26580,197 @@
        "weak": false,
        "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "까뮤이앤씨",
+   "type": "company",
+   "path": "companies/까뮤이앤씨",
+   "summary": "PC(Precast Concrete) 공법과 건축·토목 사업을 수행하는 종합 건설 기업",
+   "market": "KOSPI",
+   "ticker": "013700",
+   "dart_corp_code": "",
+   "aliases": [
+    "CAMUS E&C",
+    "CAMUS Engineering & Construction"
+   ],
+   "krx_industry": "건물 건설업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "PC 공법 기반의 주택·건축·토목 및 전기·통신 건설 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.camusenc.com/files/attach/filebox/730/001/CAMUS%20E%26C_brochure_vol.4.pdf",
+      "https://www.camusenc.com/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "건축·토목·플랜트",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "PC 공법 기반의 주택·건축·토목 및 전기·통신 건설 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.camusenc.com/files/attach/filebox/730/001/CAMUS%20E%26C_brochure_vol.4.pdf",
+        "https://www.camusenc.com/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "깨끗한나라",
+   "type": "company",
+   "path": "companies/깨끗한나라",
+   "summary": "백판지와 화장지·물티슈 등 생활위생용품을 생산·판매하는 제지·생활소비재 기업",
+   "market": "KOSPI",
+   "ticker": "004540",
+   "dart_corp_code": "",
+   "aliases": [
+    "KleanNara",
+    "KLEAN NARA"
+   ],
+   "krx_industry": "펄프, 종이 및 판지 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "생활·소비재",
+     "page": "생활·소비재",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "백판지·제지 제품과 화장지·물티슈 등 생활위생용품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kleannara.co.kr/Company/company",
+      "https://www.kleannara.co.kr/ESG/environment"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "생활·소비재",
+     "tier": 1,
+     "stage": "제지·위생용품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "생활·소비재",
+       "page": "생활·소비재",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "백판지·제지 제품과 화장지·물티슈 등 생활위생용품 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.kleannara.co.kr/Company/company",
+        "https://www.kleannara.co.kr/ESG/environment"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "꿈비",
+   "type": "company",
+   "path": "companies/꿈비",
+   "summary": "유아용 가구와 생활용품을 개발·제조·판매하는 소비재 기업",
+   "market": "KOSDAQ",
+   "ticker": "407400",
+   "dart_corp_code": "",
+   "aliases": [
+    "GGUMBI",
+    "Ggumbi"
+   ],
+   "krx_industry": "가구 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "생활·소비재",
+     "page": "생활·소비재",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "유아가구와 생활제품 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://ggumbi.com/",
+      "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=01586455&naviCrpNm=%EA%BF%88%EB%B9%84",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "생활·소비재",
+     "tier": 1,
+     "stage": "가구·유아용품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "생활·소비재",
+       "page": "생활·소비재",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "유아가구와 생활제품 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://ggumbi.com/",
+        "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=01586455&naviCrpNm=%EA%BF%88%EB%B9%84",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
       }
@@ -58929,6 +59137,100 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "까뮤이앤씨",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건축·토목·플랜트",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "PC 공법 기반의 주택·건축·토목 및 전기·통신 건설 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.camusenc.com/files/attach/filebox/730/001/CAMUS%20E%26C_brochure_vol.4.pdf",
+      "https://www.camusenc.com/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "깨끗한나라",
+   "target": "생활·소비재",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제지·위생용품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "생활·소비재",
+     "page": "생활·소비재",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "백판지·제지 제품과 화장지·물티슈 등 생활위생용품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kleannara.co.kr/Company/company",
+      "https://www.kleannara.co.kr/ESG/environment"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "꿈비",
+   "target": "생활·소비재",
+   "type": "테마",
+   "tier": 1,
+   "stage": "가구·유아용품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "생활·소비재",
+     "page": "생활·소비재",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "유아가구와 생활제품 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://ggumbi.com/",
+      "https://dart.fss.or.kr/navi/searchNavi.do?naviCode=A002&naviCrpCik=01586455&naviCrpNm=%EA%BF%88%EB%B9%84",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
