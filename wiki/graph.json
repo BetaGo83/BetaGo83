@@ -25288,6 +25288,404 @@
    "issues": []
   },
   {
+   "id": "금강공업",
+   "type": "company",
+   "path": "companies/금강공업",
+   "summary": "강관과 건설용 가설재·폼웍시스템, 판넬과 모듈러를 공급하는 철강·건설자재 기업",
+   "market": "KOSPI",
+   "ticker": "014280",
+   "dart_corp_code": "",
+   "aliases": [
+    "KUMKANG KIND"
+   ],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "배관용·구조용 강관 생산 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2024/03/14/001501/20240314003511/11011.htm",
+      "https://www.kumkangkind.com"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "폼웍시스템과 건설용 가설자재 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2024/03/14/001501/20240314003511/11011.htm",
+      "https://www.kumkangkind.com"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "건설장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "폼웍시스템과 건설용 가설자재 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2024/03/14/001501/20240314003511/11011.htm",
+        "https://www.kumkangkind.com"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "강관",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "배관용·구조용 강관 생산 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2024/03/14/001501/20240314003511/11011.htm",
+        "https://www.kumkangkind.com"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "금강철강",
+   "type": "company",
+   "path": "companies/금강철강",
+   "summary": "자동차·가전·건설용 철강 코일을 절단·가공해 공급하는 철강 소재 기업",
+   "market": "KOSDAQ",
+   "ticker": "053260",
+   "dart_corp_code": "",
+   "aliases": [
+    "KUMKANG STEEL"
+   ],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "열연·냉연 철강 코일의 절단·슬리팅과 철강재 판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://www.kksteel.co.kr/company/chart.jsp",
+      "https://kind.krx.co.kr/external/2026/05/15/000546/20260515001133/11013.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "철강",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "열연·냉연 철강 코일의 절단·슬리팅과 철강재 판매를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://www.kksteel.co.kr/company/chart.jsp",
+        "https://kind.krx.co.kr/external/2026/05/15/000546/20260515001133/11013.htm"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "금비",
+   "type": "company",
+   "path": "companies/금비",
+   "summary": "유리병·병마개와 화장품 용기를 제조하고 화장품을 유통하는 생활용기 기업",
+   "market": "KOSPI",
+   "ticker": "008870",
+   "dart_corp_code": "",
+   "aliases": [
+    "KUMBI"
+   ],
+   "krx_industry": "유리 및 유리제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "플라스틱 화장품 용기와 화장품 소매 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://www.e-kumbi.co.kr",
+      "https://kind.krx.co.kr/external/2026/05/15/001417/20260515003085/11012.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화장품·미용",
+     "tier": 1,
+     "stage": "화장품·생활용품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화장품·미용",
+       "page": "화장품·미용",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "플라스틱 화장품 용기와 화장품 소매 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://www.e-kumbi.co.kr",
+        "https://kind.krx.co.kr/external/2026/05/15/001417/20260515003085/11012.htm"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "금양",
+   "type": "company",
+   "path": "companies/금양",
+   "summary": "발포제와 화학소재를 기반으로 리튬·배터리와 수소연료전지 사업을 확장하는 화학 기업",
+   "market": "KOSPI",
+   "ticker": "001570",
+   "dart_corp_code": "",
+   "aliases": [
+    "KUMYANG"
+   ],
+   "krx_industry": "기초 화학물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "발포제와 리튬·수소연료전지 관련 화학소재 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://www.kyc.co.kr",
+      "https://kind.krx.co.kr/external/2025/03/14/002182/20250314005486/00591.htm"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "원통형 이차전지 개발·생산과 리튬 가공 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://www.kyc.co.kr",
+      "https://kind.krx.co.kr/external/2025/03/14/002182/20250314005486/00591.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "배터리",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "원통형 이차전지 개발·생산과 리튬 가공 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://www.kyc.co.kr",
+        "https://kind.krx.co.kr/external/2025/03/14/002182/20250314005486/00591.htm"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "기초·첨단화학소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "발포제와 리튬·수소연료전지 관련 화학소재 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://www.kyc.co.kr",
+        "https://kind.krx.co.kr/external/2025/03/14/002182/20250314005486/00591.htm"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "금양그린파워",
+   "type": "company",
+   "path": "companies/금양그린파워",
+   "summary": "전기·플랜트 시공 역량을 바탕으로 풍력·태양광·연료전지 개발과 운영을 추진하는 재생에너지 기업",
+   "market": "KOSDAQ",
+   "ticker": "282720",
+   "dart_corp_code": "",
+   "aliases": [
+    "KUMYANG GREEN POWER"
+   ],
+   "krx_industry": "전기 및 통신 공사업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "풍력·태양광·연료전지 발전소의 개발·시공 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://www.kygp.co.kr/m21.php",
+      "https://kind.krx.co.kr/external/dst/irReference/17700/3Q25%20금양그린파워_IR%20book_251117.pdf",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00872656"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "재생에너지",
+     "tier": 1,
+     "stage": "풍력·태양광 개발·시공",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "재생에너지",
+       "page": "재생에너지",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "풍력·태양광·연료전지 발전소의 개발·시공 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://www.kygp.co.kr/m21.php",
+        "https://kind.krx.co.kr/external/dst/irReference/17700/3Q25%20금양그린파워_IR%20book_251117.pdf",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00872656"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "금호석유화학",
    "type": "company",
    "path": "companies/금호석유화학",
@@ -57133,6 +57531,224 @@
       "https://www.globon.io/business",
       "https://www.globon.io/philosophy",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "금강공업",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건설장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "폼웍시스템과 건설용 가설자재 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2024/03/14/001501/20240314003511/11011.htm",
+      "https://www.kumkangkind.com"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "금강공업",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "강관",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "배관용·구조용 강관 생산 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2024/03/14/001501/20240314003511/11011.htm",
+      "https://www.kumkangkind.com"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "금강철강",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "철강",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "열연·냉연 철강 코일의 절단·슬리팅과 철강재 판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://www.kksteel.co.kr/company/chart.jsp",
+      "https://kind.krx.co.kr/external/2026/05/15/000546/20260515001133/11013.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "금비",
+   "target": "화장품·미용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "화장품·생활용품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "플라스틱 화장품 용기와 화장품 소매 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://www.e-kumbi.co.kr",
+      "https://kind.krx.co.kr/external/2026/05/15/001417/20260515003085/11012.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "금양",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "배터리",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "원통형 이차전지 개발·생산과 리튬 가공 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://www.kyc.co.kr",
+      "https://kind.krx.co.kr/external/2025/03/14/002182/20250314005486/00591.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "금양",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기초·첨단화학소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "발포제와 리튬·수소연료전지 관련 화학소재 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://www.kyc.co.kr",
+      "https://kind.krx.co.kr/external/2025/03/14/002182/20250314005486/00591.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "금양그린파워",
+   "target": "재생에너지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "풍력·태양광 개발·시공",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "풍력·태양광·연료전지 발전소의 개발·시공 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://www.kygp.co.kr/m21.php",
+      "https://kind.krx.co.kr/external/dst/irReference/17700/3Q25%20금양그린파워_IR%20book_251117.pdf",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00872656"
      ],
      "malformed": ""
     }
