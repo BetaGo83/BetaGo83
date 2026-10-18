@@ -2822,6 +2822,42 @@
    "issues": []
   },
   {
+   "id": "DGI",
+   "type": "company",
+   "path": "companies/DGI",
+   "summary": "산업용 디지털 프린팅 장비와 섬유용 잉크젯 프린터를 개발·제조하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "099520",
+   "dart_corp_code": "00627029",
+   "aliases": [
+    "Digital Graphics Incorporation"
+   ],
+   "krx_industry": "영상 및 음향기기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "사업 범위",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DGI의 KIND·DART 상장사 식별과 공식 사이트의 산업용 디지털 프린팅 장비·섬유용 잉크젯 프린터 사업을 확인했다. 특정 공급·고객·수주 관계는 확인하지 않았다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=00627029",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000358",
+      "https://www.dgi-net.com/",
+      "https://www.dgi-net.com/PRODUCT"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [],
+   "issues": []
+  },
+  {
    "id": "DH오토넥스",
    "type": "company",
    "path": "companies/DH오토넥스",
