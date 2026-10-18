@@ -8637,6 +8637,71 @@
    "issues": []
   },
   {
+   "id": "JTC",
+   "type": "company",
+   "path": "companies/JTC",
+   "summary": "방한 외국인 관광객 대상 면세점과 면세 소매점을 운영하는 상장사",
+   "market": "KOSDAQ",
+   "ticker": "950170",
+   "dart_corp_code": "",
+   "aliases": [
+    "제이티씨",
+    "JTC Inc."
+   ],
+   "krx_industry": "종합 소매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "JTC 공식 홈페이지는 면세 사업과 점포소개·Tax-free 안내를 직접 제공한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.groupjtc.com/korean/",
+      "https://www.groupjtc.com/korean/ir/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "유통·전자상거래",
+     "tier": 1,
+     "stage": "면세 유통",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "유통·전자상거래",
+       "page": "유통·전자상거래",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "JTC 공식 홈페이지는 면세 사업과 점포소개·Tax-free 안내를 직접 제공한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.groupjtc.com/korean/",
+        "https://www.groupjtc.com/korean/ir/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "JYP Ent.",
    "type": "company",
    "path": "companies/JYP Ent.",
@@ -35340,6 +35405,38 @@
       "https://www.jbfg.com/ko/about/group.do",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001225&dcmNo=11141040&eleId=10&offset=222504&length=2129&dtd=dart4.xsd",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "JTC",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 1,
+   "stage": "면세 유통",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "JTC 공식 홈페이지는 면세 사업과 점포소개·Tax-free 안내를 직접 제공한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.groupjtc.com/korean/",
+      "https://www.groupjtc.com/korean/ir/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
