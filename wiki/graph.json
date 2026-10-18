@@ -118,6 +118,16 @@
    ]
   },
   {
+   "id": "금융·신용정보",
+   "type": "theme",
+   "path": "themes/금융·신용정보",
+   "summary": "채권추심과 신용·재산조사 등 신용정보 서비스를 다룬다.",
+   "category": "금융",
+   "stages": [
+    "채권추심·신용조사"
+   ]
+  },
+  {
    "id": "기계·산업장비",
    "type": "theme",
    "path": "themes/기계·산업장비",
@@ -130,7 +140,8 @@
     "금속성형·프레스",
     "공정·물류 자동화",
     "승강·물류장비",
-    "에너지·산업설비"
+    "에너지·산업설비",
+    "전동공구·모터"
    ]
   },
   {
@@ -144,7 +155,8 @@
     "스마트팜 온실 설계·시공",
     "작물 보호제",
     "농기계",
-    "종자·농자재"
+    "종자·농자재",
+    "사료·축산"
    ]
   },
   {
@@ -501,7 +513,8 @@
     "비철금속 제련",
     "비철금속 가공",
     "강관",
-    "냉연·컬러강판"
+    "냉연·컬러강판",
+    "특수선재·와이어"
    ]
   },
   {
@@ -22240,6 +22253,237 @@
    "issues": []
   },
   {
+   "id": "계양전기",
+   "type": "company",
+   "path": "companies/계양전기",
+   "summary": "전동공구와 차량용 모터를 제조하는 메카트로닉스 부품 기업",
+   "market": "KOSPI",
+   "ticker": "012200",
+   "dart_corp_code": "",
+   "aliases": [
+    "Keyang Electric Machinery",
+    "계양전동공구"
+   ],
+   "krx_industry": "일반 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "전동공구·소형엔진·산업용구 제조와 판매를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.keyang.co.kr",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "차량용 파워시트·파킹브레이크 모터 제조를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.keyang.co.kr",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "전동공구·모터",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "전동공구·소형엔진·산업용구 제조와 판매를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.keyang.co.kr",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "부품·모듈",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "차량용 파워시트·파킹브레이크 모터 제조를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.keyang.co.kr",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "고려산업",
+   "type": "company",
+   "path": "companies/고려산업",
+   "summary": "가축용 배합사료를 제조·판매하고 축산물 유통을 운영하는 농축산 기업",
+   "market": "KOSPI",
+   "ticker": "002140",
+   "dart_corp_code": "",
+   "aliases": [
+    "Korea Industrial",
+    "하이피드"
+   ],
+   "krx_industry": "곡물가공품, 전분 및 전분제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "농업·스마트팜",
+     "page": "농업·스마트팜",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "가축용 배합사료 제조·판매와 축산·식육 유통을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/03/11/000382/20260311001129/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "농업·스마트팜",
+     "tier": 1,
+     "stage": "사료·축산",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "농업·스마트팜",
+       "page": "농업·스마트팜",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "가축용 배합사료 제조·판매와 축산·식육 유통을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2026/03/11/000382/20260311001129/11011.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "고려신용정보",
+   "type": "company",
+   "path": "companies/고려신용정보",
+   "summary": "채권추심과 신용·재산조사를 제공하는 신용정보 서비스 기업",
+   "market": "KOSDAQ",
+   "ticker": "049720",
+   "dart_corp_code": "",
+   "aliases": [
+    "Koryo Credit Information"
+   ],
+   "krx_industry": "기타 사업지원 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "금융·신용정보",
+     "page": "금융·신용정보",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "채권추심과 거래상대방 신용·재산조사를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://koryobond.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "금융·신용정보",
+     "tier": 1,
+     "stage": "채권추심·신용조사",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "금융·신용정보",
+       "page": "금융·신용정보",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "채권추심과 거래상대방 신용·재산조사를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://koryobond.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "고려아연",
    "type": "company",
    "path": "companies/고려아연",
@@ -22326,6 +22570,132 @@
        "evidence_level": "거래소 자료",
        "weak": false,
        "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "고려제강",
+   "type": "company",
+   "path": "companies/고려제강",
+   "summary": "와이어로프와 강연선·비드와이어 등 특수선재를 제조하는 철강 기업",
+   "market": "KOSPI",
+   "ticker": "002240",
+   "dart_corp_code": "",
+   "aliases": [
+    "KISWIRE",
+    "Korea Steel"
+   ],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "와이어로프·강연선·PC강선 등 특수선재 제조·공급을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2023/05/12/001125/20230512002358/11013.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "특수선재·와이어",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "와이어로프·강연선·PC강선 등 특수선재 제조·공급을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2023/05/12/001125/20230512002358/11013.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "고려제약",
+   "type": "company",
+   "path": "companies/고려제약",
+   "summary": "일반·전문의약품과 건강기능식품을 제조·판매하는 제약 기업",
+   "market": "KOSDAQ",
+   "ticker": "014570",
+   "dart_corp_code": "",
+   "aliases": [
+    "Koryo Pharmaceutical",
+    "NICE Pharma"
+   ],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "일반·전문의약품과 건강기능식품 제조·판매를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.nicepharma.com",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "일반·전문의약품과 건강기능식품 제조·판매를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.nicepharma.com",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -52763,6 +53133,130 @@
    }
   },
   {
+   "source": "계양전기",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전동공구·모터",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "전동공구·소형엔진·산업용구 제조와 판매를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.keyang.co.kr",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "계양전기",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "부품·모듈",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "차량용 파워시트·파킹브레이크 모터 제조를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.keyang.co.kr",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "고려산업",
+   "target": "농업·스마트팜",
+   "type": "테마",
+   "tier": 1,
+   "stage": "사료·축산",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "농업·스마트팜",
+     "page": "농업·스마트팜",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "가축용 배합사료 제조·판매와 축산·식육 유통을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/03/11/000382/20260311001129/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "고려신용정보",
+   "target": "금융·신용정보",
+   "type": "테마",
+   "tier": 1,
+   "stage": "채권추심·신용조사",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "금융·신용정보",
+     "page": "금융·신용정보",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "채권추심과 거래상대방 신용·재산조사를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://koryobond.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "고려아연",
    "target": "자원·희소금속",
    "type": "테마",
@@ -52812,6 +53306,68 @@
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "고려제강",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "특수선재·와이어",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "와이어로프·강연선·PC강선 등 특수선재 제조·공급을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2023/05/12/001125/20230512002358/11013.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "고려제약",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "일반·전문의약품과 건강기능식품 제조·판매를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.nicepharma.com",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
