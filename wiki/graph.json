@@ -9665,6 +9665,74 @@
    "issues": []
   },
   {
+   "id": "KC코트렐",
+   "type": "company",
+   "path": "companies/KC코트렐",
+   "summary": "대기오염물질 저감설비와 환경엔지니어링 서비스를 제공하는 환경설비 기업",
+   "market": "KOSPI",
+   "ticker": "119650",
+   "dart_corp_code": "00797364",
+   "aliases": [
+    "KC Cottrell"
+   ],
+   "krx_industry": "일반 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "대기환경 엔지니어링, 분진·가스 처리설비 공급·운영관리·기술컨설팅과 대기오염물질 저감설비를 사업보고서와 회사 공식 사업분야에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423000742",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260423000742&dcmNo=11344113&eleId=12&offset=610946&length=1030&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260423000742&dcmNo=11344113&eleId=13&offset=611980&length=5271&dtd=dart4.xsd",
+      "http://www.kc-cottrell.com/kc/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "환경·자원순환",
+     "tier": 1,
+     "stage": "환경엔지니어링·환경서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "환경·자원순환",
+       "page": "환경·자원순환",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "대기환경 엔지니어링, 분진·가스 처리설비 공급·운영관리·기술컨설팅과 대기오염물질 저감설비를 사업보고서와 회사 공식 사업분야에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423000742",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260423000742&dcmNo=11344113&eleId=12&offset=610946&length=1030&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260423000742&dcmNo=11344113&eleId=13&offset=611980&length=5271&dtd=dart4.xsd",
+        "http://www.kc-cottrell.com/kc/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "KG이니시스",
    "type": "company",
    "path": "companies/KG이니시스",
@@ -36823,6 +36891,40 @@
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001644&dcmNo=11169277&eleId=10&offset=92301&length=2549&dtd=dart4.xsd",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001644&dcmNo=11169277&eleId=11&offset=94854&length=7803&dtd=dart4.xsd",
       "http://www.kcgreenholdings.com/html/dh_board/lists/business1"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KC코트렐",
+   "target": "환경·자원순환",
+   "type": "테마",
+   "tier": 1,
+   "stage": "환경엔지니어링·환경서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "대기환경 엔지니어링, 분진·가스 처리설비 공급·운영관리·기술컨설팅과 대기오염물질 저감설비를 사업보고서와 회사 공식 사업분야에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423000742",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260423000742&dcmNo=11344113&eleId=12&offset=610946&length=1030&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260423000742&dcmNo=11344113&eleId=13&offset=611980&length=5271&dtd=dart4.xsd",
+      "http://www.kc-cottrell.com/kc/"
      ],
      "malformed": ""
     }
