@@ -84,6 +84,7 @@
    "category": "산업재·운송",
    "stages": [
     "설계·시공",
+    "도로 포장·SOC",
     "건축·토목",
     "건축·토목·플랜트",
     "주택·건축·토목",
@@ -16499,6 +16500,344 @@
        "sources": [
         "https://www.sfasemicon.com/",
         "https://kind.krx.co.kr/external/2025/03/21/000378/20250321001672/11011.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SG&G",
+   "type": "company",
+   "path": "companies/SG&G",
+   "summary": "자동차 시트 부품과 금형, 원전 연료봉 지지격자 부품을 제조하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "040610",
+   "dart_corp_code": "",
+   "aliases": [
+    "SGN&G",
+    "SG&G Corporation"
+   ],
+   "krx_industry": "자동차 신품 부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SG&G의 자동차 시트 부품 생산 사업을 공식 사업영역과 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.sgng.com/business/car/index.jsp",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "원전·SMR",
+     "page": "원전·SMR",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SG&G의 핵연료봉 지지격자 부품 제조 사업을 공식 사업영역에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.sgng.com/business/nuclear/index.jsp"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "원전·SMR",
+     "tier": 1,
+     "stage": "원전 설비·장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "원전·SMR",
+       "page": "원전·SMR",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SG&G의 핵연료봉 지지격자 부품 제조 사업을 공식 사업영역에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.sgng.com/business/nuclear/index.jsp"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "부품·모듈",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SG&G의 자동차 시트 부품 생산 사업을 공식 사업영역과 KIND에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.sgng.com/business/car/index.jsp",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SG",
+   "type": "company",
+   "path": "companies/SG",
+   "summary": "아스콘 생산과 도로포장·부대토목, 친환경 아스콘 설비를 운영하는 코스닥 기업",
+   "market": "KOSDAQ",
+   "ticker": "255220",
+   "dart_corp_code": "00963976",
+   "aliases": [
+    "에스지이",
+    "SGI"
+   ],
+   "krx_industry": "기타 비금속 광물제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SG의 아스콘 생산과 도로포장·부대토목, 고속도로·공항 등 SOC 시공 사업을 회사 공식 자료와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.saholdings.co.kr/business/overview/",
+      "http://www.saholdings.co.kr/business/construction/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "에코스틸아스콘·재생아스콘과 SGR+ 배기가스 저감 설비의 친환경 사업을 회사 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.saholdings.co.kr/business/overview/",
+      "http://www.saholdings.co.kr/business/enviroment/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "도로 포장·SOC",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SG의 아스콘 생산과 도로포장·부대토목, 고속도로·공항 등 SOC 시공 사업을 회사 공식 자료와 KIND에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.saholdings.co.kr/business/overview/",
+        "http://www.saholdings.co.kr/business/construction/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "환경·자원순환",
+     "tier": 1,
+     "stage": "환경 소재·설비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "환경·자원순환",
+       "page": "환경·자원순환",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "에코스틸아스콘·재생아스콘과 SGR+ 배기가스 저감 설비의 친환경 사업을 회사 공식 자료에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.saholdings.co.kr/business/overview/",
+        "http://www.saholdings.co.kr/business/enviroment/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SGA솔루션즈",
+   "type": "company",
+   "path": "companies/SGA솔루션즈",
+   "summary": "시스템·클라우드·엔드포인트·제로트러스트 통합 보안 솔루션 기업",
+   "market": "KOSDAQ",
+   "ticker": "184230",
+   "dart_corp_code": "",
+   "aliases": [
+    "SGA Solutions"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "사이버보안",
+     "page": "사이버보안",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SGA솔루션즈의 시스템·클라우드·엔드포인트·제로트러스트 통합 보안 플랫폼과 제품군을 공식 홈페이지와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://sgasol.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "사이버보안",
+     "tier": 1,
+     "stage": "정보보안 솔루션",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "사이버보안",
+       "page": "사이버보안",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SGA솔루션즈의 시스템·클라우드·엔드포인트·제로트러스트 통합 보안 플랫폼과 제품군을 공식 홈페이지와 KIND에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://sgasol.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SGC E&C",
+   "type": "company",
+   "path": "companies/SGC E&C",
+   "summary": "화공·산업·발전 플랜트 EPC와 건축·토목을 수행하는 종합건설 기업",
+   "market": "KOSDAQ",
+   "ticker": "016250",
+   "dart_corp_code": "00141246",
+   "aliases": [
+    "SGC이앤씨",
+    "SGC이테크건설",
+    "SGC eTEC E&C"
+   ],
+   "krx_industry": "건물 건설업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SGC E&C의 화공·산업·발전·환경 플랜트 EPC와 주택·건축·토목 사업을 공식 사업소개와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sgcenc.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "건축·토목·플랜트",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SGC E&C의 화공·산업·발전·환경 플랜트 EPC와 주택·건축·토목 사업을 공식 사업소개와 KIND에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.sgcenc.co.kr/",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
@@ -45260,6 +45599,192 @@
      "sources": [
       "https://www.sfasemicon.com/",
       "https://kind.krx.co.kr/external/2025/03/21/000378/20250321001672/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SG",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "도로 포장·SOC",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SG의 아스콘 생산과 도로포장·부대토목, 고속도로·공항 등 SOC 시공 사업을 회사 공식 자료와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.saholdings.co.kr/business/overview/",
+      "http://www.saholdings.co.kr/business/construction/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SG",
+   "target": "환경·자원순환",
+   "type": "테마",
+   "tier": 1,
+   "stage": "환경 소재·설비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "에코스틸아스콘·재생아스콘과 SGR+ 배기가스 저감 설비의 친환경 사업을 회사 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.saholdings.co.kr/business/overview/",
+      "http://www.saholdings.co.kr/business/enviroment/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SG&G",
+   "target": "원전·SMR",
+   "type": "테마",
+   "tier": 1,
+   "stage": "원전 설비·장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "원전·SMR",
+     "page": "원전·SMR",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SG&G의 핵연료봉 지지격자 부품 제조 사업을 공식 사업영역에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.sgng.com/business/nuclear/index.jsp"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SG&G",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "부품·모듈",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SG&G의 자동차 시트 부품 생산 사업을 공식 사업영역과 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.sgng.com/business/car/index.jsp",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SGA솔루션즈",
+   "target": "사이버보안",
+   "type": "테마",
+   "tier": 1,
+   "stage": "정보보안 솔루션",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "사이버보안",
+     "page": "사이버보안",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SGA솔루션즈의 시스템·클라우드·엔드포인트·제로트러스트 통합 보안 플랫폼과 제품군을 공식 홈페이지와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://sgasol.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SGC E&C",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건축·토목·플랜트",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SGC E&C의 화공·산업·발전·환경 플랜트 EPC와 주택·건축·토목 사업을 공식 사업소개와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sgcenc.co.kr/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
