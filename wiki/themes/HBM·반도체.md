@@ -3,7 +3,7 @@ type: "theme"
 name: "HBM·반도체"
 aliases: []
 keywords: ["HBM", "고대역폭메모리", "TC본더", "하이브리드 본딩", "반도체 후공정"]
-stages: ["메모리 제조", "후공정 장비", "하이브리드 본딩", "검사 장비·부품", "공정 모니터링", "패키지기판", "전력반도체 후공정", "전력반도체 제조", "반도체 공정 소재", "반도체 제조 장비", "반도체 패키징", "반도체 클린룸", "시스템반도체 파운드리", "시스템반도체 설계·IP"]
+stages: ["메모리 제조", "후공정 장비", "하이브리드 본딩", "검사 장비·부품", "공정 모니터링", "패키지기판", "전력반도체 후공정", "전력반도체 제조", "반도체 공정 소재", "반도체 제조 장비", "반도체 패키징", "반도체 클린룸", "시스템반도체 파운드리", "시스템반도체 설계·IP", "사업지주·반도체 전략"]
 updated: "2026-10-19"
 category: "기술·디지털"
 ---
@@ -19,6 +19,7 @@ category: "기술·디지털"
 - 어플라이드 머티어리얼즈와 베시가 EPIC 센터에서 하이브리드 본딩을 공동 개발한다 ([디일렉](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KdXh0SllfSlRabUJDUllHTnQ3NWNIWko4RFNpakJncXhacnRjTWdSNGJSNGFkanE4aXpURzNiXzBoVnlvdl9FNk1mMExJc0x2WGxyRG0yWDUwM044RWhOUVZFTjh1QQ?oc=5))
 
 ## 밸류체인
+- 사업지주·반도체 전략: [[대덕]] ([대덕 공식 홈페이지](http://www.daeduckholdings.com), [DART 기업개황](https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00109189))
 - 메모리 제조: [[삼성전자]] ([비즈워치](https://news.google.com/rss/articles/CBMibEFVX3lxTE1kTUkwWlRDbkw4NU55MzQ1Q25PaW1YVUc2TExkWnZTMjBUYXFLa1A4NGtNZDNrR3d3enVYQkJack5XX29abWNVenF0cnk3VVVHeTNuOUh4SU4tVXUzd0ZrTU1OblVkRDBObXlQRw?oc=5)), [[SK하이닉스]] ([아이티데일리](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ZSERCVUdyNnN3VE9BTGJvTDRCb0JqaXQ2Z0JCLWhZN1dzQWdENXR2dTBNVjZoX09iTmhwNUtYaGhVZ3VpSG16TGZTeEhza04wV044QXdjLV93SF9DendWWFdvaUVxZEZE?oc=5)), [[마이크론]] ([아주경제](https://news.google.com/rss/articles/CBMiWkFVX3lxTFBra2pkdEY0QkRRQkxWd3RVZFVsaFhLMDJrUzRFT0lGMFJvalNzZWFfZE5aYVhDbTh2UjhmbGxHQnJMQUpEc01JTWlJM0hRVm96R09OWDRPSzRLZ9IBWEFVX3lxTFAtYS1hNjZ5TzN3a09LeG5Cd1VFV2pBU083SktkYm11LWEwODNkTDBCM2Q1N2lDUUNpYzVkWWUyaU9fRzl2SGJldzZtUWxvdEJ1TXMyZ2RDSWs?oc=5))
 - 후공정 장비: [[한미반도체]] ([대한경제](https://news.google.com/rss/articles/CBMic0FVX3lxTE1GcWZ1QlJVQ0NBVjRFM1ZYLVRlcmlzMURxS1dHM0JsQlpxOVZnYkpIRC1TOFg3cEhBSklMQ2pSVnptZVpGOW8wd0FJZ01BTzBmOXlvTkd6SFJsVW5oYlIxckhsckNDeEVQNzR3Y0M4SlBjWnc?oc=5))
 - 하이브리드 본딩: [[어플라이드 머티어리얼즈]] ([디일렉](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KdXh0SllfSlRabUJDUllHTnQ3NWNIWko4RFNpakJncXhacnRjTWdSNGJSNGFkanE4aXpURzNiXzBoVnlvdl9FNk1mMExJc0x2WGxyRG0yWDUwM044RWhOUVZFTjh1QQ?oc=5)), [[베시]] ([디일렉](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KdXh0SllfSlRabUJDUllHTnQ3NWNIWko4RFNpakJncXhacnRjTWdSNGJSNGFkanE4aXpURzNiXzBoVnlvdl9FNk1mMExJc0x2WGxyRG0yWDUwM044RWhOUVZFTjh1QQ?oc=5))
@@ -71,6 +72,7 @@ category: "기술·디지털"
 | [[네패스]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](https://www.nepes.co.kr/kr/), [출처](https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00227333), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[네패스아크]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](https://www.nepesark.co.kr/about/), [출처](https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01368354), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[넥스틴]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](https://ir.nextinsol.com/company), [출처](https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01080252), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
+| [[대덕]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](http://www.daeduckholdings.com), [출처](https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00109189), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[대덕전자]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.daeduck.com/ko/main.do), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[동진쎄미켐]] | HBM·반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[디아이]] | AI 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
