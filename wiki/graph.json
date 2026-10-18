@@ -30017,6 +30017,378 @@
    "issues": []
   },
   {
+   "id": "네패스아크",
+   "type": "company",
+   "path": "companies/네패스아크",
+   "summary": "시스템반도체의 웨이퍼·패키지 테스트를 수행하는 반도체 테스트 기업",
+   "market": "KOSDAQ",
+   "ticker": "330860",
+   "dart_corp_code": "01368354",
+   "aliases": [
+    "NEPES ARK",
+    "Nepes Ark Corporation"
+   ],
+   "krx_industry": "그외 기타 전문, 과학 및 기술 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "시스템반도체 웨이퍼·패키지 테스트 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nepesark.co.kr/about/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01368354",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "검사 장비·부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "시스템반도체 웨이퍼·패키지 테스트 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nepesark.co.kr/about/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01368354",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "넥사다이내믹스",
+   "type": "company",
+   "path": "companies/넥사다이내믹스",
+   "summary": "디스플레이 본딩·검사 장비와 스마트 제조·물류 자동화 솔루션을 제공하는 장비 기업",
+   "market": "KOSDAQ",
+   "ticker": "351320",
+   "dart_corp_code": "01440153",
+   "aliases": [
+    "NEXA DYNAMICS",
+    "Nexa Dynamics Co., Ltd."
+   ],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "FPD 본딩·AOI·패드 클리너 등 디스플레이 장비 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://nexadynamics.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01440153",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "제조·물류 통합과 자동화 시스템 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://nexadynamics.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01440153",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "공정·물류 자동화",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "제조·물류 통합과 자동화 시스템 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://nexadynamics.kr/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01440153",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "디스플레이",
+       "page": "디스플레이",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "FPD 본딩·AOI·패드 클리너 등 디스플레이 장비 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://nexadynamics.kr/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01440153",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "넥센",
+   "type": "company",
+   "path": "companies/넥센",
+   "summary": "타이어·고무제품과 자동차·산업용 소재를 생산하는 사업지주회사",
+   "market": "KOSPI",
+   "ticker": "005720",
+   "dart_corp_code": "00167192",
+   "aliases": [
+    "NEXEN CORPORATION",
+    "NEXEN"
+   ],
+   "krx_industry": "고무제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "타이어·고무제품과 자동차용 고무부품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nexencorp.co.kr/",
+      "https://kind.krx.co.kr/corpdetail/totalinfo.do?isurCd=00572&kisComCd=352276&method=searchTotalInfo&repIsuCd=KR7005720008",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00167192"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "타이어·고무부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "타이어·고무제품과 자동차용 고무부품 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nexencorp.co.kr/",
+        "https://kind.krx.co.kr/corpdetail/totalinfo.do?isurCd=00572&kisComCd=352276&method=searchTotalInfo&repIsuCd=KR7005720008",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00167192"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "넥센타이어",
+   "type": "company",
+   "path": "companies/넥센타이어",
+   "summary": "승용차·SUV·상용차용 타이어를 개발·제조·판매하는 타이어 기업",
+   "market": "KOSPI",
+   "ticker": "002350",
+   "dart_corp_code": "00173874",
+   "aliases": [
+    "NEXEN TIRE",
+    "NEXEN TIRE CORPORATION"
+   ],
+   "krx_industry": "고무제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "승용차·SUV·상용차용 타이어 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nexentire.com/kr/product/passenger/",
+      "https://www.nexentire.com/kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00173874",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "타이어·고무부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "승용차·SUV·상용차용 타이어 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nexentire.com/kr/product/passenger/",
+        "https://www.nexentire.com/kr/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00173874",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "넥스턴앤롤코리아",
+   "type": "company",
+   "path": "companies/넥스턴앤롤코리아",
+   "summary": "CNC 자동선반과 자동화 공정을 기반으로 공작기계·중장비 부품을 제조하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "089140",
+   "dart_corp_code": "00416414",
+   "aliases": [
+    "NEXTURN&ROLLKOREA",
+    "NEXTURN & ROLL KOREA"
+   ],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "CNC 자동선반과 자동화 공정을 통한 공작기계 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nexturn.co.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00416414",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "공작기계·산업용 로봇",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "CNC 자동선반과 자동화 공정을 통한 공작기계 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nexturn.co.kr/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00416414",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "넥스틸",
    "type": "company",
    "path": "companies/넥스틸",
@@ -64040,6 +64412,199 @@
      "weak": false,
      "sources": [
       "https://www.nepes.co.kr/kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "네패스아크",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "검사 장비·부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "시스템반도체 웨이퍼·패키지 테스트 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nepesark.co.kr/about/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01368354",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "넥사다이내믹스",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "공정·물류 자동화",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "제조·물류 통합과 자동화 시스템 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://nexadynamics.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01440153",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "넥사다이내믹스",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "FPD 본딩·AOI·패드 클리너 등 디스플레이 장비 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://nexadynamics.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01440153",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "넥센",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "타이어·고무부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "타이어·고무제품과 자동차용 고무부품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nexencorp.co.kr/",
+      "https://kind.krx.co.kr/corpdetail/totalinfo.do?isurCd=00572&kisComCd=352276&method=searchTotalInfo&repIsuCd=KR7005720008",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00167192"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "넥센타이어",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "타이어·고무부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "승용차·SUV·상용차용 타이어 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nexentire.com/kr/product/passenger/",
+      "https://www.nexentire.com/kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00173874",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "넥스턴앤롤코리아",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "공작기계·산업용 로봇",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "CNC 자동선반과 자동화 공정을 통한 공작기계 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nexturn.co.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00416414",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
