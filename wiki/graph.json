@@ -84,7 +84,8 @@
     "건축·토목",
     "건축·토목·플랜트",
     "주택·건축·토목",
-    "건설장비"
+    "건설장비",
+    "건설·플랜트·인프라"
    ]
   },
   {
@@ -297,7 +298,8 @@
     "편의점·소매·전자상거래",
     "쇼핑몰 운영 기반",
     "면세 유통",
-    "식자재 유통·푸드서비스"
+    "식자재 유통·푸드서비스",
+    "편의점·슈퍼마켓·홈쇼핑"
    ]
   },
   {
@@ -408,7 +410,8 @@
     "해상풍력 설계·조달·시공",
     "태양광 발전소·인버터",
     "태양광·풍력 발전 및 개발",
-    "태양광 발전·나노소재"
+    "태양광 발전·나노소재",
+    "바이오매스·풍력"
    ]
   },
   {
@@ -566,7 +569,8 @@
     "정유·윤활",
     "기초 석유화학",
     "기초·첨단화학소재",
-    "고무·탄성체"
+    "고무·탄성체",
+    "정유·석유화학·윤활"
    ]
   },
   {
@@ -580,7 +584,8 @@
     "환경 소재·설비",
     "배터리 자원순환",
     "폐기물·수처리 시설",
-    "배터리 리튬 회수 공정"
+    "배터리 리튬 회수 공정",
+    "자원 재활용"
    ]
   },
   {
@@ -4492,6 +4497,235 @@
     }
    ],
    "themes": [],
+   "issues": []
+  },
+  {
+   "id": "GS",
+   "type": "company",
+   "path": "companies/GS",
+   "summary": "에너지·발전, 리테일·서비스, 건설·인프라 사업을 계열사와 함께 영위하는 지주회사",
+   "market": "KOSPI",
+   "ticker": "078930",
+   "dart_corp_code": "00500254",
+   "aliases": [
+    "GS Holdings",
+    "주식회사 지에스"
+   ],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "GS칼텍스의 정유·석유화학·윤활유 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gs.co.kr/ko/about-gs/subsidiaries",
+      "https://englishdart.fss.or.kr/dsbh002/viewer.do?rcpNo=20260318000836"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "GS리테일의 GS25·GS THE FRESH·GS SHOP 운영을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gs.co.kr/ko/about-gs/subsidiaries",
+      "https://kind.krx.co.kr/external/2026/03/10/001009/20260310002367/00591.htm"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "GS건설의 건축·주택·플랜트·인프라 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gs.co.kr/ko/about-gs/subsidiaries"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "GS EPS의 바이오매스 발전과 GS E&R의 풍력발전 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gs.co.kr/ko/about-gs/subsidiaries"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "GS에코메탈의 희소금속 회수·자원 재활용 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gs.co.kr/ko/about-gs/subsidiaries"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "건설·플랜트·인프라",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "GS건설의 건축·주택·플랜트·인프라 사업을 공식 자료에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.gs.co.kr/ko/about-gs/subsidiaries"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "유통·전자상거래",
+     "tier": 1,
+     "stage": "편의점·슈퍼마켓·홈쇼핑",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "유통·전자상거래",
+       "page": "유통·전자상거래",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "GS리테일의 GS25·GS THE FRESH·GS SHOP 운영을 공식 자료에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.gs.co.kr/ko/about-gs/subsidiaries",
+        "https://kind.krx.co.kr/external/2026/03/10/001009/20260310002367/00591.htm"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "재생에너지",
+     "tier": 1,
+     "stage": "바이오매스·풍력",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "재생에너지",
+       "page": "재생에너지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "GS EPS의 바이오매스 발전과 GS E&R의 풍력발전 사업을 공식 자료에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.gs.co.kr/ko/about-gs/subsidiaries"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "정유·석유화학·윤활",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "GS칼텍스의 정유·석유화학·윤활유 사업을 공식 자료에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.gs.co.kr/ko/about-gs/subsidiaries",
+        "https://englishdart.fss.or.kr/dsbh002/viewer.do?rcpNo=20260318000836"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "환경·자원순환",
+     "tier": 1,
+     "stage": "자원 재활용",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "환경·자원순환",
+       "page": "환경·자원순환",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "GS에코메탈의 희소금속 회수·자원 재활용 사업을 공식 자료에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.gs.co.kr/ko/about-gs/subsidiaries"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
    "issues": []
   },
   {
@@ -31231,6 +31465,158 @@
       "https://www.grandkorea.com/main/default",
       "https://www.grandkorea.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "GS",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건설·플랜트·인프라",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "GS건설의 건축·주택·플랜트·인프라 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gs.co.kr/ko/about-gs/subsidiaries"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "GS",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 1,
+   "stage": "편의점·슈퍼마켓·홈쇼핑",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "GS리테일의 GS25·GS THE FRESH·GS SHOP 운영을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gs.co.kr/ko/about-gs/subsidiaries",
+      "https://kind.krx.co.kr/external/2026/03/10/001009/20260310002367/00591.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "GS",
+   "target": "재생에너지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "바이오매스·풍력",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "GS EPS의 바이오매스 발전과 GS E&R의 풍력발전 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gs.co.kr/ko/about-gs/subsidiaries"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "GS",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "정유·석유화학·윤활",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "GS칼텍스의 정유·석유화학·윤활유 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gs.co.kr/ko/about-gs/subsidiaries",
+      "https://englishdart.fss.or.kr/dsbh002/viewer.do?rcpNo=20260318000836"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "GS",
+   "target": "환경·자원순환",
+   "type": "테마",
+   "tier": 1,
+   "stage": "자원 재활용",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "GS에코메탈의 희소금속 회수·자원 재활용 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gs.co.kr/ko/about-gs/subsidiaries"
      ],
      "malformed": ""
     }
