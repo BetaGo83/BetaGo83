@@ -36788,6 +36788,339 @@
    "issues": []
   },
   {
+   "id": "대창",
+   "type": "company",
+   "path": "companies/대창",
+   "summary": "황동봉과 동합금괴를 제조·판매하는 비철금속 소재 기업",
+   "market": "KOSPI",
+   "ticker": "012800",
+   "dart_corp_code": "00112651",
+   "aliases": [
+    "Daechang",
+    "BrassOne"
+   ],
+   "krx_industry": "1차 비철금속 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "황동봉과 동합금괴 제조·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.brassone.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000499",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00112651",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "비철금속 가공",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "황동봉과 동합금괴 제조·판매 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.brassone.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000499",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00112651",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대창단조",
+   "type": "company",
+   "path": "companies/대창단조",
+   "summary": "자동차 크랭크샤프트와 중장비 하부주행체 부품을 단조·가공하는 부품 기업",
+   "market": "KOSPI",
+   "ticker": "015230",
+   "dart_corp_code": "00112679",
+   "aliases": [
+    "Daechang Forging"
+   ],
+   "krx_industry": "자동차 신품 부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차 크랭크샤프트와 중장비 하부주행체 단조·가공 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dcf.co.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000402",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00112679",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "구동·변속·현가 부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "자동차 크랭크샤프트와 중장비 하부주행체 단조·가공 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dcf.co.kr/",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000402",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00112679",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대창솔루션",
+   "type": "company",
+   "path": "companies/대창솔루션",
+   "summary": "선박엔진용 주강품과 해양·발전·원전 설비용 특수소재를 제조하는 기자재 기업",
+   "market": "KOSDAQ",
+   "ticker": "096350",
+   "dart_corp_code": "00177870",
+   "aliases": [
+    "Daechang Solution"
+   ],
+   "krx_industry": "구조용 금속제품, 탱크 및 증기발생기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "선박엔진용 MBS와 조선특수소재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://dsol.co.kr/ko/pages/product_etc.php",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001022",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00177870",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "조선·해운",
+     "tier": 1,
+     "stage": "조선·해양 기자재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "조선·해운",
+       "page": "조선·해운",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "선박엔진용 MBS와 조선특수소재 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://dsol.co.kr/ko/pages/product_etc.php",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001022",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00177870",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대창스틸",
+   "type": "company",
+   "path": "companies/대창스틸",
+   "summary": "냉연강판과 이중바닥재를 생산하는 철강 소재·건자재 기업",
+   "market": "KOSDAQ",
+   "ticker": "140520",
+   "dart_corp_code": "00112721",
+   "aliases": [
+    "Daechang Steel"
+   ],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "냉연강판과 이중바닥재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dcsteel.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000588",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00112721",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "냉연·컬러강판",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "냉연강판과 이중바닥재 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.dcsteel.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000588",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00112721",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대한과학",
+   "type": "company",
+   "path": "companies/대한과학",
+   "summary": "의료·정밀·연구실험기기를 제조·유통하고 실험실 장비 서비스를 제공하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "131220",
+   "dart_corp_code": "00608316",
+   "aliases": [
+    "Daihan Scientific"
+   ],
+   "krx_industry": "기계장비 및 관련 물품 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "의료·정밀·연구실험기기 제조·유통과 실험실 장비 서비스를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.daihan-sci.com/product/info",
+      "https://mall.daihan-sci.com/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000642",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00608316",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "검사용 제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "의료·정밀·연구실험기기 제조·유통과 실험실 장비 서비스를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.daihan-sci.com/product/info",
+        "https://mall.daihan-sci.com/",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000642",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00608316",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "대한전선",
    "type": "company",
    "path": "companies/대한전선",
@@ -73494,6 +73827,172 @@
       "https://www.daejin2019.com/Coating",
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260407003630",
       "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01549472",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대창",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "비철금속 가공",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "황동봉과 동합금괴 제조·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.brassone.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000499",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00112651",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대창단조",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "구동·변속·현가 부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차 크랭크샤프트와 중장비 하부주행체 단조·가공 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dcf.co.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000402",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00112679",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대창솔루션",
+   "target": "조선·해운",
+   "type": "테마",
+   "tier": 1,
+   "stage": "조선·해양 기자재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "선박엔진용 MBS와 조선특수소재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://dsol.co.kr/ko/pages/product_etc.php",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001022",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00177870",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대창스틸",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "냉연·컬러강판",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "냉연강판과 이중바닥재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dcsteel.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000588",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00112721",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대한과학",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "검사용 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "의료·정밀·연구실험기기 제조·유통과 실험실 장비 서비스를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.daihan-sci.com/product/info",
+      "https://mall.daihan-sci.com/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000642",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00608316",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
