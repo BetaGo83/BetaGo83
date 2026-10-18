@@ -9,6 +9,7 @@
    "category": "에너지·환경",
    "stages": [
     "배터리",
+    "배터리 열관리·안전소재",
     "양극재",
     "전고체 원료",
     "제조 장비",
@@ -27306,6 +27307,195 @@
    "issues": []
   },
   {
+   "id": "나노팀",
+   "type": "company",
+   "path": "companies/나노팀",
+   "summary": "전기차 배터리의 방열·열폭주 차단·소화 솔루션을 제공하는 배터리 열관리 기업",
+   "market": "KOSDAQ",
+   "ticker": "417010",
+   "dart_corp_code": "",
+   "aliases": [
+    "NanoTIM"
+   ],
+   "krx_industry": "일반 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "방열·열폭주 차단·소화의 배터리 안전 솔루션을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nanotim.co.kr/",
+      "https://kind.krx.co.kr/external/2026/05/15/003328/20260515007628/11013.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "배터리 열관리·안전소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "방열·열폭주 차단·소화의 배터리 안전 솔루션을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nanotim.co.kr/",
+        "https://kind.krx.co.kr/external/2026/05/15/003328/20260515007628/11013.htm"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "나라셀라",
+   "type": "company",
+   "path": "companies/나라셀라",
+   "summary": "와인과 사케·위스키 등 주류 브랜드를 수입해 국내 유통·판매하는 주류 유통 기업",
+   "market": "KOSDAQ",
+   "ticker": "405920",
+   "dart_corp_code": "",
+   "aliases": [
+    "NARA CELLAR"
+   ],
+   "krx_industry": "음·식료품 및 담배 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "와인과 사케·위스키 등 주류의 수입·유통·판매를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://naracellar.com/",
+      "https://www.naracellar.com/nara/about_01.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "전통주·주류",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "와인과 사케·위스키 등 주류의 수입·유통·판매를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://naracellar.com/",
+        "https://www.naracellar.com/nara/about_01.php",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "나라스페이스테크놀로지",
+   "type": "company",
+   "path": "companies/나라스페이스테크놀로지",
+   "summary": "초소형위성 플랫폼과 위성 운용·지구관측 영상 분석을 제공하는 우주 서비스 기업",
+   "market": "KOSDAQ",
+   "ticker": "478340",
+   "dart_corp_code": "",
+   "aliases": [
+    "나라스페이스",
+    "Nara Space"
+   ],
+   "krx_industry": "항공기,우주선 및 부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "우주·위성",
+     "page": "우주·위성",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "초소형위성 개발·제조와 위성 운용·영상 분석 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://naraspace.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "우주·위성",
+     "tier": 1,
+     "stage": "위성 개발",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "우주·위성",
+       "page": "우주·위성",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "초소형위성 개발·제조와 위성 운용·영상 분석 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://naraspace.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "나라엠앤디",
    "type": "company",
    "path": "companies/나라엠앤디",
@@ -27337,6 +27527,175 @@
     }
    ],
    "themes": [],
+   "issues": []
+  },
+  {
+   "id": "나래나노텍",
+   "type": "company",
+   "path": "companies/나래나노텍",
+   "summary": "디스플레이와 배터리 공정의 코팅·건조·합착 장비를 제조하는 정밀 공정장비 기업",
+   "market": "KOSDAQ",
+   "ticker": "137080",
+   "dart_corp_code": "",
+   "aliases": [
+    "NARAE NANOTECH"
+   ],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "배터리 코팅·건조·합착 장비를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.naraenano.co.kr/"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "디스플레이 박막 코팅·건조 장비를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.naraenano.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "배터리 코팅·건조·합착 장비를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.naraenano.co.kr/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "디스플레이",
+       "page": "디스플레이",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "디스플레이 박막 코팅·건조 장비를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.naraenano.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "나무AX",
+   "type": "company",
+   "path": "companies/나무AX",
+   "summary": "기업용 AI 에이전트와 멀티·하이브리드 클라우드 플랫폼을 제공하는 소프트웨어 기업",
+   "market": "KOSDAQ",
+   "ticker": "242040",
+   "dart_corp_code": "",
+   "aliases": [
+    "나무에이엑스",
+    "나무기술",
+    "Namu AX"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "기업용 AI 에이전트와 멀티·하이브리드 클라우드 플랫폼을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.namutech.co.kr/",
+      "https://www.namuax.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "AI·클라우드",
+     "tier": 1,
+     "stage": "AI·클라우드 구축·운영",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "AI·클라우드",
+       "page": "AI·클라우드",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "기업용 AI 에이전트와 멀티·하이브리드 클라우드 플랫폼을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.namutech.co.kr/",
+        "https://www.namuax.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
    "issues": []
   },
   {
@@ -60058,6 +60417,193 @@
      "weak": false,
      "sources": [
       "https://www.nanoentek.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "나노팀",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "배터리 열관리·안전소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "방열·열폭주 차단·소화의 배터리 안전 솔루션을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nanotim.co.kr/",
+      "https://kind.krx.co.kr/external/2026/05/15/003328/20260515007628/11013.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "나라셀라",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전통주·주류",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "와인과 사케·위스키 등 주류의 수입·유통·판매를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://naracellar.com/",
+      "https://www.naracellar.com/nara/about_01.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "나라스페이스테크놀로지",
+   "target": "우주·위성",
+   "type": "테마",
+   "tier": 1,
+   "stage": "위성 개발",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "우주·위성",
+     "page": "우주·위성",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "초소형위성 개발·제조와 위성 운용·영상 분석 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://naraspace.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "나래나노텍",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "배터리 코팅·건조·합착 장비를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.naraenano.co.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "나래나노텍",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "디스플레이 박막 코팅·건조 장비를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.naraenano.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "나무AX",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 1,
+   "stage": "AI·클라우드 구축·운영",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "기업용 AI 에이전트와 멀티·하이브리드 클라우드 플랫폼을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.namutech.co.kr/",
+      "https://www.namuax.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
