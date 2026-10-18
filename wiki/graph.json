@@ -38522,6 +38522,327 @@
    "issues": []
   },
   {
+   "id": "더블유게임즈",
+   "type": "company",
+   "path": "companies/더블유게임즈",
+   "summary": "소셜카지노와 캐주얼 모바일 게임을 개발·서비스하는 게임 기업",
+   "market": "KOSPI",
+   "ticker": "192080",
+   "dart_corp_code": "01010110",
+   "aliases": [
+    "DOUBLEU GAMES"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "모바일 소셜카지노와 캐주얼 게임 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://play.doubleugames.com/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001244",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "게임",
+     "tier": 1,
+     "stage": "온라인·모바일 게임",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "게임",
+       "page": "게임",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "모바일 소셜카지노와 캐주얼 게임 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://play.doubleugames.com/",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001244",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "더블유씨피",
+   "type": "company",
+   "path": "companies/더블유씨피",
+   "summary": "리튬이온 이차전지용 분리막을 생산하는 배터리 소재 기업",
+   "market": "KOSDAQ",
+   "ticker": "393890",
+   "dart_corp_code": "01291317",
+   "aliases": [
+    "WCP",
+    "W-SCOPE CORPORATION"
+   ],
+   "krx_industry": "일차전지 및 이차전지 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "이차전지용 분리막 제조 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://wcp.kr/home/sub.php?menukey=310",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001310",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "분리막",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "이차전지용 분리막 제조 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://wcp.kr/home/sub.php?menukey=310",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001310",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "더블유에스아이",
+   "type": "company",
+   "path": "companies/더블유에스아이",
+   "summary": "척추·관절·심혈관·호흡기 분야 의약품과 헬스케어 제품을 유통하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "299170",
+   "dart_corp_code": "01318261",
+   "aliases": [
+    "WSI"
+   ],
+   "krx_industry": "생활용품 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "의약품 및 헬스케어 제품 유통 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://wsi-healthcare.com/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000991",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "의약품 및 헬스케어 제품 유통 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://wsi-healthcare.com/",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000991",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "더즌",
+   "type": "company",
+   "path": "companies/더즌",
+   "summary": "기업과 금융기관을 연결하는 B2B 디지털뱅킹 솔루션 기업",
+   "market": "KOSDAQ",
+   "ticker": "462860",
+   "dart_corp_code": "01563667",
+   "aliases": [
+    "Dozn"
+   ],
+   "krx_industry": "전기 통신업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "핀테크·전자결제",
+     "page": "핀테크·전자결제",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "펌뱅킹과 기업용 B2B 금융 솔루션 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dozn.co.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000486",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "핀테크·전자결제",
+     "tier": 1,
+     "stage": "금융 플랫폼·솔루션",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "핀테크·전자결제",
+       "page": "핀테크·전자결제",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "펌뱅킹과 기업용 B2B 금융 솔루션 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dozn.co.kr/",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000486",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "더코디",
+   "type": "company",
+   "path": "companies/더코디",
+   "summary": "반도체·평판디스플레이 제조용 장비와 유통 사업을 운영하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "224060",
+   "dart_corp_code": "00530413",
+   "aliases": [
+    "THECODI"
+   ],
+   "krx_industry": "전자부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "반도체·평판디스플레이 제조용 장비 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://thecodi.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001675",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "반도체 제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "반도체·평판디스플레이 제조용 장비 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://thecodi.kr/",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001675",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "덴티움",
    "type": "company",
    "path": "companies/덴티움",
@@ -75766,6 +76087,166 @@
       "https://www.theborn.co.kr/",
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000930",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "더블유게임즈",
+   "target": "게임",
+   "type": "테마",
+   "tier": 1,
+   "stage": "온라인·모바일 게임",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "모바일 소셜카지노와 캐주얼 게임 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://play.doubleugames.com/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001244",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "더블유씨피",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "분리막",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "이차전지용 분리막 제조 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://wcp.kr/home/sub.php?menukey=310",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001310",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "더블유에스아이",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "의약품 및 헬스케어 제품 유통 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://wsi-healthcare.com/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000991",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "더즌",
+   "target": "핀테크·전자결제",
+   "type": "테마",
+   "tier": 1,
+   "stage": "금융 플랫폼·솔루션",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "핀테크·전자결제",
+     "page": "핀테크·전자결제",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "펌뱅킹과 기업용 B2B 금융 솔루션 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dozn.co.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000486",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "더코디",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "반도체 제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "반도체·평판디스플레이 제조용 장비 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://thecodi.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001675",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
