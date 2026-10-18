@@ -404,7 +404,9 @@
     "전통주·주류",
     "단체급식·외식·건강식",
     "외식·프랜차이즈",
-    "식품지주·전략"
+    "식품지주·전략",
+    "제당·사료",
+    "제분·밀가루"
    ]
   },
   {
@@ -37458,7 +37460,7 @@
    "summary": "전력망용 초고압 케이블과 통신케이블을 공급하는 상장사",
    "market": "KOSPI",
    "ticker": "001440",
-   "dart_corp_code": "",
+   "dart_corp_code": "00113207",
    "aliases": [
     "TAIHAN CABLE"
    ],
@@ -37470,13 +37472,14 @@
      "page": "전력망·전력기기",
      "classification": "공식 발표 확인",
      "status": "확인",
-     "date": "2026-10-17",
+     "date": "2026-10-19",
      "text": "전력 공급망 전반의 송배전 솔루션과 초고압 케이블을 안내한다.",
      "evidence_level": "공식 발표",
      "weak": false,
      "sources": [
       "https://www.taihan.com/business/solutionDetail?idx=1",
-      "https://www.taihan.com/solutions/dcCableSystem"
+      "https://www.taihan.com/solutions/dcCableSystem",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001418"
      ],
      "malformed": ""
     },
@@ -37485,12 +37488,13 @@
      "page": "통신·네트워크",
      "classification": "공시·거래소 확인",
      "status": "확인",
-     "date": "2026-10-17",
+     "date": "2026-10-19",
      "text": "통신케이블과 광케이블이 주요제품이다.",
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
-      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001418"
      ],
      "malformed": ""
     }
@@ -37507,13 +37511,14 @@
        "page": "전력망·전력기기",
        "classification": "공식 발표 확인",
        "status": "확인",
-       "date": "2026-10-17",
+       "date": "2026-10-19",
        "text": "전력 공급망 전반의 송배전 솔루션과 초고압 케이블을 안내한다.",
        "evidence_level": "공식 발표",
        "weak": false,
        "sources": [
         "https://www.taihan.com/business/solutionDetail?idx=1",
-        "https://www.taihan.com/solutions/dcCableSystem"
+        "https://www.taihan.com/solutions/dcCableSystem",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001418"
        ],
        "malformed": ""
       }
@@ -37535,11 +37540,213 @@
        "page": "통신·네트워크",
        "classification": "공시·거래소 확인",
        "status": "확인",
-       "date": "2026-10-17",
+       "date": "2026-10-19",
        "text": "통신케이블과 광케이블이 주요제품이다.",
        "evidence_level": "거래소 자료",
        "weak": false,
        "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001418"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대한제강",
+   "type": "company",
+   "path": "companies/대한제강",
+   "summary": "빌릿과 철근을 생산·가공하는 철강 기업",
+   "market": "KOSPI",
+   "ticker": "084010",
+   "dart_corp_code": "00113225",
+   "aliases": [
+    "DaehanSteel"
+   ],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "빌릿·철근 생산과 가공철근 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.idaehan.com/kr/main",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000780",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113225",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "철강",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "빌릿·철근 생산과 가공철근 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.idaehan.com/kr/main",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000780",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113225",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대한제당",
+   "type": "company",
+   "path": "companies/대한제당",
+   "summary": "설탕과 사료를 생산하는 식품·사료 기업",
+   "market": "KOSPI",
+   "ticker": "001790",
+   "dart_corp_code": "00113234",
+   "aliases": [
+    "TS Corporation"
+   ],
+   "krx_industry": "곡물가공품, 전분 및 전분제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "설탕·가축용 배합사료 제조 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.ts.co.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000542",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113234",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "제당·사료",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "설탕·가축용 배합사료 제조 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.ts.co.kr/",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000542",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113234",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대한제분",
+   "type": "company",
+   "path": "companies/대한제분",
+   "summary": "밀가루·프리믹스와 제분 제품을 생산하는 식품 기업",
+   "market": "KOSPI",
+   "ticker": "001130",
+   "dart_corp_code": "00113243",
+   "aliases": [
+    "Daehan Flour Mill",
+    "곰표"
+   ],
+   "krx_industry": "곡물가공품, 전분 및 전분제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "밀가루·프리믹스와 제분 제품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dhflour.co.kr/",
+      "https://catalog.dhflour.co.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001278",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113243",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "제분·밀가루",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "밀가루·프리믹스와 제분 제품 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dhflour.co.kr/",
+        "https://catalog.dhflour.co.kr/",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001278",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113243",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -37558,11 +37765,14 @@
    "id": "대한조선",
    "type": "company",
    "path": "companies/대한조선",
-   "summary": "중형 원유운반선과 컨테이너선 등을 건조하는 조선 기업",
+   "summary": "원유운반선·셔틀탱커·벌크선 등을 건조하는 중형 조선소",
    "market": "KOSPI",
    "ticker": "439260",
-   "dart_corp_code": "",
-   "aliases": [],
+   "dart_corp_code": "00182696",
+   "aliases": [
+    "Daehan Shipbuilding",
+    "DH Shipbuilding"
+   ],
    "krx_industry": "선박 및 보트 건조업",
    "classification_as_of": "2026-10-09",
    "classifications": [
@@ -37571,12 +37781,14 @@
      "page": "조선·해운",
      "classification": "공식 발표 확인",
      "status": "확인",
-     "date": "2026-10-17",
-     "text": "회사는 공식 사업분야와 회사소개에서 원유운반선·컨테이너선 등 중형 선박을 건조한다고 안내한다.",
+     "date": "2026-10-19",
+     "text": "원유운반선·셔틀탱커·벌크선 건조 사업을 확인했다.",
      "evidence_level": "공식 발표",
      "weak": false,
      "sources": [
-      "https://www.daehanship.com/",
+      "https://www.daehanship.com/outline",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000620",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00182696",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
@@ -37594,12 +37806,14 @@
        "page": "조선·해운",
        "classification": "공식 발표 확인",
        "status": "확인",
-       "date": "2026-10-17",
-       "text": "회사는 공식 사업분야와 회사소개에서 원유운반선·컨테이너선 등 중형 선박을 건조한다고 안내한다.",
+       "date": "2026-10-19",
+       "text": "원유운반선·셔틀탱커·벌크선 건조 사업을 확인했다.",
        "evidence_level": "공식 발표",
        "weak": false,
        "sources": [
-        "https://www.daehanship.com/",
+        "https://www.daehanship.com/outline",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000620",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00182696",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -74514,13 +74728,14 @@
      "page": "전력망·전력기기",
      "classification": "공식 발표 확인",
      "status": "확인",
-     "date": "2026-10-17",
+     "date": "2026-10-19",
      "text": "전력 공급망 전반의 송배전 솔루션과 초고압 케이블을 안내한다.",
      "evidence_level": "공식 발표",
      "weak": false,
      "sources": [
       "https://www.taihan.com/business/solutionDetail?idx=1",
-      "https://www.taihan.com/solutions/dcCableSystem"
+      "https://www.taihan.com/solutions/dcCableSystem",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001418"
      ],
      "malformed": ""
     }
@@ -74545,11 +74760,112 @@
      "page": "통신·네트워크",
      "classification": "공시·거래소 확인",
      "status": "확인",
-     "date": "2026-10-17",
+     "date": "2026-10-19",
      "text": "통신케이블과 광케이블이 주요제품이다.",
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001418"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대한제강",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "철강",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "빌릿·철근 생산과 가공철근 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.idaehan.com/kr/main",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000780",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113225",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대한제당",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제당·사료",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "설탕·가축용 배합사료 제조 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.ts.co.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000542",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113234",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대한제분",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제분·밀가루",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "밀가루·프리믹스와 제분 제품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dhflour.co.kr/",
+      "https://catalog.dhflour.co.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001278",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113243",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
@@ -74575,12 +74891,14 @@
      "page": "조선·해운",
      "classification": "공식 발표 확인",
      "status": "확인",
-     "date": "2026-10-17",
-     "text": "회사는 공식 사업분야와 회사소개에서 원유운반선·컨테이너선 등 중형 선박을 건조한다고 안내한다.",
+     "date": "2026-10-19",
+     "text": "원유운반선·셔틀탱커·벌크선 건조 사업을 확인했다.",
      "evidence_level": "공식 발표",
      "weak": false,
      "sources": [
-      "https://www.daehanship.com/",
+      "https://www.daehanship.com/outline",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000620",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00182696",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
