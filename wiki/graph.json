@@ -33135,6 +33135,320 @@
    "issues": []
   },
   {
+   "id": "다산솔루에타",
+   "type": "company",
+   "path": "companies/다산솔루에타",
+   "summary": "전자파 차폐와 방열 소재를 개발·생산하는 전자부품 기업",
+   "market": "KOSDAQ",
+   "ticker": "154040",
+   "dart_corp_code": "00624518",
+   "aliases": [
+    "Dasan Solueta",
+    "Solueta"
+   ],
+   "krx_industry": "전자부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "EMI/EMC·방열 소재와 2차전지 적용 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.solueta.com",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00624518",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "배터리 열관리·안전소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "EMI/EMC·방열 소재와 2차전지 적용 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.solueta.com",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00624518",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "다스코",
+   "type": "company",
+   "path": "companies/다스코",
+   "summary": "데크플레이트와 도로안전시설물을 공급하는 구조용 금속·철강 기업",
+   "market": "KOSPI",
+   "ticker": "058730",
+   "dart_corp_code": "00353878",
+   "aliases": [
+    "DASCO",
+    "Development Advance Solution"
+   ],
+   "krx_industry": "구조용 금속제품, 탱크 및 증기발생기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라 · 철강·비철금속",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "데크플레이트와 도로안전시설물·강재 제품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dasco.kr/xe/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00353878",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "도시경관·안전시설",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "철강",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "다올투자증권",
+   "type": "company",
+   "path": "companies/다올투자증권",
+   "summary": "주식·선물옵션 거래와 금융상품 서비스를 제공하는 증권사",
+   "market": "KOSPI",
+   "ticker": "030210",
+   "dart_corp_code": "00156859",
+   "aliases": [
+    "Daol Investment & Securities"
+   ],
+   "krx_industry": "금융 지원 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "증권·자산운용",
+     "page": "증권·자산운용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "주식·선물옵션 거래와 금융상품·리서치 서비스를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daolsecurities.com/index.jspx",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00156859",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "증권·자산운용",
+     "tier": 1,
+     "stage": "매매·위탁매매·인수",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "증권·자산운용",
+       "page": "증권·자산운용",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "주식·선물옵션 거래와 금융상품·리서치 서비스를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.daolsecurities.com/index.jspx",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00156859",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "다우기술",
+   "type": "company",
+   "path": "companies/다우기술",
+   "summary": "금융 IT와 시스템 통합·아웃소싱 서비스를 제공하는 IT서비스 기업",
+   "market": "KOSPI",
+   "ticker": "023590",
+   "dart_corp_code": "00176914",
+   "aliases": [
+    "Daou Tech",
+    "DAOU TECHNOLOGY"
+   ],
+   "krx_industry": "자료처리, 호스팅, 포털 및 기타 인터넷 정보매개 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "금융 IT와 시스템 통합·컨설팅·아웃소싱 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daou.co.kr/ko/service/ito",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00176914",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "소프트웨어·IT서비스",
+     "tier": 1,
+     "stage": "기업 IT서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "소프트웨어·IT서비스",
+       "page": "소프트웨어·IT서비스",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "금융 IT와 시스템 통합·컨설팅·아웃소싱 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.daou.co.kr/ko/service/ito",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00176914",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "다우데이타",
+   "type": "company",
+   "path": "companies/다우데이타",
+   "summary": "글로벌 소프트웨어 유통과 VAN·PG 결제 솔루션을 제공하는 IT서비스 기업",
+   "market": "KOSDAQ",
+   "ticker": "032190",
+   "dart_corp_code": "00238782",
+   "aliases": [
+    "Daou Data",
+    "DAOU DATA CORP."
+   ],
+   "krx_industry": "기계장비 및 관련 물품 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스 · 핀테크·전자결제",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "글로벌 소프트웨어 유통·IT 솔루션과 VAN·PG 결제 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daoudata.co.kr/ko/about/intro",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00238782",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "소프트웨어·IT서비스",
+     "tier": 1,
+     "stage": "기업 IT서비스",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "핀테크·전자결제",
+     "tier": 1,
+     "stage": "전자결제",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "달바글로벌",
    "type": "company",
    "path": "companies/달바글로벌",
@@ -68489,6 +68803,162 @@
    "type": "테마",
    "tier": 1,
    "stage": "부품·모듈",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "다산솔루에타",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "배터리 열관리·안전소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "EMI/EMC·방열 소재와 2차전지 적용 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.solueta.com",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00624518",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "다스코",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "도시경관·안전시설",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "다스코",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "철강",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "다올투자증권",
+   "target": "증권·자산운용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "매매·위탁매매·인수",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "증권·자산운용",
+     "page": "증권·자산운용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "주식·선물옵션 거래와 금융상품·리서치 서비스를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daolsecurities.com/index.jspx",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00156859",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "다우기술",
+   "target": "소프트웨어·IT서비스",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기업 IT서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "금융 IT와 시스템 통합·컨설팅·아웃소싱 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daou.co.kr/ko/service/ito",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00176914",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "다우데이타",
+   "target": "소프트웨어·IT서비스",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기업 IT서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "다우데이타",
+   "target": "핀테크·전자결제",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전자결제",
    "score": 0,
    "evidence": [],
    "classifications": [],
