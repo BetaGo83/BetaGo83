@@ -11077,6 +11077,72 @@
    "issues": []
   },
   {
+   "id": "KT밀리의서재",
+   "type": "company",
+   "path": "companies/KT밀리의서재",
+   "summary": "전자책·오디오북·웹소설·웹툰을 제공하는 독서 구독 플랫폼과 출간·IP 사업을 운영하는 콘텐츠 기업",
+   "market": "KOSDAQ",
+   "ticker": "418470",
+   "dart_corp_code": "01467451",
+   "aliases": [
+    "밀리의서재",
+    "kt millie seojae",
+    "millie"
+   ],
+   "krx_industry": "서적, 잡지 및 기타 인쇄물 출판업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "전자책·오디오북·웹소설·웹툰 구독 플랫폼과 출간·IP 사업을 DART 반기보고서 및 회사 공식 Business 페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260812000290&dcmNo=11520131&eleId=9&offset=84054&length=56817&dtd=dart4.xsd&displayImage=show",
+      "https://www.millie.town/business/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "영화관·미디어",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "전자책·오디오북·웹소설·웹툰 구독 플랫폼과 출간·IP 사업을 DART 반기보고서 및 회사 공식 Business 페이지에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260812000290&dcmNo=11520131&eleId=9&offset=84054&length=56817&dtd=dart4.xsd&displayImage=show",
+        "https://www.millie.town/business/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "LB세미콘",
    "type": "company",
    "path": "companies/LB세미콘",
@@ -38901,6 +38967,38 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814003681&dcmNo=11538071&eleId=9&offset=132104&length=94903&dtd=dart4.xsd&displayImage=show",
       "https://www.nasmedia.co.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KT밀리의서재",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "영화관·미디어",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "전자책·오디오북·웹소설·웹툰 구독 플랫폼과 출간·IP 사업을 DART 반기보고서 및 회사 공식 Business 페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260812000290&dcmNo=11520131&eleId=9&offset=84054&length=56817&dtd=dart4.xsd&displayImage=show",
+      "https://www.millie.town/business/"
      ],
      "malformed": ""
     }
