@@ -96,7 +96,8 @@
     "건설·플랜트·인프라",
     "부동산 개발·운영",
     "시멘트·레미콘",
-    "유리·창호"
+    "유리·창호",
+    "도시경관·안전시설"
    ]
   },
   {
@@ -217,7 +218,8 @@
     "의약품",
     "바이오의약품 원료",
     "항암백신",
-    "비임상 CRO·연구개발"
+    "비임상 CRO·연구개발",
+    "사업지주·바이오 전략"
    ]
   },
   {
@@ -395,7 +397,8 @@
     "주정·에탄올 원료",
     "전통주·주류",
     "단체급식·외식·건강식",
-    "외식·프랜차이즈"
+    "외식·프랜차이즈",
+    "식품지주·전략"
    ]
   },
   {
@@ -572,7 +575,8 @@
     "이동통신·데이터 서비스",
     "통신케이블",
     "이동통신망 장비",
-    "인터넷 트래픽 연동"
+    "인터넷 트래픽 연동",
+    "스마트그리드·AMI"
    ]
   },
   {
@@ -31737,6 +31741,136 @@
    "issues": []
   },
   {
+   "id": "녹십자웰빙",
+   "type": "company",
+   "path": "companies/녹십자웰빙",
+   "summary": "전문의약품과 건강기능식품·에스테틱 제품을 개발·제조하는 헬스케어 기업",
+   "market": "KOSDAQ",
+   "ticker": "234690",
+   "dart_corp_code": "01135057",
+   "aliases": [
+    "GC WellBeing",
+    "GCWB"
+   ],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "전문의약품과 건강기능식품·에스테틱 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.greencrosswb.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01135057",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "전문의약품과 건강기능식품·에스테틱 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.greencrosswb.com/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01135057",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "녹십자홀딩스",
+   "type": "company",
+   "path": "companies/녹십자홀딩스",
+   "summary": "GC그룹의 지주회사로 바이오·헬스케어 계열사를 관리하는 기업",
+   "market": "KOSPI",
+   "ticker": "005250",
+   "dart_corp_code": "00108135",
+   "aliases": [
+    "GC Corp",
+    "GC녹십자홀딩스"
+   ],
+   "krx_industry": "회사 본부 및 경영 컨설팅 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "바이오·헬스케어 계열사를 관리하는 지주회사 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gccorp.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00108135",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "사업지주·바이오 전략",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "바이오·헬스케어 계열사를 관리하는 지주회사 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.gccorp.com/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00108135",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "농심",
    "type": "company",
    "path": "companies/농심",
@@ -31781,6 +31915,201 @@
        "weak": false,
        "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "농심홀딩스",
+   "type": "company",
+   "path": "companies/농심홀딩스",
+   "summary": "농심그룹의 순수지주회사로 식품 계열사의 지배구조와 경영을 관리하는 기업",
+   "market": "KOSPI",
+   "ticker": "072710",
+   "dart_corp_code": "00459871",
+   "aliases": [
+    "Nongshim Holdings"
+   ],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "식품 계열사를 관리하는 순수지주회사 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nongshim.com/introduce/group/holdings",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00459871",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "식품지주·전략",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "식품 계열사를 관리하는 순수지주회사 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nongshim.com/introduce/group/holdings",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00459871",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "누리플랜",
+   "type": "company",
+   "path": "companies/누리플랜",
+   "summary": "도시경관과 안전시설을 설계·제조·시공하는 인프라 기업",
+   "market": "KOSDAQ",
+   "ticker": "069140",
+   "dart_corp_code": "00410997",
+   "aliases": [
+    "Nuriplan"
+   ],
+   "krx_industry": "구조용 금속제품, 탱크 및 증기발생기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "도시경관과 안전시설 제품 및 시공 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.nuriplan.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00410997",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "도시경관·안전시설",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "도시경관과 안전시설 제품 및 시공 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.nuriplan.com/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00410997",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "누리플렉스",
+   "type": "company",
+   "path": "companies/누리플렉스",
+   "summary": "AMI와 에너지 IoT를 공급하는 스마트그리드 솔루션 기업",
+   "market": "KOSDAQ",
+   "ticker": "040160",
+   "dart_corp_code": "00269889",
+   "aliases": [
+    "NuriFlex",
+    "Nuri Telecom"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "AMI와 에너지 IoT 기반 스마트그리드 솔루션 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://nuriflex.co.kr/kr/about/about-us.html",
+      "https://nuriflex.co.kr/kr/service/AMI.html",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00269889",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "통신·네트워크",
+     "tier": 1,
+     "stage": "스마트그리드·AMI",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "통신·네트워크",
+       "page": "통신·네트워크",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "AMI와 에너지 IoT 기반 스마트그리드 솔루션 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://nuriflex.co.kr/kr/about/about-us.html",
+        "https://nuriflex.co.kr/kr/service/AMI.html",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00269889",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
       }
@@ -66523,6 +66852,70 @@
    }
   },
   {
+   "source": "녹십자웰빙",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "전문의약품과 건강기능식품·에스테틱 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.greencrosswb.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01135057",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "녹십자홀딩스",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "사업지주·바이오 전략",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "바이오·헬스케어 계열사를 관리하는 지주회사 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gccorp.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00108135",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "농심",
    "target": "음식료",
    "type": "테마",
@@ -66542,6 +66935,103 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "농심홀딩스",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "식품지주·전략",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "식품 계열사를 관리하는 순수지주회사 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nongshim.com/introduce/group/holdings",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00459871",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "누리플랜",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "도시경관·안전시설",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "도시경관과 안전시설 제품 및 시공 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.nuriplan.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00410997",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "누리플렉스",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 1,
+   "stage": "스마트그리드·AMI",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "AMI와 에너지 IoT 기반 스마트그리드 솔루션 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://nuriflex.co.kr/kr/about/about-us.html",
+      "https://nuriflex.co.kr/kr/service/AMI.html",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00269889",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
