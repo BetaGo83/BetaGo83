@@ -29398,6 +29398,260 @@
    ]
   },
   {
+   "id": "네오오토",
+   "type": "company",
+   "path": "companies/네오오토",
+   "summary": "자동차 변속기와 전기차 감속기용 정밀 기어 부품을 제조하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "212560",
+   "dart_corp_code": "00876865",
+   "aliases": [
+    "NEOOTO"
+   ],
+   "krx_industry": "자동차 신품 부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "변속기 기어와 전기차 감속기 부품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.neooto.kr/",
+      "https://opendart.fss.or.kr/xbrl/viewer/main.do?rcpNo=20260319001301",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "구동·변속·현가 부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "변속기 기어와 전기차 감속기 부품 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.neooto.kr/",
+        "https://opendart.fss.or.kr/xbrl/viewer/main.do?rcpNo=20260319001301",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "네오위즈",
+   "type": "company",
+   "path": "companies/네오위즈",
+   "summary": "PC·모바일·콘솔 게임을 개발·서비스하는 게임 소프트웨어 기업",
+   "market": "KOSDAQ",
+   "ticker": "095660",
+   "dart_corp_code": "00628860",
+   "aliases": [
+    "NEOWIZ",
+    "NEOWIZ GAMES"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "PC·모바일·콘솔 게임 서비스 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.neowiz.com/kr",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00628860",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "게임",
+     "tier": 1,
+     "stage": "게임 소프트웨어",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "게임",
+       "page": "게임",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "PC·모바일·콘솔 게임 서비스 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.neowiz.com/kr",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00628860",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "네오이뮨텍",
+   "type": "company",
+   "path": "companies/네오이뮨텍",
+   "summary": "T세포 증폭제와 면역항암 파이프라인을 개발하는 바이오 기업",
+   "market": "KOSDAQ",
+   "ticker": "950220",
+   "dart_corp_code": "01511558",
+   "aliases": [
+    "NeoImmuneTech",
+    "NT-I7"
+   ],
+   "krx_industry": "자연과학 및 공학 연구개발업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "면역항암 신약 파이프라인 연구개발을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.neoimmunetech.com/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261002000504"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "바이오의약품 제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "면역항암 신약 파이프라인 연구개발을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.neoimmunetech.com/",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261002000504"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "네오크레마",
+   "type": "company",
+   "path": "companies/네오크레마",
+   "summary": "기능성 식품 원료와 건강기능식품을 연구·제조하는 식품소재 기업",
+   "market": "KOSDAQ",
+   "ticker": "311390",
+   "dart_corp_code": "01219155",
+   "aliases": [
+    "NeoCremar"
+   ],
+   "krx_industry": "기타 식품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "기능성 식품 원료와 건강기능식품 소재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://cremar.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "신선식품·건강식품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "기능성 식품 원료와 건강기능식품 소재 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://cremar.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "넥스틸",
    "type": "company",
    "path": "companies/넥스틸",
@@ -63114,6 +63368,132 @@
     "label": "확인 중",
     "muted": false,
     "line_style": "dashed"
+   }
+  },
+  {
+   "source": "네오오토",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "구동·변속·현가 부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "변속기 기어와 전기차 감속기 부품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.neooto.kr/",
+      "https://opendart.fss.or.kr/xbrl/viewer/main.do?rcpNo=20260319001301",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "네오위즈",
+   "target": "게임",
+   "type": "테마",
+   "tier": 1,
+   "stage": "게임 소프트웨어",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "PC·모바일·콘솔 게임 서비스 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.neowiz.com/kr",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00628860",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "네오이뮨텍",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "바이오의약품 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "면역항암 신약 파이프라인 연구개발을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.neoimmunetech.com/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261002000504"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "네오크레마",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "신선식품·건강식품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "기능성 식품 원료와 건강기능식품 소재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://cremar.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
    }
   },
   {
