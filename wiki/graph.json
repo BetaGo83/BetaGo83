@@ -51,7 +51,8 @@
     "전력 시스템",
     "ESS 프로젝트 개발·운영",
     "ESS 공급·유지보수",
-    "ESS용 양극재"
+    "ESS용 양극재",
+    "수요관리·VPP"
    ]
   },
   {
@@ -342,6 +343,7 @@
     "대형마트",
     "백화점·복합쇼핑몰",
     "편의점·소매·전자상거래",
+    "산업재 B2B 전자상거래",
     "쇼핑몰 운영 기반",
     "면세 유통",
     "식자재 유통·푸드서비스",
@@ -24028,6 +24030,417 @@
        "sources": [
         "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00203847",
         "https://www.kukilmetal.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "국전",
+   "type": "company",
+   "path": "companies/국전",
+   "summary": "원료의약품과 정밀화학·첨단 반도체 소재를 생산하는 화학소재 기업",
+   "market": "KOSDAQ",
+   "ticker": "307750",
+   "dart_corp_code": "",
+   "aliases": [
+    "국전약품",
+    "KUKJEON"
+   ],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "원료의약품 제조·판매를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kukjeon.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "반도체용 소재와 전해질 첨가제 등 정밀화학 소재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kukjeon.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "원료의약품 제조·판매를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.kukjeon.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "기초·첨단화학소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "반도체용 소재와 전해질 첨가제 등 정밀화학 소재 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.kukjeon.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "국제약품",
+   "type": "company",
+   "path": "companies/국제약품",
+   "summary": "전문의약품과 일반의약품을 제조·판매하는 제약 기업",
+   "market": "KOSPI",
+   "ticker": "002720",
+   "dart_corp_code": "",
+   "aliases": [
+    "KUKJE PHARM"
+   ],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "전문의약품·일반의약품 제조·판매를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kukjepharm.co.kr/",
+      "https://www.kukjepharm.co.kr/data/upload/Productslist_240906.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "전문의약품·일반의약품 제조·판매를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.kukjepharm.co.kr/",
+        "https://www.kukjepharm.co.kr/data/upload/Productslist_240906.pdf",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "그래디언트",
+   "type": "company",
+   "path": "companies/그래디언트",
+   "summary": "산업재 B2B 전자상거래와 헬스케어 사업을 운영하는 사업관리 기업",
+   "market": "KOSDAQ",
+   "ticker": "035080",
+   "dart_corp_code": "",
+   "aliases": [
+    "GRADIANT",
+    "인터파크"
+   ],
+   "krx_industry": "무점포 소매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "산업재 B2B 전자상거래 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gradiant.co.kr/aboutus/overview/",
+      "https://www.gradiant.co.kr/ir/disclosures/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "유통·전자상거래",
+     "tier": 1,
+     "stage": "산업재 B2B 전자상거래",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "유통·전자상거래",
+       "page": "유통·전자상거래",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "산업재 B2B 전자상거래 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.gradiant.co.kr/aboutus/overview/",
+        "https://www.gradiant.co.kr/ir/disclosures/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "그래피",
+   "type": "company",
+   "path": "companies/그래피",
+   "summary": "투명교정장치와 3D 프린팅용 형상기억 소재·장비를 개발하는 치과 의료기기 기업",
+   "market": "KOSDAQ",
+   "ticker": "318060",
+   "dart_corp_code": "",
+   "aliases": [
+    "GRAPHY",
+    "테라하츠"
+   ],
+   "krx_industry": "합성고무 및 플라스틱 물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "투명교정장치와 치과용 제작 장비·소프트웨어 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://stock.pstatic.net/stock-ipo/A318060/irBook/A318060_irBook_20250813164002.pdf",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002396",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "형상기억 소재와 광경화성 레진 등 3D 프린팅 소재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://stock.pstatic.net/stock-ipo/A318060/irBook/A318060_irBook_20250813164002.pdf",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002396",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "치과용 기기",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "투명교정장치와 치과용 제작 장비·소프트웨어 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://stock.pstatic.net/stock-ipo/A318060/irBook/A318060_irBook_20250813164002.pdf",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002396",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "기초·첨단화학소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "형상기억 소재와 광경화성 레진 등 3D 프린팅 소재 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://stock.pstatic.net/stock-ipo/A318060/irBook/A318060_irBook_20250813164002.pdf",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002396",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "그리드위즈",
+   "type": "company",
+   "path": "companies/그리드위즈",
+   "summary": "수요관리와 ESS·전기차 충전·태양광을 통합 운영하는 에너지 플랫폼 기업",
+   "market": "KOSDAQ",
+   "ticker": "453450",
+   "dart_corp_code": "",
+   "aliases": [
+    "GRIDWIZ"
+   ],
+   "krx_industry": "그외 기타 전문, 과학 및 기술 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "ESS",
+     "page": "ESS",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "수요관리와 VPP·ESS 통합 운영 플랫폼을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://www.gridwiz.com/kr/ir/documents_report.php",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000475",
+      "https://www.gridwiz.com/data/bbsData/17593020681.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "ESS",
+     "tier": 1,
+     "stage": "수요관리·VPP",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "ESS",
+       "page": "ESS",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "수요관리와 VPP·ESS 통합 운영 플랫폼을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://www.gridwiz.com/kr/ir/documents_report.php",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000475",
+        "https://www.gridwiz.com/data/bbsData/17593020681.pdf",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
@@ -55281,6 +55694,229 @@
      "sources": [
       "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00203847",
       "https://www.kukilmetal.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "국전",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "원료의약품 제조·판매를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kukjeon.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "국전",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기초·첨단화학소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "반도체용 소재와 전해질 첨가제 등 정밀화학 소재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kukjeon.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "국제약품",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "전문의약품·일반의약품 제조·판매를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kukjepharm.co.kr/",
+      "https://www.kukjepharm.co.kr/data/upload/Productslist_240906.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "그래디언트",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 1,
+   "stage": "산업재 B2B 전자상거래",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "산업재 B2B 전자상거래 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gradiant.co.kr/aboutus/overview/",
+      "https://www.gradiant.co.kr/ir/disclosures/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "그래피",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "치과용 기기",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "투명교정장치와 치과용 제작 장비·소프트웨어 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://stock.pstatic.net/stock-ipo/A318060/irBook/A318060_irBook_20250813164002.pdf",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002396",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "그래피",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기초·첨단화학소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "형상기억 소재와 광경화성 레진 등 3D 프린팅 소재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://stock.pstatic.net/stock-ipo/A318060/irBook/A318060_irBook_20250813164002.pdf",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002396",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "그리드위즈",
+   "target": "ESS",
+   "type": "테마",
+   "tier": 1,
+   "stage": "수요관리·VPP",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "ESS",
+     "page": "ESS",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "수요관리와 VPP·ESS 통합 운영 플랫폼을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://www.gridwiz.com/kr/ir/documents_report.php",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000475",
+      "https://www.gridwiz.com/data/bbsData/17593020681.pdf",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
