@@ -3,7 +3,7 @@ type: "theme"
 name: "HBM·반도체"
 aliases: []
 keywords: ["HBM", "고대역폭메모리", "TC본더", "하이브리드 본딩", "반도체 후공정"]
-stages: ["메모리 제조", "후공정 장비", "하이브리드 본딩", "검사 장비·부품", "공정 모니터링", "패키지기판", "전력반도체 후공정", "반도체 공정 소재", "반도체 제조 장비", "반도체 패키징", "반도체 클린룸", "시스템반도체 파운드리"]
+stages: ["메모리 제조", "후공정 장비", "하이브리드 본딩", "검사 장비·부품", "공정 모니터링", "패키지기판", "전력반도체 후공정", "전력반도체 제조", "반도체 공정 소재", "반도체 제조 장비", "반도체 패키징", "반도체 클린룸", "시스템반도체 파운드리"]
 updated: "2026-10-18"
 category: "기술·디지털"
 ---
@@ -26,6 +26,7 @@ category: "기술·디지털"
 - 공정 모니터링: [[위드텍]] ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930901244))
 - 패키지기판: [[삼성전기]] ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928800810)), [[대덕전자]] ([공식 사업자료](https://www.daeduck.com/ko/main.do))
 - 전력반도체 후공정: [[LB세미콘]] ([뉴스1](https://news.google.com/rss/articles/CBMiX0FVX3lxTE44WHhma09WNEhkMlF6NFhPV1JpRjdUSXpiN3BHclQwM0tDaVNJMmRBRElqN01CdEtnMHFpbG9JODgzOWd4M0V0alhJYU5HM3BOMnRUdlVLYk1vUGFNTHB30gFkQVVfeXFMTXhiRWVSbzA5c0t6OFFiWjJtblRGbHprdnNCYWpJZU9lRlZPdkw3NzFPRmVxcW5BZVJfVHdzNk5POUFRUTF1c3Jna19nTGl3c1pjazlMSjVLeXpmVmJzd2p3Ul9oRQ?oc=5))
+- 전력반도체 제조: [[KEC]] ([DART 사업보고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000580), [KEC 공식 제품](https://www.keccorp.com/kr/product/product_value.asp))
 - 반도체 공정 소재: [[HLB제넥스]] ([DART 사업보고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001238), [공식 제품](https://kr.hlbgenex.com/gwbbs/gw_page10.php?ti=products&me_co=3010)), [[동진쎄미켐]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt)), [[솔브레인]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt)), [[OCI]] ([공식 사업자료](https://www.oci.co.kr/products/semiconductor/polysilicon))
 - 반도체 제조 장비: [[원익IPS]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt)), [[APS]] ([한국거래소 KIND](https://kind.krx.co.kr/corpdetail/totalinfo.do?isurCd=05462&kisComCd=125001&method=searchTotalInfo&repIsuCd=KR7054620000)), [[HPSP]] ([HPSP 공식 제품](https://thehpsp.com/sub/sub02.php?page=3))
 - 검사 장비·부품: [[고영]] ([고영 공식 회사 개요](https://kohyoung.com/kr/who-we-are/), [고영 공식 사업 영역](https://kohyoung.com/kr/offerings/))
@@ -49,6 +50,7 @@ category: "기술·디지털"
 | [[HLB제넥스]] | HBM·반도체 | 공시·거래소 확인 | 확인 | 2026-10-18 | 공시 원문 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt), [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001238), [출처](https://kr.hlbgenex.com/gwbbs/gw_page10.php?ti=products&me_co=3010) |
 | [[HPSP]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-18 | 공식 발표 [출처](https://www.thehpsp.com/ko/), [출처](https://thehpsp.com/sub/sub02.php?page=3), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[ISC]] | HBM·반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
+| [[KEC]] | HBM·반도체 | 공시·거래소 확인 | 확인 | 2026-10-18 | 공시 원문 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt), [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000580), [출처](https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000580&dcmNo=11147931&eleId=10&offset=99496&length=8945&dtd=dart4.xsd), [출처](https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000580&dcmNo=11147931&eleId=11&offset=108445&length=5456&dtd=dart4.xsd), [출처](https://www.keccorp.com/kr/product/product_value.asp) |
 | [[LB세미콘]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage) |
 | [[OCI]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.oci.co.kr/), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[SK하이닉스]] | 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |

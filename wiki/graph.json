@@ -67,6 +67,7 @@
     "공정 모니터링",
     "패키지기판",
     "전력반도체 후공정",
+    "전력반도체 제조",
     "반도체 공정 소재",
     "반도체 제조 장비",
     "반도체 패키징",
@@ -9788,6 +9789,75 @@
         "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260601000703&dcmNo=11411831&eleId=12&offset=188790&length=14084&dtd=dart4.xsd",
         "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260601000703&dcmNo=11411831&eleId=13&offset=202878&length=4958&dtd=dart4.xsd",
         "https://kdcon.co.kr/sub02/sub01.php"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "KEC",
+   "type": "company",
+   "path": "companies/KEC",
+   "summary": "비메모리 전력반도체와 차량용·산업용 반도체 제품을 제조하는 기업",
+   "market": "KOSPI",
+   "ticker": "092220",
+   "dart_corp_code": "00589127",
+   "aliases": [
+    "케이이씨",
+    "KEC Corporation"
+   ],
+   "krx_industry": "반도체 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "KEC의 비메모리 전력반도체 제조·제품군을 사업보고서와 회사 공식 제품자료에서 확인했다. HBM 생산·공급을 직접 확인한 연결은 아니다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000580",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000580&dcmNo=11147931&eleId=10&offset=99496&length=8945&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000580&dcmNo=11147931&eleId=11&offset=108445&length=5456&dtd=dart4.xsd",
+      "https://www.keccorp.com/kr/product/product_value.asp"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "전력반도체 제조",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "KEC의 비메모리 전력반도체 제조·제품군을 사업보고서와 회사 공식 제품자료에서 확인했다. HBM 생산·공급을 직접 확인한 연결은 아니다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000580",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000580&dcmNo=11147931&eleId=10&offset=99496&length=8945&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000580&dcmNo=11147931&eleId=11&offset=108445&length=5456&dtd=dart4.xsd",
+        "https://www.keccorp.com/kr/product/product_value.asp"
        ],
        "malformed": ""
       }
@@ -37028,6 +37098,40 @@
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260601000703&dcmNo=11411831&eleId=12&offset=188790&length=14084&dtd=dart4.xsd",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260601000703&dcmNo=11411831&eleId=13&offset=202878&length=4958&dtd=dart4.xsd",
       "https://kdcon.co.kr/sub02/sub01.php"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KEC",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전력반도체 제조",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "KEC의 비메모리 전력반도체 제조·제품군을 사업보고서와 회사 공식 제품자료에서 확인했다. HBM 생산·공급을 직접 확인한 연결은 아니다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000580",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000580&dcmNo=11147931&eleId=10&offset=99496&length=8945&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000580&dcmNo=11147931&eleId=11&offset=108445&length=5456&dtd=dart4.xsd",
+      "https://www.keccorp.com/kr/product/product_value.asp"
      ],
      "malformed": ""
     }
