@@ -7481,6 +7481,76 @@
    "issues": []
   },
   {
+   "id": "HLB파나진",
+   "type": "company",
+   "path": "companies/HLB파나진",
+   "summary": "PNA 소재와 분자진단·진단 자동화 제품을 개발·판매하는 코스닥 바이오 진단 기업",
+   "market": "KOSDAQ",
+   "ticker": "046210",
+   "dart_corp_code": "00172079",
+   "aliases": [
+    "HLB Panagene",
+    "Panagene",
+    "파나진"
+   ],
+   "krx_industry": "의료용품 및 기타 의약 관련제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB파나진의 PNA 기반 분자진단·진단 자동화 제품 역할을 사업보고서와 회사 공식 기술·제품 자료에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000770",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000770&dcmNo=11133377&eleId=11&offset=86184&length=29223&dtd=dart4.xsd",
+      "https://www.hlbpanagene.com/_ENG/html/dh/tech4",
+      "https://www.hlbpanagene.com/_ENG/html/dh/prod_intro"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "체외진단 키트",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "HLB파나진의 PNA 기반 분자진단·진단 자동화 제품 역할을 사업보고서와 회사 공식 기술·제품 자료에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000770",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000770&dcmNo=11133377&eleId=11&offset=86184&length=29223&dtd=dart4.xsd",
+        "https://www.hlbpanagene.com/_ENG/html/dh/tech4",
+        "https://www.hlbpanagene.com/_ENG/html/dh/prod_intro"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "HL만도",
    "type": "company",
    "path": "companies/HL만도",
@@ -34033,6 +34103,40 @@
       "https://www.hlbtherapeutics.co.kr/kr/sub/about/overview.php",
       "https://www.hlbtherapeutics.co.kr/kr/sub/pipeline/core.php",
       "https://www.hlbtherapeutics.co.kr/kr/sub/business/coldchain.php"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HLB파나진",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "체외진단 키트",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB파나진의 PNA 기반 분자진단·진단 자동화 제품 역할을 사업보고서와 회사 공식 기술·제품 자료에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000770",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000770&dcmNo=11133377&eleId=11&offset=86184&length=29223&dtd=dart4.xsd",
+      "https://www.hlbpanagene.com/_ENG/html/dh/tech4",
+      "https://www.hlbpanagene.com/_ENG/html/dh/prod_intro"
      ],
      "malformed": ""
     }
