@@ -289,6 +289,7 @@
    "category": "소비·문화",
    "stages": [
     "제지·위생용품",
+    "골판지·종이포장",
     "가구·유아용품",
     "금속포장용기"
    ]
@@ -35767,13 +35768,79 @@
    "issues": []
   },
   {
+   "id": "대영포장",
+   "type": "company",
+   "path": "companies/대영포장",
+   "summary": "골판지 원단과 골판지 상자를 제조하는 포장재 기업",
+   "market": "KOSPI",
+   "ticker": "014160",
+   "dart_corp_code": "00111458",
+   "aliases": [
+    "Daeyoung Packaging"
+   ],
+   "krx_industry": "골판지, 종이 상자 및 종이용기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "생활·소비재",
+     "page": "생활·소비재",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "골판지 원단과 골판지 상자 제조 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dypc.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001078",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00111458",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "생활·소비재",
+     "tier": 1,
+     "stage": "골판지·종이포장",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "생활·소비재",
+       "page": "생활·소비재",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "골판지 원단과 골판지 상자 제조 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.dypc.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001078",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00111458",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "대우건설",
    "type": "company",
    "path": "companies/대우건설",
    "summary": "건물 건설업에 속한 국내 상장사",
    "market": "KOSPI",
    "ticker": "047040",
-   "dart_corp_code": "",
+   "dart_corp_code": "00124540",
    "aliases": [],
    "krx_industry": "건물 건설업",
    "classification_as_of": "2026-10-09",
@@ -35927,7 +35994,7 @@
    "summary": "의약품을 연구·개발·생산하는 제약 기업",
    "market": "KOSPI",
    "ticker": "069620",
-   "dart_corp_code": "",
+   "dart_corp_code": "00427483",
    "aliases": [],
    "krx_industry": "의약품 제조업",
    "classification_as_of": "2026-10-09",
@@ -35966,6 +36033,141 @@
        "weak": false,
        "sources": [
         "https://www.daewoong.co.kr/ko/about/introduction",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대원",
+   "type": "company",
+   "path": "companies/대원",
+   "summary": "아파트 개발·시공과 건축·토목 사업을 수행하는 건설 기업",
+   "market": "KOSDAQ",
+   "ticker": "007680",
+   "dart_corp_code": "00111838",
+   "aliases": [
+    "Daewon"
+   ],
+   "krx_industry": "건물 건설업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "아파트 개발·시공과 건축·토목 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.daewon.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001150",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00111838",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "주택·건축·토목",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "아파트 개발·시공과 건축·토목 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.daewon.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001150",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00111838",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대원강업",
+   "type": "company",
+   "path": "companies/대원강업",
+   "summary": "차량용·산업용 스프링과 차량 시트를 제조하는 자동차 부품 기업",
+   "market": "KOSPI",
+   "ticker": "000430",
+   "dart_corp_code": "00111847",
+   "aliases": [
+    "Daewon Kangup",
+    "Daewon Spring"
+   ],
+   "krx_industry": "자동차 신품 부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "차량용·산업용 스프링과 차량 시트 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dwku.com",
+      "https://www.daewonspring.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001323",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00111847",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "구동·변속·현가 부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "차량용·산업용 스프링과 차량 시트 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.dwku.com",
+        "https://www.daewonspring.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001323",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00111847",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -72167,6 +72369,39 @@
    }
   },
   {
+   "source": "대영포장",
+   "target": "생활·소비재",
+   "type": "테마",
+   "tier": 1,
+   "stage": "골판지·종이포장",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "생활·소비재",
+     "page": "생활·소비재",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "골판지 원단과 골판지 상자 제조 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dypc.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001078",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00111458",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "대우건설",
    "target": "건설·인프라",
    "type": "테마",
@@ -72287,6 +72522,73 @@
      "weak": false,
      "sources": [
       "https://www.daewoong.co.kr/ko/about/introduction",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대원",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "주택·건축·토목",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "아파트 개발·시공과 건축·토목 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.daewon.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001150",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00111838",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대원강업",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "구동·변속·현가 부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "차량용·산업용 스프링과 차량 시트 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dwku.com",
+      "https://www.daewonspring.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001323",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00111847",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
