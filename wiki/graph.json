@@ -30389,13 +30389,324 @@
    "issues": []
   },
   {
+   "id": "넥스트바이오메디컬",
+   "type": "company",
+   "path": "companies/넥스트바이오메디컬",
+   "summary": "혁신형 고분자 치료재와 내시경용 지혈재·혈관 색전재를 개발·상용화하는 의료기기 기업",
+   "market": "KOSDAQ",
+   "ticker": "389650",
+   "dart_corp_code": "01385050",
+   "aliases": [
+    "NEXTBIOMEDICAL",
+    "NEXTBIOMEDICAL Co., Ltd."
+   ],
+   "krx_industry": "의료용 기기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "내시경용 지혈재와 고분자 치료재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nextbiomedical.co.kr/kr/index.php",
+      "https://www.nextbiomedical.co.kr/kr/product/product_list.php",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01385050",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "의료용 지혈제",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "내시경용 지혈재와 고분자 치료재 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nextbiomedical.co.kr/kr/index.php",
+        "https://www.nextbiomedical.co.kr/kr/product/product_list.php",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01385050",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "넥스트아이",
+   "type": "company",
+   "path": "companies/넥스트아이",
+   "summary": "디스플레이·모바일 외관검사 장비와 화장품 사업을 함께 운영하는 머신비전 기업",
+   "market": "KOSDAQ",
+   "ticker": "137940",
+   "dart_corp_code": "00614593",
+   "aliases": [
+    "NEXTEYE",
+    "NextEye Co., Ltd."
+   ],
+   "krx_industry": "그 외 기타 전문, 과학 및 기술 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "디스플레이 외관검사 장비 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nexteye.com/index.html",
+      "https://www.nexteye.com/view-166-en.html",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00614593",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 회사소개에서 뷰티산업 관련 사업 다각화를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nexteye.com/index.html",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00614593",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "디스플레이",
+       "page": "디스플레이",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "디스플레이 외관검사 장비 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nexteye.com/index.html",
+        "https://www.nexteye.com/view-166-en.html",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00614593",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "화장품·미용",
+     "tier": 1,
+     "stage": "화장품 제조·판매",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화장품·미용",
+       "page": "화장품·미용",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "공식 회사소개에서 뷰티산업 관련 사업 다각화를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nexteye.com/index.html",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00614593",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "넥스트칩",
+   "type": "company",
+   "path": "companies/넥스트칩",
+   "summary": "ISP·AHD·ADAS SoC를 설계하는 자동차용 비전 반도체 기업",
+   "market": "KOSDAQ",
+   "ticker": "396270",
+   "dart_corp_code": "01515864",
+   "aliases": [
+    "NEXTCHIP",
+    "Nextchip Co., Ltd."
+   ],
+   "krx_industry": "반도체 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차용 ISP·AHD·ADAS SoC 반도체 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nextchip.com/kr/",
+      "https://www.nextchip.com/kr/adas/adas.php?idx=3",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01515864",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "차량용 반도체",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "자동차용 ISP·AHD·ADAS SoC 반도체 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nextchip.com/kr/",
+        "https://www.nextchip.com/kr/adas/adas.php?idx=3",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01515864",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "넥스틴",
+   "type": "company",
+   "path": "companies/넥스틴",
+   "summary": "광학 기술과 알고리즘으로 반도체 전공정 웨이퍼 결함을 검사하는 장비 기업",
+   "market": "KOSDAQ",
+   "ticker": "348210",
+   "dart_corp_code": "01080252",
+   "aliases": [
+    "NEXTIN",
+    "NEXTIN Inc."
+   ],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "반도체 전공정 웨이퍼 검사 장비 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://ir.nextinsol.com/company",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01080252",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "검사 장비·부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "반도체 전공정 웨이퍼 검사 장비 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://ir.nextinsol.com/company",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01080252",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "넥스틸",
    "type": "company",
    "path": "companies/넥스틸",
    "summary": "OCTG·라인·일반 강관을 제조하는 철강 기업",
    "market": "KOSPI",
    "ticker": "092790",
-   "dart_corp_code": "",
+   "dart_corp_code": "00220613",
    "aliases": [],
    "krx_industry": "1차 철강 제조업",
    "classification_as_of": "2026-10-09",
@@ -64605,6 +64916,169 @@
      "sources": [
       "https://www.nexturn.co.kr/",
       "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00416414",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "넥스트바이오메디컬",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의료용 지혈제",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "내시경용 지혈재와 고분자 치료재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nextbiomedical.co.kr/kr/index.php",
+      "https://www.nextbiomedical.co.kr/kr/product/product_list.php",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01385050",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "넥스트아이",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "디스플레이 외관검사 장비 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nexteye.com/index.html",
+      "https://www.nexteye.com/view-166-en.html",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00614593",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "넥스트아이",
+   "target": "화장품·미용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "화장품 제조·판매",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 회사소개에서 뷰티산업 관련 사업 다각화를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nexteye.com/index.html",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00614593",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "넥스트칩",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "차량용 반도체",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차용 ISP·AHD·ADAS SoC 반도체 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nextchip.com/kr/",
+      "https://www.nextchip.com/kr/adas/adas.php?idx=3",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01515864",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "넥스틴",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "검사 장비·부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "반도체 전공정 웨이퍼 검사 장비 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://ir.nextinsol.com/company",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01080252",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
