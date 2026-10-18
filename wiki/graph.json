@@ -99,7 +99,8 @@
     "시멘트·레미콘",
     "유리·창호",
     "도시경관·안전시설",
-    "상하수도·플라스틱 관"
+    "상하수도·플라스틱 관",
+    "철도 신호·제어"
    ]
   },
   {
@@ -35438,6 +35439,324 @@
        "malformed": ""
       }
      ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대신정보통신",
+   "type": "company",
+   "path": "companies/대신정보통신",
+   "summary": "공공·금융·기업용 정보시스템을 구축·운영하는 IT서비스 기업",
+   "market": "KOSDAQ",
+   "ticker": "020180",
+   "dart_corp_code": "00110875",
+   "aliases": [
+    "Daishin Information & Communications",
+    "DSIC"
+   ],
+   "krx_industry": "컴퓨터 프로그래밍, 시스템 통합 및 관리업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공공·금융·기업 고객 대상 SI·소프트웨어 개발·시스템 운영 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dsic.co.kr",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00110875",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "소프트웨어·IT서비스",
+     "tier": 1,
+     "stage": "시스템 구축·운영",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "소프트웨어·IT서비스",
+       "page": "소프트웨어·IT서비스",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "공공·금융·기업 고객 대상 SI·소프트웨어 개발·시스템 운영 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.dsic.co.kr",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00110875",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대신증권",
+   "type": "company",
+   "path": "companies/대신증권",
+   "summary": "주식 위탁매매·자산관리와 기업금융을 운영하는 종합 증권사",
+   "market": "KOSPI",
+   "ticker": "003540",
+   "dart_corp_code": "00110893",
+   "aliases": [
+    "Daishin Securities"
+   ],
+   "krx_industry": "금융 지원 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "증권·자산운용",
+     "page": "증권·자산운용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "주식 위탁매매·자산관리와 기업금융(IB) 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daishin.com",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00110893",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "증권·자산운용",
+     "tier": 1,
+     "stage": "매매·위탁매매·인수",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "증권·자산운용",
+       "page": "증권·자산운용",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "주식 위탁매매·자산관리와 기업금융(IB) 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.daishin.com",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00110893",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대아티아이",
+   "type": "company",
+   "path": "companies/대아티아이",
+   "summary": "철도 신호·열차제어 시스템을 개발·공급하는 철도 전기장비 기업",
+   "market": "KOSDAQ",
+   "ticker": "045390",
+   "dart_corp_code": "00318316",
+   "aliases": [
+    "DaeA TI",
+    "Daeati"
+   ],
+   "krx_industry": "기타 전기장비 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "철도 신호·열차제어 시스템과 철도 전기·통신 솔루션 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://daeati.imweb.me/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00318316",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "철도 신호·제어",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "철도 신호·열차제어 시스템과 철도 전기·통신 솔루션 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://daeati.imweb.me/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00318316",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대양금속",
+   "type": "company",
+   "path": "companies/대양금속",
+   "summary": "스테인리스 냉간압연 강판을 제조·판매하는 철강 기업",
+   "market": "KOSPI",
+   "ticker": "009190",
+   "dart_corp_code": "00111111",
+   "aliases": [
+    "Daiyang Metal"
+   ],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "스테인리스 냉간압연 강판 제조·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.daiyangmetal.co.kr",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00111111",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "냉연·컬러강판",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "스테인리스 냉간압연 강판 제조·판매 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.daiyangmetal.co.kr",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00111111",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대양전기공업",
+   "type": "company",
+   "path": "companies/대양전기공업",
+   "summary": "선박용 조명·항해통신장비와 차량용 압력센서를 제조하는 전기장비 기업",
+   "market": "KOSDAQ",
+   "ticker": "108380",
+   "dart_corp_code": "00111193",
+   "aliases": [
+    "Daeyang Electric",
+    "Daeyang Electric Works"
+   ],
+   "krx_industry": "선박 및 보트 건조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "조선·해운 · 자동차·부품",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "선박용 전기·통신 기자재와 차량용 압력센서 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://daeyang.co.kr",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00111193",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "차량용 센서·부품",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "조선·해운",
+     "tier": 1,
+     "stage": "조선·해양 기자재",
+     "score": 0,
+     "classifications": [],
      "presentation": {
       "label": "",
       "muted": false,
@@ -71683,6 +72002,164 @@
      "malformed": ""
     }
    ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대신정보통신",
+   "target": "소프트웨어·IT서비스",
+   "type": "테마",
+   "tier": 1,
+   "stage": "시스템 구축·운영",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공공·금융·기업 고객 대상 SI·소프트웨어 개발·시스템 운영 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dsic.co.kr",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00110875",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대신증권",
+   "target": "증권·자산운용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "매매·위탁매매·인수",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "증권·자산운용",
+     "page": "증권·자산운용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "주식 위탁매매·자산관리와 기업금융(IB) 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daishin.com",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00110893",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대아티아이",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "철도 신호·제어",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "철도 신호·열차제어 시스템과 철도 전기·통신 솔루션 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://daeati.imweb.me/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00318316",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대양금속",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "냉연·컬러강판",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "스테인리스 냉간압연 강판 제조·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.daiyangmetal.co.kr",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00111111",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대양전기공업",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "차량용 센서·부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대양전기공업",
+   "target": "조선·해운",
+   "type": "테마",
+   "tier": 1,
+   "stage": "조선·해양 기자재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
    "presentation": {
     "label": "",
     "muted": false,
