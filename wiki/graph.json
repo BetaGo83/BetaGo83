@@ -7411,6 +7411,76 @@
    "issues": []
   },
   {
+   "id": "HLB테라퓨틱스",
+   "type": "company",
+   "path": "companies/HLB테라퓨틱스",
+   "summary": "신약 파이프라인과 의약품 콜드체인 유통을 함께 운영하는 코스닥 바이오 기업",
+   "market": "KOSDAQ",
+   "ticker": "115450",
+   "dart_corp_code": "00552859",
+   "aliases": [
+    "HLB Therapeutics",
+    "에이치엘비테라퓨틱스(주)",
+    "HLB Therapeutics Co.,Ltd."
+   ],
+   "krx_industry": "기타 전문 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB테라퓨틱스의 바이오 신약개발과 백신 의약품 유통·콜드체인 사업 역할을 사업보고서와 공식 파이프라인·사업 자료에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001264",
+      "https://www.hlbtherapeutics.co.kr/kr/sub/about/overview.php",
+      "https://www.hlbtherapeutics.co.kr/kr/sub/pipeline/core.php",
+      "https://www.hlbtherapeutics.co.kr/kr/sub/business/coldchain.php"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "HLB테라퓨틱스의 바이오 신약개발과 백신 의약품 유통·콜드체인 사업 역할을 사업보고서와 공식 파이프라인·사업 자료에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001264",
+        "https://www.hlbtherapeutics.co.kr/kr/sub/about/overview.php",
+        "https://www.hlbtherapeutics.co.kr/kr/sub/pipeline/core.php",
+        "https://www.hlbtherapeutics.co.kr/kr/sub/business/coldchain.php"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "HL만도",
    "type": "company",
    "path": "companies/HL만도",
@@ -33929,6 +33999,40 @@
       "https://www.hlbpharma.co.kr/sub_company/greetings.php",
       "https://www.hlbpharma.co.kr/sub_research2/overview.php",
       "https://www.hlbpharma.co.kr/sub_research2/pipeline.php"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HLB테라퓨틱스",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB테라퓨틱스의 바이오 신약개발과 백신 의약품 유통·콜드체인 사업 역할을 사업보고서와 공식 파이프라인·사업 자료에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001264",
+      "https://www.hlbtherapeutics.co.kr/kr/sub/about/overview.php",
+      "https://www.hlbtherapeutics.co.kr/kr/sub/pipeline/core.php",
+      "https://www.hlbtherapeutics.co.kr/kr/sub/business/coldchain.php"
      ],
      "malformed": ""
     }
