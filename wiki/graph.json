@@ -425,7 +425,8 @@
     "태양광 발전소·인버터",
     "태양광·풍력 발전 및 개발",
     "태양광 발전·나노소재",
-    "바이오매스·풍력"
+    "바이오매스·풍력",
+    "바이오연료·바이오중유"
    ]
   },
   {
@@ -10073,6 +10074,73 @@
         "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001588&dcmNo=11129586&eleId=10&offset=132949&length=9114&dtd=dart4.xsd",
         "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001588&dcmNo=11129586&eleId=11&offset=142067&length=11855&dtd=dart4.xsd",
         "https://www.kg-steel.co.kr/html/index.html"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "KG에코솔루션",
+   "type": "company",
+   "path": "companies/KG에코솔루션",
+   "summary": "바이오중유를 생산·공급하는 바이오에너지 사업 회사",
+   "market": "KOSDAQ",
+   "ticker": "151860",
+   "dart_corp_code": "00366137",
+   "aliases": [
+    "KG Eco Solution",
+    "케이지에코솔루션"
+   ],
+   "krx_industry": "자동차 차체나 트레일러 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "바이오중유 생산·판매와 친환경 신재생에너지 연료 사업을 DART와 회사 공식 홈페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002621",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814002621&dcmNo=11534050&eleId=9&offset=140613&length=217197&dtd=dart4.xsd&displayImage=show",
+      "http://kgecosolution.co.kr/K/main/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "재생에너지",
+     "tier": 1,
+     "stage": "바이오연료·바이오중유",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "재생에너지",
+       "page": "재생에너지",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "바이오중유 생산·판매와 친환경 신재생에너지 연료 사업을 DART와 회사 공식 홈페이지에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002621",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814002621&dcmNo=11534050&eleId=9&offset=140613&length=217197&dtd=dart4.xsd&displayImage=show",
+        "http://kgecosolution.co.kr/K/main/"
        ],
        "malformed": ""
       }
@@ -37451,6 +37519,39 @@
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001588&dcmNo=11129586&eleId=10&offset=132949&length=9114&dtd=dart4.xsd",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001588&dcmNo=11129586&eleId=11&offset=142067&length=11855&dtd=dart4.xsd",
       "https://www.kg-steel.co.kr/html/index.html"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KG에코솔루션",
+   "target": "재생에너지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "바이오연료·바이오중유",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "바이오중유 생산·판매와 친환경 신재생에너지 연료 사업을 DART와 회사 공식 홈페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002621",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814002621&dcmNo=11534050&eleId=9&offset=140613&length=217197&dtd=dart4.xsd&displayImage=show",
+      "http://kgecosolution.co.kr/K/main/"
      ],
      "malformed": ""
     }
