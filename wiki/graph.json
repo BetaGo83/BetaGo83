@@ -515,7 +515,9 @@
     "드라마 제작·판매",
     "영상 VFX 제작",
     "영화관·미디어",
-    "애니메이션·캐릭터 IP"
+    "애니메이션·캐릭터 IP",
+    "광고·콘텐츠 제작·연예 매니지먼트",
+    "앨범 인쇄·콘텐츠 제작"
    ]
   },
   {
@@ -581,7 +583,8 @@
    "stages": [
     "카지노·호텔·리조트",
     "관광숙박·외식",
-    "카지노·관광 레저"
+    "카지노·관광 레저",
+    "여행 콘텐츠·MICE"
    ]
   },
   {
@@ -18110,6 +18113,115 @@
    "issues": []
   },
   {
+   "id": "SK케미칼",
+   "type": "company",
+   "path": "companies/SK케미칼",
+   "summary": "친환경 화학소재와 제약·바이오 헬스케어를 함께 제공하는 코스피 기업",
+   "market": "KOSPI",
+   "ticker": "285130",
+   "dart_corp_code": "01267170",
+   "aliases": [
+    "SK Chemicals"
+   ],
+   "krx_industry": "합성고무 및 플라스틱 물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SK케미칼의 친환경 수지·고기능 소재·바이오 소재 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.skchemicals.com/",
+      "https://www.skchemicals.com/about/abo_com.aspx/1000",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SK케미칼의 제약·백신 및 합성 신약·천연물·바이오 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.skchemicals.com/about/abo_com.aspx/1000",
+      "https://www.skchemicals.com/ir/ir_faq01.aspx",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01267170"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SK케미칼의 제약·백신 및 합성 신약·천연물·바이오 사업을 공식 자료에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.skchemicals.com/about/abo_com.aspx/1000",
+        "https://www.skchemicals.com/ir/ir_faq01.aspx",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01267170"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "기초·첨단화학소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SK케미칼의 친환경 수지·고기능 소재·바이오 소재 사업을 공식 자료에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.skchemicals.com/",
+        "https://www.skchemicals.com/about/abo_com.aspx/1000",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "SK텔레콤",
    "type": "company",
    "path": "companies/SK텔레콤",
@@ -18349,6 +18461,224 @@
      ]
     }
    ]
+  },
+  {
+   "id": "SM C&C",
+   "type": "company",
+   "path": "companies/SM C&C",
+   "summary": "광고·영상 콘텐츠·엔터테이너 매니지먼트와 여행 서비스를 제공하는 코스닥 기업",
+   "market": "KOSDAQ",
+   "ticker": "048550",
+   "dart_corp_code": "00185046",
+   "aliases": [
+    "SM컬처앤콘텐츠",
+    "SM Culture & Contents"
+   ],
+   "krx_industry": "광고업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SM C&C의 광고·영상 콘텐츠 제작과 MC·배우 매니지먼트 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.smcultureandcontents.com/ko/advertising/intro.asp",
+      "https://careers.smcultureandcontents.com/ko/company",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "호텔·레저",
+     "page": "호텔·레저",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SM C&C의 출장 여행·MICE·개인 여행 플랫폼과 K-pop 글로벌 투어 여행 서비스를 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.smcultureandcontents.com/ko/company/intro.asp",
+      "https://careers.smcultureandcontents.com/ko/company",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00185046"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "광고·콘텐츠 제작·연예 매니지먼트",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SM C&C의 광고·영상 콘텐츠 제작과 MC·배우 매니지먼트 사업을 공식 자료에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.smcultureandcontents.com/ko/advertising/intro.asp",
+        "https://careers.smcultureandcontents.com/ko/company",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "호텔·레저",
+     "tier": 1,
+     "stage": "여행 콘텐츠·MICE",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "호텔·레저",
+       "page": "호텔·레저",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SM C&C의 출장 여행·MICE·개인 여행 플랫폼과 K-pop 글로벌 투어 여행 서비스를 공식 자료에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.smcultureandcontents.com/ko/company/intro.asp",
+        "https://careers.smcultureandcontents.com/ko/company",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00185046"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SM Life Design",
+   "type": "company",
+   "path": "companies/SM Life Design",
+   "summary": "아티스트 앨범·화보 인쇄와 콘텐츠 물류, 영상 스튜디오를 운영하는 코스닥 기업",
+   "market": "KOSDAQ",
+   "ticker": "063440",
+   "dart_corp_code": "00367604",
+   "aliases": [
+    "에스엠라이프디자인그룹",
+    "SM Life Design Group"
+   ],
+   "krx_industry": "기록매체 복제업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SM Life Design의 앨범·화보집·포토카드 인쇄와 영상 스튜디오 사업을 공시에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/04/30/000433/20260430001145/11013.htm",
+      "https://kind.krx.co.kr/external/2026/03/16/000637/20260316002224/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "항공·물류",
+     "page": "항공·물류",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SM Life Design의 앨범·MD 상품 보관·유통·수출 물류 사업을 공시에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/04/30/000433/20260430001145/11013.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "앨범 인쇄·콘텐츠 제작",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SM Life Design의 앨범·화보집·포토카드 인쇄와 영상 스튜디오 사업을 공시에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2026/04/30/000433/20260430001145/11013.htm",
+        "https://kind.krx.co.kr/external/2026/03/16/000637/20260316002224/11011.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "항공·물류",
+     "tier": 1,
+     "stage": "물류",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "항공·물류",
+       "page": "항공·물류",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SM Life Design의 앨범·MD 상품 보관·유통·수출 물류 사업을 공시에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2026/04/30/000433/20260430001145/11013.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
   },
   {
    "id": "SNT모티브",
@@ -47305,6 +47635,70 @@
    }
   },
   {
+   "source": "SK케미칼",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SK케미칼의 제약·백신 및 합성 신약·천연물·바이오 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.skchemicals.com/about/abo_com.aspx/1000",
+      "https://www.skchemicals.com/ir/ir_faq01.aspx",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01267170"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SK케미칼",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기초·첨단화학소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SK케미칼의 친환경 수지·고기능 소재·바이오 소재 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.skchemicals.com/",
+      "https://www.skchemicals.com/about/abo_com.aspx/1000",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "SK텔레콤",
    "target": "통신·네트워크",
    "type": "테마",
@@ -47433,6 +47827,133 @@
      "weak": false,
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000635"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SM C&C",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "광고·콘텐츠 제작·연예 매니지먼트",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SM C&C의 광고·영상 콘텐츠 제작과 MC·배우 매니지먼트 사업을 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.smcultureandcontents.com/ko/advertising/intro.asp",
+      "https://careers.smcultureandcontents.com/ko/company",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SM C&C",
+   "target": "호텔·레저",
+   "type": "테마",
+   "tier": 1,
+   "stage": "여행 콘텐츠·MICE",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "호텔·레저",
+     "page": "호텔·레저",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SM C&C의 출장 여행·MICE·개인 여행 플랫폼과 K-pop 글로벌 투어 여행 서비스를 공식 자료에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.smcultureandcontents.com/ko/company/intro.asp",
+      "https://careers.smcultureandcontents.com/ko/company",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00185046"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SM Life Design",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "앨범 인쇄·콘텐츠 제작",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SM Life Design의 앨범·화보집·포토카드 인쇄와 영상 스튜디오 사업을 공시에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/04/30/000433/20260430001145/11013.htm",
+      "https://kind.krx.co.kr/external/2026/03/16/000637/20260316002224/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SM Life Design",
+   "target": "항공·물류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "물류",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "항공·물류",
+     "page": "항공·물류",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SM Life Design의 앨범·MD 상품 보관·유통·수출 물류 사업을 공시에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/04/30/000433/20260430001145/11013.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
