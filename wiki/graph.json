@@ -34581,6 +34581,320 @@
    "issues": []
   },
   {
+   "id": "대명에너지",
+   "type": "company",
+   "path": "companies/대명에너지",
+   "summary": "풍력·태양광 발전단지와 ESS를 개발·시공·운영하는 신재생에너지 기업",
+   "market": "KOSDAQ",
+   "ticker": "389260",
+   "dart_corp_code": "01150515",
+   "aliases": [
+    "Daemyoung Energy",
+    "Daemyoung ENG"
+   ],
+   "krx_industry": "건물 건설업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "재생에너지 · ESS",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "풍력·태양광 발전단지 개발·EPC·운영과 ESS 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daemyoung-eng.com",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01150515",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "ESS",
+     "tier": 1,
+     "stage": "ESS 프로젝트 개발·운영",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "재생에너지",
+     "tier": 1,
+     "stage": "태양광·풍력 발전 및 개발",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대모",
+   "type": "company",
+   "path": "companies/대모",
+   "summary": "굴삭기용 유압 브레이커와 철거·재활용 어태치먼트를 제조하는 건설기계 기업",
+   "market": "KOSDAQ",
+   "ticker": "317850",
+   "dart_corp_code": "00450995",
+   "aliases": [
+    "Daemo",
+    "Daemo Engineering"
+   ],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "굴삭기용 유압 브레이커와 철거·재활용 어태치먼트 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daemo.co.kr/eng/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00450995",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "건설기계",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "굴삭기용 유압 브레이커와 철거·재활용 어태치먼트 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.daemo.co.kr/eng/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00450995",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대보마그네틱",
+   "type": "company",
+   "path": "companies/대보마그네틱",
+   "summary": "배터리 소재용 전자석 탈철기와 자력선별 장비를 제조하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "290670",
+   "dart_corp_code": "01259418",
+   "aliases": [
+    "Daebo Magnetic"
+   ],
+   "krx_industry": "기타 전기장비 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "배터리 소재용 건식·습식 전자석 탈철기와 자력선별 장비 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daebo.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01259418",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "배터리 소재용 건식·습식 전자석 탈철기와 자력선별 장비 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.daebo.com/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01259418",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대봉엘에스",
+   "type": "company",
+   "path": "companies/대봉엘에스",
+   "summary": "원료의약품과 화장품 소재를 연구·제조하는 소재 기업",
+   "market": "KOSDAQ",
+   "ticker": "078140",
+   "dart_corp_code": "00442826",
+   "aliases": [
+    "Daebong LS",
+    "Daebong Life Science"
+   ],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약 · 화학·정유",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "원료의약품과 화장품 소재·원료 제조 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.daebongls.co.kr",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00442826",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "바이오의약품 원료",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "기초·첨단화학소재",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대산F&B",
+   "type": "company",
+   "path": "companies/대산F&B",
+   "summary": "돼지고기 도축·가공과 유통을 수행하는 식품 기업",
+   "market": "KOSDAQ",
+   "ticker": "065150",
+   "dart_corp_code": "00390860",
+   "aliases": [
+    "Daesan F&B",
+    "Daesan FNB"
+   ],
+   "krx_industry": "음·식료품 및 담배 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "돼지고기 도축·육류가공·유통 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://daesanfnb.co.kr",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00390860",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "식품 가공·제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "돼지고기 도축·육류가공·유통 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://daesanfnb.co.kr",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00390860",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "대상",
    "type": "company",
    "path": "companies/대상",
@@ -70475,6 +70789,162 @@
       "https://dltc.co.kr/ko/intro?introNo=0",
       "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00109824",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대명에너지",
+   "target": "ESS",
+   "type": "테마",
+   "tier": 1,
+   "stage": "ESS 프로젝트 개발·운영",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대명에너지",
+   "target": "재생에너지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "태양광·풍력 발전 및 개발",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대모",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건설기계",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "굴삭기용 유압 브레이커와 철거·재활용 어태치먼트 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daemo.co.kr/eng/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00450995",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대보마그네틱",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "배터리 소재용 건식·습식 전자석 탈철기와 자력선별 장비 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daebo.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01259418",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대봉엘에스",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "바이오의약품 원료",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대봉엘에스",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기초·첨단화학소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대산F&B",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "식품 가공·제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "돼지고기 도축·육류가공·유통 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://daesanfnb.co.kr",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00390860",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }

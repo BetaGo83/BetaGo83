@@ -25,7 +25,7 @@ updated: "2026-10-17"
 - 배터리·솔루션: [[삼성SDI]] ([삼성SDI](https://www.samsungsdi.co.kr/business/ess.html), [한국거래소](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt))
 - 울트라커패시터·전력저장: [[LS머트리얼즈]] ([LS머트리얼즈 공식 홈페이지](https://www.lsmaterials.co.kr/kr/main/LS%20materials_Brochure.pdf), [LS그룹 공식 보도자료](https://www.lsholdings.com/ko/media/news/643164434969355041484b33462b4e534e315261467459724d77734f74753645))
 - 전력 시스템: [[엘에스일렉트릭]] ([엘에스일렉트릭](https://www.ls-electric.com/ko/), [한국거래소](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt))
-- ESS 프로젝트 개발·운영: [[GS건설]] ([출처](https://gsconst.co.kr/Business/Default.aspx?BusinessResultStep3=1&Lang=ko)), [[SK이터닉스]] ([공식 사업자료](https://www.sketernix.com/business/ess.do))
+- ESS 프로젝트 개발·운영: [[GS건설]] ([출처](https://gsconst.co.kr/Business/Default.aspx?BusinessResultStep3=1&Lang=ko)), [[SK이터닉스]] ([공식 사업자료](https://www.sketernix.com/business/ess.do)) · [[대명에너지]] ([대명에너지 공식 홈페이지](https://www.daemyoung-eng.com), [DART 기업개황](https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01150515))
 - 수요관리·VPP: [[그리드위즈]] ([그리드위즈 사업보고서](https://www.gridwiz.com/kr/ir/documents_report.php), [그리드위즈 사업보고서 원문](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000475), [그리드위즈 ESG 보고서](https://www.gridwiz.com/data/bbsData/17593020681.pdf))
 - ESS 공급·유지보수: [[효성중공업]] ([출처](https://www.hyosungheavyindustries.com/kr/business/power-system-solutions/P010203))
 - ESS용 양극재: [[코스모신소재]] ([코스모신소재](https://www.cosmoamt.com/?page_id=25496&lang=en))
