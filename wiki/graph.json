@@ -28141,6 +28141,518 @@
    "issues": []
   },
   {
+   "id": "나이스정보통신",
+   "type": "company",
+   "path": "companies/나이스정보통신",
+   "summary": "카드 VAN을 중심으로 온라인 결제와 택스 리펀드 서비스를 제공하는 지급결제 인프라 기업",
+   "market": "KOSDAQ",
+   "ticker": "036800",
+   "dart_corp_code": "",
+   "aliases": [
+    "NICE정보통신",
+    "NICE VAN"
+   ],
+   "krx_industry": "전기 통신업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "핀테크·전자결제",
+     "page": "핀테크·전자결제",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "카드 VAN·PG·TRS 기반의 지급결제 중계 서비스를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://ncint01.nicevan.co.kr/",
+      "https://kind.krx.co.kr/external/2024/08/14/002968/20240814009420/11012.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "핀테크·전자결제",
+     "tier": 1,
+     "stage": "전자결제",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "핀테크·전자결제",
+       "page": "핀테크·전자결제",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "카드 VAN·PG·TRS 기반의 지급결제 중계 서비스를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://ncint01.nicevan.co.kr/",
+        "https://kind.krx.co.kr/external/2024/08/14/002968/20240814009420/11012.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "나인앤컴퍼니",
+   "type": "company",
+   "path": "companies/나인앤컴퍼니",
+   "summary": "플러스사이즈 여성의류와 다양한 패션·라이프스타일 브랜드를 운영하는 패션 기업",
+   "market": "KOSDAQ",
+   "ticker": "366030",
+   "dart_corp_code": "",
+   "aliases": [
+    "공구우먼",
+    "09WOMEN",
+    "Nine&Company"
+   ],
+   "krx_industry": "의복 액세서리 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "여성의류·패션 잡화 브랜드와 패션 플랫폼 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.ixandco.com/index.html?page_id=1",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "패션·의류",
+     "tier": 1,
+     "stage": "여성의류·패션 잡화",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "패션·의류",
+       "page": "패션·의류",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "여성의류·패션 잡화 브랜드와 패션 플랫폼 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.ixandco.com/index.html?page_id=1",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "나인테크",
+   "type": "company",
+   "path": "companies/나인테크",
+   "summary": "2차전지 라미네이션·스태킹과 OLED 물류 장비를 만드는 공정장비 기업",
+   "market": "KOSDAQ",
+   "ticker": "267320",
+   "dart_corp_code": "",
+   "aliases": [
+    "Naintech",
+    "나인텍"
+   ],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "이차전지 라미네이션·스태킹 제조장비 사업과 공급계약을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://naintec.co.kr/bbs/board.php?bo_table=news&wr_id=26",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900368"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "OLED 공정 물류 이송 장비 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://naintec.co.kr/bbs/board.php?bo_table=news&wr_id=26"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공식 발표 확인",
+     "status": "계획(확인 중)",
+     "date": "2026-10-19",
+     "text": "사용 후 배터리 재활용 장비를 준비 중인 신규사업으로 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://naintec.co.kr/bbs/board.php?bo_table=news&wr_id=26"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 3.86,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "이차전지 라미네이션·스태킹 제조장비 사업과 공급계약을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://naintec.co.kr/bbs/board.php?bo_table=news&wr_id=26",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900368"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "디스플레이",
+       "page": "디스플레이",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "OLED 공정 물류 이송 장비 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://naintec.co.kr/bbs/board.php?bo_table=news&wr_id=26"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "환경·자원순환",
+     "tier": 1,
+     "stage": "배터리 자원순환",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "환경·자원순환",
+       "page": "환경·자원순환",
+       "classification": "공식 발표 확인",
+       "status": "계획(확인 중)",
+       "date": "2026-10-19",
+       "text": "사용 후 배터리 재활용 장비를 준비 중인 신규사업으로 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://naintec.co.kr/bbs/board.php?bo_table=news&wr_id=26"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "계획(확인 중)",
+      "muted": false,
+      "line_style": "dashed"
+     }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-09-29",
+     "kind": "계약",
+     "text": "나인테크는 LG전자에 이차전지 제조장비를 공급하는 계약을 공시했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900368"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "2차전지"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "남광토건",
+   "type": "company",
+   "path": "companies/남광토건",
+   "summary": "철도·도로·교량 등 토목과 주거·상업 건축을 수행하는 종합건설 기업",
+   "market": "KOSPI",
+   "ticker": "001260",
+   "dart_corp_code": "",
+   "aliases": [
+    "Namkwang Construction",
+    "Haustory"
+   ],
+   "krx_industry": "토목 건설업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "도로·철도 등 토목 인프라와 주거·상업·업무용 건축공사를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://namkwang.co.kr/attach/download/fin_2024.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "건축·토목·플랜트",
+     "score": 3.83,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "도로·철도 등 토목 인프라와 주거·상업·업무용 건축공사를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://namkwang.co.kr/attach/download/fin_2024.pdf",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-09-28",
+     "kind": "수주",
+     "text": "남광토건은 용인 첨단시스템반도체 클러스터 국가산업단지 조성공사 1공구 낙찰자로 선정됐다고 공시했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928800827"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "건설·인프라"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "남선알미늄",
+   "type": "company",
+   "path": "companies/남선알미늄",
+   "summary": "알루미늄 압출·창호와 자동차 범퍼를 생산하는 비철금속·자동차 부품 기업",
+   "market": "KOSPI",
+   "ticker": "008350",
+   "dart_corp_code": "",
+   "aliases": [
+    "SM남선알미늄",
+    "Namsun Aluminum"
+   ],
+   "krx_industry": "1차 비철금속 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "알루미늄 압출제품·창호·산업구조재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://namsun.co.kr/kor/html/index/",
+      "https://kind.krx.co.kr/external/2026/05/28/000270/20260528000597/99667.htm"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차 범퍼 등 자동차 부품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nsauto.co.kr/",
+      "https://kind.krx.co.kr/external/2026/05/28/000270/20260528000597/99667.htm"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "시스템창·문·커튼월·PVC 창호 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://namsun.co.kr/kor/html/index/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "유리·창호",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "시스템창·문·커튼월·PVC 창호 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://namsun.co.kr/kor/html/index/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "부품·모듈",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "자동차 범퍼 등 자동차 부품 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nsauto.co.kr/",
+        "https://kind.krx.co.kr/external/2026/05/28/000270/20260528000597/99667.htm"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "비철금속 가공",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "알루미늄 압출제품·창호·산업구조재 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://namsun.co.kr/kor/html/index/",
+        "https://kind.krx.co.kr/external/2026/05/28/000270/20260528000597/99667.htm"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "네오셈",
    "type": "company",
    "path": "companies/네오셈",
@@ -61295,6 +61807,305 @@
      "sources": [
       "https://www.nicednb.com/",
       "https://openapi.nicednb.com/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "나이스정보통신",
+   "target": "핀테크·전자결제",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전자결제",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "핀테크·전자결제",
+     "page": "핀테크·전자결제",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "카드 VAN·PG·TRS 기반의 지급결제 중계 서비스를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://ncint01.nicevan.co.kr/",
+      "https://kind.krx.co.kr/external/2024/08/14/002968/20240814009420/11012.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "나인앤컴퍼니",
+   "target": "패션·의류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "여성의류·패션 잡화",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "여성의류·패션 잡화 브랜드와 패션 플랫폼 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.ixandco.com/index.html?page_id=1",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "나인테크",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 3.86,
+   "evidence": [
+    {
+     "date": "2026-09-29",
+     "kind": "계약",
+     "text": "나인테크는 LG전자에 이차전지 제조장비를 공급하는 계약을 공시했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900368"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "이차전지 라미네이션·스태킹 제조장비 사업과 공급계약을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://naintec.co.kr/bbs/board.php?bo_table=news&wr_id=26",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929900368"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "나인테크",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "OLED 공정 물류 이송 장비 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://naintec.co.kr/bbs/board.php?bo_table=news&wr_id=26"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "나인테크",
+   "target": "환경·자원순환",
+   "type": "테마",
+   "tier": 1,
+   "stage": "배터리 자원순환",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공식 발표 확인",
+     "status": "계획(확인 중)",
+     "date": "2026-10-19",
+     "text": "사용 후 배터리 재활용 장비를 준비 중인 신규사업으로 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://naintec.co.kr/bbs/board.php?bo_table=news&wr_id=26"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "계획(확인 중)",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "남광토건",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건축·토목·플랜트",
+   "score": 3.83,
+   "evidence": [
+    {
+     "date": "2026-09-28",
+     "kind": "수주",
+     "text": "남광토건은 용인 첨단시스템반도체 클러스터 국가산업단지 조성공사 1공구 낙찰자로 선정됐다고 공시했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928800827"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "도로·철도 등 토목 인프라와 주거·상업·업무용 건축공사를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://namkwang.co.kr/attach/download/fin_2024.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "남선알미늄",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "유리·창호",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "시스템창·문·커튼월·PVC 창호 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://namsun.co.kr/kor/html/index/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "남선알미늄",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "부품·모듈",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차 범퍼 등 자동차 부품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nsauto.co.kr/",
+      "https://kind.krx.co.kr/external/2026/05/28/000270/20260528000597/99667.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "남선알미늄",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "비철금속 가공",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "알루미늄 압출제품·창호·산업구조재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://namsun.co.kr/kor/html/index/",
+      "https://kind.krx.co.kr/external/2026/05/28/000270/20260528000597/99667.htm"
      ],
      "malformed": ""
     }
