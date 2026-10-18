@@ -617,6 +617,7 @@
     "기초 석유화학",
     "기초·첨단화학소재",
     "LPG·가스",
+    "도시가스·에너지서비스",
     "고무·탄성체",
     "정유·석유화학·윤활",
     "건설화학·비료·수처리",
@@ -21979,6 +21980,264 @@
      "themes": []
     }
    ]
+  },
+  {
+   "id": "경동나비엔",
+   "type": "company",
+   "path": "companies/경동나비엔",
+   "summary": "보일러·온수기와 냉난방·환기·스마트 홈 시스템을 제공하는 생활환경솔루션 기업",
+   "market": "KOSPI",
+   "ticker": "009450",
+   "dart_corp_code": "",
+   "aliases": [
+    "KyungDong Navien",
+    "나비엔"
+   ],
+   "krx_industry": "가정용 기기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 회사소개·홈페이지와 거래소 목록에서 보일러·온수기·냉난방·환기 설비 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://next.kdnavien.co.kr/ko/about/about",
+      "https://www.kdnavien.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "에너지·산업설비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "공식 회사소개·홈페이지와 거래소 목록에서 보일러·온수기·냉난방·환기 설비 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://next.kdnavien.co.kr/ko/about/about",
+        "https://www.kdnavien.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "경동도시가스",
+   "type": "company",
+   "path": "companies/경동도시가스",
+   "summary": "울산·양산 지역에 도시가스를 공급하고 수소·연료전지와 에너지 데이터 솔루션을 전개하는 에너지 기업",
+   "market": "KOSPI",
+   "ticker": "267290",
+   "dart_corp_code": "",
+   "aliases": [
+    "Kyungdong City Gas",
+    "경동가스"
+   ],
+   "krx_industry": "연료용 가스 제조 및 배관공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 홈페이지·회사소개와 거래소 목록에서 도시가스 공급과 에너지 솔루션 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dev.kdgas.co.kr/kdgas/main.do",
+      "https://dev.kdgas.co.kr/kdgas/contents.do?mId=001003001001002000",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "도시가스·에너지서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "공식 홈페이지·회사소개와 거래소 목록에서 도시가스 공급과 에너지 솔루션 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dev.kdgas.co.kr/kdgas/main.do",
+        "https://dev.kdgas.co.kr/kdgas/contents.do?mId=001003001001002000",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "경보제약",
+   "type": "company",
+   "path": "companies/경보제약",
+   "summary": "원료의약품과 전문·일반의약품 완제품을 연구개발·생산하는 제약 기업",
+   "market": "KOSPI",
+   "ticker": "214390",
+   "dart_corp_code": "",
+   "aliases": [
+    "Kyongbo Pharmaceutical",
+    "KYONGBO"
+   ],
+   "krx_industry": "기초 의약물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 홈페이지와 거래소 목록에서 원료의약품 연구개발·생산 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kbpharma.co.kr/home",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "바이오의약품 원료",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "공식 홈페이지와 거래소 목록에서 원료의약품 연구개발·생산 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.kbpharma.co.kr/home",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "계룡건설산업",
+   "type": "company",
+   "path": "companies/계룡건설산업",
+   "summary": "건축·토목·주택·플랜트와 산업단지 조성 사업을 전개하는 종합건설 기업",
+   "market": "KOSPI",
+   "ticker": "013580",
+   "dart_corp_code": "",
+   "aliases": [
+    "계룡건설",
+    "Kyeryong Construction"
+   ],
+   "krx_industry": "토목 건설업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 홈페이지·사업보고서와 거래소 목록에서 건축·토목·플랜트·주택 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kyeryong.co.kr/",
+      "https://kind.krx.co.kr/external/2025/03/18/001346/20250318006308/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "건축·토목·플랜트",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "공식 홈페이지·사업보고서와 거래소 목록에서 건축·토목·플랜트·주택 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.kyeryong.co.kr/",
+        "https://kind.krx.co.kr/external/2025/03/18/001346/20250318006308/11011.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
   },
   {
    "id": "고려아연",
@@ -52365,6 +52624,133 @@
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "경동나비엔",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "에너지·산업설비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 회사소개·홈페이지와 거래소 목록에서 보일러·온수기·냉난방·환기 설비 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://next.kdnavien.co.kr/ko/about/about",
+      "https://www.kdnavien.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "경동도시가스",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "도시가스·에너지서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 홈페이지·회사소개와 거래소 목록에서 도시가스 공급과 에너지 솔루션 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dev.kdgas.co.kr/kdgas/main.do",
+      "https://dev.kdgas.co.kr/kdgas/contents.do?mId=001003001001002000",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "경보제약",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "바이오의약품 원료",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 홈페이지와 거래소 목록에서 원료의약품 연구개발·생산 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kbpharma.co.kr/home",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "계룡건설산업",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건축·토목·플랜트",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 홈페이지·사업보고서와 거래소 목록에서 건축·토목·플랜트·주택 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kyeryong.co.kr/",
+      "https://kind.krx.co.kr/external/2025/03/18/001346/20250318006308/11011.htm",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
