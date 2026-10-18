@@ -7004,6 +7004,117 @@
    "issues": []
   },
   {
+   "id": "HLB생명과학",
+   "type": "company",
+   "path": "companies/HLB생명과학",
+   "summary": "제약·바이오와 의료기기 제조·판매 사업을 운영하는 코스닥 기업",
+   "market": "KOSDAQ",
+   "ticker": "067630",
+   "dart_corp_code": "00365590",
+   "aliases": [
+    "HLB Life Science",
+    "에이치엘비생명과학",
+    "HLB생명과학(주)"
+   ],
+   "krx_industry": "의료용품 및 기타 의약 관련제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB생명과학의 신약개발·의약품 연구개발·판매업 역할을 사업보고서와 회사 공식 제약·바이오 사업 소개에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001728",
+      "https://www.hlb-ls.com/business/medi_bio"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB생명과학의 체외진단의료기기·의료용기기와 주사기 제조·판매 역할을 사업보고서와 공식 의료기기 페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001728",
+      "https://www.hlb-ls.com/business/medical_equipment"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "HLB생명과학의 신약개발·의약품 연구개발·판매업 역할을 사업보고서와 회사 공식 제약·바이오 사업 소개에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001728",
+        "https://www.hlb-ls.com/business/medi_bio"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "검사용 제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "HLB생명과학의 체외진단의료기기·의료용기기와 주사기 제조·판매 역할을 사업보고서와 공식 의료기기 페이지에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001728",
+        "https://www.hlb-ls.com/business/medical_equipment"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "HL만도",
    "type": "company",
    "path": "companies/HL만도",
@@ -33294,6 +33405,70 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001696",
       "http://hlbbiostep.com/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HLB생명과학",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB생명과학의 신약개발·의약품 연구개발·판매업 역할을 사업보고서와 회사 공식 제약·바이오 사업 소개에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001728",
+      "https://www.hlb-ls.com/business/medi_bio"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HLB생명과학",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "검사용 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB생명과학의 체외진단의료기기·의료용기기와 주사기 제조·판매 역할을 사업보고서와 공식 의료기기 페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001728",
+      "https://www.hlb-ls.com/business/medical_equipment"
      ],
      "malformed": ""
     }
