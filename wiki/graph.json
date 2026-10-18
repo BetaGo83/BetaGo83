@@ -7115,6 +7115,119 @@
    "issues": []
   },
   {
+   "id": "HLB이노베이션",
+   "type": "company",
+   "path": "companies/HLB이노베이션",
+   "summary": "반도체 리드프레임·컨택핀과 세포유전자 치료제 개발을 병행하는 코스닥 기업",
+   "market": "KOSDAQ",
+   "ticker": "024850",
+   "dart_corp_code": "00155586",
+   "aliases": [
+    "HLB innovation",
+    "에이치엘비이노베이션",
+    "HLB이노베이션(주)"
+   ],
+   "krx_industry": "전자부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB이노베이션의 반도체 리드프레임·컨택핀 제조와 테스트 소켓용 부품 역할을 DART 사업보고서와 회사 공식 사업자료에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629000350",
+      "https://www.hlbinnovation.com/hlb/business/semiconductor",
+      "https://www.hlbinnovation.com/hlb/business/semiconductor/contact_pin"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB이노베이션의 CAR-T·세포유전자 치료제 개발과 제조·판매 사업을 DART 사업보고서와 회사 공식 바이오 사업자료에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629000350",
+      "https://www.hlbinnovation.com/hlb/business/bio"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "검사 장비·부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "HLB이노베이션의 반도체 리드프레임·컨택핀 제조와 테스트 소켓용 부품 역할을 DART 사업보고서와 회사 공식 사업자료에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629000350",
+        "https://www.hlbinnovation.com/hlb/business/semiconductor",
+        "https://www.hlbinnovation.com/hlb/business/semiconductor/contact_pin"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "바이오의약품 제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "HLB이노베이션의 CAR-T·세포유전자 치료제 개발과 제조·판매 사업을 DART 사업보고서와 회사 공식 바이오 사업자료에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629000350",
+        "https://www.hlbinnovation.com/hlb/business/bio"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "HL만도",
    "type": "company",
    "path": "companies/HL만도",
@@ -33469,6 +33582,71 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001728",
       "https://www.hlb-ls.com/business/medical_equipment"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HLB이노베이션",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "검사 장비·부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB이노베이션의 반도체 리드프레임·컨택핀 제조와 테스트 소켓용 부품 역할을 DART 사업보고서와 회사 공식 사업자료에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629000350",
+      "https://www.hlbinnovation.com/hlb/business/semiconductor",
+      "https://www.hlbinnovation.com/hlb/business/semiconductor/contact_pin"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HLB이노베이션",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "바이오의약품 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB이노베이션의 CAR-T·세포유전자 치료제 개발과 제조·판매 사업을 DART 사업보고서와 회사 공식 바이오 사업자료에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629000350",
+      "https://www.hlbinnovation.com/hlb/business/bio"
      ],
      "malformed": ""
     }
