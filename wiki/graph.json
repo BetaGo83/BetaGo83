@@ -9083,6 +9083,71 @@
    "issues": []
   },
   {
+   "id": "KBI동양철관",
+   "type": "company",
+   "path": "companies/KBI동양철관",
+   "summary": "배관용·구조용·코팅 강관과 강관말뚝을 생산하는 철강관 제조기업",
+   "market": "KOSPI",
+   "ticker": "008970",
+   "dart_corp_code": "00117629",
+   "aliases": [
+    "케이비아이동양철관",
+    "KBI DONG YANG STEEL PIPE"
+   ],
+   "krx_industry": "철강관 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "KBI동양철관 공식 홈페이지는 배관용·구조용·코팅 강관과 강관말뚝 제품을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dysp.co.kr/",
+      "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=00117629",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "강관",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "KBI동양철관 공식 홈페이지는 배관용·구조용·코팅 강관과 강관말뚝 제품을 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.dysp.co.kr/",
+        "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=00117629",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "KG이니시스",
    "type": "company",
    "path": "companies/KG이니시스",
@@ -35949,6 +36014,38 @@
       "http://www.kbgtech.co.kr/",
       "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=00876166",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KBI동양철관",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "강관",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "KBI동양철관 공식 홈페이지는 배관용·구조용·코팅 강관과 강관말뚝 제품을 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dysp.co.kr/",
+      "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=00117629",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
