@@ -5300,6 +5300,45 @@
    "issues": []
   },
   {
+   "id": "HC보광산업",
+   "type": "company",
+   "path": "companies/HC보광산업",
+   "summary": "콘크리트용 골재와 아스콘·레미콘을 생산하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "225530",
+   "dart_corp_code": "00568461",
+   "aliases": [
+    "보광산업",
+    "Bokwang Industry"
+   ],
+   "krx_industry": "기타 비금속 광물제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "사업 범위",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HC보광산업의 상장·업종 식별과 골재·아스콘·레미콘 생산 사업을 DART·KIND·회사 공식 사업분야에서 확인했다. 특정 공급·고객·수주 관계와 공개 테마 단계는 확인하지 않았다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=00568461",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001053",
+      "https://www.bokwangindustry.co.kr/?task=menu2",
+      "https://www.bokwangindustry.co.kr/?task=menu2&sub=1",
+      "https://www.bokwangindustry.co.kr/?task=menu2&sub=2",
+      "https://www.bokwangindustry.co.kr/?task=menu2&sub=3"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [],
+   "issues": []
+  },
+  {
    "id": "HDC",
    "type": "company",
    "path": "companies/HDC",
