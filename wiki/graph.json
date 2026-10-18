@@ -597,7 +597,8 @@
     "배터리 자원순환",
     "폐기물·수처리 시설",
     "배터리 리튬 회수 공정",
-    "자원 재활용"
+    "자원 재활용",
+    "환경엔지니어링·환경서비스"
    ]
   },
   {
@@ -9582,6 +9583,74 @@
         "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001024",
         "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001024&dcmNo=11150982&eleId=10&offset=144306&length=7082&dtd=dart4.xsd",
         "https://www.kccworld.net/investment/infoView.do?brdSeq=413654"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "KC그린홀딩스",
+   "type": "company",
+   "path": "companies/KC그린홀딩스",
+   "summary": "환경엔지니어링·환경서비스·자원순환·에너지 사업을 계열사와 함께 운영하는 환경 전문 지주회사",
+   "market": "KOSPI",
+   "ticker": "009440",
+   "dart_corp_code": "00159971",
+   "aliases": [
+    "KC Green Holdings"
+   ],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "대기오염방지 환경엔지니어링, 산업폐기물 처리, 폐유리병 재활용·유리소재 생산과 신재생에너지 발전사업을 사업보고서와 회사 공식 사업분야에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001644",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001644&dcmNo=11169277&eleId=10&offset=92301&length=2549&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001644&dcmNo=11169277&eleId=11&offset=94854&length=7803&dtd=dart4.xsd",
+      "http://www.kcgreenholdings.com/html/dh_board/lists/business1"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "환경·자원순환",
+     "tier": 1,
+     "stage": "환경엔지니어링·환경서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "환경·자원순환",
+       "page": "환경·자원순환",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "대기오염방지 환경엔지니어링, 산업폐기물 처리, 폐유리병 재활용·유리소재 생산과 신재생에너지 발전사업을 사업보고서와 회사 공식 사업분야에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001644",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001644&dcmNo=11169277&eleId=10&offset=92301&length=2549&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001644&dcmNo=11169277&eleId=11&offset=94854&length=7803&dtd=dart4.xsd",
+        "http://www.kcgreenholdings.com/html/dh_board/lists/business1"
        ],
        "malformed": ""
       }
@@ -36720,6 +36789,40 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001024",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001024&dcmNo=11150982&eleId=10&offset=144306&length=7082&dtd=dart4.xsd",
       "https://www.kccworld.net/investment/infoView.do?brdSeq=413654"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KC그린홀딩스",
+   "target": "환경·자원순환",
+   "type": "테마",
+   "tier": 1,
+   "stage": "환경엔지니어링·환경서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "대기오염방지 환경엔지니어링, 산업폐기물 처리, 폐유리병 재활용·유리소재 생산과 신재생에너지 발전사업을 사업보고서와 회사 공식 사업분야에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001644",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001644&dcmNo=11169277&eleId=10&offset=92301&length=2549&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001644&dcmNo=11169277&eleId=11&offset=94854&length=7803&dtd=dart4.xsd",
+      "http://www.kcgreenholdings.com/html/dh_board/lists/business1"
      ],
      "malformed": ""
     }
