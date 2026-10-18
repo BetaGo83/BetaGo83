@@ -585,7 +585,8 @@
     "기초 석유화학",
     "기초·첨단화학소재",
     "고무·탄성체",
-    "정유·석유화학·윤활"
+    "정유·석유화학·윤활",
+    "건설화학·비료·수처리"
    ]
   },
   {
@@ -10199,6 +10200,73 @@
        "weak": false,
        "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "KG케미칼",
+   "type": "company",
+   "path": "companies/KG케미칼",
+   "summary": "콘크리트 혼화제·비료·친환경 농자재·수처리제와 차량용 요소수를 생산하는 화학 기업",
+   "market": "KOSPI",
+   "ticker": "001390",
+   "dart_corp_code": "00101220",
+   "aliases": [
+    "KG Chemical",
+    "케이지케미칼"
+   ],
+   "krx_industry": "기초 화학물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "콘크리트 혼화제·비료·친환경 농자재·수처리제와 차량용 요소수 사업을 DART와 회사 공식 홈페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814004254",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814004254&dcmNo=11540421&eleId=9&offset=114096&length=414283&dtd=dart4.xsd&displayImage=show",
+      "http://www.kgchem.co.kr/renew/main/main.php"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "건설화학·비료·수처리",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "콘크리트 혼화제·비료·친환경 농자재·수처리제와 차량용 요소수 사업을 DART와 회사 공식 홈페이지에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814004254",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814004254&dcmNo=11540421&eleId=9&offset=114096&length=414283&dtd=dart4.xsd&displayImage=show",
+        "http://www.kgchem.co.kr/renew/main/main.php"
        ],
        "malformed": ""
       }
@@ -37582,6 +37650,39 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KG케미칼",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건설화학·비료·수처리",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "콘크리트 혼화제·비료·친환경 농자재·수처리제와 차량용 요소수 사업을 DART와 회사 공식 홈페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814004254",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814004254&dcmNo=11540421&eleId=9&offset=114096&length=414283&dtd=dart4.xsd&displayImage=show",
+      "http://www.kgchem.co.kr/renew/main/main.php"
      ],
      "malformed": ""
     }
