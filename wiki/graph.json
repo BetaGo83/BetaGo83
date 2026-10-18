@@ -8765,6 +8765,71 @@
    "issues": []
   },
   {
+   "id": "JW신약",
+   "type": "company",
+   "path": "companies/JW신약",
+   "summary": "글로벌 혁신신약과 전문의약품을 다루는 제약 전문기업",
+   "market": "KOSDAQ",
+   "ticker": "067290",
+   "dart_corp_code": "00110431",
+   "aliases": [
+    "제이더블유신약",
+    "JW SHINYAK CORPORATION"
+   ],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "JW신약 공식 홈페이지는 제약 전문기업의 글로벌 혁신신약·전문의약품·연구 파이프라인을 직접 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.jw-shinyak.co.kr/",
+      "https://www.jw-shinyak.co.kr/shinyak/ko/intro/shinyak.jsp",
+      "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=00110431"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "JW신약 공식 홈페이지는 제약 전문기업의 글로벌 혁신신약·전문의약품·연구 파이프라인을 직접 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.jw-shinyak.co.kr/",
+        "https://www.jw-shinyak.co.kr/shinyak/ko/intro/shinyak.jsp",
+        "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=00110431"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "JYP Ent.",
    "type": "company",
    "path": "companies/JYP Ent.",
@@ -35531,6 +35596,38 @@
      "sources": [
       "https://www.jw-lifescience.co.kr/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "JW신약",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "JW신약 공식 홈페이지는 제약 전문기업의 글로벌 혁신신약·전문의약품·연구 파이프라인을 직접 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.jw-shinyak.co.kr/",
+      "https://www.jw-shinyak.co.kr/shinyak/ko/intro/shinyak.jsp",
+      "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=00110431"
      ],
      "malformed": ""
     }
