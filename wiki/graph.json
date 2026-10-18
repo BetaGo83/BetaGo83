@@ -4461,6 +4461,40 @@
    "issues": []
   },
   {
+   "id": "GRT",
+   "type": "company",
+   "path": "companies/GRT",
+   "summary": "광학필름·포장필름 사업을 자회사를 통해 영위하는 코스닥 외국기업",
+   "market": "KOSDAQ",
+   "ticker": "900290",
+   "dart_corp_code": "01170962",
+   "aliases": [
+    "Great Rich Technologies Limited",
+    "그레이트리치과기유한공사"
+   ],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "사업 범위",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "GRT의 상장·지주회사 정보와 광학필름·포장필름 사업 범위를 DART·KIND 공식 자료에서 확인했다. 특정 자회사·고객·납품 관계와 공개 테마 단계는 확인하지 않았다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01170962",
+      "https://kind.krx.co.kr/external/dst/irReference/18930/GRT_%EA%B8%B0%EC%97%85%EC%84%A4%EB%AA%85%ED%9A%8C%20IR%EC%9E%90%EB%A3%8C_2026.pdf"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [],
+   "issues": []
+  },
+  {
    "id": "GST",
    "type": "company",
    "path": "companies/GST",
