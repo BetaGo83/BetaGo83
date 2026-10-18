@@ -422,7 +422,8 @@
     "차량용 반도체",
     "차량용 센서·부품",
     "전장 카메라모듈",
-    "이륜차·전기모빌리티"
+    "이륜차·전기모빌리티",
+    "타이어·고무부품"
    ]
   },
   {
@@ -474,14 +475,15 @@
    "id": "전력망·전력기기",
    "type": "theme",
    "path": "themes/전력망·전력기기",
-   "summary": "전력을 보내고 나누는 변압기·차단기·배전 설비",
+   "summary": "전력을 보내고 나누는 변압기·차단기·배전 설비와 조명 전기제품",
    "category": "에너지·환경",
    "stages": [
     "전력기기",
     "전력기기·시스템",
     "송배전용 초고압 케이블",
     "전력망 운영·정비",
-    "발전설비 운영·정비"
+    "발전설비 운영·정비",
+    "조명·LED"
    ]
   },
   {
@@ -25686,6 +25688,68 @@
    "issues": []
   },
   {
+   "id": "금호건설",
+   "type": "company",
+   "path": "companies/금호건설",
+   "summary": "건축·주택·토목과 플랜트·환경 사업을 수행하는 종합 건설 기업",
+   "market": "KOSPI",
+   "ticker": "002990",
+   "dart_corp_code": "",
+   "aliases": [
+    "KUMHO ENGINEERING & CONSTRUCTION"
+   ],
+   "krx_industry": "건물 건설업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "건축·주택, 토목과 플랜트·환경 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://www.kumhoenc.com/main/index.asp?subM=boxCompany",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001135"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "건축·토목·플랜트",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "건축·주택, 토목과 플랜트·환경 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://www.kumhoenc.com/main/index.asp?subM=boxCompany",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001135"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "금호석유화학",
    "type": "company",
    "path": "companies/금호석유화학",
@@ -25732,6 +25796,299 @@
        "sources": [
         "https://kind.krx.co.kr/external/2024/06/13/000301/20240613000421/%EA%B8%88%ED%98%B8%EC%84%9D%EC%9C%A0%ED%99%94%ED%95%99%20%EC%A7%80%EC%86%8D%EA%B0%80%EB%8A%A5%EA%B2%BD%EC%98%81%EB%B3%B4%EA%B3%A0%EC%84%9C%202023.pdf",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "금호에이치티",
+   "type": "company",
+   "path": "companies/금호에이치티",
+   "summary": "자동차용 LED 모듈과 백열전구 등 차량 조명 부품을 생산하는 자동차 부품 기업",
+   "market": "KOSPI",
+   "ticker": "214330",
+   "dart_corp_code": "",
+   "aliases": [
+    "KUMHO HT"
+   ],
+   "krx_industry": "자동차 신품 부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차용 LED 모듈과 백열전구 등 차량 조명 부품 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/03/19/000309/20260319001501/11011.htm",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00105606"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "부품·모듈",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "자동차용 LED 모듈과 백열전구 등 차량 조명 부품 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2026/03/19/000309/20260319001501/11011.htm",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00105606"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "금호전기",
+   "type": "company",
+   "path": "companies/금호전기",
+   "summary": "일반조명·LED 조명과 LED 패키지를 제조하는 전기·조명 기업",
+   "market": "KOSPI",
+   "ticker": "001210",
+   "dart_corp_code": "",
+   "aliases": [
+    "KUMHO ELECTRIC"
+   ],
+   "krx_industry": "전구 및 조명장치 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "일반조명·LED 조명과 LED 패키지 제조·판매 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/03/18/001516/20260318006999/11011.htm",
+      "https://www.k5.co.kr/stock/001210"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "전력망·전력기기",
+     "tier": 1,
+     "stage": "조명·LED",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "전력망·전력기기",
+       "page": "전력망·전력기기",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "일반조명·LED 조명과 LED 패키지 제조·판매 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2026/03/18/001516/20260318006999/11011.htm",
+        "https://www.k5.co.kr/stock/001210"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "금호타이어",
+   "type": "company",
+   "path": "companies/금호타이어",
+   "summary": "국내외 생산공장과 판매망을 운영하는 글로벌 타이어 제조·판매 기업",
+   "market": "KOSPI",
+   "ticker": "073240",
+   "dart_corp_code": "",
+   "aliases": [
+    "KUMHO TIRE"
+   ],
+   "krx_industry": "고무제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "국내외 공장과 판매망을 기반으로 한 타이어 제조·판매 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/04/23/000073/20260423000127/10601.htm",
+      "https://www3.kumhotire.com/ko/tire/search/main.do"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "타이어·고무부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "국내외 공장과 판매망을 기반으로 한 타이어 제조·판매 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2026/04/23/000073/20260423000127/10601.htm",
+        "https://www3.kumhotire.com/ko/tire/search/main.do"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "금화피에스시",
+   "type": "company",
+   "path": "companies/금화피에스시",
+   "summary": "국내외 플랜트 건설과 발전소 경상정비·발전설비 유지보수를 수행하는 플랜트 기업",
+   "market": "KOSDAQ",
+   "ticker": "036190",
+   "dart_corp_code": "",
+   "aliases": [
+    "GEUMHWA PSC"
+   ],
+   "krx_industry": "전기 및 통신 공사업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "국내외 플랜트 건설과 발전설비 설치·시공을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://geumhwa.co.kr/main",
+      "https://kind.krx.co.kr/external/2026/03/12/002219/20260312005039/11011.htm"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "가동 중 발전소의 경상정비와 발전설비 유지보수를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://www.geumhwa.co.kr/company_overview",
+      "https://geumhwa.co.kr/main",
+      "https://kind.krx.co.kr/external/2026/03/12/002219/20260312005039/11011.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "건축·토목·플랜트",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "국내외 플랜트 건설과 발전설비 설치·시공을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://geumhwa.co.kr/main",
+        "https://kind.krx.co.kr/external/2026/03/12/002219/20260312005039/11011.htm"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "전력망·전력기기",
+     "tier": 1,
+     "stage": "발전설비 운영·정비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "전력망·전력기기",
+       "page": "전력망·전력기기",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "가동 중 발전소의 경상정비와 발전설비 유지보수를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://www.geumhwa.co.kr/company_overview",
+        "https://geumhwa.co.kr/main",
+        "https://kind.krx.co.kr/external/2026/03/12/002219/20260312005039/11011.htm"
        ],
        "malformed": ""
       }
@@ -57760,6 +58117,37 @@
    }
   },
   {
+   "source": "금호건설",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건축·토목·플랜트",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "건축·주택, 토목과 플랜트·환경 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://www.kumhoenc.com/main/index.asp?subM=boxCompany",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001135"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "금호석유화학",
    "target": "화학·정유",
    "type": "테마",
@@ -57780,6 +58168,162 @@
      "sources": [
       "https://kind.krx.co.kr/external/2024/06/13/000301/20240613000421/%EA%B8%88%ED%98%B8%EC%84%9D%EC%9C%A0%ED%99%94%ED%95%99%20%EC%A7%80%EC%86%8D%EA%B0%80%EB%8A%A5%EA%B2%BD%EC%98%81%EB%B3%B4%EA%B3%A0%EC%84%9C%202023.pdf",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "금호에이치티",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "부품·모듈",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차용 LED 모듈과 백열전구 등 차량 조명 부품 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/03/19/000309/20260319001501/11011.htm",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00105606"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "금호전기",
+   "target": "전력망·전력기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "조명·LED",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "일반조명·LED 조명과 LED 패키지 제조·판매 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/03/18/001516/20260318006999/11011.htm",
+      "https://www.k5.co.kr/stock/001210"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "금호타이어",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "타이어·고무부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "국내외 공장과 판매망을 기반으로 한 타이어 제조·판매 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/04/23/000073/20260423000127/10601.htm",
+      "https://www3.kumhotire.com/ko/tire/search/main.do"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "금화피에스시",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건축·토목·플랜트",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "국내외 플랜트 건설과 발전설비 설치·시공을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://geumhwa.co.kr/main",
+      "https://kind.krx.co.kr/external/2026/03/12/002219/20260312005039/11011.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "금화피에스시",
+   "target": "전력망·전력기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "발전설비 운영·정비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "가동 중 발전소의 경상정비와 발전설비 유지보수를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://www.geumhwa.co.kr/company_overview",
+      "https://geumhwa.co.kr/main",
+      "https://kind.krx.co.kr/external/2026/03/12/002219/20260312005039/11011.htm"
      ],
      "malformed": ""
     }
