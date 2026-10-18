@@ -5202,6 +5202,42 @@
    "issues": []
   },
   {
+   "id": "HB인베스트먼트",
+   "type": "company",
+   "path": "companies/HB인베스트먼트",
+   "summary": "유망 중소·벤처기업에 투자하고 경영을 지원하는 코스닥 벤처캐피탈",
+   "market": "KOSDAQ",
+   "ticker": "440290",
+   "dart_corp_code": "00309460",
+   "aliases": [
+    "HB Investment",
+    "HB Investment, Inc."
+   ],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "사업 범위",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HB인베스트먼트의 상장·벤처캐피탈 식별과 중소·벤처기업 투자·경영지원 사업을 DART·KIND·회사 공식 자료에서 확인했다. 특정 공급·고객·수주 관계와 공개 테마 단계는 확인하지 않았다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=00309460",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000616",
+      "https://hbvc.co.kr/kr"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [],
+   "issues": []
+  },
+  {
    "id": "HB테크놀러지",
    "type": "company",
    "path": "companies/HB테크놀러지",
