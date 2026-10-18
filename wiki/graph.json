@@ -8408,6 +8408,42 @@
    "issues": []
   },
   {
+   "id": "INVENI",
+   "type": "company",
+   "path": "companies/INVENI",
+   "summary": "투자전문회사와 도시가스 사업회사를 함께 둔 투자지주회사",
+   "market": "KOSPI",
+   "ticker": "015360",
+   "dart_corp_code": "00105101",
+   "aliases": [
+    "INVENI Co., Ltd.",
+    "인베니",
+    "예스코홀딩스"
+   ],
+   "krx_industry": "회사 본부 및 경영 컨설팅 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "투자·지주 및 도시가스 사업",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DART 사업보고서와 INVENI 공식 사업 페이지에서 투자전문회사 전략과 도시가스 사업부문을 확인했다. 현재 공개 테마의 생산·설비 단계에 직접 대응하는 역할은 확인하지 못해 테마 연결은 보류했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605000111",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260605000111&dcmNo=11419755&eleId=13&offset=170039&length=9489&dtd=dart4.xsd",
+      "https://www.inveni.com/business"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [],
+   "issues": []
+  },
+  {
    "id": "ISC",
    "type": "company",
    "path": "companies/ISC",
