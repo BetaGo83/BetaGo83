@@ -587,7 +587,8 @@
     "기초·첨단화학소재",
     "고무·탄성체",
     "정유·석유화학·윤활",
-    "건설화학·비료·수처리"
+    "건설화학·비료·수처리",
+    "사업지주·화학소재 전략"
    ]
   },
   {
@@ -10606,6 +10607,71 @@
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
         "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814003139&dcmNo=11536004&eleId=9&offset=100320&length=39953&dtd=dart4.xsd&displayImage=show",
         "https://www.kpxchemical.com/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "KPX홀딩스",
+   "type": "company",
+   "path": "companies/KPX홀딩스",
+   "summary": "KPX케미칼 등 국내외 계열사의 지분을 보유하고 지주사업을 수행하는 화학소재 그룹 지주회사",
+   "market": "KOSPI",
+   "ticker": "092230",
+   "dart_corp_code": "00587466",
+   "aliases": [
+    "KPX Holdings",
+    "KPX Holdings Co., Ltd."
+   ],
+   "krx_industry": "기초 화학물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "자회사 지분 소유를 통한 지주사업과 KPX케미칼·PPG(우레탄원료) 계열 범위를 공식 회사자료와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "http://www.kpxholdings.com/content/index.php?title=kpx&sub=company",
+      "http://www.kpxholdings.com/content/index.php?title=group"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "사업지주·화학소재 전략",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "자회사 지분 소유를 통한 지주사업과 KPX케미칼·PPG(우레탄원료) 계열 범위를 공식 회사자료와 KIND에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "http://www.kpxholdings.com/content/index.php?title=kpx&sub=company",
+        "http://www.kpxholdings.com/content/index.php?title=group"
        ],
        "malformed": ""
       }
@@ -31280,6 +31346,38 @@
    }
   },
   {
+   "source": "KPX케미칼",
+   "target": "KPX홀딩스",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-10-18",
+     "text": "KPX홀딩스 공식 그룹체계도가 KPX케미칼을 계열회사로 표시한다.",
+     "sources": [
+      "http://www.kpxholdings.com/content/index.php?title=group"
+     ],
+     "status": "확인",
+     "evidence_level": "공식 발표",
+     "weak": false
+    },
+    {
+     "date": "2026-10-18",
+     "text": "KPX홀딩스 공식 그룹체계도가 KPX케미칼을 계열회사로 표시하고 PPG(우레탄원료)·전자재료 사업을 안내한다.",
+     "sources": [
+      "http://www.kpxholdings.com/content/index.php?title=group"
+     ],
+     "status": "확인",
+     "evidence_level": "공식 발표",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "두산에너빌리티",
    "target": "두산퓨얼셀",
    "type": "계열",
@@ -38188,6 +38286,38 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814003139&dcmNo=11536004&eleId=9&offset=100320&length=39953&dtd=dart4.xsd&displayImage=show",
       "https://www.kpxchemical.com/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KPX홀딩스",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "사업지주·화학소재 전략",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "자회사 지분 소유를 통한 지주사업과 KPX케미칼·PPG(우레탄원료) 계열 범위를 공식 회사자료와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "http://www.kpxholdings.com/content/index.php?title=kpx&sub=company",
+      "http://www.kpxholdings.com/content/index.php?title=group"
      ],
      "malformed": ""
     }

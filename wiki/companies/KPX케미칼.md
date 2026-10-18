@@ -25,7 +25,9 @@ official_domains: ["www.kpxchemical.com", "dart.fss.or.kr", "kind.krx.co.kr"]
 
 ## 관계
 
-공식 자료에서 현재 공개 그래프에 넣을 추가 기업 간 거래·공급·투자 관계는 확인하지 못했습니다.
+| 관계 | 상대 | 내용 | 근거 날짜 | 출처 | 상태 | 근거 수준 |
+|---|---|---|---|---|---|---|
+| 계열 | [[KPX홀딩스]] | KPX홀딩스 공식 그룹체계도가 KPX케미칼을 계열회사로 표시한다. | 2026-10-18 | [KPX홀딩스 그룹체계도](http://www.kpxholdings.com/content/index.php?title=group) | 확인 | 공식 발표 |
 
 ## 테마
 
