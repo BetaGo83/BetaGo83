@@ -4,7 +4,7 @@ name: "HBM·반도체"
 aliases: []
 keywords: ["HBM", "고대역폭메모리", "TC본더", "하이브리드 본딩", "반도체 후공정"]
 stages: ["메모리 제조", "후공정 장비", "하이브리드 본딩", "검사 장비·부품", "공정 모니터링", "패키지기판", "전력반도체 후공정", "전력반도체 제조", "반도체 공정 소재", "반도체 제조 장비", "반도체 패키징", "반도체 클린룸", "시스템반도체 파운드리"]
-updated: "2026-10-18"
+updated: "2026-10-19"
 category: "기술·디지털"
 ---
 
@@ -31,7 +31,7 @@ category: "기술·디지털"
 - 반도체 제조 장비: [[원익IPS]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt)), [[APS]] ([한국거래소 KIND](https://kind.krx.co.kr/corpdetail/totalinfo.do?isurCd=05462&kisComCd=125001&method=searchTotalInfo&repIsuCd=KR7054620000)), [[HPSP]] ([HPSP 공식 제품](https://thehpsp.com/sub/sub02.php?page=3))
 - 검사 장비·부품: [[고영]] ([고영 공식 회사 개요](https://kohyoung.com/kr/who-we-are/), [고영 공식 사업 영역](https://kohyoung.com/kr/offerings/))
 - 반도체 클린룸: [[신성이엔지]] ([신성이엔지](https://shinsung.co.kr/))
-- 반도체 패키징: [[하나마이크론]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt)), [[3S]] ([공식 사업자료](https://kind.krx.co.kr/external/dst/irReference/18259/IR%20-%203S%20KOREA%20%2820260326%29.pdf))
+- 반도체 패키징: [[하나마이크론]] ([출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt)), [[3S]] ([공식 사업자료](https://kind.krx.co.kr/external/dst/irReference/18259/IR%20-%203S%20KOREA%20%2820260326%29.pdf)), [[SFA반도체]] ([SFA반도체 공식 홈페이지](https://www.sfasemicon.com/), [SFA반도체 사업보고서](https://kind.krx.co.kr/external/2025/03/21/000378/20250321001672/11011.htm))
 - 반도체 제조 장비: [[케이씨텍]] ([케이씨텍](https://www.kctech.com/page/product1.php))
 - 반도체 제조 장비: [[GST]] ([GST 공식 홈페이지](https://www.gst-in.com/), [GST Products](https://www.gst-in.com/m21.php?cate=1))
 - 패키지기판: [[해성디에스]] ([HAESUNG DS](https://haesungds.co.kr/eng/?p=products%7Cpkg_substrate%7Coverview))
@@ -54,6 +54,7 @@ category: "기술·디지털"
 | [[KX하이텍]] | HBM·반도체 | 공시·거래소 확인 | 확인 | 2026-10-18 | 공시 원문 [출처](https://kind.krx.co.kr/corpdetail/totalinfo.do?isurCd=05290&kisComCd=724262&method=searchTotalInfo&repIsuCd=KR7052900008), [출처](https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814000894&dcmNo=11528463&eleId=9&offset=81639&length=96411&dtd=dart4.xsd&displayImage=show), [출처](http://www.kxhitech.com/page.php?p_id=product1) |
 | [[LB세미콘]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage) |
 | [[OCI]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.oci.co.kr/), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
+| [[SFA반도체]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](https://www.sfasemicon.com/), [출처](https://kind.krx.co.kr/external/2025/03/21/000378/20250321001672/11011.htm), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[SK하이닉스]] | 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
 | [[SK하이닉스]] | AI 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
 | [[SK하이닉스]] | HBM 수요 확대 | 공시·거래소 확인 | 확인 | 2026-03-17 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000635) |

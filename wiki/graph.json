@@ -374,7 +374,8 @@
     "체성분 분석기",
     "디지털치료기기",
     "동물용 진단키트",
-    "체외진단 키트"
+    "체외진단 키트",
+    "의료용 지혈제"
    ]
   },
   {
@@ -16103,6 +16104,136 @@
    "issues": []
   },
   {
+   "id": "SCL사이언스",
+   "type": "company",
+   "path": "companies/SCL사이언스",
+   "summary": "의료용 지혈제와 의료 데이터·AI 기반 디지털 헬스케어 서비스를 전개하는 코스닥 기업",
+   "market": "KOSDAQ",
+   "ticker": "246960",
+   "dart_corp_code": "01110182",
+   "aliases": [
+    "SCL Science",
+    "에스씨엘사이언스"
+   ],
+   "krx_industry": "의료용품 및 기타 의약 관련제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "체내 흡수성 지혈제와 의료기기·디지털 헬스케어 서비스 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sclscience.com/",
+      "https://sclscience.com/services/medical-device",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "의료용 지혈제",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "체내 흡수성 지혈제와 의료기기·디지털 헬스케어 서비스 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.sclscience.com/",
+        "https://sclscience.com/services/medical-device",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SDN",
+   "type": "company",
+   "path": "companies/SDN",
+   "summary": "태양광 모듈·시스템과 발전소 개발·운영, 선박·엔진 사업을 운영하는 코스닥 기업",
+   "market": "KOSDAQ",
+   "ticker": "099220",
+   "dart_corp_code": "",
+   "aliases": [
+    "SDN Company",
+    "에스디엔"
+   ],
+   "krx_industry": "기계장비 및 관련 물품 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "태양광 모듈·시스템과 발전소 개발·시공·운영, 인버터 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sdn-i.com/",
+      "https://solar.sdn-i.com/uploads/download/1716451282_65808.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "재생에너지",
+     "tier": 1,
+     "stage": "태양광 발전소·인버터",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "재생에너지",
+       "page": "재생에너지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "태양광 모듈·시스템과 발전소 개발·시공·운영, 인버터 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.sdn-i.com/",
+        "https://solar.sdn-i.com/uploads/download/1716451282_65808.pdf",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "SFA",
    "type": "company",
    "path": "companies/SFA",
@@ -16237,6 +16368,137 @@
        "weak": false,
        "sources": [
         "https://www.sfa.co.kr/company03",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SFA넥셀",
+   "type": "company",
+   "path": "companies/SFA넥셀",
+   "summary": "이차전지 전극 제조 장비와 증착·검사 장비를 공급하는 코스닥 제조장비 기업",
+   "market": "KOSDAQ",
+   "ticker": "222080",
+   "dart_corp_code": "01090471",
+   "aliases": [
+    "SFA NEXEL",
+    "에스에프에이넥셀",
+    "씨아이에스"
+   ],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "이차전지 전극공정 장비의 설계·제조 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.cisro.co.kr/",
+      "https://www.cisro.co.kr/wp-content/uploads/2025/07/2023-CIS-%ED%99%8D%EB%B3%B4-Brochure.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "이차전지 전극공정 장비의 설계·제조 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.cisro.co.kr/",
+        "https://www.cisro.co.kr/wp-content/uploads/2025/07/2023-CIS-%ED%99%8D%EB%B3%B4-Brochure.pdf",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SFA반도체",
+   "type": "company",
+   "path": "companies/SFA반도체",
+   "summary": "메모리·시스템 반도체의 조립·테스트와 패키징 솔루션을 제공하는 코스닥 후공정 기업",
+   "market": "KOSDAQ",
+   "ticker": "036540",
+   "dart_corp_code": "00301246",
+   "aliases": [
+    "SFA Semicon",
+    "에스에프에이반도체"
+   ],
+   "krx_industry": "반도체 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "반도체 후공정 조립·테스트와 패키징 솔루션 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sfasemicon.com/",
+      "https://kind.krx.co.kr/external/2025/03/21/000378/20250321001672/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "반도체 패키징",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "반도체 후공정 조립·테스트와 패키징 솔루션 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.sfasemicon.com/",
+        "https://kind.krx.co.kr/external/2025/03/21/000378/20250321001672/11011.htm",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
@@ -44789,6 +45051,70 @@
    }
   },
   {
+   "source": "SCL사이언스",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의료용 지혈제",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "체내 흡수성 지혈제와 의료기기·디지털 헬스케어 서비스 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sclscience.com/",
+      "https://sclscience.com/services/medical-device",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SDN",
+   "target": "재생에너지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "태양광 발전소·인버터",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "태양광 모듈·시스템과 발전소 개발·시공·운영, 인버터 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sdn-i.com/",
+      "https://solar.sdn-i.com/uploads/download/1716451282_65808.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "SFA",
    "target": "2차전지",
    "type": "테마",
@@ -44870,6 +45196,70 @@
      "weak": false,
      "sources": [
       "https://www.sfa.co.kr/company03",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SFA넥셀",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "이차전지 전극공정 장비의 설계·제조 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.cisro.co.kr/",
+      "https://www.cisro.co.kr/wp-content/uploads/2025/07/2023-CIS-%ED%99%8D%EB%B3%B4-Brochure.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SFA반도체",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "반도체 패키징",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "반도체 후공정 조립·테스트와 패키징 솔루션 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sfasemicon.com/",
+      "https://kind.krx.co.kr/external/2025/03/21/000378/20250321001672/11011.htm",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
