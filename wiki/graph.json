@@ -9872,6 +9872,76 @@
    "issues": []
   },
   {
+   "id": "KG모빌리티",
+   "type": "company",
+   "path": "companies/KG모빌리티",
+   "summary": "완성차를 제조·판매하고 정비용역을 제공하는 자동차 기업",
+   "market": "KOSPI",
+   "ticker": "003620",
+   "dart_corp_code": "00138242",
+   "aliases": [
+    "KGM",
+    "KG Mobility",
+    "쌍용자동차"
+   ],
+   "krx_industry": "자동차용 엔진 및 자동차 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "KG모빌리티의 완성차 제조·판매 사업과 SUV·픽업 차량 라인업을 사업보고서와 공식 사이트에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000964",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000964&dcmNo=11139149&eleId=10&offset=94972&length=3617&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000964&dcmNo=11139149&eleId=11&offset=98593&length=4852&dtd=dart4.xsd",
+      "https://www.kg-mobility.com/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "완성차",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "KG모빌리티의 완성차 제조·판매 사업과 SUV·픽업 차량 라인업을 사업보고서와 공식 사이트에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000964",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000964&dcmNo=11139149&eleId=10&offset=94972&length=3617&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000964&dcmNo=11139149&eleId=11&offset=98593&length=4852&dtd=dart4.xsd",
+        "https://www.kg-mobility.com/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "KG이니시스",
    "type": "company",
    "path": "companies/KG이니시스",
@@ -37132,6 +37202,40 @@
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000580&dcmNo=11147931&eleId=10&offset=99496&length=8945&dtd=dart4.xsd",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000580&dcmNo=11147931&eleId=11&offset=108445&length=5456&dtd=dart4.xsd",
       "https://www.keccorp.com/kr/product/product_value.asp"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KG모빌리티",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "완성차",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "KG모빌리티의 완성차 제조·판매 사업과 SUV·픽업 차량 라인업을 사업보고서와 공식 사이트에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000964",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000964&dcmNo=11139149&eleId=10&offset=94972&length=3617&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000964&dcmNo=11139149&eleId=11&offset=98593&length=4852&dtd=dart4.xsd",
+      "https://www.kg-mobility.com/"
      ],
      "malformed": ""
     }
