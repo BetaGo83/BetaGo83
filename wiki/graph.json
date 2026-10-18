@@ -11012,6 +11012,71 @@
    "issues": []
   },
   {
+   "id": "KT나스미디어",
+   "type": "company",
+   "path": "companies/KT나스미디어",
+   "summary": "디지털 미디어렙과 광고매체 판매, 애드테크·미디어 플랫폼을 운영하는 디지털 마케팅 기업",
+   "market": "KOSDAQ",
+   "ticker": "089600",
+   "dart_corp_code": "00486097",
+   "aliases": [
+    "나스미디어",
+    "kt nasmedia"
+   ],
+   "krx_industry": "광고업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "디지털 광고매체 판매 대행·미디어렙·애드테크 광고 플랫폼 사업을 DART 반기보고서와 회사 공식 사업 페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814003681&dcmNo=11538071&eleId=9&offset=132104&length=94903&dtd=dart4.xsd&displayImage=show",
+      "https://www.nasmedia.co.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "영화관·미디어",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "디지털 광고매체 판매 대행·미디어렙·애드테크 광고 플랫폼 사업을 DART 반기보고서와 회사 공식 사업 페이지에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814003681&dcmNo=11538071&eleId=9&offset=132104&length=94903&dtd=dart4.xsd&displayImage=show",
+        "https://www.nasmedia.co.kr/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "LB세미콘",
    "type": "company",
    "path": "companies/LB세미콘",
@@ -38804,6 +38869,38 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20261001000352&dcmNo=11599088&eleId=11&offset=145478&length=43909&dtd=dart4.xsd&displayImage=show",
       "https://www.ktis.co.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KT나스미디어",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "영화관·미디어",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "디지털 광고매체 판매 대행·미디어렙·애드테크 광고 플랫폼 사업을 DART 반기보고서와 회사 공식 사업 페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814003681&dcmNo=11538071&eleId=9&offset=132104&length=94903&dtd=dart4.xsd&displayImage=show",
+      "https://www.nasmedia.co.kr/"
      ],
      "malformed": ""
     }
