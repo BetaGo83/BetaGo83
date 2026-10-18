@@ -9466,6 +9466,72 @@
    "issues": []
   },
   {
+   "id": "KB오토시스",
+   "type": "company",
+   "path": "companies/KB오토시스",
+   "summary": "자동차 브레이크 패드와 라이닝을 제조·공급하는 자동차 부품 기업",
+   "market": "KOSDAQ",
+   "ticker": "024120",
+   "dart_corp_code": "00157539",
+   "aliases": [
+    "KB Autosys"
+   ],
+   "krx_industry": "자동차 신품 부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DART 사업보고서와 회사 공식 홈페이지에서 자동차 브레이크 패드·라이닝 제조와 제동용 마찰재 역할을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001360",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001360&dcmNo=11153470&eleId=11&offset=59887&length=4179&dtd=dart4.xsd",
+      "https://www.kbautosys.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "부품·모듈",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "DART 사업보고서와 회사 공식 홈페이지에서 자동차 브레이크 패드·라이닝 제조와 제동용 마찰재 역할을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001360",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001360&dcmNo=11153470&eleId=11&offset=59887&length=4179&dtd=dart4.xsd",
+        "https://www.kbautosys.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "KG이니시스",
    "type": "company",
    "path": "companies/KG이니시스",
@@ -36524,6 +36590,39 @@
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260512000411&dcmNo=11373335&eleId=12&offset=58394&length=2081&dtd=dart4.xsd",
       "https://www.kbstarreit.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KB오토시스",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "부품·모듈",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "DART 사업보고서와 회사 공식 홈페이지에서 자동차 브레이크 패드·라이닝 제조와 제동용 마찰재 역할을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001360",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319001360&dcmNo=11153470&eleId=11&offset=59887&length=4179&dtd=dart4.xsd",
+      "https://www.kbautosys.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
