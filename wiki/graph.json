@@ -104,6 +104,16 @@
    ]
   },
   {
+   "id": "교육·출판",
+   "type": "theme",
+   "path": "themes/교육·출판",
+   "summary": "교과서·학습서 출판과 영유아·초중고 교육, 에듀테크·교육서비스를 다룬다.",
+   "category": "소비·문화",
+   "stages": [
+    "교육 콘텐츠·플랫폼"
+   ]
+  },
+  {
    "id": "기계·산업장비",
    "type": "theme",
    "path": "themes/기계·산업장비",
@@ -344,6 +354,7 @@
     "신선식품·건강식품",
     "라면·조미식품·간편식",
     "종합식품·조미료",
+    "주정·에탄올 원료",
     "단체급식·외식·건강식",
     "외식·프랜차이즈"
    ]
@@ -493,6 +504,7 @@
     "음악 콘텐츠·매니지먼트",
     "음반·연예 매니지먼트",
     "음악 콘텐츠",
+    "영화 투자·배급",
     "드라마 제작·판매",
     "영상 VFX 제작",
     "영화관·미디어"
@@ -14013,6 +14025,71 @@
    "issues": []
   },
   {
+   "id": "MH에탄올",
+   "type": "company",
+   "path": "companies/MH에탄올",
+   "summary": "주정 제조·판매와 기계설비 제작, 골프장 사업을 운영하는 코스피 상장사",
+   "market": "KOSPI",
+   "ticker": "023150",
+   "dart_corp_code": "",
+   "aliases": [
+    "MH Ethanol",
+    "엠에이치에탄올"
+   ],
+   "krx_industry": "알코올음료 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "주정 제조·판매와 주류·식품·제약 원료 공급 역할을 확인했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://www.atfis.or.kr/home/company.do?act=detail&beginYear=0&businessType=food&cpnyCd=100000009447180&endYear=0&orderField=slsAmt&orderGubun=DESC&orderYear=0&pageIndex=22&pageUnit=15",
+      "https://www.klca.or.kr/KLCADownload/eBook/P6501.pdf?Mode=PC"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "주정·에탄올 원료",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "주정 제조·판매와 주류·식품·제약 원료 공급 역할을 확인했다.",
+       "evidence_level": "거래소 자료",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://www.atfis.or.kr/home/company.do?act=detail&beginYear=0&businessType=food&cpnyCd=100000009447180&endYear=0&orderField=slsAmt&orderGubun=DESC&orderYear=0&pageIndex=22&pageUnit=15",
+        "https://www.klca.or.kr/KLCADownload/eBook/P6501.pdf?Mode=PC"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "NAVER",
    "type": "company",
    "path": "companies/NAVER",
@@ -14172,6 +14249,134 @@
        "sources": [
         "https://www.nc.com/",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "NEW",
+   "type": "company",
+   "path": "companies/NEW",
+   "summary": "영화·드라마·음악 콘텐츠의 제작·유통과 영화관 사업을 운영하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "160550",
+   "dart_corp_code": "",
+   "aliases": [
+    "넥스트엔터테인먼트월드",
+    "Next Entertainment World"
+   ],
+   "krx_industry": "영화, 비디오물, 방송프로그램 제작 및 배급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "영화사업, 음악, 콘텐츠 제작·판권 유통, 영화관·디지털 플랫폼 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.its-new.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "영화 투자·배급",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "영화사업, 음악, 콘텐츠 제작·판권 유통, 영화관·디지털 플랫폼 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.its-new.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "NE능률",
+   "type": "company",
+   "path": "companies/NE능률",
+   "summary": "교과서·학습서와 영유아·성인 교육, 학원 프랜차이즈·에듀테크를 운영하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "053290",
+   "dart_corp_code": "00363927",
+   "aliases": [
+    "NE Neungyule",
+    "능률교육"
+   ],
+   "krx_industry": "서적, 잡지 및 기타 인쇄물 출판업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "교육·출판",
+     "page": "교육·출판",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "교과서·학습서, 영유아 교육, 학원 프랜차이즈·에듀테크 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.neungyule.com/pages/ko/company/",
+      "https://www.neungyule.com/pages/ko/brand/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "교육·출판",
+     "tier": 1,
+     "stage": "교육 콘텐츠·플랫폼",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "교육·출판",
+       "page": "교육·출판",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "교과서·학습서, 영유아 교육, 학원 프랜차이즈·에듀테크 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.neungyule.com/pages/ko/company/",
+        "https://www.neungyule.com/pages/ko/brand/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
       }
@@ -42206,6 +42411,38 @@
    }
   },
   {
+   "source": "MH에탄올",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "주정·에탄올 원료",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "주정 제조·판매와 주류·식품·제약 원료 공급 역할을 확인했다.",
+     "evidence_level": "거래소 자료",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://www.atfis.or.kr/home/company.do?act=detail&beginYear=0&businessType=food&cpnyCd=100000009447180&endYear=0&orderField=slsAmt&orderGubun=DESC&orderYear=0&pageIndex=22&pageUnit=15",
+      "https://www.klca.or.kr/KLCADownload/eBook/P6501.pdf?Mode=PC"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "NAVER",
    "target": "AI·클라우드",
    "type": "테마",
@@ -42297,6 +42534,69 @@
      "sources": [
       "https://www.nc.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "NEW",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "영화 투자·배급",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "영화사업, 음악, 콘텐츠 제작·판권 유통, 영화관·디지털 플랫폼 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.its-new.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "NE능률",
+   "target": "교육·출판",
+   "type": "테마",
+   "tier": 1,
+   "stage": "교육 콘텐츠·플랫폼",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "교육·출판",
+     "page": "교육·출판",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "교과서·학습서, 영유아 교육, 학원 프랜차이즈·에듀테크 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.neungyule.com/pages/ko/company/",
+      "https://www.neungyule.com/pages/ko/brand/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
