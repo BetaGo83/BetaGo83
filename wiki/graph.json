@@ -73,7 +73,8 @@
     "반도체 제조 장비",
     "반도체 패키징",
     "반도체 클린룸",
-    "시스템반도체 파운드리"
+    "시스템반도체 파운드리",
+    "시스템반도체 설계·IP"
    ]
   },
   {
@@ -90,7 +91,8 @@
     "주택·건축·토목",
     "건설장비",
     "건설·플랜트·인프라",
-    "부동산 개발·운영"
+    "부동산 개발·운영",
+    "시멘트·레미콘"
    ]
   },
   {
@@ -20968,6 +20970,113 @@
    "issues": []
   },
   {
+   "id": "가온그룹",
+   "type": "company",
+   "path": "companies/가온그룹",
+   "summary": "AI·OTT 미디어 장치, 네트워크 디바이스와 로봇 플랫폼을 공급하는 통신장비 그룹",
+   "market": "KOSDAQ",
+   "ticker": "078890",
+   "dart_corp_code": "00441304",
+   "aliases": [
+    "KAON Group",
+    "가온미디어",
+    "KAON"
+   ],
+   "krx_industry": "통신 및 방송 장비 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 사업자료에서 셋톱박스·OTT 미디어 솔루션과 네트워크 디바이스·솔루션을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kaongroup.com/ko/sub/business/kaonmedia.php",
+      "https://www.kaongroup.com/ko/sub/business/kaonbroadband.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "KAON ROBOTICS의 로봇 플랫폼·통합관제 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kaongroup.com/ko/sub/business/kaonrobotics.php"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "로봇·자동화",
+     "tier": 1,
+     "stage": "로봇 모듈화 플랫폼",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "로봇·자동화",
+       "page": "로봇·자동화",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "KAON ROBOTICS의 로봇 플랫폼·통합관제 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.kaongroup.com/ko/sub/business/kaonrobotics.php"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 1,
+     "stage": "이동통신망 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "통신·네트워크",
+       "page": "통신·네트워크",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "공식 사업자료에서 셋톱박스·OTT 미디어 솔루션과 네트워크 디바이스·솔루션을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.kaongroup.com/ko/sub/business/kaonmedia.php",
+        "https://www.kaongroup.com/ko/sub/business/kaonbroadband.php",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "가온전선",
    "type": "company",
    "path": "companies/가온전선",
@@ -21053,6 +21162,264 @@
        "weak": false,
        "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "가온칩스",
+   "type": "company",
+   "path": "companies/가온칩스",
+   "summary": "시스템반도체 SoC 설계와 턴키 개발·양산 지원을 제공하는 디자인 솔루션 기업",
+   "market": "KOSDAQ",
+   "ticker": "399720",
+   "dart_corp_code": "01364747",
+   "aliases": [
+    "GAONCHIPS",
+    "가온칩스 SoC"
+   ],
+   "krx_industry": "반도체 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 자료에서 SoC 설계, 시스템반도체 디자인 솔루션, 첨단 패키징·테스트·양산 지원을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gaonchips.com/kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01364747"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "시스템반도체 설계·IP",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "공식 자료에서 SoC 설계, 시스템반도체 디자인 솔루션, 첨단 패키징·테스트·양산 지원을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.gaonchips.com/kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01364747"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "감성코퍼레이션",
+   "type": "company",
+   "path": "companies/감성코퍼레이션",
+   "summary": "SNOW PEAK APPAREL 아웃도어 의류·신발·용품과 모바일 주변기기를 전개하는 라이프스타일 기업",
+   "market": "KOSDAQ",
+   "ticker": "036620",
+   "dart_corp_code": "00261009",
+   "aliases": [
+    "GAMSUNG",
+    "SNOW PEAK APPAREL"
+   ],
+   "krx_industry": "기타 전문 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 소개와 사업보고서에서 SNOW PEAK APPAREL 기반 의류·신발·용품 판매를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gamsungcorp.co.kr/sub01/sub02.php",
+      "https://kind.krx.co.kr/external/2026/05/13/000447/20260513000961/11013.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "패션·의류",
+     "tier": 1,
+     "stage": "패션 브랜드 제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "패션·의류",
+       "page": "패션·의류",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "공식 소개와 사업보고서에서 SNOW PEAK APPAREL 기반 의류·신발·용품 판매를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.gamsungcorp.co.kr/sub01/sub02.php",
+        "https://kind.krx.co.kr/external/2026/05/13/000447/20260513000961/11013.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "강남제비스코",
+   "type": "company",
+   "path": "companies/강남제비스코",
+   "summary": "건축·산업용 도료와 안료를 제조·판매하는 화학제품 기업",
+   "market": "KOSPI",
+   "ticker": "000860",
+   "dart_corp_code": "00100939",
+   "aliases": [
+    "KANGNAM JEVISCO",
+    "제비표페인트"
+   ],
+   "krx_industry": "기타 화학제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "정관과 공식 자료에서 도료·안료 제조·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.jevisco.com/upload/pdf/articles_of_association.pdf",
+      "https://www.jevisco.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "도료·코팅",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "정관과 공식 자료에서 도료·안료 제조·판매 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.jevisco.com/upload/pdf/articles_of_association.pdf",
+        "https://www.jevisco.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "강동씨앤엘",
+   "type": "company",
+   "path": "companies/강동씨앤엘",
+   "summary": "시멘트와 레미콘을 제조·판매하고 레저사업을 함께 운영하는 비금속 건설소재 기업",
+   "market": "KOSDAQ",
+   "ticker": "198440",
+   "dart_corp_code": "",
+   "aliases": [
+    "고려시멘트",
+    "KANGDONG C&L"
+   ],
+   "krx_industry": "시멘트, 석회, 플라스터 및 그 제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "사업보고서와 거래소 자료에서 시멘트·레미콘 제조·판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2025/03/19/000376/20250319002012/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "시멘트·레미콘",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "사업보고서와 거래소 자료에서 시멘트·레미콘 제조·판매를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2025/03/19/000376/20250319002012/11011.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
       }
@@ -51169,6 +51536,68 @@
    }
   },
   {
+   "source": "가온그룹",
+   "target": "로봇·자동화",
+   "type": "테마",
+   "tier": 1,
+   "stage": "로봇 모듈화 플랫폼",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "KAON ROBOTICS의 로봇 플랫폼·통합관제 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kaongroup.com/ko/sub/business/kaonrobotics.php"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "가온그룹",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 1,
+   "stage": "이동통신망 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 사업자료에서 셋톱박스·OTT 미디어 솔루션과 네트워크 디바이스·솔루션을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kaongroup.com/ko/sub/business/kaonmedia.php",
+      "https://www.kaongroup.com/ko/sub/business/kaonbroadband.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "가온전선",
    "target": "전력망·전력기기",
    "type": "테마",
@@ -51218,6 +51647,133 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "가온칩스",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "시스템반도체 설계·IP",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 자료에서 SoC 설계, 시스템반도체 디자인 솔루션, 첨단 패키징·테스트·양산 지원을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gaonchips.com/kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01364747"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "감성코퍼레이션",
+   "target": "패션·의류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "패션 브랜드 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 소개와 사업보고서에서 SNOW PEAK APPAREL 기반 의류·신발·용품 판매를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.gamsungcorp.co.kr/sub01/sub02.php",
+      "https://kind.krx.co.kr/external/2026/05/13/000447/20260513000961/11013.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "강남제비스코",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "도료·코팅",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "정관과 공식 자료에서 도료·안료 제조·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.jevisco.com/upload/pdf/articles_of_association.pdf",
+      "https://www.jevisco.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "강동씨앤엘",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "시멘트·레미콘",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "사업보고서와 거래소 자료에서 시멘트·레미콘 제조·판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2025/03/19/000376/20250319002012/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }

@@ -3,7 +3,7 @@ type: "theme"
 name: "HBM·반도체"
 aliases: []
 keywords: ["HBM", "고대역폭메모리", "TC본더", "하이브리드 본딩", "반도체 후공정"]
-stages: ["메모리 제조", "후공정 장비", "하이브리드 본딩", "검사 장비·부품", "공정 모니터링", "패키지기판", "전력반도체 후공정", "전력반도체 제조", "반도체 공정 소재", "반도체 제조 장비", "반도체 패키징", "반도체 클린룸", "시스템반도체 파운드리"]
+stages: ["메모리 제조", "후공정 장비", "하이브리드 본딩", "검사 장비·부품", "공정 모니터링", "패키지기판", "전력반도체 후공정", "전력반도체 제조", "반도체 공정 소재", "반도체 제조 장비", "반도체 패키징", "반도체 클린룸", "시스템반도체 파운드리", "시스템반도체 설계·IP"]
 updated: "2026-10-19"
 category: "기술·디지털"
 ---
@@ -36,6 +36,7 @@ category: "기술·디지털"
 - 반도체 제조 장비: [[GST]] ([GST 공식 홈페이지](https://www.gst-in.com/), [GST Products](https://www.gst-in.com/m21.php?cate=1))
 - 패키지기판: [[해성디에스]] ([HAESUNG DS](https://haesungds.co.kr/eng/?p=products%7Cpkg_substrate%7Coverview))
 - 시스템반도체 파운드리: [[DB하이텍]] ([DB하이텍 회사소개](https://www.dbhitek.com/kr/company/about))
+- 시스템반도체 설계·IP: [[가온칩스]] ([가온칩스 공식 What We do](https://www.gaonchips.com/kr/), [한국거래소 KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt))
 
 ## 관련 기업
 <!-- scripts/build_graph.py가 만드는 표. 손으로 고치지 않는다 -->
@@ -58,6 +59,7 @@ category: "기술·디지털"
 | [[SK하이닉스]] | 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
 | [[SK하이닉스]] | AI 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
 | [[SK하이닉스]] | HBM 수요 확대 | 공시·거래소 확인 | 확인 | 2026-03-17 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000635) |
+| [[가온칩스]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](https://www.gaonchips.com/kr/), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt), [출처](https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01364747) |
 | [[고영]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-18 | 공식 발표 [출처](https://kohyoung.com/kr/who-we-are/), [출처](https://kohyoung.com/kr/offerings/), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[네오셈]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-09-28 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900837) |
 | [[네오셈]] | HBM 수요 확대 | 후보 | 후보(확인 중) | 2026-03-18 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000748) |
