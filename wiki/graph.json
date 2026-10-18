@@ -124,6 +124,7 @@
     "건설기계",
     "소형·중장비",
     "공작기계·산업용 로봇",
+    "금속성형·프레스",
     "공정·물류 자동화",
     "승강·물류장비",
     "에너지·산업설비"
@@ -492,6 +493,7 @@
    "category": "산업재·운송",
    "stages": [
     "철강",
+    "합금철",
     "비철금속 제련",
     "비철금속 가공",
     "강관",
@@ -16839,6 +16841,363 @@
        "sources": [
         "https://www.sgcenc.co.kr/",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SG세계물산",
+   "type": "company",
+   "path": "companies/SG세계물산",
+   "summary": "자체 패션 브랜드와 글로벌 의류 수출 사업을 운영하는 코스피 기업",
+   "market": "KOSPI",
+   "ticker": "004060",
+   "dart_corp_code": "00133511",
+   "aliases": [
+    "SG Segye"
+   ],
+   "krx_industry": "상품 종합 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SG세계물산의 자체 패션 브랜드 운영과 글로벌 의류 수출 사업을 공식 홈페이지와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://sgsegye.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "패션·의류",
+     "tier": 1,
+     "stage": "패션 브랜드 제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "패션·의류",
+       "page": "패션·의류",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SG세계물산의 자체 패션 브랜드 운영과 글로벌 의류 수출 사업을 공식 홈페이지와 KIND에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://sgsegye.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SHD",
+   "type": "company",
+   "path": "companies/SHD",
+   "summary": "석도강판과 표면처리강을 제조·가공하는 코스피 철강 기업",
+   "market": "KOSPI",
+   "ticker": "001770",
+   "dart_corp_code": "",
+   "aliases": [
+    "신화다이나믹스",
+    "신화실업"
+   ],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SHD의 석도강판·표면처리강 제조와 철판 가공 사업을 공식 홈페이지와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.shinhwatp.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "철강",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SHD의 석도강판·표면처리강 제조와 철판 가공 사업을 공식 홈페이지와 KIND에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.shinhwatp.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SH에너지화학",
+   "type": "company",
+   "path": "companies/SH에너지화학",
+   "summary": "EPS 수지와 기능성 화학제품을 제조하는 코스피 화학 기업",
+   "market": "KOSPI",
+   "ticker": "002360",
+   "dart_corp_code": "",
+   "aliases": [
+    "SH Energy & Chemical",
+    "SH ENERCHEM"
+   ],
+   "krx_industry": "기초 화학물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SH에너지화학의 EPS 수지·준불연·고단열 합성수지 제품 사업을 공식 홈페이지와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.sh-enerchem.com/",
+      "https://kind.krx.co.kr/corpdetail/totalinfo.do?isurCd=00236&kisComCd=350133&method=searchTotalInfo&repIsuCd=KR7002360006"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "기초·첨단화학소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SH에너지화학의 EPS 수지·준불연·고단열 합성수지 제품 사업을 공식 홈페이지와 KIND에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.sh-enerchem.com/",
+        "https://kind.krx.co.kr/corpdetail/totalinfo.do?isurCd=00236&kisComCd=350133&method=searchTotalInfo&repIsuCd=KR7002360006"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SIMPAC",
+   "type": "company",
+   "path": "companies/SIMPAC",
+   "summary": "금속성형 프레스와 합금철·산업기계를 제조하는 코스피 기업",
+   "market": "KOSPI",
+   "ticker": "009160",
+   "dart_corp_code": "",
+   "aliases": [
+    "심팩",
+    "쌍용정공"
+   ],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SIMPAC의 금속성형 프레스와 산업기계 사업을 공식 홈페이지와 사업보고서에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://simpac.com/",
+      "https://kind.krx.co.kr/external/2026/03/18/001817/20260318008334/11011.htm"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SIMPAC의 망간 합금철·Fe-Si 등 철강 공정용 합금 소재 사업을 공식 홈페이지와 사업보고서에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://simpac.com/",
+      "https://kind.krx.co.kr/external/2026/03/18/001817/20260318008334/11011.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "금속성형·프레스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SIMPAC의 금속성형 프레스와 산업기계 사업을 공식 홈페이지와 사업보고서에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://simpac.com/",
+        "https://kind.krx.co.kr/external/2026/03/18/001817/20260318008334/11011.htm"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "합금철",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SIMPAC의 망간 합금철·Fe-Si 등 철강 공정용 합금 소재 사업을 공식 홈페이지와 사업보고서에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://simpac.com/",
+        "https://kind.krx.co.kr/external/2026/03/18/001817/20260318008334/11011.htm"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SJG세종",
+   "type": "company",
+   "path": "companies/SJG세종",
+   "summary": "자동차 배기 시스템과 전동화 부품을 개발·생산하는 코스피 자동차부품 기업",
+   "market": "KOSPI",
+   "ticker": "033530",
+   "dart_corp_code": "",
+   "aliases": [
+    "세종공업",
+    "SJG Sejong"
+   ],
+   "krx_industry": "자동차 신품 부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SJG세종의 자동차 배기 시스템과 전동화 부품 사업을 공식 홈페이지와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sjg-sejong.com/main.do",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "부품·모듈",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SJG세종의 자동차 배기 시스템과 전동화 부품 사업을 공식 홈페이지와 KIND에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.sjg-sejong.com/main.do",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
       }
@@ -45786,6 +46145,192 @@
      "sources": [
       "https://www.sgcenc.co.kr/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SG세계물산",
+   "target": "패션·의류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "패션 브랜드 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SG세계물산의 자체 패션 브랜드 운영과 글로벌 의류 수출 사업을 공식 홈페이지와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://sgsegye.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SHD",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "철강",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SHD의 석도강판·표면처리강 제조와 철판 가공 사업을 공식 홈페이지와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.shinhwatp.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SH에너지화학",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기초·첨단화학소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SH에너지화학의 EPS 수지·준불연·고단열 합성수지 제품 사업을 공식 홈페이지와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.sh-enerchem.com/",
+      "https://kind.krx.co.kr/corpdetail/totalinfo.do?isurCd=00236&kisComCd=350133&method=searchTotalInfo&repIsuCd=KR7002360006"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SIMPAC",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "금속성형·프레스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SIMPAC의 금속성형 프레스와 산업기계 사업을 공식 홈페이지와 사업보고서에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://simpac.com/",
+      "https://kind.krx.co.kr/external/2026/03/18/001817/20260318008334/11011.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SIMPAC",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "합금철",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SIMPAC의 망간 합금철·Fe-Si 등 철강 공정용 합금 소재 사업을 공식 홈페이지와 사업보고서에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://simpac.com/",
+      "https://kind.krx.co.kr/external/2026/03/18/001817/20260318008334/11011.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SJG세종",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "부품·모듈",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SJG세종의 자동차 배기 시스템과 전동화 부품 사업을 공식 홈페이지와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sjg-sejong.com/main.do",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
