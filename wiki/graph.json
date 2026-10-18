@@ -10350,6 +10350,73 @@
    "issues": []
   },
   {
+   "id": "KH바텍",
+   "type": "company",
+   "path": "companies/KH바텍",
+   "summary": "스마트폰 폴더블 힌지·금속 부품과 차량용 디스플레이 부품을 제조하는 전자·자동차 부품 기업",
+   "market": "KOSDAQ",
+   "ticker": "060720",
+   "dart_corp_code": "00378628",
+   "aliases": [
+    "KH VATEC",
+    "케이에이치바텍"
+   ],
+   "krx_industry": "전자부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "차량용 디스플레이 브라켓·PDU·하우징과 디지털 콕핏 무빙메커니즘 사업을 DART와 회사 공식 홈페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930000792",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260930000792&dcmNo=11598080&eleId=11&offset=196914&length=40352&dtd=dart4.xsd&displayImage=show",
+      "https://www.khvatec.com/ko/main"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "차량용 전장·인포테인먼트",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "차량용 디스플레이 브라켓·PDU·하우징과 디지털 콕핏 무빙메커니즘 사업을 DART와 회사 공식 홈페이지에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930000792",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260930000792&dcmNo=11598080&eleId=11&offset=196914&length=40352&dtd=dart4.xsd&displayImage=show",
+        "https://www.khvatec.com/ko/main"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "LB세미콘",
    "type": "company",
    "path": "companies/LB세미콘",
@@ -37785,6 +37852,39 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000202",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814000202&dcmNo=11526809&eleId=9&offset=110759&length=77538&dtd=dart4.xsd&displayImage=show",
       "https://www.mobilians.co.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KH바텍",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "차량용 전장·인포테인먼트",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "차량용 디스플레이 브라켓·PDU·하우징과 디지털 콕핏 무빙메커니즘 사업을 DART와 회사 공식 홈페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930000792",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260930000792&dcmNo=11598080&eleId=11&offset=196914&length=40352&dtd=dart4.xsd&displayImage=show",
+      "https://www.khvatec.com/ko/main"
      ],
      "malformed": ""
     }
