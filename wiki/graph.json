@@ -561,7 +561,8 @@
     "애니메이션·캐릭터 IP",
     "광고·콘텐츠 제작·연예 매니지먼트",
     "앨범 인쇄·콘텐츠 제작",
-    "라이브 스트리밍·미디어"
+    "라이브 스트리밍·미디어",
+    "실감형 콘텐츠·테마파크"
    ]
   },
   {
@@ -33449,6 +33450,259 @@
    "issues": []
   },
   {
+   "id": "다원넥스뷰",
+   "type": "company",
+   "path": "companies/다원넥스뷰",
+   "summary": "레이저 마이크로 본딩과 프로브카드 조립 장비를 공급하는 반도체 장비 기업",
+   "market": "KOSDAQ",
+   "ticker": "323350",
+   "dart_corp_code": "01344363",
+   "aliases": [
+    "Dawon Nexview",
+    "DAWON NEXVIE"
+   ],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체 · 디스플레이",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "레이저 마이크로 본딩과 프로브카드·디스플레이 공정 장비를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://nexview.co.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01344363",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "반도체 제조 장비",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "다원시스",
+   "type": "company",
+   "path": "companies/다원시스",
+   "summary": "핵융합·플라즈마 특수전원장치와 전력변환장치를 공급하는 전력전자 기업",
+   "market": "KOSDAQ",
+   "ticker": "068240",
+   "dart_corp_code": "00523307",
+   "aliases": [
+    "DAWONSYS"
+   ],
+   "krx_industry": "전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "핵융합·플라즈마 특수전원장치와 전력변환장치 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dawonsys.com",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00523307",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "전력망·전력기기",
+     "tier": 1,
+     "stage": "전력기기·시스템",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "전력망·전력기기",
+       "page": "전력망·전력기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "핵융합·플라즈마 특수전원장치와 전력변환장치 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.dawonsys.com",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00523307",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "다이나믹디자인",
+   "type": "company",
+   "path": "companies/다이나믹디자인",
+   "summary": "자동차 타이어 금형과 관련 부자재를 제조·공급하는 금형 기업",
+   "market": "KOSPI",
+   "ticker": "145210",
+   "dart_corp_code": "00453488",
+   "aliases": [
+    "Dynamic Design"
+   ],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차 타이어 금형과 관련 부자재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dynamicdesign.co.kr",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00453488",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "타이어·고무부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "자동차 타이어 금형과 관련 부자재 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dynamicdesign.co.kr",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00453488",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "다이나믹솔루션",
+   "type": "company",
+   "path": "companies/다이나믹솔루션",
+   "summary": "라파엘 스마트 글러브 등 재활 의료기기와 훈련 솔루션을 제공하는 헬스케어 기업",
+   "market": "KOSDAQ",
+   "ticker": "290660",
+   "dart_corp_code": "01246034",
+   "aliases": [
+    "Dynamic solution",
+    "Neofect"
+   ],
+   "krx_industry": "의료용 기기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "재활 의료기기와 디지털 재활 훈련 솔루션을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.neofect.com",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01246034",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "디지털치료기기",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "재활 의료기기와 디지털 재활 훈련 솔루션을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.neofect.com",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01246034",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "달바글로벌",
    "type": "company",
    "path": "companies/달바글로벌",
@@ -33499,6 +33753,66 @@
        "malformed": ""
       }
      ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "닷밀",
+   "type": "company",
+   "path": "companies/닷밀",
+   "summary": "실감미디어 콘텐츠를 제작하고 테마파크를 구축·운영하는 미디어테크 기업",
+   "market": "KOSDAQ",
+   "ticker": "464580",
+   "dart_corp_code": "01605282",
+   "aliases": [
+    "dotmill",
+    "DOTMILL"
+   ],
+   "krx_industry": "영화, 비디오물, 방송프로그램 제작 및 배급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트 · 호텔·레저",
+     "page": "",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "실감미디어 콘텐츠 제작과 테마파크 구축·운영 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dot-mill.com",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01605282",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "실감형 콘텐츠·테마파크",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "호텔·레저",
+     "tier": 1,
+     "stage": "스포츠·레저 서비스",
+     "score": 0,
+     "classifications": [],
      "presentation": {
       "label": "",
       "muted": false,
@@ -68969,6 +69283,132 @@
    }
   },
   {
+   "source": "다원넥스뷰",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "반도체 제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "다원넥스뷰",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "다원시스",
+   "target": "전력망·전력기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전력기기·시스템",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "핵융합·플라즈마 특수전원장치와 전력변환장치 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dawonsys.com",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00523307",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "다이나믹디자인",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "타이어·고무부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차 타이어 금형과 관련 부자재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dynamicdesign.co.kr",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00453488",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "다이나믹솔루션",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "디지털치료기기",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "재활 의료기기와 디지털 재활 훈련 솔루션을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.neofect.com",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01246034",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "달바글로벌",
    "target": "화장품·미용",
    "type": "테마",
@@ -68993,6 +69433,36 @@
      "malformed": ""
     }
    ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "닷밀",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "실감형 콘텐츠·테마파크",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "닷밀",
+   "target": "호텔·레저",
+   "type": "테마",
+   "tier": 1,
+   "stage": "스포츠·레저 서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
    "presentation": {
     "label": "",
     "muted": false,
