@@ -87,12 +87,14 @@
     "설계·시공",
     "도로 포장·SOC",
     "건축·토목",
+    "인테리어·리모델링",
     "건축·토목·플랜트",
     "주택·건축·토목",
     "건설장비",
     "건설·플랜트·인프라",
     "부동산 개발·운영",
-    "시멘트·레미콘"
+    "시멘트·레미콘",
+    "유리·창호"
    ]
   },
   {
@@ -375,6 +377,7 @@
     "라면·조미식품·간편식",
     "종합식품·조미료",
     "주정·에탄올 원료",
+    "전통주·주류",
     "단체급식·외식·건강식",
     "외식·프랜차이즈"
    ]
@@ -23705,6 +23708,326 @@
        "sources": [
         "https://www.k5.co.kr/stock/053270",
         "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002687",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "국도화학",
+   "type": "company",
+   "path": "companies/국도화학",
+   "summary": "에폭시수지와 경화제·폴리올수지를 생산하는 기초·첨단 화학소재 기업",
+   "market": "KOSPI",
+   "ticker": "007690",
+   "dart_corp_code": "",
+   "aliases": [
+    "KUKDO CHEMICAL"
+   ],
+   "krx_industry": "기초 화학물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "에폭시수지·경화제·폴리올수지 등 화학소재 생산을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kukdo.com/",
+      "https://www.k5.co.kr/stock/007690?site_type=n",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "기초·첨단화학소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "에폭시수지·경화제·폴리올수지 등 화학소재 생산을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.kukdo.com/",
+        "https://www.k5.co.kr/stock/007690?site_type=n",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "국보디자인",
+   "type": "company",
+   "path": "companies/국보디자인",
+   "summary": "상업·업무·숙박 공간의 실내 설계와 시공을 수행하는 인테리어 전문 기업",
+   "market": "KOSDAQ",
+   "ticker": "066620",
+   "dart_corp_code": "",
+   "aliases": [
+    "KOOKBO DESIGN"
+   ],
+   "krx_industry": "실내건축 및 건축마무리 공사업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "실내 설계·시공과 건축 마감 프로젝트를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://ikukbo.com/ko",
+      "https://ikukbo.com/en/projects",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "인테리어·리모델링",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "실내 설계·시공과 건축 마감 프로젝트를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://ikukbo.com/ko",
+        "https://ikukbo.com/en/projects",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "국순당",
+   "type": "company",
+   "path": "companies/국순당",
+   "summary": "전통주와 약주·탁주 제품을 생산하고 유통하는 주류 기업",
+   "market": "KOSDAQ",
+   "ticker": "043650",
+   "dart_corp_code": "",
+   "aliases": [
+    "KOOK SOON DANG"
+   ],
+   "krx_industry": "알코올음료 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "약주·탁주 등 전통주 제조·판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002521",
+      "https://www.ksdb.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "전통주·주류",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "약주·탁주 등 전통주 제조·판매를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002521",
+        "https://www.ksdb.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "국영지앤엠",
+   "type": "company",
+   "path": "companies/국영지앤엠",
+   "summary": "건축·철도·차량용 강화·복층·접합 유리를 가공하는 유리제품 기업",
+   "market": "KOSDAQ",
+   "ticker": "006050",
+   "dart_corp_code": "",
+   "aliases": [
+    "KUKYOUNG G&M"
+   ],
+   "krx_industry": "유리 및 유리제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "강화·복층·접합 유리의 건축용 가공·시공 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.kukyong.com/",
+      "https://www.bosoop.com/stocks/006050/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "유리·창호",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "강화·복층·접합 유리의 건축용 가공·시공 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.kukyong.com/",
+        "https://www.bosoop.com/stocks/006050/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "국일신동",
+   "type": "company",
+   "path": "companies/국일신동",
+   "summary": "황동봉과 동합금 소재를 제조·가공하는 비철금속 기업",
+   "market": "KOSDAQ",
+   "ticker": "060480",
+   "dart_corp_code": "00203847",
+   "aliases": [
+    "KUKIL METAL"
+   ],
+   "krx_industry": "1차 비철금속 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "황동봉·동합금 소재 제조·가공을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00203847",
+      "https://www.kukilmetal.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "비철금속 가공",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "황동봉·동합금 소재 제조·가공을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00203847",
+        "https://www.kukilmetal.com/",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
@@ -54798,6 +55121,166 @@
      "sources": [
       "https://www.k5.co.kr/stock/053270",
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002687",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "국도화학",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기초·첨단화학소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "에폭시수지·경화제·폴리올수지 등 화학소재 생산을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kukdo.com/",
+      "https://www.k5.co.kr/stock/007690?site_type=n",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "국보디자인",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "인테리어·리모델링",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "실내 설계·시공과 건축 마감 프로젝트를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://ikukbo.com/ko",
+      "https://ikukbo.com/en/projects",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "국순당",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전통주·주류",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "약주·탁주 등 전통주 제조·판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002521",
+      "https://www.ksdb.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "국영지앤엠",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "유리·창호",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "강화·복층·접합 유리의 건축용 가공·시공 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.kukyong.com/",
+      "https://www.bosoop.com/stocks/006050/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "국일신동",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "비철금속 가공",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "황동봉·동합금 소재 제조·가공을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00203847",
+      "https://www.kukilmetal.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
