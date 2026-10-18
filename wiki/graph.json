@@ -473,12 +473,13 @@
    "id": "증권·자산운용",
    "type": "theme",
    "path": "themes/증권·자산운용",
-   "summary": "증권 매매·중개·인수 등 자본시장 금융서비스를 다룬다.",
+   "summary": "증권 매매·중개·인수와 벤처캐피탈·창업투자 등 자본시장 금융서비스를 다룬다.",
    "category": "금융",
    "stages": [
     "매매·위탁매매·인수",
     "매매·위탁·인수·주선",
-    "증권·종합금융"
+    "증권·종합금융",
+    "벤처캐피탈·창업투자"
    ]
   },
   {
@@ -499,7 +500,7 @@
    "id": "콘텐츠·엔터테인먼트",
    "type": "theme",
    "path": "themes/콘텐츠·엔터테인먼트",
-   "summary": "음악·영상 콘텐츠의 기획·제작·유통과 영화관·미디어 사업",
+   "summary": "음악·영상 콘텐츠의 기획·제작·유통, 캐릭터 IP 사업과 영화관·미디어 사업",
    "category": "소비·문화",
    "stages": [
     "음악 콘텐츠·매니지먼트",
@@ -508,7 +509,8 @@
     "영화 투자·배급",
     "드라마 제작·판매",
     "영상 VFX 제작",
-    "영화관·미디어"
+    "영화관·미디어",
+    "애니메이션·캐릭터 IP"
    ]
   },
   {
@@ -15830,6 +15832,262 @@
        "evidence_level": "거래소 자료",
        "weak": false,
        "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SAMG엔터",
+   "type": "company",
+   "path": "companies/SAMG엔터",
+   "summary": "애니메이션 IP를 기획·제작하고 캐릭터 라이선싱과 관련 제품·콘텐츠를 전개하는 코스닥 기업",
+   "market": "KOSDAQ",
+   "ticker": "419530",
+   "dart_corp_code": "01082418",
+   "aliases": [
+    "SAMG Entertainment",
+    "삼지애니메이션"
+   ],
+   "krx_industry": "영화, 비디오물, 방송프로그램 제작 및 배급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "애니메이션 IP 기획·제작과 캐릭터 라이선싱 및 연관 제품·콘텐츠 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.samg.net/",
+      "https://samgent.career.greetinghr.com/ko/home",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "애니메이션·캐릭터 IP",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "애니메이션 IP 기획·제작과 캐릭터 라이선싱 및 연관 제품·콘텐츠 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.samg.net/",
+        "https://samgent.career.greetinghr.com/ko/home",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SBI인베스트먼트",
+   "type": "company",
+   "path": "companies/SBI인베스트먼트",
+   "summary": "벤처캐피탈과 사모펀드 운용을 통해 성장기업에 투자하는 코스닥 투자회사",
+   "market": "KOSDAQ",
+   "ticker": "019550",
+   "dart_corp_code": "",
+   "aliases": [
+    "SBI Investment",
+    "에스비아이인베스트먼트"
+   ],
+   "krx_industry": "신탁업 및 집합투자업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "증권·자산운용",
+     "page": "증권·자산운용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "VC·PE 펀드 운용과 성장기업 투자·경영 참여 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sbik.co.kr/",
+      "https://www.sbik.co.kr/common/data/irpds/2021_report_03.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "증권·자산운용",
+     "tier": 1,
+     "stage": "벤처캐피탈·창업투자",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "증권·자산운용",
+       "page": "증권·자산운용",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "VC·PE 펀드 운용과 성장기업 투자·경영 참여 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.sbik.co.kr/",
+        "https://www.sbik.co.kr/common/data/irpds/2021_report_03.pdf",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SBS",
+   "type": "company",
+   "path": "companies/SBS",
+   "summary": "텔레비전·라디오 방송과 광고, 방송 콘텐츠 제작·유통을 운영하는 코스피 미디어 기업",
+   "market": "KOSPI",
+   "ticker": "034120",
+   "dart_corp_code": "00130772",
+   "aliases": [
+    "SBS Co., Ltd.",
+    "에스비에스"
+   ],
+   "krx_industry": "텔레비전 방송업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "TV·라디오 방송, 광고와 프로그램·뉴스 콘텐츠 제작·유통 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sbs.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "영화관·미디어",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "TV·라디오 방송, 광고와 프로그램·뉴스 콘텐츠 제작·유통 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.sbs.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SB성보",
+   "type": "company",
+   "path": "companies/SB성보",
+   "summary": "작물 보호제의 연구·생산·판매를 운영하는 코스피 농자재 기업",
+   "market": "KOSPI",
+   "ticker": "003080",
+   "dart_corp_code": "00132725",
+   "aliases": [
+    "SB Sŏngbo",
+    "성보화학"
+   ],
+   "krx_industry": "비료, 농약 및 살균, 살충제 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "농업·스마트팜",
+     "page": "농업·스마트팜",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "작물 보호제와 완제·원제 농약의 연구·생산·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://sbsungbo.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "농업·스마트팜",
+     "tier": 1,
+     "stage": "작물 보호제",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "농업·스마트팜",
+       "page": "농업·스마트팜",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "작물 보호제와 완제·원제 농약의 연구·생산·판매 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://sbsungbo.kr/",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -44393,6 +44651,132 @@
      "evidence_level": "거래소 자료",
      "weak": false,
      "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SAMG엔터",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "애니메이션·캐릭터 IP",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "애니메이션 IP 기획·제작과 캐릭터 라이선싱 및 연관 제품·콘텐츠 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.samg.net/",
+      "https://samgent.career.greetinghr.com/ko/home",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SBI인베스트먼트",
+   "target": "증권·자산운용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "벤처캐피탈·창업투자",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "증권·자산운용",
+     "page": "증권·자산운용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "VC·PE 펀드 운용과 성장기업 투자·경영 참여 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sbik.co.kr/",
+      "https://www.sbik.co.kr/common/data/irpds/2021_report_03.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SBS",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "영화관·미디어",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "TV·라디오 방송, 광고와 프로그램·뉴스 콘텐츠 제작·유통 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sbs.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SB성보",
+   "target": "농업·스마트팜",
+   "type": "테마",
+   "tier": 1,
+   "stage": "작물 보호제",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "농업·스마트팜",
+     "page": "농업·스마트팜",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "작물 보호제와 완제·원제 농약의 연구·생산·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://sbsungbo.kr/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
