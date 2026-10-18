@@ -15475,6 +15475,318 @@
    "issues": []
   },
   {
+   "id": "RFHIC",
+   "type": "company",
+   "path": "companies/RFHIC",
+   "summary": "질화갈륨(GaN) RF·마이크로웨이브 반도체와 전력증폭 솔루션을 개발·생산하는 코스닥 기업",
+   "market": "KOSDAQ",
+   "ticker": "218410",
+   "dart_corp_code": "01078178",
+   "aliases": [
+    "RFHIC Corporation",
+    "알에프에이치아이씨"
+   ],
+   "krx_industry": "통신 및 방송 장비 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "GaN 전력증폭기·RF 솔루션의 무선통신 인프라 장비 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://rfhic.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "방산",
+     "page": "방산",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "GaN 제품의 방산·항공우주와 레이더·전자전 활용 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://rfhic.co.kr/",
+      "https://rfhic.co.kr/investor-relations/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "방산",
+     "tier": 1,
+     "stage": "방산 전자장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "방산",
+       "page": "방산",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "GaN 제품의 방산·항공우주와 레이더·전자전 활용 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://rfhic.co.kr/",
+        "https://rfhic.co.kr/investor-relations/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 1,
+     "stage": "이동통신망 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "통신·네트워크",
+       "page": "통신·네트워크",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "GaN 전력증폭기·RF 솔루션의 무선통신 인프라 장비 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://rfhic.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "RF머트리얼즈",
+   "type": "company",
+   "path": "companies/RF머트리얼즈",
+   "summary": "무선·광통신과 레이저·국방·우주항공에 쓰이는 패키지·부품소재를 공급하는 코스닥 기업",
+   "market": "KOSDAQ",
+   "ticker": "327260",
+   "dart_corp_code": "01343665",
+   "aliases": [
+    "RF Materials",
+    "알에프머트리얼즈"
+   ],
+   "krx_industry": "전자부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "무선·광통신용 패키지와 초고주파 부품소재 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.rf-materials.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "방산",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "RF시스템즈",
+     "via_type": "출자"
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 1,
+     "stage": "이동통신망 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "통신·네트워크",
+       "page": "통신·네트워크",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "무선·광통신용 패키지와 초고주파 부품소재 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.rf-materials.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "RF시스템즈",
+   "type": "company",
+   "path": "companies/RF시스템즈",
+   "summary": "딥 브레이징과 정밀 기계가공으로 레이더·안테나·환경제어시스템을 개발하는 코스닥 방산 기업",
+   "market": "KOSDAQ",
+   "ticker": "474610",
+   "dart_corp_code": "",
+   "aliases": [
+    "RF Systems",
+    "알에프시스템즈",
+    "비앤씨테크"
+   ],
+   "krx_industry": "기타 금속 가공제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "방산",
+     "page": "방산",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "레이더·안테나·환경제어시스템을 개발·제조하는 방산 센서·부품 역할을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/05/11/000927/20260511002147/10601.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "방산",
+     "tier": 1,
+     "stage": "센서·부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "방산",
+       "page": "방산",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "레이더·안테나·환경제어시스템을 개발·제조하는 방산 센서·부품 역할을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2026/05/11/000927/20260511002147/10601.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "RF머트리얼즈",
+     "via_type": "피출자"
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "S&K폴리텍",
+   "type": "company",
+   "path": "companies/S&K폴리텍",
+   "summary": "고밀도 폴리우레탄 폼시트와 전장·자동차 부품 사업을 운영하는 코스닥 소재 기업",
+   "market": "KOSDAQ",
+   "ticker": "091340",
+   "dart_corp_code": "00580667",
+   "aliases": [
+    "S&K Polytec",
+    "에스엔케이폴리텍"
+   ],
+   "krx_industry": "전자부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "고밀도 폴리우레탄 폼시트와 화학·가공 소재 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.snkpolytec.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "기초·첨단화학소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "고밀도 폴리우레탄 폼시트와 화학·가공 소재 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.snkpolytec.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "S-Oil",
    "type": "company",
    "path": "companies/S-Oil",
@@ -35758,6 +36070,38 @@
    }
   },
   {
+   "source": "RF머트리얼즈",
+   "target": "RF시스템즈",
+   "type": "출자",
+   "evidence": [
+    {
+     "date": "2026-10-19",
+     "text": "RF시스템즈에 대한 출자·종속기업 관계를 공시 자료에서 확인했다.",
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/05/11/000927/20260511002147/10601.htm"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-10-19",
+     "text": "RF머트리얼즈가 RF시스템즈에 출자한 종속기업 관계를 공시 자료에서 확인했다.",
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/05/11/000927/20260511002147/10601.htm"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "네오셈",
    "target": "NEOSEM TECHNOLOGY INC.",
    "type": "출자",
@@ -43834,6 +44178,191 @@
      "weak": false,
      "sources": [
       "https://www.pselectronics.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "RFHIC",
+   "target": "방산",
+   "type": "테마",
+   "tier": 1,
+   "stage": "방산 전자장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "방산",
+     "page": "방산",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "GaN 제품의 방산·항공우주와 레이더·전자전 활용 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://rfhic.co.kr/",
+      "https://rfhic.co.kr/investor-relations/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "RFHIC",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 1,
+   "stage": "이동통신망 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "GaN 전력증폭기·RF 솔루션의 무선통신 인프라 장비 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://rfhic.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "RF머트리얼즈",
+   "target": "방산",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "RF머트리얼즈",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 1,
+   "stage": "이동통신망 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "무선·광통신용 패키지와 초고주파 부품소재 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.rf-materials.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "RF시스템즈",
+   "target": "방산",
+   "type": "테마",
+   "tier": 1,
+   "stage": "센서·부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "방산",
+     "page": "방산",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "레이더·안테나·환경제어시스템을 개발·제조하는 방산 센서·부품 역할을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/05/11/000927/20260511002147/10601.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "RF시스템즈",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "S&K폴리텍",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기초·첨단화학소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "고밀도 폴리우레탄 폼시트와 화학·가공 소재 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.snkpolytec.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
