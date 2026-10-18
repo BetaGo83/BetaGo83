@@ -11143,6 +11143,72 @@
    "issues": []
   },
   {
+   "id": "KT지니뮤직",
+   "type": "company",
+   "path": "companies/KT지니뮤직",
+   "summary": "디지털 음악 스트리밍·음원 유통 플랫폼과 공연·아티스트 MD 사업을 운영하는 음악 콘텐츠 기업",
+   "market": "KOSDAQ",
+   "ticker": "043610",
+   "dart_corp_code": "00223762",
+   "aliases": [
+    "지니뮤직",
+    "genie music",
+    "KT GENIE MUSIC"
+   ],
+   "krx_industry": "영상·오디오물 제공 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "디지털 음악 스트리밍·음원 유통·공연 플랫폼 사업을 DART 반기보고서와 회사 공식 사업 페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814000733&dcmNo=11528017&eleId=9&offset=98924&length=166533&dtd=dart4.xsd&displayImage=show",
+      "https://www.geniemusic.co.kr/main/index.do"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "음악 콘텐츠",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "디지털 음악 스트리밍·음원 유통·공연 플랫폼 사업을 DART 반기보고서와 회사 공식 사업 페이지에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814000733&dcmNo=11528017&eleId=9&offset=98924&length=166533&dtd=dart4.xsd&displayImage=show",
+        "https://www.geniemusic.co.kr/main/index.do"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "LB세미콘",
    "type": "company",
    "path": "companies/LB세미콘",
@@ -38999,6 +39065,38 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260812000290&dcmNo=11520131&eleId=9&offset=84054&length=56817&dtd=dart4.xsd&displayImage=show",
       "https://www.millie.town/business/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KT지니뮤직",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "음악 콘텐츠",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "디지털 음악 스트리밍·음원 유통·공연 플랫폼 사업을 DART 반기보고서와 회사 공식 사업 페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814000733&dcmNo=11528017&eleId=9&offset=98924&length=166533&dtd=dart4.xsd&displayImage=show",
+      "https://www.geniemusic.co.kr/main/index.do"
      ],
      "malformed": ""
     }
