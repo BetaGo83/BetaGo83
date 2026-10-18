@@ -588,7 +588,8 @@
     "카지노·호텔·리조트",
     "관광숙박·외식",
     "카지노·관광 레저",
-    "여행 콘텐츠·MICE"
+    "여행 콘텐츠·MICE",
+    "스포츠·레저 서비스"
    ]
   },
   {
@@ -21434,6 +21435,71 @@
    "issues": []
   },
   {
+   "id": "강스템바이오텍",
+   "type": "company",
+   "path": "companies/강스템바이오텍",
+   "summary": "제대혈 유래 줄기세포치료제를 연구개발하고 줄기세포 배양액 기반 화장품을 전개하는 바이오 기업",
+   "market": "KOSDAQ",
+   "ticker": "217730",
+   "dart_corp_code": "",
+   "aliases": [
+    "Kangstem",
+    "Kangstem Biotech"
+   ],
+   "krx_industry": "기초 의약물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 홈페이지·IR 자료와 거래소 목록에서 제대혈 유래 줄기세포치료제 연구개발 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kangstem.com/",
+      "https://kangstem.com/upload/board/1747636934.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "바이오의약품 제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "공식 홈페이지·IR 자료와 거래소 목록에서 제대혈 유래 줄기세포치료제 연구개발 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://kangstem.com/",
+        "https://kangstem.com/upload/board/1747636934.pdf",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "강원랜드",
    "type": "company",
    "path": "companies/강원랜드",
@@ -21587,6 +21653,262 @@
      ]
     }
    ]
+  },
+  {
+   "id": "갤럭시아머니트리",
+   "type": "company",
+   "path": "companies/갤럭시아머니트리",
+   "summary": "통합전자결제와 모바일 상품권·선불결제, 생활금융 플랫폼을 제공하는 핀테크 기업",
+   "market": "KOSDAQ",
+   "ticker": "094480",
+   "dart_corp_code": "",
+   "aliases": [
+    "Galaxia Moneytree",
+    "머니트리"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "핀테크·전자결제",
+     "page": "핀테크·전자결제",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 회사개요와 거래소 목록에서 전자결제·모바일 상품권·선불결제 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.galaxiamoneytree.co.kr/jsp/front/about.jsp",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "핀테크·전자결제",
+     "tier": 1,
+     "stage": "전자결제",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "핀테크·전자결제",
+       "page": "핀테크·전자결제",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "공식 회사개요와 거래소 목록에서 전자결제·모바일 상품권·선불결제 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.galaxiamoneytree.co.kr/jsp/front/about.jsp",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "갤럭시아에스엠",
+   "type": "company",
+   "path": "companies/갤럭시아에스엠",
+   "summary": "스포츠 마케팅·중계권과 선수 매니지먼트, 운동기구 유통·레저 시설을 운영하는 스포츠 서비스 기업",
+   "market": "KOSPI",
+   "ticker": "011420",
+   "dart_corp_code": "",
+   "aliases": [
+    "Galaxia SM",
+    "갤럭시아SM"
+   ],
+   "krx_industry": "스포츠 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "호텔·레저",
+     "page": "호텔·레저",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "사업보고서와 거래소 목록에서 스포츠 마케팅·선수 매니지먼트·레저 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2025/08/14/001865/20250814005632/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "호텔·레저",
+     "tier": 1,
+     "stage": "스포츠·레저 서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "호텔·레저",
+       "page": "호텔·레저",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "사업보고서와 거래소 목록에서 스포츠 마케팅·선수 매니지먼트·레저 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2025/08/14/001865/20250814005632/11011.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "경남스틸",
+   "type": "company",
+   "path": "companies/경남스틸",
+   "summary": "포스코 가공센터로서 냉연·열연강판과 아연도금강판을 절단·전단 가공해 공급하는 철강 기업",
+   "market": "KOSDAQ",
+   "ticker": "039240",
+   "dart_corp_code": "00206039",
+   "aliases": [
+    "Kyeong Nam Steel",
+    "KSteel"
+   ],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 홈페이지·DART 개황과 거래소 목록에서 냉연·열연·아연도금강판 가공 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.ksteel.co.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00206039",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "철강",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "공식 홈페이지·DART 개황과 거래소 목록에서 냉연·열연·아연도금강판 가공 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.ksteel.co.kr/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00206039",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "경남제약",
+   "type": "company",
+   "path": "companies/경남제약",
+   "summary": "일반의약품과 원료의약품, 건강기능식품을 제조·판매하는 제약 기업",
+   "market": "KOSDAQ",
+   "ticker": "053950",
+   "dart_corp_code": "00307028",
+   "aliases": [
+    "Kyung Nam Pharm",
+    "레모나"
+   ],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 홈페이지·사업보고서와 거래소 목록에서 의약품·원료의약품 제조·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.kyungnampharm.co.kr/",
+      "https://kind.krx.co.kr/external/2026/05/15/003035/20260515006913/11013.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "공식 홈페이지·사업보고서와 거래소 목록에서 의약품·원료의약품 제조·판매 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.kyungnampharm.co.kr/",
+        "https://kind.krx.co.kr/external/2026/05/15/003035/20260515006913/11013.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
   },
   {
    "id": "경농",
@@ -51785,6 +52107,38 @@
    }
   },
   {
+   "source": "강스템바이오텍",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "바이오의약품 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 홈페이지·IR 자료와 거래소 목록에서 제대혈 유래 줄기세포치료제 연구개발 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://kangstem.com/",
+      "https://kangstem.com/upload/board/1747636934.pdf",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "강원랜드",
    "target": "호텔·레저",
    "type": "테마",
@@ -51856,6 +52210,132 @@
      "weak": false,
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930900759"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "갤럭시아머니트리",
+   "target": "핀테크·전자결제",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전자결제",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "핀테크·전자결제",
+     "page": "핀테크·전자결제",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 회사개요와 거래소 목록에서 전자결제·모바일 상품권·선불결제 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.galaxiamoneytree.co.kr/jsp/front/about.jsp",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "갤럭시아에스엠",
+   "target": "호텔·레저",
+   "type": "테마",
+   "tier": 1,
+   "stage": "스포츠·레저 서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "호텔·레저",
+     "page": "호텔·레저",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "사업보고서와 거래소 목록에서 스포츠 마케팅·선수 매니지먼트·레저 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2025/08/14/001865/20250814005632/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "경남스틸",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "철강",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 홈페이지·DART 개황과 거래소 목록에서 냉연·열연·아연도금강판 가공 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.ksteel.co.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00206039",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "경남제약",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "공식 홈페이지·사업보고서와 거래소 목록에서 의약품·원료의약품 제조·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.kyungnampharm.co.kr/",
+      "https://kind.krx.co.kr/external/2026/05/15/003035/20260515006913/11013.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
