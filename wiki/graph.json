@@ -11209,6 +11209,117 @@
    "issues": []
   },
   {
+   "id": "KX",
+   "type": "company",
+   "path": "companies/KX",
+   "summary": "방송 송출·채널 운영을 기반으로 골프 레저와 IT·제조 사업을 함께 운영하는 KX그룹 모기업",
+   "market": "KOSDAQ",
+   "ticker": "122450",
+   "dart_corp_code": "00657987",
+   "aliases": [
+    "KX이노베이션",
+    "케이엑스이노베이션",
+    "KX Innovation"
+   ],
+   "krx_industry": "텔레비전 방송업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "방송 송출·채널 운영과 드라마·다큐·영화 채널 운영을 사업보고서와 회사 공식 기업소개에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001332",
+      "https://kxgroup.co.kr/sub/sub01_01.php"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "호텔·레저",
+     "page": "호텔·레저",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "골프장 직영·위탁운영과 레저부문을 사업보고서와 회사 공식 홈페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001332",
+      "https://kxgroup.co.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "영화관·미디어",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "방송 송출·채널 운영과 드라마·다큐·영화 채널 운영을 사업보고서와 회사 공식 기업소개에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001332",
+        "https://kxgroup.co.kr/sub/sub01_01.php"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "호텔·레저",
+     "tier": 1,
+     "stage": "카지노·관광 레저",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "호텔·레저",
+       "page": "호텔·레저",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "골프장 직영·위탁운영과 레저부문을 사업보고서와 회사 공식 홈페이지에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001332",
+        "https://kxgroup.co.kr/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "LB세미콘",
    "type": "company",
    "path": "companies/LB세미콘",
@@ -39097,6 +39208,70 @@
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814000733&dcmNo=11528017&eleId=9&offset=98924&length=166533&dtd=dart4.xsd&displayImage=show",
       "https://www.geniemusic.co.kr/main/index.do"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KX",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "영화관·미디어",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "방송 송출·채널 운영과 드라마·다큐·영화 채널 운영을 사업보고서와 회사 공식 기업소개에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001332",
+      "https://kxgroup.co.kr/sub/sub01_01.php"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "KX",
+   "target": "호텔·레저",
+   "type": "테마",
+   "tier": 1,
+   "stage": "카지노·관광 레저",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "호텔·레저",
+     "page": "호텔·레저",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "골프장 직영·위탁운영과 레저부문을 사업보고서와 회사 공식 홈페이지에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001332",
+      "https://kxgroup.co.kr/"
      ],
      "malformed": ""
     }
