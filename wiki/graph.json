@@ -47,6 +47,7 @@
    "stages": [
     "배터리",
     "배터리·솔루션",
+    "울트라커패시터·전력저장",
     "전력 시스템",
     "ESS 프로젝트 개발·운영",
     "ESS 공급·유지보수",
@@ -13261,6 +13262,343 @@
        "sources": [
         "https://lsmarinesolution.co.kr/kor/Index",
         "https://lsmarinesolution.co.kr/kor/Business"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "LS머트리얼즈",
+   "type": "company",
+   "path": "companies/LS머트리얼즈",
+   "summary": "울트라커패시터와 에너지저장·알루미늄 소재·부품을 개발하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "417200",
+   "dart_corp_code": "",
+   "aliases": [
+    "LS Materials"
+   ],
+   "krx_industry": "전자부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "ESS",
+     "page": "ESS",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "울트라커패시터 셀·모듈과 ESS·전력저장 적용 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lsmaterials.co.kr/kr/main/LS%20materials_Brochure.pdf",
+      "https://www.lsholdings.com/ko/media/news/643164434969355041484b33462b4e534e315261467459724d77734f74753645",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "ESS",
+     "tier": 1,
+     "stage": "울트라커패시터·전력저장",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "ESS",
+       "page": "ESS",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "울트라커패시터 셀·모듈과 ESS·전력저장 적용 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.lsmaterials.co.kr/kr/main/LS%20materials_Brochure.pdf",
+        "https://www.lsholdings.com/ko/media/news/643164434969355041484b33462b4e534e315261467459724d77734f74753645",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "LS에코에너지",
+   "type": "company",
+   "path": "companies/LS에코에너지",
+   "summary": "아세안 지역의 전력·통신 케이블과 케이블 엔지니어링·시공을 운영하는 코스피 상장사",
+   "market": "KOSPI",
+   "ticker": "229640",
+   "dart_corp_code": "",
+   "aliases": [
+    "LS Eco Energy",
+    "LS전선아시아"
+   ],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "고부가 통신 케이블의 생산·판매 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://lsecoenergy.com/",
+      "https://www.lsecoenergy.com/bbs/board.php?bo_table=a1"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "초고압 전력 케이블과 엔지니어링·시공 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://lsecoenergy.com/",
+      "https://www.lsecoenergy.com/bbs/board.php?bo_table=a1"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "전력망·전력기기",
+     "tier": 1,
+     "stage": "송배전용 초고압 케이블",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "전력망·전력기기",
+       "page": "전력망·전력기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "초고압 전력 케이블과 엔지니어링·시공 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://lsecoenergy.com/",
+        "https://www.lsecoenergy.com/bbs/board.php?bo_table=a1"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 1,
+     "stage": "통신케이블",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "통신·네트워크",
+       "page": "통신·네트워크",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "고부가 통신 케이블의 생산·판매 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://lsecoenergy.com/",
+        "https://www.lsecoenergy.com/bbs/board.php?bo_table=a1"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "LS증권",
+   "type": "company",
+   "path": "companies/LS증권",
+   "summary": "국내외 주식·파생상품 중개와 금융투자 서비스를 제공하는 코스닥 상장 증권사",
+   "market": "KOSDAQ",
+   "ticker": "078020",
+   "dart_corp_code": "",
+   "aliases": [
+    "LS Securities",
+    "이베스트투자증권"
+   ],
+   "krx_industry": "금융 지원 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "증권·자산운용",
+     "page": "증권·자산운용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "국내 주식·계좌·파생·해외선물 등 직접 증권 영업 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://ir.ls-sec.co.kr/companykor/",
+      "https://openapi.ls-sec.co.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "증권·자산운용",
+     "tier": 1,
+     "stage": "매매·위탁·인수·주선",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "증권·자산운용",
+       "page": "증권·자산운용",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "국내 주식·계좌·파생·해외선물 등 직접 증권 영업 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://ir.ls-sec.co.kr/companykor/",
+        "https://openapi.ls-sec.co.kr/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "LS티라유텍",
+   "type": "company",
+   "path": "companies/LS티라유텍",
+   "summary": "제조 실행·공급망 관리와 설비 자동화 소프트웨어를 제공하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "322180",
+   "dart_corp_code": "",
+   "aliases": [
+    "LS THiRA-UTECH",
+    "티라유텍"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SCM·MES와 스마트팩토리 구축·운영 소프트웨어 역할을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/03/11/000618/20260311001698/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "설비 자동화 소프트웨어와 생산 운영 자동화 역할을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/03/11/000618/20260311001698/11011.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "공정·물류 자동화",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "설비 자동화 소프트웨어와 생산 운영 자동화 역할을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2026/03/11/000618/20260311001698/11011.htm"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "소프트웨어·IT서비스",
+     "tier": 1,
+     "stage": "시스템 구축·운영",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "소프트웨어·IT서비스",
+       "page": "소프트웨어·IT서비스",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SCM·MES와 스마트팩토리 구축·운영 소프트웨어 역할을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/external/2026/03/11/000618/20260311001698/11011.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
       }
@@ -41113,6 +41451,192 @@
      "sources": [
       "https://lsmarinesolution.co.kr/kor/Index",
       "https://lsmarinesolution.co.kr/kor/Business"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "LS머트리얼즈",
+   "target": "ESS",
+   "type": "테마",
+   "tier": 1,
+   "stage": "울트라커패시터·전력저장",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "ESS",
+     "page": "ESS",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "울트라커패시터 셀·모듈과 ESS·전력저장 적용 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.lsmaterials.co.kr/kr/main/LS%20materials_Brochure.pdf",
+      "https://www.lsholdings.com/ko/media/news/643164434969355041484b33462b4e534e315261467459724d77734f74753645",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "LS에코에너지",
+   "target": "전력망·전력기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "송배전용 초고압 케이블",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "초고압 전력 케이블과 엔지니어링·시공 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://lsecoenergy.com/",
+      "https://www.lsecoenergy.com/bbs/board.php?bo_table=a1"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "LS에코에너지",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 1,
+   "stage": "통신케이블",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "고부가 통신 케이블의 생산·판매 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://lsecoenergy.com/",
+      "https://www.lsecoenergy.com/bbs/board.php?bo_table=a1"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "LS증권",
+   "target": "증권·자산운용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "매매·위탁·인수·주선",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "증권·자산운용",
+     "page": "증권·자산운용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "국내 주식·계좌·파생·해외선물 등 직접 증권 영업 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://ir.ls-sec.co.kr/companykor/",
+      "https://openapi.ls-sec.co.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "LS티라유텍",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "공정·물류 자동화",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "설비 자동화 소프트웨어와 생산 운영 자동화 역할을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/03/11/000618/20260311001698/11011.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "LS티라유텍",
+   "target": "소프트웨어·IT서비스",
+   "type": "테마",
+   "tier": 1,
+   "stage": "시스템 구축·운영",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SCM·MES와 스마트팩토리 구축·운영 소프트웨어 역할을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/external/2026/03/11/000618/20260311001698/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
