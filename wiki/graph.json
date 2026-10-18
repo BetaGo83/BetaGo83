@@ -607,6 +607,7 @@
     "정유·윤활",
     "기초 석유화학",
     "기초·첨단화학소재",
+    "LPG·가스",
     "고무·탄성체",
     "정유·석유화학·윤활",
     "건설화학·비료·수처리",
@@ -17212,6 +17213,131 @@
    "issues": []
   },
   {
+   "id": "SK",
+   "type": "company",
+   "path": "companies/SK",
+   "summary": "포트폴리오를 관리하는 지주회사이면서 AX·디지털 사업을 영위하는 코스피 기업",
+   "market": "KOSPI",
+   "ticker": "034730",
+   "dart_corp_code": "",
+   "aliases": [
+    "SK주식회사",
+    "SK Inc."
+   ],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SK의 AX·AI·데이터 기반 디지털 사업을 공식 홈페이지와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sk-incorp.co.kr/kr/main/mainpage.aspx",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "소프트웨어·IT서비스",
+     "tier": 1,
+     "stage": "기업 IT서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "소프트웨어·IT서비스",
+       "page": "소프트웨어·IT서비스",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SK의 AX·AI·데이터 기반 디지털 사업을 공식 홈페이지와 KIND에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.sk-incorp.co.kr/kr/main/mainpage.aspx",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SKAI",
+   "type": "company",
+   "path": "companies/SKAI",
+   "summary": "AI 에이전트·데이터베이스와 산업용 합성데이터 솔루션을 개발하는 코스닥 기업",
+   "market": "KOSDAQ",
+   "ticker": "357880",
+   "dart_corp_code": "",
+   "aliases": [
+    "스카이월드와이드"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SKAI의 AI 에이전트·데이터베이스와 산업용 합성데이터 사업을 공식 홈페이지와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://skaiworldwide.com/ko",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "AI·클라우드",
+     "tier": 1,
+     "stage": "AI 모델·서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "AI·클라우드",
+       "page": "AI·클라우드",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SKAI의 AI 에이전트·데이터베이스와 산업용 합성데이터 사업을 공식 홈페이지와 KIND에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://skaiworldwide.com/ko",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "SKC",
    "type": "company",
    "path": "companies/SKC",
@@ -17257,6 +17383,176 @@
        "weak": false,
        "sources": [
         "https://www.skc.kr/m/eng/corporation/intro/corp.do?menuCd=001001001",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SK가스",
+   "type": "company",
+   "path": "companies/SK가스",
+   "summary": "LPG 수입·저장·판매와 가스·발전 사업을 운영하는 코스피 에너지 기업",
+   "market": "KOSPI",
+   "ticker": "018670",
+   "dart_corp_code": "00144164",
+   "aliases": [
+    "SK Gas",
+    "SK GAS LTD"
+   ],
+   "krx_industry": "기타 전문 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SK가스의 LPG 수입·저장·판매 및 가스·발전 사업을 공식 홈페이지·사업보고서와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://skgas.co.kr/",
+      "https://kind.krx.co.kr/external/2026/03/16/002555/20260316007188/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "LPG·가스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SK가스의 LPG 수입·저장·판매 및 가스·발전 사업을 공식 홈페이지·사업보고서와 KIND에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://skgas.co.kr/",
+        "https://kind.krx.co.kr/external/2026/03/16/002555/20260316007188/11011.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SK네트웍스",
+   "type": "company",
+   "path": "companies/SK네트웍스",
+   "summary": "AI·데이터 플랫폼과 정보통신 유통, 호텔·리조트 사업을 운영하는 코스피 기업",
+   "market": "KOSPI",
+   "ticker": "001740",
+   "dart_corp_code": "002717",
+   "aliases": [
+    "SK Networks"
+   ],
+   "krx_industry": "기타 전문 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SK네트웍스의 엔코아 Enterprise AI Platform·데이터 솔루션 사업을 공식 사업 개요와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sknetworks.co.kr/business/summary",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "호텔·레저",
+     "page": "호텔·레저",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SK네트웍스의 워커힐 호텔앤리조트·환승호텔 사업을 공식 사업 개요와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sknetworks.co.kr/business/summary",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "AI·클라우드",
+     "tier": 1,
+     "stage": "기업용 AI 플랫폼",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "AI·클라우드",
+       "page": "AI·클라우드",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SK네트웍스의 엔코아 Enterprise AI Platform·데이터 솔루션 사업을 공식 사업 개요와 KIND에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.sknetworks.co.kr/business/summary",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "호텔·레저",
+     "tier": 1,
+     "stage": "관광숙박·외식",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "호텔·레저",
+       "page": "호텔·레저",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SK네트웍스의 워커힐 호텔앤리조트·환승호텔 사업을 공식 사업 개요와 KIND에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.sknetworks.co.kr/business/summary",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -46342,6 +46638,68 @@
    }
   },
   {
+   "source": "SK",
+   "target": "소프트웨어·IT서비스",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기업 IT서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SK의 AX·AI·데이터 기반 디지털 사업을 공식 홈페이지와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sk-incorp.co.kr/kr/main/mainpage.aspx",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SKAI",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 1,
+   "stage": "AI 모델·서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SKAI의 AI 에이전트·데이터베이스와 산업용 합성데이터 사업을 공식 홈페이지와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://skaiworldwide.com/ko",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "SKC",
    "target": "2차전지",
    "type": "테마",
@@ -46361,6 +46719,100 @@
      "weak": false,
      "sources": [
       "https://www.skc.kr/m/eng/corporation/intro/corp.do?menuCd=001001001",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SK가스",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "LPG·가스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SK가스의 LPG 수입·저장·판매 및 가스·발전 사업을 공식 홈페이지·사업보고서와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://skgas.co.kr/",
+      "https://kind.krx.co.kr/external/2026/03/16/002555/20260316007188/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SK네트웍스",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기업용 AI 플랫폼",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SK네트웍스의 엔코아 Enterprise AI Platform·데이터 솔루션 사업을 공식 사업 개요와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sknetworks.co.kr/business/summary",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SK네트웍스",
+   "target": "호텔·레저",
+   "type": "테마",
+   "tier": 1,
+   "stage": "관광숙박·외식",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "호텔·레저",
+     "page": "호텔·레저",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SK네트웍스의 워커힐 호텔앤리조트·환승호텔 사업을 공식 사업 개요와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sknetworks.co.kr/business/summary",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""

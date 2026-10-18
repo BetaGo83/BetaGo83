@@ -5,7 +5,7 @@ aliases: []
 category: "기술·디지털"
 keywords: ["생성형 AI 플랫폼", "기업 클라우드", "AI 서비스"]
 stages: ["기업용 AI 플랫폼", "AI 모델·서비스", "AI·클라우드 구축·운영", "클라우드 인프라 서비스", "AI·영상보안"]
-updated: "2026-10-17"
+updated: "2026-10-19"
 ---
 
 # AI·클라우드
@@ -21,8 +21,8 @@ updated: "2026-10-17"
 공식 자료에서 관련 사업을 확인한 대표 기업을 연결했습니다. 전체 상장사 목록이나 투자 추천 순위가 아니며, 이 안내에는 거래소 지수 편입 기준을 적용하지 않았습니다. 사업 소개의 확인일은 신규 사건의 발생일과 다릅니다.
 
 ## 밸류체인
-- 기업용 AI 플랫폼: [[삼성에스디에스]] ([삼성에스디에스](https://www.samsungsds.com/kr/ai-fabrix/fabrix.html))
-- AI 모델·서비스: [[NAVER]] ([NAVER](https://navercorp.com/company/about)), [[카카오]] ([공식 사업자료](https://www.kakaocorp.com/page/ai))
+- 기업용 AI 플랫폼: [[SK네트웍스]] ([SK네트웍스 사업 개요](https://www.sknetworks.co.kr/business/summary)), [[삼성에스디에스]] ([삼성에스디에스](https://www.samsungsds.com/kr/ai-fabrix/fabrix.html))
+- AI 모델·서비스: [[SKAI]] ([SKAI 공식 홈페이지](https://skaiworldwide.com/ko)), [[NAVER]] ([NAVER](https://navercorp.com/company/about)), [[카카오]] ([공식 사업자료](https://www.kakaocorp.com/page/ai))
 - AI·클라우드 구축·운영: [[현대오토에버]] ([현대오토에버](https://www.hyundai-autoever.com/kor/business-area/core-technology/ai/contents.do?cntnSeq=362), [현대오토에버](https://www.hyundai-autoever.com/kor/business-area/core-technology/cloud/contents.do?cntnSeq=360)), [[LG씨엔에스]] ([출처](https://www.lgcns.com/en/service/modern-it-infra-on-cloud/cloud)), [[포스코DX]] ([포스코DX IT서비스](https://www.poscodx.com/kor/business/itService)), [[HS효성]] ([AI/데이터 솔루션 부문](https://www.hshyosung.com/kr/business/information-communication)), [[NHN]] ([NHN 서비스·클라우드](https://www.nhn.com/services?tab=technology))
 - 클라우드 인프라 서비스: [[케이아이엔엑스]] ([출처](https://www.kinx.net/service/cloud/))
 
@@ -37,6 +37,8 @@ updated: "2026-10-17"
 | [[LG씨엔에스]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.lgcns.com/en/service/modern-it-infra-on-cloud/cloud) |
 | [[NAVER]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-15 | 공식 발표 [출처](https://navercorp.com/company/about) |
 | [[NHN]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](https://www.nhn.com/services?tab=technology), [출처](https://inside.nhn.com/news) |
+| [[SKAI]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](https://skaiworldwide.com/ko), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
+| [[SK네트웍스]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](https://www.sknetworks.co.kr/business/summary), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[삼성에스디에스]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-15 | 공식 발표 [출처](https://www.samsungsds.com/kr/ai-fabrix/fabrix.html) |
 | [[카카오]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.kakaocorp.com/page/ai), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[케이아이엔엑스]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.kinx.net/service/cloud/) |
