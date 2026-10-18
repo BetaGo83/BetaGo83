@@ -27699,6 +27699,448 @@
    "issues": []
   },
   {
+   "id": "나무가",
+   "type": "company",
+   "path": "companies/나무가",
+   "summary": "카메라 모듈과 3D 센싱·라이다 솔루션을 개발·생산하는 전자부품 기업",
+   "market": "KOSDAQ",
+   "ticker": "190510",
+   "dart_corp_code": "",
+   "aliases": [
+    "NAMUGA"
+   ],
+   "krx_industry": "전자부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차 카메라·ADAS용 카메라 모듈 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://namuga.com/kor/invest/news_view.php?v_seqno=190",
+      "https://namuga.com/kor/introduce/about.php"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "로봇·산업자동화용 3D 카메라·LiDAR 모듈 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://namuga.com/kor/invest/news_view.php?v_seqno=245",
+      "https://namuga.com/kor/invest/news_view.php?v_seqno=192"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "로봇·자동화",
+     "tier": 1,
+     "stage": "머신비전 카메라",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "로봇·자동화",
+       "page": "로봇·자동화",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "로봇·산업자동화용 3D 카메라·LiDAR 모듈 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://namuga.com/kor/invest/news_view.php?v_seqno=245",
+        "https://namuga.com/kor/invest/news_view.php?v_seqno=192"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "전장 카메라모듈",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "자동차 카메라·ADAS용 카메라 모듈 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://namuga.com/kor/invest/news_view.php?v_seqno=190",
+        "https://namuga.com/kor/introduce/about.php"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "나우IB",
+   "type": "company",
+   "path": "companies/나우IB",
+   "summary": "벤처·농식품과 구조혁신 분야 펀드를 운용하는 투자회사",
+   "market": "KOSDAQ",
+   "ticker": "293580",
+   "dart_corp_code": "",
+   "aliases": [
+    "나우아이비캐피탈",
+    "NOW IB"
+   ],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "증권·자산운용",
+     "page": "증권·자산운용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "벤처·농식품·구조혁신 분야 투자·펀드 운용 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nauib.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "증권·자산운용",
+     "tier": 1,
+     "stage": "벤처캐피탈·창업투자",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "증권·자산운용",
+       "page": "증권·자산운용",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "벤처·농식품·구조혁신 분야 투자·펀드 운용 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nauib.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "나우로보틱스",
+   "type": "company",
+   "path": "companies/나우로보틱스",
+   "summary": "산업용 로봇과 사출 자동화·스마트팩토리 솔루션을 제공하는 로봇 제조기업",
+   "market": "KOSDAQ",
+   "ticker": "459510",
+   "dart_corp_code": "",
+   "aliases": [
+    "NAUROBOTICS",
+    "나우로봇"
+   ],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "산업용·물류 로봇 제품군과 자동화 솔루션을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://naurobot.com/",
+      "https://kind.krx.co.kr/external/dst/irReference/17854/%EB%82%98%EC%9A%B0%EB%A1%9C%EB%B3%B4%ED%8B%B1%EC%8A%A4%20IR%20Book_20251203.pdf"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "산업용 로봇 제조·공장 자동화 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://naurobot.com/",
+      "https://kind.krx.co.kr/dsae001/selectPopup.ax?selectKey=01594791"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "공작기계·산업용 로봇",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "산업용 로봇 제조·공장 자동화 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://naurobot.com/",
+        "https://kind.krx.co.kr/dsae001/selectPopup.ax?selectKey=01594791"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "로봇·자동화",
+     "tier": 1,
+     "stage": "로봇 완제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "로봇·자동화",
+       "page": "로봇·자동화",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "산업용·물류 로봇 제품군과 자동화 솔루션을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://naurobot.com/",
+        "https://kind.krx.co.kr/external/dst/irReference/17854/%EB%82%98%EC%9A%B0%EB%A1%9C%EB%B3%B4%ED%8B%B1%EC%8A%A4%20IR%20Book_20251203.pdf"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "나이벡",
+   "type": "company",
+   "path": "companies/나이벡",
+   "summary": "펩타이드 플랫폼과 조직재생 바이오소재·치과용 의료기기를 개발·제조하는 바이오기업",
+   "market": "KOSDAQ",
+   "ticker": "138610",
+   "dart_corp_code": "",
+   "aliases": [
+    "NIBEC"
+   ],
+   "krx_industry": "의료용품 및 기타 의약 관련제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "펩타이드 의약품·CDMO 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nibec.co.kr/home.php",
+      "https://kind.krx.co.kr/external/2025/05/15/003124/20250515007321/11013.htm"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "조직재생용 치과 의료기기 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nibec.co.kr/home.php",
+      "https://kind.krx.co.kr/external/2025/05/15/003124/20250515007321/11013.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "펩타이드 의약품·CDMO 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nibec.co.kr/home.php",
+        "https://kind.krx.co.kr/external/2025/05/15/003124/20250515007321/11013.htm"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "치과용 기기",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "조직재생용 치과 의료기기 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nibec.co.kr/home.php",
+        "https://kind.krx.co.kr/external/2025/05/15/003124/20250515007321/11013.htm"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "나이스디앤비",
+   "type": "company",
+   "path": "companies/나이스디앤비",
+   "summary": "기업신용평가·기술신용평가와 국내외 기업정보를 제공하는 신용정보 서비스 기업",
+   "market": "KOSDAQ",
+   "ticker": "130580",
+   "dart_corp_code": "",
+   "aliases": [
+    "NICE D&B",
+    "NICE디앤비"
+   ],
+   "krx_industry": "기타 사업지원 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "금융·신용정보",
+     "page": "금융·신용정보",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "기업신용평가·기술신용평가와 국내외 기업정보 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nicednb.com/",
+      "https://openapi.nicednb.com/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "금융·신용정보",
+     "tier": 1,
+     "stage": "채권추심·신용조사",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "금융·신용정보",
+       "page": "금융·신용정보",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "기업신용평가·기술신용평가와 국내외 기업정보 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.nicednb.com/",
+        "https://openapi.nicednb.com/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "네오셈",
    "type": "company",
    "path": "companies/네오셈",
@@ -60605,6 +61047,254 @@
       "https://www.namutech.co.kr/",
       "https://www.namuax.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "나무가",
+   "target": "로봇·자동화",
+   "type": "테마",
+   "tier": 1,
+   "stage": "머신비전 카메라",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "로봇·산업자동화용 3D 카메라·LiDAR 모듈 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://namuga.com/kor/invest/news_view.php?v_seqno=245",
+      "https://namuga.com/kor/invest/news_view.php?v_seqno=192"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "나무가",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전장 카메라모듈",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차 카메라·ADAS용 카메라 모듈 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://namuga.com/kor/invest/news_view.php?v_seqno=190",
+      "https://namuga.com/kor/introduce/about.php"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "나우IB",
+   "target": "증권·자산운용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "벤처캐피탈·창업투자",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "증권·자산운용",
+     "page": "증권·자산운용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "벤처·농식품·구조혁신 분야 투자·펀드 운용 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nauib.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "나우로보틱스",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "공작기계·산업용 로봇",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "산업용 로봇 제조·공장 자동화 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://naurobot.com/",
+      "https://kind.krx.co.kr/dsae001/selectPopup.ax?selectKey=01594791"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "나우로보틱스",
+   "target": "로봇·자동화",
+   "type": "테마",
+   "tier": 1,
+   "stage": "로봇 완제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "산업용·물류 로봇 제품군과 자동화 솔루션을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://naurobot.com/",
+      "https://kind.krx.co.kr/external/dst/irReference/17854/%EB%82%98%EC%9A%B0%EB%A1%9C%EB%B3%B4%ED%8B%B1%EC%8A%A4%20IR%20Book_20251203.pdf"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "나이벡",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "펩타이드 의약품·CDMO 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nibec.co.kr/home.php",
+      "https://kind.krx.co.kr/external/2025/05/15/003124/20250515007321/11013.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "나이벡",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "치과용 기기",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "조직재생용 치과 의료기기 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nibec.co.kr/home.php",
+      "https://kind.krx.co.kr/external/2025/05/15/003124/20250515007321/11013.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "나이스디앤비",
+   "target": "금융·신용정보",
+   "type": "테마",
+   "tier": 1,
+   "stage": "채권추심·신용조사",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "금융·신용정보",
+     "page": "금융·신용정보",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "기업신용평가·기술신용평가와 국내외 기업정보 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.nicednb.com/",
+      "https://openapi.nicednb.com/"
      ],
      "malformed": ""
     }
