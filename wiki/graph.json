@@ -8830,6 +8830,71 @@
    "issues": []
   },
   {
+   "id": "JW중외제약",
+   "type": "company",
+   "path": "companies/JW중외제약",
+   "summary": "글로벌 혁신신약과 전문의약품을 다루는 제약 전문기업",
+   "market": "KOSPI",
+   "ticker": "001060",
+   "dart_corp_code": "00149947",
+   "aliases": [
+    "제이더블유중외제약",
+    "JW PHARMACEUTICAL"
+   ],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "JW중외제약 공식 홈페이지는 제약 전문기업의 글로벌 혁신신약·전문의약품·연구 파이프라인을 직접 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.jw-pharma.co.kr/",
+      "https://www.jw-pharma.co.kr/pharma/ko/intro/pharma.jsp",
+      "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=00149947"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "JW중외제약 공식 홈페이지는 제약 전문기업의 글로벌 혁신신약·전문의약품·연구 파이프라인을 직접 안내한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.jw-pharma.co.kr/",
+        "https://www.jw-pharma.co.kr/pharma/ko/intro/pharma.jsp",
+        "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=00149947"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "JYP Ent.",
    "type": "company",
    "path": "companies/JYP Ent.",
@@ -35628,6 +35693,38 @@
       "https://www.jw-shinyak.co.kr/",
       "https://www.jw-shinyak.co.kr/shinyak/ko/intro/shinyak.jsp",
       "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=00110431"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "JW중외제약",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "JW중외제약 공식 홈페이지는 제약 전문기업의 글로벌 혁신신약·전문의약품·연구 파이프라인을 직접 안내한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.jw-pharma.co.kr/",
+      "https://www.jw-pharma.co.kr/pharma/ko/intro/pharma.jsp",
+      "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=00149947"
      ],
      "malformed": ""
     }
