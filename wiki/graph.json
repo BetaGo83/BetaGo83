@@ -29010,42 +29010,325 @@
    "issues": []
   },
   {
-   "id": "네오셈",
+   "id": "내츄럴엔도텍",
    "type": "company",
-   "path": "companies/네오셈",
-   "summary": "반도체 검사장비 회사",
+   "path": "companies/내츄럴엔도텍",
+   "summary": "건강기능식품 원료와 기능성 화장품을 연구·생산하는 기업",
    "market": "KOSDAQ",
-   "ticker": "253590",
-   "dart_corp_code": "01170865",
-   "aliases": [],
-   "krx_industry": "기계·장비",
-   "classification_as_of": "2026-10-08",
+   "ticker": "168330",
+   "dart_corp_code": "",
+   "aliases": [
+    "Naturalendo Tech"
+   ],
+   "krx_industry": "자연과학 및 공학 연구개발업",
+   "classification_as_of": "2026-10-09",
    "classifications": [
     {
-     "topic": "반도체",
-     "page": "HBM·반도체",
-     "classification": "공시·거래소 확인",
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
      "status": "확인",
-     "date": "2026-09-28",
-     "text": "반도체 검사장비 공급계약이 기재됨",
-     "evidence_level": "공시 원문",
+     "date": "2026-10-19",
+     "text": "건강기능식품 원료·제품 생산을 확인했다.",
+     "evidence_level": "공식 발표",
      "weak": false,
      "sources": [
-      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900837"
+      "https://www.naturalendo.co.kr/default/company/company_2.php?sub=02&tit=01",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     },
     {
-     "topic": "HBM 수요 확대",
-     "page": "HBM·반도체",
-     "classification": "후보",
-     "status": "후보(확인 중)",
-     "date": "2026-03-18",
-     "text": "HBM 신뢰성 검증용 장비 적용 서술. 거래 상대와 계약은 추가 확인 필요",
-     "evidence_level": "공시 원문",
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "기능성화장품 패치 생산을 확인했다.",
+     "evidence_level": "공식 발표",
      "weak": false,
      "sources": [
-      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000748"
+      "https://www.naturalendo.co.kr/default/company/company_2.php?sub=02&tit=01"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "신선식품·건강식품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "건강기능식품 원료·제품 생산을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.naturalendo.co.kr/default/company/company_2.php?sub=02&tit=01",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "화장품·미용",
+     "tier": 1,
+     "stage": "화장품 제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화장품·미용",
+       "page": "화장품·미용",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "기능성화장품 패치 생산을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.naturalendo.co.kr/default/company/company_2.php?sub=02&tit=01"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "네오리진",
+   "type": "company",
+   "path": "companies/네오리진",
+   "summary": "모바일·글로벌 게임을 개발·서비스하고 퍼블리싱하는 소프트웨어 기업",
+   "market": "KOSDAQ",
+   "ticker": "094860",
+   "dart_corp_code": "00599106",
+   "aliases": [
+    "Neorigin",
+    "Neorigin Games"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "모바일 게임 서비스와 퍼블리싱 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.neorigin.com/",
+      "https://kind.krx.co.kr/external/2026/03/20/000150/20260320000412/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "게임",
+     "tier": 1,
+     "stage": "온라인·모바일 게임",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "게임",
+       "page": "게임",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "모바일 게임 서비스와 퍼블리싱 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.neorigin.com/",
+        "https://kind.krx.co.kr/external/2026/03/20/000150/20260320000412/11011.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "네오뷰",
+   "type": "company",
+   "path": "companies/네오뷰",
+   "summary": "카지노와 자동차 전장용 모니터를 제조하는 디스플레이 제품 기업",
+   "market": "KOSDAQ",
+   "ticker": "0218L0",
+   "dart_corp_code": "02038566",
+   "aliases": [
+    "Neovue"
+   ],
+   "krx_industry": "영상 및 음향기기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "카지노·자동차 전장 모니터 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.neovue.com",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "디스플레이 제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "디스플레이",
+       "page": "디스플레이",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "카지노·자동차 전장 모니터 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.neovue.com",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "네오사피엔스",
+   "type": "company",
+   "path": "companies/네오사피엔스",
+   "summary": "Typecast와 대화형 AI를 제공하는 생성형 음성·비디오 AI 기업",
+   "market": "KOSDAQ",
+   "ticker": "0161M0",
+   "dart_corp_code": "",
+   "aliases": [
+    "Neosapience",
+    "Typecast"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "AI 보이스·생성형 오디오·비주얼 모델과 대화형 AI 서비스를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://neosapience.com/ko/",
+      "https://neosapience.ninehire.site/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "AI·클라우드",
+     "tier": 1,
+     "stage": "AI 모델·서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "AI·클라우드",
+       "page": "AI·클라우드",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "AI 보이스·생성형 오디오·비주얼 모델과 대화형 AI 서비스를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://neosapience.com/ko/",
+        "https://neosapience.ninehire.site/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "네오셈",
+   "type": "company",
+   "path": "companies/네오셈",
+   "summary": "SSD·메모리 반도체 자동화 검사장비를 개발·공급하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "253590",
+   "dart_corp_code": "01170865",
+   "aliases": [
+    "NEOSEM"
+   ],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SSD·메모리 반도체 검사장비 사업과 공급계약을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.neosem.com/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900837",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
@@ -29055,33 +29338,21 @@
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "검사 장비·부품",
-     "score": 1.28,
+     "score": 3.83,
      "classifications": [
       {
-       "topic": "반도체",
+       "topic": "HBM·반도체",
        "page": "HBM·반도체",
-       "classification": "공시·거래소 확인",
+       "classification": "공식 발표 확인",
        "status": "확인",
-       "date": "2026-09-28",
-       "text": "반도체 검사장비 공급계약이 기재됨",
-       "evidence_level": "공시 원문",
+       "date": "2026-10-19",
+       "text": "SSD·메모리 반도체 검사장비 사업과 공급계약을 확인했다.",
+       "evidence_level": "공식 발표",
        "weak": false,
        "sources": [
-        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900837"
-       ],
-       "malformed": ""
-      },
-      {
-       "topic": "HBM 수요 확대",
-       "page": "HBM·반도체",
-       "classification": "후보",
-       "status": "후보(확인 중)",
-       "date": "2026-03-18",
-       "text": "HBM 신뢰성 검증용 장비 적용 서술. 거래 상대와 계약은 추가 확인 필요",
-       "evidence_level": "공시 원문",
-       "weak": false,
-       "sources": [
-        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000748"
+        "https://www.neosem.com/",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900837",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
       }
@@ -29112,11 +29383,11 @@
    "issues": [
     {
      "date": "2026-09-28",
-     "kind": "기타",
-     "text": "삼성전자와 맺은 CLT Interface Board 약 69억 원 계약(2026-05-28)의 기간을 2026-11-04까지 늘리는 정정 공시",
+     "kind": "계약",
+     "text": "네오셈은 반도체 검사장비 공급계약과 CLT Interface Board 공급계약 정정 내용을 공시했다.",
      "sources": [
-      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900895",
-      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260528900396"
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900837",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900895"
      ],
      "evidence_level": "공시 원문",
      "weak": false,
@@ -45562,12 +45833,6 @@
    "summary": "위키 페이지가 아직 없는 상대"
   },
   {
-   "id": "NEOSEM TECHNOLOGY INC.",
-   "type": "external",
-   "path": null,
-   "summary": "위키 페이지가 아직 없는 상대"
-  },
-  {
    "id": "NextStar Energy Inc.",
    "type": "external",
    "path": null,
@@ -46041,33 +46306,19 @@
   },
   {
    "source": "네오셈",
-   "target": "NEOSEM TECHNOLOGY INC.",
+   "target": "삼성전자",
    "type": "공급",
    "evidence": [
     {
      "date": "2026-09-28",
-     "text": "종속회사 NEOSEM TECHNOLOGY INC.에 반도체 검사장비를 공급한다. 확인한 3개 계약 중 47억5,347만3,303원 계약은 2026-09-30이 종료일이며, 66억7,476만5,547원 계약과 GEN6 SSD TESTER & MODULE 85억3,408만2,042원 계약은 2026-12-31까지다.",
+     "text": "CLT Interface Board 공급계약(2026-05-28 계약, 2026-09-28 정정 공시)",
      "sources": [
-      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900837",
-      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828900919",
-      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828900466"
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900895"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
      "weak": false
-    }
-   ],
-   "presentation": {
-    "label": "",
-    "muted": false,
-    "line_style": "solid"
-   }
-  },
-  {
-   "source": "네오셈",
-   "target": "삼성전자",
-   "type": "공급",
-   "evidence": [
+    },
     {
      "date": "2026-09-28",
      "text": "CLT Interface Board 약 69억 원 (계약 2026-05-28, 정정 공시)",
@@ -47331,29 +47582,6 @@
      "text": "RF머트리얼즈가 RF시스템즈에 출자한 종속기업 관계를 공시 자료에서 확인했다.",
      "sources": [
       "https://kind.krx.co.kr/external/2026/05/11/000927/20260511002147/10601.htm"
-     ],
-     "status": "확인",
-     "evidence_level": "공시 원문",
-     "weak": false
-    }
-   ],
-   "presentation": {
-    "label": "",
-    "muted": false,
-    "line_style": "solid"
-   }
-  },
-  {
-   "source": "네오셈",
-   "target": "NEOSEM TECHNOLOGY INC.",
-   "type": "출자",
-   "evidence": [
-    {
-     "date": "2026-09-28",
-     "text": "NEOSEM HOLDINGS INC.를 통해 NEOSEM TECHNOLOGY INC. 지분 100%를 보유한다(2025-12-31 기준).",
-     "sources": [
-      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900837",
-      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000748"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
@@ -62660,20 +62888,175 @@
    }
   },
   {
+   "source": "내츄럴엔도텍",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "신선식품·건강식품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "건강기능식품 원료·제품 생산을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.naturalendo.co.kr/default/company/company_2.php?sub=02&tit=01",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "내츄럴엔도텍",
+   "target": "화장품·미용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "화장품 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "기능성화장품 패치 생산을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.naturalendo.co.kr/default/company/company_2.php?sub=02&tit=01"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "네오리진",
+   "target": "게임",
+   "type": "테마",
+   "tier": 1,
+   "stage": "온라인·모바일 게임",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "모바일 게임 서비스와 퍼블리싱 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.neorigin.com/",
+      "https://kind.krx.co.kr/external/2026/03/20/000150/20260320000412/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "네오뷰",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "디스플레이 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "카지노·자동차 전장 모니터 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.neovue.com",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "네오사피엔스",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 1,
+   "stage": "AI 모델·서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "AI 보이스·생성형 오디오·비주얼 모델과 대화형 AI 서비스를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://neosapience.com/ko/",
+      "https://neosapience.ninehire.site/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "네오셈",
    "target": "HBM·반도체",
    "type": "테마",
    "tier": 1,
    "stage": "검사 장비·부품",
-   "score": 1.28,
+   "score": 3.83,
    "evidence": [
     {
      "date": "2026-09-28",
-     "kind": "기타",
-     "text": "삼성전자와 맺은 CLT Interface Board 약 69억 원 계약(2026-05-28)의 기간을 2026-11-04까지 늘리는 정정 공시",
+     "kind": "계약",
+     "text": "네오셈은 반도체 검사장비 공급계약과 CLT Interface Board 공급계약 정정 내용을 공시했다.",
      "sources": [
-      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900895",
-      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260528900396"
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900837",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900895"
      ],
      "evidence_level": "공시 원문",
      "weak": false
@@ -62681,30 +63064,18 @@
    ],
    "classifications": [
     {
-     "topic": "반도체",
+     "topic": "HBM·반도체",
      "page": "HBM·반도체",
-     "classification": "공시·거래소 확인",
+     "classification": "공식 발표 확인",
      "status": "확인",
-     "date": "2026-09-28",
-     "text": "반도체 검사장비 공급계약이 기재됨",
-     "evidence_level": "공시 원문",
+     "date": "2026-10-19",
+     "text": "SSD·메모리 반도체 검사장비 사업과 공급계약을 확인했다.",
+     "evidence_level": "공식 발표",
      "weak": false,
      "sources": [
-      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900837"
-     ],
-     "malformed": ""
-    },
-    {
-     "topic": "HBM 수요 확대",
-     "page": "HBM·반도체",
-     "classification": "후보",
-     "status": "후보(확인 중)",
-     "date": "2026-03-18",
-     "text": "HBM 신뢰성 검증용 장비 적용 서술. 거래 상대와 계약은 추가 확인 필요",
-     "evidence_level": "공시 원문",
-     "weak": false,
-     "sources": [
-      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000748"
+      "https://www.neosem.com/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900837",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }

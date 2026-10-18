@@ -67,8 +67,7 @@ category: "기술·디지털"
 | [[기가비스]] | HBM·반도체 | 공시·거래소 확인 | 확인 | 2026-10-19 | 공시 원문 [출처](https://gigavis.com/kr/main), [출처](https://gigavis.com/kr/product/aoi/contents), [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003218) |
 | [[나노신소재]] | HBM·반도체 | 공시·거래소 확인 | 확인 | 2026-10-19 | 거래소 자료 [출처](https://kind.krx.co.kr/external/2024/03/15/001067/20240315003636/11011.htm) |
 | [[나노씨엠에스]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](https://www.nanocms.co.kr/), [출처](https://kind.krx.co.kr/external/dst/irReference/18966/20260727_NANOCMS_Fv3.6.9.pdf) |
-| [[네오셈]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-09-28 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900837) |
-| [[네오셈]] | HBM 수요 확대 | 후보 | 후보(확인 중) | 2026-03-18 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000748) |
+| [[네오셈]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](https://www.neosem.com/), [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900837), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[대덕전자]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.daeduck.com/ko/main.do), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[동진쎄미켐]] | HBM·반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[디아이]] | AI 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
