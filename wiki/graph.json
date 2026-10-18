@@ -284,11 +284,12 @@
    "id": "생활·소비재",
    "type": "theme",
    "path": "themes/생활·소비재",
-   "summary": "일상생활에 쓰이는 제지·위생용품과 가구·유아용품 제조·판매 사업",
+   "summary": "일상생활에 쓰이는 제지·위생용품과 금속포장용기, 가구·유아용품 제조·판매 사업",
    "category": "소비·문화",
    "stages": [
     "제지·위생용품",
-    "가구·유아용품"
+    "가구·유아용품",
+    "금속포장용기"
    ]
   },
   {
@@ -34246,6 +34247,330 @@
      "stage": "구동·변속·현가 부품",
      "score": 0,
      "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대동스틸",
+   "type": "company",
+   "path": "companies/대동스틸",
+   "summary": "열연박판·후판·무늬강판 등 철강재를 생산·판매하는 철강 기업",
+   "market": "KOSDAQ",
+   "ticker": "048470",
+   "dart_corp_code": "00109268",
+   "aliases": [
+    "Daedong Steel"
+   ],
+   "krx_industry": "기타 전문 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "열연박판·후판·무늬강판 등 철강재 생산·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daedongsteel.co.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00109268",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "철강",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "열연박판·후판·무늬강판 등 철강재 생산·판매 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.daedongsteel.co.kr/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00109268",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대륙제관",
+   "type": "company",
+   "path": "companies/대륙제관",
+   "summary": "일반관·에어로졸관·휴대용 부탄가스 캔을 제조하는 금속 포장용기 기업",
+   "market": "KOSDAQ",
+   "ticker": "004780",
+   "dart_corp_code": "00109587",
+   "aliases": [
+    "Daeryuk Can",
+    "DRCC"
+   ],
+   "krx_industry": "기타 금속 가공제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "생활·소비재",
+     "page": "생활·소비재",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "일반관·에어로졸관·휴대용 부탄가스 캔 등 금속 포장용기 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.drcc.co.kr",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00109587",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "생활·소비재",
+     "tier": 1,
+     "stage": "금속포장용기",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "생활·소비재",
+       "page": "생활·소비재",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "일반관·에어로졸관·휴대용 부탄가스 캔 등 금속 포장용기 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.drcc.co.kr",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00109587",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대림바스",
+   "type": "company",
+   "path": "companies/대림바스",
+   "summary": "위생도기·수전과 욕실·주방 리모델링을 제공하는 욕실 건자재 기업",
+   "market": "KOSPI",
+   "ticker": "005750",
+   "dart_corp_code": "00109754",
+   "aliases": [
+    "Daelim Bath",
+    "Daelim B&Co"
+   ],
+   "krx_industry": "내화, 비내화 요업제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "위생도기·수전 및 욕실·주방 리모델링 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daelimbath.com/brand/company",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00109754",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "인테리어·리모델링",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "위생도기·수전 및 욕실·주방 리모델링 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.daelimbath.com/brand/company",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00109754",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대림제지",
+   "type": "company",
+   "path": "companies/대림제지",
+   "summary": "골판지 원지와 골판지·상자를 제조하는 제지 기업",
+   "market": "KOSDAQ",
+   "ticker": "017650",
+   "dart_corp_code": "00109781",
+   "aliases": [
+    "Daelim Paper",
+    "DaelimPaper"
+   ],
+   "krx_industry": "기타 종이 및 판지 제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "생활·소비재",
+     "page": "생활·소비재",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "골판지 원지와 골판지·상자 생산 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.daelimpaper.co.kr",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00109781",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "생활·소비재",
+     "tier": 1,
+     "stage": "제지·위생용품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "생활·소비재",
+       "page": "생활·소비재",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "골판지 원지와 골판지·상자 생산 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.daelimpaper.co.kr",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00109781",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "대림통상",
+   "type": "company",
+   "path": "companies/대림통상",
+   "summary": "수전금구·비데·위생도기·샤워부스 등 욕실 종합 건자재를 공급하는 기업",
+   "market": "KOSPI",
+   "ticker": "006570",
+   "dart_corp_code": "00109824",
+   "aliases": [
+    "Daelim Trading",
+    "Dovidos"
+   ],
+   "krx_industry": "기타 금속 가공제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "수전금구·비데·위생도기·샤워부스 등 욕실 건자재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dltc.co.kr/ko/intro?introNo=0",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00109824",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "인테리어·리모델링",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "수전금구·비데·위생도기·샤워부스 등 욕실 건자재 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dltc.co.kr/ko/intro?introNo=0",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00109824",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
      "presentation": {
       "label": "",
       "muted": false,
@@ -69994,6 +70319,166 @@
    "score": 0,
    "evidence": [],
    "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대동스틸",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "철강",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "열연박판·후판·무늬강판 등 철강재 생산·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daedongsteel.co.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00109268",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대륙제관",
+   "target": "생활·소비재",
+   "type": "테마",
+   "tier": 1,
+   "stage": "금속포장용기",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "생활·소비재",
+     "page": "생활·소비재",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "일반관·에어로졸관·휴대용 부탄가스 캔 등 금속 포장용기 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.drcc.co.kr",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00109587",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대림바스",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "인테리어·리모델링",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "위생도기·수전 및 욕실·주방 리모델링 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.daelimbath.com/brand/company",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00109754",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대림제지",
+   "target": "생활·소비재",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제지·위생용품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "생활·소비재",
+     "page": "생활·소비재",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "골판지 원지와 골판지·상자 생산 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.daelimpaper.co.kr",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00109781",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "대림통상",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "인테리어·리모델링",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "수전금구·비데·위생도기·샤워부스 등 욕실 건자재 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dltc.co.kr/ko/intro?introNo=0",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00109824",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
    "presentation": {
     "label": "",
     "muted": false,
