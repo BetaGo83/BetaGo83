@@ -448,7 +448,8 @@
     "희소금속",
     "배터리 금속 소재",
     "동 가공 소재",
-    "리튬 회수 소재"
+    "리튬 회수 소재",
+    "영구자석·자성소재"
    ]
   },
   {
@@ -31070,6 +31071,331 @@
        "sources": [
         "https://www.ybtour.com/",
         "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00632845",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "노루페인트",
+   "type": "company",
+   "path": "companies/노루페인트",
+   "summary": "건축·공업용 도료와 기능성 코팅 제품을 제조·판매하는 도료 기업",
+   "market": "KOSPI",
+   "ticker": "090350",
+   "dart_corp_code": "00583442",
+   "aliases": [
+    "NOROO PAINT",
+    "NOROO PAINT & COATINGS"
+   ],
+   "krx_industry": "기타 화학제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "건축·공업용 도료와 기능성 코팅 제품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.noroopaint.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00583442",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "도료·코팅",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "건축·공업용 도료와 기능성 코팅 제품 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.noroopaint.com/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00583442",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "노루홀딩스",
+   "type": "company",
+   "path": "companies/노루홀딩스",
+   "summary": "화학·농생명·유통 사업을 보유·관리하는 사업지주회사",
+   "market": "KOSPI",
+   "ticker": "000320",
+   "dart_corp_code": "00113508",
+   "aliases": [
+    "NOROO HOLDINGS",
+    "NOROO"
+   ],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "화학 계열 사업 등을 보유·관리하는 사업지주회사 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.norooholdings.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113508",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "사업지주·화학소재 전략",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "화학 계열 사업 등을 보유·관리하는 사업지주회사 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.norooholdings.com/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113508",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "노머스",
+   "type": "company",
+   "path": "companies/노머스",
+   "summary": "아티스트 IP와 데이터·기술을 결합한 종합 엔터테인먼트 기업",
+   "market": "KOSDAQ",
+   "ticker": "473980",
+   "dart_corp_code": "01703849",
+   "aliases": [
+    "Knowmerce",
+    "Knowmerce Corp."
+   ],
+   "krx_industry": "창작 및 예술관련 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "아티스트 IP 기반 콘텐츠·공연·팬덤 서비스 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://knowmerce.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01703849",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "광고·콘텐츠 제작·연예 매니지먼트",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "아티스트 IP 기반 콘텐츠·공연·팬덤 서비스 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://knowmerce.com/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01703849",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "노바렉스",
+   "type": "company",
+   "path": "companies/노바렉스",
+   "summary": "건강기능식품을 OEM·ODM 방식으로 제조하는 식품 기업",
+   "market": "KOSDAQ",
+   "ticker": "194700",
+   "dart_corp_code": "00811372",
+   "aliases": [
+    "NOVAREX",
+    "NOVAREX Co., Ltd."
+   ],
+   "krx_industry": "기타 식품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "건강기능식품 연구·개발과 OEM·ODM 제조 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.novarex.co.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00811372",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "신선식품·건강식품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "건강기능식품 연구·개발과 OEM·ODM 제조 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.novarex.co.kr/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00811372",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "노바텍",
+   "type": "company",
+   "path": "companies/노바텍",
+   "summary": "영구자석과 전자석 솔루션을 설계·제조하는 자성소재 기업",
+   "market": "KOSDAQ",
+   "ticker": "285490",
+   "dart_corp_code": "01259232",
+   "aliases": [
+    "NOVATECH",
+    "NOVATECH Co., Ltd."
+   ],
+   "krx_industry": "그외 기타 제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자원·희소금속",
+     "page": "자원·희소금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "영구자석·전자석과 전장용 자성 부품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.mynovatech.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01259232",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자원·희소금속",
+     "tier": 1,
+     "stage": "영구자석·자성소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자원·희소금속",
+       "page": "자원·희소금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "영구자석·전자석과 전장용 자성 부품 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.mynovatech.com/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01259232",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
@@ -65539,6 +65865,166 @@
      "sources": [
       "https://www.ybtour.com/",
       "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00632845",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "노루페인트",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "도료·코팅",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "건축·공업용 도료와 기능성 코팅 제품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.noroopaint.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00583442",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "노루홀딩스",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "사업지주·화학소재 전략",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "화학 계열 사업 등을 보유·관리하는 사업지주회사 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.norooholdings.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00113508",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "노머스",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "광고·콘텐츠 제작·연예 매니지먼트",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "아티스트 IP 기반 콘텐츠·공연·팬덤 서비스 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://knowmerce.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01703849",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "노바렉스",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "신선식품·건강식품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "건강기능식품 연구·개발과 OEM·ODM 제조 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.novarex.co.kr/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00811372",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "노바텍",
+   "target": "자원·희소금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "영구자석·자성소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자원·희소금속",
+     "page": "자원·희소금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "영구자석·전자석과 전장용 자성 부품 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.mynovatech.com/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01259232",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
