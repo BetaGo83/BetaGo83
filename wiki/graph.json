@@ -8037,6 +8037,79 @@
    "issues": []
   },
   {
+   "id": "HS화성",
+   "type": "company",
+   "path": "companies/HS화성",
+   "summary": "토목·건축 시공과 주택·분양사업을 수행하는 종합건설 기업",
+   "market": "KOSPI",
+   "ticker": "002460",
+   "dart_corp_code": "00174527",
+   "aliases": [
+    "HS Hwasung",
+    "HS Hwasung Industrial",
+    "화성산업(주)",
+    "에이치에스화성(주)"
+   ],
+   "krx_industry": "건물 건설업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HS화성의 건축·토목·주택·분양 사업을 사업보고서와 회사 공식 사업자료에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000781",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000781&dcmNo=11149238&eleId=10&offset=100098&length=9349&dtd=dart4.xsd",
+      "https://www.hwasung.com/index.php/p/business/civil/?depart=1&hcode=002.002",
+      "https://www.hwasung.com/index.php/p/business/archi/?depart=2&hcode=002.003",
+      "https://www.hwasung.com/index.php/p/business/housing/?depart=3&hcode=002.004"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "주택·건축·토목",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "HS화성의 건축·토목·주택·분양 사업을 사업보고서와 회사 공식 사업자료에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000781",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000781&dcmNo=11149238&eleId=10&offset=100098&length=9349&dtd=dart4.xsd",
+        "https://www.hwasung.com/index.php/p/business/civil/?depart=1&hcode=002.002",
+        "https://www.hwasung.com/index.php/p/business/archi/?depart=2&hcode=002.003",
+        "https://www.hwasung.com/index.php/p/business/housing/?depart=3&hcode=002.004"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "HT로보틱스",
    "type": "company",
    "path": "companies/HT로보틱스",
@@ -34566,6 +34639,41 @@
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
       "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00230911"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HS화성",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "주택·건축·토목",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HS화성의 건축·토목·주택·분양 사업을 사업보고서와 회사 공식 사업자료에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000781",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000781&dcmNo=11149238&eleId=10&offset=100098&length=9349&dtd=dart4.xsd",
+      "https://www.hwasung.com/index.php/p/business/civil/?depart=1&hcode=002.002",
+      "https://www.hwasung.com/index.php/p/business/archi/?depart=2&hcode=002.003",
+      "https://www.hwasung.com/index.php/p/business/housing/?depart=3&hcode=002.004"
      ],
      "malformed": ""
     }
