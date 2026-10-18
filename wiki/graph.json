@@ -7341,6 +7341,76 @@
    "issues": []
   },
   {
+   "id": "HLB제약",
+   "type": "company",
+   "path": "companies/HLB제약",
+   "summary": "완제·원료의약품 개발·제조와 장기지속형 주사제 연구를 수행하는 코스닥 제약사",
+   "market": "KOSDAQ",
+   "ticker": "047920",
+   "dart_corp_code": "00336817",
+   "aliases": [
+    "HLB Pharmaceutical",
+    "에이치엘비제약(주)",
+    "HLB PHARMACEUTICAL CO., LTD."
+   ],
+   "krx_industry": "자연과학 및 공학 연구개발업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB제약의 완제·원료의약품 개발·제조 및 장기지속형 주사제 연구개발 역할을 사업보고서와 회사 공식 자료에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000010",
+      "https://www.hlbpharma.co.kr/sub_company/greetings.php",
+      "https://www.hlbpharma.co.kr/sub_research2/overview.php",
+      "https://www.hlbpharma.co.kr/sub_research2/pipeline.php"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-18",
+       "text": "HLB제약의 완제·원료의약품 개발·제조 및 장기지속형 주사제 연구개발 역할을 사업보고서와 회사 공식 자료에서 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000010",
+        "https://www.hlbpharma.co.kr/sub_company/greetings.php",
+        "https://www.hlbpharma.co.kr/sub_research2/overview.php",
+        "https://www.hlbpharma.co.kr/sub_research2/pipeline.php"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "HL만도",
    "type": "company",
    "path": "companies/HL만도",
@@ -33825,6 +33895,40 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001238",
       "https://kr.hlbgenex.com/gwbbs/gw_page1.php?ti=about&me_co=1010",
       "https://kr.hlbgenex.com/gwbbs/gw_page10.php?ti=products&me_co=3010"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "HLB제약",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-18",
+     "text": "HLB제약의 완제·원료의약품 개발·제조 및 장기지속형 주사제 연구개발 역할을 사업보고서와 회사 공식 자료에서 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000010",
+      "https://www.hlbpharma.co.kr/sub_company/greetings.php",
+      "https://www.hlbpharma.co.kr/sub_research2/overview.php",
+      "https://www.hlbpharma.co.kr/sub_research2/pipeline.php"
      ],
      "malformed": ""
     }
