@@ -23530,6 +23530,196 @@
    "issues": []
   },
   {
+   "id": "교보증권",
+   "type": "company",
+   "path": "companies/교보증권",
+   "summary": "주식·채권 중개와 기업금융·자산관리 서비스를 제공하는 증권사",
+   "market": "KOSPI",
+   "ticker": "030610",
+   "dart_corp_code": "",
+   "aliases": [
+    "KYOBO SECURITIES"
+   ],
+   "krx_industry": "금융 지원 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "증권·자산운용",
+     "page": "증권·자산운용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "주식·채권 중개, 증권 발행과 기업금융 서비스를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.iprovest.com",
+      "https://kind.krx.co.kr/external/2025/12/04/000290/20251204000900/10136.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "증권·자산운용",
+     "tier": 1,
+     "stage": "매매·위탁매매·인수",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "증권·자산운용",
+       "page": "증권·자산운용",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "주식·채권 중개, 증권 발행과 기업금융 서비스를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.iprovest.com",
+        "https://kind.krx.co.kr/external/2025/12/04/000290/20251204000900/10136.htm",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "교촌에프앤비",
+   "type": "company",
+   "path": "companies/교촌에프앤비",
+   "summary": "치킨 프랜차이즈와 식품 가공·유통 사업을 운영하는 외식 기업",
+   "market": "KOSPI",
+   "ticker": "339770",
+   "dart_corp_code": "",
+   "aliases": [
+    "KYOCHON F&B"
+   ],
+   "krx_industry": "음·식료품 및 담배 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "치킨 프랜차이즈·외식 브랜드와 HMR·소스 등 식품 가공·유통 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kyochonfnb.com/index.do",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "외식·프랜차이즈",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "치킨 프랜차이즈·외식 브랜드와 HMR·소스 등 식품 가공·유통 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.kyochonfnb.com/index.do",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "구영테크",
+   "type": "company",
+   "path": "companies/구영테크",
+   "summary": "시트·차체·구동 부품과 전기차 부품을 생산하는 자동차 부품 기업",
+   "market": "KOSDAQ",
+   "ticker": "053270",
+   "dart_corp_code": "",
+   "aliases": [
+    "GUYOUNG TECHNOLOGY"
+   ],
+   "krx_industry": "자동차 신품 부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "시트·차체·구동 및 전기차 부품 제조·공급을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.k5.co.kr/stock/053270",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002687",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "부품·모듈",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "시트·차체·구동 및 전기차 부품 제조·공급을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.k5.co.kr/stock/053270",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002687",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "그린플러스",
    "type": "company",
    "path": "companies/그린플러스",
@@ -54513,6 +54703,101 @@
      "sources": [
       "https://gwangjinlndustry.koweb.co.kr/",
       "https://kind.krx.co.kr/external/2026/03/13/001295/20260313003351/11011.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "교보증권",
+   "target": "증권·자산운용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "매매·위탁매매·인수",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "증권·자산운용",
+     "page": "증권·자산운용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "주식·채권 중개, 증권 발행과 기업금융 서비스를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.iprovest.com",
+      "https://kind.krx.co.kr/external/2025/12/04/000290/20251204000900/10136.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "교촌에프앤비",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "외식·프랜차이즈",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "치킨 프랜차이즈·외식 브랜드와 HMR·소스 등 식품 가공·유통 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.kyochonfnb.com/index.do",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "구영테크",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "부품·모듈",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "시트·차체·구동 및 전기차 부품 제조·공급을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.k5.co.kr/stock/053270",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002687",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
