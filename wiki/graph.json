@@ -89,7 +89,8 @@
     "건축·토목·플랜트",
     "주택·건축·토목",
     "건설장비",
-    "건설·플랜트·인프라"
+    "건설·플랜트·인프라",
+    "부동산 개발·운영"
    ]
   },
   {
@@ -17568,6 +17569,138 @@
    "issues": []
   },
   {
+   "id": "SK디앤디",
+   "type": "company",
+   "path": "companies/SK디앤디",
+   "summary": "부동산 개발·자산운용·공간 운영과 리빙 솔루션을 함께 제공하는 코스피 기업",
+   "market": "KOSPI",
+   "ticker": "210980",
+   "dart_corp_code": "00508344",
+   "aliases": [
+    "SK D&D",
+    "SK DND"
+   ],
+   "krx_industry": "부동산 임대 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SK디앤디의 부동산 개발·자산운용·공간 운영과 오피스·주거·지식산업센터·호텔·물류센터 사업을 공식 홈페이지와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.skdnd.com/company/overall.do",
+      "https://www.skdnd.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "부동산 개발·운영",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SK디앤디의 부동산 개발·자산운용·공간 운영과 오피스·주거·지식산업센터·호텔·물류센터 사업을 공식 홈페이지와 KIND에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.skdnd.com/company/overall.do",
+        "https://www.skdnd.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SK리츠",
+   "type": "company",
+   "path": "companies/SK리츠",
+   "summary": "SK그룹 핵심 오피스와 업무·에너지 인프라 자산을 운용하는 코스피 상장 리츠",
+   "market": "KOSPI",
+   "ticker": "395400",
+   "dart_corp_code": "01535150",
+   "aliases": [
+    "SK REIT",
+    "SK REIT Co., Ltd."
+   ],
+   "krx_industry": "부동산 임대 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "부동산·리츠",
+     "page": "부동산·리츠",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SK리츠의 오피스와 에너지·업무 인프라 자산 편입·운용을 공식 홈페이지와 DART·KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://skreit.co.kr/en/company/intro.php",
+      "https://skreit.co.kr/company/management_greeting.php",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01535150",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "부동산·리츠",
+     "tier": 1,
+     "stage": "오피스 리츠",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "부동산·리츠",
+       "page": "부동산·리츠",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SK리츠의 오피스와 에너지·업무 인프라 자산 편입·운용을 공식 홈페이지와 DART·KIND에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://skreit.co.kr/en/company/intro.php",
+        "https://skreit.co.kr/company/management_greeting.php",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01535150",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "SK바이오사이언스",
    "type": "company",
    "path": "companies/SK바이오사이언스",
@@ -17898,6 +18031,70 @@
        "weak": false,
        "sources": [
         "https://www.sketernix.com/business/fuelcell.do",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "SK증권",
+   "type": "company",
+   "path": "companies/SK증권",
+   "summary": "자산관리·투자·IB·트레이딩을 영위하는 코스피 증권사",
+   "market": "KOSPI",
+   "ticker": "001510",
+   "dart_corp_code": "00131850",
+   "aliases": [
+    "SK Securities"
+   ],
+   "krx_industry": "금융 지원 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "증권·자산운용",
+     "page": "증권·자산운용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SK증권의 PI·트레이딩·자산관리·IB 사업을 공식 소개와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sks.co.kr/company/html/SI_04000.htm",
+      "https://www.sks.co.kr/company/html/SI_02000.htm",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "증권·자산운용",
+     "tier": 1,
+     "stage": "매매·위탁매매·인수",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "증권·자산운용",
+       "page": "증권·자산운용",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SK증권의 PI·트레이딩·자산관리·IB 사업을 공식 소개와 KIND에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.sks.co.kr/company/html/SI_04000.htm",
+        "https://www.sks.co.kr/company/html/SI_02000.htm",
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
@@ -46825,6 +47022,71 @@
    }
   },
   {
+   "source": "SK디앤디",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "부동산 개발·운영",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SK디앤디의 부동산 개발·자산운용·공간 운영과 오피스·주거·지식산업센터·호텔·물류센터 사업을 공식 홈페이지와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.skdnd.com/company/overall.do",
+      "https://www.skdnd.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SK리츠",
+   "target": "부동산·리츠",
+   "type": "테마",
+   "tier": 1,
+   "stage": "오피스 리츠",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "부동산·리츠",
+     "page": "부동산·리츠",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SK리츠의 오피스와 에너지·업무 인프라 자산 편입·운용을 공식 홈페이지와 DART·KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://skreit.co.kr/en/company/intro.php",
+      "https://skreit.co.kr/company/management_greeting.php",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01535150",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "SK바이오사이언스",
    "target": "바이오·제약",
    "type": "테마",
@@ -46999,6 +47261,38 @@
      "weak": false,
      "sources": [
       "https://www.sketernix.com/business/fuelcell.do",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "SK증권",
+   "target": "증권·자산운용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "매매·위탁매매·인수",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "증권·자산운용",
+     "page": "증권·자산운용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SK증권의 PI·트레이딩·자산관리·IB 사업을 공식 소개와 KIND에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.sks.co.kr/company/html/SI_04000.htm",
+      "https://www.sks.co.kr/company/html/SI_02000.htm",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
