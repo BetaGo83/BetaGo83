@@ -12284,6 +12284,22 @@
       "muted": false,
       "line_style": "solid"
      }
+    },
+    {
+     "theme": "디스플레이",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "브이원텍",
+     "via_type": "공급사"
+    },
+    {
+     "theme": "로봇·자동화",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "브이원텍",
+     "via_type": "공급사"
     }
    ],
    "issues": [
@@ -12587,6 +12603,22 @@
     }
    ],
    "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "브이원텍",
+     "via_type": "공급사"
+    },
+    {
+     "theme": "디스플레이",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "브이원텍",
+     "via_type": "공급사"
+    },
     {
      "theme": "로봇·자동화",
      "tier": 1,
@@ -52045,6 +52077,214 @@
    ]
   },
   {
+   "id": "브이원텍",
+   "type": "company",
+   "path": "companies/브이원텍",
+   "summary": "머신비전 기반 디스플레이·2차전지 검사장비와 AMR·AGV 물류로봇을 만드는 기업",
+   "market": "KOSDAQ",
+   "ticker": "251630",
+   "dart_corp_code": "01027794",
+   "aliases": [
+    "V-ONE TECH",
+    "V-ONE TECH CO., LTD."
+   ],
+   "krx_industry": "디스플레이 제조용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "LCD/OLED 압흔검사기와 디스플레이 모듈라인 전체 설비 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002781",
+      "http://www.v-one.co.kr/"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "2차전지 검사시스템과 2026년 상반기 제품 매출·수주잔고를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002781",
+      "http://www.v-one.co.kr/"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "AMR·AGV와 MPR 지능형 로봇 솔루션, 종속회사 시스콘로보틱스를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002781"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "2차전지 검사시스템과 2026년 상반기 제품 매출·수주잔고를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002781",
+        "http://www.v-one.co.kr/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "ESS",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "LG에너지솔루션",
+     "via_type": "고객사"
+    },
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "디스플레이",
+       "page": "디스플레이",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "LCD/OLED 압흔검사기와 디스플레이 모듈라인 전체 설비 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002781",
+        "http://www.v-one.co.kr/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "로봇·자동화",
+     "tier": 1,
+     "stage": "로봇 완제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "로봇·자동화",
+       "page": "로봇·자동화",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "AMR·AGV와 MPR 지능형 로봇 솔루션, 종속회사 시스콘로보틱스를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002781"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "자동차·부품",
+     "tier": 2,
+     "stage": "",
+     "score": 0.28,
+     "via": "현대자동차",
+     "via_type": "고객사"
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-08-31",
+     "kind": "투자",
+     "text": "종속회사 시스콘로보틱스에 대한 110억원 채무보증의 기간을 정정 공시했다. 이는 계열 지원 사실이며 고객 계약으로 해석하지 않는다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831900756"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-03-16",
+     "kind": "실적",
+     "text": "2025년 매출은 489.85억원으로 전년 대비 32.6% 감소했고 영업손실 110.74억원·순손실 132.82억원을 기록했다. 공시는 디스플레이·2차전지 업황 약세, 설비투자 지연, AI·물류로봇 연구개발 투자를 주요 원인으로 제시한다. 잠정 공시 수치이며 감사 연결 실적과 구분한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316902487"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2025-12-15",
+     "kind": "기타",
+     "text": "보통주 1주당 100원, 배당금 총액 15.78억원을 결의했다. 외부감사·주주총회에 따라 변경될 수 있는 결의 시점 공시다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251215901230"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2025-12-08",
+     "kind": "협력",
+     "text": "제노레이와 자기주식 교환을 통해 X-ray 검사기술 협력을 추진하기로 결정했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251208000252"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "산일전기",
    "type": "company",
    "path": "companies/산일전기",
@@ -65906,6 +66146,30 @@
    ],
    "themes": [
     {
+     "theme": "2차전지",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "브이원텍",
+     "via_type": "공급사"
+    },
+    {
+     "theme": "디스플레이",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "브이원텍",
+     "via_type": "공급사"
+    },
+    {
+     "theme": "로봇·자동화",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "브이원텍",
+     "via_type": "공급사"
+    },
+    {
      "theme": "자동차·부품",
      "tier": 1,
      "stage": "부품·모듈",
@@ -65964,6 +66228,30 @@
     }
    ],
    "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "브이원텍",
+     "via_type": "공급사"
+    },
+    {
+     "theme": "디스플레이",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "브이원텍",
+     "via_type": "공급사"
+    },
+    {
+     "theme": "로봇·자동화",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "브이원텍",
+     "via_type": "공급사"
+    },
     {
      "theme": "유통·전자상거래",
      "tier": 2,
@@ -66846,6 +67134,12 @@
    "summary": "위키 페이지가 아직 없는 상대"
   },
   {
+   "id": "시스콘로보틱스",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
    "id": "써지플럭스",
    "type": "external",
    "path": null,
@@ -66943,6 +67237,12 @@
   },
   {
    "id": "인디고테크",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "제노레이",
    "type": "external",
    "path": null,
    "summary": "위키 페이지가 아직 없는 상대"
@@ -67401,6 +67701,28 @@
      "text": "반기보고서가 연결대상 종속회사로 기재하며, 반습식·화식·오븐베이커 사료와 간식을 생산·판매한다.",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002818"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "브이원텍",
+   "target": "시스콘로보틱스",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "연결 종속회사로 산업용 로봇 제조업을 영위하며, 브이원텍은 의결권 위임을 포함해 지배력을 보유한다. 2026년 반기말 지분율은 42.95%다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002781"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
@@ -67991,6 +68313,134 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324901398",
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260224900214",
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260119900590"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "브이원텍",
+   "target": "LG에너지솔루션",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "브이원텍 반기보고서가 2차전지 검사시스템 주요 고객사로 LG에너지솔루션을 기재하고 지속적인 검사장비 의뢰·수주를 설명한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002781"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-06-30",
+     "text": "2차전지 검사시스템의 주요 고객사로 지속적인 검사장비 의뢰·수주가 진행된다고 반기보고서에 기재했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002781"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "브이원텍",
+   "target": "LG전자",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "브이원텍 반기보고서가 2차전지 검사시스템 주요 고객사로 LG전자를 기재하고 지속적인 검사장비 의뢰·수주를 설명한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002781"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-06-30",
+     "text": "2차전지 검사시스템의 주요 고객사로 지속적인 검사장비 의뢰·수주가 진행된다고 반기보고서에 기재했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002781"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "브이원텍",
+   "target": "현대위아",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "로보틱스·운반기계 부문의 주요 고객사로 기재했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002781"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-06-30",
+     "text": "브이원텍 반기보고서가 로보틱스·운반기계 부문의 주요 고객사로 현대위아를 기재한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002781"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "브이원텍",
+   "target": "현대자동차",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "로보틱스·운반기계 부문의 주요 고객사로 기재했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002781"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-06-30",
+     "text": "브이원텍 반기보고서가 로보틱스·운반기계 부문의 주요 고객사로 현대자동차를 기재한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002781"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
@@ -75937,6 +76387,36 @@
    }
   },
   {
+   "source": "LG에너지솔루션",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "LG에너지솔루션",
+   "target": "로봇·자동화",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
    "source": "LG유플러스",
    "target": "데이터센터",
    "type": "테마",
@@ -76025,6 +76505,36 @@
     "label": "",
     "muted": false,
     "line_style": "solid"
+   }
+  },
+  {
+   "source": "LG전자",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "LG전자",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
    }
   },
   {
@@ -96978,6 +97488,128 @@
    }
   },
   {
+   "source": "브이원텍",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "2차전지 검사시스템과 2026년 상반기 제품 매출·수주잔고를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002781",
+      "http://www.v-one.co.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "브이원텍",
+   "target": "ESS",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "브이원텍",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "LCD/OLED 압흔검사기와 디스플레이 모듈라인 전체 설비 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002781",
+      "http://www.v-one.co.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "브이원텍",
+   "target": "로봇·자동화",
+   "type": "테마",
+   "tier": 1,
+   "stage": "로봇 완제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "로봇·자동화",
+     "page": "로봇·자동화",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "AMR·AGV와 MPR 지능형 로봇 솔루션, 종속회사 시스콘로보틱스를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002781"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "브이원텍",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.28,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
    "source": "산일전기",
    "target": "전력망·전력기기",
    "type": "테마",
@@ -104762,6 +105394,51 @@
   },
   {
    "source": "현대위아",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "현대위아",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "현대위아",
+   "target": "로봇·자동화",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "현대위아",
    "target": "자동차·부품",
    "type": "테마",
    "tier": 1,
@@ -104789,6 +105466,51 @@
     "label": "",
     "muted": false,
     "line_style": "solid"
+   }
+  },
+  {
+   "source": "현대자동차",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "현대자동차",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "현대자동차",
+   "target": "로봇·자동화",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
    }
   },
   {
@@ -105373,6 +106095,29 @@
     "label": "확인 중",
     "muted": false,
     "line_style": "dashed"
+   }
+  },
+  {
+   "source": "브이원텍",
+   "target": "제노레이",
+   "type": "협력",
+   "evidence": [
+    {
+     "date": "2025-12-08",
+     "text": "자기주식 520,812주를 교환해 X-ray 검사기술 협력을 추진한 전략적 협력 관계다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251208000252",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251209000298"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
    }
   },
   {

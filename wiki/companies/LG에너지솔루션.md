@@ -29,6 +29,7 @@ classification_as_of: "2026-10-08"
 | 고객사 | Mercedes-Benz AG | Mercedes-Benz AG에 전기차 배터리 공급계약 2조601억 원(2025-12-05 계약, 2028-03-01\~2035-06-30); 공시 기준 공급기간 시작 전. | 2025-12-08 | [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251208800031) | 계획(확인 중) | 공시 원문 |
 | 고객사 | Ford Motor Company | Ford와의 전기차 배터리 공급계약 중 2027\~2032년 계약은 2025-12-17 해지됐다. 2025년 사업보고서에서 진행 중으로 기재한 계약은 기간이 2026-10-01\~2030-12-31인 별도 계약이다. | 2026-03-12 | [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251217800800), [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000217) | 후보(확인 중) | 공시 원문 |
 | 공급사 | [[자비스]] | 자비스가 LG에너지솔루션을 2차전지 검사장비 고객사로 기재(개별 거래 시기·세부 품목 미확인). | 2026-03-19 | [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000014) | 후보(확인 중) | 공시 원문 |
+| 공급사 | [[브이원텍]] | 브이원텍 반기보고서가 2차전지 검사시스템 주요 고객사로 LG에너지솔루션을 기재하고 지속적인 검사장비 의뢰·수주를 설명한다. | 2026-06-30 | [DART 브이원텍 반기보고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002781) | 확인 | 공시 원문 |
 
 ## 테마
 - [[2차전지]] · 배터리: 소형·ESS·자동차용 2차전지를 제조하며 차세대 전지를 개발한다. Hanwha Q CELLS USA ESS 계약은 2026-10-01 기간 만료됐고, 포스코퓨처엠 LFP 양극재 도입은 기사 제목만 확인된 후보다. (역할 상태: 상태 혼재 · 확인 중) ([DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001800119), [DART](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000217), [dealsite.co.kr](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WdXZUSnB3UFVrcTQ2azBjcTg4d0NBd0p3Q19PQmtEQm04Y3JiSDFUZ1BFQmFxc1ZaTHgzOUtMMjhhQUJDZ3ZUUC1DNE1mZWc?oc=5), [KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage))
