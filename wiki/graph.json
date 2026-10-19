@@ -46758,6 +46758,75 @@
    "issues": []
   },
   {
+   "id": "디와이에이",
+   "type": "company",
+   "path": "companies/디와이에이",
+   "summary": "자동차용 시트 ASS'Y를 제조·공급하는 자동차 부품 기업",
+   "market": "KOSPI",
+   "ticker": "002880",
+   "dart_corp_code": "00149804",
+   "aliases": [
+    "DYA",
+    "DYA CO.,LTD"
+   ],
+   "krx_industry": "자동차 신품 부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SEAT ASS'Y와 차종별 자동차용 시트 제품의 제조·공급을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000864",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000864&dcmNo=11134078&eleId=9&offset=80763&length=111328&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000864&dcmNo=11134078&eleId=11&offset=82939&length=12032&dtd=dart4.xsd",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00149804",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "자동차 시트·내장",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SEAT ASS'Y와 차종별 자동차용 시트 제품의 제조·공급을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000864",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000864&dcmNo=11134078&eleId=9&offset=80763&length=111328&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000864&dcmNo=11134078&eleId=11&offset=82939&length=12032&dtd=dart4.xsd",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00149804",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "디지털프론티어",
    "type": "company",
    "path": "companies/디지털프론티어",
@@ -87496,6 +87565,40 @@
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000513&dcmNo=11155725&eleId=11&offset=96165&length=13412&dtd=dart4.xsd",
       "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01336443",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디와이에이",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "자동차 시트·내장",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SEAT ASS'Y와 차종별 자동차용 시트 제품의 제조·공급을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000864",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000864&dcmNo=11134078&eleId=9&offset=80763&length=111328&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000864&dcmNo=11134078&eleId=11&offset=82939&length=12032&dtd=dart4.xsd",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00149804",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
