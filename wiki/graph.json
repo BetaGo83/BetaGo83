@@ -48914,6 +48914,150 @@
    ]
   },
   {
+   "id": "라온시큐어",
+   "type": "company",
+   "path": "companies/라온시큐어",
+   "summary": "AI 보안·인증, 디지털 ID·DID, 모바일 보안과 화이트햇 보안 서비스를 제공하는 소프트웨어 기업",
+   "market": "KOSDAQ",
+   "ticker": "042510",
+   "dart_corp_code": "00255433",
+   "aliases": [
+    "RaonSecure Co., Ltd.",
+    "라온시큐어(주)"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "사이버보안",
+     "page": "사이버보안",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "MFA·IAM·모바일 보안·전자서명·취약점 분석을 포함한 정보보안 솔루션과 서비스를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002339",
+      "https://www.raonsecure.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "AI 기반 모바일 보안·인증 서비스와 에이전틱AI 보안 자동화·AI 신원·권한 관리 제품을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002339",
+      "https://www.raonsecure.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "AI·클라우드",
+     "tier": 1,
+     "stage": "AI 모델·서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "AI·클라우드",
+       "page": "AI·클라우드",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "AI 기반 모바일 보안·인증 서비스와 에이전틱AI 보안 자동화·AI 신원·권한 관리 제품을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002339",
+        "https://www.raonsecure.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "사이버보안",
+     "tier": 1,
+     "stage": "정보보안 솔루션",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "사이버보안",
+       "page": "사이버보안",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "MFA·IAM·모바일 보안·전자서명·취약점 분석을 포함한 정보보안 솔루션과 서비스를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002339",
+        "https://www.raonsecure.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-08-14",
+     "kind": "기타",
+     "text": "2026년 3월 블록체인 기술로 구현한 모바일 주민등록증 발급을 전국으로 오픈했다고 반기보고서 연혁에 기재한다",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002339"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-08-14",
+     "kind": "협력",
+     "text": "2026년 4월 업스테이지와 에이전틱AI 보안 자동화 개발·사업화를 위한 업무협약(MOU)을 체결했다고 반기보고서에 기재한다. MOU 체결 사실만 기록한다",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002339"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-08-14",
+     "kind": "기타",
+     "text": "2026년 6월 일본 구독형 생체인증 서비스의 월간활성이용자(MAU)가 1,000만명을 돌파했다고 반기보고서 연혁에 기재한다",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002339"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "레인보우로보틱스",
    "type": "company",
    "path": "companies/레인보우로보틱스",
@@ -90877,6 +91021,70 @@
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813000995",
       "https://www.raonrobot.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "라온시큐어",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 1,
+   "stage": "AI 모델·서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "AI 기반 모바일 보안·인증 서비스와 에이전틱AI 보안 자동화·AI 신원·권한 관리 제품을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002339",
+      "https://www.raonsecure.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "라온시큐어",
+   "target": "사이버보안",
+   "type": "테마",
+   "tier": 1,
+   "stage": "정보보안 솔루션",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "사이버보안",
+     "page": "사이버보안",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "MFA·IAM·모바일 보안·전자서명·취약점 분석을 포함한 정보보안 솔루션과 서비스를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002339",
+      "https://www.raonsecure.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
