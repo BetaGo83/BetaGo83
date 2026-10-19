@@ -51923,6 +51923,128 @@
    "issues": []
   },
   {
+   "id": "브이엠",
+   "type": "company",
+   "path": "companies/브이엠",
+   "summary": "300mm 반도체 건식 식각장비를 개발·제조·판매하는 전공정 장비 기업",
+   "market": "KOSDAQ",
+   "ticker": "089970",
+   "dart_corp_code": "00544577",
+   "aliases": [
+    "VM Inc.",
+    "VM Semiconductor",
+    "브이엠(주)"
+   ],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "300mm Poly·Metal·Oxide 건식 식각장비와 플라즈마 소스 기술을 확인했다. SK하이닉스 메모리 공정 공급은 공시로 확인했으며 HBM 전용 장비 공급으로 확대하지 않았다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001486",
+      "https://www.vmsemi.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "반도체 제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "300mm Poly·Metal·Oxide 건식 식각장비와 플라즈마 소스 기술을 확인했다. SK하이닉스 메모리 공정 공급은 공시로 확인했으며 HBM 전용 장비 공급으로 확대하지 않았다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001486",
+        "https://www.vmsemi.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-08-13",
+     "kind": "실적",
+     "text": "2026년 상반기 연결 매출은 1,611.86억원, 영업이익은 501.98억원, 당기순이익은 434.88억원이다. 반도체 장비·상품 매출이 1,595.48억원으로 전체의 99.0%를 차지했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001486"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-06-23",
+     "kind": "계약",
+     "text": "SK하이닉스에 반도체 제조장비를 공급하는 215.78억원 계약을 공시했다. 계약기간은 2026-06-23부터 세금계산서 발행 예정일까지이며, 공시상 계약 상대방의 발주 금액을 합산한 금액이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623900188"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-03-24",
+     "kind": "계약",
+     "text": "SK하이닉스에 반도체 제조장비를 공급하는 815.56억원 계약을 공시했다. 회사는 해당 공시에서 2026년 누적 공시 수주 금액이 2,061억원이라고 설명했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324901398"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-02-09",
+     "kind": "실적",
+     "text": "2025년 연결 매출은 1,444.12억원으로 전년 대비 105.49% 증가했고 영업이익과 당기순이익은 각각 246.73억원과 256.32억원으로 흑자 전환했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260209900818"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-01-19",
+     "kind": "계약",
+     "text": "SK hynix Semiconductor (China) Ltd.에 반도체 제조장비를 공급하는 185.34억원 계약을 공시했다. 중국 법인은 공개 기업 페이지가 없어 그래프 관계에는 별도 노드로 추가하지 않았다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260119900590"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "산일전기",
    "type": "company",
    "path": "companies/산일전기",
@@ -67838,6 +67960,46 @@
    "presentation": {
     "label": "종료",
     "muted": true,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "브이엠",
+   "target": "SK하이닉스",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-23",
+     "text": "브이엠은 300mm Poly·Metal Etcher 등 반도체 제조장비를 SK하이닉스에 직접 공급한다. 2026년 1월·2월·3월·6월 공시에서 확인한 공급계약과 반기보고서의 주요 거래처 기재를 함께 확인했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001486",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623900188",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324901398",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260224900214",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260119900590"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-06-23",
+     "text": "브이엠은 SK하이닉스와 직접 거래하며 300mm Poly·Metal Etcher를 공급한다. 2026년 1월·2월·3월·6월 공시에서 반도체 제조장비 공급계약을 확인했고, 2026년 상반기 보고서도 SK하이닉스를 주요 거래처로 명시한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001486",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623900188",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324901398",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260224900214",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260119900590"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
     "line_style": "solid"
    }
   },
@@ -96772,6 +96934,38 @@
      "weak": false,
      "sources": [
       "https://www.brils.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "브이엠",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "반도체 제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "300mm Poly·Metal·Oxide 건식 식각장비와 플라즈마 소스 기술을 확인했다. SK하이닉스 메모리 공정 공급은 공시로 확인했으며 HBM 전용 장비 공급으로 확대하지 않았다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001486",
+      "https://www.vmsemi.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
