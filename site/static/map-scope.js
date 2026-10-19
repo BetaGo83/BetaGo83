@@ -142,13 +142,29 @@
     var all = validGraph(nodes, edges), opts = normalize(options), allowed = permittedNodes(nodes, opts);
     if (opts.mode === "all") {
       // Whole-map scope ignores focus/theme. Use nearby mode for a subject or theme neighborhood.
-      var rankedAll = Object.keys(allowed).sort(ordered), nodeIdsAll = rankedAll.slice(0, opts.limit);
-      var keptAll = new Set(nodeIdsAll), candidatesAll = [];
+      var candidatesAll = [];
       edges.forEach(function (edge, index) { if (eligible(edge, allowed, opts)) candidatesAll.push(index); });
       candidatesAll.sort(function (a, b) {
         return ordered(edges[a].source, edges[b].source) || ordered(edges[a].target, edges[b].target)
           || ordered(edges[a].type || "", edges[b].type || "") || a - b;
       });
+      // The overview is capped for rendering. Name-order truncation made most visible
+      // companies lose their counterpart outside the cap, so rank themes first and then
+      // connected entities by eligible degree. Isolated entities remain deterministic
+      // fallbacks after the connected portion has been selected.
+      var degree = Object.create(null);
+      candidatesAll.forEach(function (index) {
+        var edge = edges[index]; degree[edge.source] = (degree[edge.source] || 0) + 1;
+        degree[edge.target] = (degree[edge.target] || 0) + 1;
+      });
+      var rankedAll = Object.keys(allowed).sort(function (a, b) {
+        var at = allowed[a].type === "theme" ? 1 : 0, bt = allowed[b].type === "theme" ? 1 : 0;
+        if (at !== bt) return bt - at;
+        var ad = degree[a] || 0, bd = degree[b] || 0;
+        if ((ad > 0) !== (bd > 0)) return ad > 0 ? -1 : 1;
+        return bd - ad || ordered(a, b);
+      });
+      var nodeIdsAll = rankedAll.slice(0, opts.limit), keptAll = new Set(nodeIdsAll);
       var edgeIndicesAll = candidatesAll.filter(function (index) {
         return keptAll.has(edges[index].source) && keptAll.has(edges[index].target);
       }).slice(0, opts.edgeLimit);
