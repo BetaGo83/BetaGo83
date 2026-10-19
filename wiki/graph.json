@@ -624,12 +624,13 @@
    "id": "패션·의류",
    "type": "theme",
    "path": "themes/패션·의류",
-   "summary": "패션 브랜드 의류와 스포츠의류·패션 잡화·가방 사업을 다룬다.",
+   "summary": "패션 브랜드 의류와 스포츠의류·패션 잡화·가방, 산업안전용품·워크웨어 사업을 다룬다.",
    "category": "소비·문화",
    "stages": [
     "패션 브랜드 제품",
     "스포츠의류",
     "여성의류·패션 잡화",
+    "산업안전용품·워크웨어",
     "합성섬유",
     "합성피혁·부직포",
     "스포츠용품·가방",
@@ -52479,6 +52480,142 @@
    ]
   },
   {
+   "id": "블랙야크아이앤씨",
+   "type": "company",
+   "path": "companies/블랙야크아이앤씨",
+   "summary": "산업안전용품·워크웨어와 가스계 소화설비를 연결하는 안전산업 기업",
+   "market": "KOSDAQ",
+   "ticker": "478560",
+   "dart_corp_code": "01718407",
+   "aliases": [
+    "BLACK YAK I&C",
+    "BLACK YAK I&C CO., LTD",
+    "블랙야크워크웨어",
+    "웍스원"
+   ],
+   "krx_industry": "신발 및 신발 부분품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "산업용 안전화·안전용품·안전복 개발·제조와 WORXONE·BLACKYAK WORK WEAR 브랜드 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000595",
+      "http://www.blackyakinc.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "패션·의류",
+     "tier": 1,
+     "stage": "산업안전용품·워크웨어",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "패션·의류",
+       "page": "패션·의류",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "산업용 안전화·안전용품·안전복 개발·제조와 WORXONE·BLACKYAK WORK WEAR 브랜드 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000595",
+        "http://www.blackyakinc.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-09-28",
+     "kind": "기타",
+     "text": "1주당 50원, 배당금 총액 12.90억원의 중간배당을 결정했다. 배당기준일은 2026-10-13, 지급 예정일은 2026-10-28이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900449",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008900847"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-06-26",
+     "kind": "투자",
+     "text": "100% 종속회사 에스티베타제일차에 120억원의 채무보증을 결정했다. 앞서 83억원 금전대여를 포함한 총 신용공여 규모는 203억원으로 공시됐다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626900555",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617900140"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-05-13",
+     "kind": "기타",
+     "text": "운영자금 및 종속회사 재무구조 개선을 목적으로 150억원 규모의 제2회 사모 전환사채 발행을 결정했다. 전환가액은 3,397원, 전환 가능 주식수는 4,415,660주이며 전환청구기간은 2027-05-21부터 2029-04-21까지다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513000881"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-04-01",
+     "kind": "정책",
+     "text": "2026년 기업가치 제고 계획에서 핵심 사업 경쟁력·신규 판로 확대와 단계적 배당 상향을 목표로 제시했다. 계획은 장래 계획사항이며 실제 결과와 달라질 수 있다고 공시했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260401901065"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-02-27",
+     "kind": "실적",
+     "text": "2025년 잠정 연결 매출 572.58억원, 영업이익 94.18억원, 당기순손실 65.13억원을 공시했으며, 신규 종속회사 편입과 스팩 합병·인수 관련 비용을 주요 변동 원인으로 제시했다. 외부감사 전 잠정 수치다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227900307"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-02-13",
+     "kind": "기타",
+     "text": "2025년 결산배당으로 기타주주 기준 1주당 325원, 대주주 기준 43원의 차등 현금배당을 결정했다. 총 배당금은 28.32억원이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260213901264"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "산일전기",
    "type": "company",
    "path": "companies/산일전기",
@@ -67368,6 +67505,12 @@
    "summary": "위키 페이지가 아직 없는 상대"
   },
   {
+   "id": "쓰리씨앤에프",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
    "id": "씨알케이㈜",
    "type": "external",
    "path": null,
@@ -67387,6 +67530,18 @@
   },
   {
    "id": "아큐레시스바이오",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "에스티베타제일차",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "에스티브라보제일차",
    "type": "external",
    "path": null,
    "summary": "위키 페이지가 아직 없는 상대"
@@ -67500,6 +67655,12 @@
    "summary": "위키 페이지가 아직 없는 상대"
   },
   {
+   "id": "펜타게이트",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
    "id": "폴란드 군비청",
    "type": "external",
    "path": null,
@@ -67519,6 +67680,12 @@
   },
   {
    "id": "한국선급",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "한주케미칼",
    "type": "external",
    "path": null,
    "summary": "위키 페이지가 아직 없는 상대"
@@ -68051,6 +68218,94 @@
      "text": "브이티가 100% 보유한 연결 종속회사로 주택·상가 개발 및 여행·면세점 사업을 영위한다.",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000451"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "블랙야크아이앤씨",
+   "target": "쓰리씨앤에프",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "연결 종속회사로 소방기구·소방용품 제조업을 영위하며 한주케미칼과 함께 100% 지배 구조로 공시된다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000595"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "블랙야크아이앤씨",
+   "target": "에스티베타제일차",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "블랙야크아이앤씨가 지분 100%를 보유한 연결대상 주요종속회사이며 금융업을 영위한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000595"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "블랙야크아이앤씨",
+   "target": "에스티브라보제일차",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "지분율은 0%지만 관련 활동을 지시할 힘과 변동이익 노출을 근거로 연결 종속회사에 포함한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000595"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "블랙야크아이앤씨",
+   "target": "한주케미칼",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "에스티베타제일차를 통해 지배하는 연결 종속회사로 가스소화설비 제조·판매 사업을 영위한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000595"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
@@ -70411,6 +70666,28 @@
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000451",
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001002"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "블랙야크아이앤씨",
+   "target": "펜타게이트",
+   "type": "출자",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "산업안전 스마트 PPE와 현장 모니터링 시너지를 위해 영상분석 기술 회사의 지분에 투자했다고 반기보고서에 기재한다. 지분율·금액은 해당 공시에서 확인하지 않았다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000595"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
@@ -98074,6 +98351,38 @@
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000451",
       "http://www.vtgmpcorp.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "블랙야크아이앤씨",
+   "target": "패션·의류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "산업안전용품·워크웨어",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "산업용 안전화·안전용품·안전복 개발·제조와 WORXONE·BLACKYAK WORK WEAR 브랜드 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000595",
+      "http://www.blackyakinc.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
