@@ -26583,6 +26583,14 @@
    ],
    "themes": [
     {
+     "theme": "유통·전자상거래",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "오토앤",
+     "via_type": "공급사"
+    },
+    {
      "theme": "자동차·부품",
      "tier": 1,
      "stage": "완성차",
@@ -57512,6 +57520,168 @@
    ]
   },
   {
+   "id": "오토앤",
+   "type": "company",
+   "path": "companies/오토앤",
+   "summary": "자동차 애프터마켓과 비포마켓을 연결하는 모빌리티 생활 플랫폼 기업",
+   "market": "KOSDAQ",
+   "ticker": "353590",
+   "dart_corp_code": "01084294",
+   "aliases": [
+    "AUTO&",
+    "AUTO& INC."
+   ],
+   "krx_industry": "자동차 부품 및 내장품 판매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차 애프터마켓·비포마켓 상품과 서비스를 연결하는 플랫폼 사업 및 현대자동차·기아와의 신차 옵션·지급품 공급을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003504",
+      "https://www.auton.kr/company/business",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "B2C·B2B 이커머스와 O2O 커머스 시스템을 운영하고 차량관리·튜닝·액세서리 상품과 서비스를 유통하는 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003504",
+      "https://www.auton.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "유통·전자상거래",
+     "tier": 1,
+     "stage": "쇼핑몰 운영 기반",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "유통·전자상거래",
+       "page": "유통·전자상거래",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "B2C·B2B 이커머스와 O2O 커머스 시스템을 운영하고 차량관리·튜닝·액세서리 상품과 서비스를 유통하는 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003504",
+        "https://www.auton.kr/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "자동차 판매·서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "자동차 애프터마켓·비포마켓 상품과 서비스를 연결하는 플랫폼 사업 및 현대자동차·기아와의 신차 옵션·지급품 공급을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003504",
+        "https://www.auton.kr/company/business",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "자율주행",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "현대모비스",
+     "via_type": "고객사"
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-08-14",
+     "kind": "실적",
+     "text": "2026년 상반기 연결 매출은 242.96억원, 영업손실은 25.11억원, 당기순손실은 17.50억원이다. 제품·서비스 플랫폼이 72%, 이커머스 플랫폼이 19%, SPACE ZONE 플랫폼이 8%를 차지했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003504"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-03-20",
+     "kind": "실적",
+     "text": "2025년 연결 매출은 591.12억원, 영업이익은 7.52억원, 당기순손실은 51.88억원으로 감사보고서에 제시됐다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001402"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-02-09",
+     "kind": "기타",
+     "text": "제4회 전환사채 잔액 10억원을 사채권자의 조기상환청구권 행사로 만기 전 취득해 말소했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260209900854"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2025-11-28",
+     "kind": "투자",
+     "text": "제5회 무기명식 무이권부 무보증 사모 전환사채 85억원의 납입이 완료됐다. 조달 목적은 SPACE ZONE 플랫폼의 제품·서비스 시스템 개발을 포함한 신규사업 투자다. 최초 전환가액은 3,503원, 전환가능 주식수는 2,426,491주다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251120000396",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251128901263"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "와이씨",
    "type": "company",
    "path": "companies/와이씨",
@@ -64589,6 +64759,14 @@
    ],
    "themes": [
     {
+     "theme": "유통·전자상거래",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "오토앤",
+     "via_type": "공급사"
+    },
+    {
      "theme": "자동차·부품",
      "tier": 1,
      "stage": "부품·모듈",
@@ -65324,6 +65502,14 @@
     }
    ],
    "themes": [
+    {
+     "theme": "유통·전자상거래",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "오토앤",
+     "via_type": "공급사"
+    },
     {
      "theme": "자동차·부품",
      "tier": 1,
@@ -67655,6 +67841,102 @@
      "text": "반기보고서는 한국GM을 주요 매출처로 기재하고, TWB 블랭크·차량용 부품 공급 이력을 설명한다.",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002583"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오토앤",
+   "target": "기아",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "오토앤이 기아에 판촉품을 공급하고 용역을 제공하며, KIA AddGear 컵홀더를 SW1 차량에 납품한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003504"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-06-30",
+     "text": "반기보고서가 기아에 판촉품을 공급하고 용역을 제공한다고 기재하며, KIA AddGear 컵홀더의 SW1 차량 납품도 설명한다. 2026년 상반기 매출은 7.43억원(3.05%)이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003504"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오토앤",
+   "target": "현대모비스",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "현대모비스를 통해 현대자동차·기아에 일부 신차옵션 품목을 공급한다고 반기보고서에 기재되어 있다. 2026년 상반기 매출은 28.96억원(11.89%)이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003504"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-06-30",
+     "text": "오토앤이 현대모비스를 통해 현대자동차·기아에 일부 신차옵션 품목을 공급한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003504"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오토앤",
+   "target": "현대자동차",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "반기보고서가 현대자동차에 일부 신차옵션 품목을 공급하고 개발 용역을 제공한다고 기재한다. 2026년 상반기 매출은 21.53억원(8.84%)이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003504"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-06-30",
+     "text": "오토앤이 현대자동차에 일부 신차옵션 품목을 공급하고 개발 용역을 제공한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003504"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
@@ -82515,6 +82797,21 @@
     "label": "",
     "muted": false,
     "line_style": "solid"
+   }
+  },
+  {
+   "source": "기아",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
    }
   },
   {
@@ -98805,6 +99102,84 @@
    }
   },
   {
+   "source": "오토앤",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 1,
+   "stage": "쇼핑몰 운영 기반",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "B2C·B2B 이커머스와 O2O 커머스 시스템을 운영하고 차량관리·튜닝·액세서리 상품과 서비스를 유통하는 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003504",
+      "https://www.auton.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오토앤",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "자동차 판매·서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차 애프터마켓·비포마켓 상품과 서비스를 연결하는 플랫폼 사업 및 현대자동차·기아와의 신차 옵션·지급품 공급을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003504",
+      "https://www.auton.kr/company/business",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오토앤",
+   "target": "자율주행",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
    "source": "와이씨",
    "target": "HBM·반도체",
    "type": "테마",
@@ -102835,6 +103210,21 @@
   },
   {
    "source": "현대모비스",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "현대모비스",
    "target": "자동차·부품",
    "type": "테마",
    "tier": 1,
@@ -103261,6 +103651,21 @@
     "label": "",
     "muted": false,
     "line_style": "solid"
+   }
+  },
+  {
+   "source": "현대자동차",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
    }
   },
   {
