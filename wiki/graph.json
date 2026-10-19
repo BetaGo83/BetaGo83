@@ -56333,6 +56333,159 @@
    "issues": []
   },
   {
+   "id": "오스코텍",
+   "type": "company",
+   "path": "companies/오스코텍",
+   "summary": "신약 후보물질을 발굴·개발하고 기술이전·로열티로 사업화하는 바이오 기업",
+   "market": "KOSDAQ",
+   "ticker": "039200",
+   "dart_corp_code": "00263654",
+   "aliases": [
+    "Oscotec Inc.",
+    "Oscotec"
+   ],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "신약 후보물질 발굴·임상개발과 기술이전·로열티 수익 모델을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003016",
+      "https://oscotec.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "치과용 골이식재와 치과용 의료기기 멤브레인 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003016",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "신약 연구개발",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "신약 후보물질 발굴·임상개발과 기술이전·로열티 수익 모델을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003016",
+        "https://oscotec.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "치과용 기기",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "치과용 골이식재와 치과용 의료기기 멤브레인 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003016",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-09-04",
+     "kind": "기타",
+     "text": "알츠하이머 치료 후보물질 ADEL-Y01의 임상 1a/1b상 결과보고서를 수령했다. 사노피로 기술이전된 뒤 개발 주체 전환에 따라 오스코텍이 참여하던 기존 임상은 사업상 종료됐고, 후속 임상개발은 사노피가 진행할 예정이라고 공시했다. 임상 결과 수령은 품목허가나 상용화를 뜻하지 않는다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904900624"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-06-17",
+     "kind": "계약",
+     "text": "Agios Pharmaceuticals와 세비도플레닙(SKI-O-703) 글로벌 독점 라이선스 계약의 정정 공시를 제출했다. 선급금·마일스톤·로열티는 조건부 계약 금액이며 실제 수익은 개발·허가·상업화 결과에 따라 달라진다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617900457"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-05-22",
+     "kind": "기타",
+     "text": "SKI-O-703의 약물 제형 변경을 위한 임상 1상 IND 승인을 공시했다. 승인된 임상시험계획 단계이며 품목허가를 의미하지 않는다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260522900751"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-02-27",
+     "kind": "실적",
+     "text": "2025년 매출액은 998.39억원, 영업이익은 520.83억원으로 공시됐으며 기술이전·마일스톤 수익이 실적 변동의 주요 원인으로 설명됐다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227901564"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "와이씨",
    "type": "company",
    "path": "companies/와이씨",
@@ -64821,6 +64974,12 @@
    "summary": "위키 페이지가 아직 없는 상대"
   },
   {
+   "id": "Ectodor Therapeutics Inc.",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
    "id": "Ford Motor Company",
    "type": "external",
    "path": null,
@@ -64828,6 +64987,12 @@
   },
   {
    "id": "GPSC",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "Genosco Inc.",
    "type": "external",
    "path": null,
    "summary": "위키 페이지가 아직 없는 상대"
@@ -64948,6 +65113,12 @@
   },
   {
    "id": "솔라엣지 테크놀로지스 코리아",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "아지오스",
    "type": "external",
    "path": null,
    "summary": "위키 페이지가 아직 없는 상대"
@@ -65110,6 +65281,50 @@
     "label": "확인 중",
     "muted": false,
     "line_style": "dashed"
+   }
+  },
+  {
+   "source": "Ectodor Therapeutics Inc.",
+   "target": "오스코텍",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "DART 반기보고서의 종속기업 표에 Ectodor Therapeutics Inc.를 미국 소재 100% 종속기업으로 기재한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003016"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "Genosco Inc.",
+   "target": "오스코텍",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "DART 반기보고서는 Genosco Inc.를 미국 보스턴 기반의 신약 후보물질 발굴·연구개발을 수행하는 주요 종속회사로 기재하고 지분율을 59.31%로 공시한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003016"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
    }
   },
   {
@@ -96537,6 +96752,69 @@
    }
   },
   {
+   "source": "오스코텍",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "신약 연구개발",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "신약 후보물질 발굴·임상개발과 기술이전·로열티 수익 모델을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003016",
+      "https://oscotec.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오스코텍",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "치과용 기기",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "치과용 골이식재와 치과용 의료기기 멤브레인 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003016",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "와이씨",
    "target": "HBM·반도체",
    "type": "테마",
@@ -101616,6 +101894,28 @@
     "label": "확인 중",
     "muted": false,
     "line_style": "dashed"
+   }
+  },
+  {
+   "source": "아지오스",
+   "target": "오스코텍",
+   "type": "협력",
+   "evidence": [
+    {
+     "date": "2026-06-01",
+     "text": "세비도플레닙(SKI-O-703)에 대한 글로벌 독점 라이선스 계약을 체결했다. 선급금은 2,500만 달러, 개발·상업화 조건부 마일스톤은 최대 6억4,000만 달러이며 경상기술료 조건이 포함된다. 계약 이행과 수익 인식은 임상·허가·상업화 성공 여부에 따라 달라질 수 있다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617900457"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
    }
   },
   {
