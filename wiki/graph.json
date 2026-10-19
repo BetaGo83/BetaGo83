@@ -57177,6 +57177,139 @@
    ]
   },
   {
+   "id": "오킨스전자",
+   "type": "company",
+   "path": "companies/오킨스전자",
+   "summary": "반도체 검사용 소켓·컨택핀과 반도체 테스트 용역을 제공하는 후공정 기업",
+   "market": "KOSDAQ",
+   "ticker": "080580",
+   "dart_corp_code": "00543107",
+   "aliases": [
+    "OKins Electronics",
+    "OKins Electronics Co., Ltd."
+   ],
+   "krx_industry": "전자부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "반도체 검사용 소켓·컨택핀 제조와 웨이퍼·패키지 테스트 용역을 확인했다. AI·HBM 수요 언급은 공시의 자금조달 배경으로 별도 매출·공급 사실과 구분했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001460",
+      "https://okins.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "검사 장비·부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "반도체 검사용 소켓·컨택핀 제조와 웨이퍼·패키지 테스트 용역을 확인했다. AI·HBM 수요 언급은 공시의 자금조달 배경으로 별도 매출·공급 사실과 구분했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001460",
+        "https://okins.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-08-14",
+     "kind": "실적",
+     "text": "2026년 상반기 연결 매출은 606.96억원, 영업이익은 120.01억원, 당기순이익은 125.71억원이다. 제품 매출 91.9%와 반도체 테스트 용역 6.7%가 대부분을 차지한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001460"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-04-10",
+     "kind": "기타",
+     "text": "제9회 전환사채 전환청구로 509,779주가 발행되었고 전환가액은 5,276원이다. 공시상 발행주식 총수 대비 2.48%이며 신주 상장 예정일은 2026-05-04다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260410900858"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-02-25",
+     "kind": "기타",
+     "text": "제10회 교환사채의 교환청구로 자기주식 476,513주가 교부되었다. 교환가액은 12,180원이며 신주 발행 없이 자기주식을 교부한 거래다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260225901568"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-02-09",
+     "kind": "실적",
+     "text": "2025년 연결 매출은 943.74억원, 영업이익은 121.17억원, 당기순이익은 80.49억원으로 공시됐다. 회사는 반도체 시장 활성화와 투자 확대를 주요 변동 원인으로 제시했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260209900625"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-01-26",
+     "kind": "기타",
+     "text": "최대주주 전진국이 보유주식 담보대출을 전액 상환하고 유안타증권 120,000주와 케이프투자증권 106,383주의 담보계약을 해지했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260126000446"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-01-19",
+     "kind": "투자",
+     "text": "시설자금 58.04억원을 조달하는 제10회 무기명식 사모 교환사채의 납입이 완료됐다. 교환 대상은 자기주식 476,513주이며 표면·만기이자율은 0%다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260119900583",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260108000626"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "와이씨",
    "type": "company",
    "path": "companies/와이씨",
@@ -65659,6 +65792,12 @@
    "summary": "위키 페이지가 아직 없는 상대"
   },
   {
+   "id": "(주)한국영다반도체",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
    "id": "AUSTEM AMERICA Inc.",
    "type": "external",
    "path": null,
@@ -65774,6 +65913,12 @@
   },
   {
    "id": "OE Solutions Japan Co., Ltd.",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "Okins Electronics (SUZHOU) Co., LTD.",
    "type": "external",
    "path": null,
    "summary": "위키 페이지가 아직 없는 상대"
@@ -66065,6 +66210,28 @@
    }
   },
   {
+   "source": "(주)한국영다반도체",
+   "target": "오킨스전자",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "국내 64.56% 종속회사. 반도체 테스트와 관련 장비·부품 사업을 수행한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001460"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "AUSTEM AMERICA Inc.",
    "target": "오스템",
    "type": "계열",
@@ -66249,6 +66416,28 @@
      "text": "반기보고서가 지분 100%의 연결대상 종속회사로 기재하며, 일본 통신장비 판매 법인으로 설명한다.",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002929"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "Okins Electronics (SUZHOU) Co., LTD.",
+   "target": "오킨스전자",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "중국 소재 95.45% 종속회사. CIS 패키지와 비메모리 웨이퍼 테스트를 수행한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001460"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
@@ -98166,6 +98355,38 @@
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002929",
       "http://www.oesolution.com",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오킨스전자",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "검사 장비·부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "반도체 검사용 소켓·컨택핀 제조와 웨이퍼·패키지 테스트 용역을 확인했다. AI·HBM 수요 언급은 공시의 자금조달 배경으로 별도 매출·공급 사실과 구분했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001460",
+      "https://okins.co.kr/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
