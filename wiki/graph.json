@@ -517,7 +517,8 @@
     "태양광·풍력 발전 및 개발",
     "태양광 발전·나노소재",
     "바이오매스·풍력",
-    "바이오연료·바이오중유"
+    "바이오연료·바이오중유",
+    "재생에너지 사업 계획"
    ]
   },
   {
@@ -47556,9 +47557,9 @@
      "theme": "HBM·반도체",
      "tier": 2,
      "stage": "",
-     "score": 2.73,
-     "via": "SK하이닉스",
-     "via_type": "고객사"
+     "score": 1.18,
+     "via": "디아이",
+     "via_type": "피출자"
     }
    ],
    "issues": []
@@ -53120,6 +53121,104 @@
    ]
   },
   {
+   "id": "블루콤",
+   "type": "company",
+   "path": "companies/블루콤",
+   "summary": "무선헤드셋 사업을 종료하고 부동산 투자·임대로 전환 중인 코스닥 기업",
+   "market": "KOSDAQ",
+   "ticker": "033560",
+   "dart_corp_code": "00238001",
+   "aliases": [
+    "BLUECOM",
+    "BLUECOM CO.,LTD."
+   ],
+   "krx_industry": "영상 및 음향기기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공시·거래소 확인",
+     "status": "계획(확인 중)",
+     "date": "2026-08-14",
+     "text": "신재생에너지 전력 생산·판매업을 정관에 추가하고 추진 중이지만, 가시적 사업성과와 매출은 아직 없음을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002219"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "재생에너지",
+     "tier": 1,
+     "stage": "재생에너지 사업 계획",
+     "score": 0.31,
+     "classifications": [
+      {
+       "topic": "재생에너지",
+       "page": "재생에너지",
+       "classification": "공시·거래소 확인",
+       "status": "계획(확인 중)",
+       "date": "2026-08-14",
+       "text": "신재생에너지 전력 생산·판매업을 정관에 추가하고 추진 중이지만, 가시적 사업성과와 매출은 아직 없음을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002219"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "계획(확인 중)",
+      "muted": false,
+      "line_style": "dashed"
+     }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-09-07",
+     "kind": "기타",
+     "text": "100% 종속회사 블루콤 비나의 토지·건물 매각 잔금 수령이 완료됐다고 정정 공시했다. 매각 완료 사실만 기록하며 법인 청산·연결 해지는 확인하지 않았다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908900398"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-03-27",
+     "kind": "정책",
+     "text": "신재생에너지 전력 생산·판매업을 정관 목적에 추가했다. 반기보고서는 추진 중이지만 아직 가시적 사업성과나 매출이 없다고 설명한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002219"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": [
+      "재생에너지"
+     ]
+    },
+    {
+     "date": "2025-12-05",
+     "kind": "기타",
+     "text": "무선헤드셋 ODM 개발·제조 사업을 중단하고 LG전자와 사업종료 계약을 완료했다고 공시했다. 영업정지 금액은 157.30억원, 최근 매출총액 대비 85.9%로 기재됐다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251205000147",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251205000232"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "산일전기",
    "type": "company",
    "path": "companies/산일전기",
@@ -56517,8 +56616,8 @@
      "theme": "2차전지",
      "tier": 2,
      "stage": "",
-     "score": 2.17,
-     "via": "포스코퓨처엠",
+     "score": 1.94,
+     "via": "엘앤에프",
      "via_type": "공급사"
     }
    ],
@@ -60358,14 +60457,6 @@
       "muted": false,
       "line_style": "solid"
      }
-    },
-    {
-     "theme": "ESS",
-     "tier": 2,
-     "stage": "",
-     "score": 0.0,
-     "via": "삼성SDI",
-     "via_type": "고객사"
     }
    ],
    "issues": [
@@ -67809,6 +67900,12 @@
    "summary": "위키 페이지가 아직 없는 상대"
   },
   {
+   "id": "BLUECOM VINA CO., LTD.",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
    "id": "BMW",
    "type": "external",
    "path": null,
@@ -68390,6 +68487,28 @@
      "text": "2021년 설립된 미국 법인이며 2026년 반기 연결대상 종속회사.",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002583"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "BLUECOM VINA CO., LTD.",
+   "target": "블루콤",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "2026년 반기말 블루콤이 지분 100%를 보유한 연결 종속회사이며 통신기기부품 생산·판매를 담당했다. 무선이어폰 사업 종료와 베트남 자산 매각 진행 사실은 별도로 기록한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002219"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
@@ -69907,6 +70026,38 @@
    "presentation": {
     "label": "",
     "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "블루콤",
+   "target": "LG전자",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2025-12-05",
+     "text": "블루콤과의 무선헤드셋 ODM 개발·제조 사업종료 계약이 2025-12-05 완료됐다. 현재 공급관계로 해석하지 않는다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251205000232"
+     ],
+     "status": "종료",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2025-12-05",
+     "text": "블루콤의 무선헤드셋 ODM 개발·제조 사업과 LG전자 간 사업종료 계약이 2025-12-05 완료됐다. 현재 공급관계로 해석하지 않는다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251205000232"
+     ],
+     "status": "종료",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "종료",
+    "muted": true,
     "line_style": "solid"
    }
   },
@@ -96823,7 +96974,7 @@
    "type": "테마",
    "tier": 2,
    "stage": "",
-   "score": 2.73,
+   "score": 1.18,
    "evidence": [],
    "classifications": [],
    "presentation": {
@@ -99606,6 +99757,47 @@
    }
   },
   {
+   "source": "블루콤",
+   "target": "재생에너지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "재생에너지 사업 계획",
+   "score": 0.31,
+   "evidence": [
+    {
+     "date": "2026-03-27",
+     "kind": "정책",
+     "text": "신재생에너지 전력 생산·판매업을 정관 목적에 추가했다. 반기보고서는 추진 중이지만 아직 가시적 사업성과나 매출이 없다고 설명한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002219"
+     ],
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공시·거래소 확인",
+     "status": "계획(확인 중)",
+     "date": "2026-08-14",
+     "text": "신재생에너지 전력 생산·판매업을 정관에 추가하고 추진 중이지만, 가시적 사업성과와 매출은 아직 없음을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002219"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "계획(확인 중)",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
    "source": "산일전기",
    "target": "전력망·전력기기",
    "type": "테마",
@@ -101549,7 +101741,7 @@
    "type": "테마",
    "tier": 2,
    "stage": "",
-   "score": 2.17,
+   "score": 1.94,
    "evidence": [],
    "classifications": [],
    "presentation": {
@@ -103521,21 +103713,6 @@
     "label": "",
     "muted": false,
     "line_style": "solid"
-   }
-  },
-  {
-   "source": "자비스",
-   "target": "ESS",
-   "type": "테마",
-   "tier": 2,
-   "stage": "",
-   "score": 0.0,
-   "evidence": [],
-   "classifications": [],
-   "presentation": {
-    "label": "확인 중",
-    "muted": false,
-    "line_style": "dashed"
    }
   },
   {

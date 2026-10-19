@@ -276,7 +276,8 @@ def score_theme(theme, info, companies, today):
             continue
         links = [
             (rel["target"], rel["type"]) for rel in company["relations"]
-            if rel["type"] in SECOND_ORDER and rel["target"] in first
+            if (rel["type"] in SECOND_ORDER and rel.get("status") == "확인"
+                    and rel["target"] in first)
         ]
         if links:
             via, kind = max(links, key=lambda link: (first[link[0]]["score"], link[0]))
