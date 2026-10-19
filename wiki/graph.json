@@ -146,6 +146,7 @@
    "stages": [
     "건설기계",
     "유공압기기·유압실린더",
+    "분체이송·플랜트 엔지니어링",
     "소형·중장비",
     "공작기계·산업용 로봇",
     "금속성형·프레스",
@@ -46897,6 +46898,114 @@
    "issues": []
   },
   {
+   "id": "디와이피엔에프",
+   "type": "company",
+   "path": "companies/디와이피엔에프",
+   "summary": "분체이송시스템과 환경 플랜트 설비를 설계·제작·설치하는 산업 엔지니어링 기업",
+   "market": "KOSDAQ",
+   "ticker": "104460",
+   "dart_corp_code": "00602136",
+   "aliases": [
+    "DYPNF",
+    "DYP&F"
+   ],
+   "krx_industry": "일반 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "산업 플랜트용 분체이송시스템의 설계·제작·설치·시운전과 E&R 엔지니어링을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001743",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001743&dcmNo=11170314&eleId=9&offset=96346&length=98581&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001743&dcmNo=11170314&eleId=11&offset=98593&length=6869&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "탈황·질소산화물 저감·회처리·전기집진 설비와 친환경 플랜트 엔지니어링을 환경사업으로 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001743",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001743&dcmNo=11170314&eleId=11&offset=98593&length=6869&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "분체이송·플랜트 엔지니어링",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "산업 플랜트용 분체이송시스템의 설계·제작·설치·시운전과 E&R 엔지니어링을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001743",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001743&dcmNo=11170314&eleId=9&offset=96346&length=98581&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001743&dcmNo=11170314&eleId=11&offset=98593&length=6869&dtd=dart4.xsd"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "환경·자원순환",
+     "tier": 1,
+     "stage": "환경엔지니어링·환경서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "환경·자원순환",
+       "page": "환경·자원순환",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "탈황·질소산화물 저감·회처리·전기집진 설비와 친환경 플랜트 엔지니어링을 환경사업으로 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001743",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001743&dcmNo=11170314&eleId=11&offset=98593&length=6869&dtd=dart4.xsd"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "디지털프론티어",
    "type": "company",
    "path": "companies/디지털프론티어",
@@ -87703,6 +87812,69 @@
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001465&dcmNo=11129099&eleId=11&offset=77951&length=7900&dtd=dart4.xsd",
       "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01059605",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디와이피엔에프",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "분체이송·플랜트 엔지니어링",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "산업 플랜트용 분체이송시스템의 설계·제작·설치·시운전과 E&R 엔지니어링을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001743",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001743&dcmNo=11170314&eleId=9&offset=96346&length=98581&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001743&dcmNo=11170314&eleId=11&offset=98593&length=6869&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디와이피엔에프",
+   "target": "환경·자원순환",
+   "type": "테마",
+   "tier": 1,
+   "stage": "환경엔지니어링·환경서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "탈황·질소산화물 저감·회처리·전기집진 설비와 친환경 플랜트 엔지니어링을 환경사업으로 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001743",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001743&dcmNo=11170314&eleId=11&offset=98593&length=6869&dtd=dart4.xsd"
      ],
      "malformed": ""
     }
