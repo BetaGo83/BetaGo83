@@ -49804,6 +49804,246 @@
    ]
   },
   {
+   "id": "램테크놀러지",
+   "type": "company",
+   "path": "companies/램테크놀러지",
+   "summary": "반도체·디스플레이·2차전지 공정에 쓰이는 전자화학 소재를 제조·판매하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "171010",
+   "dart_corp_code": "00654272",
+   "aliases": [
+    "RAM TECHNOLOGY CO., LTD.",
+    "램테크놀러지(주)"
+   ],
+   "krx_industry": "기초 화학물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "반도체 공정용 식각·박리·세정·증착 소재와 HBM·TGV·TSV 전용 설비 투자를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002312",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930900492",
+      "http://www.ramtech.co.kr/m21.php"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "OLED 메탈마스크 세정액과 디스플레이용 식각·박리·세정·용해액을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002312",
+      "http://www.ramtech.co.kr/m21.php"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "`2nd-Battery` 제품 매출과 2차전지 관련 소재·부품 사업목적을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002312",
+      "http://www.ramtech.co.kr/m21.php"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "전자산업용 기능성 화학소재 제조·판매와 기초 화학물질 제조업 업종을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002312",
+      "http://www.ramtech.co.kr/m21.php"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "배터리 공정 소재·부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "`2nd-Battery` 제품 매출과 2차전지 관련 소재·부품 사업목적을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002312",
+        "http://www.ramtech.co.kr/m21.php"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "반도체 공정 소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "반도체 공정용 식각·박리·세정·증착 소재와 HBM·TGV·TSV 전용 설비 투자를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002312",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930900492",
+        "http://www.ramtech.co.kr/m21.php"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "디스플레이 소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "디스플레이",
+       "page": "디스플레이",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "OLED 메탈마스크 세정액과 디스플레이용 식각·박리·세정·용해액을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002312",
+        "http://www.ramtech.co.kr/m21.php"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "기초·첨단화학소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "전자산업용 기능성 화학소재 제조·판매와 기초 화학물질 제조업 업종을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002312",
+        "http://www.ramtech.co.kr/m21.php"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-09-30",
+     "kind": "투자",
+     "text": "금산 공장 리모델링·증설 투자가 완료됐다. 최종 투자금액은 97.85억원이며, HBM·TGV·TSV 전용 생산설비와 인산 정제·불산 자동화 설비가 목적에 포함됐다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930900492"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-08-31",
+     "kind": "투자",
+     "text": "용인 반도체 클러스터 스마트팩토리 투자 공시에서 토지 필지 변경이 정정됐다. 총 투자금액 555억원과 반도체·IT 화학소재 생산 목적은 유지되며, 공장 완공으로 표현하지 않는다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831900561"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-08-14",
+     "kind": "실적",
+     "text": "2026년 상반기 별도 매출은 215.96억원으로, 식각액·HYCL품·불산계 제품·박리액이 주요 제품 매출을 구성했다. 2차전지용 제품 매출도 별도 표기됐다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002312"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-02-09",
+     "kind": "실적",
+     "text": "2025년 매출액은 357.93억원으로 전년 대비 감소했고 영업손실과 순손실을 기록했다. 이 수치는 과거 연간 실적이며 현재 사업 분류와 섞지 않는다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260209901216",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001255"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "레인보우로보틱스",
    "type": "company",
    "path": "companies/레인보우로보틱스",
@@ -92180,6 +92420,131 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002390",
       "https://www.raphas.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "램테크놀러지",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "배터리 공정 소재·부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "`2nd-Battery` 제품 매출과 2차전지 관련 소재·부품 사업목적을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002312",
+      "http://www.ramtech.co.kr/m21.php"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "램테크놀러지",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "반도체 공정 소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "반도체 공정용 식각·박리·세정·증착 소재와 HBM·TGV·TSV 전용 설비 투자를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002312",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930900492",
+      "http://www.ramtech.co.kr/m21.php"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "램테크놀러지",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "디스플레이 소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "OLED 메탈마스크 세정액과 디스플레이용 식각·박리·세정·용해액을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002312",
+      "http://www.ramtech.co.kr/m21.php"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "램테크놀러지",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기초·첨단화학소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "전자산업용 기능성 화학소재 제조·판매와 기초 화학물질 제조업 업종을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002312",
+      "http://www.ramtech.co.kr/m21.php"
      ],
      "malformed": ""
     }
