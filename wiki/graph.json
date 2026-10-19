@@ -310,7 +310,8 @@
     "기업 IT서비스",
     "차량 소프트웨어·IT서비스",
     "시스템 구축·운영",
-    "문서·AI 소프트웨어"
+    "문서·AI 소프트웨어",
+    "소프트웨어 유통·기술지원"
    ]
   },
   {
@@ -45138,6 +45139,131 @@
    "issues": []
   },
   {
+   "id": "디모아",
+   "type": "company",
+   "path": "companies/디모아",
+   "summary": "글로벌 소프트웨어 총판과 기술지원 서비스를 제공하는 IT 유통 기업",
+   "market": "KOSDAQ",
+   "ticker": "016670",
+   "dart_corp_code": "00125725",
+   "aliases": [
+    "DIMOAI",
+    "Dimoa"
+   ],
+   "krx_industry": "기타 전문 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "소프트웨어 총판과 기술지원 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000639",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00125725",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "소프트웨어·IT서비스",
+     "tier": 1,
+     "stage": "소프트웨어 유통·기술지원",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "소프트웨어·IT서비스",
+       "page": "소프트웨어·IT서비스",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "소프트웨어 총판과 기술지원 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000639",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00125725",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "디바이스",
+   "type": "company",
+   "path": "companies/디바이스",
+   "summary": "OLED 마스크와 반도체 웨이퍼 운반용기 세정 장비를 공급하는 공정 장비 기업",
+   "market": "KOSDAQ",
+   "ticker": "187870",
+   "dart_corp_code": "00624509",
+   "aliases": [
+    "디바이스이엔지",
+    "DEVICE ENG"
+   ],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체 · 디스플레이",
+     "page": "",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "반도체 FOUP 세정과 OLED FM MASK 세정·검사 장비를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001111",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00624509",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "반도체 제조 장비",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "디아이",
    "type": "company",
    "path": "companies/디아이",
@@ -85180,6 +85306,68 @@
      "malformed": ""
     }
    ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디모아",
+   "target": "소프트웨어·IT서비스",
+   "type": "테마",
+   "tier": 1,
+   "stage": "소프트웨어 유통·기술지원",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "소프트웨어 총판과 기술지원 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000639",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00125725",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디바이스",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "반도체 제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디바이스",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
    "presentation": {
     "label": "",
     "muted": false,
