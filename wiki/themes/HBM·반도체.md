@@ -39,6 +39,7 @@ category: "기술·디지털"
 - 시스템반도체 파운드리: [[DB하이텍]] ([DB하이텍 회사소개](https://www.dbhitek.com/kr/company/about))
 - 시스템반도체 설계·IP: [[가온칩스]] ([가온칩스 공식 What We do](https://www.gaonchips.com/kr/), [한국거래소 KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt)), [[글로벌테크놀로지]] ([한국거래소 KIND 기업공시](https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20251111000317&method=searchListInvstgCorpDetail), [글로벌테크놀로지 공식 홈페이지](https://www.glbltech.com/)) · [[동운아나텍]] ([동운아나텍 공식 홈페이지](https://www.dwanatech.com), [DART 사업보고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000936))
 
+- 반도체 공정 소재: [[디엔에프]] ([DART 사업보고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001118), [DART 기업개황](https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00569691))
 ## 관련 기업
 <!-- scripts/build_graph.py가 만드는 표. 손으로 고치지 않는다 -->
 
@@ -85,6 +86,7 @@ category: "기술·디지털"
 | [[디아이]] | AI 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
 | [[디아이]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage) |
 | [[디아이]] | HBM 수요 확대 | 공시·거래소 확인 | 확인 | 2026-03-12 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001121) |
+| [[디엔에프]] | HBM·반도체 | 공시·거래소 확인 | 확인 | 2026-10-19 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001118), [출처](https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00569691), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[마이크론]] | HBM 수요 확대 | 후보 | 후보(확인 중) | 2026-10-01 | 기사 제목 · 약한 근거 [출처](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5XNElDZXBLNTd3VmNlMUZjTzkyT2dwM0FScl9ybWtxb2wyRGxURy1aV2VSZ1c3MFVabFdBQUpuQU9HYTlfSERvWTIzandnMHRKUkMxSWRJdEdpd3RBeTR1V3BtU3M?oc=5) |
 | [[마이크론]] | 반도체 | 후보 | 후보(확인 중) | 2026-10-01 | 기사 제목 · 약한 근거 [출처](https://news.google.com/rss/articles/CBMiWkFVX3lxTFBra2pkdEY0QkRRQkxWd3RVZFVsaFhLMDJrUzRFT0lGMFJvalNzZWFfZE5aYVhDbTh2UjhmbGxHQnJMQUpEc01JTWlJM0hRVm96R09OWDRPSzRLZ9IBWEFVX3lxTFAtYS1hNjZ5TzN3a09LeG5Cd1VFV2pBU083SktkYm11LWEwODNkTDBCM2Q1N2lDUUNpYzVkWWUyaU9fRzl2SGJldzZtUWxvdEJ1TXMyZ2RDSWs?oc=5) |
 | [[베시]] | 반도체 | 후보 | 후보(확인 중) | 2026-10-02 | 기사 제목 · 약한 근거 [출처](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KdXh0SllfSlRabUJDUllHTnQ3NWNIWko4RFNpakJncXhacnRjTWdSNGJSNGFkanE4aXpURzNiXzBoVnlvdl9FNk1mMExJc0x2WGxyRG0yWDUwM044RWhOUVZFTjh1QQ?oc=5) |
