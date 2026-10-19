@@ -37,7 +37,8 @@
     "AI 모델·서비스",
     "AI·클라우드 구축·운영",
     "클라우드 인프라 서비스",
-    "AI·영상보안"
+    "AI·영상보안",
+    "영상 AI·디지털트윈 솔루션"
    ]
   },
   {
@@ -289,7 +290,8 @@
     "정보보안 솔루션",
     "클라우드 보안 관제",
     "보안관리·관제",
-    "차량 보안 소프트웨어"
+    "차량 보안 소프트웨어",
+    "콘텐츠 보호·보안 SW"
    ]
   },
   {
@@ -317,7 +319,8 @@
     "차량 소프트웨어·IT서비스",
     "시스템 구축·운영",
     "문서·AI 소프트웨어",
-    "소프트웨어 유통·기술지원"
+    "소프트웨어 유통·기술지원",
+    "디지털콘텐츠·방송 SW"
    ]
   },
   {
@@ -47166,6 +47169,161 @@
    "issues": []
   },
   {
+   "id": "디지캡",
+   "type": "company",
+   "path": "companies/디지캡",
+   "summary": "영상·디지털콘텐츠의 보안과 AI, 방송·콘텐츠 소프트웨어를 제공하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "197140",
+   "dart_corp_code": "00681373",
+   "aliases": [
+    "DigiCAP",
+    "DigiCAP Co., Ltd."
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "영상 AI와 디지털트윈 소프트웨어·솔루션 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001426",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=10&offset=149337&length=6334&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=11&offset=155675&length=8743&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "사이버보안",
+     "page": "사이버보안",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "CAS·DRM·LMM Security 등 영상·콘텐츠 보호 보안 소프트웨어를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001426",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=10&offset=149337&length=6334&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=11&offset=155675&length=8743&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "콘텐츠 제작·관리·배포와 IPTV·디지털케이블TV용 방송 솔루션을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001426",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=10&offset=149337&length=6334&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=11&offset=155675&length=8743&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "AI·클라우드",
+     "tier": 1,
+     "stage": "영상 AI·디지털트윈 솔루션",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "AI·클라우드",
+       "page": "AI·클라우드",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "영상 AI와 디지털트윈 소프트웨어·솔루션 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001426",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=10&offset=149337&length=6334&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=11&offset=155675&length=8743&dtd=dart4.xsd"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "사이버보안",
+     "tier": 1,
+     "stage": "콘텐츠 보호·보안 SW",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "사이버보안",
+       "page": "사이버보안",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "CAS·DRM·LMM Security 등 영상·콘텐츠 보호 보안 소프트웨어를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001426",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=10&offset=149337&length=6334&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=11&offset=155675&length=8743&dtd=dart4.xsd"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "소프트웨어·IT서비스",
+     "tier": 1,
+     "stage": "디지털콘텐츠·방송 SW",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "소프트웨어·IT서비스",
+       "page": "소프트웨어·IT서비스",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "콘텐츠 제작·관리·배포와 IPTV·디지털케이블TV용 방송 솔루션을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001426",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=10&offset=149337&length=6334&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=11&offset=155675&length=8743&dtd=dart4.xsd"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "디지털프론티어",
    "type": "company",
    "path": "companies/디지털프론티어",
@@ -88131,6 +88289,102 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002586",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260310002586&dcmNo=11103762&eleId=9&offset=137441&length=142842&dtd=dart4.xsd",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260310002586&dcmNo=11103762&eleId=11&offset=148774&length=8872&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디지캡",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 1,
+   "stage": "영상 AI·디지털트윈 솔루션",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "영상 AI와 디지털트윈 소프트웨어·솔루션 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001426",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=10&offset=149337&length=6334&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=11&offset=155675&length=8743&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디지캡",
+   "target": "사이버보안",
+   "type": "테마",
+   "tier": 1,
+   "stage": "콘텐츠 보호·보안 SW",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "사이버보안",
+     "page": "사이버보안",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "CAS·DRM·LMM Security 등 영상·콘텐츠 보호 보안 소프트웨어를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001426",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=10&offset=149337&length=6334&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=11&offset=155675&length=8743&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디지캡",
+   "target": "소프트웨어·IT서비스",
+   "type": "테마",
+   "tier": 1,
+   "stage": "디지털콘텐츠·방송 SW",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "콘텐츠 제작·관리·배포와 IPTV·디지털케이블TV용 방송 솔루션을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001426",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=10&offset=149337&length=6334&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=11&offset=155675&length=8743&dtd=dart4.xsd"
      ],
      "malformed": ""
     }

@@ -4,7 +4,7 @@ name: "소프트웨어·IT서비스"
 aliases: []
 category: "기술·디지털"
 keywords: ["IT서비스", "시스템 구축 운영", "차량 소프트웨어"]
-stages: ["기업 IT서비스", "차량 소프트웨어·IT서비스", "시스템 구축·운영", "문서·AI 소프트웨어", "소프트웨어 유통·기술지원"]
+stages: ["기업 IT서비스", "차량 소프트웨어·IT서비스", "시스템 구축·운영", "문서·AI 소프트웨어", "소프트웨어 유통·기술지원", "디지털콘텐츠·방송 SW"]
 updated: "2026-10-19"
 ---
 
@@ -26,6 +26,7 @@ updated: "2026-10-19"
 - 시스템 구축·운영: [[LG씨엔에스]] ([한국거래소 KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt)), [[롯데이노베이트]] ([공식 사업자료](https://www.lotteinnovate.com/ko/business/infra/cloud/intro)), [[E8]] ([E8 공식 홈페이지](https://e8ight.co.kr/), [E8 회사 소개](https://e8ight.co.kr/company/)), [[DB]] ([DB Inc. SI 사업](https://www.dbinc.co.kr/main/content/view/dx_si.do)), [[LS티라유텍]] ([KIND 사업보고서](https://kind.krx.co.kr/external/2026/03/11/000618/20260311001698/11011.htm)) · [[대신정보통신]] ([대신정보통신 공식 홈페이지](http://www.dsic.co.kr), [DART 정기공시](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000310))
 - 문서·AI 소프트웨어: [[한컴]] ([한컴 공식 홈페이지](https://www.hancom.com/ko), [한컴 회사개요](https://shop.hancom.com/about/company))
 - 소프트웨어 유통·기술지원: [[디모아]] ([DART 사업보고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000639), [DART 기업개황](https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00125725))
+- 디지털콘텐츠·방송 SW: [[디지캡]] ([DART 사업보고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001426), [주요 제품 및 서비스 원문](https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=11&offset=155675&length=8743&dtd=dart4.xsd))
 
 ## 관련 기업
 
@@ -49,6 +50,7 @@ updated: "2026-10-19"
 | [[동국알앤에스]] | 소프트웨어·IT서비스 | 공시·거래소 확인 | 확인 | 2026-10-19 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000774) |
 | [[두산]] | 소프트웨어·IT서비스 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](http://www.doosancorp.co.kr), [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000945), [출처](https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00117212), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[디모아]] | 소프트웨어·IT서비스 | 공시·거래소 확인 | 확인 | 2026-10-19 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000639), [출처](https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00125725), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
+| [[디지캡]] | 소프트웨어·IT서비스 | 공시·거래소 확인 | 확인 | 2026-10-19 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001426), [출처](https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=10&offset=149337&length=6334&dtd=dart4.xsd), [출처](https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=11&offset=155675&length=8743&dtd=dart4.xsd) |
 | [[롯데이노베이트]] | 소프트웨어·IT서비스 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.lotteinnovate.com/ko/business/infra/cloud/intro), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[삼성에스디에스]] | 소프트웨어·IT서비스 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[한컴]] | 소프트웨어·IT서비스 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.hancom.com/ko), [출처](https://shop.hancom.com/about/company), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |

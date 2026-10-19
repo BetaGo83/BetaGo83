@@ -4,7 +4,7 @@ name: "AI·클라우드"
 aliases: []
 category: "기술·디지털"
 keywords: ["생성형 AI 플랫폼", "기업 클라우드", "AI 서비스"]
-stages: ["기업용 AI 플랫폼", "AI 모델·서비스", "AI·클라우드 구축·운영", "클라우드 인프라 서비스", "AI·영상보안"]
+stages: ["기업용 AI 플랫폼", "AI 모델·서비스", "AI·클라우드 구축·운영", "클라우드 인프라 서비스", "AI·영상보안", "영상 AI·디지털트윈 솔루션"]
 updated: "2026-10-19"
 ---
 
@@ -27,6 +27,7 @@ updated: "2026-10-19"
 - 클라우드 인프라 서비스: [[케이아이엔엑스]] ([출처](https://www.kinx.net/service/cloud/))
 
 - AI·영상보안: [[한화비전]] ([공식 사업자료](https://www.hanwha.co.kr/business/manufacture/hanwhavision.do)), [[DGI]] ([DART 사업보고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000358), [주요 제품 및 서비스 원문](https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000358&dcmNo=11146848&eleId=11&offset=194011&length=12696&dtd=dart4.xsd))
+- 영상 AI·디지털트윈 솔루션: [[디지캡]] ([DART 사업보고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001426), [주요 제품 및 서비스 원문](https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=11&offset=155675&length=8743&dtd=dart4.xsd))
 ## 관련 기업
 
 <!-- scripts/build_graph.py가 만드는 표. 손으로 고치지 않는다 -->
@@ -47,6 +48,7 @@ updated: "2026-10-19"
 | [[뉴엔AI]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](https://www.newen.ai/), [출처](https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01639508), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[니어스랩]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](https://www.nearthlab.com/kr), [출처](https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01588897), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[데이타솔루션]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](https://www.datasolution.kr/info/vision), [출처](https://www.datasolution.kr/info/business), [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001182), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
+| [[디지캡]] | AI·클라우드 | 공시·거래소 확인 | 확인 | 2026-10-19 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001426), [출처](https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=10&offset=149337&length=6334&dtd=dart4.xsd), [출처](https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=11&offset=155675&length=8743&dtd=dart4.xsd) |
 | [[삼성에스디에스]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-15 | 공식 발표 [출처](https://www.samsungsds.com/kr/ai-fabrix/fabrix.html) |
 | [[카카오]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.kakaocorp.com/page/ai), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
 | [[케이아이엔엑스]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.kinx.net/service/cloud/) |
