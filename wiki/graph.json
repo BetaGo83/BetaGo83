@@ -434,7 +434,8 @@
     "동물용 진단키트",
     "체외진단 키트",
     "의료용 지혈제",
-    "한방·미용 의료기기"
+    "한방·미용 의료기기",
+    "진단용 X-ray 장비"
    ]
   },
   {
@@ -45264,6 +45265,71 @@
    "issues": []
   },
   {
+   "id": "디씨엠",
+   "type": "company",
+   "path": "companies/디씨엠",
+   "summary": "냉연·컬러강판을 코팅·라미네이팅해 가전과 건축용 소재로 공급하는 철강 기업",
+   "market": "KOSPI",
+   "ticker": "024090",
+   "dart_corp_code": "00177199",
+   "aliases": [
+    "DCM",
+    "디씨엠 주식회사"
+   ],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "PCM·라미네이트·컬러강판 제조·판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311003833",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00177199",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "냉연·컬러강판",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "PCM·라미네이트·컬러강판 제조·판매를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311003833",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00177199",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "디아이",
    "type": "company",
    "path": "companies/디아이",
@@ -45406,6 +45472,256 @@
      ]
     }
    ]
+  },
+  {
+   "id": "디아이동일",
+   "type": "company",
+   "path": "companies/디아이동일",
+   "summary": "섬유 소재와 알루미늄을 제조·가공·판매하는 소재 기업",
+   "market": "KOSPI",
+   "ticker": "001530",
+   "dart_corp_code": "00118345",
+   "aliases": [
+    "DONG-IL",
+    "동일방직"
+   ],
+   "krx_industry": "상품 중개업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "패션·의류 · 철강·비철금속",
+     "page": "",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "섬유소재와 알루미늄 제조·가공 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001468",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00118345",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "비철금속 가공",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "패션·의류",
+     "tier": 1,
+     "stage": "면사·면직물",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "디아이씨",
+   "type": "company",
+   "path": "companies/디아이씨",
+   "summary": "자동차 변속기·구동계와 지게차·굴삭기용 부품을 제조하는 부품 기업",
+   "market": "KOSPI",
+   "ticker": "092200",
+   "dart_corp_code": "00112165",
+   "aliases": [
+    "DIC",
+    "DIC Corp."
+   ],
+   "krx_industry": "자동차 신품 부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차 변속·구동계와 지게차·굴삭기 부품을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001046",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00112165",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "구동·변속·현가 부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "자동차 변속·구동계와 지게차·굴삭기 부품을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001046",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00112165",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "디아이티",
+   "type": "company",
+   "path": "companies/디아이티",
+   "summary": "반도체와 디스플레이 공정의 검사·제조 장비를 공급하는 장비 기업",
+   "market": "KOSDAQ",
+   "ticker": "110990",
+   "dart_corp_code": "00576798",
+   "aliases": [
+    "DIT",
+    "디아이티 주식회사"
+   ],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체 · 디스플레이",
+     "page": "",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "반도체·디스플레이 검사장비 제조·공급을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000522",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00576798",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "반도체 제조 장비",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 0,
+     "classifications": [],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "디알젬",
+   "type": "company",
+   "path": "companies/디알젬",
+   "summary": "진단용 X-ray 촬영장치와 방사선 발생 장치를 제조·판매하는 의료기기 기업",
+   "market": "KOSDAQ",
+   "ticker": "263690",
+   "dart_corp_code": "00966168",
+   "aliases": [
+    "DRGEM",
+    "DRGEM HEALTHCARE"
+   ],
+   "krx_industry": "의료용 기기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "진단용 X-ray 촬영장치와 방사선장치를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000972",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00966168",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "진단용 X-ray 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "진단용 X-ray 촬영장치와 방사선장치를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000972",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00966168",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
   },
   {
    "id": "디지털프론티어",
@@ -85375,6 +85691,38 @@
    }
   },
   {
+   "source": "디씨엠",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "냉연·컬러강판",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "PCM·라미네이트·컬러강판 제조·판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260311003833",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00177199",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "디아이",
    "target": "HBM·반도체",
    "type": "테마",
@@ -85471,6 +85819,130 @@
     "label": "확인 중",
     "muted": false,
     "line_style": "dashed"
+   }
+  },
+  {
+   "source": "디아이동일",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "비철금속 가공",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디아이동일",
+   "target": "패션·의류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "면사·면직물",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디아이씨",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "구동·변속·현가 부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차 변속·구동계와 지게차·굴삭기 부품을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001046",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00112165",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디아이티",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "반도체 제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디아이티",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디알젬",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "진단용 X-ray 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "진단용 X-ray 촬영장치와 방사선장치를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000972",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00966168",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
    }
   },
   {
