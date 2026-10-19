@@ -53219,6 +53219,71 @@
    ]
   },
   {
+   "id": "블리츠웨이엔터테인먼트",
+   "type": "company",
+   "path": "companies/블리츠웨이엔터테인먼트",
+   "summary": "배우 매니지먼트·피규어 제작·드라마 제작을 아우르는 코스닥 엔터테인먼트 기업",
+   "market": "KOSDAQ",
+   "ticker": "369370",
+   "dart_corp_code": "01508855",
+   "aliases": [
+    "Blitzway Entertainment",
+    "블리츠웨이"
+   ],
+   "krx_industry": "창작 및 예술관련 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "배우 매니지먼트·피규어·컬렉터블 제작과 드라마 제작 사업을 공식 홈페이지에서 확인했다. 이 테마에서는 드라마 제작 역할로 연결했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://blitzwayentertainment.com/",
+      "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=01508855",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "드라마 제작·판매",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "배우 매니지먼트·피규어·컬렉터블 제작과 드라마 제작 사업을 공식 홈페이지에서 확인했다. 이 테마에서는 드라마 제작 역할로 연결했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://blitzwayentertainment.com/",
+        "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=01508855",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "산일전기",
    "type": "company",
    "path": "companies/산일전기",
@@ -99795,6 +99860,38 @@
     "label": "계획(확인 중)",
     "muted": false,
     "line_style": "dashed"
+   }
+  },
+  {
+   "source": "블리츠웨이엔터테인먼트",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "드라마 제작·판매",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "배우 매니지먼트·피규어·컬렉터블 제작과 드라마 제작 사업을 공식 홈페이지에서 확인했다. 이 테마에서는 드라마 제작 역할로 연결했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://blitzwayentertainment.com/",
+      "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=01508855",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
    }
   },
   {
