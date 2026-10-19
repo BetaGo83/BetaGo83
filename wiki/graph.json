@@ -47998,6 +47998,73 @@
    "issues": []
   },
   {
+   "id": "디티앤씨",
+   "type": "company",
+   "path": "companies/디티앤씨",
+   "summary": "전자·자동차전장·기간산업 제품의 시험인증과 바이오 기술서비스를 제공하는 시험·검증 기업",
+   "market": "KOSDAQ",
+   "ticker": "187220",
+   "dart_corp_code": "00675594",
+   "aliases": [
+    "Dt&C",
+    "Dt&C Co., Ltd."
+   ],
+   "krx_industry": "기타 과학기술 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "연결 바이오 기술서비스의 임상·비임상 시험과 인허가 컨설팅을 확인해 비임상 CRO·연구개발 단계로 연결했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250320001728",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20250320001728&dcmNo=10441661&eleId=10&offset=107232&length=1585&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20250320001728&dcmNo=10441661&eleId=11&offset=108821&length=8725&dtd=dart4.xsd",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "비임상 CRO·연구개발",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "연결 바이오 기술서비스의 임상·비임상 시험과 인허가 컨설팅을 확인해 비임상 CRO·연구개발 단계로 연결했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250320001728",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20250320001728&dcmNo=10441661&eleId=10&offset=107232&length=1585&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20250320001728&dcmNo=10441661&eleId=11&offset=108821&length=8725&dtd=dart4.xsd",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "레인보우로보틱스",
    "type": "company",
    "path": "companies/레인보우로보틱스",
@@ -89424,6 +89491,39 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000204",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260805000204&dcmNo=11510036&eleId=12&offset=101665&length=7399&dtd=dart4.xsd",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260805000204&dcmNo=11510036&eleId=13&offset=109068&length=12838&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디티앤씨",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "비임상 CRO·연구개발",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "연결 바이오 기술서비스의 임상·비임상 시험과 인허가 컨설팅을 확인해 비임상 CRO·연구개발 단계로 연결했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250320001728",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20250320001728&dcmNo=10441661&eleId=10&offset=107232&length=1585&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20250320001728&dcmNo=10441661&eleId=11&offset=108821&length=8725&dtd=dart4.xsd",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
