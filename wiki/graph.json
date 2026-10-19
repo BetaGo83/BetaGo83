@@ -49617,6 +49617,193 @@
    ]
   },
   {
+   "id": "라파스",
+   "type": "company",
+   "path": "companies/라파스",
+   "summary": "용해성 마이크로니들 패치 기술로 화장품·일반의약품을 생산하고 치료제·의료기기 파이프라인을 개발하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "214260",
+   "dart_corp_code": "01058101",
+   "aliases": [
+    "Raphas Co., Ltd.",
+    "라파스(주)"
+   ],
+   "krx_industry": "기타 화학제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "용해성 마이크로니들 미용패치의 제조·판매와 화장품 중심 매출을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002390",
+      "https://www.raphas.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "OTC 의약품 마이크로니들 패치의 제조·판매와 DF19001 임상 개발을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002390",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260528900196",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251217900355"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "약물 흡수 유도 의료기기 테라패스의 허가·인증과 영업활동을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002390",
+      "https://www.raphas.com/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "OTC 의약품 마이크로니들 패치의 제조·판매와 DF19001 임상 개발을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002390",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260528900196",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251217900355"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "한방·미용 의료기기",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "약물 흡수 유도 의료기기 테라패스의 허가·인증과 영업활동을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002390",
+        "https://www.raphas.com/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "화장품·미용",
+     "tier": 1,
+     "stage": "화장품 제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화장품·미용",
+       "page": "화장품·미용",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "용해성 마이크로니들 미용패치의 제조·판매와 화장품 중심 매출을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002390",
+        "https://www.raphas.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-08-14",
+     "kind": "실적",
+     "text": "반기보고서에서 용해성 마이크로니들 패치의 연구개발·제조·판매 사업과 ODM·자사브랜드 중심의 매출 구성을 공시했다",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002390"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-05-28",
+     "kind": "기타",
+     "text": "DF19001 알레르기 비염 면역치료제의 2b/3상 임상시험계획을 기존 IND 변경승인 신청 절차로 재접수했다고 정정 공시했다. 식약처 승인 완료가 아닌 계획 신청 단계다",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260528900196"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2025-12-17",
+     "kind": "기타",
+     "text": "DF19001 임상 1상 결과보고서를 수령했다고 공시했으며, 공시상 시험 범위에서 중대한 이상반응은 발생하지 않았다고 기재했다",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251217900355"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "레인보우로보틱스",
    "type": "company",
    "path": "companies/레인보우로보틱스",
@@ -91897,6 +92084,101 @@
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001795",
       "https://www.licomm.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "라파스",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "OTC 의약품 마이크로니들 패치의 제조·판매와 DF19001 임상 개발을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002390",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260528900196",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251217900355"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "라파스",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "한방·미용 의료기기",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "약물 흡수 유도 의료기기 테라패스의 허가·인증과 영업활동을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002390",
+      "https://www.raphas.com/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "라파스",
+   "target": "화장품·미용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "화장품 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "용해성 마이크로니들 미용패치의 제조·판매와 화장품 중심 매출을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002390",
+      "https://www.raphas.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
