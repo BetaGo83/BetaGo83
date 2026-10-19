@@ -50044,6 +50044,127 @@
    ]
   },
   {
+   "id": "랩지노믹스",
+   "type": "company",
+   "path": "companies/랩지노믹스",
+   "summary": "PCR·MDx·NGS 기반 유전체 분자진단 검사와 진단 제품을 제공하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "084650",
+   "dart_corp_code": "00545114",
+   "aliases": [
+    "LabGenomics Co., Ltd.",
+    "LabGenomics"
+   ],
+   "krx_industry": "자연과학 및 공학 연구개발업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "PCR·MDx·NGS 기반 유전체 분자진단 검사 서비스와 진단제품을 국내·미국에서 제공한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003933",
+      "https://www.labgenomics.co.kr/",
+      "https://www.labgenomics.co.kr/bbs/board.php?bo_table=m02_01&sca=Moleculardiagnosis"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "검사용 제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "PCR·MDx·NGS 기반 유전체 분자진단 검사 서비스와 진단제품을 국내·미국에서 제공한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003933",
+        "https://www.labgenomics.co.kr/",
+        "https://www.labgenomics.co.kr/bbs/board.php?bo_table=m02_01&sca=Moleculardiagnosis"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-08-14",
+     "kind": "실적",
+     "text": "2026년 상반기 매출은 336.80억원이며 분자진단·유전자 검사 서비스가 80.26%를 차지했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003933"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-08-05",
+     "kind": "기타",
+     "text": "종가 1,000원 미만 상태가 25매매거래일 지속되어, 5거래일 더 지속되면 관리종목으로 지정될 수 있다는 거래소 안내가 공시됐다. 이는 지정 확정이 아니라 지정 우려 안내다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805900960"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-04-01",
+     "kind": "협력",
+     "text": "유투의료재단과 검체위수탁사업·진단장비·진단시약 협력을 위한 업무제휴계약을 체결했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260401901526"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-03-17",
+     "kind": "기타",
+     "text": "기존 수탁기관의 검사 중단 예정 통보와 신규 수탁기관 계약 추진을 조회공시 답변으로 설명했으며, 이후 4월 유투의료재단과 업무제휴계약을 공시했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317900310"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-02-27",
+     "kind": "실적",
+     "text": "2025년 매출은 881.61억원으로 전년 대비 2.6% 증가했지만 영업손실은 325.22억원으로 확대됐다. 공시는 대손상각비 165억원 등 일회성 비경상 비용 증가를 주요 원인으로 제시한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227902041"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "레인보우로보틱스",
    "type": "company",
    "path": "companies/레인보우로보틱스",
@@ -64483,6 +64604,12 @@
   },
   {
    "id": "웨스팅하우스",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "유투의료재단",
    "type": "external",
    "path": null,
    "summary": "위키 페이지가 아직 없는 상대"
@@ -92556,6 +92683,38 @@
    }
   },
   {
+   "source": "랩지노믹스",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "검사용 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "PCR·MDx·NGS 기반 유전체 분자진단 검사 서비스와 진단제품을 국내·미국에서 제공한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003933",
+      "https://www.labgenomics.co.kr/",
+      "https://www.labgenomics.co.kr/bbs/board.php?bo_table=m02_01&sca=Moleculardiagnosis"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "레인보우로보틱스",
    "target": "로봇·자동화",
    "type": "테마",
@@ -100780,6 +100939,28 @@
     "label": "확인 중",
     "muted": false,
     "line_style": "dashed"
+   }
+  },
+  {
+   "source": "랩지노믹스",
+   "target": "유투의료재단",
+   "type": "협력",
+   "evidence": [
+    {
+     "date": "2026-04-01",
+     "text": "검체위수탁사업을 위해 검체검사·임상시험 진단장비·진단시약 협력과 기타 업무 연계를 추진하는 업무제휴계약을 체결했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260401901526"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
    }
   },
   {
