@@ -154,7 +154,8 @@
     "전동공구·모터",
     "정밀 부품·패스너",
     "산업용 고무·벨트",
-    "전자부품·센서"
+    "전자부품·센서",
+    "사업지주·산업기계 전략"
    ]
   },
   {
@@ -46444,6 +46445,71 @@
    "issues": []
   },
   {
+   "id": "디와이",
+   "type": "company",
+   "path": "companies/디와이",
+   "summary": "산업기계·유압기기·자동차부품 사업회사를 관리하는 순수 지주회사",
+   "market": "KOSPI",
+   "ticker": "013570",
+   "dart_corp_code": "00117179",
+   "aliases": [
+    "DY",
+    "DY Corporation"
+   ],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "디와이 본사는 순수 지주사업을 영위하고 산업기계·유압기기·자동차부품 사업회사를 관리한다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://www.dy.co.kr/kr/dy/ceo-message",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001042",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "사업지주·산업기계 전략",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "디와이 본사는 순수 지주사업을 영위하고 산업기계·유압기기·자동차부품 사업회사를 관리한다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://www.dy.co.kr/kr/dy/ceo-message",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001042",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "디지털프론티어",
    "type": "company",
    "path": "companies/디지털프론티어",
@@ -87018,6 +87084,38 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260306000812",
       "https://www.dioimplant.com/patient/index",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디와이",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "사업지주·산업기계 전략",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "디와이 본사는 순수 지주사업을 영위하고 산업기계·유압기기·자동차부품 사업회사를 관리한다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://www.dy.co.kr/kr/dy/ceo-message",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001042",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
