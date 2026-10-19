@@ -52285,6 +52285,200 @@
    ]
   },
   {
+   "id": "브이티",
+   "type": "company",
+   "path": "companies/브이티",
+   "summary": "VT 화장품을 중심으로 라미네이팅 장비·필름과 바이오 사업을 연결하는 코스닥 기업",
+   "market": "KOSDAQ",
+   "ticker": "018290",
+   "dart_corp_code": "00150165",
+   "aliases": [
+    "VT",
+    "VT Co., Ltd."
+   ],
+   "krx_industry": "기타 화학제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "화장품 제조·판매·유통과 전자상거래를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000451",
+      "http://www.vtgmpcorp.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "연결 종속회사 지엠피의 라미네이팅 기계·필름 생산과 인쇄물 후가공 장비 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000451"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "연결 종속회사 브이티바이오의 생명공학 사업과 알츠하이머 치료제 연구를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000451",
+      "http://www.vtgmpcorp.co.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "산업용 프린팅 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "연결 종속회사 지엠피의 라미네이팅 기계·필름 생산과 인쇄물 후가공 장비 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000451"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "사업지주·바이오 전략",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "연결 종속회사 브이티바이오의 생명공학 사업과 알츠하이머 치료제 연구를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000451",
+        "http://www.vtgmpcorp.co.kr/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "화장품·미용",
+     "tier": 1,
+     "stage": "화장품 제조·판매",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화장품·미용",
+       "page": "화장품·미용",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "화장품 제조·판매·유통과 전자상거래를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000451",
+        "http://www.vtgmpcorp.co.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-08",
+     "kind": "기타",
+     "text": "자기주식 1,525,358주를 2026-10-20 소각할 예정이라고 공시했다. 소각 예정 장부금액은 198.27억원이며 주주가치 제고가 목적이고 자본금은 감소하지 않는다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008900574"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-10-08",
+     "kind": "기타",
+     "text": "2026-08-14부터 2026-10-06까지 자기주식 1,219,878주를 149.99억원에 취득했다고 결과보고서에 기재했다. 취득 후 자기주식은 1,525,358주(발행주식의 4.37%)다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000470"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-08-13",
+     "kind": "기타",
+     "text": "자기주식 1,016,949주를 149.99억원 한도로 장내 취득하고 취득 완료 후 전량 소각할 예정이라고 공시했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001171"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-03-12",
+     "kind": "실적",
+     "text": "2025년 연결 매출 4,371.84억원, 영업이익 828.69억원, 당기순이익 642.05억원으로 정정 잠정실적을 공시했다. 화장품 매출 증가와 해외시장 마케팅 비용, 큐브엔터테인먼트 연결 제외를 주요 변동 요인으로 설명했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312901133"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "산일전기",
    "type": "company",
    "path": "companies/산일전기",
@@ -60815,6 +61009,22 @@
    ],
    "themes": [
     {
+     "theme": "기계·산업장비",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "브이티",
+     "via_type": "고객사"
+    },
+    {
+     "theme": "바이오·제약",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "브이티",
+     "via_type": "고객사"
+    },
+    {
      "theme": "화장품·미용",
      "tier": 1,
      "stage": "화장품 생산",
@@ -67098,6 +67308,12 @@
    "summary": "위키 페이지가 아직 없는 상대"
   },
   {
+   "id": "VT USA",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
    "id": "글로벌 GM",
    "type": "external",
    "path": null,
@@ -67117,6 +67333,12 @@
   },
   {
    "id": "바우와우코리아",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "브이티바이오",
    "type": "external",
    "path": null,
    "summary": "위키 페이지가 아직 없는 상대"
@@ -67248,7 +67470,25 @@
    "summary": "위키 페이지가 아직 없는 상대"
   },
   {
+   "id": "지엠피",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "지엠피글로벌",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
    "id": "짐머바이오메트",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "큐브엔터테인먼트",
    "type": "external",
    "path": null,
    "summary": "위키 페이지가 아직 없는 상대"
@@ -67625,6 +67865,28 @@
    }
   },
   {
+   "source": "VT USA",
+   "target": "브이티",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "2026년 반기보고서에서 현지법인 설립에 따라 새로 연결된 자회사다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000451"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "두산에너빌리티",
    "target": "두산퓨얼셀",
    "type": "계열",
@@ -67723,6 +67985,72 @@
      "text": "연결 종속회사로 산업용 로봇 제조업을 영위하며, 브이원텍은 의결권 위임을 포함해 지배력을 보유한다. 2026년 반기말 지분율은 42.95%다.",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002781"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "브이티",
+   "target": "브이티바이오",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "브이티가 지배하는 연결 종속회사로 생명공학 사업과 알츠하이머 치료제 연구를 수행한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000451"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "브이티",
+   "target": "지엠피",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "브이티가 100% 보유한 연결 종속회사로 라미네이팅 기계와 필름을 생산한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000451"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "브이티",
+   "target": "지엠피글로벌",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "브이티가 100% 보유한 연결 종속회사로 주택·상가 개발 및 여행·면세점 사업을 영위한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000451"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
@@ -69388,6 +69716,38 @@
    }
   },
   {
+   "source": "코스메카코리아",
+   "target": "브이티",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "화장품 사업에서 코스메카코리아로부터 OEM·ODM 완제품을 매입한다고 공시했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000451"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-06-30",
+     "text": "브이티의 2026년 반기보고서는 코스메카코리아를 화장품 OEM·ODM 주요 매입처로 기재한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000451"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "테크윙",
    "target": "Micron Memory Malaysia SDN. BHD.",
    "type": "공급",
@@ -70028,6 +70388,29 @@
      "text": "디티앤씨가 보통주 3,930,000주, 지분율 30.74%를 보유한 지배기업으로 사업보고서에 기재된다.",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001171"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "브이티",
+   "target": "큐브엔터테인먼트",
+   "type": "출자",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "2025년 사업보고서와 반기보고서에 관계기업으로 기재된 지분 투자 회사다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000451",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001002"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
@@ -97610,6 +97993,99 @@
    }
   },
   {
+   "source": "브이티",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "산업용 프린팅 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "연결 종속회사 지엠피의 라미네이팅 기계·필름 생산과 인쇄물 후가공 장비 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000451"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "브이티",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "사업지주·바이오 전략",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "연결 종속회사 브이티바이오의 생명공학 사업과 알츠하이머 치료제 연구를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000451",
+      "http://www.vtgmpcorp.co.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "브이티",
+   "target": "화장품·미용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "화장품 제조·판매",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "화장품 제조·판매·유통과 전자상거래를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000451",
+      "http://www.vtgmpcorp.co.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "산일전기",
    "target": "전력망·전력기기",
    "type": "테마",
@@ -102222,6 +102698,36 @@
     "label": "",
     "muted": false,
     "line_style": "solid"
+   }
+  },
+  {
+   "source": "코스메카코리아",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "코스메카코리아",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
    }
   },
   {
