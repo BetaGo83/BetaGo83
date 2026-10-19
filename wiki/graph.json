@@ -512,7 +512,8 @@
     "송배전용 초고압 케이블",
     "전력망 운영·정비",
     "발전설비 운영·정비",
-    "조명·LED"
+    "조명·LED",
+    "전원공급·충전기"
    ]
   },
   {
@@ -632,6 +633,7 @@
    "category": "산업재·운송",
    "stages": [
     "항공 운송",
+    "육상 여객 운송",
     "종합 물류",
     "물류"
    ]
@@ -42065,6 +42067,467 @@
    "issues": []
   },
   {
+   "id": "동양",
+   "type": "company",
+   "path": "companies/동양",
+   "summary": "레미콘·건설·산업용 송풍기·섬유 사업을 함께 영위하는 건재·플랜트 기업",
+   "market": "KOSPI",
+   "ticker": "001520",
+   "dart_corp_code": "00117337",
+   "aliases": [],
+   "krx_industry": "시멘트, 석회, 플라스터 및 그 제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "레미콘 건재사업과 건설사업을 영위한다. 시멘트·레미콘 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.tongyanginc.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001406",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00117337",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "산업용 송풍기를 제조·판매하는 플랜트 사업을 영위한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.tongyanginc.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001406",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00117337",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "아크릴원사·부직포를 제조·판매하는 섬유사업을 영위한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.tongyanginc.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001406",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00117337",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "시멘트·레미콘",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "레미콘 건재사업과 건설사업을 영위한다. 시멘트·레미콘 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.tongyanginc.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001406",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00117337",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "에너지·산업설비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "산업용 송풍기를 제조·판매하는 플랜트 사업을 영위한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.tongyanginc.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001406",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00117337",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "패션·의류",
+     "tier": 1,
+     "stage": "합성섬유",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "패션·의류",
+       "page": "패션·의류",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "아크릴원사·부직포를 제조·판매하는 섬유사업을 영위한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.tongyanginc.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001406",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00117337",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동양고속",
+   "type": "company",
+   "path": "companies/동양고속",
+   "summary": "고속버스 여객운송과 터미널·정비시설을 운영하는 육상 운송 기업",
+   "market": "KOSPI",
+   "ticker": "084670",
+   "dart_corp_code": "00540641",
+   "aliases": [],
+   "krx_industry": "육상 여객 운송업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "항공·물류",
+     "page": "항공·물류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "고속버스 여객운송과 터미널·정비시설을 운영한다. 육상 여객 운송 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dyexpress.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001365",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00540641",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "교육·출판",
+     "page": "교육·출판",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "종속회사의 잡지·연기학원·구독 및 영상 콘텐츠 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dyexpress.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001365",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00540641",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "교육·출판",
+     "tier": 1,
+     "stage": "교육 콘텐츠·플랫폼",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "교육·출판",
+       "page": "교육·출판",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "종속회사의 잡지·연기학원·구독 및 영상 콘텐츠 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.dyexpress.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001365",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00540641",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "항공·물류",
+     "tier": 1,
+     "stage": "육상 여객 운송",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "항공·물류",
+       "page": "항공·물류",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "고속버스 여객운송과 터미널·정비시설을 운영한다. 육상 여객 운송 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.dyexpress.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001365",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00540641",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동양에스텍",
+   "type": "company",
+   "path": "companies/동양에스텍",
+   "summary": "포스코 가공센터로 열연·후판·코일 등 철강제품을 가공·판매하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "060380",
+   "dart_corp_code": "00178851",
+   "aliases": [],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "포스코 철강제품을 가공·판매하는 가공센터이며 열연·후판·코일을 주요 제품으로 취급한다. 철강 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dystec.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001507",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00178851",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "철강",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "포스코 철강제품을 가공·판매하는 가공센터이며 열연·후판·코일을 주요 제품으로 취급한다. 철강 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.dystec.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001507",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00178851",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동양이엔피",
+   "type": "company",
+   "path": "companies/동양이엔피",
+   "summary": "SMPS·충전기·태양광 인버터 등 전원공급장치를 제조하는 전력변환 기업",
+   "market": "KOSDAQ",
+   "ticker": "079960",
+   "dart_corp_code": "00178790",
+   "aliases": [],
+   "krx_industry": "전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SMPS·전원공급장치, 태양광 인버터와 전기차 충전기를 제조·판매한다. 전원공급·충전기 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dyenp.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001266",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00178790",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "전력망·전력기기",
+     "tier": 1,
+     "stage": "전원공급·충전기",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "전력망·전력기기",
+       "page": "전력망·전력기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "SMPS·전원공급장치, 태양광 인버터와 전기차 충전기를 제조·판매한다. 전원공급·충전기 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.dyenp.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001266",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00178790",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동양파일",
+   "type": "company",
+   "path": "companies/동양파일",
+   "summary": "건축물 기초를 보강하는 PHC 콘크리트파일 제조 기업",
+   "market": "KOSDAQ",
+   "ticker": "228340",
+   "dart_corp_code": "00993931",
+   "aliases": [],
+   "krx_industry": "시멘트, 석회, 플라스터 및 그 제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "PHC 콘크리트파일을 제조·판매하며 건축물 기초보강 자재로 공급한다. 건축·토목·플랜트 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.tongyangphc.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001680",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00993931",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "건축·토목·플랜트",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "PHC 콘크리트파일을 제조·판매하며 건축물 기초보강 자재로 공급한다. 건축·토목·플랜트 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.tongyangphc.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001680",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00993931",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "동인기연",
    "type": "company",
    "path": "companies/동인기연",
@@ -81024,6 +81487,270 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001545",
       "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00178754",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동양",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "시멘트·레미콘",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "레미콘 건재사업과 건설사업을 영위한다. 시멘트·레미콘 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.tongyanginc.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001406",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00117337",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동양",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "에너지·산업설비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "산업용 송풍기를 제조·판매하는 플랜트 사업을 영위한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.tongyanginc.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001406",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00117337",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동양",
+   "target": "패션·의류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "합성섬유",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "아크릴원사·부직포를 제조·판매하는 섬유사업을 영위한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.tongyanginc.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001406",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00117337",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동양고속",
+   "target": "교육·출판",
+   "type": "테마",
+   "tier": 1,
+   "stage": "교육 콘텐츠·플랫폼",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "교육·출판",
+     "page": "교육·출판",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "종속회사의 잡지·연기학원·구독 및 영상 콘텐츠 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dyexpress.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001365",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00540641",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동양고속",
+   "target": "항공·물류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "육상 여객 운송",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "항공·물류",
+     "page": "항공·물류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "고속버스 여객운송과 터미널·정비시설을 운영한다. 육상 여객 운송 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dyexpress.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001365",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00540641",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동양에스텍",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "철강",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "포스코 철강제품을 가공·판매하는 가공센터이며 열연·후판·코일을 주요 제품으로 취급한다. 철강 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dystec.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001507",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00178851",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동양이엔피",
+   "target": "전력망·전력기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전원공급·충전기",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "전력망·전력기기",
+     "page": "전력망·전력기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "SMPS·전원공급장치, 태양광 인버터와 전기차 충전기를 제조·판매한다. 전원공급·충전기 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dyenp.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001266",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00178790",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동양파일",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건축·토목·플랜트",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "PHC 콘크리트파일을 제조·판매하며 건축물 기초보강 자재로 공급한다. 건축·토목·플랜트 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.tongyangphc.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001680",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00993931",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
