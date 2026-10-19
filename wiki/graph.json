@@ -49376,6 +49376,92 @@
    ]
   },
   {
+   "id": "라이온켐텍",
+   "type": "company",
+   "path": "companies/라이온켐텍",
+   "summary": "건축 내외장재 인조대리석과 플라스틱·도료·잉크 등에 쓰이는 합성왁스를 제조하는 화학제품 기업",
+   "market": "KOSDAQ",
+   "ticker": "171120",
+   "dart_corp_code": "00317104",
+   "aliases": [
+    "LION CHEMTECH CO., Ltd.",
+    "라이온켐텍(주)"
+   ],
+   "krx_industry": "기타 화학제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "PE·PP 기반 합성왁스와 인조대리석용 화학제품을 제조·공급하는 화학소재 역할을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003114",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "기초·첨단화학소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "PE·PP 기반 합성왁스와 인조대리석용 화학제품을 제조·공급하는 화학소재 역할을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003114",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-08-26",
+     "kind": "투자",
+     "text": "종속회사 LCT Surface Co., LTD.의 공장 증축 및 설비투자를 위해 17,980,300,000원을 대여한다고 공시했다. 종속회사 투자 계획의 공시 사실만 기록한다",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826900471"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-08-14",
+     "kind": "기타",
+     "text": "반기보고서는 인조대리석과 합성왁스가 각각 전체 제품 매출의 65.25%, 31.64%를 차지한다고 기재한다",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003114"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "레인보우로보틱스",
    "type": "company",
    "path": "companies/레인보우로보틱스",
@@ -91561,6 +91647,37 @@
      "weak": false,
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002571",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "라이온켐텍",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기초·첨단화학소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "PE·PP 기반 합성왁스와 인조대리석용 화학제품을 제조·공급하는 화학소재 역할을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003114",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
