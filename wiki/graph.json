@@ -52616,6 +52616,214 @@
    ]
   },
   {
+   "id": "블루산업개발",
+   "type": "company",
+   "path": "companies/블루산업개발",
+   "summary": "지관원지와 라이너지 생산을 중심으로 골판지 포장과 재생용 재료 사업을 연결한 제지 기업",
+   "market": "KOSPI",
+   "ticker": "006740",
+   "dart_corp_code": "00141404",
+   "aliases": [
+    "Blue Industrial Development",
+    "영풍제지"
+   ],
+   "krx_industry": "골판지, 종이 상자 및 종이용기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "생활·소비재",
+     "page": "생활·소비재",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "지관원지·라이너지 제조와 연결 자회사 블루팩키지의 골판지 제조·판매를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.khblue.com/intro/1",
+      "http://www.khblue.com/company/2",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001999",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "연결 자회사들의 재생용 재료 수집·판매 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001999"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "생활·소비재",
+     "tier": 1,
+     "stage": "제지·위생용품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "생활·소비재",
+       "page": "생활·소비재",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "지관원지·라이너지 제조와 연결 자회사 블루팩키지의 골판지 제조·판매를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.khblue.com/intro/1",
+        "http://www.khblue.com/company/2",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001999",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "환경·자원순환",
+     "tier": 1,
+     "stage": "자원 재활용",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "환경·자원순환",
+       "page": "환경·자원순환",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "연결 자회사들의 재생용 재료 수집·판매 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001999"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-14",
+     "kind": "투자",
+     "text": "제3자배정 유상증자 2,989,131주를 발행가액 2,944원으로 결정했다. 납입금액은 약 88.00억원이며 운영자금 38.00억원과 타법인 증권 취득자금 50.00억원으로 구분됐다. 납입 예정일은 2026-10-21, 신주 상장 예정일은 2026-11-03이며 타법인 증권 취득 대상은 정정 공시 시점에 미정으로 남아 있다. 케이비비조합 납입에 따라 피엠에이조합에서 최대주주가 변경될 수 있다고 함께 기재했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000437"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-10-13",
+     "kind": "투자",
+     "text": "별도 제3자배정 유상증자 2,309,783주를 발행가액 2,944원으로 정정했다. 납입금액은 약 68.00억원, 목적은 운영자금이며 납입 예정일은 2026-12-28, 신주 상장 예정일은 2027-01-20이다. 배정 대상은 케이비비조합이고 신주는 1년 보호예수 예정이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000378"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-09-04",
+     "kind": "투자",
+     "text": "제7회 무보증 사모 전환사채 25.00억원을 발행해 주식회사 비오엑스 주식 취득자금으로 사용하기로 했다. 대용납입 대상은 비오엑스 보통주 65,594주로 정정됐고 전환가액은 5,664원, 전환 가능 주식수는 441,384주다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904000543"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-08-28",
+     "kind": "기타",
+     "text": "상장시가총액이 기준 시가총액 300억원에 미달하는 상태가 25거래일 계속돼 관리종목 지정 우려 예고를 받았다. 기준 미달이 30거래일 계속되면 관리종목 지정 대상이 될 수 있다고 안내됐다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828800915"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-07-07",
+     "kind": "정책",
+     "text": "주식병합을 정정 공시해 2026-08-07 효력 발생 기준 발행주식수를 2,373만9,825주에서 474만7,965주로 줄이고, 2026-08-05~2026-08-27 거래정지 및 2026-08-28 신주 상장 일정을 제시했다. 이는 자본금이 감소하는 감자가 아니라 적정 유통주식수 유지를 위한 주식병합으로 설명됐다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260707800688"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-05-29",
+     "kind": "기타",
+     "text": "기존 장기차입금 만기 연장을 위해 480억원 단기차입금 연장을 공시했으며 총차입 규모는 변동하지 않는다고 설명했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529802098"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-03-30",
+     "kind": "정책",
+     "text": "12대 1 무상병합 방식의 감자로 보통주 5,222만7,623주를 소각해 자본금을 296.45억원에서 35.31억원으로 줄이는 결정을 정정했다. 감자 기준일은 2026-05-07이며 재무구조 개선과 주주가치 제고가 목적이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260330001467"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-03-04",
+     "kind": "기타",
+     "text": "질권 실행으로 비니1호투자조합에서 피엠에이조합 외 1인으로 최대주주가 변경됐으며, 변경 후 최대주주 등은 1,332만985주(23.38%)로 기재됐다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260304801529"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-02-20",
+     "kind": "기타",
+     "text": "신주발행금지가처분 이의신청 사건에서 기존 가처분결정을 인가하고 소송비용을 채무자가 부담하라는 판결·결정을 공시했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260220801224"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "산일전기",
    "type": "company",
    "path": "companies/산일전기",
@@ -67457,6 +67665,12 @@
    "summary": "위키 페이지가 아직 없는 상대"
   },
   {
+   "id": "더베스트조합",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
    "id": "러셀로보틱스",
    "type": "external",
    "path": null,
@@ -67476,6 +67690,12 @@
   },
   {
    "id": "브이티바이오",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "블루팩키지",
    "type": "external",
    "path": null,
    "summary": "위키 페이지가 아직 없는 상대"
@@ -67535,6 +67755,12 @@
    "summary": "위키 페이지가 아직 없는 상대"
   },
   {
+   "id": "아크조합 제1호",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
    "id": "에스티베타제일차",
    "type": "external",
    "path": null,
@@ -67571,6 +67797,12 @@
    "summary": "위키 페이지가 아직 없는 상대"
   },
   {
+   "id": "영풍리싸이클링",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
    "id": "오스템바이오",
    "type": "external",
    "path": null,
@@ -67596,6 +67828,12 @@
   },
   {
    "id": "오텍캐리어㈜",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "와이피리싸이클링",
    "type": "external",
    "path": null,
    "summary": "위키 페이지가 아직 없는 상대"
@@ -67668,6 +67906,12 @@
   },
   {
    "id": "푸른 재무안정 신기술투자조합 제1호",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "하북산업개발",
    "type": "external",
    "path": null,
    "summary": "위키 페이지가 아직 없는 상대"
@@ -68054,6 +68298,29 @@
    }
   },
   {
+   "source": "더베스트조합",
+   "target": "블루산업개발",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "블루산업개발이 99.99%를 보유한 2026년 신규 연결 투자업 조합이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001999",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619800866"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "두산에너빌리티",
    "target": "두산퓨얼셀",
    "type": "계열",
@@ -68306,6 +68573,117 @@
      "text": "에스티베타제일차를 통해 지배하는 연결 종속회사로 가스소화설비 제조·판매 사업을 영위한다.",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000595"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "블루산업개발",
+   "target": "블루팩키지",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "블루산업개발이 지분 100%를 보유한 연결 종속회사로 골판지 제조·판매를 영위한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001999"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "블루산업개발",
+   "target": "아크조합 제1호",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "블루산업개발이 99.99%를 보유한 2026년 신규 연결 투자업 조합이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001999",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619800870"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "블루산업개발",
+   "target": "영풍리싸이클링",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "블루산업개발 연결 범위에 포함된 100% 손자회사로 재생용 재료 수집·판매업을 영위한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001999"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "블루산업개발",
+   "target": "와이피리싸이클링",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "블루산업개발이 지분 100%를 보유한 연결 종속회사로 재생용 재료 수집·판매업을 영위한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001999"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "블루산업개발",
+   "target": "하북산업개발",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "블루산업개발이 지분 80%를 보유한 연결 종속회사로 부동산 개발업을 영위한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001999"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
@@ -98384,6 +98762,69 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000595",
       "http://www.blackyakinc.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "블루산업개발",
+   "target": "생활·소비재",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제지·위생용품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "생활·소비재",
+     "page": "생활·소비재",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "지관원지·라이너지 제조와 연결 자회사 블루팩키지의 골판지 제조·판매를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.khblue.com/intro/1",
+      "http://www.khblue.com/company/2",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001999",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "블루산업개발",
+   "target": "환경·자원순환",
+   "type": "테마",
+   "tier": 1,
+   "stage": "자원 재활용",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "환경·자원순환",
+     "page": "환경·자원순환",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "연결 자회사들의 재생용 재료 수집·판매 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001999"
      ],
      "malformed": ""
     }
