@@ -46644,6 +46644,120 @@
    "issues": []
   },
   {
+   "id": "디와이씨",
+   "type": "company",
+   "path": "companies/디와이씨",
+   "summary": "자동차 구동계 정밀부품과 종속회사 방산부품을 함께 생산하는 정밀가공 기업",
+   "market": "KOSDAQ",
+   "ticker": "310870",
+   "dart_corp_code": "01336443",
+   "aliases": [
+    "DYC",
+    "DYC CO.,LTD."
+   ],
+   "krx_industry": "자동차 신품 부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "샤프트·플랜지·피니언·디프케이스·요크·링기어 등 자동차 구동계 부품을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000513",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000513&dcmNo=11155725&eleId=11&offset=96165&length=13412&dtd=dart4.xsd",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01336443",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "방산",
+     "page": "방산",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "종속회사 방산 부품의 신관부품·미사일 자세제어장치 구성품을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000513",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000513&dcmNo=11155725&eleId=9&offset=92944&length=123534&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000513&dcmNo=11155725&eleId=11&offset=96165&length=13412&dtd=dart4.xsd",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01336443"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "방산",
+     "tier": 1,
+     "stage": "센서·부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "방산",
+       "page": "방산",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "종속회사 방산 부품의 신관부품·미사일 자세제어장치 구성품을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000513",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000513&dcmNo=11155725&eleId=9&offset=92944&length=123534&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000513&dcmNo=11155725&eleId=11&offset=96165&length=13412&dtd=dart4.xsd",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01336443"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "구동·변속·현가 부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "샤프트·플랜지·피니언·디프케이스·요크·링기어 등 자동차 구동계 부품을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000513",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000513&dcmNo=11155725&eleId=11&offset=96165&length=13412&dtd=dart4.xsd",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01336443",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "디지털프론티어",
    "type": "company",
    "path": "companies/디지털프론티어",
@@ -87315,6 +87429,72 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001895",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260430001895&dcmNo=11360743&eleId=13&offset=569767&length=9842&dtd=dart4.xsd",
       "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01089378",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디와이씨",
+   "target": "방산",
+   "type": "테마",
+   "tier": 1,
+   "stage": "센서·부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "방산",
+     "page": "방산",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "종속회사 방산 부품의 신관부품·미사일 자세제어장치 구성품을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000513",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000513&dcmNo=11155725&eleId=9&offset=92944&length=123534&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000513&dcmNo=11155725&eleId=11&offset=96165&length=13412&dtd=dart4.xsd",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01336443"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디와이씨",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "구동·변속·현가 부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "샤프트·플랜지·피니언·디프케이스·요크·링기어 등 자동차 구동계 부품을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000513",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260320000513&dcmNo=11155725&eleId=11&offset=96165&length=13412&dtd=dart4.xsd",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01336443",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
