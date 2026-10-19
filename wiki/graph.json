@@ -46379,6 +46379,71 @@
    "issues": []
   },
   {
+   "id": "디오",
+   "type": "company",
+   "path": "companies/디오",
+   "summary": "치과용 임플란트와 디지털 치과 솔루션을 제조·판매하는 의료기기 기업",
+   "market": "KOSDAQ",
+   "ticker": "039840",
+   "dart_corp_code": "00115931",
+   "aliases": [
+    "DIO",
+    "DIO Corporation"
+   ],
+   "krx_industry": "의료용 기기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "치과용 임플란트와 디지털 임플란트 시스템을 제조·판매하는 의료기기 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260306000812",
+      "https://www.dioimplant.com/patient/index",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "치과용 기기",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "치과용 임플란트와 디지털 임플란트 시스템을 제조·판매하는 의료기기 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260306000812",
+        "https://www.dioimplant.com/patient/index",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "디지털프론티어",
    "type": "company",
    "path": "companies/디지털프론티어",
@@ -86920,6 +86985,38 @@
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001118",
       "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00569691",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디오",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "치과용 기기",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "치과용 임플란트와 디지털 임플란트 시스템을 제조·판매하는 의료기기 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260306000812",
+      "https://www.dioimplant.com/patient/index",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
