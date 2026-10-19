@@ -12104,6 +12104,14 @@
       "muted": false,
       "line_style": "solid"
      }
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "오파스넷",
+     "via_type": "공급사"
     }
    ],
    "issues": [
@@ -17500,6 +17508,14 @@
    ],
    "themes": [
     {
+     "theme": "AI·클라우드",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "오파스넷",
+     "via_type": "공급사"
+    },
+    {
      "theme": "소프트웨어·IT서비스",
      "tier": 1,
      "stage": "기업 IT서비스",
@@ -17526,6 +17542,14 @@
       "muted": false,
       "line_style": "solid"
      }
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "오파스넷",
+     "via_type": "공급사"
     }
    ],
    "issues": []
@@ -18500,6 +18524,22 @@
     }
    ],
    "themes": [
+    {
+     "theme": "AI·클라우드",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "오파스넷",
+     "via_type": "공급사"
+    },
+    {
+     "theme": "소프트웨어·IT서비스",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "오파스넷",
+     "via_type": "공급사"
+    },
     {
      "theme": "통신·네트워크",
      "tier": 1,
@@ -52492,6 +52532,14 @@
       "muted": false,
       "line_style": "solid"
      }
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "오파스넷",
+     "via_type": "공급사"
     }
    ],
    "issues": []
@@ -52831,6 +52879,14 @@
    ],
    "themes": [
     {
+     "theme": "AI·클라우드",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "오파스넷",
+     "via_type": "공급사"
+    },
+    {
      "theme": "HBM·반도체",
      "tier": 1,
      "stage": "메모리 제조",
@@ -52884,6 +52940,14 @@
       "muted": false,
       "line_style": "solid"
      }
+    },
+    {
+     "theme": "소프트웨어·IT서비스",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "오파스넷",
+     "via_type": "공급사"
     },
     {
      "theme": "자동차·부품",
@@ -57682,6 +57746,242 @@
    ]
   },
   {
+   "id": "오파스넷",
+   "type": "company",
+   "path": "companies/오파스넷",
+   "summary": "기업·공공·금융 고객의 네트워크와 IT 시스템을 구축·운영하는 토탈 ICT 서비스 기업",
+   "market": "KOSDAQ",
+   "ticker": "173130",
+   "dart_corp_code": "00867849",
+   "aliases": [
+    "OPASNET",
+    "OPASNET Co., Ltd."
+   ],
+   "krx_industry": "컴퓨터 프로그래밍, 시스템 통합 및 관리업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "네트워크·시스템 통합, 소프트웨어·라이선스와 IT 구축·운영 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094",
+      "http://www.opasnet.co.kr/sub/sub02_01.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "기업·공공·금융 고객 대상 네트워크 통합과 구축·유지보수 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094",
+      "http://www.opasnet.co.kr"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "클라우드·데이터분석·보안 솔루션과 AI 기반 시설안전·디지털돌봄 플랫폼을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094",
+      "http://www.opasnet.co.kr/sub/sub02_05.php",
+      "http://www.opasnet.co.kr"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "AI·클라우드",
+     "tier": 1,
+     "stage": "AI·클라우드 구축·운영",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "AI·클라우드",
+       "page": "AI·클라우드",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "클라우드·데이터분석·보안 솔루션과 AI 기반 시설안전·디지털돌봄 플랫폼을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094",
+        "http://www.opasnet.co.kr/sub/sub02_05.php",
+        "http://www.opasnet.co.kr"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "HBM·반도체",
+     "tier": 2,
+     "stage": "",
+     "score": 1.12,
+     "via": "삼성전자",
+     "via_type": "고객사"
+    },
+    {
+     "theme": "데이터센터",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "삼성에스디에스",
+     "via_type": "고객사"
+    },
+    {
+     "theme": "로봇·자동화",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "포스코DX",
+     "via_type": "고객사"
+    },
+    {
+     "theme": "방산",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "한화시스템",
+     "via_type": "고객사"
+    },
+    {
+     "theme": "사이버보안",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "삼성에스디에스",
+     "via_type": "고객사"
+    },
+    {
+     "theme": "소프트웨어·IT서비스",
+     "tier": 1,
+     "stage": "시스템 구축·운영",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "소프트웨어·IT서비스",
+       "page": "소프트웨어·IT서비스",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "네트워크·시스템 통합, 소프트웨어·라이선스와 IT 구축·운영 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094",
+        "http://www.opasnet.co.kr/sub/sub02_01.php",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "자동차·부품",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "삼성전자",
+     "via_type": "고객사"
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 1,
+     "stage": "유무선 통신·네트워크",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "통신·네트워크",
+       "page": "통신·네트워크",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "기업·공공·금융 고객 대상 네트워크 통합과 구축·유지보수 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094",
+        "http://www.opasnet.co.kr"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-08-14",
+     "kind": "실적",
+     "text": "2026년 상반기 연결 매출은 854.34억원, 영업이익은 33.42억원, 지배기업 소유주 귀속 반기순이익은 36.42억원이다. 네트워크 구축 54.8%, 유지보수 40.7%, 기타 4.5%의 매출 구조를 보였다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-03-30",
+     "kind": "기타",
+     "text": "2025년 결산 현금배당은 보통주 1주당 250원, 배당금 총액 32.61억원으로 결정됐다. 2025년 배당성향은 25.8%로 기업가치 제고계획에 기재됐다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260209900424",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260330901372"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-02-27",
+     "kind": "실적",
+     "text": "2025년 연결 매출은 2,332.94억원, 영업이익은 140.45억원, 당기순이익은 120.15억원으로 전년 대비 각각 20.9%, 31.9%, 24.5% 증가했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227900720"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "와이씨",
    "type": "company",
    "path": "companies/와이씨",
@@ -60931,6 +61231,22 @@
       "muted": false,
       "line_style": "solid"
      }
+    },
+    {
+     "theme": "소프트웨어·IT서비스",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "오파스넷",
+     "via_type": "공급사"
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "오파스넷",
+     "via_type": "공급사"
     }
    ],
    "issues": []
@@ -63590,6 +63906,14 @@
    ],
    "themes": [
     {
+     "theme": "AI·클라우드",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "오파스넷",
+     "via_type": "공급사"
+    },
+    {
      "theme": "방산",
      "tier": 1,
      "stage": "방산 전자장비",
@@ -63615,6 +63939,22 @@
       "muted": false,
       "line_style": "solid"
      }
+    },
+    {
+     "theme": "소프트웨어·IT서비스",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "오파스넷",
+     "via_type": "공급사"
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "오파스넷",
+     "via_type": "공급사"
     }
    ],
    "issues": []
@@ -67937,6 +68277,230 @@
      "text": "오토앤이 현대자동차에 일부 신차옵션 품목을 공급하고 개발 용역을 제공한다.",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003504"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오파스넷",
+   "target": "LG씨엔에스",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "오파스넷은 LG CNS를 주요 IT 업체 고객군으로 기재한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-06-30",
+     "text": "LG CNS를 주요 IT 업체 고객군으로 기재한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오파스넷",
+   "target": "SK",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "오파스넷은 SK주식회사를 주요 고객사로 기재한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-06-30",
+     "text": "SK주식회사를 주요 고객사로 기재한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오파스넷",
+   "target": "SK텔레콤",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "오파스넷은 SK텔레콤을 주요 고객사로 기재하고 네트워크 구축·운영·유지보수 사업을 수행한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-06-30",
+     "text": "SK텔레콤을 주요 고객사로 기재하고 네트워크 구축·운영·유지보수 사례와 SKT 계열사 확대 영업을 설명한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오파스넷",
+   "target": "삼성에스디에스",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "오파스넷은 삼성SDS를 주요 IT 업체 고객군으로 기재하고 삼성 관계사 사업에서 계열사를 통한 공급을 추진한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-06-30",
+     "text": "삼성SDS를 주요 IT 업체 고객군으로 기재하고 삼성 관계사 사업에서 계열사를 통한 공급을 추진한다고 설명한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오파스넷",
+   "target": "삼성전자",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "오파스넷은 삼성전자를 주요 고객사로 기재하고 삼성 그룹사 대상 통합 네트워크 사업을 추진한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-06-30",
+     "text": "삼성전자를 주요 고객사로 기재하고 삼성 그룹사 대상 통합 네트워크 사업을 추진한다고 설명한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오파스넷",
+   "target": "포스코DX",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "포스코DX를 주요 IT 업체 고객군으로 기재한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-06-30",
+     "text": "오파스넷은 포스코DX를 주요 IT 업체 고객군으로 기재한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오파스넷",
+   "target": "한화시스템",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "한화시스템을 국내 주요 대기업 고객군으로 기재한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-06-30",
+     "text": "오파스넷은 한화시스템을 국내 주요 대기업 고객군으로 기재한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
@@ -75057,6 +75621,21 @@
    }
   },
   {
+   "source": "LG씨엔에스",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
    "source": "LG에너지솔루션",
    "target": "2차전지",
    "type": "테마",
@@ -77952,6 +78531,21 @@
   },
   {
    "source": "SK",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "SK",
    "target": "소프트웨어·IT서비스",
    "type": "테마",
    "tier": 1,
@@ -77979,6 +78573,21 @@
     "label": "",
     "muted": false,
     "line_style": "solid"
+   }
+  },
+  {
+   "source": "SK",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
    }
   },
   {
@@ -78482,6 +79091,36 @@
     "label": "",
     "muted": false,
     "line_style": "solid"
+   }
+  },
+  {
+   "source": "SK텔레콤",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "SK텔레콤",
+   "target": "소프트웨어·IT서비스",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
    }
   },
   {
@@ -96514,6 +97153,21 @@
    }
   },
   {
+   "source": "삼성에스디에스",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
    "source": "삼성에피스홀딩스",
    "target": "바이오·제약",
    "type": "테마",
@@ -96666,6 +97320,21 @@
   },
   {
    "source": "삼성전자",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "삼성전자",
    "target": "HBM·반도체",
    "type": "테마",
    "tier": 1,
@@ -96751,6 +97420,21 @@
     "label": "",
     "muted": false,
     "line_style": "solid"
+   }
+  },
+  {
+   "source": "삼성전자",
+   "target": "소프트웨어·IT서비스",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
    }
   },
   {
@@ -99180,6 +99864,191 @@
    }
   },
   {
+   "source": "오파스넷",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 1,
+   "stage": "AI·클라우드 구축·운영",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "클라우드·데이터분석·보안 솔루션과 AI 기반 시설안전·디지털돌봄 플랫폼을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094",
+      "http://www.opasnet.co.kr/sub/sub02_05.php",
+      "http://www.opasnet.co.kr"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오파스넷",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 1.12,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "오파스넷",
+   "target": "데이터센터",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "오파스넷",
+   "target": "로봇·자동화",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "오파스넷",
+   "target": "방산",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "오파스넷",
+   "target": "사이버보안",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "오파스넷",
+   "target": "소프트웨어·IT서비스",
+   "type": "테마",
+   "tier": 1,
+   "stage": "시스템 구축·운영",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "네트워크·시스템 통합, 소프트웨어·라이선스와 IT 구축·운영 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094",
+      "http://www.opasnet.co.kr/sub/sub02_01.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오파스넷",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "오파스넷",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 1,
+   "stage": "유무선 통신·네트워크",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "기업·공공·금융 고객 대상 네트워크 통합과 구축·유지보수 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094",
+      "http://www.opasnet.co.kr"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "와이씨",
    "target": "HBM·반도체",
    "type": "테마",
@@ -100980,6 +101849,36 @@
    }
   },
   {
+   "source": "포스코DX",
+   "target": "소프트웨어·IT서비스",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "포스코DX",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
    "source": "포스코인터내셔널",
    "target": "2차전지",
    "type": "테마",
@@ -102537,6 +103436,21 @@
   },
   {
    "source": "한화시스템",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "한화시스템",
    "target": "방산",
    "type": "테마",
    "tier": 1,
@@ -102563,6 +103477,36 @@
     "label": "",
     "muted": false,
     "line_style": "solid"
+   }
+  },
+  {
+   "source": "한화시스템",
+   "target": "소프트웨어·IT서비스",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "한화시스템",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
    }
   },
   {

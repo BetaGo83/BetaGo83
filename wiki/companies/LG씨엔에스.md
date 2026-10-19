@@ -20,7 +20,10 @@ official_domains: ["www.lgcns.com"]
 - KIND 상장법인 목록(2026-10-09)에서 주요제품을 컨설팅, 시스템 구축/운영, 토탈 아웃소싱 및 AI, 클라우드·스마트팩토리 등 IT신기술 기반의 DX사업로 소개한다. ([KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage))
 
 ## 관계
-- 관계 표는 아직 정리하지 않았습니다.
+
+| 관계 | 상대 | 내용 | 날짜 | 출처 | 상태 | 근거 수준 |
+|---|---|---|---|---|---|---|
+| 공급사 | [[오파스넷]] | 오파스넷은 LG CNS를 주요 IT 업체 고객군으로 기재한다. | 2026-06-30 | [DART 오파스넷 반기보고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094) | 확인 | 공시 원문 |
 
 ## 테마
 

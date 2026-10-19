@@ -21,7 +21,10 @@ official_domains: ["www.poscodx.com"]
 - 회사는 AI·빅데이터를 접목한 IT서비스와 공장 자동화·스마트 제어 사업을 공식 사업으로 안내한다. ([포스코DX](https://www.poscodx.com/kor), [포스코DX IT서비스](https://www.poscodx.com/kor/business/itService), [포스코DX 산업용 로봇](https://www.poscodx.com/kor/business/industrialRobot))
 
 ## 관계
-- 아직 확인된 관계가 없습니다.
+
+| 관계 | 상대 | 내용 | 날짜 | 출처 | 상태 | 근거 수준 |
+|---|---|---|---|---|---|---|
+| 공급사 | [[오파스넷]] | 오파스넷은 포스코DX를 주요 IT 업체 고객군으로 기재한다. | 2026-06-30 | [DART 오파스넷 반기보고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094) | 확인 | 공시 원문 |
 
 ## 테마
 - [[AI·클라우드]] · AI·클라우드 구축·운영: AI·빅데이터를 접목한 IT서비스와 클라우드 서비스를 제공한다. (확인일: 2026-10-17) (역할 상태: 확인) ([포스코DX](https://www.poscodx.com/kor), [포스코DX IT서비스](https://www.poscodx.com/kor/business/itService), [한국거래소 KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt))
