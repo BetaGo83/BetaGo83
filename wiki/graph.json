@@ -294,7 +294,8 @@
     "제지·위생용품",
     "골판지·종이포장",
     "가구·유아용품",
-    "금속포장용기"
+    "금속포장용기",
+    "목재·건자재"
    ]
   },
   {
@@ -43417,6 +43418,198 @@
    "issues": []
   },
   {
+   "id": "동일산업",
+   "type": "company",
+   "path": "companies/동일산업",
+   "summary": "봉강·합금철·주조를 생산하는 철강 소재 기업",
+   "market": "KOSPI",
+   "ticker": "004890",
+   "dart_corp_code": "00172936",
+   "aliases": [],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "봉강·마봉강·철근·냉간압조용선재와 주조·주강을 생산한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dongil.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000649",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00172936",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "철강",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "봉강·마봉강·철근·냉간압조용선재와 주조·주강을 생산한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.dongil.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000649",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00172936",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동일스틸럭스",
+   "type": "company",
+   "path": "companies/동일스틸럭스",
+   "summary": "봉강·마봉강을 생산하는 철강 소재 기업",
+   "market": "KOSDAQ",
+   "ticker": "023790",
+   "dart_corp_code": "00172945",
+   "aliases": [],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "봉강과 마봉강을 생산·판매한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dongilsteel.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000861",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00172945",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "철강",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "봉강과 마봉강을 생산·판매한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.dongilsteel.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000861",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00172945",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동일제강",
+   "type": "company",
+   "path": "companies/동일제강",
+   "summary": "PC강연선·경강선·도금선·마봉강을 생산하는 선재 가공 기업",
+   "market": "KOSPI",
+   "ticker": "002690",
+   "dart_corp_code": "00118451",
+   "aliases": [],
+   "krx_industry": "1차 철강 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "PC강연선·경강선·도금선·마봉강을 생산·판매한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dongil-steel.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000811",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00118451",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "특수선재·와이어",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "PC강연선·경강선·도금선·마봉강을 생산·판매한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.dongil-steel.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000811",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00118451",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "동진쎄미켐",
    "type": "company",
    "path": "companies/동진쎄미켐",
@@ -43502,6 +43695,228 @@
        "weak": false,
        "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동화기업",
+   "type": "company",
+   "path": "companies/동화기업",
+   "summary": "목질 보드·건장재와 전해액·화학 소재를 함께 생산하는 소재 기업",
+   "market": "KOSDAQ",
+   "ticker": "025900",
+   "dart_corp_code": "00173032",
+   "aliases": [],
+   "krx_industry": "나무제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "생활·소비재",
+     "page": "생활·소비재",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "PB·MDF·마루·창호·도어 등 목질 보드와 건장재를 생산한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dongwha.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001083",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00173032",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "전해액을 전자재료로 제조·판매한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dongwha.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001083",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00173032",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "TEGO와 전해액 등 화학·전자재료를 제조·판매한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dongwha.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001083",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00173032",
+      "https://kind.krx.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 1,
+     "stage": "전해액",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "2차전지",
+       "page": "2차전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "전해액을 전자재료로 제조·판매한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.dongwha.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001083",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00173032",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "생활·소비재",
+     "tier": 1,
+     "stage": "목재·건자재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "생활·소비재",
+       "page": "생활·소비재",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "PB·MDF·마루·창호·도어 등 목질 보드와 건장재를 생산한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.dongwha.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001083",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00173032",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "기초·첨단화학소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "TEGO와 전해액 등 화학·전자재료를 제조·판매한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.dongwha.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001083",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00173032",
+        "https://kind.krx.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동화약품",
+   "type": "company",
+   "path": "companies/동화약품",
+   "summary": "일반·전문의약품과 의약외품을 생산·판매하는 제약 기업",
+   "market": "KOSPI",
+   "ticker": "000020",
+   "dart_corp_code": "00119195",
+   "aliases": [],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "의약품·원료의약품·의약외품을 제조·판매한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dong-wha.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001027",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00119195",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "의약품·원료의약품·의약외품을 제조·판매한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.dong-wha.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001027",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00119195",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
        ],
        "malformed": ""
       }
@@ -83085,6 +83500,105 @@
    }
   },
   {
+   "source": "동일산업",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "철강",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "봉강·마봉강·철근·냉간압조용선재와 주조·주강을 생산한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dongil.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000649",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00172936",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동일스틸럭스",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "철강",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "봉강과 마봉강을 생산·판매한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dongilsteel.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000861",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00172945",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동일제강",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "특수선재·와이어",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "PC강연선·경강선·도금선·마봉강을 생산·판매한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dongil-steel.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000811",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00118451",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "동진쎄미켐",
    "target": "HBM·반도체",
    "type": "테마",
@@ -83134,6 +83648,138 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동화기업",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전해액",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "2차전지",
+     "page": "2차전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "전해액을 전자재료로 제조·판매한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dongwha.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001083",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00173032",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동화기업",
+   "target": "생활·소비재",
+   "type": "테마",
+   "tier": 1,
+   "stage": "목재·건자재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "생활·소비재",
+     "page": "생활·소비재",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "PB·MDF·마루·창호·도어 등 목질 보드와 건장재를 생산한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dongwha.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001083",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00173032",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동화기업",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기초·첨단화학소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "TEGO와 전해액 등 화학·전자재료를 제조·판매한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dongwha.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001083",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00173032",
+      "https://kind.krx.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동화약품",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "의약품·원료의약품·의약외품을 제조·판매한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dong-wha.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001027",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00119195",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
