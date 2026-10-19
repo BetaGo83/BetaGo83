@@ -436,6 +436,7 @@
    "category": "산업재·운송",
    "stages": [
     "완성차",
+    "자동차 판매·서비스",
     "부품·모듈",
     "차량용 전장·인포테인먼트",
     "차체 부품·핫스탬핑",
@@ -39948,6 +39949,368 @@
    "issues": []
   },
   {
+   "id": "도우인시스",
+   "type": "company",
+   "path": "companies/도우인시스",
+   "summary": "폴더블 스마트폰용 초박형 강화유리(UTG)를 연구·제조·판매하는 디스플레이 부품 기업",
+   "market": "KOSDAQ",
+   "ticker": "484120",
+   "dart_corp_code": "01380578",
+   "aliases": [
+    "DOWOOINSYS"
+   ],
+   "krx_industry": "전자부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "폴더블 디스플레이용 UTG 연구·제조·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dowooinsys.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001439",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "디스플레이 소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "디스플레이",
+       "page": "디스플레이",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "폴더블 디스플레이용 UTG 연구·제조·판매 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dowooinsys.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001439",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "도이치모터스",
+   "type": "company",
+   "path": "companies/도이치모터스",
+   "summary": "BMW·MINI 신차와 중고차 판매, 자동차 정비·부품 및 수출입을 영위하는 자동차 유통·서비스 기업",
+   "market": "KOSDAQ",
+   "ticker": "067990",
+   "dart_corp_code": "00449379",
+   "aliases": [
+    "DEUTSCH MOTORS"
+   ],
+   "krx_industry": "자동차 판매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차 판매·부품·정비·수리·중고차 및 수출입 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.deutschmotors.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001677",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "자동차 판매·서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "자동차 판매·부품·정비·수리·중고차 및 수출입 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.deutschmotors.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001677",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "도화엔지니어링",
+   "type": "company",
+   "path": "companies/도화엔지니어링",
+   "summary": "종합토목설계·CM·엔지니어링과 플랜트 EPC를 수행하는 건설·인프라 기술기업",
+   "market": "KOSPI",
+   "ticker": "002150",
+   "dart_corp_code": "00114552",
+   "aliases": [
+    "DOHWA ENGINEERING"
+   ],
+   "krx_industry": "건축기술, 엔지니어링 및 관련 기술 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "종합토목설계·CM·엔지니어링과 플랜트 EPC 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dohwa.co.kr/m/aboutus/overview",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001627",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "건축·토목·플랜트",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "종합토목설계·CM·엔지니어링과 플랜트 EPC 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dohwa.co.kr/m/aboutus/overview",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001627",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동구바이오제약",
+   "type": "company",
+   "path": "companies/동구바이오제약",
+   "summary": "전문의약품을 중심으로 CMO·의료기기·바이오화장품 사업을 함께 영위하는 제약 기업",
+   "market": "KOSDAQ",
+   "ticker": "006620",
+   "dart_corp_code": "00114686",
+   "aliases": [
+    "DONGKOO BIO&PHARMA"
+   ],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "전문의약품 제조·판매와 CMO 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dongkoo.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001024",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "전문의약품 제조·판매와 CMO 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dongkoo.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001024",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동국S&C",
+   "type": "company",
+   "path": "companies/동국S&C",
+   "summary": "육상·해상 풍력발전용 타워를 제작·판매하고 풍력·에너지 개발과 건설을 수행하는 구조물 기업",
+   "market": "KOSDAQ",
+   "ticker": "100130",
+   "dart_corp_code": "00415594",
+   "aliases": [
+    "동국에스엔씨",
+    "DONGKUK STRUCTURES & CONSTRUCTION"
+   ],
+   "krx_industry": "구조용 금속제품, 탱크 및 증기발생기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "육상·해상 풍력발전용 타워 제작·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dongkuksnc.co.kr/sub/01_02.php",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001236",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "건설·에너지 개발사업을 별도 사업부문으로 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001236"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "건설·플랜트·인프라",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "건설·에너지 개발사업을 별도 사업부문으로 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001236"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "재생에너지",
+     "tier": 1,
+     "stage": "풍력 기자재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "재생에너지",
+       "page": "재생에너지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "육상·해상 풍력발전용 타워 제작·판매 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dongkuksnc.co.kr/sub/01_02.php",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001236",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "동국씨엠",
    "type": "company",
    "path": "companies/동국씨엠",
@@ -77870,6 +78233,196 @@
       "https://www.dentium.co.kr/m/dsn/dentium01_03.php",
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001196",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "도우인시스",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "디스플레이 소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "폴더블 디스플레이용 UTG 연구·제조·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dowooinsys.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001439",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "도이치모터스",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "자동차 판매·서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차 판매·부품·정비·수리·중고차 및 수출입 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.deutschmotors.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001677",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "도화엔지니어링",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건축·토목·플랜트",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "종합토목설계·CM·엔지니어링과 플랜트 EPC 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dohwa.co.kr/m/aboutus/overview",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001627",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동구바이오제약",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "전문의약품 제조·판매와 CMO 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dongkoo.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001024",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동국S&C",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건설·플랜트·인프라",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "건설·에너지 개발사업을 별도 사업부문으로 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001236"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동국S&C",
+   "target": "재생에너지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "풍력 기자재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "재생에너지",
+     "page": "재생에너지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "육상·해상 풍력발전용 타워 제작·판매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dongkuksnc.co.kr/sub/01_02.php",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001236",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
