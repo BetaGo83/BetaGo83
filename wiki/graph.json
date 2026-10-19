@@ -630,6 +630,7 @@
     "스포츠의류",
     "여성의류·패션 잡화",
     "합성섬유",
+    "합성피혁·부직포",
     "스포츠용품·가방",
     "의류 ODM·OEM",
     "면사·면직물"
@@ -47672,6 +47673,112 @@
    "issues": []
   },
   {
+   "id": "디케이앤디",
+   "type": "company",
+   "path": "companies/디케이앤디",
+   "summary": "합성피혁·부직포를 제조하고 스포츠용 모자를 생산해 의류·신발·차량·가구 소재 시장에 공급하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "263020",
+   "dart_corp_code": "00892526",
+   "aliases": [
+    "DK&D",
+    "DK&D CO.,LTD"
+   ],
+   "krx_industry": "플라스틱제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "합성피혁·부직포 제조와 스포츠용 모자 생산을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000580",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000580&dcmNo=11136674&eleId=11&offset=0&length=999999&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "차량 적용 합성피혁과 차량용 PU 판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000580",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000580&dcmNo=11136674&eleId=10&offset=0&length=999999&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "자동차 내장·흡차음 소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "차량 적용 합성피혁과 차량용 PU 판매를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000580",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000580&dcmNo=11136674&eleId=10&offset=0&length=999999&dtd=dart4.xsd"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "패션·의류",
+     "tier": 1,
+     "stage": "합성피혁·부직포",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "패션·의류",
+       "page": "패션·의류",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "합성피혁·부직포 제조와 스포츠용 모자 생산을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000580",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000580&dcmNo=11136674&eleId=11&offset=0&length=999999&dtd=dart4.xsd"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "레인보우로보틱스",
    "type": "company",
    "path": "companies/레인보우로보틱스",
@@ -88909,6 +89016,68 @@
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000413",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316000413&dcmNo=11124340&eleId=10&offset=0&length=999999&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디케이앤디",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "자동차 내장·흡차음 소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "차량 적용 합성피혁과 차량용 PU 판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000580",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000580&dcmNo=11136674&eleId=10&offset=0&length=999999&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디케이앤디",
+   "target": "패션·의류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "합성피혁·부직포",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "합성피혁·부직포 제조와 스포츠용 모자 생산을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000580",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000580&dcmNo=11136674&eleId=11&offset=0&length=999999&dtd=dart4.xsd"
      ],
      "malformed": ""
     }
