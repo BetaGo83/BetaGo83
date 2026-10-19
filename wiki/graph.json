@@ -226,6 +226,7 @@
     "바이오의약품 원료",
     "항암백신",
     "비임상 CRO·연구개발",
+    "임상 CRO·연구개발",
     "사업지주·바이오 전략"
    ]
   },
@@ -427,6 +428,7 @@
     "치과 영상·스캐너",
     "치과용 기기",
     "체성분 분석기",
+    "생체신호·웨어러블 진단",
     "디지털치료기기",
     "동물용 진단키트",
     "체외진단 키트",
@@ -44723,6 +44725,68 @@
    "issues": []
   },
   {
+   "id": "드래곤플라이",
+   "type": "company",
+   "path": "companies/드래곤플라이",
+   "summary": "VR·AR와 온라인·모바일 게임을 개발·유통하는 게임 기업",
+   "market": "KOSDAQ",
+   "ticker": "030350",
+   "dart_corp_code": "00230036",
+   "aliases": [],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "VR·AR·온라인·모바일 게임을 개발·유통한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dragonflygame.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001648",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00230036"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "게임",
+     "tier": 1,
+     "stage": "온라인·모바일 게임",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "게임",
+       "page": "게임",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "VR·AR·온라인·모바일 게임을 개발·유통한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.dragonflygame.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001648",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00230036"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "드림시큐리티",
    "type": "company",
    "path": "companies/드림시큐리티",
@@ -44767,6 +44831,299 @@
        "weak": false,
        "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "드림씨아이에스",
+   "type": "company",
+   "path": "companies/드림씨아이에스",
+   "summary": "임상시험을 대행하고 임상시험관리 용역을 제공하는 CRO 기업",
+   "market": "KOSDAQ",
+   "ticker": "223250",
+   "dart_corp_code": "00916826",
+   "aliases": [],
+   "krx_industry": "자연과학 및 공학 연구개발업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "임상시험을 대행하고 임상시험관리 용역을 제공한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dreamcis.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001678",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00916826"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "임상 CRO·연구개발",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "임상시험을 대행하고 임상시험관리 용역을 제공한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.dreamcis.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001678",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00916826"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "드림어스컴퍼니",
+   "type": "company",
+   "path": "companies/드림어스컴퍼니",
+   "summary": "FLO 온라인 음악 서비스와 음반·디지털 콘텐츠 유통을 운영하는 음악 플랫폼 기업",
+   "market": "KOSDAQ",
+   "ticker": "060570",
+   "dart_corp_code": "00364467",
+   "aliases": [],
+   "krx_industry": "영상·오디오물 제공 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "FLO 온라인 음악 서비스와 음반·디지털 콘텐츠 유통을 운영한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://dreamuscompany.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000743",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00364467"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "음악 콘텐츠",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "FLO 온라인 음악 서비스와 음반·디지털 콘텐츠 유통을 운영한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://dreamuscompany.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000743",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00364467"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "드림인사이트",
+   "type": "company",
+   "path": "companies/드림인사이트",
+   "summary": "크리테크를 활용해 온라인 광고를 기획·제작·집행하는 디지털 광고대행 기업",
+   "market": "KOSDAQ",
+   "ticker": "362990",
+   "dart_corp_code": "01492688",
+   "aliases": [],
+   "krx_industry": "광고업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "크리테크 기반 온라인 광고 기획·제작·매체 집행과 사후관리를 제공한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://bydream.co.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001287",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01492688"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "광고·콘텐츠 제작·연예 매니지먼트",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "크리테크 기반 온라인 광고 기획·제작·매체 집행과 사후관리를 제공한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://bydream.co.kr/",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001287",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01492688"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "드림텍",
+   "type": "company",
+   "path": "companies/드림텍",
+   "summary": "모바일·웨어러블 PBA와 생체센서 모듈, 웨어러블 심전도 패치를 개발·공급하는 전자부품 기업",
+   "market": "KOSPI",
+   "ticker": "192650",
+   "dart_corp_code": "00415646",
+   "aliases": [],
+   "krx_industry": "전자부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "모바일·웨어러블 PBA와 지문인식·생체센서 모듈을 개발·공급한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.idreamtech.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001215",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00415646"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "종속회사 Cardiac Insight의 웨어러블 심전도 패치와 분석 소프트웨어를 공급한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.idreamtech.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001215",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00415646"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "전자부품·센서",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "모바일·웨어러블 PBA와 지문인식·생체센서 모듈을 개발·공급한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.idreamtech.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001215",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00415646"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "생체신호·웨어러블 진단",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "종속회사 Cardiac Insight의 웨어러블 심전도 패치와 분석 소프트웨어를 공급한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.idreamtech.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001215",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00415646"
        ],
        "malformed": ""
       }
@@ -84608,6 +84965,38 @@
    }
   },
   {
+   "source": "드래곤플라이",
+   "target": "게임",
+   "type": "테마",
+   "tier": 1,
+   "stage": "온라인·모바일 게임",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "게임",
+     "page": "게임",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "VR·AR·온라인·모바일 게임을 개발·유통한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dragonflygame.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001648",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00230036"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "드림시큐리티",
    "target": "사이버보안",
    "type": "테마",
@@ -84627,6 +85016,166 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "드림씨아이에스",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "임상 CRO·연구개발",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "임상시험을 대행하고 임상시험관리 용역을 제공한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.dreamcis.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001678",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00916826"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "드림어스컴퍼니",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "음악 콘텐츠",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "FLO 온라인 음악 서비스와 음반·디지털 콘텐츠 유통을 운영한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://dreamuscompany.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000743",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00364467"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "드림인사이트",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "광고·콘텐츠 제작·연예 매니지먼트",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "크리테크 기반 온라인 광고 기획·제작·매체 집행과 사후관리를 제공한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://bydream.co.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001287",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01492688"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "드림텍",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "전자부품·센서",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "모바일·웨어러블 PBA와 지문인식·생체센서 모듈을 개발·공급한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.idreamtech.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001215",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00415646"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "드림텍",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "생체신호·웨어러블 진단",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "종속회사 Cardiac Insight의 웨어러블 심전도 패치와 분석 소프트웨어를 공급한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.idreamtech.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001215",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00415646"
      ],
      "malformed": ""
     }
