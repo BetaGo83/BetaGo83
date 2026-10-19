@@ -42528,6 +42528,420 @@
    "issues": []
   },
   {
+   "id": "동우팜투테이블",
+   "type": "company",
+   "path": "companies/동우팜투테이블",
+   "summary": "양계·도계·계육제품을 생산·판매하는 수평계열화 식품 기업",
+   "market": "KOSDAQ",
+   "ticker": "088910",
+   "dart_corp_code": "00228712",
+   "aliases": [],
+   "krx_industry": "도축, 육류 가공 및 저장 처리업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "양계·도계·축산물 제조·가공과 계육 제품 판매를 영위한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://dongwoofarmtotable.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000608",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00228712",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "육계·닭고기 가공",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "양계·도계·축산물 제조·가공과 계육 제품 판매를 영위한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://dongwoofarmtotable.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000608",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00228712",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동운아나텍",
+   "type": "company",
+   "path": "companies/동운아나텍",
+   "summary": "스마트폰 카메라와 자동차용 Driver IC를 설계하는 팹리스 반도체 기업",
+   "market": "KOSDAQ",
+   "ticker": "094170",
+   "dart_corp_code": "00695969",
+   "aliases": [],
+   "krx_industry": "반도체 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "시스템반도체 Driver IC를 설계하고 외주 생산한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://dwanatech.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000936",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00695969",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "차량용 Haptic·BDC·Lidar용 IC를 개발한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://dwanatech.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000936",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00695969",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "시스템반도체 설계·IP",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "시스템반도체 Driver IC를 설계하고 외주 생산한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://dwanatech.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000936",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00695969",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "차량용 반도체",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "차량용 Haptic·BDC·Lidar용 IC를 개발한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://dwanatech.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000936",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00695969",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동원개발",
+   "type": "company",
+   "path": "companies/동원개발",
+   "summary": "주택·건축·토목을 수행하는 종합건설 기업",
+   "market": "KOSDAQ",
+   "ticker": "013120",
+   "dart_corp_code": "00117966",
+   "aliases": [],
+   "krx_industry": "건물 건설업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "주택 공급과 토목·건축·조경 공사를 수행한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://dongwonapt.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000997",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00117966",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "주택·건축·토목",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "주택 공급과 토목·건축·조경 공사를 수행한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://dongwonapt.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000997",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00117966",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동원모빌리티",
+   "type": "company",
+   "path": "companies/동원모빌리티",
+   "summary": "자동차 차체 프레임과 산업용 강관을 제조하는 부품 기업",
+   "market": "KOSPI",
+   "ticker": "018500",
+   "dart_corp_code": "00118008",
+   "aliases": [],
+   "krx_industry": "자동차 신품 부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차 차체·프레임 부품과 배터리 프레임을 제조한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://dwmic.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250618000195",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00118008",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "산업용 강관을 제조·판매한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://dwmic.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250618000195",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00118008",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "차체 부품·핫스탬핑",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "자동차 차체·프레임 부품과 배터리 프레임을 제조한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://dwmic.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250618000195",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00118008",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "철강·비철금속",
+     "tier": 1,
+     "stage": "강관",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "철강·비철금속",
+       "page": "철강·비철금속",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "산업용 강관을 제조·판매한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://dwmic.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250618000195",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00118008",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동원산업",
+   "type": "company",
+   "path": "companies/동원산업",
+   "summary": "동원그룹의 지주회사로 계열사 전략·브랜드·서비스를 관리하는 기업",
+   "market": "KOSPI",
+   "ticker": "006040",
+   "dart_corp_code": "00118026",
+   "aliases": [],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "동원그룹 지주부문에서 계열사 전략·브랜드·용역·IT 서비스를 관리한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://dongwon.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001195",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00118026",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "식품지주·전략",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "동원그룹 지주부문에서 계열사 전략·브랜드·용역·IT 서비스를 관리한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://dongwon.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001195",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00118026",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "동인기연",
    "type": "company",
    "path": "companies/동인기연",
@@ -81751,6 +82165,237 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001680",
       "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00993931",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동우팜투테이블",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "육계·닭고기 가공",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "양계·도계·축산물 제조·가공과 계육 제품 판매를 영위한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://dongwoofarmtotable.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000608",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00228712",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동운아나텍",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "시스템반도체 설계·IP",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "시스템반도체 Driver IC를 설계하고 외주 생산한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://dwanatech.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000936",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00695969",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동운아나텍",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "차량용 반도체",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "차량용 Haptic·BDC·Lidar용 IC를 개발한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://dwanatech.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000936",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00695969",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동원개발",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "주택·건축·토목",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "주택 공급과 토목·건축·조경 공사를 수행한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://dongwonapt.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000997",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00117966",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동원모빌리티",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "차체 부품·핫스탬핑",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차 차체·프레임 부품과 배터리 프레임을 제조한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://dwmic.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250618000195",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00118008",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동원모빌리티",
+   "target": "철강·비철금속",
+   "type": "테마",
+   "tier": 1,
+   "stage": "강관",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "철강·비철금속",
+     "page": "철강·비철금속",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "산업용 강관을 제조·판매한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://dwmic.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250618000195",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00118008",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동원산업",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "식품지주·전략",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "동원그룹 지주부문에서 계열사 전략·브랜드·용역·IT 서비스를 관리한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://dongwon.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001195",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00118026",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }

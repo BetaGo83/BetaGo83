@@ -36,7 +36,7 @@ category: "기술·디지털"
 - 반도체 제조 장비: [[GST]] ([GST 공식 홈페이지](https://www.gst-in.com/), [GST Products](https://www.gst-in.com/m21.php?cate=1)), [[뉴온]] ([뉴온 기업자료](https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?NewMenuID=11&gicode=A123840), [한국거래소 KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt))
 - 패키지기판: [[해성디에스]] ([HAESUNG DS](https://haesungds.co.kr/eng/?p=products%7Cpkg_substrate%7Coverview))
 - 시스템반도체 파운드리: [[DB하이텍]] ([DB하이텍 회사소개](https://www.dbhitek.com/kr/company/about))
-- 시스템반도체 설계·IP: [[가온칩스]] ([가온칩스 공식 What We do](https://www.gaonchips.com/kr/), [한국거래소 KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt)), [[글로벌테크놀로지]] ([한국거래소 KIND 기업공시](https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20251111000317&method=searchListInvstgCorpDetail), [글로벌테크놀로지 공식 홈페이지](https://www.glbltech.com/))
+- 시스템반도체 설계·IP: [[가온칩스]] ([가온칩스 공식 What We do](https://www.gaonchips.com/kr/), [한국거래소 KIND](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt)), [[글로벌테크놀로지]] ([한국거래소 KIND 기업공시](https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20251111000317&method=searchListInvstgCorpDetail), [글로벌테크놀로지 공식 홈페이지](https://www.glbltech.com/)) · [[동운아나텍]] ([동운아나텍 공식 홈페이지](https://www.dwanatech.com), [DART 사업보고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000936))
 
 ## 관련 기업
 <!-- scripts/build_graph.py가 만드는 표. 손으로 고치지 않는다 -->
@@ -77,6 +77,7 @@ category: "기술·디지털"
 | [[더코디]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](http://thecodi.kr/), [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001675), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[덕산테코피아]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](https://www.dshds.co.kr/company_DSTP.aspx), [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001592) |
 | [[덕산하이메탈]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](http://www.dshm.co.kr), [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001314), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
+| [[동운아나텍]] | HBM·반도체 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](http://dwanatech.com), [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000936), [출처](https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00695969), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[동진쎄미켐]] | HBM·반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[디아이]] | AI 반도체 | 거래소 지수 편입 | 확인 | 2026-10-08 | 거래소 자료 [출처](https://index.krx.co.kr/contents/MKD/03/0304/03040101/MKD03040101.jsp) |
 | [[디아이]] | 반도체 | 공시·거래소 확인 | 확인 | 2026-10-09 | 거래소 자료 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage) |
