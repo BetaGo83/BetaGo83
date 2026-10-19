@@ -48132,6 +48132,69 @@
    "issues": []
   },
   {
+   "id": "딜리",
+   "type": "company",
+   "path": "companies/딜리",
+   "summary": "디지털 UV 잉크젯 프린터와 주변기기·소모품을 제조·판매하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "131180",
+   "dart_corp_code": "00629212",
+   "aliases": [
+    "DILLI ILLUSTRATE INC.",
+    "DILLI"
+   ],
+   "krx_industry": "컴퓨터 및 주변장치 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "디지털 UV 잉크젯 프린터와 잉크·주변기기·소모품, 라벨·패키징 인쇄 장비의 제조·판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313000806",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "산업용 프린팅 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "디지털 UV 잉크젯 프린터와 잉크·주변기기·소모품, 라벨·패키징 인쇄 장비의 제조·판매를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313000806",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "레인보우로보틱스",
    "type": "company",
    "path": "companies/레인보우로보틱스",
@@ -89655,6 +89718,37 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001171",
       "https://www.dtncro.com/ko/about/overview.php",
       "https://www.dtncro.com/ko/service/fda.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "딜리",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "산업용 프린팅 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "디지털 UV 잉크젯 프린터와 잉크·주변기기·소모품, 라벨·패키징 인쇄 장비의 제조·판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313000806",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
