@@ -41331,6 +41331,420 @@
    "issues": []
   },
   {
+   "id": "동부건설",
+   "type": "company",
+   "path": "companies/동부건설",
+   "summary": "건축·토목·플랜트와 주택사업을 수행하는 종합건설 기업",
+   "market": "KOSPI",
+   "ticker": "005960",
+   "dart_corp_code": "00115612",
+   "aliases": [],
+   "krx_industry": "토목 건설업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "건축공사·토목공사·플랜트공사·분양공사와 설계·감리, 부동산 개발·관리 등 건설 관련 서비스를 수행한다. 건설·플랜트·인프라 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dbcon.dongbu.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001362",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00115612",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "건설·플랜트·인프라",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "건축공사·토목공사·플랜트공사·분양공사와 설계·감리, 부동산 개발·관리 등 건설 관련 서비스를 수행한다. 건설·플랜트·인프라 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dbcon.dongbu.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001362",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00115612",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동서",
+   "type": "company",
+   "path": "companies/동서",
+   "summary": "식자재·수입음료와 커피·다류·식품용 포장재를 공급하는 식품·소비재 기업",
+   "market": "KOSPI",
+   "ticker": "026960",
+   "dart_corp_code": "00144395",
+   "aliases": [],
+   "krx_industry": "음·식료품 및 담배 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "식자재·수입음료 유통, 식품용 연포장 필름·포장재, 커피·다류 제품, 크리머 수출과 원부자재 구매대행을 영위한다. 식자재 유통·단체급식 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dongsuh.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000207",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00144395",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "식자재 유통·단체급식",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "식자재·수입음료 유통, 식품용 연포장 필름·포장재, 커피·다류 제품, 크리머 수출과 원부자재 구매대행을 영위한다. 식자재 유통·단체급식 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dongsuh.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000207",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00144395",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동성제약",
+   "type": "company",
+   "path": "companies/동성제약",
+   "summary": "의약품·염모제·화장품을 생산·판매하는 제약·생활용품 기업",
+   "market": "KOSPI",
+   "ticker": "002210",
+   "dart_corp_code": "00116268",
+   "aliases": [],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "의약품과 염모제·화장품·생활화학제품을 제조·판매하며 아산공장과 연구소를 운영한다. 의약품 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dongsung-pharm.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506000554",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00116268",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "의약품과 염모제·화장품·생활화학제품을 제조·판매하며 아산공장과 연구소를 운영한다. 화장품·생활용품 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dongsung-pharm.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506000554",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00116268",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "의약품과 염모제·화장품·생활화학제품을 제조·판매하며 아산공장과 연구소를 운영한다. 의약품 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dongsung-pharm.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506000554",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00116268",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "화장품·미용",
+     "tier": 1,
+     "stage": "화장품·생활용품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화장품·미용",
+       "page": "화장품·미용",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "의약품과 염모제·화장품·생활화학제품을 제조·판매하며 아산공장과 연구소를 운영한다. 화장품·생활용품 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dongsung-pharm.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506000554",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00116268",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동성케미컬",
+   "type": "company",
+   "path": "companies/동성케미컬",
+   "summary": "폴리우레탄·TPU·유기과산화물·기능성 용제를 생산하는 정밀화학 기업",
+   "market": "KOSPI",
+   "ticker": "102260",
+   "dart_corp_code": "00679314",
+   "aliases": [],
+   "krx_industry": "합성고무 및 플라스틱 물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "Polyester Polyol·TPU·폴리우레탄 수지, 유기과산화물, 기능성·환경친화 용제와 정밀·석유화학 소재를 제조·판매한다. 기초·첨단화학소재 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://idongsung.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001381",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00679314",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "기초·첨단화학소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "Polyester Polyol·TPU·폴리우레탄 수지, 유기과산화물, 기능성·환경친화 용제와 정밀·석유화학 소재를 제조·판매한다. 기초·첨단화학소재 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://idongsung.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001381",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00679314",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동성화인텍",
+   "type": "company",
+   "path": "companies/동성화인텍",
+   "summary": "LNG 선박용 초저온 보냉재와 PU 단열재·냉매를 공급하는 화학 소재 기업",
+   "market": "KOSDAQ",
+   "ticker": "033500",
+   "dart_corp_code": "00231105",
+   "aliases": [],
+   "krx_industry": "기초 화학물질 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "LNG·LPG 운반선과 LNG 추진선용 초저온 보냉재, 가전·건축용 PU 단열재·Polyol, 불소 냉매를 생산·공급한다. 기초·첨단화학소재 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dsfinetec.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001705",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00231105",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "LNG·LPG 운반선과 LNG 추진선용 초저온 보냉재, 가전·건축용 PU 단열재·Polyol, 불소 냉매를 생산·공급한다. 조선·해양 기자재 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dsfinetec.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001705",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00231105",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "조선·해운",
+     "tier": 1,
+     "stage": "조선·해양 기자재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "조선·해운",
+       "page": "조선·해운",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "LNG·LPG 운반선과 LNG 추진선용 초저온 보냉재, 가전·건축용 PU 단열재·Polyol, 불소 냉매를 생산·공급한다. 조선·해양 기자재 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dsfinetec.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001705",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00231105",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "기초·첨단화학소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "LNG·LPG 운반선과 LNG 추진선용 초저온 보냉재, 가전·건축용 PU 단열재·Polyol, 불소 냉매를 생산·공급한다. 기초·첨단화학소재 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dsfinetec.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001705",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00231105",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "동인기연",
    "type": "company",
    "path": "companies/동인기연",
@@ -79894,6 +80308,237 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000569",
       "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00115384",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동부건설",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건설·플랜트·인프라",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "건축공사·토목공사·플랜트공사·분양공사와 설계·감리, 부동산 개발·관리 등 건설 관련 서비스를 수행한다. 건설·플랜트·인프라 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dbcon.dongbu.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001362",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00115612",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동서",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "식자재 유통·단체급식",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "식자재·수입음료 유통, 식품용 연포장 필름·포장재, 커피·다류 제품, 크리머 수출과 원부자재 구매대행을 영위한다. 식자재 유통·단체급식 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dongsuh.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000207",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00144395",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동성제약",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "의약품과 염모제·화장품·생활화학제품을 제조·판매하며 아산공장과 연구소를 운영한다. 의약품 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dongsung-pharm.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506000554",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00116268",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동성제약",
+   "target": "화장품·미용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "화장품·생활용품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "의약품과 염모제·화장품·생활화학제품을 제조·판매하며 아산공장과 연구소를 운영한다. 화장품·생활용품 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dongsung-pharm.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506000554",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00116268",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동성케미컬",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기초·첨단화학소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "Polyester Polyol·TPU·폴리우레탄 수지, 유기과산화물, 기능성·환경친화 용제와 정밀·석유화학 소재를 제조·판매한다. 기초·첨단화학소재 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://idongsung.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001381",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00679314",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동성화인텍",
+   "target": "조선·해운",
+   "type": "테마",
+   "tier": 1,
+   "stage": "조선·해양 기자재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "LNG·LPG 운반선과 LNG 추진선용 초저온 보냉재, 가전·건축용 PU 단열재·Polyol, 불소 냉매를 생산·공급한다. 조선·해양 기자재 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dsfinetec.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001705",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00231105",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동성화인텍",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기초·첨단화학소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "LNG·LPG 운반선과 LNG 추진선용 초저온 보냉재, 가전·건축용 PU 단열재·Polyol, 불소 냉매를 생산·공급한다. 기초·첨단화학소재 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dsfinetec.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001705",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00231105",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
