@@ -32,6 +32,8 @@ updated: "2026-10-19"
 - 영상 AI·디지털트윈 솔루션: [[디지캡]] ([DART 사업보고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001426), [주요 제품 및 서비스 원문](https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=11&offset=155675&length=8743&dtd=dart4.xsd))
 - AI·클라우드 구축·운영: [[오파스넷]] ([DART 반기보고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094), [오파스넷 IT 통합서비스](http://www.opasnet.co.kr/sub/sub02_05.php), [오파스넷 공식 홈페이지](http://www.opasnet.co.kr))
 
+- AI 모델·서비스: [[블루엠텍]] ([DART 반기보고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953))
+
 ## 관련 기업
 
 <!-- scripts/build_graph.py가 만드는 표. 손으로 고치지 않는다 -->
@@ -56,6 +58,7 @@ updated: "2026-10-19"
 | [[딥노이드]] | AI·클라우드 | 공시·거래소 확인 | 확인 | 2026-10-19 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003155), [출처](https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814003155), [출처](https://www.deepnoid.com/) |
 | [[라온시큐어]] | AI·클라우드 | 공시·거래소 확인 | 확인 | 2026-10-19 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002339), [출처](https://www.raonsecure.com/), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
 | [[라온피플]] | AI·클라우드 | 공시·거래소 확인 | 확인 | 2026-10-19 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002571), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt) |
+| [[블루엠텍]] | AI·클라우드 | 공시·거래소 확인 | 확인 | 2026-10-19 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953) |
 | [[삼성에스디에스]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-15 | 공식 발표 [출처](https://www.samsungsds.com/kr/ai-fabrix/fabrix.html) |
 | [[오파스넷]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-19 | 공식 발표 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000094), [출처](http://www.opasnet.co.kr/sub/sub02_05.php), [출처](http://www.opasnet.co.kr) |
 | [[카카오]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.kakaocorp.com/page/ai), [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt) |
@@ -70,9 +73,14 @@ updated: "2026-10-19"
 
 | 기업 | 이어진 1차 기업 | 관계 |
 |---|---|---|
+| [[HK이노엔]] | [[블루엠텍]] | 고객사 |
+| [[LG화학]] | [[블루엠텍]] | 고객사 |
 | [[SK]] | [[오파스넷]] | 공급사 |
+| [[SK바이오사이언스]] | [[블루엠텍]] | 고객사 |
 | [[SK텔레콤]] | [[오파스넷]] | 공급사 |
+| [[녹십자]] | [[블루엠텍]] | 고객사 |
 | [[삼성전자]] | [[오파스넷]] | 공급사 |
+| [[한미약품]] | [[블루엠텍]] | 고객사 |
 | [[한화시스템]] | [[오파스넷]] | 공급사 |
 
 기사·공시 제목만 확인한 항목에는 약한 근거 표시가 붙습니다. 분류는 사업의 성공이나 현재 거래 가능 여부를 보증하지 않습니다.

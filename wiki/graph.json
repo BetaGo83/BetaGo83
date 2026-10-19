@@ -6758,6 +6758,14 @@
    ],
    "themes": [
     {
+     "theme": "AI·클라우드",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "블루엠텍",
+     "via_type": "고객사"
+    },
+    {
      "theme": "바이오·제약",
      "tier": 1,
      "stage": "의약품",
@@ -6785,6 +6793,14 @@
       "muted": false,
       "line_style": "solid"
      }
+    },
+    {
+     "theme": "유통·전자상거래",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "블루엠텍",
+     "via_type": "고객사"
     }
    ],
    "issues": []
@@ -12844,6 +12860,14 @@
      }
     },
     {
+     "theme": "AI·클라우드",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "블루엠텍",
+     "via_type": "고객사"
+    },
+    {
      "theme": "바이오·제약",
      "tier": 1,
      "stage": "의약품",
@@ -12869,6 +12893,14 @@
       "muted": false,
       "line_style": "solid"
      }
+    },
+    {
+     "theme": "유통·전자상거래",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "블루엠텍",
+     "via_type": "고객사"
     },
     {
      "theme": "화학·정유",
@@ -18041,6 +18073,14 @@
    ],
    "themes": [
     {
+     "theme": "AI·클라우드",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "블루엠텍",
+     "via_type": "고객사"
+    },
+    {
      "theme": "바이오·제약",
      "tier": 1,
      "stage": "바이오의약품 제품",
@@ -18067,6 +18107,14 @@
       "muted": false,
       "line_style": "solid"
      }
+    },
+    {
+     "theme": "유통·전자상거래",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "블루엠텍",
+     "via_type": "고객사"
     }
    ],
    "issues": []
@@ -31798,6 +31846,14 @@
    ],
    "themes": [
     {
+     "theme": "AI·클라우드",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "블루엠텍",
+     "via_type": "고객사"
+    },
+    {
      "theme": "바이오·제약",
      "tier": 1,
      "stage": "의약품",
@@ -31825,6 +31881,14 @@
       "muted": false,
       "line_style": "solid"
      }
+    },
+    {
+     "theme": "유통·전자상거래",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "블루엠텍",
+     "via_type": "고객사"
     }
    ],
    "issues": []
@@ -52824,6 +52888,238 @@
    ]
   },
   {
+   "id": "블루엠텍",
+   "type": "company",
+   "path": "companies/블루엠텍",
+   "summary": "전문의약품 유통 플랫폼과 의료·제약 IT 서비스를 운영하는 헬스케어 플랫폼 기업",
+   "market": "KOSDAQ",
+   "ticker": "439580",
+   "dart_corp_code": "01559637",
+   "aliases": [
+    "BLUEMTEC",
+    "BLUEMTEC CO., LTD.",
+    "블루팜코리아"
+   ],
+   "krx_industry": "기타 전문 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "전문의약품·백신·의약외품을 병의원·약국에 유통하는 의약품 판매업자임을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "블루팜코리아·쿨팜 등 폐쇄형 의약품 e커머스 플랫폼과 주문·재고·배송 서비스를 운영한다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953",
+      "https://bluemtec.com/renew/main/main.php"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "의사 초빙 AI 매칭, 대체약 추천, 전문의약품 AI 엔진을 연구·개발 항목으로 공시했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "2차전지",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "LG화학",
+     "via_type": "공급사"
+    },
+    {
+     "theme": "AI·클라우드",
+     "tier": 1,
+     "stage": "AI 모델·서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "AI·클라우드",
+       "page": "AI·클라우드",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "의사 초빙 AI 매칭, 대체약 추천, 전문의약품 AI 엔진을 연구·개발 항목으로 공시했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "전문의약품·백신·의약외품을 병의원·약국에 유통하는 의약품 판매업자임을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "유통·전자상거래",
+     "tier": 1,
+     "stage": "쇼핑몰 운영 기반",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "유통·전자상거래",
+       "page": "유통·전자상거래",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "블루팜코리아·쿨팜 등 폐쇄형 의약품 e커머스 플랫폼과 주문·재고·배송 서비스를 운영한다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953",
+        "https://bluemtec.com/renew/main/main.php"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "화학·정유",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "LG화학",
+     "via_type": "공급사"
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-15",
+     "kind": "투자",
+     "text": "제3회 신주인수권부사채 중 11.19억원을 조기상환청구권 행사에 따라 만기 전 취득하고 취득 후 소각하기로 했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015900532"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-10-08",
+     "kind": "투자",
+     "text": "운영자금 310억원과 채무상환자금 50억원을 목적으로 360억원 규모의 제2회 사모 전환사채 발행을 결정했다. 전환가액은 3,235원, 전환 가능 주식수는 11,128,284주이며 청약·납입일은 2026-11-06 예정이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000732"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-10-08",
+     "kind": "투자",
+     "text": "최대주주 연제량 외 3인이 보유한 보통주 7,131,777주를 산은인베스트먼트에 양도하는 주식양수도 계약을 체결했다. 대금은 230.71억원이며 거래종결일은 선행조건 충족을 전제로 2026-11-27 예정이다. 대금 지급과 주식 이전이 완료되기 전에는 최대주주 변경 확정으로 보지 않는다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008900913"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-09-28",
+     "kind": "기타",
+     "text": "한국콜마·산은인베스트먼트 인수 추진 보도에 대해 구체적으로 결정되거나 확정된 사항이 없다고 해명했으며, 이후 10월 8일 주식양수도 계약 공시가 나왔다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900248",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008900913"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-07-10",
+     "kind": "투자",
+     "text": "제4회 사모 신주인수권부사채 80억원을 실제 발행했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710900815"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-04-28",
+     "kind": "투자",
+     "text": "해외 시장 진출과 고객 기반 확대를 목적으로 싱가포르 소프트웨어 개발사 VLOC PTE. LTD. 지분을 취득해 종속회사로 편입했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "산일전기",
    "type": "company",
    "path": "companies/산일전기",
@@ -63912,6 +64208,14 @@
    ],
    "themes": [
     {
+     "theme": "AI·클라우드",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "블루엠텍",
+     "via_type": "고객사"
+    },
+    {
      "theme": "바이오·제약",
      "tier": 1,
      "stage": "의약품",
@@ -63937,6 +64241,14 @@
       "muted": false,
       "line_style": "solid"
      }
+    },
+    {
+     "theme": "유통·전자상거래",
+     "tier": 2,
+     "stage": "",
+     "score": 0.0,
+     "via": "블루엠텍",
+     "via_type": "고객사"
     }
    ],
    "issues": []
@@ -67653,6 +67965,12 @@
    "summary": "위키 페이지가 아직 없는 상대"
   },
   {
+   "id": "VLOC PTE. LTD.",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
    "id": "VT USA",
    "type": "external",
    "path": null,
@@ -67690,6 +68008,12 @@
   },
   {
    "id": "브이티바이오",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "블루닥",
    "type": "external",
    "path": null,
    "summary": "위키 페이지가 아직 없는 상대"
@@ -68276,6 +68600,28 @@
    }
   },
   {
+   "source": "VLOC PTE. LTD.",
+   "target": "블루엠텍",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "2026-04-28 지분 90.91%를 취득해 지배력을 확보한 뒤 추가 취득으로 반기말 지분율 100%가 된 싱가포르 소프트웨어 개발 종속회사다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "VT USA",
    "target": "브이티",
    "type": "계열",
@@ -68573,6 +68919,28 @@
      "text": "에스티베타제일차를 통해 지배하는 연결 종속회사로 가스소화설비 제조·판매 사업을 영위한다.",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000595"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "블루닥",
+   "target": "블루엠텍",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "블루엠텍이 의결권 100%를 보유한 연결대상 종속회사이며 전자상거래 소매업을 영위한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
@@ -68896,6 +69264,38 @@
    }
   },
   {
+   "source": "HK이노엔",
+   "target": "블루엠텍",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "블루엠텍이 의약품·의료기기 또는 의약품 공급 주요 계약 상대방으로 공시했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-06-30",
+     "text": "의약품·의료기기 공급 주요 계약을 공시했다. 계약일은 2022-09-21이며 2년 후 1년 자동 갱신 조건이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "LG에너지솔루션",
    "target": "Ford Motor Company",
    "type": "공급",
@@ -68963,6 +69363,38 @@
    }
   },
   {
+   "source": "LG화학",
+   "target": "블루엠텍",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "블루엠텍이 의약품·의료기기 또는 의약품 공급 주요 계약 상대방으로 공시했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-06-30",
+     "text": "의약품·의료기기 공급 주요 계약을 공시했다. 계약일은 2018-01-01이며 1년 자동 갱신 조건이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "LIG디펜스앤에어로스페이스",
    "target": "한국항공우주",
    "type": "공급",
@@ -69027,6 +69459,38 @@
    }
   },
   {
+   "source": "SK바이오사이언스",
+   "target": "블루엠텍",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "블루엠텍이 의약품·의료기기 또는 의약품 공급 주요 계약 상대방으로 공시했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-06-30",
+     "text": "의약품·의료기기 공급 주요 계약을 공시했다. 계약일은 2021-06-01이며 3년 후 1년 자동 갱신 조건이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "강원에너지",
    "target": "포스코퓨처엠",
    "type": "공급",
@@ -69072,6 +69536,38 @@
      ],
      "status": "확인",
      "evidence_level": "공시 항목",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "녹십자",
+   "target": "블루엠텍",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "블루엠텍이 의약품·의료기기 또는 의약품 공급 주요 계약 상대방으로 공시했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-06-30",
+     "text": "의약품·의료기기 공급 주요 계약을 공시했다. 계약일은 2021-04-01이며 2년 후 2년 자동 갱신 조건이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
      "weak": false
     }
    ],
@@ -70677,6 +71173,38 @@
      "text": "삼성전기에 AI 반도체 기판 제조용 대면적 MSVP 장비 244.8억 원 공급계약(한국, 2026-10-02~2027-12-17).",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006800023"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "한미약품",
+   "target": "블루엠텍",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "의약품 공급 주요 계약을 공시했다. 계약일은 2022-03-22이며 3년 후 1년 자동 갱신 조건이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-06-30",
+     "text": "블루엠텍이 의약품·의료기기 또는 의약품 공급 주요 계약 상대방으로 공시했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
@@ -74500,6 +75028,21 @@
   },
   {
    "source": "HK이노엔",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "HK이노엔",
    "target": "바이오·제약",
    "type": "테마",
    "tier": 1,
@@ -74528,6 +75071,21 @@
     "label": "",
     "muted": false,
     "line_style": "solid"
+   }
+  },
+  {
+   "source": "HK이노엔",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
    }
   },
   {
@@ -77702,6 +78260,21 @@
   },
   {
    "source": "LG화학",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "LG화학",
    "target": "바이오·제약",
    "type": "테마",
    "tier": 1,
@@ -77728,6 +78301,21 @@
     "label": "",
     "muted": false,
     "line_style": "solid"
+   }
+  },
+  {
+   "source": "LG화학",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
    }
   },
   {
@@ -80523,6 +81111,21 @@
   },
   {
    "source": "SK바이오사이언스",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "SK바이오사이언스",
    "target": "바이오·제약",
    "type": "테마",
    "tier": 1,
@@ -80550,6 +81153,21 @@
     "label": "",
     "muted": false,
     "line_style": "solid"
+   }
+  },
+  {
+   "source": "SK바이오사이언스",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
    }
   },
   {
@@ -87894,6 +88512,21 @@
   },
   {
    "source": "녹십자",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "녹십자",
    "target": "바이오·제약",
    "type": "테마",
    "tier": 1,
@@ -87922,6 +88555,21 @@
     "label": "",
     "muted": false,
     "line_style": "solid"
+   }
+  },
+  {
+   "source": "녹십자",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
    }
   },
   {
@@ -98836,6 +99484,128 @@
    }
   },
   {
+   "source": "블루엠텍",
+   "target": "2차전지",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "블루엠텍",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 1,
+   "stage": "AI 모델·서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "의사 초빙 AI 매칭, 대체약 추천, 전문의약품 AI 엔진을 연구·개발 항목으로 공시했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "블루엠텍",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "전문의약품·백신·의약외품을 병의원·약국에 유통하는 의약품 판매업자임을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "블루엠텍",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 1,
+   "stage": "쇼핑몰 운영 기반",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "블루팜코리아·쿨팜 등 폐쇄형 의약품 e커머스 플랫폼과 주문·재고·배송 서비스를 운영한다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001953",
+      "https://bluemtec.com/renew/main/main.php"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "블루엠텍",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
    "source": "산일전기",
    "target": "전력망·전력기기",
    "type": "테마",
@@ -105021,6 +105791,21 @@
   },
   {
    "source": "한미약품",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
+   }
+  },
+  {
+   "source": "한미약품",
    "target": "바이오·제약",
    "type": "테마",
    "tier": 1,
@@ -105047,6 +105832,21 @@
     "label": "",
     "muted": false,
     "line_style": "solid"
+   }
+  },
+  {
+   "source": "한미약품",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 2,
+   "stage": "",
+   "score": 0.0,
+   "evidence": [],
+   "classifications": [],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
    }
   },
   {
