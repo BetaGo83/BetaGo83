@@ -57055,6 +57055,128 @@
    ]
   },
   {
+   "id": "오이솔루션",
+   "type": "company",
+   "path": "companies/오이솔루션",
+   "summary": "광트랜시버와 레이저다이오드 등 광통신 모듈·소자를 제조하는 통신장비 기업",
+   "market": "KOSDAQ",
+   "ticker": "138080",
+   "dart_corp_code": "00571483",
+   "aliases": [
+    "OE Solutions Co., Ltd.",
+    "OE Solutions",
+    "오이솔루션 주식회사"
+   ],
+   "krx_industry": "통신 및 방송 장비 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "광트랜시버·레이저다이오드 제조와 5G·FTTH·CATV/MSO·Telecom·Datacenter용 통신망 제품을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002929",
+      "http://www.oesolution.com",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "통신·네트워크",
+     "tier": 1,
+     "stage": "이동통신망 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "통신·네트워크",
+       "page": "통신·네트워크",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "광트랜시버·레이저다이오드 제조와 5G·FTTH·CATV/MSO·Telecom·Datacenter용 통신망 제품을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002929",
+        "http://www.oesolution.com",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-01",
+     "kind": "기타",
+     "text": "최대주주 박찬의 주식담보 제공 계약 정정 공시에서 담보 제공 주식 1,938,822주와 담보설정금액 약 491.49억원을 기재했다. 담보권 실행이나 최대주주 변경이 확정된 공시는 아니다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001900580"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-08-14",
+     "kind": "실적",
+     "text": "2026년 상반기 연결 매출은 약 376.8억원, 영업손실은 약 14.8억원으로 전년 동기보다 매출은 증가하고 영업손실은 개선됐다. 광통신용 모듈과 광통신용 소자가 주력 제품이다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002929"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-08-14",
+     "kind": "기타",
+     "text": "5G 무선네트워크 외 FTTH·CATV/MSO·Telecom·Datacenter 시장으로 제품 포트폴리오를 넓히고, 25G·50G PON과 200G·400G·800G·1.6Tbps급 제품 및 고속 레이저 소자를 개발·승인·양산 단계별로 추진한다고 공시했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002929"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-03-19",
+     "kind": "실적",
+     "text": "2025년 연결 매출은 573.77억원, 영업손실은 159.99억원, 당기순손실은 270.39억원으로 공시됐다. 당기순손실에는 전환사채·파생상품 평가 영향이 포함됐다고 설명한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001159"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-03-03",
+     "kind": "기타",
+     "text": "2024년 발행 전환사채의 전환청구로 보통주 33,292주가 발행됐다고 공시했다. 전환사채 관련 후속 전환은 각 공시 기준일과 함께 확인한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260303901342"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "와이씨",
    "type": "company",
    "path": "companies/와이씨",
@@ -65645,6 +65767,18 @@
    "summary": "위키 페이지가 아직 없는 상대"
   },
   {
+   "id": "OE Solutions America, Inc.",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "OE Solutions Japan Co., Ltd.",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
    "id": "PGU Turkestan LLP",
    "type": "external",
    "path": null,
@@ -66074,6 +66208,50 @@
      ],
      "status": "확인",
      "evidence_level": "공식 발표",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "OE Solutions America, Inc.",
+   "target": "오이솔루션",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "반기보고서가 지분 100%의 연결대상 종속회사로 기재하며, 미국 통신장비 판매·연구개발 법인으로 설명한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002929"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "OE Solutions Japan Co., Ltd.",
+   "target": "오이솔루션",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "반기보고서가 지분 100%의 연결대상 종속회사로 기재하며, 일본 통신장비 판매 법인으로 설명한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002929"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
      "weak": false
     }
    ],
@@ -97957,6 +98135,38 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002818",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
       "https://www.osppetfood.com/eng/main/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오이솔루션",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 1,
+   "stage": "이동통신망 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "광트랜시버·레이저다이오드 제조와 5G·FTTH·CATV/MSO·Telecom·Datacenter용 통신망 제품을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002929",
+      "http://www.oesolution.com",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
