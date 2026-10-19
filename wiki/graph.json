@@ -70,6 +70,7 @@
     "검사 장비·부품",
     "공정 모니터링",
     "패키지기판",
+    "시스템반도체 후공정",
     "전력반도체 후공정",
     "전력반도체 제조",
     "반도체 공정 소재",
@@ -43931,6 +43932,117 @@
    "issues": []
   },
   {
+   "id": "두산",
+   "type": "company",
+   "path": "companies/두산",
+   "summary": "동박적층판(CCL) 전자소재와 통합 IT 서비스를 함께 영위하는 사업지주 기업",
+   "market": "KOSPI",
+   "ticker": "000150",
+   "dart_corp_code": "00117212",
+   "aliases": [],
+   "krx_industry": "전자부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "반도체용 PKG CCL을 생산·공급한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.doosancorp.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000945",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00117212",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "기업 대상 IT 인프라·클라우드·애플리케이션·보안 서비스를 제공한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.doosancorp.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000945",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00117212",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "패키지기판",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "반도체용 PKG CCL을 생산·공급한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.doosancorp.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000945",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00117212",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "소프트웨어·IT서비스",
+     "tier": 1,
+     "stage": "기업 IT서비스",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "소프트웨어·IT서비스",
+       "page": "소프트웨어·IT서비스",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "기업 대상 IT 인프라·클라우드·애플리케이션·보안 서비스를 제공한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.doosancorp.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000945",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00117212",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "두산로보틱스",
    "type": "company",
    "path": "companies/두산로보틱스",
@@ -44297,6 +44409,70 @@
    ]
   },
   {
+   "id": "두산테스나",
+   "type": "company",
+   "path": "companies/두산테스나",
+   "summary": "시스템 반도체 웨이퍼·패키지 테스트와 다이 준비를 수행하는 후공정 기업",
+   "market": "KOSDAQ",
+   "ticker": "131970",
+   "dart_corp_code": "00563545",
+   "aliases": [],
+   "krx_industry": "그외 기타 전문, 과학 및 기술 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "시스템 반도체 웨이퍼·패키지 테스트와 DP 공정을 수행한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.tesna.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001118",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00563545",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "HBM·반도체",
+     "tier": 1,
+     "stage": "시스템반도체 후공정",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "HBM·반도체",
+       "page": "HBM·반도체",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "시스템 반도체 웨이퍼·패키지 테스트와 DP 공정을 수행한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.tesna.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001118",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00563545",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "두산퓨얼셀",
    "type": "company",
    "path": "companies/두산퓨얼셀",
@@ -44341,6 +44517,198 @@
        "weak": false,
        "sources": [
         "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "두올",
+   "type": "company",
+   "path": "companies/두올",
+   "summary": "자동차용 원단·시트커버링·에어백쿠션을 제조·공급하는 내장재 기업",
+   "market": "KOSPI",
+   "ticker": "016740",
+   "dart_corp_code": "00119672",
+   "aliases": [],
+   "krx_industry": "자동차 신품 부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차용 원단·시트커버링·에어백쿠션을 제조·공급한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.idual.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001456",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00119672",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "자동차 시트·내장",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "자동차용 원단·시트커버링·에어백쿠션을 제조·공급한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.idual.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001456",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00119672",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "듀오백",
+   "type": "company",
+   "path": "companies/듀오백",
+   "summary": "가정용·사무용 기능성 의자를 제조·판매하는 가구 기업",
+   "market": "KOSDAQ",
+   "ticker": "073190",
+   "dart_corp_code": "00407771",
+   "aliases": [],
+   "krx_industry": "가구 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "생활·소비재",
+     "page": "생활·소비재",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "가정용·사무용 기능성 의자를 제조·판매한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://duoback.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000661",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00407771",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "생활·소비재",
+     "tier": 1,
+     "stage": "가구·유아용품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "생활·소비재",
+       "page": "생활·소비재",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "가정용·사무용 기능성 의자를 제조·판매한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://duoback.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000661",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00407771",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "듀켐바이오",
+   "type": "company",
+   "path": "companies/듀켐바이오",
+   "summary": "암·뇌질환 진단·치료용 방사성의약품을 제조·판매하는 제약 기업",
+   "market": "KOSDAQ",
+   "ticker": "176750",
+   "dart_corp_code": "00867034",
+   "aliases": [],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "암·뇌질환 진단·치료용 방사성의약품을 제조·판매한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.duchembio.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001568",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00867034",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "암·뇌질환 진단·치료용 방사성의약품을 제조·판매한다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.duchembio.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001568",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00867034",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
        ],
        "malformed": ""
       }
@@ -83791,6 +84159,72 @@
    }
   },
   {
+   "source": "두산",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "패키지기판",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "반도체용 PKG CCL을 생산·공급한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.doosancorp.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000945",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00117212",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "두산",
+   "target": "소프트웨어·IT서비스",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기업 IT서비스",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "기업 대상 IT 인프라·클라우드·애플리케이션·보안 서비스를 제공한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.doosancorp.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323000945",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00117212",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "두산로보틱스",
    "target": "로봇·자동화",
    "type": "테마",
@@ -84012,6 +84446,39 @@
    }
   },
   {
+   "source": "두산테스나",
+   "target": "HBM·반도체",
+   "type": "테마",
+   "tier": 1,
+   "stage": "시스템반도체 후공정",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "HBM·반도체",
+     "page": "HBM·반도체",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "시스템 반도체 웨이퍼·패키지 테스트와 DP 공정을 수행한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.tesna.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001118",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00563545",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "두산퓨얼셀",
    "target": "수소·연료전지",
    "type": "테마",
@@ -84031,6 +84498,105 @@
      "weak": false,
      "sources": [
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "두올",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "자동차 시트·내장",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차용 원단·시트커버링·에어백쿠션을 제조·공급한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.idual.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001456",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00119672",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "듀오백",
+   "target": "생활·소비재",
+   "type": "테마",
+   "tier": 1,
+   "stage": "가구·유아용품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "생활·소비재",
+     "page": "생활·소비재",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "가정용·사무용 기능성 의자를 제조·판매한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://duoback.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000661",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00407771",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "듀켐바이오",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "암·뇌질환 진단·치료용 방사성의약품을 제조·판매한다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.duchembio.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001568",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00867034",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
