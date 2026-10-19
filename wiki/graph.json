@@ -41745,6 +41745,326 @@
    "issues": []
   },
   {
+   "id": "동신건설",
+   "type": "company",
+   "path": "companies/동신건설",
+   "summary": "토목·건축·주택과 문화재 공사를 수행하는 종합건설 기업",
+   "market": "KOSDAQ",
+   "ticker": "025950",
+   "dart_corp_code": "00116408",
+   "aliases": [],
+   "krx_industry": "토목 건설업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "토목·건축·주택·문화재 공사와 도로·교량·지하철·상하수도 등 공공 토목공사를 수행한다. 건축·토목 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dongshin.info/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000378",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00116408",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "건축·토목",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "토목·건축·주택·문화재 공사와 도로·교량·지하철·상하수도 등 공공 토목공사를 수행한다. 건축·토목 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dongshin.info/",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000378",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00116408",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동아쏘시오홀딩스",
+   "type": "company",
+   "path": "companies/동아쏘시오홀딩스",
+   "summary": "헬스케어 계열을 포함한 사업 포트폴리오를 관리하는 지주회사",
+   "market": "KOSPI",
+   "ticker": "000640",
+   "dart_corp_code": "00116824",
+   "aliases": [],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "지주사 및 경영컨설팅 부문을 통해 의약품·바이오 관련 계열을 포함한 그룹 사업을 관리한다. 사업지주·바이오 전략 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.donga.co.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001307",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00116824",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "사업지주·바이오 전략",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "지주사 및 경영컨설팅 부문을 통해 의약품·바이오 관련 계열을 포함한 그룹 사업을 관리한다. 사업지주·바이오 전략 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.donga.co.kr/",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001307",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00116824",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동아에스티",
+   "type": "company",
+   "path": "companies/동아에스티",
+   "summary": "전문의약품과 바이오의약품을 연구·제조·판매하는 제약 기업",
+   "market": "KOSPI",
+   "ticker": "170900",
+   "dart_corp_code": "00956930",
+   "aliases": [],
+   "krx_industry": "의약품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "전문의약품과 바이오의약품을 연구·제조·판매한다. 의약품 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.donga-st.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001313",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00956930",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "의약품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "전문의약품과 바이오의약품을 연구·제조·판매한다. 의약품 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "http://www.donga-st.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001313",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00956930",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동아엘텍",
+   "type": "company",
+   "path": "companies/동아엘텍",
+   "summary": "디스플레이 검사장비와 OLED 장비를 제조하는 장비 기업",
+   "market": "KOSDAQ",
+   "ticker": "088130",
+   "dart_corp_code": "00489243",
+   "aliases": [],
+   "krx_industry": "특수 목적용 기계 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "디스플레이 공정 검사장비와 OLED·페로브스카이트 증착장비를 제작·설치한다. 제조 장비 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dongaeltek.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001316",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00489243",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "제조 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "디스플레이",
+       "page": "디스플레이",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "디스플레이 공정 검사장비와 OLED·페로브스카이트 증착장비를 제작·설치한다. 제조 장비 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dongaeltek.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001316",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00489243",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동아지질",
+   "type": "company",
+   "path": "companies/동아지질",
+   "summary": "지반조성·터널·TBM 토목공사를 수행하는 전문건설 기업",
+   "market": "KOSPI",
+   "ticker": "028100",
+   "dart_corp_code": "00178754",
+   "aliases": [],
+   "krx_industry": "기반조성 및 시설물 축조관련 전문공사업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "지반조성·포장공사, 터널·TBM·지반개량 등 토목 공사를 수행한다. 건축·토목·플랜트 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dage.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001545",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00178754",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "건설·인프라",
+     "tier": 1,
+     "stage": "건축·토목·플랜트",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "건설·인프라",
+       "page": "건설·인프라",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "지반조성·포장공사, 터널·TBM·지반개량 등 토목 공사를 수행한다. 건축·토목·플랜트 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dage.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001545",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00178754",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "동인기연",
    "type": "company",
    "path": "companies/동인기연",
@@ -80539,6 +80859,171 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001705",
       "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00231105",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동신건설",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건축·토목",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "토목·건축·주택·문화재 공사와 도로·교량·지하철·상하수도 등 공공 토목공사를 수행한다. 건축·토목 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dongshin.info/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000378",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00116408",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동아쏘시오홀딩스",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "사업지주·바이오 전략",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "지주사 및 경영컨설팅 부문을 통해 의약품·바이오 관련 계열을 포함한 그룹 사업을 관리한다. 사업지주·바이오 전략 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.donga.co.kr/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001307",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00116824",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동아에스티",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의약품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "전문의약품과 바이오의약품을 연구·제조·판매한다. 의약품 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "http://www.donga-st.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001313",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00956930",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동아엘텍",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제조 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "디스플레이 공정 검사장비와 OLED·페로브스카이트 증착장비를 제작·설치한다. 제조 장비 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dongaeltek.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001316",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00489243",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동아지질",
+   "target": "건설·인프라",
+   "type": "테마",
+   "tier": 1,
+   "stage": "건축·토목·플랜트",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "건설·인프라",
+     "page": "건설·인프라",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "지반조성·포장공사, 터널·TBM·지반개량 등 토목 공사를 수행한다. 건축·토목·플랜트 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dage.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001545",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00178754",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
     }
