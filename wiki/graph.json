@@ -48368,6 +48368,114 @@
    "issues": []
   },
   {
+   "id": "딥커머스",
+   "type": "company",
+   "path": "companies/딥커머스",
+   "summary": "중국 자회사의 패션 브랜드·스포츠웨어 사업을 기반으로 디지털 커머스 전환을 추진하는 홍콩 지주회사",
+   "market": "KOSDAQ",
+   "ticker": "900110",
+   "dart_corp_code": "00799070",
+   "aliases": [
+    "딥커머스리미티드",
+    "Deep Commerce Limited",
+    "이스트아시아홀딩스",
+    "East Asia Holdings Investment Limited"
+   ],
+   "krx_industry": "기타 금융업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "중국 자회사의 자체·수권 패션 브랜드 신발·의류·액세서리 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831001518",
+      "https://www.deepcommerceir.com/"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "총판·도매 네트워크와 온라인 커머스·브랜드 직영 운영을 병행하는 패션 커머스 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831001518",
+      "https://www.deepcommerceir.com/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "유통·전자상거래",
+     "tier": 1,
+     "stage": "편의점·소매·전자상거래",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "유통·전자상거래",
+       "page": "유통·전자상거래",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "총판·도매 네트워크와 온라인 커머스·브랜드 직영 운영을 병행하는 패션 커머스 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831001518",
+        "https://www.deepcommerceir.com/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "패션·의류",
+     "tier": 1,
+     "stage": "패션 브랜드 제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "패션·의류",
+       "page": "패션·의류",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "중국 자회사의 자체·수권 패션 브랜드 신발·의류·액세서리 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831001518",
+        "https://www.deepcommerceir.com/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "레인보우로보틱스",
    "type": "company",
    "path": "companies/레인보우로보틱스",
@@ -90018,6 +90126,68 @@
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003155",
       "https://www.deepnoid.com/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "딥커머스",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 1,
+   "stage": "편의점·소매·전자상거래",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "총판·도매 네트워크와 온라인 커머스·브랜드 직영 운영을 병행하는 패션 커머스 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831001518",
+      "https://www.deepcommerceir.com/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "딥커머스",
+   "target": "패션·의류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "패션 브랜드 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "패션·의류",
+     "page": "패션·의류",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "중국 자회사의 자체·수권 패션 브랜드 신발·의류·액세서리 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831001518",
+      "https://www.deepcommerceir.com/"
      ],
      "malformed": ""
     }
