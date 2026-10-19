@@ -598,7 +598,8 @@
     "라이브 스트리밍·미디어",
     "실감형 콘텐츠·테마파크",
     "웹툰·웹소설 콘텐츠",
-    "팬-아티스트 커뮤니케이션"
+    "팬-아티스트 커뮤니케이션",
+    "인터넷 뉴스·디지털미디어"
    ]
   },
   {
@@ -47415,6 +47416,155 @@
    "issues": []
   },
   {
+   "id": "디지틀조선",
+   "type": "company",
+   "path": "companies/디지틀조선",
+   "summary": "인터넷 뉴스·디지털미디어, 영상방송, 신문제작 자동화·SI, 교육서비스를 함께 운영하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "033130",
+   "dart_corp_code": "00231442",
+   "aliases": [
+    "디지틀조선일보",
+    "DigitalChosun"
+   ],
+   "krx_industry": "자료처리, 호스팅, 포털 및 기타 인터넷 정보매개 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "인터넷 뉴스·콘텐츠 서비스, AI 전문 미디어와 SNS 경제 방송을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000508",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000508&dcmNo=11136244&eleId=11&offset=74740&length=10176&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "교육·출판",
+     "page": "교육·출판",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "TOEFL TPO와 온·오프라인 어학·국제교육센터·교육센터를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000508",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000508&dcmNo=11136244&eleId=11&offset=74740&length=10176&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "CTS 신문제작 자동화와 외부 기업 SI·정보시스템 구축을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000508",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000508&dcmNo=11136244&eleId=11&offset=74740&length=10176&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "교육·출판",
+     "tier": 1,
+     "stage": "교육 콘텐츠·플랫폼",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "교육·출판",
+       "page": "교육·출판",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "TOEFL TPO와 온·오프라인 어학·국제교육센터·교육센터를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000508",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000508&dcmNo=11136244&eleId=11&offset=74740&length=10176&dtd=dart4.xsd"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "소프트웨어·IT서비스",
+     "tier": 1,
+     "stage": "시스템 구축·운영",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "소프트웨어·IT서비스",
+       "page": "소프트웨어·IT서비스",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "CTS 신문제작 자동화와 외부 기업 SI·정보시스템 구축을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000508",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000508&dcmNo=11136244&eleId=11&offset=74740&length=10176&dtd=dart4.xsd"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "인터넷 뉴스·디지털미디어",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "인터넷 뉴스·콘텐츠 서비스, AI 전문 미디어와 SNS 경제 방송을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000508",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000508&dcmNo=11136244&eleId=11&offset=74740&length=10176&dtd=dart4.xsd"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "레인보우로보틱스",
    "type": "company",
    "path": "companies/레인보우로보틱스",
@@ -88505,6 +88655,99 @@
     "label": "확인 중",
     "muted": false,
     "line_style": "dashed"
+   }
+  },
+  {
+   "source": "디지틀조선",
+   "target": "교육·출판",
+   "type": "테마",
+   "tier": 1,
+   "stage": "교육 콘텐츠·플랫폼",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "교육·출판",
+     "page": "교육·출판",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "TOEFL TPO와 온·오프라인 어학·국제교육센터·교육센터를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000508",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000508&dcmNo=11136244&eleId=11&offset=74740&length=10176&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디지틀조선",
+   "target": "소프트웨어·IT서비스",
+   "type": "테마",
+   "tier": 1,
+   "stage": "시스템 구축·운영",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "소프트웨어·IT서비스",
+     "page": "소프트웨어·IT서비스",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "CTS 신문제작 자동화와 외부 기업 SI·정보시스템 구축을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000508",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000508&dcmNo=11136244&eleId=11&offset=74740&length=10176&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디지틀조선",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "인터넷 뉴스·디지털미디어",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "인터넷 뉴스·콘텐츠 서비스, AI 전문 미디어와 SNS 경제 방송을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000508",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000508&dcmNo=11136244&eleId=11&offset=74740&length=10176&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
    }
   },
   {
