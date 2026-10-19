@@ -227,6 +227,7 @@
     "항암백신",
     "비임상 CRO·연구개발",
     "임상 CRO·연구개발",
+    "신약 연구개발",
     "사업지주·바이오 전략"
    ]
   },
@@ -266,7 +267,8 @@
    "summary": "부동산과 부동산 관련 증권에 투자·운용하고 임대수익과 자산운용 수익을 배당하는 상장 리츠",
    "category": "금융",
    "stages": [
-    "오피스 리츠"
+    "오피스 리츠",
+    "오피스·물류센터 리츠"
    ]
   },
   {
@@ -586,7 +588,9 @@
     "광고·콘텐츠 제작·연예 매니지먼트",
     "앨범 인쇄·콘텐츠 제작",
     "라이브 스트리밍·미디어",
-    "실감형 콘텐츠·테마파크"
+    "실감형 콘텐츠·테마파크",
+    "웹툰·웹소설 콘텐츠",
+    "팬-아티스트 커뮤니케이션"
    ]
   },
   {
@@ -45724,6 +45728,330 @@
    "issues": []
   },
   {
+   "id": "디알텍",
+   "type": "company",
+   "path": "companies/디알텍",
+   "summary": "의료·산업용 X-ray 디텍터와 X-ray 시스템을 제조·판매하는 의료기기 기업",
+   "market": "KOSDAQ",
+   "ticker": "214680",
+   "dart_corp_code": "01062867",
+   "aliases": [
+    "DRTECH",
+    "DRTECH CO., LTD."
+   ],
+   "krx_industry": "의료용 기기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "의료·산업용 X-ray 디텍터와 X-ray 시스템 제조·판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001313",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01062867",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "의료영상 검출기",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "의료·산업용 X-ray 디텍터와 X-ray 시스템 제조·판매를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001313",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01062867",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "디앤디파마텍",
+   "type": "company",
+   "path": "companies/디앤디파마텍",
+   "summary": "GLP-1 기반 대사성질환 치료제 등 혁신신약을 연구개발하는 바이오 기업",
+   "market": "KOSDAQ",
+   "ticker": "347850",
+   "dart_corp_code": "01376715",
+   "aliases": [
+    "D&D Pharmatech",
+    "DDP"
+   ],
+   "krx_industry": "자연과학 및 공학 연구개발업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "GLP-1 기반 대사성질환 치료제 등 혁신신약 연구개발을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001088",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01376715",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "신약 연구개발",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "GLP-1 기반 대사성질환 치료제 등 혁신신약 연구개발을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001088",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01376715",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "디앤디플랫폼리츠",
+   "type": "company",
+   "path": "companies/디앤디플랫폼리츠",
+   "summary": "오피스와 물류센터를 기초자산으로 투자·운용하는 코스피 상장 리츠",
+   "market": "KOSPI",
+   "ticker": "377190",
+   "dart_corp_code": "01475609",
+   "aliases": [
+    "D&D Platform REIT",
+    "디앤디플랫폼위탁관리부동산투자회사"
+   ],
+   "krx_industry": "부동산 임대 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "부동산·리츠",
+     "page": "부동산·리츠",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "오피스·물류센터 자산에 투자·운용하는 상장 리츠임을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260602000529",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01475609",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "부동산·리츠",
+     "tier": 1,
+     "stage": "오피스·물류센터 리츠",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "부동산·리츠",
+       "page": "부동산·리츠",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "오피스·물류센터 자산에 투자·운용하는 상장 리츠임을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260602000529",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01475609",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "디앤씨미디어",
+   "type": "company",
+   "path": "companies/디앤씨미디어",
+   "summary": "웹소설·웹툰 콘텐츠를 출판·유통하고 지적재산권을 확장하는 콘텐츠 기업",
+   "market": "KOSDAQ",
+   "ticker": "263720",
+   "dart_corp_code": "01186404",
+   "aliases": [
+    "D&C MEDIA"
+   ],
+   "krx_industry": "서적, 잡지 및 기타 인쇄물 출판업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "웹소설·전자책 판매와 웹툰·디지털콘텐츠 제작을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000853",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01186404",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "웹툰·웹소설 콘텐츠",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "웹소설·전자책 판매와 웹툰·디지털콘텐츠 제작을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000853",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01186404",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "디어유",
+   "type": "company",
+   "path": "companies/디어유",
+   "summary": "아티스트와 팬의 온라인 커뮤니케이션을 제공하는 구독형 모바일 플랫폼 기업",
+   "market": "KOSDAQ",
+   "ticker": "376300",
+   "dart_corp_code": "01456011",
+   "aliases": [
+    "DearU",
+    "Dear U"
+   ],
+   "krx_industry": "소프트웨어 개발 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "아티스트·팬 온라인 커뮤니케이션 기반 구독형 모바일 플랫폼을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001246",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01456011",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "콘텐츠·엔터테인먼트",
+     "tier": 1,
+     "stage": "팬-아티스트 커뮤니케이션",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "콘텐츠·엔터테인먼트",
+       "page": "콘텐츠·엔터테인먼트",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "아티스트·팬 온라인 커뮤니케이션 기반 구독형 모바일 플랫폼을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001246",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01456011",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "디지털프론티어",
    "type": "company",
    "path": "companies/디지털프론티어",
@@ -85934,6 +86262,166 @@
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000972",
       "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00966168",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디알텍",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "의료영상 검출기",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "의료·산업용 X-ray 디텍터와 X-ray 시스템 제조·판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001313",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01062867",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디앤디파마텍",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "신약 연구개발",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "GLP-1 기반 대사성질환 치료제 등 혁신신약 연구개발을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001088",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01376715",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디앤디플랫폼리츠",
+   "target": "부동산·리츠",
+   "type": "테마",
+   "tier": 1,
+   "stage": "오피스·물류센터 리츠",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "부동산·리츠",
+     "page": "부동산·리츠",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "오피스·물류센터 자산에 투자·운용하는 상장 리츠임을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260602000529",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01475609",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디앤씨미디어",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "웹툰·웹소설 콘텐츠",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "웹소설·전자책 판매와 웹툰·디지털콘텐츠 제작을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000853",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01186404",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디어유",
+   "target": "콘텐츠·엔터테인먼트",
+   "type": "테마",
+   "tier": 1,
+   "stage": "팬-아티스트 커뮤니케이션",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "콘텐츠·엔터테인먼트",
+     "page": "콘텐츠·엔터테인먼트",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "아티스트·팬 온라인 커뮤니케이션 기반 구독형 모바일 플랫폼을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001246",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01456011",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
