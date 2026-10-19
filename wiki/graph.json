@@ -48065,6 +48065,73 @@
    "issues": []
   },
   {
+   "id": "디티앤씨알오",
+   "type": "company",
+   "path": "companies/디티앤씨알오",
+   "summary": "의약품·의료기기·화학물질 등의 비임상·임상시험과 인허가 컨설팅을 제공하는 Full-service CRO",
+   "market": "KOSDAQ",
+   "ticker": "383930",
+   "dart_corp_code": "01437432",
+   "aliases": [
+    "Dt&CRO",
+    "DT&CRO CO., Ltd."
+   ],
+   "krx_industry": "자연과학 및 공학 연구개발업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "비임상 안전성·효능·PK·분석 서비스와 임상시험·인허가 컨설팅을 수행하는 Full-service CRO임을 확인해 비임상 CRO·연구개발 단계로 연결했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001171",
+      "https://www.dtncro.com/ko/about/overview.php",
+      "https://www.dtncro.com/ko/service/fda.php",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "바이오·제약",
+     "tier": 1,
+     "stage": "비임상 CRO·연구개발",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "바이오·제약",
+       "page": "바이오·제약",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "비임상 안전성·효능·PK·분석 서비스와 임상시험·인허가 컨설팅을 수행하는 Full-service CRO임을 확인해 비임상 CRO·연구개발 단계로 연결했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001171",
+        "https://www.dtncro.com/ko/about/overview.php",
+        "https://www.dtncro.com/ko/service/fda.php",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "레인보우로보틱스",
    "type": "company",
    "path": "companies/레인보우로보틱스",
@@ -64234,6 +64301,38 @@
      "text": "디아이: 반도체 검사장비 업체 디지털프론티어 지분 65.18%를 보유한다(2025-12-31 기준).",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001121"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디티앤씨",
+   "target": "디티앤씨알오",
+   "type": "출자",
+   "evidence": [
+    {
+     "date": "2026-03-20",
+     "text": "디티앤씨알오 보통주 3,930,000주, 지분율 30.74%를 보유한 지배기업으로 기재된다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001171"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    },
+    {
+     "date": "2026-03-20",
+     "text": "디티앤씨가 보통주 3,930,000주, 지분율 30.74%를 보유한 지배기업으로 사업보고서에 기재된다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001171"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
@@ -89523,6 +89622,39 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250320001728",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20250320001728&dcmNo=10441661&eleId=10&offset=107232&length=1585&dtd=dart4.xsd",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20250320001728&dcmNo=10441661&eleId=11&offset=108821&length=8725&dtd=dart4.xsd",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디티앤씨알오",
+   "target": "바이오·제약",
+   "type": "테마",
+   "tier": 1,
+   "stage": "비임상 CRO·연구개발",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "바이오·제약",
+     "page": "바이오·제약",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "비임상 안전성·효능·PK·분석 서비스와 임상시험·인허가 컨설팅을 수행하는 Full-service CRO임을 확인해 비임상 CRO·연구개발 단계로 연결했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001171",
+      "https://www.dtncro.com/ko/about/overview.php",
+      "https://www.dtncro.com/ko/service/fda.php",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
