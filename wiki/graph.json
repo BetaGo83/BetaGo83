@@ -47887,6 +47887,117 @@
    "issues": []
   },
   {
+   "id": "디티씨",
+   "type": "company",
+   "path": "companies/디티씨",
+   "summary": "LCD 모듈과 연결회사 루멘스의 LED·도광판·자동차 전장 사업을 함께 영위하는 디스플레이 기업",
+   "market": "KOSDAQ",
+   "ticker": "066670",
+   "dart_corp_code": "00371740",
+   "aliases": [
+    "DTC",
+    "DTC Co., Ltd.",
+    "디스플레이테크"
+   ],
+   "krx_industry": "부동산 임대 및 공급업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "본사 LCD모듈과 연결회사 루멘스의 LED·도광판·Micro LED 디스플레이 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000204",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260805000204&dcmNo=11510036&eleId=12&offset=101665&length=7399&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260805000204&dcmNo=11510036&eleId=13&offset=109068&length=12838&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "연결회사 루멘스의 자동차용 LED·헤드램프 모듈·DRL 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000204",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260805000204&dcmNo=11510036&eleId=12&offset=101665&length=7399&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260805000204&dcmNo=11510036&eleId=13&offset=109068&length=12838&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "디스플레이",
+     "tier": 1,
+     "stage": "디스플레이 제품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "디스플레이",
+       "page": "디스플레이",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "본사 LCD모듈과 연결회사 루멘스의 LED·도광판·Micro LED 디스플레이 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000204",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260805000204&dcmNo=11510036&eleId=12&offset=101665&length=7399&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260805000204&dcmNo=11510036&eleId=13&offset=109068&length=12838&dtd=dart4.xsd"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "부품·모듈",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "연결회사 루멘스의 자동차용 LED·헤드램프 모듈·DRL 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000204",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260805000204&dcmNo=11510036&eleId=12&offset=101665&length=7399&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260805000204&dcmNo=11510036&eleId=13&offset=109068&length=12838&dtd=dart4.xsd"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "레인보우로보틱스",
    "type": "company",
    "path": "companies/레인보우로보틱스",
@@ -89249,6 +89360,70 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001382",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001382&dcmNo=11142341&eleId=10&offset=81303&length=2362&dtd=dart4.xsd",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001382&dcmNo=11142341&eleId=11&offset=83669&length=16060&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디티씨",
+   "target": "디스플레이",
+   "type": "테마",
+   "tier": 1,
+   "stage": "디스플레이 제품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "디스플레이",
+     "page": "디스플레이",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "본사 LCD모듈과 연결회사 루멘스의 LED·도광판·Micro LED 디스플레이 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000204",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260805000204&dcmNo=11510036&eleId=12&offset=101665&length=7399&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260805000204&dcmNo=11510036&eleId=13&offset=109068&length=12838&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디티씨",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "부품·모듈",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "연결회사 루멘스의 자동차용 LED·헤드램프 모듈·DRL 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000204",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260805000204&dcmNo=11510036&eleId=12&offset=101665&length=7399&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260805000204&dcmNo=11510036&eleId=13&offset=109068&length=12838&dtd=dart4.xsd"
      ],
      "malformed": ""
     }
