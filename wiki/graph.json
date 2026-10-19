@@ -445,7 +445,8 @@
     "체외진단 키트",
     "의료용 지혈제",
     "한방·미용 의료기기",
-    "진단용 X-ray 장비"
+    "진단용 X-ray 장비",
+    "정형외과용 임플란트"
    ]
   },
   {
@@ -56486,6 +56487,105 @@
    ]
   },
   {
+   "id": "오스테오닉",
+   "type": "company",
+   "path": "companies/오스테오닉",
+   "summary": "금속·바이오 소재 기반 정형외과용 임플란트와 골고정 의료기기를 개발·제조하는 기업",
+   "market": "KOSDAQ",
+   "ticker": "226400",
+   "dart_corp_code": "01082348",
+   "aliases": [
+    "OSTEONIC Co., Ltd.",
+    "Osteonic"
+   ],
+   "krx_industry": "의료용 기기 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "금속·바이오 소재 기반 CMF·Trauma·Sports Medicine·Spine 정형외과용 임플란트 제조·판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000579",
+      "https://osteonic.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "정형외과용 임플란트",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "금속·바이오 소재 기반 CMF·Trauma·Sports Medicine·Spine 정형외과용 임플란트 제조·판매를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000579",
+        "https://osteonic.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-08-14",
+     "kind": "실적",
+     "text": "반기보고서는 2026년 상반기 연결 매출 260.79억원과 제품군별 매출 구성을 공시했다. 9월 29일 기재정정은 반기보고서 첨부를 추가한 정정 공시다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000579"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-06-26",
+     "kind": "기타",
+     "text": "2025년 사업보고서 기재정정 공시가 제출됐다. 회사는 정형외과 임플란트 제조·판매와 FDA·CE 인증 이력을 사업보고서에 설명한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626000761"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-02-03",
+     "kind": "실적",
+     "text": "2025년 매출액은 454.27억원, 영업이익은 91.94억원으로 공시됐으며 기존·신규 제품 매출 증가를 주요 원인으로 제시했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260203900237"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "와이씨",
    "type": "company",
    "path": "companies/와이씨",
@@ -65112,13 +65212,31 @@
    "summary": "위키 페이지가 아직 없는 상대"
   },
   {
+   "id": "비브라운",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
    "id": "솔라엣지 테크놀로지스 코리아",
    "type": "external",
    "path": null,
    "summary": "위키 페이지가 아직 없는 상대"
   },
   {
+   "id": "써지플럭스",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
    "id": "아지오스",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "아큐레시스바이오",
    "type": "external",
    "path": null,
    "summary": "위키 페이지가 아직 없는 상대"
@@ -65155,6 +65273,12 @@
   },
   {
    "id": "인디고테크",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "짐머바이오메트",
    "type": "external",
    "path": null,
    "summary": "위키 페이지가 아직 없는 상대"
@@ -65469,6 +65593,50 @@
      "text": "DART 반기보고서는 레드캡마이스를 여행사업부문을 함께 영위하는 100% 종속회사로 기재한다.",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000951"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "써지플럭스",
+   "target": "오스테오닉",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "DART 반기보고서는 써지플럭스를 임플란트 제조·판매업을 영위하는 100% 종속기업으로 기재한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000579"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "아큐레시스바이오",
+   "target": "오스테오닉",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "DART 반기보고서는 아큐레시스바이오를 연구개발·기타 금속가공업을 영위하는 88.07% 종속기업으로 기재한다. 유효지분율은 자기주식 차감 기준 88.47%다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000579"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
@@ -66084,6 +66252,50 @@
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917800658",
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000890"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오스테오닉",
+   "target": "비브라운",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "반기보고서는 국내외 대리점을 통한 판매처로 비브라운을 포함해 기재하고, 2018년 비브라운 글로벌과 신경외과용 Neuro system 독점 공급·판매 계약을 체결한 이력을 설명한다. 매년 공급 수량·금액의 별도 계약은 공시하지 않았다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000579"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오스테오닉",
+   "target": "짐머바이오메트",
+   "type": "공급",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "반기보고서는 짐머바이오메트를 포함한 국내외 대리점을 통해 정형외과 임플란트를 판매한다고 설명한다. 연간 공급 수량·금액의 별도 계약은 공시하지 않았다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000579"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
@@ -96803,6 +97015,38 @@
      "weak": false,
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003016",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오스테오닉",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "정형외과용 임플란트",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "금속·바이오 소재 기반 CMF·Trauma·Sports Medicine·Spine 정형외과용 임플란트 제조·판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000579",
+      "https://osteonic.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
