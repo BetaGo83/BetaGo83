@@ -47324,6 +47324,71 @@
    "issues": []
   },
   {
+   "id": "디지털대성",
+   "type": "company",
+   "path": "companies/디지털대성",
+   "summary": "초·중·고교생과 N수생을 대상으로 교육 콘텐츠와 온라인·오프라인 입시 서비스를 제공하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "068930",
+   "dart_corp_code": "00398808",
+   "aliases": [
+    "Digital Daesung",
+    "Digital Daesung Co., Ltd."
+   ],
+   "krx_industry": "일반 교습 학원",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "교육·출판",
+     "page": "교육·출판",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "초·중등 교재·독서논술교육과 고등 이러닝·국어콘텐츠·입시 학원교육을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000608",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000608&dcmNo=11136820&eleId=10&offset=117005&length=1320&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000608&dcmNo=11136820&eleId=11&offset=118329&length=5464&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "교육·출판",
+     "tier": 1,
+     "stage": "교육 콘텐츠·플랫폼",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "교육·출판",
+       "page": "교육·출판",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "초·중등 교재·독서논술교육과 고등 이러닝·국어콘텐츠·입시 학원교육을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000608",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000608&dcmNo=11136820&eleId=10&offset=117005&length=1320&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000608&dcmNo=11136820&eleId=11&offset=118329&length=5464&dtd=dart4.xsd"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "디지털프론티어",
    "type": "company",
    "path": "companies/디지털프론티어",
@@ -88385,6 +88450,38 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001426",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=10&offset=149337&length=6334&dtd=dart4.xsd",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316001426&dcmNo=11128892&eleId=11&offset=155675&length=8743&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디지털대성",
+   "target": "교육·출판",
+   "type": "테마",
+   "tier": 1,
+   "stage": "교육 콘텐츠·플랫폼",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "교육·출판",
+     "page": "교육·출판",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "초·중등 교재·독서논술교육과 고등 이러닝·국어콘텐츠·입시 학원교육을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000608",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000608&dcmNo=11136820&eleId=10&offset=117005&length=1320&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000608&dcmNo=11136820&eleId=11&offset=118329&length=5464&dtd=dart4.xsd"
      ],
      "malformed": ""
     }
