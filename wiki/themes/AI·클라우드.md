@@ -26,13 +26,14 @@ updated: "2026-10-19"
 - AI·클라우드 구축·운영: [[데이타솔루션]] ([데이타솔루션 공식 비전](https://www.datasolution.kr/info/vision), [데이타솔루션 사업소개](https://www.datasolution.kr/info/business), [DART 사업보고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316001182)), [[현대오토에버]] ([현대오토에버](https://www.hyundai-autoever.com/kor/business-area/core-technology/ai/contents.do?cntnSeq=362), [현대오토에버](https://www.hyundai-autoever.com/kor/business-area/core-technology/cloud/contents.do?cntnSeq=360)), [[LG씨엔에스]] ([출처](https://www.lgcns.com/en/service/modern-it-infra-on-cloud/cloud)), [[포스코DX]] ([포스코DX IT서비스](https://www.poscodx.com/kor/business/itService)), [[HS효성]] ([AI/데이터 솔루션 부문](https://www.hshyosung.com/kr/business/information-communication)), [[NHN]] ([NHN 서비스·클라우드](https://www.nhn.com/services?tab=technology)), [[글로본]] ([글로본 사업소개](https://www.globon.io/business), [글로본 공식 홈페이지](https://www.globon.io/)), [[나무AX]] ([나무테크 공식 홈페이지](https://www.namutech.co.kr/))
 - 클라우드 인프라 서비스: [[케이아이엔엑스]] ([출처](https://www.kinx.net/service/cloud/))
 
-- AI·영상보안: [[한화비전]] ([공식 사업자료](https://www.hanwha.co.kr/business/manufacture/hanwhavision.do))
+- AI·영상보안: [[한화비전]] ([공식 사업자료](https://www.hanwha.co.kr/business/manufacture/hanwhavision.do)), [[DGI]] ([DART 사업보고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000358), [주요 제품 및 서비스 원문](https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000358&dcmNo=11146848&eleId=11&offset=194011&length=12696&dtd=dart4.xsd))
 ## 관련 기업
 
 <!-- scripts/build_graph.py가 만드는 표. 손으로 고치지 않는다 -->
 
 | 기업 | 주제 | 분류 | 상태 | 근거 날짜 | 근거 |
 |---|---|---|---|---|---|
+| [[DGI]] | AI·클라우드 | 공시·거래소 확인 | 확인 | 2026-10-19 | 공시 원문 [출처](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000358), [출처](https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000358&dcmNo=11146848&eleId=9&offset=186505&length=162989&dtd=dart4.xsd), [출처](https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000358&dcmNo=11146848&eleId=11&offset=194011&length=12696&dtd=dart4.xsd) |
 | [[HS효성]] | AI·클라우드 | 공시·거래소 확인 | 확인 | 2026-10-18 | 공시 원문 [출처](https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt), [출처](https://www.hshyosung.com/kr/business/information-communication) |
 | [[LG씨엔에스]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-17 | 공식 발표 [출처](https://www.lgcns.com/en/service/modern-it-infra-on-cloud/cloud) |
 | [[NAVER]] | AI·클라우드 | 공식 발표 확인 | 확인 | 2026-10-15 | 공식 발표 [출처](https://navercorp.com/company/about) |

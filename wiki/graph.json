@@ -157,7 +157,8 @@
     "정밀 부품·패스너",
     "산업용 고무·벨트",
     "전자부품·센서",
-    "사업지주·산업기계 전략"
+    "사업지주·산업기계 전략",
+    "산업용 프린팅 장비"
    ]
   },
   {
@@ -2956,36 +2957,65 @@
    "id": "DGI",
    "type": "company",
    "path": "companies/DGI",
-   "summary": "산업용 디지털 프린팅 장비와 섬유용 잉크젯 프린터를 개발·제조하는 코스닥 상장사",
+   "summary": "CCTV 영상보안장비를 개발·제조하고 AI 영상장비와 해상풍력 인허가·EPC 용역을 함께 영위하는 코스닥 상장사",
    "market": "KOSDAQ",
    "ticker": "099520",
    "dart_corp_code": "00627029",
    "aliases": [
-    "Digital Graphics Incorporation"
+    "디지아이티엑스",
+    "DG-ITX"
    ],
    "krx_industry": "영상 및 음향기기 제조업",
    "classification_as_of": "2026-10-09",
    "classifications": [
     {
-     "topic": "사업 범위",
-     "page": "",
-     "classification": "공식 발표 확인",
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공시·거래소 확인",
      "status": "확인",
-     "date": "2026-10-18",
-     "text": "DGI의 KIND·DART 상장사 식별과 공식 사이트의 산업용 디지털 프린팅 장비·섬유용 잉크젯 프린터 사업을 확인했다. 특정 공급·고객·수주 관계는 확인하지 않았다.",
-     "evidence_level": "공식 발표",
+     "date": "2026-10-19",
+     "text": "AI Hybrid DVR·AI IP Camera와 지능형 영상 분석 장비 개발·생산을 확인했다.",
+     "evidence_level": "공시 원문",
      "weak": false,
      "sources": [
-      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
-      "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=00627029",
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000358",
-      "https://www.dgi-net.com/",
-      "https://www.dgi-net.com/PRODUCT"
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000358&dcmNo=11146848&eleId=9&offset=186505&length=162989&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000358&dcmNo=11146848&eleId=11&offset=194011&length=12696&dtd=dart4.xsd"
      ],
      "malformed": ""
     }
    ],
-   "themes": [],
+   "themes": [
+    {
+     "theme": "AI·클라우드",
+     "tier": 1,
+     "stage": "AI·영상보안",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "AI·클라우드",
+       "page": "AI·클라우드",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "AI Hybrid DVR·AI IP Camera와 지능형 영상 분석 장비 개발·생산을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000358",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000358&dcmNo=11146848&eleId=9&offset=186505&length=162989&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000358&dcmNo=11146848&eleId=11&offset=194011&length=12696&dtd=dart4.xsd"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
    "issues": []
   },
   {
@@ -47072,6 +47102,70 @@
    "issues": []
   },
   {
+   "id": "디지아이",
+   "type": "company",
+   "path": "companies/디지아이",
+   "summary": "산업용 디지털 프린터와 커팅 플로터를 개발·제조해 판매하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "043360",
+   "dart_corp_code": "00295547",
+   "aliases": [
+    "Digital Graphics Incorporation"
+   ],
+   "krx_industry": "컴퓨터 및 주변장치 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "커팅 플로터·잉크젯 프린터와 텍스타일·사인 광고·식품용 프린터 및 디지털 프레스 장비의 개발·제조·판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002586",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260310002586&dcmNo=11103762&eleId=9&offset=137441&length=142842&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260310002586&dcmNo=11103762&eleId=11&offset=148774&length=8872&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "산업용 프린팅 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "커팅 플로터·잉크젯 프린터와 텍스타일·사인 광고·식품용 프린터 및 디지털 프레스 장비의 개발·제조·판매를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002586",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260310002586&dcmNo=11103762&eleId=9&offset=137441&length=142842&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260310002586&dcmNo=11103762&eleId=11&offset=148774&length=8872&dtd=dart4.xsd"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "디지털프론티어",
    "type": "company",
    "path": "companies/디지털프론티어",
@@ -64796,6 +64890,38 @@
      "sources": [
       "https://www.dbhitek.com/kr/company/about",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "DGI",
+   "target": "AI·클라우드",
+   "type": "테마",
+   "tier": 1,
+   "stage": "AI·영상보안",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "AI·클라우드",
+     "page": "AI·클라우드",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "AI Hybrid DVR·AI IP Camera와 지능형 영상 분석 장비 개발·생산을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319000358",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000358&dcmNo=11146848&eleId=9&offset=186505&length=162989&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260319000358&dcmNo=11146848&eleId=11&offset=194011&length=12696&dtd=dart4.xsd"
      ],
      "malformed": ""
     }
@@ -87973,6 +88099,38 @@
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001189",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001189&dcmNo=11140801&eleId=9&offset=131054&length=183451&dtd=dart4.xsd",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001189&dcmNo=11140801&eleId=11&offset=131781&length=3967&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디지아이",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "산업용 프린팅 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "커팅 플로터·잉크젯 프린터와 텍스타일·사인 광고·식품용 프린터 및 디지털 프레스 장비의 개발·제조·판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002586",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260310002586&dcmNo=11103762&eleId=9&offset=137441&length=142842&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260310002586&dcmNo=11103762&eleId=11&offset=148774&length=8872&dtd=dart4.xsd"
      ],
      "malformed": ""
     }
