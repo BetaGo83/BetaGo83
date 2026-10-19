@@ -56740,6 +56740,199 @@
    ]
   },
   {
+   "id": "오아",
+   "type": "company",
+   "path": "companies/오아",
+   "summary": "중소형가전·건강푸드와 향수·화장품 신사업을 기획·유통하는 소비재 기업",
+   "market": "KOSDAQ",
+   "ticker": "342870",
+   "dart_corp_code": "01428948",
+   "aliases": [
+    "OA Co., Ltd.",
+    "OA",
+    "오아 주식회사"
+   ],
+   "krx_industry": "가전제품 및 정보통신장비 소매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "중소형가전·건강푸드 제품을 기획·유통하고 온·오프라인에서 판매하는 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002688",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "헬스식품·건강식품 제품군과 삼대오백 브랜드 판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002688",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "화장품·향수 도소매 및 전자상거래 목적과 온살(ONSAL) 스킨케어 출시를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002688"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "유통·전자상거래",
+     "tier": 1,
+     "stage": "편의점·소매·전자상거래",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "유통·전자상거래",
+       "page": "유통·전자상거래",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "중소형가전·건강푸드 제품을 기획·유통하고 온·오프라인에서 판매하는 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002688",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "신선식품·건강식품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "헬스식품·건강식품 제품군과 삼대오백 브랜드 판매를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002688",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "화장품·미용",
+     "tier": 1,
+     "stage": "화장품 제조·판매",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화장품·미용",
+       "page": "화장품·미용",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "화장품·향수 도소매 및 전자상거래 목적과 온살(ONSAL) 스킨케어 출시를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002688"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-08-14",
+     "kind": "실적",
+     "text": "2026년 상반기 매출은 528.67억원으로 공시됐다. 중소형가전과 건강푸드가 주력이며, 생활·계절·건강·주방가전과 헬스식품·건강식품, 신사업으로 매출을 구분한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002688"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-06-05",
+     "kind": "기타",
+     "text": "삼대오백 건강식품 사업을 분할하려던 물적분할 안건이 임시주주총회에서 부결되어 관련 절차를 철회했다. 이후 사업구조 개편 검토와 실제 실행은 구분한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605000565"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-05-22",
+     "kind": "투자",
+     "text": "중국·유럽·미국 글로벌 유통 플랫폼 진출을 위한 홍콩 합작법인 OA Global에 60% 출자 계획을 공시했다. 공시상 신규 설립 예정이며 확정·납입 전 계획으로 기록한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260522900749"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-03-09",
+     "kind": "기타",
+     "text": "자기주식 797,917주를 이익잉여금으로 소각해 발행주식 수를 줄였다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260304901507"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "와이씨",
    "type": "company",
    "path": "companies/와이씨",
@@ -65324,6 +65517,12 @@
    "summary": "위키 페이지가 아직 없는 상대"
   },
   {
+   "id": "OA Global Co., Limited",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
    "id": "PGU Turkestan LLP",
    "type": "external",
    "path": null,
@@ -67773,6 +67972,28 @@
     "label": "",
     "muted": false,
     "line_style": "solid"
+   }
+  },
+  {
+   "source": "오아",
+   "target": "OA Global Co., Limited",
+   "type": "출자",
+   "evidence": [
+    {
+     "date": "2026-05-22",
+     "text": "중국·유럽·미국 글로벌 유통 플랫폼 진출을 위한 홍콩 합작법인에 오아가 60% 출자할 계획이다. 공시는 총 USD 3,000,000 출자와 설립·납입 일정이 변경될 수 있음을 함께 기재한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260522900749"
+     ],
+     "status": "계획(확인 중)",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "확인 중",
+    "muted": false,
+    "line_style": "dashed"
    }
   },
   {
@@ -97433,6 +97654,98 @@
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002583",
       "https://www.austem.co.kr/main.html"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오아",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 1,
+   "stage": "편의점·소매·전자상거래",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "중소형가전·건강푸드 제품을 기획·유통하고 온·오프라인에서 판매하는 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002688",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오아",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "신선식품·건강식품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "헬스식품·건강식품 제품군과 삼대오백 브랜드 판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002688",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오아",
+   "target": "화장품·미용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "화장품 제조·판매",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "화장품·향수 도소매 및 전자상거래 목적과 온살(ONSAL) 스킨케어 출시를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002688"
      ],
      "malformed": ""
     }
