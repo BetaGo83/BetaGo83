@@ -48195,6 +48195,71 @@
    "issues": []
   },
   {
+   "id": "딜리셔스",
+   "type": "company",
+   "path": "companies/딜리셔스",
+   "summary": "동대문 패션 도매·소매 사업자를 연결하는 B2B 플랫폼 신상마켓을 운영하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "483350",
+   "dart_corp_code": "01461730",
+   "aliases": [
+    "Dealicious",
+    "Dealicious Inc."
+   ],
+   "krx_industry": "무점포 소매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "신상마켓으로 패션 도매·소매 사업자를 연결하고 광고·구독·사입대행·배송 서비스를 제공하는 B2B 플랫폼 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001133",
+      "https://www.dealicious.kr/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "유통·전자상거래",
+     "tier": 1,
+     "stage": "편의점·소매·전자상거래",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "유통·전자상거래",
+       "page": "유통·전자상거래",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "신상마켓으로 패션 도매·소매 사업자를 연결하고 광고·구독·사입대행·배송 서비스를 제공하는 B2B 플랫폼 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001133",
+        "https://www.dealicious.kr/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "레인보우로보틱스",
    "type": "company",
    "path": "companies/레인보우로보틱스",
@@ -89749,6 +89814,38 @@
      "weak": false,
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313000806",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "딜리셔스",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 1,
+   "stage": "편의점·소매·전자상거래",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "신상마켓으로 패션 도매·소매 사업자를 연결하고 광고·구독·사입대행·배송 서비스를 제공하는 B2B 플랫폼 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001133",
+      "https://www.dealicious.kr/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
