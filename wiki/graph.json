@@ -453,6 +453,7 @@
     "완성차",
     "자동차 판매·서비스",
     "부품·모듈",
+    "배기계·소음기",
     "차량용 전장·인포테인먼트",
     "차체 부품·핫스탬핑",
     "구동·변속·현가 부품",
@@ -47006,6 +47007,71 @@
    "issues": []
   },
   {
+   "id": "디젠스",
+   "type": "company",
+   "path": "companies/디젠스",
+   "summary": "자동차 배기계시스템의 머플러와 관련 부품을 개발·제조하는 자동차 부품 기업",
+   "market": "KOSDAQ",
+   "ticker": "113810",
+   "dart_corp_code": "00576789",
+   "aliases": [
+    "DGENX",
+    "DGENX Co., Ltd."
+   ],
+   "krx_industry": "자동차 신품 부품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차 배기계시스템의 머플러와 관련 구성품 개발·제조를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001189",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001189&dcmNo=11140801&eleId=9&offset=131054&length=183451&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001189&dcmNo=11140801&eleId=11&offset=131781&length=3967&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "자동차·부품",
+     "tier": 1,
+     "stage": "배기계·소음기",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "자동차·부품",
+       "page": "자동차·부품",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "자동차 배기계시스템의 머플러와 관련 구성품 개발·제조를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001189",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001189&dcmNo=11140801&eleId=9&offset=131054&length=183451&dtd=dart4.xsd",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001189&dcmNo=11140801&eleId=11&offset=131781&length=3967&dtd=dart4.xsd"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "디지털프론티어",
    "type": "company",
    "path": "companies/디지털프론티어",
@@ -87875,6 +87941,38 @@
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001743",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260323001743&dcmNo=11170314&eleId=11&offset=98593&length=6869&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디젠스",
+   "target": "자동차·부품",
+   "type": "테마",
+   "tier": 1,
+   "stage": "배기계·소음기",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "자동차·부품",
+     "page": "자동차·부품",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자동차 배기계시스템의 머플러와 관련 구성품 개발·제조를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001189",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001189&dcmNo=11140801&eleId=9&offset=131054&length=183451&dtd=dart4.xsd",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318001189&dcmNo=11140801&eleId=11&offset=131781&length=3967&dtd=dart4.xsd"
      ],
      "malformed": ""
     }
