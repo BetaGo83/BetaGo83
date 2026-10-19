@@ -56933,6 +56933,128 @@
    ]
   },
   {
+   "id": "오에스피",
+   "type": "company",
+   "path": "companies/오에스피",
+   "summary": "유기농·기능성 반려동물 사료를 ODM과 자체 브랜드로 생산하는 펫푸드 기업",
+   "market": "KOSDAQ",
+   "ticker": "368970",
+   "dart_corp_code": "01491607",
+   "aliases": [
+    "OSP Co., Ltd.",
+    "OSP",
+    "오에스피 주식회사"
+   ],
+   "krx_industry": "동물용 사료 및 조제식품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "동물용 사료 제조·조제식품 제조와 유기농·기능성 반려동물 사료 ODM·자체 브랜드 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002818",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://www.osppetfood.com/eng/main/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "음식료",
+     "tier": 1,
+     "stage": "제당·사료",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "음식료",
+       "page": "음식료",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "동물용 사료 제조·조제식품 제조와 유기농·기능성 반려동물 사료 ODM·자체 브랜드 사업을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002818",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+        "https://www.osppetfood.com/eng/main/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-10-08",
+     "kind": "기타",
+     "text": "자기주식 497,462주를 평균 2,379원에 취득해 4.43%를 보유하게 됐다. 예정 금액보다 실제 취득액이 적은 이유는 호가 내 미체결이라고 공시했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000632"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-09-08",
+     "kind": "기타",
+     "text": "거래소는 2026-07-10 시가총액 미달을 사유로 관리종목으로 지정했고, 2026-09-08 공시에서 지정 후 90일 이내 시가총액 기준을 충족하지 못하면 상장폐지 사유가 될 수 있음을 안내했다. 해당 안내는 상장폐지가 확정됐다는 뜻과 구분한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908900638"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-08-14",
+     "kind": "실적",
+     "text": "2026년 상반기 연결 매출은 69.45억원, 영업이익은 4.74억원으로 공시됐다. 별도 제품 매출은 ODM 61.1%, PB 36.5%로 구분된다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002818"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-08-12",
+     "kind": "투자",
+     "text": "제3자배정 유상증자 실제 발행 1,042,753주·20억원의 납입이 완료됐다. 이후 에스플러스온의 보유 보고는 별도 대량보유상황보고서로 확인한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812900492"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-04-03",
+     "kind": "기타",
+     "text": "기취득 자기주식 210,494주를 소각해 보통주 발행주식 총수를 9,135,666주로 변경했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324900283"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "와이씨",
    "type": "company",
    "path": "companies/와이씨",
@@ -65577,6 +65699,12 @@
    "summary": "위키 페이지가 아직 없는 상대"
   },
   {
+   "id": "바우와우코리아",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
    "id": "비브라운",
    "type": "external",
    "path": null,
@@ -65602,6 +65730,12 @@
   },
   {
    "id": "아큐레시스바이오",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "에스플러스온",
    "type": "external",
    "path": null,
    "summary": "위키 페이지가 아직 없는 상대"
@@ -66004,6 +66138,28 @@
      "text": "DART 반기보고서는 레드캡마이스를 여행사업부문을 함께 영위하는 100% 종속회사로 기재한다.",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000951"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "바우와우코리아",
+   "target": "오에스피",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-06-30",
+     "text": "반기보고서가 연결대상 종속회사로 기재하며, 반습식·화식·오븐베이커 사료와 간식을 생산·판매한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002818"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
@@ -67917,6 +68073,29 @@
      "text": "삼성전자가 와이씨 지분 11.70% 보유(2025-12-31 기준).",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001246"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "에스플러스온",
+   "target": "오에스피",
+   "type": "출자",
+   "evidence": [
+    {
+     "date": "2026-08-12",
+     "text": "제3자배정 유상증자로 1,042,753주·20억원을 2026-08-12 납입했고, 이후 에스플러스온이 9.28%를 보유한 주요 주주로 보고됐다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812900492",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820000180"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
@@ -97746,6 +97925,38 @@
      "weak": false,
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002688"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "오에스피",
+   "target": "음식료",
+   "type": "테마",
+   "tier": 1,
+   "stage": "제당·사료",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "음식료",
+     "page": "음식료",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "동물용 사료 제조·조제식품 제조와 유기농·기능성 반려동물 사료 ODM·자체 브랜드 사업을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002818",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt",
+      "https://www.osppetfood.com/eng/main/"
      ],
      "malformed": ""
     }
