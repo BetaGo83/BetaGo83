@@ -50359,6 +50359,168 @@
    ]
   },
   {
+   "id": "레드캡투어",
+   "type": "company",
+   "path": "companies/레드캡투어",
+   "summary": "기업·기관 대상 출장여행·MICE와 장기 렌터카를 제공하는 여행·모빌리티 기업",
+   "market": "KOSDAQ",
+   "ticker": "038390",
+   "dart_corp_code": "00261355",
+   "aliases": [
+    "RedcapTour Co., Ltd.",
+    "RedcapTour"
+   ],
+   "krx_industry": "여행사 및 기타 여행보조 서비스업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "호텔·레저",
+     "page": "호텔·레저",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "법인 출장여행·항공권·호텔 예약 대행과 국내외 여행상품·MICE 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000951",
+      "https://www.redcap.co.kr/"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "차량대여와 계약 만기 차량의 중고차 매매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000951",
+      "https://www.redcap.co.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "유통·전자상거래",
+     "tier": 1,
+     "stage": "중고차 플랫폼·렌터카",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "유통·전자상거래",
+       "page": "유통·전자상거래",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "차량대여와 계약 만기 차량의 중고차 매매 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000951",
+        "https://www.redcap.co.kr/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "호텔·레저",
+     "tier": 1,
+     "stage": "여행 콘텐츠·MICE",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "호텔·레저",
+       "page": "호텔·레저",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "법인 출장여행·항공권·호텔 예약 대행과 국내외 여행상품·MICE 사업을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000951",
+        "https://www.redcap.co.kr/"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-08-14",
+     "kind": "실적",
+     "text": "2026년 상반기 영업수익은 1,905.78억원으로 전년 동기 2,000.26억원보다 4.7% 감소했으며, 렌터카사업부문이 88.4%를 차지했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000951"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-08-06",
+     "kind": "실적",
+     "text": "2026년 2분기 매출액은 982.27억원, 영업이익은 157.37억원으로 공시됐다. 전년 동기 대비 매출액은 3.6% 증가했고 영업이익은 16.3% 증가했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806900341"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-05-07",
+     "kind": "실적",
+     "text": "2026년 1분기 매출액은 923.51억원, 영업이익은 179.21억원으로 공시됐다. 전년 동기 대비 영업이익은 251.5% 증가했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507900563"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-03-27",
+     "kind": "정책",
+     "text": "2026년 기업가치 제고 계획에서 영업이익 증대, 예측 가능한 배당, ESG 경영 추진을 목표로 제시했다. 계획과 실제 결과는 구분해야 한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260327900436"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-02-12",
+     "kind": "기타",
+     "text": "2025년 결산배당으로 보통주 1주당 500원, 배당금 총액 83.60억원을 결정했다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260212900472"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "레인보우로보틱스",
    "type": "company",
    "path": "companies/레인보우로보틱스",
@@ -64779,6 +64941,12 @@
    "summary": "위키 페이지가 아직 없는 상대"
   },
   {
+   "id": "레드캡마이스",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
    "id": "솔라엣지 테크놀로지스 코리아",
    "type": "external",
    "path": null,
@@ -65064,6 +65232,28 @@
      "text": "DART 반기보고서는 러셀로보틱스를 2020년 편입한 자회사로 기재하고 무인자동화시스템 부문을 연결 매출로 공시한다.",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002921"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "레드캡마이스",
+   "target": "레드캡투어",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-08-14",
+     "text": "DART 반기보고서는 레드캡마이스를 여행사업부문을 함께 영위하는 100% 종속회사로 기재한다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000951"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
@@ -93019,6 +93209,68 @@
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002921",
       "http://russellrobotics.co.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "레드캡투어",
+   "target": "유통·전자상거래",
+   "type": "테마",
+   "tier": 1,
+   "stage": "중고차 플랫폼·렌터카",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "유통·전자상거래",
+     "page": "유통·전자상거래",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "차량대여와 계약 만기 차량의 중고차 매매 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000951",
+      "https://www.redcap.co.kr/"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "레드캡투어",
+   "target": "호텔·레저",
+   "type": "테마",
+   "tier": 1,
+   "stage": "여행 콘텐츠·MICE",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "호텔·레저",
+     "page": "호텔·레저",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "법인 출장여행·항공권·호텔 예약 대행과 국내외 여행상품·MICE 사업을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000951",
+      "https://www.redcap.co.kr/"
      ],
      "malformed": ""
     }
