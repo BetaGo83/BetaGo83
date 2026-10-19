@@ -425,7 +425,8 @@
     "디지털치료기기",
     "동물용 진단키트",
     "체외진단 키트",
-    "의료용 지혈제"
+    "의료용 지혈제",
+    "한방·미용 의료기기"
    ]
   },
   {
@@ -40963,6 +40964,373 @@
    "issues": []
   },
   {
+   "id": "동남합성",
+   "type": "company",
+   "path": "companies/동남합성",
+   "summary": "계면활성제를 제조·판매하는 특수화학 소재 기업",
+   "market": "KOSPI",
+   "ticker": "023450",
+   "dart_corp_code": "00115065",
+   "aliases": [],
+   "krx_industry": "기초화학 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "계면활성제와 지방산·지방알코올 등 상품을 생산·판매한다. 주요 제품군은 세제 등 산업용 원·부재료로 쓰이는 계면활성제다. 기초·첨단화학소재 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dongnamchem.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000382",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00115065",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화학·정유",
+     "tier": 1,
+     "stage": "기초·첨단화학소재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화학·정유",
+       "page": "화학·정유",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "계면활성제와 지방산·지방알코올 등 상품을 생산·판매한다. 주요 제품군은 세제 등 산업용 원·부재료로 쓰이는 계면활성제다. 기초·첨단화학소재 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dongnamchem.com",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000382",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00115065",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동방",
+   "type": "company",
+   "path": "companies/동방",
+   "summary": "항만하역·육상·해상운송과 3PL을 운영하는 종합 물류 기업",
+   "market": "KOSPI",
+   "ticker": "004140",
+   "dart_corp_code": "00115287",
+   "aliases": [],
+   "krx_industry": "도로 화물 운송업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "항공·물류",
+     "page": "항공·물류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "항만하역·창고보관, 화물자동차운송, 선박운송, 초중량물 운송·설치, 3PL과 컨테이너터미널·물류센터 운영을 영위한다. 종합 물류 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dongbang.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001296",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00115287",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "항만하역·창고보관, 화물자동차운송, 선박운송, 초중량물 운송·설치, 3PL과 컨테이너터미널·물류센터 운영을 영위한다. 해상 운송 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dongbang.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001296",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00115287",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "조선·해운",
+     "tier": 1,
+     "stage": "해상 운송",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "조선·해운",
+       "page": "조선·해운",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "항만하역·창고보관, 화물자동차운송, 선박운송, 초중량물 운송·설치, 3PL과 컨테이너터미널·물류센터 운영을 영위한다. 해상 운송 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dongbang.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001296",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00115287",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "항공·물류",
+     "tier": 1,
+     "stage": "종합 물류",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "항공·물류",
+       "page": "항공·물류",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "항만하역·창고보관, 화물자동차운송, 선박운송, 초중량물 운송·설치, 3PL과 컨테이너터미널·물류센터 운영을 영위한다. 종합 물류 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dongbang.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001296",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00115287",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동방메디컬",
+   "type": "company",
+   "path": "companies/동방메디컬",
+   "summary": "한방침·부항컵과 필러·니들·봉합사를 생산하는 한방·미용 의료기기 기업",
+   "market": "KOSDAQ",
+   "ticker": "240550",
+   "dart_corp_code": "01073261",
+   "aliases": [],
+   "krx_industry": "의료용품 및 기타 의약 관련제품 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "일회용 한방침·부항컵과 양방 의료소모품, 히알루론산 더말필러·캐뉼러·각종 니들류·흡수성 봉합사를 제조·판매한다. 한방·미용 의료기기 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dongbangmedical.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260618000383",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01073261",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "의료기기",
+     "tier": 1,
+     "stage": "한방·미용 의료기기",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "의료기기",
+       "page": "의료기기",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "일회용 한방침·부항컵과 양방 의료소모품, 히알루론산 더말필러·캐뉼러·각종 니들류·흡수성 봉합사를 제조·판매한다. 한방·미용 의료기기 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dongbangmedical.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260618000383",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01073261",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동방선기",
+   "type": "company",
+   "path": "companies/동방선기",
+   "summary": "PIPE SPOOL·도장·환경장비를 제작하는 조선기자재 기업",
+   "market": "KOSDAQ",
+   "ticker": "099410",
+   "dart_corp_code": "00526678",
+   "aliases": [],
+   "krx_industry": "선박 및 보트 건조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "PIPE SPOOL(탄소강관·스테인리스강관), 선박용 도장·철의장품, 분뇨처리장치(STP)·조수기(FWG) 등 환경장비를 제조·판매한다. 조선·해양 기자재 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dongbangsm.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001236",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00526678",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "조선·해운",
+     "tier": 1,
+     "stage": "조선·해양 기자재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "조선·해운",
+       "page": "조선·해운",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "PIPE SPOOL(탄소강관·스테인리스강관), 선박용 도장·철의장품, 분뇨처리장치(STP)·조수기(FWG) 등 환경장비를 제조·판매한다. 조선·해양 기자재 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dongbangsm.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001236",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00526678",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
+   "id": "동방아그로",
+   "type": "company",
+   "path": "companies/동방아그로",
+   "summary": "농약·작물보호제를 제조·판매하는 농업 소재 기업",
+   "market": "KOSPI",
+   "ticker": "007590",
+   "dart_corp_code": "00115384",
+   "aliases": [],
+   "krx_industry": "비료 및 농약 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "농업·스마트팜",
+     "page": "농업·스마트팜",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "유액제·수화제·입제·분제 등 농약과 작물보호제를 제조·판매하며, 종속회사와 농자재 관련 사업을 운영한다. 작물 보호제 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dongbangagro.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000569",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00115384",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "농업·스마트팜",
+     "tier": 1,
+     "stage": "작물 보호제",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "농업·스마트팜",
+       "page": "농업·스마트팜",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "유액제·수화제·입제·분제 등 농약과 작물보호제를 제조·판매하며, 종속회사와 농자재 관련 사업을 운영한다. 작물 보호제 역할을 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.dongbangagro.co.kr",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000569",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00115384",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "동인기연",
    "type": "company",
    "path": "companies/동인기연",
@@ -79327,6 +79695,204 @@
      "sources": [
       "https://www.dongkuk.co.kr",
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000823",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동남합성",
+   "target": "화학·정유",
+   "type": "테마",
+   "tier": 1,
+   "stage": "기초·첨단화학소재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화학·정유",
+     "page": "화학·정유",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "계면활성제와 지방산·지방알코올 등 상품을 생산·판매한다. 주요 제품군은 세제 등 산업용 원·부재료로 쓰이는 계면활성제다. 기초·첨단화학소재 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dongnamchem.com",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000382",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00115065",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동방",
+   "target": "조선·해운",
+   "type": "테마",
+   "tier": 1,
+   "stage": "해상 운송",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "항만하역·창고보관, 화물자동차운송, 선박운송, 초중량물 운송·설치, 3PL과 컨테이너터미널·물류센터 운영을 영위한다. 해상 운송 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dongbang.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001296",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00115287",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동방",
+   "target": "항공·물류",
+   "type": "테마",
+   "tier": 1,
+   "stage": "종합 물류",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "항공·물류",
+     "page": "항공·물류",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "항만하역·창고보관, 화물자동차운송, 선박운송, 초중량물 운송·설치, 3PL과 컨테이너터미널·물류센터 운영을 영위한다. 종합 물류 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dongbang.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001296",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00115287",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동방메디컬",
+   "target": "의료기기",
+   "type": "테마",
+   "tier": 1,
+   "stage": "한방·미용 의료기기",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "의료기기",
+     "page": "의료기기",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "일회용 한방침·부항컵과 양방 의료소모품, 히알루론산 더말필러·캐뉼러·각종 니들류·흡수성 봉합사를 제조·판매한다. 한방·미용 의료기기 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dongbangmedical.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260618000383",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01073261",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동방선기",
+   "target": "조선·해운",
+   "type": "테마",
+   "tier": 1,
+   "stage": "조선·해양 기자재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "PIPE SPOOL(탄소강관·스테인리스강관), 선박용 도장·철의장품, 분뇨처리장치(STP)·조수기(FWG) 등 환경장비를 제조·판매한다. 조선·해양 기자재 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dongbangsm.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001236",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00526678",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "동방아그로",
+   "target": "농업·스마트팜",
+   "type": "테마",
+   "tier": 1,
+   "stage": "작물 보호제",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "농업·스마트팜",
+     "page": "농업·스마트팜",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "유액제·수화제·입제·분제 등 농약과 작물보호제를 제조·판매하며, 종속회사와 농자재 관련 사업을 운영한다. 작물 보호제 역할을 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.dongbangagro.co.kr",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000569",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00115384",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=stockMkt"
      ],
      "malformed": ""
