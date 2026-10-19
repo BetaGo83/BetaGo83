@@ -147,6 +147,7 @@
    "stages": [
     "건설기계",
     "유공압기기·유압실린더",
+    "계장용 피팅·밸브",
     "분체이송·플랜트 엔지니어링",
     "소형·중장비",
     "공작기계·산업용 로봇",
@@ -47565,6 +47566,112 @@
    "issues": []
   },
   {
+   "id": "디케이락",
+   "type": "company",
+   "path": "companies/디케이락",
+   "summary": "계장용 피팅과 밸브를 자체 브랜드로 제조해 산업설비·에너지·조선·해양 분야에 공급하는 코스닥 상장사",
+   "market": "KOSDAQ",
+   "ticker": "105740",
+   "dart_corp_code": "00533003",
+   "aliases": [
+    "DK-Lok",
+    "DK-Lok Corporation"
+   ],
+   "krx_industry": "탭, 밸브 및 유사장치 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "계장용 Fittings & Valves의 제조·판매와 Fitting·Valve 주요 제품을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000413",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316000413&dcmNo=11124340&eleId=11&offset=0&length=999999&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "제품 사용처로 선박 엔진과 Offshore·Onshore를 명시한 조선·해양 기자재 역할을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000413",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316000413&dcmNo=11124340&eleId=10&offset=0&length=999999&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "기계·산업장비",
+     "tier": 1,
+     "stage": "계장용 피팅·밸브",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "기계·산업장비",
+       "page": "기계·산업장비",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "계장용 Fittings & Valves의 제조·판매와 Fitting·Valve 주요 제품을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000413",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316000413&dcmNo=11124340&eleId=11&offset=0&length=999999&dtd=dart4.xsd"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "조선·해운",
+     "tier": 1,
+     "stage": "조선·해양 기자재",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "조선·해운",
+       "page": "조선·해운",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "제품 사용처로 선박 엔진과 Offshore·Onshore를 명시한 조선·해양 기자재 역할을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000413",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316000413&dcmNo=11124340&eleId=10&offset=0&length=999999&dtd=dart4.xsd"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "레인보우로보틱스",
    "type": "company",
    "path": "companies/레인보우로보틱스",
@@ -88740,6 +88847,68 @@
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000508",
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260318000508&dcmNo=11136244&eleId=11&offset=74740&length=10176&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디케이락",
+   "target": "기계·산업장비",
+   "type": "테마",
+   "tier": 1,
+   "stage": "계장용 피팅·밸브",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "기계·산업장비",
+     "page": "기계·산업장비",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "계장용 Fittings & Valves의 제조·판매와 Fitting·Valve 주요 제품을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000413",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316000413&dcmNo=11124340&eleId=11&offset=0&length=999999&dtd=dart4.xsd"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디케이락",
+   "target": "조선·해운",
+   "type": "테마",
+   "tier": 1,
+   "stage": "조선·해양 기자재",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "조선·해운",
+     "page": "조선·해운",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "제품 사용처로 선박 엔진과 Offshore·Onshore를 명시한 조선·해양 기자재 역할을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316000413",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260316000413&dcmNo=11124340&eleId=10&offset=0&length=999999&dtd=dart4.xsd"
      ],
      "malformed": ""
     }
