@@ -46577,6 +46577,73 @@
    "issues": []
   },
   {
+   "id": "디와이디",
+   "type": "company",
+   "path": "companies/디와이디",
+   "summary": "자체 화장품 브랜드를 온·오프라인과 해외 총판으로 판매하는 화장품 기업",
+   "market": "KOSDAQ",
+   "ticker": "219550",
+   "dart_corp_code": "01089378",
+   "aliases": [
+    "DYD",
+    "DYD Co.,LTD."
+   ],
+   "krx_industry": "생활용품 도매업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자체 화장품 브랜드 제품과 H&B·온라인·해외수출 판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001895",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260430001895&dcmNo=11360743&eleId=13&offset=569767&length=9842&dtd=dart4.xsd",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01089378",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "화장품·미용",
+     "tier": 1,
+     "stage": "화장품 제조·판매",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "화장품·미용",
+       "page": "화장품·미용",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "자체 화장품 브랜드 제품과 H&B·온라인·해외수출 판매를 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001895",
+        "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260430001895&dcmNo=11360743&eleId=13&offset=569767&length=9842&dtd=dart4.xsd",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01089378",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "디지털프론티어",
    "type": "company",
    "path": "companies/디지털프론티어",
@@ -87216,6 +87283,39 @@
       "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260317000660&dcmNo=11132754&eleId=11&offset=65974&length=13776&dtd=dart4.xsd",
       "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00114154",
       "https://kind.krx.co.kr/external/2026/03/17/000780/20260317003038/11011.htm"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "디와이디",
+   "target": "화장품·미용",
+   "type": "테마",
+   "tier": 1,
+   "stage": "화장품 제조·판매",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "화장품·미용",
+     "page": "화장품·미용",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "자체 화장품 브랜드 제품과 H&B·온라인·해외수출 판매를 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001895",
+      "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260430001895&dcmNo=11360743&eleId=13&offset=569767&length=9842&dtd=dart4.xsd",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=01089378",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
     }
