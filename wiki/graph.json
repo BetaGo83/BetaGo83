@@ -53284,6 +53284,116 @@
    "issues": []
   },
   {
+   "id": "비나텍",
+   "type": "company",
+   "path": "companies/비나텍",
+   "summary": "슈퍼커패시터와 수소연료전지 핵심 소재·부품을 개발·제조하는 코스닥 기업",
+   "market": "KOSDAQ",
+   "ticker": "126340",
+   "dart_corp_code": "00563518",
+   "aliases": [
+    "VINA Tech",
+    "VINA TECH CO.,LTD."
+   ],
+   "krx_industry": "일차전지 및 이차전지 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "ESS",
+     "page": "ESS",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "슈퍼커패시터를 에너지 저장 장치로 제조하고 스마트그리드·UPS·모빌리티 적용을 안내하는 공식 자료를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.vinatech.com/kr/sub/product/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00563518",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "수소·연료전지",
+     "page": "수소·연료전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "수소연료전지의 MEA·촉매·지지체·분리판과 관련 소재·부품 개발·생산을 공식 자료와 분기보고서에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.vinatech.com/kr/sub/product/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515007386",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "ESS",
+     "tier": 1,
+     "stage": "울트라커패시터·전력저장",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "ESS",
+       "page": "ESS",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "슈퍼커패시터를 에너지 저장 장치로 제조하고 스마트그리드·UPS·모빌리티 적용을 안내하는 공식 자료를 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.vinatech.com/kr/sub/product/",
+        "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00563518",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "수소·연료전지",
+     "tier": 1,
+     "stage": "연료전지",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "수소·연료전지",
+       "page": "수소·연료전지",
+       "classification": "공식 발표 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "수소연료전지의 MEA·촉매·지지체·분리판과 관련 소재·부품 개발·생산을 공식 자료와 분기보고서에서 확인했다.",
+       "evidence_level": "공식 발표",
+       "weak": false,
+       "sources": [
+        "https://www.vinatech.com/kr/sub/product/",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515007386",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": []
+  },
+  {
    "id": "산일전기",
    "type": "company",
    "path": "companies/산일전기",
@@ -68127,6 +68237,18 @@
    "summary": "위키 페이지가 아직 없는 상대"
   },
   {
+   "id": "VINATECH ES Co., LTD",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "VINATECH VINA CO., LTD.",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
    "id": "VLOC PTE. LTD.",
    "type": "external",
    "path": null,
@@ -68182,6 +68304,24 @@
   },
   {
    "id": "블루팩키지",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "비나에너솔(주)",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "비나에너솔비나",
+   "type": "external",
+   "path": null,
+   "summary": "위키 페이지가 아직 없는 상대"
+  },
+  {
+   "id": "비나에프씨엠(주)",
    "type": "external",
    "path": null,
    "summary": "위키 페이지가 아직 없는 상대"
@@ -68784,6 +68924,50 @@
    }
   },
   {
+   "source": "VINATECH ES Co., LTD",
+   "target": "비나텍",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-03-31",
+     "text": "2026년 1분기말 연결 종속회사로 에너지 저장장치 생산을 영위하며 지분율 100%로 기재됐다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515007386"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "VINATECH VINA CO., LTD.",
+   "target": "비나텍",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-03-31",
+     "text": "2026년 1분기말 연결 종속회사로 에너지 저장장치 생산을 영위하며 지분율 100%로 기재됐다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515007386"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
    "source": "VLOC PTE. LTD.",
    "target": "블루엠텍",
    "type": "계열",
@@ -69236,6 +69420,72 @@
      "text": "블루산업개발이 지분 80%를 보유한 연결 종속회사로 부동산 개발업을 영위한다.",
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001999"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "비나에너솔(주)",
+   "target": "비나텍",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-03-31",
+     "text": "2026년 1분기말 연결 종속회사로 에너지 저장장치 생산을 영위하며 지분율 51.62%로 기재됐다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515007386"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "비나에너솔비나",
+   "target": "비나텍",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-03-31",
+     "text": "2026년 1분기말 연결 종속회사로 에너지 저장장치 생산을 영위하며 지분율 100%로 기재됐다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515007386"
+     ],
+     "status": "확인",
+     "evidence_level": "공시 원문",
+     "weak": false
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "비나에프씨엠(주)",
+   "target": "비나텍",
+   "type": "계열",
+   "evidence": [
+    {
+     "date": "2026-03-31",
+     "text": "2026년 1분기말 연결 종속회사로 카본분리판 개발·생산을 영위하며 지분율 100%로 기재됐다.",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515007386"
      ],
      "status": "확인",
      "evidence_level": "공시 원문",
@@ -99883,6 +100133,70 @@
      "sources": [
       "https://blitzwayentertainment.com/",
       "https://dart.fss.or.kr/dsae001/selectPopup.ax?selectKey=01508855",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "비나텍",
+   "target": "ESS",
+   "type": "테마",
+   "tier": 1,
+   "stage": "울트라커패시터·전력저장",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "ESS",
+     "page": "ESS",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "슈퍼커패시터를 에너지 저장 장치로 제조하고 스마트그리드·UPS·모빌리티 적용을 안내하는 공식 자료를 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.vinatech.com/kr/sub/product/",
+      "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00563518",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "비나텍",
+   "target": "수소·연료전지",
+   "type": "테마",
+   "tier": 1,
+   "stage": "연료전지",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "수소·연료전지",
+     "page": "수소·연료전지",
+     "classification": "공식 발표 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "수소연료전지의 MEA·촉매·지지체·분리판과 관련 소재·부품 개발·생산을 공식 자료와 분기보고서에서 확인했다.",
+     "evidence_level": "공식 발표",
+     "weak": false,
+     "sources": [
+      "https://www.vinatech.com/kr/sub/product/",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515007386",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
