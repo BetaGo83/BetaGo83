@@ -49462,6 +49462,161 @@
    ]
   },
   {
+   "id": "라이콤",
+   "type": "company",
+   "path": "companies/라이콤",
+   "summary": "광증폭기·광송수신기·광중계기와 광섬유 레이저를 개발·제조하는 광통신 부품 기업",
+   "market": "KOSDAQ",
+   "ticker": "388790",
+   "dart_corp_code": "01569102",
+   "aliases": [
+    "LICOMM",
+    "라이콤(주)"
+   ],
+   "krx_industry": "통신 및 방송 장비 제조업",
+   "classification_as_of": "2026-10-09",
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "광증폭기·광송수신기·광중계기를 데이터센터·광전송망·DAS·5G 통신망에 공급하는 통신망 장비 역할을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001795",
+      "https://www.licomm.com/",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    },
+    {
+     "topic": "방산",
+     "page": "방산",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "광섬유 레이저·거리측정·LiDAR 응용과 방산용 레이저 사업, 엘아이지넥스원 레이저 발생장치 공급계약을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001795",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260327902235",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "themes": [
+    {
+     "theme": "방산",
+     "tier": 1,
+     "stage": "센서·부품",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "방산",
+       "page": "방산",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "광섬유 레이저·거리측정·LiDAR 응용과 방산용 레이저 사업, 엘아이지넥스원 레이저 발생장치 공급계약을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001795",
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260327902235",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    },
+    {
+     "theme": "통신·네트워크",
+     "tier": 1,
+     "stage": "이동통신망 장비",
+     "score": 0,
+     "classifications": [
+      {
+       "topic": "통신·네트워크",
+       "page": "통신·네트워크",
+       "classification": "공시·거래소 확인",
+       "status": "확인",
+       "date": "2026-10-19",
+       "text": "광증폭기·광송수신기·광중계기를 데이터센터·광전송망·DAS·5G 통신망에 공급하는 통신망 장비 역할을 확인했다.",
+       "evidence_level": "공시 원문",
+       "weak": false,
+       "sources": [
+        "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001795",
+        "https://www.licomm.com/",
+        "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+       ],
+       "malformed": ""
+      }
+     ],
+     "presentation": {
+      "label": "",
+      "muted": false,
+      "line_style": "solid"
+     }
+    }
+   ],
+   "issues": [
+    {
+     "date": "2026-08-14",
+     "kind": "기타",
+     "text": "반기보고서는 AI 데이터센터용 광증폭기와 방산용 광섬유 레이저의 생산능력 확대·설비투자를 검토 중이라고 기재했다",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001795"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-06-09",
+     "kind": "수주",
+     "text": "1Finity에 데이터센터 간 통신(DCI)용 광증폭기를 약 20.71억 원(USD 1,342,355)에 공급하는 계약을 체결했다",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260609900521"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-06-04",
+     "kind": "수주",
+     "text": "1Finity에 데이터센터 간 통신(DCI)용 광증폭기를 약 38.69억 원(USD 2,559,726)에 공급하는 계약을 체결했다",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260604900159"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    },
+    {
+     "date": "2026-03-27",
+     "kind": "수주",
+     "text": "엘아이지넥스원에 레이저 발생장치를 약 7.88억 원에 공급하는 계약을 체결했다. 방위산업 보안상 계약 상세는 공시에서 생략됐다",
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260327902235"
+     ],
+     "evidence_level": "공시 항목",
+     "weak": false,
+     "themes": []
+    }
+   ]
+  },
+  {
    "id": "레인보우로보틱스",
    "type": "company",
    "path": "companies/레인보우로보틱스",
@@ -91678,6 +91833,70 @@
      "weak": false,
      "sources": [
       "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003114",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "라이콤",
+   "target": "방산",
+   "type": "테마",
+   "tier": 1,
+   "stage": "센서·부품",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "방산",
+     "page": "방산",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "광섬유 레이저·거리측정·LiDAR 응용과 방산용 레이저 사업, 엘아이지넥스원 레이저 발생장치 공급계약을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001795",
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260327902235",
+      "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
+     ],
+     "malformed": ""
+    }
+   ],
+   "presentation": {
+    "label": "",
+    "muted": false,
+    "line_style": "solid"
+   }
+  },
+  {
+   "source": "라이콤",
+   "target": "통신·네트워크",
+   "type": "테마",
+   "tier": 1,
+   "stage": "이동통신망 장비",
+   "score": 0,
+   "evidence": [],
+   "classifications": [
+    {
+     "topic": "통신·네트워크",
+     "page": "통신·네트워크",
+     "classification": "공시·거래소 확인",
+     "status": "확인",
+     "date": "2026-10-19",
+     "text": "광증폭기·광송수신기·광중계기를 데이터센터·광전송망·DAS·5G 통신망에 공급하는 통신망 장비 역할을 확인했다.",
+     "evidence_level": "공시 원문",
+     "weak": false,
+     "sources": [
+      "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001795",
+      "https://www.licomm.com/",
       "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13&marketType=kosdaqMkt"
      ],
      "malformed": ""
