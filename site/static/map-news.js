@@ -221,7 +221,8 @@
     documents.sort(compareDocuments);
     return { documents: documents, companyIds: companyIds, minDate: documents.length ? documents[documents.length - 1].date : null,
       maxDate: documents.length ? documents[0].date : null, generatedAt: feed.generated_at, collectedAt: feed.collected_at, partial: coverage.partial,
-      queriesOK: coverage.queries_ok, queriesTotal: coverage.queries_total, note: coverage.note };
+      queriesOK: coverage.queries_ok, queriesTotal: coverage.queries_total, note: coverage.note,
+      coverageFrom: coverage.from, coverageTo: coverage.to };
   }
   function prepare(feed, nodes) { return prepareFeed(feed, nodes, false); }
   function archiveItem(item, manifest, nodes) {
@@ -288,7 +289,7 @@
     var days = dateRange(startDate, endDate).map(function (date) {
       return byDay[date] = { date: date, news: 0, disclosure: 0 };
     });
-    prepared.companyIds.forEach(function (id) { byCompany[id] = { news: 0, disclosure: 0, items: [] }; });
+    prepared.companyIds.forEach(function (id) { byCompany[id] = { news: 0, disclosure: 0, items: [], byDay: Object.create(null) }; });
     var docs = prepared.documents.filter(function (doc) { return doc.date >= startDate && doc.date <= endDate; });
     var totals = { news: 0, disclosure: 0 };
     docs.forEach(function (doc) {
@@ -296,10 +297,157 @@
       byDay[doc.date][doc.kind]++;
       doc.companies.forEach(function (id) {
         var stats = byCompany[id];
-        if (stats) { stats[doc.kind]++; stats.items.push(doc); }
+        if (stats) {
+          stats[doc.kind]++; stats.items.push(doc);
+          var daily = stats.byDay[doc.date] || (stats.byDay[doc.date] = { news: 0, disclosure: 0 });
+          daily[doc.kind]++;
+        }
       });
     });
     return { startDate: startDate, endDate: endDate, documents: docs, byCompany: byCompany, totals: totals, days: days };
+  }
+  // Activity uses publication/receipt calendar dates; observedAt is reserved for
+  // diff/newlyObserved. The baseline never overlaps the selected window.
+  function activityRange(endDate, days) {
+    dayValue(endDate);
+    requireValue([1, 7, 14].indexOf(days) >= 0, "Invalid activity interval");
+    var startDate = shiftDay(endDate, 1 - days), baselineDays = Math.max(7, days);
+    return { startDate: startDate, endDate: endDate, days: days, baselineDays: baselineDays,
+      baselineStart: shiftDay(startDate, -baselineDays), baselineEnd: shiftDay(startDate, -1) };
+  }
+  var ACTIVITY_REASONS = {
+    "partial-collection": "일부 조회가 실패하거나 수집 범위가 미확인이라 비교를 보류합니다.",
+    "unconfirmed-collection": "성공한 자료 조회 범위를 확인할 수 없어 비교를 보류합니다.",
+    "incomplete-day": "선택 기간에 마지막 수집일의 미완료 하루가 포함되어 비교를 보류합니다.",
+    "outside-coverage": "비교 기간이 공개 보관 범위를 벗어나 비교를 보류합니다.",
+    "missing-baseline": "직전 비교 기간의 자료를 아직 확인하지 못했습니다.",
+    "missing-company-history": "직전 비교 집계에 이 기업의 확인된 기록이 없어 0건으로 간주하지 않습니다.",
+    "insufficient-history": "공개 기록의 시작 이전 날짜가 비교 기간에 포함되어 비교 이력이 부족합니다.",
+    "coverage-unproven": "날짜별 수집 완결성 기록이 없어 빈 날짜를 0건으로 간주하거나 평소 대비 증가를 판정하지 않습니다.",
+    "coverage-scope-changed": "비교 기간의 수집 대상이 같다고 확인할 수 없어 비교를 보류합니다.",
+    "baseline-zero": "직전 비교 기간이 0건이어서 배수를 계산하지 않습니다.",
+    "increase": "완결성이 확인된 같은 수집 범위에서 직전 일평균 대비 2배 이상이며 선택 기간에 3건 이상입니다.",
+    "stable": "직전 일평균 대비 2배 이상·선택 기간 3건 이상 조건에 해당하지 않습니다."
+  };
+  function activityCount(value) {
+    requireValue(Number.isSafeInteger(value) && value >= 0, "Invalid activity count");
+    return value;
+  }
+  function dailyIndex(value, startDate, endDate) {
+    requireValue(object(value) && value.startDate === startDate && value.endDate === endDate
+      && object(value.byCompany) && object(value.totals) && Array.isArray(value.days), "Invalid activity aggregate range");
+    activityCount(value.totals.news); activityCount(value.totals.disclosure);
+    var index = Object.create(null);
+    value.days.forEach(function (row) {
+      requireValue(object(row) && typeof row.date === "string" && row.date >= startDate && row.date <= endDate
+        && !index[row.date], "Invalid activity date row");
+      dayValue(row.date); activityCount(row.news); activityCount(row.disclosure); index[row.date] = row;
+    });
+    return index;
+  }
+  function activityMetadata(metadata) {
+    requireValue(object(metadata), "Invalid activity metadata");
+    var coverage = object(metadata.coverage) ? metadata.coverage : {};
+    var collectedAt = metadata.collected_at || metadata.collectedAt || null;
+    if (collectedAt !== null) timestamp(collectedAt);
+    var from = coverage.from || metadata.coverageFrom || null, to = coverage.to || metadata.coverageTo || collectedAt;
+    if (from !== null) timestamp(from);
+    if (to !== null) timestamp(to);
+    var evidence = Object.create(null);
+    // This is optional, validated, in-memory evidence supplied by a caller that
+    // actually has day-level collection records. The existing JSON schema has
+    // no such records: do not synthesize them from coverage.from/to, presence of
+    // a title, observedAt, or a successful refresh of the current snapshot.
+    if (metadata.dailyCoverage !== undefined) {
+      requireValue(Array.isArray(metadata.dailyCoverage) && metadata.dailyCoverage.length <= 366, "Invalid daily coverage");
+      metadata.dailyCoverage.forEach(function (row) {
+        requireValue(object(row) && typeof row.date === "string" && !evidence[row.date]
+          && typeof row.complete === "boolean" && text(row.scope, 160), "Invalid daily coverage record");
+        dayValue(row.date); evidence[row.date] = { complete: row.complete, scope: row.scope };
+      });
+    }
+    var firstMaterialDate = metadata.minDate || (metadata.indexes && metadata.indexes.ordered && metadata.indexes.ordered.count
+      ? metadata.indexes.ordered.first.slice(0, 10) : null);
+    if (firstMaterialDate) dayValue(firstMaterialDate);
+    return { collectedAt: collectedAt, from: from, to: to, evidence: evidence, firstMaterialDate: firstMaterialDate,
+      partial: coverage.partial !== undefined ? coverage.partial : metadata.partial,
+      queriesOK: coverage.queries_ok !== undefined ? coverage.queries_ok : metadata.queriesOK,
+      queriesTotal: coverage.queries_total !== undefined ? coverage.queries_total : metadata.queriesTotal };
+  }
+  function completeActivityDay(date, meta) {
+    var evidence = meta.evidence[date];
+    if (!evidence || !evidence.complete || !meta.collectedAt || meta.partial !== false
+      || !Number.isSafeInteger(meta.queriesOK) || meta.queriesOK < 1 || meta.queriesOK !== meta.queriesTotal) return false;
+    if (date >= meta.collectedAt.slice(0, 10)) return false;
+    if (meta.from && timestamp(date + "T00:00:00+09:00") < timestamp(meta.from)) return false;
+    if (meta.to && timestamp(shiftDay(date, 1) + "T00:00:00+09:00") > timestamp(meta.to)) return false;
+    return true;
+  }
+  function activityGate(range, baseline, meta) {
+    var dates = dateRange(range.baselineStart, range.endDate);
+    var missing = dates.filter(function (date) { return !completeActivityDay(date, meta); });
+    var reason = "";
+    if (meta.partial === true || Number.isSafeInteger(meta.queriesOK) && Number.isSafeInteger(meta.queriesTotal) && meta.queriesOK < meta.queriesTotal)
+      reason = "partial-collection";
+    else if (!meta.collectedAt || !Number.isSafeInteger(meta.queriesOK) || meta.queriesOK < 1
+      || !Number.isSafeInteger(meta.queriesTotal) || meta.partial !== false) reason = "unconfirmed-collection";
+    else if (range.endDate >= meta.collectedAt.slice(0, 10)) reason = "incomplete-day";
+    else if (meta.from && timestamp(range.baselineStart + "T00:00:00+09:00") < timestamp(meta.from)
+      || meta.to && timestamp(shiftDay(range.endDate, 1) + "T00:00:00+09:00") > timestamp(meta.to)) reason = "outside-coverage";
+    else if (!baseline) reason = "missing-baseline";
+    else if (missing.length) reason = meta.firstMaterialDate && missing.some(function (date) { return date < meta.firstMaterialDate; })
+      ? "insufficient-history" : "coverage-unproven";
+    else if (new Set(dates.map(function (date) { return meta.evidence[date].scope; })).size !== 1) reason = "coverage-scope-changed";
+    return { reason: reason, missingDates: missing };
+  }
+  function activityComparison(currentCount, baselineCount, range, gate) {
+    var reason = gate.reason, mean = null, expected = null, ratio = null;
+    if (!reason && baselineCount === 0) reason = "baseline-zero";
+    if (!reason) {
+      mean = baselineCount / range.baselineDays; expected = mean * range.days;
+      ratio = currentCount / expected;
+      reason = ratio >= 2 && currentCount >= 3 ? "increase" : "stable";
+    }
+    return { status: reason === "increase" || reason === "stable" ? reason : "insufficient", reason: reason,
+      reasonText: ACTIVITY_REASONS[reason], currentCount: currentCount, baselineCount: baselineCount,
+      baselineMean: mean, expectedCount: expected, ratio: ratio, baselineDays: range.baselineDays,
+      missingDates: gate.missingDates.slice(), threshold: { ratio: 2, minimumCount: 3 },
+      basis: "공개 제목 목록의 고유 출처 수 · 기사 제공일/공시 접수일 · 한국 날짜 · 통계적 유의성 판정 아님" };
+  }
+  function activitySeries(current, company, metric, range, meta, index) {
+    return dateRange(range.startDate, range.endDate).map(function (date) {
+      var row = index[date], values = company && company.byDay && company.byDay[date];
+      var observed = values ? activityCount(values[metric]) : 0;
+      var complete = !!row && completeActivityDay(date, meta);
+      // A missing day is unknown. On a day with verified public records, zero
+      // only says this company's title was not in that observed public list.
+      var observedCount = complete || row && row[metric] > 0 || observed > 0 ? observed : null;
+      return { date: date, count: complete ? observed : null, observedCount: observedCount,
+        complete: complete, status: complete ? "complete" : observedCount === null ? "unknown" : "observed-only" };
+    });
+  }
+  function activityFromAggregates(current, baseline, metadata, options) {
+    requireValue(object(options), "Invalid activity options");
+    var range = activityRange(options.endDate, options.days), metric = options.metric || "news";
+    requireValue(metric === "news" || metric === "disclosure", "Invalid activity metric");
+    var index = dailyIndex(current, range.startDate, range.endDate);
+    if (baseline) dailyIndex(baseline, range.baselineStart, range.baselineEnd);
+    var meta = activityMetadata(metadata), gate = activityGate(range, baseline, meta), byCompany = Object.create(null);
+    Object.keys(current.byCompany).forEach(function (id) {
+      var company = current.byCompany[id], prior = baseline && baseline.byCompany[id];
+      var count = activityCount(company[metric]), before = prior ? activityCount(prior[metric]) : null;
+      var companyGate = !gate.reason && !prior ? { reason: "missing-company-history", missingDates: gate.missingDates } : gate;
+      byCompany[id] = { selectedCount: count, series: activitySeries(current, company, metric, range, meta, index),
+        comparison: activityComparison(count, before, range, companyGate) };
+    });
+    return { range: range, metric: metric, byCompany: byCompany,
+      comparison: activityComparison(current.totals[metric], baseline ? baseline.totals[metric] : null, range, gate) };
+  }
+  function activity(prepared, options) {
+    var range = activityRange(options.endDate, options.days);
+    var current = aggregate(prepared, { endDate: range.endDate, days: range.days });
+    var baseline = aggregate(prepared, { endDate: range.baselineEnd, days: range.baselineDays });
+    return activityFromAggregates(current, baseline, prepared, options);
   }
   function relationCounts(nodes, edges) {
     var peers = Object.create(null), counts = Object.create(null);
@@ -325,5 +473,6 @@
     return count === 0 ? 3 : Math.min(30, scale === "log" ? 8 * Math.sqrt(Math.log1p(count)) : 5 * Math.sqrt(count));
   }
   return { prepare: prepare, archiveItem: archiveItem, sourceNames: sourceNames, diff: diff, aggregate: aggregate, compareDocuments: compareDocuments, compareItems: compareItems,
+    activity: activity, activityRange: activityRange, activityFromAggregates: activityFromAggregates,
     relationCounts: relationCounts, radius: radius, shiftDay: shiftDay, dateRange: dateRange };
 });
