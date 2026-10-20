@@ -108,6 +108,32 @@
     }
     return confirmedRelation(edge);
   }
+  function categoryNodes(nodes, edges, all, allowed, options) {
+    if (!options.category) return allowed;
+    var themes = new Set(), companies = new Set(), selected = Object.create(null);
+    nodes.forEach(function (node) {
+      if (node.type === "theme" && node.category === options.category) themes.add(node.id);
+    });
+    // Category membership comes from existing classification links. Hiding a theme
+    // shape or line changes its display, not a company's documented membership.
+    var membershipOptions = Object.assign({}, options, { view: "knowledge", hiddenKinds: null });
+    edges.forEach(function (edge) {
+      if (!edge || edge.type !== "테마" || !eligible(edge, all, membershipOptions)) return;
+      if (themes.has(edge.target) && all[edge.source].type === "company") companies.add(edge.source);
+      if (themes.has(edge.source) && all[edge.target].type === "company") companies.add(edge.target);
+    });
+    themes.forEach(function (id) { if (allowed[id]) selected[id] = allowed[id]; });
+    companies.forEach(function (id) { if (allowed[id]) selected[id] = allowed[id]; });
+    // Optional context is one existing edge away from a visible member company;
+    // shared industries and external parties never pull in other companies.
+    edges.forEach(function (edge) {
+      if (!eligible(edge, allowed, options)) return;
+      var source = allowed[edge.source], target = allowed[edge.target];
+      if (companies.has(source.id) && selected[source.id] && (target.type === "industry" || target.type === "external")) selected[target.id] = target;
+      if (companies.has(target.id) && selected[target.id] && (source.type === "industry" || source.type === "external")) selected[source.id] = source;
+    });
+    return selected;
+  }
   function defaultFrom(nodes, edges, byId, options) {
     var peers = Object.create(null);
     nodes.forEach(function (node) { if (node.type === "company" && byId[node.id]) peers[node.id] = new Set(); });
@@ -121,6 +147,7 @@
   }
   function normalize(options) {
     var result = Object.assign({ view: "relations", mode: "nearby", depth: 1, includeUnconfirmed: false }, options || {});
+    if (result.category !== undefined && typeof result.category !== "string") throw new Error("Invalid graph category");
     if (result.limit === undefined) result.limit = result.mode === "all" ? 400 : 80;
     if (["relations", "knowledge"].indexOf(result.view) < 0 || ["nearby", "all"].indexOf(result.mode) < 0
       || [1, 2].indexOf(result.depth) < 0
@@ -141,7 +168,9 @@
   function select(nodes, edges, options) {
     var all = validGraph(nodes, edges), opts = normalize(options), allowed = permittedNodes(nodes, opts);
     if (opts.mode === "all") {
-      // Whole-map scope ignores focus/theme. Use nearby mode for a subject or theme neighborhood.
+      // Whole-map scope ignores focus/theme; an optional exploration category
+      // narrows existing classifications without inventing company relationships.
+      allowed = categoryNodes(nodes, edges, all, allowed, opts);
       var candidatesAll = [];
       edges.forEach(function (edge, index) { if (eligible(edge, allowed, opts)) candidatesAll.push(index); });
       candidatesAll.sort(function (a, b) {
