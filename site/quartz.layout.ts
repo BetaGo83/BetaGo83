@@ -27,9 +27,10 @@ const SiteFooter = (() => {
         "ul",
         null,
         // 기업 지도는 Quartz 페이지가 아니라서 페이지 전환 기능(SPA)이 가로채지 않게 한다
-        h("li", null, h("a", { href: `${root}/static/map.html`, "data-router-ignore": "" }, "기업 관계")),
-        h("li", null, h("a", { href: `${root}/static/map.html?view=knowledge`, "data-router-ignore": "" }, "지식 탐색")),
-        h("li", null, h("a", { href: `${root}/static/documents.html`, "data-router-ignore": "" }, "문서 연결")),
+        h("li", null, h("a", { href: `${root}/static/news.html`, "data-router-ignore": "" }, "오늘의 흐름")),
+        h("li", null, h("a", { href: `${root}/static/map.html?view=knowledge&scope=all`, "data-router-ignore": "" }, "기업 지도")),
+        h("li", null, h("a", { href: `${root}/static/companies.html`, "data-router-ignore": "" }, "기업·테마")),
+        h("li", null, h("a", { href: `${root}/static/watchlist.html`, "data-router-ignore": "" }, "관심 목록")),
         h("li", null, h("a", { href: "https://github.com/BetaGo83/BetaGo83" }, "GitHub")),
         h("li", null, h("a", { href: "https://quartz.jzhao.xyz/" }, "Quartz로 만듦")),
       ),

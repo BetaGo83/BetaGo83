@@ -112,6 +112,7 @@
   }
   async function mount(doc, env) {
     var $ = function (id) { return doc.getElementById(id); };
+    var watchlist = env.BetaGoWatchlist || { has: function () { return false; }, toggle: function () { return false; } };
     var request = new AbortController(), catalog = null, currentPage = 0;
     try {
       var initialCoverage = new URLSearchParams(env.location.search).get("coverage");
@@ -141,6 +142,9 @@
         var destination = element("td", null, tr), hrefs = links(row);
         if (hrefs) { var group = element("div", null, destination); group.className = "row-links"; link(group, "기업 위키", hrefs.wiki, false); link(group, "관계 지도", hrefs.map, false); }
         else element("span", "테마 연결 미구축", destination).className = "pending";
+        var watchCell = element("td", null, tr), watch = element("button", null, watchCell); watch.type = "button"; watch.className = "watch-button";
+        function updateWatch() { var saved = watchlist.has(row.ticker); watch.textContent = saved ? "★ 저장됨" : "☆ 관심"; watch.setAttribute("aria-pressed", String(saved)); watch.setAttribute("aria-label", row.name + (saved ? " 관심 목록에서 빼기" : " 관심 목록에 추가")); }
+        updateWatch(); watch.addEventListener("click", function (event) { event.preventDefault(); watchlist.toggle({ id: row.ticker, name: row.name, ticker: row.ticker, market: row.market, wiki_path: row.wiki_path }); updateWatch(); });
       });
       $("table-wrap").hidden = !result.total; $("empty").hidden = !!result.total;
       $("pager").hidden = result.pages < 2;

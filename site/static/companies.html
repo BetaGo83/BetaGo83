@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>상장사 목록 — BetaGo83</title>
 <meta name="description" content="한국거래소 상장법인 보관 목록에서 회사·종목코드·업종을 찾고, 작성된 기업 위키와 지도로 이동합니다.">
+<script src="./site-shell.js?v=20261020-ia1" defer></script>
+<script src="./watchlist.js?v=20261020-ia1" defer></script>
 <script src="./companies.js?v=20261017-coverage1" defer></script>
 <style>
 :root { color-scheme:light; --bg:#faf8f8; --panel:#fff; --text:#2b2b2b; --muted:#5f5f5f; --line:#dedede; --link:#284b63; --soft:#edf3f1; }
@@ -36,15 +38,15 @@ h1 { margin:0; font-size:clamp(1.8rem,4vw,2.35rem); letter-spacing:-.04em; }
 table { width:100%; border-collapse:collapse; table-layout:fixed; font-size:.9rem; }
 caption { padding:10px; text-align:left; color:var(--muted); font-size:.82rem; }
 th,td { padding:12px 14px; text-align:left; vertical-align:top; border-bottom:1px solid var(--line); }
-thead { background:var(--soft); }th:nth-child(1) { width:28%; }th:nth-child(2) { width:16%; }th:nth-child(3) { width:29%; }th:nth-child(4) { width:27%; }
-tbody tr:last-child td { border-bottom:0; }.code { font-size:.8rem; font-variant-numeric:tabular-nums; color:var(--muted); }
+thead { background:var(--soft); }
+tbody tr:last-child td { border-bottom:0; }.code { font-size:.8rem; font-variant-numeric:tabular-nums; color:var(--muted); }.watch-button { white-space:nowrap; min-height:38px; padding:5px 8px; }
 .row-links { display:flex; flex-wrap:wrap; gap:6px 14px; }
 .pending { color:var(--muted); font-size:.83rem; }
 .pager { display:flex; justify-content:center; align-items:center; gap:16px; margin-top:22px; }
 .notice { padding:16px; background:var(--soft); border-radius:8px; }
 footer { border-top:1px solid var(--line); padding:18px 0; color:var(--muted); font-size:.82rem; }
 .skip { position:absolute; top:-80px; left:12px; padding:10px; background:var(--panel); }.skip:focus { top:8px; }
-@media(max-width:650px) { .wrap { width:calc(100% - 28px); }.topbar { align-items:flex-start; }.filters fieldset { grid-template-columns:1fr; }th,td { padding:10px 8px; }table { font-size:.83rem; }th:nth-child(1) { width:29%; }th:nth-child(2) { width:18%; }th:nth-child(3) { width:28%; }th:nth-child(4) { width:25%; }.row-links { flex-direction:column; gap:6px; }.pager { gap:10px; font-size:.85rem; } }
+@media(max-width:650px) { .wrap { width:calc(100% - 28px); }.topbar { align-items:flex-start; }.filters fieldset { grid-template-columns:1fr; }th,td { padding:10px 8px; }table { font-size:.83rem; }.row-links { flex-direction:column; gap:6px; }.pager { gap:10px; font-size:.85rem; } }
 @media(max-width:380px) { .topbar { display:block; }nav { margin-top:8px; } }
 </style>
 </head>
@@ -68,7 +70,7 @@ footer { border-top:1px solid var(--line); padding:18px 0; color:var(--muted); f
   </fieldset></form>
   <section id="results" tabindex="-1" aria-labelledby="result-title"><h2 id="result-title" class="result-title" role="status" aria-live="polite">목록 확인 중</h2>
     <p id="error" class="notice" role="alert" hidden>목록을 불러오지 못했습니다. 잠시 뒤 페이지를 다시 열어 주세요. 이 표시는 회사가 0개라는 뜻이 아닙니다.</p>
-    <div id="table-wrap" class="table-wrap" hidden><table><caption>회사 이름순 · 한 페이지 최대 50개 · 같은 종목코드의 중복 행은 합쳤습니다.</caption><thead><tr><th scope="col">회사 / 종목코드</th><th scope="col">시장</th><th scope="col">KIND 기재 업종</th><th scope="col">위키·지도</th></tr></thead><tbody id="company-rows"></tbody></table></div>
+<div id="table-wrap" class="table-wrap" hidden><table><caption>회사 이름순 · 한 페이지 최대 50개 · 같은 종목코드의 중복 행은 합쳤습니다.</caption><colgroup><col style="width:24%"><col style="width:13%"><col style="width:22%"><col style="width:26%"><col style="width:15%"></colgroup><thead><tr><th scope="col">회사 / 종목코드</th><th scope="col">시장</th><th scope="col">KIND 기재 업종</th><th scope="col">위키·지도</th><th scope="col">관심</th></tr></thead><tbody id="company-rows"></tbody></table></div>
     <p id="empty" class="notice" hidden>검색 조건에 맞는 회사가 없습니다.</p>
     <div id="pager" class="pager" hidden><button id="prev" type="button">이전</button><span id="page-number"></span><button id="next" type="button">다음</button></div>
   </section>

@@ -6,6 +6,9 @@
 <meta name="description" content="기업과 산업·테마별로 공개한 뉴스·공시 제목과 출처를 확인하는 목록">
 <title>뉴스 흐름 · 기업 관계 위키</title>
 <script src="./analytics.js?v=20261017-1" defer></script>
+<script src="./site-shell.js?v=20261020-ia1" defer></script>
+<script src="./news-state.js?v=20261020-ia1" defer></script>
+<script src="./realtime-client.js?v=20261020-rt1" defer></script>
 <script src="./map-news.js?v=9a93b3583917" defer></script>
 <script src="./news-archive.js?v=20261017-archive1" defer></script>
 <script src="./news-feed.js?v=20261017-watch1" defer></script>
@@ -45,7 +48,10 @@ dd { margin:0; font-size:.9rem; font-weight:600; }
 .snapshot .small { margin:7px 0 0; }
 .refresh-row { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:6px 12px; margin-top:8px; }
 .refresh-row button { font-size:.82rem; min-height:38px; padding:5px 9px; }
+.realtime-row { display:flex; align-items:center; flex-wrap:wrap; gap:6px 10px; margin-top:8px; }
+.realtime-row button { font-size:.82rem; min-height:38px; padding:5px 9px; }
 .badge.observed { background:var(--soft); border-color:var(--link); }
+.badge.unread { background:var(--warning-bg); border-color:var(--warning); color:var(--warning); font-weight:700; }
 #collection-change { border-left:3px solid #279765; padding-left:9px; }
 .notice { margin:0 0 16px; padding:13px 17px; background:var(--warning-bg); color:var(--warning); border-radius:8px; font-size:.9rem; }
 .notice p { margin:0; }
@@ -114,6 +120,7 @@ footer p { margin:5px 0; }
     <p class="small">공개 조건을 통과한 최근 30일의 제목 기록을 건수 상한 없이 찾습니다. 수집 이전이나 미확인 기간까지 모든 자료를 확보했다는 뜻은 아닙니다.</p>
     <p class="small">한국은행·산업통상부에서 제공한 항목은 기관 발표 자료입니다. 언론의 독립 보도와 구분해 확인하세요.</p>
     <div class="refresh-row"><span class="small" id="checked">브라우저 확인 전</span><button id="refresh" type="button">게시 자료 다시 확인</button></div>
+    <div class="realtime-row" id="realtime-row" hidden><span class="small" id="realtime-status">로컬 실시간 연결 대기</span><span class="small" id="realtime-queue" hidden></span><button id="realtime-connect" type="button">로컬 실시간 연결</button><button id="realtime-pause" type="button" hidden>일시정지</button></div>
     <p class="small" id="collection-change" role="status" hidden></p>
   </section>
   <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
@@ -154,6 +161,51 @@ window.addEventListener("DOMContentLoaded", function () {
   var $ = function (id) { return document.getElementById(id); };
   var clock = new Intl.DateTimeFormat("ko-KR", { timeZone:"Asia/Seoul", year:"numeric", month:"2-digit", day:"2-digit", hour:"2-digit", minute:"2-digit", hourCycle:"h23" });
   var calendar = new Intl.DateTimeFormat("ko-KR", { timeZone:"Asia/Seoul", year:"numeric", month:"2-digit", day:"2-digit" });
+  function realtimeEndpoint() {
+    var raw = new URLSearchParams(window.location.search || "").get("realtime");
+    if (!raw || !/^https?:\/\/[^\s]+$/i.test(raw)) return null;
+    try {
+      var url = new URL(raw);
+      if (!/^https?:$/.test(url.protocol) || url.username || url.password || url.search || url.hash || url.pathname !== "/stream") return null;
+      if (!["127.0.0.1", "localhost", "::1", "[::1]"].includes(url.hostname.toLowerCase())) return null;
+      return url.href;
+    } catch (e) { return null; }
+  }
+  function setupRealtime(onSnapshotRequired) {
+    var endpoint = realtimeEndpoint();
+    if (!endpoint || !window.BetaGoRealtime || typeof window.BetaGoRealtime.create !== "function" || !$("realtime-row")) return null;
+    var row = $("realtime-row"), status = $("realtime-status"), queue = $("realtime-queue"), connect = $("realtime-connect"), pause = $("realtime-pause");
+    var received = 0, client;
+    row.hidden = false;
+    function paint(info) {
+      var state = info && info.state || "idle", queued = info && Number.isInteger(info.queued) ? info.queued : 0;
+      var labels = { connecting:"연결 중", connected:"연결됨", reconnecting:"재연결 중", paused:"일시정지", snapshot_required:"재동기화 필요", queue_limit:"대기 한도 초과", protocol_error:"자료 형식 오류", handler_error:"표시 처리 오류", invalid_url:"주소 확인 실패", unsupported:"브라우저 미지원", connect_error:"연결 실패", closed:"연결 닫힘", idle:"연결 대기" };
+      status.textContent = "로컬 실시간 · " + (labels[state] || "상태 확인 중") + (received ? " · 수신 " + received + "건" : "");
+      queue.hidden = !queued; queue.textContent = queued ? "대기 " + queued + "건" : "";
+      pause.hidden = !["connected", "reconnecting", "paused"].includes(state);
+      pause.textContent = state === "paused" ? "재개" : "일시정지";
+      connect.textContent = ["connected", "connecting", "reconnecting", "paused"].includes(state) ? "실시간 닫기" : "로컬 실시간 연결";
+      if (state === "snapshot_required") status.textContent += " · 게시 자료 다시 확인 필요";
+    }
+    client = window.BetaGoRealtime.create({
+      url: endpoint,
+      onStatus: paint,
+      onEvent: function (data) {
+        if (data && typeof data.url === "string") {
+          received += 1;
+          if (window.NewsState) window.NewsState.remember([data.url]);
+        }
+        paint({ state: client.state(), queued: client.queued() });
+      },
+      onSnapshotRequired: function () { paint({ state:"snapshot_required", queued:client.queued() }); if (typeof onSnapshotRequired === "function") onSnapshotRequired(); }
+    });
+    connect.addEventListener("click", function () {
+      if (["connected", "connecting", "reconnecting", "paused"].includes(client.state())) client.close(); else client.connect();
+    });
+    pause.addEventListener("click", function () { if (client.state() === "paused") client.resume(); else client.pause(); });
+    paint({ state:client.state(), queued:0 });
+    return client;
+  }
   function element(tag, text, parent, className) {
     var e = document.createElement(tag);
     if (text !== null && text !== undefined) e.textContent = text;
@@ -267,9 +319,11 @@ window.addEventListener("DOMContentLoaded", function () {
     element("span", (institution ? "기관 자료 제목" : item.evidence) + "만 확인", meta, "badge weak");
     if (item.status !== "new") element("span", item.status === "followup" ? "후속 후보" : "정정 표시", meta, "badge followup");
     if (item.sources.some(function (source) { return observedURLs.has(source.url); })) element("span", "이번 확인에서 새로 수집", meta, "badge observed");
+    if (window.NewsState && item.sources.some(function (source) { return window.NewsState.has(source.url); })) element("span", "NEW · 미읽음", meta, "badge unread");
     var time = element("time", publishedLabel(item.published_at, item.kind, item.sources[0].name, item.provided_on), meta); time.dateTime = item.provided_on || item.published_at;
     time.title = institution ? "기관 제공일" : item.kind === "news" ? "기사 제공일" : "공시 접수일";
-    link(element("h3", null, article), item.title, item.sources[0].url, true, "headline");
+    var headline = link(element("h3", null, article), item.title, item.sources[0].url, true, "headline");
+    headline.addEventListener("click", function () { if (window.NewsState) window.NewsState.markRead(item.sources.map(function (source) { return source.url; })); });
     if (item.grouping === "similar") element("p", "비슷한 제목 묶음 · 같은 사건인지 미확인", article, "group-note");
     else if (item.group_size > 1) element("p", "동일 제목의 발견 기록 " + item.group_size + "건을 모았습니다.", article, "group-note");
     if (item.status === "followup") element("p", "제목을 기준으로 찾은 후속 후보입니다. 앞선 사건과의 연결은 출처에서 확인하세요.", article, "group-note");
@@ -281,6 +335,7 @@ window.addEventListener("DOMContentLoaded", function () {
     item.sources.forEach(function (s) {
       var row = element("li", null, sources), source = link(row, s.name + " ↗", s.url, true);
       source.title = "출처 열기 · " + publishedLabel(s.published_at, item.kind, s.name, s.provided_on) + (s.observed_at ? " · 첫 수집 확인(보관 기록 기준) " + dateLabel(s.observed_at) : " · 처음 수집 시각 기록 없음");
+      source.addEventListener("click", function () { if (window.NewsState) window.NewsState.markRead(item.sources.map(function (value) { return value.url; })); });
       if (s.date_precision === "day") {
         element("small", " · 작성자 " + s.author + " · ", row);
         link(row, "공공누리 제1유형(출처표시)", s.policy_url, true);
@@ -335,6 +390,7 @@ window.addEventListener("DOMContentLoaded", function () {
     var first = !prepared;
     items = nextItems; prepared = incoming; change = first ? null : diff;
     observedURLs = new Set(change ? change.newlyObserved.map(function (doc) { return doc.url; }) : []);
+    if (window.NewsState && change && change.newlyObserved.length) window.NewsState.remember(change.newlyObserved.map(function (doc) { return doc.url; }));
     $("notice").replaceChildren(); $("notice").hidden = true;
     $("collection-change").hidden = !change;
     $("collected").textContent = dateLabel(data.collected_at); $("generated").textContent = dateLabel(data.generated_at);
@@ -459,6 +515,7 @@ window.addEventListener("DOMContentLoaded", function () {
     $("refresh").addEventListener("click", function () { archiveWatch.check(); });
     filtersFromUrl();
     if (window.location.protocol === "file:") { failed("공개 웹사이트에서 열어 주세요", "저장한 파일에서는 검증된 기록을 읽을 수 없습니다."); archiveWatch.stop(); return; }
+    setupRealtime(function () { archiveWatch.check(); });
     archiveWatch.check();
   }
   if (window.NewsArchive) { startArchive(); return; }
@@ -502,6 +559,7 @@ window.addEventListener("DOMContentLoaded", function () {
     return;
   }
   var watcher = NewsFeed.watch({ refresh:refresh, abort:function () { if (request) request.abort(); }, shouldSkip:function () { return loading; } });
+  setupRealtime(function () { watcher.check(); });
   watcher.check();
 });
 </script>
